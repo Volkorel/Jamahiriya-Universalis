@@ -1,0 +1,120 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 236 159 90 }
+revolutionary_colors = { 5 0 15 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+	offensive_ideas
+	spy_ideas
+	quantity_ideas
+	economic_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Alexander Yaroslavich Nevsky #1" = 10
+	"Batan #0" = 0
+	"Boga #0" = 0
+	"Boris #0" = 0
+	"Fedot #0" = 0
+	"Gorislava #0" = -1
+	"Ingibjørg #0" = -1
+	"Kano #0" = 0
+	"Klausigailis #0" = 0
+	"Liudmila #0" = -1
+	"Martha #0" = -1
+	"Ozurr #0" = 0
+	"Praskovya #0" = -1
+	"Qorqutay #0" = 0
+	"Rogvolod #0" = 0
+	"Sverre #0" = 0
+	"Svetozar #0" = 0
+	"Tatyana #0" = -1
+	"Vasiliy #1" = 10
+	"Vladimir #0" = 0
+	"Vsevolod #0" = 0
+	"Yasar #0" = -1
+	"Yefimiy #0" = 0
+	"Yeldem #0" = -1
+	"Yeremey #0" = 0
+	"Yevpraxia #0" = -1
+	"Áshildr #1" = -1
+	"Óláfr #0" = 0
+	"Özgul #0" = -1
+}
+leader_names = {
+	"Burmatov"
+	"Cheskidov"
+	"Dozmorov"
+	"Ichetkin"
+	"Kachesov"
+	"Kanev"
+	"Kochev"
+	"Koinov"
+	"Kolegov"
+	"Kudymov"
+	"Kychanov"
+	"Kykin"
+	"Kynev"
+	"Kynkurogov"
+	"Kyrnyshev"
+	"Kyrov"
+	"Kysov"
+	"Lyurov"
+	"Michkin"
+	"Moshev"
+	"Oshev"
+	"Oshkokov"
+	"Porsin"
+	"Purtov"
+	"Rakin"
+	"Rochev"
+	"Ruchev"
+	"Syuzev"
+	"Vilesov"
+	"Volegov"
+	"Yusev"
+	"Zerov"
+	"Zyrianov"
+}
+ship_names = {
+	"Baseg"
+	"Cherdyn"
+	"Iskor"
+	"Kama"
+	"Koleg"
+	"Kolva"
+	"Kudym-Osha"
+	"Pelym"
+	"Pokcha"
+	"Rateg"
+	"Shudeg"
+	"Sysola"
+	"Uros"
+	"Uzheg"
+	"Vilgort"
+	"Vishera"
+	"Voleg"
+	"Vychegda"
+	"Yazva"
+	"Yus"
+}

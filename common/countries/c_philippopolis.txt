@@ -1,0 +1,23 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 219 80 171 }
+monarch_names = {
+	"Aibilín #0" = -1
+	"Alice #0" = -1
+	"Anselm #0" = 0
+	"Dub-Dil #0" = -1
+	"Euphemia #0" = -1
+	"Gregory #0" = 0
+	"Helene #0" = -1
+	"Hugh #0" = 0
+	"Leon #0" = 0
+	"Margaret #0" = -1
+	"Marina #0" = -1
+	"Máel-Pátraic #0" = 0
+	"Pankratios #0" = 0
+	"Paul #0" = 0
+	"Photeine #0" = -1
+	"Richard #0" = 0
+	"Sabas #0" = 0
+	"Ualgarg #0" = 0
+}

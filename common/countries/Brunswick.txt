@@ -1,0 +1,111 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 116 92 39 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalbert #0" = 0
+	"Adalgar #0" = 0
+	"Adelgoz #2" = 10
+	"Adolf #0" = 0
+	"Amina #0" = -1
+	"Anna #2" = -1
+	"Bernd #1" = 10
+	"Bertrada #0" = -1
+	"Boddic #1" = 10
+	"Bonefatius #1" = 10
+	"Bruno #1" = 10
+	"Diedke #0" = -1
+	"Erik #1" = 10
+	"Ermengarde #0" = -1
+	"Erp #0" = 0
+	"Euphrosine #0" = -1
+	"Fedele #0" = 0
+	"Friedrich #1" = 10
+	"Gerold #1" = 10
+	"Goswin #1" = 10
+	"Hans #0" = 0
+	"Hartwig #0" = 0
+	"Hasala #0" = -1
+	"Hinrich #3" = 10
+	"Isabella #0" = -1
+	"Louis #1" = 10
+	"Ludwig #0" = 0
+	"Léonard #1" = 10
+	"Mechthild #0" = -1
+	"Meinwerk #3" = 10
+	"Michael #0" = 0
+	"Mélisende #0" = -1
+	"Pilgerin #1" = 10
+	"Radegund #0" = -1
+	"Radke #0" = 0
+	"Reinbolt #1" = 10
+	"Rudgar #1" = 10
+	"Rudolf #0" = 0
+	"Silvio #0" = 0
+	"Sophie #0" = -1
+	"Thiedburga #0" = -1
+	"Udalrich #1" = 10
+	"Viktor #0" = 0
+}
+leader_names = {
+	"Brach"
+	"Eickenroth"
+	"Gruebel"
+	"Hattendorf"
+	"Hehn"
+	"Hein"
+	"Ickelrath"
+	"Jaxtheim"
+	"Lindemann"
+	"Opp"
+	"Schauseil"
+	"Schütze"
+	"Talken"
+	"Wassman"
+	"von Rhein"
+}
+ship_names = {
+	"Albert I"
+	"Bischof Branthag"
+	"Bischof Godehard"
+	"Bruno"
+	"Darkward"
+	"Gottingen"
+	"Grubenhagen"
+	"Gräfin Gertrud"
+	"Heinrich I."
+	"Herzog Ludolf"
+	"Herzog Otto"
+	"Lothar III"
+	"Magnus II"
+	"Wolfenbuttel"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

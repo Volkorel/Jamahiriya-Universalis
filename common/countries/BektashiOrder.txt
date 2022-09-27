@@ -1,0 +1,120 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 90 150 0 }
+historical_units = {
+	eastern_carabinier
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_azab
+	ottoman_janissary
+	ottoman_lancer
+	ottoman_musellem
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_timariot
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	ottoman_yaya
+}
+monarch_names = {
+	"'Ubaydallah #1" = 10
+	"Abu-Bakr #1" = 10
+	"Afsaneh #0" = -1
+	"Amira #1" = 10
+	"Ansur #0" = 0
+	"Aoua #0" = -1
+	"Asad #1" = 10
+	"Assad #0" = 0
+	"Bamari #1" = 10
+	"Bannu #1" = 10
+	"Bektash #1" = 10
+	"Biagio #0" = 0
+	"Blanca #0" = -1
+	"Delfina #0" = -1
+	"Dulce #0" = -1
+	"Edita #0" = -1
+	"Ehsan #0" = 0
+	"Farras #1" = 10
+	"Fatim #0" = -1
+	"Fissourou #1" = 10
+	"Gao #1" = 10
+	"Hajib #0" = 0
+	"Hind #0" = -1
+	"Huma'i #0" = -1
+	"Humayd #1" = 10
+	"Lucia #0" = -1
+	"Mahdokht #0" = -1
+	"Mahtab #0" = -1
+	"Manding-Bory #1" = 10
+	"Najm #0" = -1
+	"Nazilla #0" = -1
+	"Noor #0" = -1
+	"Ornella #0" = -1
+	"Parvaneh #0" = -1
+	"Rostam #0" = 0
+	"Roxana #0" = -1
+	"Sara #0" = -1
+	"Su'a' #0" = -1
+	"Sulaiman #1" = 10
+	"Talib #1" = 10
+	"Tawba #1" = 10
+	"Uban #0" = 0
+	"Yamin #1" = 10
+	"Zand #1" = 10
+	"Ziyadatallah #1" = 10
+	"Zulaikha #0" = -1
+}
+leader_names = {
+	"Abbas"
+	"Abdul"
+	"Abdullah"
+	"Abolhassan"
+	"Abu-Bakr"
+	"Ahmad"
+	"Ak-Yazili"
+	"Akbar"
+	"Al-Fatiha"
+	"Ali"
+	"Ali-Fay"
+	"Ali-Kolon"
+	"Ali-Zalil"
+	"Alians"
+	"Allahyar"
+	"Arabati"
+	"Balim"
+	"Bektash"
+	"Demir"
+	"Eke"
+	"Emini"
+	"Ercan"
+	"Gül"
+	"Haji"
+	"Hasan"
+	"Haydar"
+	"Hossein"
+	"Hussayn"
+	"Ismail"
+	"Lama"
+	"Mahmud"
+	"Mohammed"
+	"Mondi"
+	"Muammar"
+	"Muhammad"
+	"Mumin"
+	"Mustafa"
+	"Naim"
+	"Nesimi"
+	"Otman"
+	"Pasha"
+	"Reshat"
+	"Rexheb"
+	"Tahir"
+	"Teke"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}

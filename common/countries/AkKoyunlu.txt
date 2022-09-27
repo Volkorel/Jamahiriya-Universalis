@@ -1,0 +1,129 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 31 49 138 }
+revolutionary_colors = { 8 0 8 }
+historical_idea_groups = {
+	expansion_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	administrative_ideas
+	defensive_ideas
+	diplomatic_ideas
+	economic_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"'Abd-al-Malik #0" = 0
+	"'Aqil #1" = 10
+	"'Asim #0" = 0
+	"'Unayna #2" = 10
+	"Aboulgharib #1" = 10
+	"Al-Qahir #1" = 10
+	"Arshak #0" = 0
+	"Arwa #0" = -1
+	"Avag #0" = 0
+	"Avina #0" = 0
+	"Eshkhan #0" = 0
+	"Fawz #0" = -1
+	"Fazila #0" = -1
+	"Hakim #1" = 10
+	"Hamzah #1" = 10
+	"Harun #0" = 0
+	"Hasana #0" = -1
+	"Hashim #0" = 0
+	"Hasmig #0" = -1
+	"Hranoush #0" = -1
+	"Hujr #0" = 0
+	"Humayd #1" = 10
+	"Khalaf #1" = 10
+	"Khalil #0" = 0
+	"Manuel #1" = 10
+	"Melek #1" = 10
+	"Muhammad #1" = 10
+	"Muslim #3" = 10
+	"Pounig #0" = -1
+	"Saham #0" = -1
+	"Sandi #1" = 10
+	"Sarkis #1" = 10
+	"Seta #0" = -1
+	"Shahanshah #1" = 10
+	"Shaima #0" = -1
+	"Shayba #0" = 0
+	"Su'ad #0" = -1
+	"Sumayya #0" = -1
+	"Talib #2" = 10
+	"Tha'lab #1" = 10
+	"Thabit #1" = 10
+	"Umama #0" = -1
+	"Warwar #0" = -1
+	"Yusuf #1" = 10
+	"Zayd #2" = 10
+	"Zubayda #0" = -1
+}
+leader_names = {
+	"Ahmed"
+	"Ali"
+	"Cihangir"
+	"Elvend"
+	"Fahreddîn"
+	"Gövde"
+	"Halil"
+	"Hamza"
+	"Hasan"
+	"Mirzâ"
+	"Muhammed"
+	"Murâd"
+	"Osman"
+	"Qara"
+	"Qutlu"
+	"Rüstem"
+	"Uzun"
+	"Yaqûb"
+	"Yülüq"
+}
+ship_names = {
+	"Ahlat"
+	"Ardabîl"
+	"Basra"
+	"Bayburt"
+	"Bayîndîr"
+	"Diyar Baqr"
+	"Erzincan"
+	"Esfahan"
+	"Fahreddîn Qutlu"
+	"Gilan"
+	"Hamadan"
+	"Hasan"
+	"Hazar"
+	"Karbala"
+	"Mardin"
+	"Musul"
+	"Qara Yülüq"
+	"Sirvan"
+	"Sultan"
+	"Tur Ali"
+	"Urfa"
+	"Van"
+	"Yazd"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}
+fleet_names = {
+	"Black Sea fleet"
+	"Caspian Sea fleet"
+	"Persian Gulf Fleet"
+}

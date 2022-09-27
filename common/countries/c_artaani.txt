@@ -1,0 +1,21 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 64 194 141 }
+monarch_names = {
+	"Artashes #0" = 0
+	"Bagrat #0" = 0
+	"Baloo #0" = 0
+	"Bamse #0" = 0
+	"Baydzar #0" = -1
+	"Bearclaw #0" = 0
+	"Eshkhan #0" = 0
+	"Grrgrrr #0" = 0
+	"Grrrowr #0" = 0
+	"Ivane #0" = 0
+	"Koda #0" = 0
+	"Rawr #0" = 0
+	"Rupert #0" = 0
+	"Secret #0" = 0
+	"Shahanshah #0" = 0
+	"Smokey #0" = 0
+}

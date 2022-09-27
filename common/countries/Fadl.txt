@@ -1,0 +1,81 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 96 148 40 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	administrative_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"'Ulayya #0" = -1
+	"Banuja #0" = -1
+	"Bashshar #0" = 0
+	"Bishr #0" = 0
+	"Daffafah #0" = 0
+	"Dahah #0" = -1
+	"Delaram #0" = -1
+	"Habib #0" = 0
+	"Harthamah #0" = 0
+	"Hormoz #0" = 0
+	"Hulla #0" = -1
+	"Huma'i #0" = -1
+	"Hunayn #0" = 0
+	"Ilyas #0" = 0
+	"Jaida #0" = -1
+	"Muzayna #0" = -1
+	"Nafisa #0" = -1
+	"Perjîn #0" = -1
+	"Qatada #0" = 0
+	"Rawh #0" = 0
+	"Razin #0" = 0
+	"Safwan #0" = 0
+	"Sakan #0" = -1
+	"Salama #0" = -1
+	"Shihab #0" = 0
+	"Shuqayr #0" = 0
+	"Sinan #0" = 0
+	"Zarrindokht #0" = -1
+}
+leader_names = {
+	"Akil"
+	"Al Abu Risha"
+	"Al Jaber"
+	"Al Nubi"
+	"Atef"
+	"Billah"
+	"Kanasani"
+	"Madani"
+	"Surur"
+	"al-Jarrah"
+}
+ship_names = {
+	"Ad-Dahna"
+	"Ad-Dilam"
+	"Al-Armah"
+	"Al-Bayad"
+	"Ar-Riyad"
+	"Jabal Tuwayo"
+	"Nafüd Ad-Dahy"
+	"Nafüd As-Sirrah"
+	"Nafüd Qunayfidahah"
+	"Nafüd Shuqayyiqah"
+	"Shaqra"
+}

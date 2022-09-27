@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 212 84 55 }
+revolutionary_colors = { 2 10 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	aristocracy_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"'Abd-ar-Rahman #1" = 10
+	"'Amr #1" = 10
+	"'Izza #0" = -1
+	"'Ubayd #1" = 10
+	"'Ulayya #0" = -1
+	"Abbad #2" = 10
+	"Abbasa #0" = -1
+	"Bakkar #2" = 10
+	"Baraka #0" = -1
+	"Dahah #0" = -1
+	"Dananir #0" = -1
+	"Dattadevi #0" = -1
+	"Ghadir #0" = -1
+	"Hamzah #1" = 10
+	"Harthamah #0" = 0
+	"Hassan #2" = 10
+	"Khalid #2" = 10
+	"Labid #0" = 0
+	"Latif #0" = -1
+	"Muzahim #0" = 0
+	"Nafi' #1" = 10
+	"Rabi'a #1" = 10
+	"Rahil #0" = -1
+	"Rajamati #0" = -1
+	"Raym #0" = -1
+	"Sabiha #0" = -1
+	"Salm #1" = 10
+	"Somalladevi #0" = -1
+}
+leader_names = {
+	"Bhati"
+	"Chavda"
+	"Jadeja"
+	"Jethwa"
+	"Mehar"
+	"Mulraj"
+	"Paramara"
+	"Pargir"
+	"Pratap"
+	"Rathore"
+	"Saran"
+	"Sarvaiya"
+	"Savji"
+	"Shah"
+	"Singh"
+	"Sisodiya"
+	"Solanki"
+	"Soomrah"
+	"Vaghela"
+	"Valas"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Gayatri"
+	"Ghaggar"
+	"Godwar"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Luni"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Rani"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sekhawati"
+	"Sita"
+}

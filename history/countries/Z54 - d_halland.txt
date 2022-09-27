@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = franconian
+capital = 26
+add_accepted_culture = danish
+1444.11.11= {
+	monarch = {
+		name = "Hetzelo"
+		dynasty = "Falki-Sámsøyju"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1383.8.20
+		religion = norse_pagan_reformed
+		culture = franconian
+	}
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = midas_touched_personality
+	queen = {
+		name = "Margrét"
+		dynasty = "Skyti-Vingulmørk"
+		adm = 2
+		dip = 2
+		mil = 1
+		country_of_origin = Z54
+		birth_date = 1409.7.5
+		death_date = 1469.7.5
+		female = yes
+		religion = norse_pagan_reformed
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Willehelm"
+		monarch_name = "Willehelm II"
+		dynasty = "Falki-Sámsøyju"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1401.12.12
+		death_date = 1466.12.12
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = franconian
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = intricate_web_weaver_personality
+}
+1444.11.11= {
+	add_prestige = 69
+	add_treasury = 57
+}

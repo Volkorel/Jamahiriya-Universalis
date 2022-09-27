@@ -1,0 +1,94 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 23 110 90 }
+revolutionary_colors = { 8 10 0 }
+historical_idea_groups = {
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	spy_ideas
+	religious_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Aarash #0" = 0
+	"Ahmad #1" = 10
+	"Amin #0" = 0
+	"Aram #0" = 0
+	"Banafsheh #0" = -1
+	"Bhuti #1" = 10
+	"Delbar #0" = -1
+	"Detrin #5" = 10
+	"Detsen #1" = 10
+	"Faraz #0" = 0
+	"Fareedeh #0" = -1
+	"Farva #0" = -1
+	"Golpari #0" = -1
+	"Gungsong #2" = 10
+	"Hossein #1" = 10
+	"Jahangir #0" = 0
+	"Jamyang #1" = 10
+	"Javeed #0" = 0
+	"Khashayar #0" = 0
+	"Langdarma #1" = 10
+	"Leila #0" = -1
+	"Mangmoje #1" = -1
+	"Mashad #1" = 10
+	"Mozaffar #1" = 10
+	"Mutri #1" = 10
+	"Noor #0" = -1
+	"Nyasig #1" = 10
+	"Parvaneh #0" = -1
+	"Pelkhortsen #1" = 10
+	"Pokshava #0" = -1
+	"Raksita #1" = 10
+	"Salma #0" = -1
+	"Salman #0" = 0
+	"Salomeh #0" = -1
+	"Shahrzad #0" = -1
+	"Sumnang #1" = 10
+	"Taktsab #1" = 10
+	"Tawba #2" = 10
+	"Trashi #1" = 10
+	"Tsenpo #5" = 10
+	"Yazdegerd #0" = 0
+	"Yondagmo #1" = -1
+	"Zohreh #0" = -1
+}
+leader_names = {
+	"Balti"
+	"Heniskat"
+	"Kartse"
+	"Khaplu"
+	"Mulbek"
+	"Phokar"
+	"Purig"
+	"Rupshu"
+	"Shigar"
+	"Sot"
+	"Zanskar"
+}
+ship_names = {
+	"Balti"
+	"Heniskat"
+	"Kartse"
+	"Khaplu"
+	"Leh"
+	"Mulbek"
+	"Phokar"
+	"Purig"
+	"Rupshu"
+	"Shigar"
+	"Sot"
+	"Zanskar"
+}

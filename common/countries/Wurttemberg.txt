@@ -1,0 +1,109 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 111 162 128 }
+revolutionary_colors = { 1 16 1 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	offensive_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Anshelm #1" = 10
+	"Bela #0" = -1
+	"Berardo #1" = 10
+	"Bernhart #2" = 10
+	"Burchart #1" = 10
+	"Dedo #1" = 10
+	"Diether #1" = 10
+	"Erhart #1" = 10
+	"Eva #1" = -1
+	"Fabrizia #0" = -1
+	"Gehrke #0" = 0
+	"Gerburg #1" = -1
+	"Geremia #0" = 0
+	"Gina #0" = -1
+	"Giselbreht #2" = 10
+	"Hesso #0" = 0
+	"Humfrit #1" = 10
+	"Hélie #1" = 10
+	"Iva #0" = -1
+	"Judita #0" = -1
+	"Karl #2" = 10
+	"Karlmann #1" = 10
+	"Mafalda #1" = -1
+	"Magnus #1" = 10
+	"Odo #0" = 0
+	"Otgotz #1" = 10
+	"Petronilla #1" = -1
+	"Reinbolt #1" = 10
+	"Reinhart #1" = 10
+	"Settimio #1" = 10
+	"Terenzio #1" = 10
+	"Vanessa #0" = -1
+	"Werner #0" = 0
+	"Witikind #0" = 0
+	"Wulff #0" = 0
+	"Édouard #1" = 10
+	"Érrard #1" = 10
+}
+leader_names = {
+	"Breitmayer"
+	"Danhauser"
+	"Gohl"
+	"Gute"
+	"Helber"
+	"Henke"
+	"Kircher"
+	"Klein"
+	"Knapp"
+	"Kopp"
+	"Meck"
+	"Roether"
+	"Schupp"
+	"Stütz"
+	"Sülzle"
+	"Veit"
+	"Vietz"
+	"Vogel"
+	"Weber"
+	"Wieland"
+	"Wurst"
+}
+ship_names = {
+	"Balingen"
+	"Graf Eberhard III"
+	"Graf Ulrich I"
+	"Graf Ulrich III"
+	"Gräfin Henriette"
+	"Gräfin Mechthild"
+	"Konrad Wirtemberg"
+	"Marbach"
+	"Mömpelgard"
+	"Neuffen"
+	"Stuttgart"
+	"Wirtemberg"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

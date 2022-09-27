@@ -1,0 +1,118 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 116 107 140 }
+revolutionary_colors = { 0 10 5 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Ajjar #1" = 10
+	"Alberic #0" = 0
+	"Angelbert #0" = 0
+	"Anzi #0" = 0
+	"Arrigo #0" = 0
+	"Arsenda #0" = -1
+	"Asparukh #1" = 10
+	"Batbayan #1" = 10
+	"Berthe #0" = -1
+	"Besar #0" = 0
+	"Boril #1" = 10
+	"Boris #1" = 10
+	"Ferruccio #0" = 0
+	"Gennaro #1" = 10
+	"Gulvardi #0" = -1
+	"Iakov #1" = 10
+	"Igor #0" = 0
+	"Irnek #0" = 0
+	"Itakh #1" = 10
+	"Italo #2" = 10
+	"Kardam #1" = 10
+	"Kocelj #1" = 10
+	"Kormesiy #1" = 10
+	"Kormisosh #1" = 10
+	"Krum #1" = 10
+	"Kubrat #1" = 10
+	"Malamir #1" = 10
+	"Malusha #0" = -1
+	"Milo #0" = 0
+	"Miroslav #1" = 10
+	"Omortag #1" = 10
+	"Pagan #1" = 10
+	"Parsbit #0" = -1
+	"Presian #1" = 10
+	"Quirino #0" = 0
+	"Radu #1" = 10
+	"Sabin #1" = 10
+	"Salome #0" = -1
+	"Sava #1" = 10
+	"Savilay #0" = -1
+	"Sermon #1" = 10
+	"Sevar #1" = 10
+	"Slavac #1" = 10
+	"Soimir #1" = 10
+	"Tatra #1" = 10
+	"Telerig #1" = 10
+	"Telets #1" = 10
+	"Tervel #1" = 10
+	"Thaumaste #0" = -1
+	"Timëreç #0" = 0
+	"Toktu #1" = 10
+	"Umor #1" = 10
+	"Vartouhi #0" = -1
+	"Venda #0" = 0
+	"Vinekh #1" = 10
+	"Vladimir #1" = 10
+	"Óláfr #0" = 0
+}
+leader_names = {
+	"Balina"
+	"Djordjic"
+	"Dobrovski"
+	"Frujin"
+	"Karposh"
+	"Konstantin"
+	"Marinov"
+	"Peyachevich"
+	"Radic"
+	"Rali"
+	"Shishman"
+	"Sorkochovich"
+	"Strahil"
+	"Stratimirovich"
+}
+ship_names = {
+	"Alhtpolo"
+	"Kiten"
+	"Kraymorie"
+	"Lozenets"
+	"Promorsko"
+	"Rezovo"
+	"Sarafovo"
+	"Sinemorets"
+	"Sozopol"
+	"Varara"
+}

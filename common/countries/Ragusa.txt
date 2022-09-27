@@ -1,0 +1,104 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 160 82 128 }
+revolutionary_colors = { 5 13 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+	maritime_ideas
+	economic_ideas
+	diplomatic_ideas
+	offensive_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"'Atikah #0" = -1
+	"'Azzah #0" = -1
+	"Al-Qadir #1" = 10
+	"Al-Ta'i #1" = 10
+	"Aliau #1" = 10
+	"Angelo #1" = 10
+	"Anna #1" = -1
+	"Asma' #0" = -1
+	"Baraka #0" = -1
+	"Baydzar #0" = -1
+	"Bunedec #1" = 10
+	"Damáno #1" = 10
+	"Eilífr #1" = 10
+	"Euanthia #1" = -1
+	"Eustratios #1" = 10
+	"Hamdun #0" = 0
+	"Harthamah #0" = 0
+	"Hripsimeh #0" = -1
+	"Hulla #0" = -1
+	"Layla #0" = -1
+	"Lykanthes #2" = 10
+	"Magdala #0" = -1
+	"Mujahid #0" = 0
+	"Niketas #1" = 10
+	"Nuh #1" = 10
+	"Philomatios #1" = 10
+	"Qays #0" = 0
+	"Rabi'a #1" = 10
+	"Rayya #0" = -1
+	"Razin #0" = 0
+	"Sa'dan #1" = 10
+	"Seta #0" = -1
+	"Theodoretos #2" = 10
+	"Theophanes #1" = 10
+	"Wahb #0" = 0
+	"Zuhayr #2" = 10
+}
+leader_names = {
+	"Bona"
+	"Bosdari"
+	"Boshko"
+	"Caboga"
+	"Cerva"
+	"Ghetaldi"
+	"Giorgi"
+	"Gondola"
+	"Gozze"
+	"Gradic"
+	"Gundulic"
+	"Luccari"
+	"Pozza"
+	"Reesti"
+	"Saraca"
+	"Sorgo"
+	"Tudisi"
+	"Vucic"
+	"Zamagna"
+	"Zlataric"
+}
+ship_names = {
+	"Dubac"
+	"Gromaca"
+	"Kolocap"
+	"Komlac"
+	"Kupari"
+	"Mokosica"
+	"Orasac"
+	"Ragusa"
+	"Rozat"
+	"Trsteno"
+	"Zanton"
+}

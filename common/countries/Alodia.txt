@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 135 144 180 }
+revolutionary_colors = { 1 0 1 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	religious_ideas
+	quantity_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	westernized_adal
+}
+monarch_names = {
+	"'Abd-al-Aziz #1" = 10
+	"'Aqil #1" = 10
+	"'Ulayya #0" = -1
+	"Adamu #1" = 10
+	"Adgeh #1" = 10
+	"Ahmad #1" = 10
+	"Amin #0" = 0
+	"Ammanuel #1" = 10
+	"Anas #1" = 10
+	"Aron #1" = 10
+	"Assad #1" = 10
+	"Avshin #1" = 10
+	"Azadeh #0" = -1
+	"Bahram #1" = 10
+	"Bogale #1" = 10
+	"Delaram #0" = -1
+	"Dirar #1" = 10
+	"Faramarz #1" = 10
+	"Golpari #0" = -1
+	"Hedayat #0" = 0
+	"Hurmat #0" = -1
+	"Husn #0" = -1
+	"Jahangir #2" = 10
+	"Jamasp #1" = 10
+	"Kabede #1" = 10
+	"Kasif #0" = -1
+	"Khudayar #0" = 0
+	"Lu'lu' #1" = 10
+	"Marzuban #0" = 0
+	"Mozaffar #0" = 0
+	"Munqidh #1" = 10
+	"Musa #2" = 10
+	"Nafi' #1" = 10
+	"Nazilla #0" = -1
+	"Nikahywot #1" = -1
+	"Orit #1" = -1
+	"Parviz #1" = 10
+	"Prochorou #1" = 10
+	"Ramla #0" = -1
+	"Salim #1" = 10
+	"Salomon #1" = 10
+	"Shahrokh #0" = 0
+	"Shirin #0" = -1
+	"Shuqayr #1" = 10
+	"Tadesse #1" = 10
+	"Varshasb #0" = 0
+	"Zand #0" = 0
+	"Zohreh #0" = -1
+}
+leader_names = {
+	"Abboud"
+	"Fung"
+	"Garang"
+	"Kayra"
+	"Keira"
+	"Kelueljang"
+	"Lugor"
+	"Nuer"
+	"Shol"
+	"Taha"
+}
+ship_names = {
+	"Amenirdis"
+	"Amon"
+	"Apedemak"
+	"Arensnuphis"
+	"Bes"
+	"Dedwen"
+	"Khnum"
+	"Mandulis"
+	"Mut"
+	"Taweret"
+	"Tefnut"
+}

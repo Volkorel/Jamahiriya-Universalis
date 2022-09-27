@@ -1,0 +1,98 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 115 142 205 }
+revolutionary_colors = { 8 1 8 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abd-al-Qadir #2" = 10
+	"Arnault #0" = 0
+	"Bertram #1" = 10
+	"Brun #1" = 10
+	"Cobbo #1" = 10
+	"Diedke #1" = -1
+	"Donar #1" = 10
+	"Enguerrand #1" = 10
+	"Ezzo #0" = 0
+	"François #0" = 0
+	"Frida #0" = -1
+	"Friedrich #1" = 10
+	"Geoffroy #0" = 0
+	"Gepa #1" = -1
+	"Gerold #2" = 10
+	"Gindrzich #0" = 0
+	"Ilsa #0" = -1
+	"Jaspar #1" = 10
+	"Jochim #1" = 10
+	"Juliana #1" = -1
+	"Karlmann #1" = 10
+	"Karloman #0" = 0
+	"Luitpold #1" = 10
+	"Lutolt #2" = 10
+	"Lutwig #2" = 10
+	"Shurayh #2" = 10
+	"Sigismond #0" = 0
+	"Ubaid #1" = 10
+	"Udelhilt #1" = -1
+	"Umayna #1" = -1
+	"Wahb #1" = 10
+	"Waldemar #1" = 10
+	"Witcho #1" = 10
+	"Wlencing #1" = 10
+	"Yves #0" = 0
+}
+leader_names = {
+	"Bickling"
+	"Braun"
+	"Detemple"
+	"Fent"
+	"Feyerabend"
+	"Forthober"
+	"Freymuth"
+	"Kathrein"
+	"Krogloth"
+	"Limburg"
+	"Neubert"
+	"Oberlothringen"
+	"Wolferseder"
+	"von Elsass"
+}
+ship_names = {
+	"Toul"
+	"l'Empereur Lothaire"
+	"le Barrois"
+	"le Bera"
+	"le Lorraine"
+	"le Metz"
+	"le René II de Lorraine"
+	"le Scoc"
+	"le Sekjan"
+	"le Skirmjan"
+	"le Verdun"
+	"le Warding"
+}

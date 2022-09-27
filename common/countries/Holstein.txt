@@ -1,0 +1,94 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 220 150 158 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alain #1" = 10
+	"Amaury #0" = 0
+	"Ancel #1" = 10
+	"Angelbert #0" = 0
+	"Arnoul #1" = 10
+	"Aubry #2" = 10
+	"Bohemond #1" = 10
+	"Bouchard #1" = 10
+	"Clotaire #2" = 10
+	"Cécile #0" = -1
+	"Enguerrand #1" = 10
+	"Eudes #1" = 10
+	"Frédéric #2" = 10
+	"Gargamel #1" = 10
+	"Gaucher #6" = 10
+	"Gehrke #0" = 0
+	"Guilhem #1" = 10
+	"Guillaume #1" = 10
+	"Guillaumette #0" = -1
+	"Guy #0" = 0
+	"Helvis #0" = -1
+	"Hildebert #1" = 10
+	"Hélie #1" = 10
+	"Jaromir #0" = 0
+	"Louis #1" = 10
+	"Loup #2" = 10
+	"Léon #1" = 10
+	"Orson #1" = 10
+	"Othon #1" = 10
+	"Richard #1" = 10
+	"Roger #2" = 10
+	"Roubaud #1" = 10
+	"Thibault #0" = 0
+	"Thierry #1" = 10
+	"Valeran #1" = 10
+}
+leader_names = {
+	"Albert"
+	"Augustenborg"
+	"Günther"
+	"Holstein"
+	"Holstein-Gottorp"
+	"Oldenburg"
+	"Philip"
+	"Rantzau"
+	"von Barner"
+	"von Dellwigh"
+}
+ship_names = {
+	"Dahme"
+	"Grossenbrode"
+	"Grömtz"
+	"Kellenhusen"
+	"Kiel"
+	"Neustadt"
+	"Ostsee"
+	"Scharbeutz"
+	"Sierksdorf"
+	"Wedel"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

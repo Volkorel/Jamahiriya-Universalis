@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = irish
+capital = 148
+add_accepted_culture = greek
+1444.11.11= {
+	monarch = {
+		name = "Flaithbertach"
+		dynasty = "Hörða"
+		adm = 4
+		dip = 3
+		mil = 5
+		birth_date = 1395.1.27
+		religion = catholic
+		culture = irish
+	}
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = tolerant_personality
+	queen = {
+		name = "Anthousa"
+		dynasty = "of Vodená"
+		adm = 3
+		dip = 3
+		mil = 4
+		country_of_origin = Y39
+		birth_date = 1402.8.16
+		death_date = 1462.8.16
+		female = yes
+		religion = catholic
+		culture = goths
+	}
+	add_queen_personality = tactical_genius_personality
+	add_queen_personality = tolerant_personality
+	heir = {
+		name = "Finnsnechtae"
+		monarch_name = "Finnsnechtae"
+		dynasty = "Hörða"
+		adm = 6
+		dip = 5
+		mil = 6
+		birth_date = 1416.11.23
+		death_date = 1481.11.23
+		claim = 89
+		religion = catholic
+		culture = highland_scottish
+	}
+	add_heir_personality = inspiring_leader_personality
+	add_heir_personality = well_connected_personality
+}
+1444.11.11= {
+	add_prestige = 76
+	add_treasury = 0
+}

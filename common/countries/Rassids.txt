@@ -1,0 +1,89 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 205 10 10 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	administrative_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"'Abd-al-Aziz #2" = 10
+	"'Afra' #0" = -1
+	"'Alqamah #1" = 10
+	"'Amr #2" = 10
+	"'Aqil #1" = 10
+	"'Isa #1" = 10
+	"Adina #0" = -1
+	"Ahmad #1" = 10
+	"Babak #1" = 10
+	"Bakr #0" = 0
+	"Farras #1" = 10
+	"Hakam #2" = 10
+	"Harb #1" = 10
+	"Hashim #2" = 10
+	"Hujr #2" = 10
+	"Huma'i #0" = -1
+	"Jibril #1" = 10
+	"Khadija #0" = -1
+	"Maryam #0" = -1
+	"Musa #0" = 0
+	"Najda #1" = 10
+	"Nuh #1" = 10
+	"Nusayr #1" = 10
+	"Parvaneh #0" = -1
+	"Qudama #1" = 10
+	"Sa'id #0" = 0
+	"Sawwar #0" = 0
+	"Shabib #3" = 10
+	"Sufyan #1" = 10
+	"Tahir #0" = 0
+	"Talib #1" = 10
+	"Tawba #1" = 10
+	"Umama #0" = -1
+	"Wahshiya #0" = -1
+	"Yu'fir #1" = 10
+	"Ziyad #0" = 0
+}
+leader_names = {
+	"Al-Wa'ili"
+	"Al-doughman"
+	"Al-frrejah"
+	"Al-ga' 'a' 'gaah"
+	"Al-kwakbah"
+	"Al-murre"
+	"Banu Bakr"
+	"Banu Hanifa"
+	"Rabi`ah"
+	"Ruwallah"
+}
+ship_names = {
+	"Ad-Dahna"
+	"Ad-Dilam"
+	"Al-Armah"
+	"Al-Bayad"
+	"Ar-Riyad"
+	"Jabal Tuwayo"
+	"Nafüd Ad-Dahy"
+	"Nafüd As-Sirrah"
+	"Nafüd Qunayfidahah"
+	"Nafüd Shuqayyiqah"
+	"Shaqra"
+}

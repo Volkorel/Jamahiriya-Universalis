@@ -1,0 +1,113 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 50 37 125 }
+revolutionary_colors = { 13 16 13 }
+historical_idea_groups = {
+	quantity_ideas
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	chinese_dragoon
+	chinese_footsoldier
+	chinese_longspear
+	chinese_steppe
+	eastern_bow
+	han_banner
+	manchu_banner
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+	reformed_manchu_rifle
+}
+monarch_names = {
+	"Changchub #0" = 0
+	"Dechen #0" = -1
+	"Denöl #0" = 0
+	"Detrin #4" = 10
+	"Devitara #0" = -1
+	"Dharmapala #0" = 0
+	"Diara #0" = 0
+	"Dickey #0" = 0
+	"Ghaniyah #0" = -1
+	"Gunggyal #0" = 0
+	"Gungsong #1" = 10
+	"Gungtsen #0" = 0
+	"Jamyang #1" = 10
+	"Kurake #0" = -1
+	"Langdarma #1" = 10
+	"Lek #0" = 0
+	"Lha #0" = 0
+	"Likmigyal #1" = 10
+	"Likmikya #1" = 10
+	"Likmur #1" = 10
+	"Liknyashur #1" = 10
+	"Liknyikya #1" = 10
+	"Liknyirhya #1" = 10
+	"Machig #0" = -1
+	"Mahidevi #0" = -1
+	"Mangban #0" = 0
+	"Mangmoje #1" = -1
+	"Mangtsen #0" = 0
+	"Mertri #3" = 10
+	"Muzu #0" = 0
+	"Nattadevi #0" = -1
+	"Nyasig #1" = 10
+	"Nyingpo #0" = 0
+	"Pelkhortsen #1" = 10
+	"Pogong #0" = -1
+	"Ralpacan #0" = 0
+	"Rinchen #0" = -1
+	"Sabhirai #0" = -1
+	"Sachen #1" = 10
+	"Sadnalegs #1" = 10
+	"Sotri #1" = 10
+	"Sumnang #1" = 10
+	"Taramo #0" = -1
+	"Tori #0" = 0
+	"Trashi #0" = 0
+	"Tridé #2" = 10
+	"Trisong Detsen #1" = 10
+	"Tsenpo #6" = 10
+	"Yondagmo #1" = -1
+	"Yongten #0" = 0
+	"Yontan #0" = 0
+	"Ösrung #1" = 10
+}
+leader_names = {
+	"Gampo"
+	"Phuntsok"
+	"Sonam"
+	"Sregs"
+	"Srong"
+	"Tashi"
+	"Thekchen"
+	"Tsewang"
+	"Wangdak"
+	"Wangdue"
+}
+ship_names = {
+	"Barkam"
+	"Dartsendo"
+	"Gartse"
+	"Gyantse"
+	"Lhasa"
+	"Lhotse"
+	"Makalu"
+	"Nagqu"
+	"Nedong"
+	"Nyingchi"
+	"Pelbar"
+	"Qamdo"
+	"Sakya"
+	"Shigatse"
+	"Tinggri"
+}

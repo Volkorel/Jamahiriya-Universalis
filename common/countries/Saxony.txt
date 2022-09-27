@@ -1,0 +1,125 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 155 147 180 }
+revolutionary_colors = { 0 9 0 }
+historical_idea_groups = {
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	trade_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adaldag #1" = 10
+	"Agnes #0" = -1
+	"Albina #0" = -1
+	"Albrecht #0" = 0
+	"Bernhard #0" = 0
+	"Bourgogne #0" = -1
+	"Bruno #0" = 0
+	"Burchard #2" = 10
+	"Christina #0" = -1
+	"Dago #0" = 0
+	"Detleff #1" = 10
+	"Diederik #1" = 10
+	"Engelbert #0" = 0
+	"Engelhard #0" = 0
+	"Erchenbolt #2" = 10
+	"Everd #1" = 10
+	"Felicitas #1" = -1
+	"Gosschalk #1" = 10
+	"Goswin #0" = 0
+	"Hoger #3" = 10
+	"Katharina #0" = -1
+	"Lena #0" = -1
+	"Leonilde #0" = -1
+	"Luder-Udo #1" = 10
+	"Ludwig #2" = 10
+	"Marbold #2" = 10
+	"Martina #0" = -1
+	"Salome #1" = -1
+	"Salomo #0" = 0
+	"Sarä #0" = -1
+	"Seinfreid #0" = 0
+	"Suanhilde #0" = -1
+	"Theodorich #0" = 0
+	"Udo #0" = 0
+	"Unwan #0" = 0
+	"Wecta #2" = 10
+	"Widukind #0" = 0
+	"Wienke #0" = -1
+	"Wigebert #0" = 0
+	"Édouard #1" = 10
+}
+leader_names = {
+	"Arnim"
+	"Bieber"
+	"Bretfeld"
+	"Deitz"
+	"Dietze"
+	"Fischer"
+	"Gödel"
+	"Hamann"
+	"Harzer"
+	"Hergesell"
+	"Kirbach"
+	"Kranke"
+	"Kuhn"
+	"Oelssner"
+	"Oertel"
+	"Pilz"
+	"Rabs"
+	"Rank"
+	"Schönfeld"
+	"Sehm"
+	"Taut"
+	"Teichmann"
+	"Tellig"
+	"Uebigau"
+	"Uhlich"
+	"Winkler"
+	"von Rath"
+}
+ship_names = {
+	"Bernhard I"
+	"Billing"
+	"Brun"
+	"Edberg"
+	"Heinrich I"
+	"Heinrich II"
+	"Liedolf"
+	"Lothar"
+	"Manus"
+	"Ordulf"
+	"Otto I"
+	"Wichman"
+	"Widukind"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+	"Kurfürstliche Garde"
+}
+fleet_names = {
+	"Kurfürstliche Flotte"
+}
+preferred_religion = protestant

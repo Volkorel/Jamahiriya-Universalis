@@ -1,0 +1,189 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 50 50 50 }
+monarch_names = {
+	"Albrikt #1" = 10
+	"Anundr #1" = 10
+	"Arnbjörn #1" = 10
+	"Arne #0" = 0
+	"Bjï¿½rn #0" = 0
+	"Borzeta #1" = 10
+	"Bragi #1" = 10
+	"Bóthildr #0" = -1
+	"Dagr #1" = 10
+	"Einarr #0" = 0
+	"Elemag #0" = 0
+	"Emundr #0" = 0
+	"Eskil #0" = 0
+	"Faste #1" = 10
+	"Freja #1" = -1
+	"Geirr #1" = 10
+	"Gleb #1" = 10
+	"Guï¿½rï¿½ï¿½r #0" = 0
+	"Guðrún #0" = -1
+	"Haraldr #1" = 10
+	"Hemingr #2" = 10
+	"Homlaug #0" = -1
+	"Immo #0" = 0
+	"Ipek #0" = -1
+	"Jórunn #1" = -1
+	"Kettilmund #1" = 10
+	"Knut #0" = 0
+	"Kolbein #0" = 0
+	"Küre #0" = 0
+	"Liubava #0" = -1
+	"Luisella #0" = -1
+	"Margareta #1" = -1
+	"Martha #0" = -1
+	"Olena #0" = -1
+	"Otto #0" = 0
+	"Palnatóki #1" = 10
+	"Patiyer #0" = -1
+	"Radoslav #1" = 10
+	"Ragnhild #0" = -1
+	"Ragnvaldr #1" = 10
+	"Rolf #0" = 0
+	"Rostislava #0" = -1
+	"Svyatopulk #0" = 0
+	"Vasilisa #0" = -1
+	"Vysheslava #0" = -1
+	"Úlfr #1" = 10
+	"Þorbjörn #1" = 10
+	"Þorgerðr #1" = -1
+	"ï¿½shild #0" = -1
+}
+leader_names = {
+	"Ale"
+	"Alfgeir"
+	"Alfr"
+	"Anders"
+	"Anlaufr"
+	"Anundr"
+	"Arnbjörn"
+	"Arnfast"
+	"Arngrimr"
+	"Arni"
+	"Asbjörn"
+	"Bagge"
+	"Baldr"
+	"Barid"
+	"Bengt"
+	"Bersi"
+	"Bertil"
+	"Birger"
+	"Björn"
+	"Bo"
+	"Borkvard"
+	"Botulfr"
+	"Bragi"
+	"Buðli"
+	"Dag"
+	"Dan"
+	"Dyre"
+	"Egill"
+	"Eilif"
+	"Einarr"
+	"Eirikr"
+	"Emund"
+	"Eskild"
+	"Falki"
+	"Faste"
+	"Filip"
+	"Folki"
+	"Fredrik"
+	"Freyr"
+	"Frirek"
+	"Froði"
+	"Gandalfr"
+	"Geirr"
+	"Georg"
+	"Gnupa"
+	"Gorm"
+	"Greger"
+	"Grimr"
+	"Gunnarr"
+	"Guðfrið"
+	"Guðmundr"
+	"Guðröðr"
+	"Hakon"
+	"Halsten"
+	"Haraldr"
+	"Helgi"
+	"Hemming"
+	"Hjalmar"
+	"Holmger"
+	"Hrafn"
+	"Hrane"
+	"Hrolfr"
+	"Hroðgar"
+	"Hroðulfr"
+	"Hrörekr"
+	"Hysing"
+	"Hæsteinn"
+	"Inge"
+	"Ingemar"
+	"Ingjald"
+	"Ivar"
+	"Jedvard"
+	"Jon"
+	"Karl"
+	"Kettil"
+	"Kettilmund"
+	"Kjartan"
+	"Klas"
+	"Knut"
+	"Kol"
+	"Kolbjörn"
+	"Markus"
+	"Mats"
+	"Niklas"
+	"Nils"
+	"Oddr"
+	"Ofeig"
+	"Olafr"
+	"Ormr"
+	"Ottarr"
+	"Palnatoke"
+	"Ragnarr"
+	"Refil"
+	"Refr"
+	"Rikulfr"
+	"Rögnvaldr"
+	"Sigbjörn"
+	"Sigtrygg"
+	"Sigurðr"
+	"Skuli"
+	"Snorri"
+	"Starkaðr"
+	"Steinn"
+	"Sturla"
+	"Styrbjörn"
+	"Styrkar"
+	"Suni"
+	"Sveinn"
+	"Sverker"
+	"Sæmundr"
+	"Sölvi"
+	"Sörkver"
+	"Tjudmund"
+	"Toke"
+	"Tolir"
+	"Toste"
+	"Totil"
+	"Tryggve"
+	"Tyke"
+	"Ulfr"
+	"Vagn"
+	"Valdemar"
+	"Yngvar"
+	"Åke"
+	"Örvar"
+	"Öysteinn"
+	"Þorbjörn"
+	"Þorbrandr"
+	"Þordr"
+	"Þorfinn"
+	"Þorgil"
+	"Þorolfr"
+	"Þorsteinn"
+}

@@ -1,0 +1,125 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 48 164 51 }
+revolutionary_colors = { 9 8 9 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Abel #0" = 0
+	"Adam #0" = 0
+	"Amice #0" = -1
+	"Arnold #1" = 10
+	"Beatrice #0" = -1
+	"Ben-Muman #0" = -1
+	"Cecily #0" = -1
+	"Christopher #1" = 10
+	"Eleanor #0" = -1
+	"Elizabeth #0" = -1
+	"Frode #0" = 0
+	"Fáelbe #0" = 0
+	"Godfrey #2" = 10
+	"Gradislava #0" = -1
+	"Gregory #1" = 10
+	"Gudrun #0" = -1
+	"Guy #1" = 10
+	"Halsten #0" = 0
+	"Henry #0" = 0
+	"Inge #0" = 0
+	"Jocelyn #0" = 0
+	"Jordan #0" = 0
+	"Justina #0" = -1
+	"Mathgamain #0" = 0
+	"Michael #1" = 10
+	"Máel-Ciaráin #0" = 0
+	"Mï¿½rta #0" = -1
+	"Peter #0" = 0
+	"Ragnhild #0" = -1
+	"Reginald #1" = 10
+	"Robert #1" = 10
+	"Sigbjørn #0" = 0
+	"Stenkil #0" = 0
+	"Ubbi #0" = 0
+	"Valgerðr #0" = -1
+	"Ylva #0" = -1
+	"Ása #0" = -1
+}
+leader_names = {
+	"Caomhanach"
+	"Conchobhair"
+	"Mac Amhalghaidh"
+	"Mac Cochláin"
+	"Mac Coibheanaigh"
+	"Mac Conshnámha"
+	"Mac Fhlannchaidh"
+	"Mac Fionbhair"
+	"Mac Giolla Phadraig"
+	"Mac Raghnaill"
+	"Mac Tighearnáin"
+	"Mac an tSionnaigh"
+	"Mag Eochagáin"
+	"Ó Braoin"
+	"Ó Cairbre"
+	"Ó Caoindealbháin"
+	"Ó Catharnaigh"
+	"Ó Ceallaigh"
+	"Ó Cearbhaill"
+	"Ó Ciardha"
+	"Ó Comhraidhe"
+	"Ó Congalaig"
+	"Ó Cosraigh"
+	"Ó Diubhgeannáin"
+	"Ó Doinn"
+	"Ó Donnchadha"
+	"Ó Dubhghaill"
+	"Ó Dubhuidhe"
+	"Ó Faolain"
+	"Ó Fhearghaill"
+	"Ó Finntighearn"
+	"Ó Fionnaláin"
+	"Ó Lorcáin"
+	"Ó Maolmhuaidh"
+	"Ó Ruairc"
+	"Ó Seaghdha"
+	"Ó Seanáin"
+	"Ó Tuathail"
+	"Ó hAimheirgin"
+	"Ó hAonghusa"
+}
+ship_names = {
+	"Carlow"
+	"Dublin"
+	"Kildare"
+	"Kilkenny"
+	"Laios"
+	"Longford"
+	"Louth"
+	"Meath"
+	"Offaly"
+	"Westmeath"
+	"Wexford"
+	"Wicklow"
+}

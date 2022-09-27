@@ -1,0 +1,101 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 176 72 77 }
+revolutionary_colors = { 0 5 0 }
+historical_idea_groups = {
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	maritime_ideas
+	religious_ideas
+	economic_ideas
+	spy_ideas
+	administrative_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Apskhih #0" = 0
+	"Batir #0" = 0
+	"Elemag #1" = 10
+	"Feodor #0" = 0
+	"Gulay #1" = -1
+	"Ikalay #0" = -1
+	"Ipek #0" = -1
+	"Ispor #1" = 10
+	"Khudbard #0" = 0
+	"Krovat #1" = 10
+	"Këlnissa #0" = -1
+	"Labertam #1" = 10
+	"Mala #1" = -1
+	"Murunza #0" = 0
+	"Odolgan #1" = 10
+	"Ornag #1" = 10
+	"Purysho #0" = 0
+	"Sarantay #1" = -1
+	"Shurkka #0" = -1
+	"Umor #1" = 10
+	"Yerneslu #1" = 10
+	"Çeçki #0" = -1
+}
+leader_names = {
+	"Apraksin"
+	"Bagration"
+	"Barclay de Tolly"
+	"Bibikoff"
+	"Bodisco"
+	"Boruffsin"
+	"Golitzin"
+	"Kaibula"
+	"Kamenski"
+	"Kolzoff"
+	"Mensjikov"
+	"Mustislavski"
+	"Ostermann Tolstoy"
+	"Paletskij"
+	"Rajevski"
+	"Schuvalov"
+	"Sjeremetjev"
+	"Sjtjenjatvev"
+	"Tiesenhusen"
+	"Vasiljevitj"
+	"von Buxhoevden"
+	"von Knorring"
+	"von Lascy"
+}
+ship_names = {
+	"Coluna"
+	"Cortiza"
+	"Dmitri Donskoi"
+	"Iausa"
+	"Ivan Kalita"
+	"Klin"
+	"Konstantin I"
+	"Moscha"
+	"Mosnisk"
+	"Nizhny Novgorod"
+	"Olescho"
+	"Piersek"
+	"Rurik"
+	"Schorna"
+	"Suzdal"
+	"Troitzkoy"
+	"Volga"
+	"Wolok"
+}

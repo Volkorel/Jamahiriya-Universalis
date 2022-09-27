@@ -1,0 +1,103 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 51 59 76 }
+historical_idea_groups = {
+	maritime_ideas
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Bern #0" = 0
+	"Bersi #0" = 0
+	"Eilífr #0" = 0
+	"Gremislava #0" = -1
+	"Lubòmir #0" = 0
+	"Premislava #0" = -1
+	"Sif #0" = -1
+	"Viltë #0" = -1
+	"Þjúdmundr #0" = 0
+}
+leader_names = {
+	"Beyse"
+	"Boniface"
+	"Grosch"
+	"Haufoote"
+	"Heidmann"
+	"Jürgens"
+	"Krumtum"
+	"Kurzhöfer"
+	"Kurzmann"
+	"Mandüvel"
+	"Meuseling"
+	"Michels"
+	"Miercke"
+	"Milies"
+	"Normann"
+	"Rainbek"
+	"Rähl"
+	"Scheld"
+	"Stellmacher"
+	"Stuke"
+	"Störtebeker"
+	"Wessel"
+	"Wichmann"
+	"Wygbold"
+	"von Borcke"
+	"von Cammin"
+	"von Eickstedt"
+	"von Greifswald"
+	"von Kolberg"
+	"von Pommern"
+	"von Rügen"
+	"von Schwerin"
+	"von Stettin"
+	"von Stolp"
+	"von Stralsund"
+	"von Wethemonkule"
+	"von Wolgast"
+	"von Wolgatz"
+	"von Wolin"
+}
+ship_names = {
+	"Bornholmer Drachenboot"
+	"Danziger Schmetterer"
+	"Der Drache des Nordens"
+	"Der Greif von Pommern"
+	"Der Hammer von Stettin"
+	"Der Sturm von Gottland"
+	"Der Öresundsschrecken"
+	"Die Geißel von Pommern"
+	"Die Schwarze Perle"
+	"Dänisches Feuer"
+	"Fräulein Stina"
+	"Fräulein von Rügen"
+	"Michels Augenklappe"
+	"Odins Zorn"
+	"Rückkehr der Likedeeler"
+	"Schnelltrinker"
+	"Schrecken der Hanse"
+	"Störtebekers Rache"
+	"Tochter der Vitalienbrüder"
+	"Wikingertochter"
+}

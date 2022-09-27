@@ -1,0 +1,14 @@
+owner = SDY
+controller = SDY
+capital = "Sadiya"
+is_city = yes
+culture = assamese
+religion = hinduism
+trade_goods = tea
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = SDY
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group

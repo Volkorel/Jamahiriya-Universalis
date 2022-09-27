@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = muslim
+religion = coptic
+primary_culture = al_suryah_arabic
+capital = 2313
+fixed_capital = 2313
+1444.11.11= {
+	monarch = {
+		name = "Umayya"
+		dynasty = "Ilahid"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1399.2.26
+		religion = coptic
+		culture = al_suryah_arabic
+	}
+	add_ruler_personality = careful_personality
+	add_ruler_personality = charismatic_negotiator_personality
+	queen = {
+		name = "Zulaikha"
+		dynasty = "Barzuyid"
+		adm = 2
+		dip = 5
+		mil = 4
+		country_of_origin = X51
+		birth_date = 1399.1.24
+		death_date = 1459.1.24
+		female = yes
+		religion = coptic
+		culture = tuareg
+	}
+	add_queen_personality = free_thinker_personality
+	add_queen_personality = intricate_web_weaver_personality
+	heir = {
+		name = "'Ubayd-al-Ilah"
+		monarch_name = "'Ubayd-al-Ilah"
+		dynasty = "Ilahid"
+		adm = 4
+		dip = 5
+		mil = 6
+		birth_date = 1418.6.9
+		death_date = 1483.6.9
+		claim = 89
+		religion = coptic
+		culture = tuareg
+	}
+	add_heir_personality = fierce_negotiator_personality
+	add_heir_personality = obsessive_perfectionist_personality
+}
+1444.11.11= {
+	add_prestige = 56
+	add_treasury = 63
+}

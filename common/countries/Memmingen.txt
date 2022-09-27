@@ -1,0 +1,102 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 210 37 57 }
+revolutionary_colors = { 8 1 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	administrative_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adelgoz #0" = 0
+	"Appo #2" = 10
+	"Arnolt #1" = 10
+	"Betzela #1" = -1
+	"Chunrat #0" = 0
+	"Clara #0" = -1
+	"Diepurga #1" = -1
+	"Elisa #0" = -1
+	"Florens #1" = 10
+	"Friderich #1" = 10
+	"Herman #1" = 10
+	"Hesso #1" = 10
+	"Hiltburg #0" = -1
+	"Juzina #0" = -1
+	"Luigia #0" = -1
+	"Martina #0" = -1
+	"Meinhart #1" = 10
+	"Nantwig #1" = 10
+	"Otegeba #1" = -1
+	"Reinolt #1" = 10
+	"Sophia #0" = -1
+	"Udo #1" = 10
+	"Uto #1" = 10
+	"Volmar #1" = 10
+	"Walther #1" = 10
+	"Welf #1" = 10
+	"Werenher #1" = 10
+	"Wezilo #1" = 10
+	"Wigman #0" = 0
+	"Willeburg #0" = -1
+	"Winfrit #1" = 10
+}
+leader_names = {
+	"Gundelsheim"
+	"Imhoff"
+	"Lotzer"
+	"Schappeler"
+	"Schenck"
+	"Schulthaiss"
+	"Strigel"
+	"Vöhlin"
+	"Zangmeister"
+	"von Berg"
+}
+ship_names = {
+	"Andechs"
+	"Augsburg"
+	"Burgau"
+	"Diessen"
+	"Friedberg"
+	"Graf von Andechs"
+	"Graf von Bogen"
+	"Graf von Diepolding"
+	"Graf von Sulzbach"
+	"Kempten"
+	"König Arnulf"
+	"Lindau"
+	"Memmingen"
+	"Mindel"
+	"Oettingen"
+	"Otto"
+	"St. Kilian"
+	"St. Sebaldus"
+	"Straubing"
+	"Tassilo III"
+	"Wittelsbach"
+	"Wolfstein"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

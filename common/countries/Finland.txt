@@ -1,0 +1,134 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 182 134 100 }
+revolutionary_colors = { 0 13 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swedish_arme_blanche
+	swedish_caroline
+	swedish_gallop
+	swedish_gustavian
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Auseklis #0" = 0
+	"Bjørg #0" = -1
+	"Brigida #0" = -1
+	"Eigil #0" = 0
+	"Eligenta #0" = -1
+	"Fasti #1" = 10
+	"Fredrik #0" = 0
+	"Gerðr #1" = -1
+	"Gleb #0" = 0
+	"Gunnar #1" = 10
+	"Gunnarr #1" = 10
+	"Guðmundr #3" = 10
+	"Gytha #0" = -1
+	"Hákon #2" = 10
+	"Inge #0" = 0
+	"Ingvar #0" = 0
+	"Ingvarr #1" = 10
+	"Ketill #2" = 10
+	"Sara #1" = -1
+	"Styrbjørn #1" = 10
+	"Sunnifa #0" = -1
+	"Ubbi #1" = 10
+	"Ulf #0" = 0
+	"Valdemar #0" = 0
+	"Vanamo #0" = -1
+	"Volodar #0" = 0
+	"Áli #0" = 0
+	"Ásmundr #1" = 10
+	"Þorkatla #1" = -1
+	"Þórunn #1" = -1
+}
+leader_names = {
+	"Adlercreutz"
+	"Ahlqvist"
+	"Berg"
+	"Björn"
+	"Blom"
+	"Cronstedt"
+	"Dufva"
+	"Ehrensvärd"
+	"Glad"
+	"Haataja"
+	"Helander"
+	"Helin"
+	"Hiltunen"
+	"Horn"
+	"Ilkka"
+	"Isotalo"
+	"Järnberg"
+	"Järvelä"
+	"Kesäläinen"
+	"Klingspor"
+	"Kortelainen"
+	"Krouvari"
+	"Kyrö"
+	"Liljencrantz"
+	"Länkinen"
+	"Pentti"
+	"Pietilä"
+	"Rehnskiöld"
+	"Renner"
+	"Rokka"
+	"Rutanen"
+	"Sakari"
+	"Sjögren"
+	"Stoor"
+	"Stålhandske"
+	"Tapani"
+	"Termonen"
+	"Turunen"
+	"Wilander"
+	"von Essen"
+}
+ship_names = {
+	"Agricola"
+	"Aura"
+	"Birger Jarl"
+	"Borgå"
+	"Hakkapeliitta"
+	"Helsingfors"
+	"Ilmarinen"
+	"Karelen"
+	"Kullervo"
+	"Kymi"
+	"Lapland"
+	"Lemminkäinen"
+	"Nyland"
+	"Oulu"
+	"Per Brahe"
+	"Sampo"
+	"Savolax"
+	"St. Henrik"
+	"Tavastehus"
+	"Tavastland"
+	"Vanda"
+	"Vasa"
+	"Viborg"
+	"Vuoksi"
+	"Väinämöinen"
+	"Åbo"
+	"Österbotten"
+}

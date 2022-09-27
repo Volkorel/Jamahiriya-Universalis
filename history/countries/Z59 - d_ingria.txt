@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = franconian
+capital = 33
+add_accepted_culture = estonian
+add_accepted_culture = karelian
+1444.11.11= {
+	monarch = {
+		name = "Ita"
+		dynasty = "Falki-Ingria"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1418.1.17
+		female = yes
+		religion = norse_pagan_reformed
+		culture = franconian
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Harald"
+		dynasty = "Borgu"
+		adm = 3
+		dip = 2
+		mil = 2
+		country_of_origin = Z59
+		birth_date = 1416.8.14
+		death_date = 1476.8.14
+		religion = norse_pagan_reformed
+		culture = icelandic
+	}
+	add_queen_personality = righteous_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Diezwib"
+		monarch_name = "Diezwib"
+		dynasty = "Falki-Ingria"
+		adm = 2
+		dip = 2
+		mil = 3
+		birth_date = 1435.5.24
+		death_date = 1500.5.24
+		female = yes
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = franconian
+	}
+	add_heir_personality = free_thinker_personality
+	add_heir_personality = tactical_genius_personality
+}
+1444.11.11= {
+	add_prestige = 51
+	add_treasury = 51
+}

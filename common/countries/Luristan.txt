@@ -1,0 +1,208 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 207 213 47 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"'Ubayd-Allah #1" = 10
+	"'Unayna #1" = 10
+	"'Utba #1" = 10
+	"Abbas #1" = 10
+	"Abolhassan #0" = 0
+	"Afsaneh #0" = -1
+	"Ahmad #1" = 10
+	"Ahu #0" = -1
+	"Amin #0" = 0
+	"Anas #1" = 10
+	"Ardavan #1" = 10
+	"Avshin #2" = 10
+	"Ayeshah #0" = 0
+	"Bushra #0" = -1
+	"Daniya #0" = -1
+	"Darab #0" = 0
+	"Darya #0" = -1
+	"Farnaz #0" = -1
+	"Farrin #0" = -1
+	"Farrukhzad #0" = 0
+	"Gulay #0" = -1
+	"Hassan #0" = 0
+	"Kambiz #1" = 10
+	"Keykhosrau #1" = 10
+	"Khuzayma #1" = 10
+	"Labid #1" = 10
+	"Mariya #0" = -1
+	"Mohammed #0" = 0
+	"Nawid #1" = 10
+	"Parvaneh #0" = -1
+	"Pourandokht #0" = -1
+	"Rafi' #3" = 10
+	"Reza #1" = 10
+	"Roxana #0" = -1
+	"Sabiha #0" = -1
+	"Salm #1" = 10
+	"Shahbaz #1" = 10
+	"Yahya #0" = 0
+	"Zabiba #0" = -1
+	"Zand #0" = 0
+}
+leader_names = {
+	"Babadi"
+	"Baharvand"
+	"Boweiri"
+	"Charlang"
+	"Dinarini"
+	"Dinashi"
+	"Dorikan"
+	"Esteki"
+	"Haftlang"
+	"Kianersi"
+	"Meyvand"
+	"Moogouei"
+	"Osivand"
+	"Sahid"
+	"Shaloo"
+	"Zallaghi"
+}
+ship_names = {
+	"Abathur"
+	"Adamn Kasia"
+	"Aesma Daeva"
+	"Agas"
+	"Ahaka"
+	"Ahriman"
+	"Ahura"
+	"Ahura Mazda"
+	"Ahurani"
+	"Airyaman"
+	"Aka Manah"
+	"Aladdin"
+	"Allatum"
+	"Amashaspan"
+	"Ameratat"
+	"Amesha Spentas"
+	"Anahita"
+	"Angra Mainyu"
+	"Anjuman"
+	"Apam-natat"
+	"Apaosa"
+	"Aredvi"
+	"Arishtat"
+	"Armaiti"
+	"Arsaces"
+	"Asha vahista"
+	"Asman"
+	"Asto Vidatu"
+	"Astvat-Ereta"
+	"Atar"
+	"Azi Dahaka"
+	"Baga"
+	"Bahram"
+	"Burijas"
+	"Bushyasta"
+	"Buyasta"
+	"Camros"
+	"Daena"
+	"Daevas"
+	"Dahhak"
+	"Dena"
+	"Dev"
+	"Diwe"
+	"Drug"
+	"Drvaspa"
+	"Frashegird"
+	"Fravashis"
+	"Gandarewa"
+	"Gao-kerena"
+	"Gayomard"
+	"Gayomart"
+	"Geus-Tasan"
+	"Geus-Urvan"
+	"Haoma"
+	"Haurvatat"
+	"Humay"
+	"Hvar"
+	"Hvarekhshaeta"
+	"Indar"
+	"Indra"
+	"Izha"
+	"Jamshid"
+	"Jeh"
+	"Karshipta"
+	"Kavi"
+	"Khara"
+	"Khshathra vairya"
+	"Kundrav"
+	"Mah"
+	"Mahre"
+	"Mahrianag"
+	"Manu"
+	"Manuchihir"
+	"Mao"
+	"Mashyane"
+	"Mashye"
+	"Menog"
+	"Mithra"
+	"Nairyosangha"
+	"Nanghaithya"
+	"Neriosang"
+	"Ormazd"
+	"Peris"
+	"Peshdadians"
+	"Rapithwin"
+	"Rashnu"
+	"Rustam"
+	"Saurva"
+	"Simurgh"
+	"Spenta Mainyu"
+	"Sraosa"
+	"Srosh"
+	"Tawrich"
+	"Thunaupa"
+	"Tistrya"
+	"Tushnamatay"
+	"Vanant"
+	"Vata"
+	"Verethragna"
+	"Vohu Manah"
+	"Vouruskasha"
+	"Yam"
+	"Yasht"
+	"Yazata"
+	"Yezidi"
+	"Yima"
+	"Zal"
+	"Zam"
+	"Zam-Armatay"
+	"Zarathustra"
+	"Zarich"
+	"Zend-Avesta"
+	"Zurvan"
+}
+army_names = {
+	"$PROVINCE$"
+	"Artesa"
+}
+fleet_names = {
+	"$PROVINCE$ Donanmasî"
+}

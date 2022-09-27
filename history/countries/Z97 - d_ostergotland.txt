@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+primary_culture = gothic
+capital = 2
+1444.11.11= {
+	monarch = {
+		name = "Bothild"
+		dynasty = "Þvari"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1397.9.15
+		female = yes
+		religion = norse_pagan_reformed
+		culture = gothic
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Turukolid"
+		dynasty = "Þvari"
+		adm = 4
+		dip = 2
+		mil = 4
+		country_of_origin = Z97
+		birth_date = 1403.3.20
+		death_date = 1463.3.20
+		religion = norse_pagan_reformed
+	}
+	add_queen_personality = benevolent_personality
+	add_queen_personality = charismatic_negotiator_personality
+	heir = {
+		name = "Ulvhilde"
+		monarch_name = "Ulvhilde"
+		dynasty = "Þvari"
+		adm = 5
+		dip = 4
+		mil = 6
+		birth_date = 1420.5.3
+		death_date = 1485.5.3
+		female = yes
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = gothic
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = pious_personality
+}
+1444.11.11= {
+	add_prestige = 71
+	add_treasury = 55
+}

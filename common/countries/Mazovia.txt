@@ -1,0 +1,103 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 195 149 155 }
+revolutionary_colors = { 5 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	administrative_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	hungarian_hussar
+	polish_hussar
+	polish_musketeer
+	polish_tercio
+	polish_winged_hussar
+	russian_cuirassier
+	russian_lancer
+	russian_mass
+	slavic_stradioti
+}
+monarch_names = {
+	"Adalbrand #0" = 0
+	"Barisla #1" = -1
+	"Bernd #0" = 0
+	"Brigida #0" = -1
+	"Budziwuj #1" = 10
+	"Dabors #1" = 10
+	"Dobronega #1" = -1
+	"Doman #1" = 10
+	"Drogomir #1" = 10
+	"Drogowit #1" = 10
+	"Eggerd #0" = 0
+	"Erp #0" = 0
+	"Giselmar #0" = 0
+	"Gniewosz #1" = 10
+	"Gubiks #2" = 10
+	"Helena #0" = -1
+	"Hemingr #0" = 0
+	"Irmgard #0" = -1
+	"Italo #1" = 10
+	"Jakusz #1" = 10
+	"Jutta #0" = -1
+	"Katarzyna #1" = -1
+	"Katharina #0" = -1
+	"Konrad #1" = 10
+	"Ljutomisl #1" = 10
+	"Margrét #1" = -1
+	"Maustais #1" = 10
+	"Michael #1" = 10
+	"Norbert #0" = 0
+	"Odo #0" = 0
+	"Ogmund #0" = 0
+	"Photios #1" = 10
+	"Radegund #0" = -1
+	"Richardis #0" = -1
+	"Siemomysl #3" = 10
+	"Theodrada #0" = -1
+	"Trojden #0" = 0
+	"Volrad #0" = 0
+	"Wielislaw #1" = 10
+	"Wienke #0" = -1
+	"Wiltrud #0" = -1
+	"Zygmunt #1" = 10
+}
+leader_names = {
+	"Jagiellon"
+	"Kedzierzawy"
+	"Leszczynski"
+	"Lubomirski"
+	"Piast"
+	"Poniatowski"
+	"Premyslid"
+	"Radziwill"
+	"Sapieha"
+	"Wisniowiecki"
+}
+ship_names = {
+	"Biebrza"
+	"Bug"
+	"Bzura"
+	"Kolno"
+	"Liwiec"
+	"Lowicz"
+	"Mlawa"
+	"Narew"
+	"Pilica"
+	"Radomka"
+	"Warszawa"
+	"Wisla"
+	"Wizna"
+	"Wkra"
+}

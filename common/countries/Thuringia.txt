@@ -1,0 +1,130 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 66 126 157 }
+revolutionary_colors = { 0 5 0 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	spy_ideas
+	religious_ideas
+	offensive_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Abbasa #0" = -1
+	"Adaldag #0" = 0
+	"Adelbreht #1" = 10
+	"Aelle #1" = 10
+	"Amédée #1" = 10
+	"Baderic #1" = 10
+	"Balthasar #1" = 10
+	"Baltwin #1" = 10
+	"Basinus #1" = 10
+	"Berthar #2" = 10
+	"Bertrada #0" = -1
+	"Bia #0" = -1
+	"Bonefatius #1" = 10
+	"Carloman #1" = 10
+	"Chamar #3" = 10
+	"Charles #1" = 10
+	"Clio #0" = -1
+	"Eckhart #1" = 10
+	"Eina #0" = 0
+	"Ernest #1" = 10
+	"Fisud #1" = 10
+	"Gehrke #0" = 0
+	"Giselmar #0" = 0
+	"Goswin #0" = 0
+	"Guntram #1" = 10
+	"Hadulf #1" = 10
+	"Hermanfred #1" = 10
+	"Humfried #1" = 10
+	"Juzina #0" = -1
+	"Katerina #1" = -1
+	"Lembert #1" = 10
+	"Lothar #1" = 10
+	"Louis #1" = 10
+	"Luder #1" = 10
+	"Ludwig #1" = 10
+	"Manegolt #1" = 10
+	"Maria #0" = -1
+	"Markwart #1" = 10
+	"Paul #1" = 10
+	"Radulf #3" = 10
+	"Richardis #0" = -1
+	"Rudolf #2" = 10
+	"Thankulf #2" = 10
+	"Turant #0" = 0
+	"Udo #1" = 10
+	"Ulrich #1" = 10
+	"Warin #1" = 10
+	"Widukind #1" = 10
+	"Wulff #0" = 0
+	"Yolande #0" = -1
+}
+leader_names = {
+	"Becher"
+	"Berndt"
+	"Blochberger"
+	"Bohn"
+	"Brendelin"
+	"Brosius"
+	"Burgberg"
+	"Bär"
+	"Eisenschmid"
+	"Grieser"
+	"Grimm"
+	"Gäbelein"
+	"Hofmann"
+	"Horn"
+	"Jauch"
+	"Langheinrich"
+	"Meier"
+	"Meisgeier"
+	"Möser"
+	"Oswald"
+	"Rank"
+	"Rauh"
+	"Ritter"
+	"Schilling"
+	"Schmidt"
+	"Schreuser"
+	"Söll"
+	"Taut"
+	"Trögel"
+}
+ship_names = {
+	"Heinrich Raspe"
+	"Herzog Heden"
+	"Herzog Radulf"
+	"Katwalda"
+	"König Baderich"
+	"König Berthachar"
+	"König Bisinus"
+	"König Herminafried"
+	"Landgraf Hermann"
+	"Marbod"
+	"Markgraf Ekkehard I"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

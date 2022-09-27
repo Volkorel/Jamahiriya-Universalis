@@ -1,0 +1,103 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 102 128 52 }
+revolutionary_colors = { 1 5 9 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	religious_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	durrani_dragoon
+	durrani_rifled_musketeer
+	durrani_swivel
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"Ajit #1" = 10
+	"Ajmal #1" = 10
+	"Alaudin #0" = 0
+	"Ali #1" = 10
+	"Allahyar #1" = 10
+	"Amr #1" = 10
+	"Asvar #1" = 10
+	"Babak #1" = 10
+	"Bahar #0" = -1
+	"Bahman #1" = 10
+	"Banafsheh #0" = -1
+	"Behnaz #0" = -1
+	"Burandokht #0" = -1
+	"Detrin #1" = 10
+	"Elham #0" = -1
+	"Farah #0" = -1
+	"Faraz #1" = 10
+	"Fereedun #1" = 10
+	"Golnaz #0" = -1
+	"Habib #0" = 0
+	"Hazarasp #0" = 0
+	"Hedayat #1" = 10
+	"Humayun #1" = 10
+	"Javeed #1" = 10
+	"Kallar #2" = 10
+	"Kambiz #1" = 10
+	"Kamran #1" = 10
+	"Keykhosrau #1" = 10
+	"Khalil #1" = 10
+	"Lodhi #1" = 10
+	"Marzuban #1" = 10
+	"Mehrzad #2" = 10
+	"Noor #0" = -1
+	"Parvin #0" = -1
+	"Rostam #0" = 0
+	"Samantadeva #1" = 10
+	"Shahab #0" = 0
+	"Shahin #1" = 10
+	"Shahruz #1" = 10
+	"Shahryar #1" = 10
+	"Tourandokht #0" = -1
+	"Uzur #0" = 0
+	"Ya'qub #1" = 10
+	"Yartilek #0" = -1
+	"Yazdegerd #1" = 10
+}
+leader_names = {
+	"Ahmad"
+	"Akhund"
+	"Amin"
+	"Ghazi"
+	"Hotaki"
+	"Karmal"
+	"Najibullah"
+	"Qadir"
+	"Rahman"
+	"Taraki"
+}
+ship_names = {
+	"Arghandab"
+	"Balkh"
+	"Dasht"
+	"Farah"
+	"Harirud"
+	"Harut"
+	"Hingol"
+	"Kabol"
+	"Kech"
+	"Khash"
+	"Kowkcheh"
+	"Murghab"
+	"Zhob"
+}

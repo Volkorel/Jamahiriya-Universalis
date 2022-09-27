@@ -1,0 +1,16 @@
+owner = JFN
+controller = JFN
+capital = "Yapapatuna"
+is_city = yes
+culture = tamil
+religion = hinduism
+trade_goods = gems
+base_tax = 2
+base_production = 3
+base_manpower = 1
+add_core = JFN
+discovered_by = chinese
+discovered_by = east_african
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

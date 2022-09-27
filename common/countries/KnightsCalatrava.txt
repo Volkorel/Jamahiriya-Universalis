@@ -1,0 +1,144 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 230 100 0 }
+historical_units = {
+	anglofrench_line
+	french_caracolle
+	french_dragoon
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	prussian_frederickian
+	prussian_uhlan
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alan #1" = 10
+	"Amir #1" = 10
+	"Artal #0" = 0
+	"Athanasios #1" = 10
+	"Berto #0" = 0
+	"Cristina #0" = -1
+	"Diether #1" = 10
+	"Emanuele #0" = 0
+	"Engelbreht #1" = 10
+	"Enrique #1" = 10
+	"Fabio #1" = 10
+	"Fernando #0" = 0
+	"Frischman #1" = 10
+	"F�elbe #1" = 10
+	"Gonzalo #1" = 10
+	"Hababa #0" = -1
+	"Hugh #1" = 10
+	"Lope #1" = 10
+	"Marisa #0" = -1
+	"Markwart #1" = 10
+	"Menendo #1" = 10
+	"Nu�adona #0" = -1
+	"Pelayo #0" = 0
+	"Rosendu #1" = 10
+	"Tahr #0" = -1
+}
+leader_names = {
+	"Alfonso"
+	"Alfonso de Castilla"
+	"Alonso Meléndez de Guzmán"
+	"Alonso de Cárdenas"
+	"Beltrán de la Cueva"
+	"Charles"
+	"Diego Garcia de Padilla"
+	"Diego López de Santsoles"
+	"Don Garcia"
+	"Enrique de Aragón"
+	"Enrique de Castilla"
+	"Fadrique Alfonso de Castilla"
+	"Felipe"
+	"Fernando Díaz de Castro"
+	"Fernando González de Marañón"
+	"Fernando Icaza"
+	"Fernando Ordóñez"
+	"Fernando Osórez"
+	"Fernando de Padilla"
+	"Fernán Pérez"
+	"Garci López de Padilla"
+	"Garci Álvarez de Toledo y Meneses"
+	"García Fernández"
+	"García Fernández de Villagarcía"
+	"García González de Candamio"
+	"García López de Padilla"
+	"Gonzalo Martel"
+	"Gonzalo Mejía de Virués"
+	"Gonzalo Núñez de Guzmán"
+	"Gonzalo Rodríguez"
+	"Gonzalo Ruiz"
+	"Gonzalo Yáñez de Novoa"
+	"Gómez Manrique"
+	"Juan"
+	"Juan Carlos"
+	"Juan González"
+	"Juan Muñiz"
+	"Juan Núñez de Prado"
+	"Juan Pachecho"
+	"Lorenzo"
+	"Martín Fernández de Quintana"
+	"Martín López de Córdoba"
+	"Martín Martínez"
+	"Martín Pérez de Siones"
+	"Martín Ruiz de Cevallos"
+	"Nuño Pérez de Quiñones"
+	"Paio Peres"
+	"Pedro Alfonso de León"
+	"Pedro Arias"
+	"Pedro Fernández"
+	"Pedro Fernández de Castro"
+	"Pedro Girón"
+	"Pedro González"
+	"Pedro Muñiz de Godoy y Sandoval"
+	"Pedro Núñez"
+	"Pedro Yáñez"
+	"Pedro Álvarez de Pereira"
+	"Reyes"
+	"Rodrigo"
+	"Rodrigo Garcés"
+	"Rodrigo González"
+	"Rodrigo Manrique de Lara"
+	"Rodrigo Íñiguez"
+	"Ruy Díaz de Yanguas"
+	"Ruy Pérez de Leon"
+	"Sanch Fernández de Lemus"
+	"Sancho Rodríguez"
+	"Suero Rodríguez"
+	"Vasco López"
+	"Vasco Rodríguez de Coronado"
+	"Álvaro de Luna"
+}
+ship_names = {
+	"Absolution"
+	"Avenger"
+	"Baldwin's Gate"
+	"Crusader"
+	"God Will Know His Own"
+	"Guardian"
+	"Hammer of God"
+	"Paladin"
+	"Pilgrim"
+	"Purifier"
+	"The Cleansing"
+	"The Faithful"
+	"The Grail"
+	"The Holy Cross"
+	"The Rapture"
+	"The Scourge"
+	"True Believer"
+	"Vindicator"
+}
+army_names = {
+	"Ejército de $PROVINCE$"
+}
+fleet_names = {
+	"Flota de $PROVINCE$"
+}

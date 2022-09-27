@@ -1,0 +1,93 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 84 242 223 }
+revolutionary_colors = { 8 0 5 }
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	religious_ideas
+	expansion_ideas
+	administrative_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+}
+historical_units = {
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = {
+	"Alberade #0" = -1
+	"Atissi #1" = 10
+	"Awlagh #1" = 10
+	"Azrur #1" = 10
+	"Battista #2" = 10
+	"Beatrix #0" = -1
+	"Chunrat #0" = 0
+	"Cipriano #0" = 0
+	"Domenico #1" = 10
+	"Ferruccio #2" = 10
+	"Firmus #1" = 10
+	"Gerardino #1" = 10
+	"Gerhard #0" = 0
+	"Gustava #0" = -1
+	"Hesso #0" = 0
+	"Hetta #0" = -1
+	"Himmi #1" = 10
+	"Ifser #1" = 10
+	"Irgen #1" = 10
+	"Ixfensen #1" = 10
+	"Karidenna #1" = 10
+	"Khalid #1" = 10
+	"Lacumaces #1" = 10
+	"Liudolf #0" = 0
+	"Margarete #0" = -1
+	"Morena #0" = -1
+	"Muzaffaraddin #1" = 10
+	"Napoleone #0" = 0
+	"Otfrit #0" = 0
+	"Salih #1" = 10
+	"Santo #0" = 0
+	"Tahir #1" = 10
+	"Virgilio #1" = 10
+}
+leader_names = {
+	"Alami"
+	"Arazi"
+	"Barek"
+	"Behar"
+	"Berui"
+	"Haida"
+	"Lahsini"
+	"Sahiri"
+	"Sellami"
+	"Skah"
+}
+ship_names = {
+	"Afuww"
+	"Badi"
+	"Baqi"
+	"Darr"
+	"Fa'uf"
+	"Fazl Azim"
+	"Ghani"
+	"Hadi"
+	"Jalal Ikram"
+	"Jami"
+	"Malik Mulk"
+	"Mani"
+	"Mughni"
+	"Muntaqim"
+	"Muqsit"
+	"Nafi"
+	"Nur"
+	"Rashid"
+	"Sabur"
+	"Tawwab"
+	"Warith"
+}

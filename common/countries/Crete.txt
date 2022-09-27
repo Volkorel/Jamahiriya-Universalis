@@ -1,0 +1,108 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 138 110 130 }
+revolutionary_colors = { 15 0 15 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Aboulgharib #1" = 10
+	"Aetios #0" = 0
+	"Agapetos #0" = 0
+	"Ahmad #1" = 10
+	"Alexios #2" = 10
+	"Andronikos #0" = 0
+	"Anthemios #0" = 0
+	"Arkadios #0" = 0
+	"Daniel #1" = 10
+	"Daniele #1" = 10
+	"Dionysios #0" = 0
+	"Elias #0" = 0
+	"Eudokia #1" = -1
+	"Euthymia #0" = -1
+	"Gabriel #0" = 0
+	"Germanos #0" = 0
+	"Gilbert #1" = 10
+	"Himerios #1" = 10
+	"Kaloioannes #0" = 0
+	"Konstantios #0" = 0
+	"Leontios #2" = 10
+	"Lykanthes #3" = 10
+	"Manuel #1" = 10
+	"Markianos #1" = 10
+	"Mauros #0" = 0
+	"Melias #1" = 10
+	"Merkourios #0" = 0
+	"Neophytos #0" = 0
+	"Pamphilios #1" = 10
+	"Pankalos #1" = 10
+	"Pantoleon #2" = 10
+	"Pardos #1" = 10
+	"Paschalios #1" = 10
+	"Photeinos #0" = 0
+	"Polykarpos #1" = 10
+	"Sabatios #1" = 10
+	"Sabbas #0" = 0
+	"Sergios #1" = 10
+	"Shuayb #1" = 10
+	"Strategios #0" = 0
+	"Symbatikios #0" = 0
+	"Synesios #0" = 0
+	"Theodorokanos #0" = 0
+	"Theodotos #1" = 10
+	"Theognostos #1" = 10
+	"Theotimos #0" = 0
+	"Umar #2" = 10
+}
+leader_names = {
+	"Argyrus"
+	"Artavasdus"
+	"Basileus"
+	"Diogenes"
+	"Ducas"
+	"Monomachus"
+	"Morosini"
+	"Romanus"
+	"Stauracius"
+	"Stratioticus"
+	"Vataces"
+	"Zimisces"
+	"de Vendôme"
+}
+ship_names = {
+	"Dermoaros"
+	"Frangokastelo"
+	"Glalos"
+	"Koudouras"
+	"Lentas"
+	"Matala"
+	"Paleochora"
+	"Papadogiannis"
+	"Plakias"
+	"Sougia"
+}

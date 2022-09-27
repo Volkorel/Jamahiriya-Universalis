@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = western
+religion = catholic
+primary_culture = highland_scottish
+capital = 251
+add_accepted_culture = scottish
+1444.11.11= {
+	monarch = {
+		name = "Mauda"
+		dynasty = "Tóki"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1415.3.4
+		female = yes
+		religion = catholic
+		culture = highland_scottish
+	}
+	add_ruler_personality = fierce_negotiator_personality
+	add_ruler_personality = kind_hearted_personality
+	queen = {
+		name = "Jocelyn"
+		dynasty = "Tóki"
+		adm = 3
+		dip = 3
+		mil = 3
+		country_of_origin = SCO
+		birth_date = 1389.7.23
+		death_date = 1449.7.23
+		religion = jewish
+		culture = cornish
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = secretive_personality
+}
+1444.11.11= {
+	add_prestige = 9
+	add_treasury = 47
+}

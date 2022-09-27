@@ -1,0 +1,94 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 232 79 142 }
+revolutionary_colors = { 0 10 0 }
+historical_idea_groups = {
+	offensive_ideas
+	administrative_ideas
+	economic_ideas
+	defensive_ideas
+	humanist_ideas
+	aristocracy_ideas
+	diplomatic_ideas
+	trade_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Ayanna #0" = 0
+	"Chandaladevi #0" = -1
+	"Delhanadevi #0" = -1
+	"Hakima #0" = -1
+	"Hoysaladevi #0" = -1
+	"Jaipal #1" = 10
+	"Kakanvati #0" = -1
+	"Kshemraja #2" = 10
+	"Kumaradevi #0" = -1
+	"Lakshman #0" = -1
+	"Mahadevi #0" = -1
+	"Maharana #0" = 0
+	"Maharani #0" = -1
+	"Mahayak #1" = 10
+	"Mahipala #0" = 0
+	"Nagraja #0" = 0
+	"Osman #0" = 0
+	"Padmini #0" = -1
+	"Pullashakti #0" = 0
+	"Rajapala #2" = 10
+	"Ramachandra #0" = 0
+	"Revakanimmadi #0" = -1
+	"Samarasimha #0" = 0
+	"Shantaladevi #0" = -1
+	"Traillokyachandra #0" = 0
+	"Udaysangh #0" = 0
+	"Vidurathpal #1" = 10
+	"Yildiz #0" = -1
+}
+leader_names = {
+	"Bahadur"
+	"Chetty"
+	"Khader"
+	"Khan"
+	"Khan Wallajah"
+	"Mudaliar"
+	"Rajapopalachari"
+	"Reddy"
+	"Saluva"
+	"Sastri"
+	"Thondaiman"
+	"ul Umra"
+}
+ship_names = {
+	"Chambal"
+	"Devi"
+	"Durga"
+	"Ganga"
+	"Gayatri"
+	"Jalsena"
+	"Kala Jahazi"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Sita"
+	"Spiti"
+	"Yamuna"
+}

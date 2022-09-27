@@ -1,0 +1,129 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 63 150 30 }
+revolutionary_colors = { 4 0 4 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas
+	administrative_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	bhonsle_cavalry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_rifle
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	reformed_mughal_mansabdar
+	sikh_hit_and_run
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Aglen #1" = 10
+	"Ajitapida #1" = 10
+	"Amala #1" = -1
+	"Anangapida #1" = 10
+	"Avantivarma #1" = 10
+	"Chandrapida #1" = 10
+	"Cippatajayapida #1" = 10
+	"Deu #1" = 10
+	"Dingtri #3" = 10
+	"Dondup #1" = 10
+	"Drogön #1" = 10
+	"Drönma #1" = -1
+	"Durlabhavardhana #2" = 10
+	"Dusong #2" = 10
+	"Faraz #1" = 10
+	"Farva #0" = -1
+	"Furuzan #0" = -1
+	"Golshan #0" = -1
+	"Gungsong #1" = 10
+	"Isho #1" = 10
+	"Jayapida #1" = 10
+	"Jekundag #1" = 10
+	"Khashayar #1" = 10
+	"Kuvalayapida #1" = 10
+	"Lalitadiyta-Muktapida #1" = 10
+	"Lalitapida #1" = 10
+	"Mahtab #0" = -1
+	"Mangpoje #0" = 0
+	"Mashad #1" = 10
+	"Mozaffar #1" = 10
+	"Nezam #0" = 0
+	"Nyima #1" = 10
+	"Pelkhortsen #1" = 10
+	"Prithvyapida #1" = 10
+	"Samgramapida #1" = 10
+	"Samkaravarman #1" = 10
+	"Tarapida #1" = 10
+	"Tromo #1" = 10
+	"Tsensong #1" = 10
+	"Tubten #1" = -1
+	"Utpalapida #1" = 10
+	"Vajraditya #1" = 10
+	"Yontan #1" = 10
+}
+leader_names = {
+	"Afridi"
+	"Bahadur"
+	"Bakhsh"
+	"Bhangalia"
+	"Bhatta"
+	"Chandral"
+	"Das"
+	"Dev"
+	"Gahunia"
+	"Gami"
+	"Hamadani"
+	"Jamwal"
+	"Jivan"
+	"Kashmiri"
+	"Katoch"
+	"Kisthwaria"
+	"Kralawari"
+	"Lal"
+	"Makhdum"
+	"Malik"
+	"Mehsud"
+	"Mir"
+	"Naga"
+	"Pahore"
+	"Pakhral"
+	"Parmanand"
+	"Pundir"
+	"Rai"
+	"Shergill"
+	"Singh"
+	"Sodhi"
+	"Sohal"
+}
+ship_names = {
+	"Alia"
+	"Alisha"
+	"Aziza"
+	"Beas"
+	"Chenab"
+	"Fatimah"
+	"Guru"
+	"Indus"
+	"Jalsena"
+	"Jhelum"
+	"Khan"
+	"Nausena"
+	"Nav ka Yudh"
+	"Niknaz"
+	"Niloufa"
+	"Ravi"
+	"Sagar"
+	"Sutlej"
+	"Yasmine"
+	"Zahira"
+}

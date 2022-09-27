@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = franconian
+capital = 1870
+add_accepted_culture = lombard
+elector = yes
+1444.11.11= {
+	monarch = {
+		name = "Frida"
+		dynasty = "di Berardenghi"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1420.2.16
+		female = yes
+		religion = catholic
+		culture = franconian
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = drunkard_personality
+	queen = {
+		name = "Gabriele"
+		dynasty = "Bonifazi-Toulouse"
+		adm = 3
+		dip = 5
+		mil = 2
+		country_of_origin = MLO
+		birth_date = 1419.12.20
+		death_date = 1479.12.20
+		religion = catholic
+		culture = ligurian
+	}
+	add_queen_personality = conqueror_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Fioretta"
+		monarch_name = "Fioretta"
+		dynasty = "Bonifazi-Toulouse"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1443.11.26
+		death_date = 1508.11.26
+		female = yes
+		claim = 89
+		religion = catholic
+		culture = ligurian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 31
+	add_treasury = 0
+}

@@ -1,0 +1,104 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 103 62 185 }
+revolutionary_colors = { 8 4 8 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	economic_ideas
+	innovativeness_ideas
+	offensive_ideas
+	spy_ideas
+	religious_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_tercio
+	dutch_maurician
+	french_bluecoat
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Alain #0" = 0
+	"Amaury #1" = 10
+	"Annibale #0" = 0
+	"Arnaud #2" = 10
+	"Battista #2" = 10
+	"Bernulf #0" = 0
+	"Bertrand #0" = 0
+	"Boddic #1" = 10
+	"Boson #0" = 0
+	"Burchart #1" = 10
+	"Eberhart #1" = 10
+	"Eudes #1" = 10
+	"Ferruccio #2" = 10
+	"Friedrich #1" = 10
+	"Gerardino #1" = 10
+	"Giselbert #2" = 10
+	"Guillaume #0" = 0
+	"Hélie #0" = 0
+	"Innocenzo #1" = 10
+	"Karlos #1" = 10
+	"Ottokar #1" = 10
+	"Rainald #1" = 10
+	"Reginar #1" = 10
+	"Renaud #1" = 10
+	"Richwin #1" = 10
+	"Román #1" = 10
+	"Sava #1" = 10
+	"Udo #1" = 10
+	"Wlencing #1" = 10
+}
+leader_names = {
+	"Brouckaert"
+	"Galindez"
+	"Liderie"
+	"Waerseggers"
+	"d'Avesnes"
+	"de Cuire"
+	"de Freest"
+	"de Namur"
+	"de Roucy"
+	"du Trieux"
+	"van Bylandt"
+	"van Dinther"
+	"van Heerdt"
+	"van Heiden"
+	"van Hogendorp"
+	"van Lynden"
+	"van Oberndorff"
+	"von Quadt"
+	"von Ranzow"
+	"von Rechteren"
+}
+ship_names = {
+	"Amalric"
+	"Arnulf"
+	"Baldvin I"
+	"Baldvin II"
+	"Godfrey"
+	"Godfrey II"
+	"Herman"
+	"Reginald"
+	"Reginar I"
+	"Reginar II"
+	"Reginar III"
+	"Richar"
+	"Sigard"
+	"Warin"
+}
+army_names = {
+	"Leger van $PROVINCE$"
+}
+fleet_names = {
+	"Vloot van $PROVINCE$"
+}

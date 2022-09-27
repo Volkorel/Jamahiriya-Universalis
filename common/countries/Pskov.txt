@@ -1,0 +1,113 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 82 123 95 }
+revolutionary_colors = { 15 8 15 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	religious_ideas
+	administrative_ideas
+	economic_ideas
+}
+historical_units = {
+	bardiche_infantry
+	eastern_carabinier
+	eastern_knights
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Azurr #0" = 0
+	"Gjertrud #0" = -1
+	"Gleb #1" = 10
+	"Grímr #0" = 0
+	"Guðbrandr #0" = 0
+	"Guðfastr #0" = 0
+	"Heinrekr #1" = 10
+	"Helge #0" = 0
+	"Hjalmarr #0" = 0
+	"Ignatios #0" = 0
+	"Jorunn #0" = -1
+	"Karin #0" = -1
+	"Katarina #0" = -1
+	"Leb #1" = 10
+	"Martha #0" = -1
+	"Oddr #0" = 0
+	"Ormr #0" = 0
+	"Ossor #0" = 0
+	"Ottar #0" = 0
+	"Ragna #0" = -1
+	"Ragnfrid #0" = -1
+	"Ragnheiðr #0" = -1
+	"Rodislav #1" = 10
+	"Sigurd #0" = 0
+	"Skjalgr #1" = 10
+	"Sudislav #3" = 10
+	"Sviatoslav #1" = 10
+	"Sæmundr #0" = 0
+	"Torbjï¿½rn #0" = 0
+	"Ulvhilde #0" = -1
+	"Vladislav #1" = 10
+	"Vlastimir #2" = 10
+	"Vsevolod #1" = 10
+	"Ásvør #0" = -1
+	"Ølvir #0" = 0
+	"Þorbjørg #0" = -1
+	"Þorvaldr #0" = 0
+	"ï¿½ystein #1" = 10
+}
+leader_names = {
+	"Aladyin"
+	"Beznosov"
+	"Bokeev"
+	"Borovsky"
+	"Burukhin"
+	"Dalmatov"
+	"Dursky"
+	"Galisky"
+	"Galitsky"
+	"Izyaslavsky"
+	"Kisleevsky"
+	"Korobyin"
+	"Mozhaisky"
+	"Satin"
+	"Shemyakin"
+	"Shukalovsky"
+	"Travin"
+	"Tsyplyatev"
+	"Uglisky"
+	"Vereisky"
+	"Vitebsky"
+	"Vnukov"
+	"Volotsky"
+	"Zabolotsky"
+}
+ship_names = {
+	"Bolotovo"
+	"Chudskoye"
+	"Izborsk"
+	"Kulikovo"
+	"Narva"
+	"Ostrov"
+	"Pechory"
+	"Porhov"
+	"Pskovskoye"
+	"Rakovor"
+	"Sebezh"
+	"Velikaya"
+	"Velikiye Luki"
+}

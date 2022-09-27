@@ -1,0 +1,90 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 178 103 5 }
+revolutionary_colors = { 0 5 5 }
+historical_idea_groups = {
+	diplomatic_ideas
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	administrative_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"'Allan #1" = 10
+	"'Imran #1" = 10
+	"'Ubaydallah #1" = 10
+	"'Umar #1" = 10
+	"'Uthman #1" = 10
+	"Abbad #0" = 0
+	"Ali #1" = 10
+	"Ardahan #0" = 0
+	"Bilal #1" = 10
+	"Delaram #0" = -1
+	"Elham #0" = -1
+	"Farras #3" = 10
+	"Hakam #1" = 10
+	"Hamid #1" = 10
+	"Hamzah #3" = 10
+	"Hisham #1" = 10
+	"Lubaba #0" = -1
+	"Mansur #1" = 10
+	"Mehrab #0" = 0
+	"Mismar #1" = 10
+	"Muslim #1" = 10
+	"Muti’a #0" = -1
+	"Nusayr #1" = 10
+	"Pashang #0" = 0
+	"Qays #1" = 10
+	"Ramadan #1" = 10
+	"Rashid #0" = 0
+	"Rayya #0" = -1
+	"Razin #1" = 10
+	"Shirin #0" = -1
+	"Sulayman #1" = 10
+	"Surayj #1" = 10
+	"Tarifa #0" = -1
+	"Wahb #0" = 0
+	"al-'Ayyash al-Muharibi #1" = 10
+}
+leader_names = {
+	"Al-Karachi"
+	"Al-Muwalid"
+	"Anwar"
+	"Atef"
+	"Faraj"
+	"Ismail"
+	"Madari"
+	"Saleh"
+	"Siham"
+}
+ship_names = {
+	"Abu Ali"
+	"Ad-Dammam"
+	"Al-Ahsa"
+	"Al-Jubayl"
+	"Al-Khubar"
+	"Al-Quatif"
+	"Al-Zahran"
+	"An-Naqirah"
+	"As-Saffaniyah"
+	"Hofuf"
+	"Ra's Al-Mish'ab"
+	"Ra's Tannurah"
+	"Wabrah"
+}

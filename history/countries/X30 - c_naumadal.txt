@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = norse_pagan_reformed
+capital = 21
+fixed_capital = 21
+1444.11.11= {
+	monarch = {
+		name = "Premislava"
+		dynasty = "Trolli"
+		adm = 5
+		dip = 2
+		mil = 3
+		birth_date = 1387.7.27
+		female = yes
+		religion = norse_pagan_reformed
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = tactical_genius_personality
+	heir = {
+		name = "Þorbjørg"
+		monarch_name = "Þorbjørg"
+		dynasty = "Stórum"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1411.7.4
+		death_date = 1476.7.4
+		female = yes
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = icelandic
+	}
+	add_heir_personality = obsessive_perfectionist_personality
+	add_heir_personality = well_connected_personality
+}
+1444.11.11= {
+	add_prestige = 40
+	add_treasury = 49
+}

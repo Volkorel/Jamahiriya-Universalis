@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+technology_group = sub_saharan
+religion = sunni
+primary_culture = senegambian
+capital = 2240
+add_accepted_culture = mali
+1444.11.11= {
+	monarch = {
+		name = "Bilali"
+		dynasty = "Moussa"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1394.1.3
+		religion = sunni
+		culture = senegambian
+	}
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = expansionist_personality
+	queen = {
+		name = "Kondolon"
+		dynasty = "Djenne"
+		adm = 3
+		dip = 4
+		mil = 2
+		country_of_origin = ZAF
+		birth_date = 1384.10.6
+		death_date = 1444.10.6
+		female = yes
+		religion = sunni
+		culture = bambara
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = secretive_personality
+	heir = {
+		name = "Aissata"
+		monarch_name = "Aissata"
+		dynasty = "Moussa"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1416.2.10
+		death_date = 1481.2.10
+		female = yes
+		claim = 89
+		religion = sunni
+		culture = bambara
+	}
+	add_heir_personality = pious_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 63
+	add_treasury = 75
+}

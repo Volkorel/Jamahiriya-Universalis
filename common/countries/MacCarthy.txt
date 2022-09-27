@@ -1,0 +1,141 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 150 231 150 }
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	offensive_ideas
+}
+historical_units = {
+	anglofrench_line
+	british_hussar
+	british_redcoat
+	british_square
+	gaelic_free_shooter
+	gaelic_galloglaigh
+	gaelic_mercenary
+	irish_charge
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+}
+monarch_names = {
+	"Ailill #2" = 10
+	"Amalgaid #1" = 10
+	"Amlaíb #1" = 10
+	"Art #1" = 10
+	"Artgal #1" = 10
+	"Artrí #1" = 10
+	"Bébinn #1" = -1
+	"Caisséne #0" = -1
+	"Cathal #2" = 10
+	"Cathal Cú-Cen-Máthair #1" = 10
+	"Cathussach #1" = 10
+	"Cathán #0" = -1
+	"Cellach #1" = 10
+	"Cenn-Fáelad #2" = 10
+	"Cennétig #1" = 10
+	"Coirpre #1" = 10
+	"Coirpre Cromm #1" = 10
+	"Conall Corc #1" = 10
+	"Crimthann #2" = 10
+	"Crundmáel #0" = 0
+	"Cúán #1" = 10
+	"Deirdre #1" = -1
+	"Demmán #1" = 10
+	"Donncuan #1" = 10
+	"Eochaid #1" = 10
+	"Eterscél #1" = 10
+	"Eógan #1" = 10
+	"Fedlimid #1" = 10
+	"Feidlimid #1" = 10
+	"Finn #0" = 0
+	"Finnsnechtae #1" = 10
+	"Garbán #1" = 10
+	"Gilla-Comgáin #1" = 10
+	"Gilla-Críst #1" = 10
+	"Guy #1" = 10
+	"Lochlann #1" = 10
+	"Loingsech #1" = 10
+	"Lugaid #0" = 0
+	"Luitgard #0" = -1
+	"Mauda #1" = -1
+	"Muirchertach #0" = 0
+	"Máel-Dúin #1" = 10
+	"Máel-Pátraic #0" = 0
+	"Máel-Íosa #1" = 10
+	"Nad-Froich #1" = 10
+	"Ruarc #0" = 0
+	"Siobán #1" = -1
+	"Tuathal #1" = 10
+	"Túathal #1" = 10
+	"Áed #1" = 10
+	"Éndae #1" = 10
+	"Énna #2" = 10
+	"Éua #0" = -1
+	"Ólchobar #2" = 10
+}
+leader_names = {
+	"Caomhanach"
+	"Conchobhair"
+	"Mac Amhalghaidh"
+	"Mac Cochláin"
+	"Mac Coibheanaigh"
+	"Mac Conshnámha"
+	"Mac Fhlannchaidh"
+	"Mac Fionbhair"
+	"Mac Giolla Phadraig"
+	"Mac Raghnaill"
+	"Mac Tighearnáin"
+	"Mac an tSionnaigh"
+	"Mag Eochagáin"
+	"Ó Braoin"
+	"Ó Cairbre"
+	"Ó Caoindealbháin"
+	"Ó Catharnaigh"
+	"Ó Ceallaigh"
+	"Ó Cearbhaill"
+	"Ó Ciardha"
+	"Ó Comhraidhe"
+	"Ó Congalaig"
+	"Ó Cosraigh"
+	"Ó Diubhgeannáin"
+	"Ó Doinn"
+	"Ó Donnchadha"
+	"Ó Dubhghaill"
+	"Ó Dubhuidhe"
+	"Ó Faolain"
+	"Ó Fhearghaill"
+	"Ó Finntighearn"
+	"Ó Fionnaláin"
+	"Ó Lorcáin"
+	"Ó Maolmhuaidh"
+	"Ó Ruairc"
+	"Ó Seaghdha"
+	"Ó Seanáin"
+	"Ó Tuathail"
+	"Ó hAimheirgin"
+	"Ó hAonghusa"
+}
+ship_names = {
+	"Carlow"
+	"Dublin"
+	"Kildare"
+	"Kilkenny"
+	"Laios"
+	"Longford"
+	"Louth"
+	"Meath"
+	"Offaly"
+	"Westmeath"
+	"Wexford"
+	"Wicklow"
+}

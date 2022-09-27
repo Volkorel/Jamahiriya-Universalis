@@ -1,0 +1,14 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 95 134 28 }
+monarch_names = {
+	"Anushirvan #0" = 0
+	"Bishr #0" = 0
+	"Darab #0" = 0
+	"Delaram #0" = -1
+	"Jumana #0" = -1
+	"Juwayriyya #0" = -1
+	"Nuh #0" = 0
+	"Rafi' #0" = 0
+	"Shahram #0" = 0
+}

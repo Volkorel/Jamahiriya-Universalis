@@ -1,0 +1,117 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 66 32 81 }
+revolutionary_colors = { 0 0 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+historical_units = {
+	bardiche_infantry
+	druzhina_cavalry
+	eastern_carabinier
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Anund #0" = 0
+	"Arngrímr #1" = 10
+	"Asli #0" = -1
+	"Azo #0" = 0
+	"Bern #1" = 10
+	"Bóthildr #1" = -1
+	"Eimundr #1" = 10
+	"Elin #0" = -1
+	"Erlend #0" = 0
+	"Fingen #0" = 0
+	"Gorislava #1" = -1
+	"Gradislava #1" = -1
+	"Gulçeçek #0" = -1
+	"Gunnar #0" = 0
+	"Guttormr #1" = 10
+	"Gytha #0" = -1
+	"Harald #0" = 0
+	"Helga #0" = -1
+	"Helgi #1" = 10
+	"Hrœrekr #1" = 10
+	"Ingibjørg #1" = -1
+	"Ingivaldr #0" = 0
+	"Ingvarr #0" = 0
+	"Katarina #0" = -1
+	"Knútr #1" = 10
+	"Mala #0" = -1
+	"Oligu #1" = 10
+	"Paymas #1" = 10
+	"Ragna #0" = -1
+	"Ragnfrid #0" = -1
+	"Rilint #0" = -1
+	"Rostislava #0" = -1
+	"Sigmunt #0" = 0
+	"Skofte #0" = 0
+	"Snøfríðr #0" = -1
+	"Sunniva #0" = -1
+	"Svyatogor #1" = 10
+	"Sæmundr #0" = 0
+	"Tord #0" = 0
+	"Vsemil #1" = 10
+	"Vseslav #1" = 10
+	"Yamysh #1" = 10
+	"Árni #1" = 10
+	"Ásbjørn #1" = 10
+	"Óláfr #1" = 10
+	"Úlfhildr #0" = -1
+	"Þorgrímr #1" = 10
+	"Þorsteinn #0" = 0
+	"ï¿½shild #0" = -1
+}
+leader_names = {
+	"Andomsky"
+	"Beloselsky"
+	"Chernyatinsky"
+	"Dorogobushsky"
+	"Dyabrinsky"
+	"Kargolomsky"
+	"Kashinsky"
+	"Kemsky"
+	"Kholmsky"
+	"Mikulinsky"
+	"Sheleshpansky"
+	"Sugorsky"
+	"Telyatevsky"
+	"Ukhtomsky"
+	"Vadbolsky"
+}
+ship_names = {
+	"Brosno"
+	"Dmitry"
+	"Kashin"
+	"Kholmsky"
+	"Mikhail"
+	"Rzev"
+	"Startsa"
+	"Toropets"
+	"Torzhok"
+	"Tvertsa"
+	"Valdai"
+	"Volga"
+	"Vyshniy Voloche"
+	"Yaroslavich"
+	"Zubtsov"
+}

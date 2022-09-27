@@ -1,0 +1,14 @@
+owner = SHY
+controller = SHY
+capital = "Tara"
+is_city = yes
+culture = siberian
+religion = sunni
+trade_goods = fur
+base_tax = 2
+base_production = 2
+base_manpower = 2
+add_core = SHY
+add_core = SIB
+discovered_by = nomad_group
+revolt_risk = 15

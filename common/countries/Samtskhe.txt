@@ -1,0 +1,128 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 22 157 57 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	religious_ideas
+	quantity_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Abirad #0" = 0
+	"Adarnase #1" = 10
+	"Anna #1" = -1
+	"Artashir #1" = 10
+	"Artavazd #1" = 10
+	"Ashot #3" = 10
+	"Bagrat #1" = 10
+	"Demna #0" = 0
+	"Ghassan #1" = 10
+	"Gurgen #0" = 0
+	"Hagop #0" = 0
+	"Kakhi #1" = 10
+	"Keran #1" = -1
+	"Latavri #0" = -1
+	"Levan #1" = 10
+	"Lykanthes #1" = 10
+	"Malkhas #0" = 0
+	"Manuel #1" = 10
+	"Maria #0" = -1
+	"Melek #0" = 0
+	"Mihrdat #1" = 10
+	"Mushegh #0" = 0
+	"Nerseh #2" = 10
+	"Oshin #1" = 10
+	"Rita #1" = -1
+	"Shanshe #1" = 10
+	"Sirvart #0" = -1
+	"Sumayya #1" = -1
+	"Sumbat #1" = 10
+	"Tatoul #0" = 0
+	"Theodora #0" = -1
+	"Trdat #1" = 10
+	"Vache #1" = 10
+	"Vakhtank #0" = 0
+	"Varazdat #1" = 10
+	"Yeva #1" = -1
+	"Zabel #0" = -1
+	"Zmroukhd #0" = -1
+}
+leader_names = {
+	"Amilakhori"
+	"Avilishvili"
+	"Diasamidze"
+	"Gaganidze"
+	"Gogibashvili"
+	"Gogorishvili"
+	"Khildirbegashvili"
+	"Kobulisdze"
+	"Kopasdze"
+	"Palavandishvili"
+	"Panaskerteli"
+	"Shalikashvili"
+	"Sologashvili"
+	"Sumbatishvili"
+	"Tavdgiridze"
+	"Tukhareli"
+}
+ship_names = {
+	"Aghbugha"
+	"Amirani"
+	"Anakopia"
+	"Apsaros"
+	"Argo"
+	"Armazi"
+	"Artaani"
+	"Avtandil"
+	"Beka"
+	"Beshken"
+	"Bichvinta"
+	"Colchis"
+	"Davit Aghmashenebeli"
+	"Demetre Tavdadebuli"
+	"Didgori"
+	"Dioscurias"
+	"Jvari"
+	"Jvari Vazisa"
+	"Khornabuji"
+	"Lasharisjvari"
+	"Ninotsminda"
+	"Okros Satsmisi"
+	"Parnavaz"
+	"Petre Iberi"
+	"Phasis"
+	"Pityus"
+	"Sargis"
+	"Shota Rustaveli"
+	"Svetitskhoveli"
+	"Tamar"
+	"Tetri Giorgi"
+	"Tsminda Giorgi"
+	"Tsotne Dadiani"
+	"Uplistsikhe"
+	"Vakhtang Gorgasali"
+	"Vardzia"
+	"Venakhi"
+}

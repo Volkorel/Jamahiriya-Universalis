@@ -1,0 +1,7 @@
+
+
+************ -= The Paradox Game Converters Group =- *****************
+* Converter version 1.0K "Karling"
+* Compatible with CK2 [v3.3] and EU4 [v1.34]
+* Built on Thu Sep 15 08:56:08 2022
+*************************** + CK2 To EU4 + ***************************

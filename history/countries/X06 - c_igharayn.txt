@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+technology_group = muslim
+religion = shiite
+primary_culture = khorasani
+capital = 413
+fixed_capital = 413
+add_accepted_culture = luri
+1444.11.11= {
+	monarch = {
+		name = "Reza"
+		dynasty = "Kavaid"
+		adm = 3
+		dip = 4
+		mil = 3
+		birth_date = 1424.2.4
+		religion = shiite
+		culture = khorasani
+	}
+	add_ruler_personality = fierce_negotiator_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Raym"
+		dynasty = "Utbaid"
+		adm = 5
+		dip = 3
+		mil = 6
+		country_of_origin = X06
+		birth_date = 1423.12.26
+		death_date = 1483.12.26
+		female = yes
+		religion = shiite
+		culture = tuareg
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = strict_personality
+}
+1444.11.11= {
+	add_prestige = 18
+	add_treasury = 58
+}

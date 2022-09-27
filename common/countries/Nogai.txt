@@ -1,0 +1,91 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 0 120 145 }
+revolutionary_colors = { 10 0 8 }
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	quantity_ideas
+	expansion_ideas
+	offensive_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = {
+	reformed_steppe_rifles
+	steppe_cavalry
+	steppe_footmen
+	steppe_infantry
+	steppe_lancers
+	steppe_mounted_raiders
+	steppe_musketeers
+	steppe_raiders
+	steppe_riders
+	steppe_rifles
+	steppe_uhlans
+}
+monarch_names = {
+	"Allahyar #3" = 10
+	"Aram #1" = 10
+	"Ardavan #1" = 10
+	"Asli #0" = -1
+	"Avshin #2" = 10
+	"Azarmidokht #0" = -1
+	"Babak #1" = 10
+	"Batan #0" = 0
+	"Bator #1" = 10
+	"Behnaz #0" = -1
+	"Golbahar #0" = -1
+	"Gulçiçek #1" = -1
+	"Harb #1" = 10
+	"Humayun #1" = 10
+	"Hurmat #0" = -1
+	"Jahandar #1" = 10
+	"Javeed #1" = 10
+	"Khosrau #1" = 10
+	"Khudbard #1" = 10
+	"Mohammed #3" = 10
+	"Morad #1" = 10
+	"Osul #0" = 0
+	"Preduslava #0" = -1
+	"Qorqutay #1" = 10
+	"Roxana #0" = -1
+	"Shahruz #1" = 10
+	"Shahryar #1" = 10
+	"Sotan #1" = 10
+	"Teber #1" = 10
+	"Yazdegerd #1" = 10
+	"Zarrindokht #0" = -1
+}
+leader_names = {
+	"Batu-tu"
+	"Berkegene"
+	"Bora Chinua"
+	"Burilgidai"
+	"Chaganchar"
+	"Delger Cheren"
+	"Qadantai"
+	"Qara Erdene"
+	"Qorchigene"
+	"Suren Unegen"
+	"Tegus-chi"
+	"Temurcher"
+	"Ulagan Temur"
+	"Yekechar"
+}
+ship_names = {
+	"Batu Khan"
+	"Buri"
+	"Chaka"
+	"Chinggis Khan"
+	"Edigü"
+	"Kara Nojaj"
+	"Mangyt"
+	"Möngke Timur"
+	"Qara Quchuq"
+	"Saraycik"
+	"Tartar Khan"
+	"Waqqas Bej"
+	"Yayik"
+}

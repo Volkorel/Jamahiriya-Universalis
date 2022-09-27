@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = neapolitan
+capital = 1871
+add_accepted_culture = swiss
+elector = yes
+1444.11.11= {
+	monarch = {
+		name = "Bruna"
+		dynasty = "fan Dinant"
+		adm = 5
+		dip = 3
+		mil = 4
+		birth_date = 1412.7.26
+		female = yes
+		religion = catholic
+		culture = neapolitan
+	}
+	add_ruler_personality = just_personality
+	add_ruler_personality = strict_personality
+	queen = {
+		name = "Arrigo"
+		dynasty = "Pipino"
+		adm = 2
+		dip = 4
+		mil = 4
+		country_of_origin = Y57
+		birth_date = 1413.5.9
+		death_date = 1473.5.9
+		religion = catholic
+		culture = neapolitan
+	}
+	add_queen_personality = benevolent_personality
+	add_queen_personality = pious_personality
+	heir = {
+		name = "Arrigo"
+		monarch_name = "Arrigo"
+		dynasty = "Pipino"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1430.11.5
+		death_date = 1495.11.5
+		claim = 89
+		religion = catholic
+		culture = neapolitan
+	}
+	add_heir_personality = kind_hearted_personality
+	add_heir_personality = naive_personality
+}
+1444.11.11= {
+	add_prestige = 49
+	add_treasury = 48
+}

@@ -1,0 +1,922 @@
+
+#----------- Ranrike Palace -----------
+wonder_palace_12 = {
+	start = 16
+
+	date = 1139.3.25
+
+	time = {
+		 months = 0
+	}
+
+	build_cost = 0
+
+	can_be_moved = no
+
+	move_days_per_unit_distance = 2
+
+	starting_tier = 1
+
+	type = monument
+
+	build_trigger = {
+		
+	}
+
+	on_built = {
+		
+	}
+
+	on_destroyed = {
+		
+	}
+
+	can_use_modifiers_trigger = {
+		
+	}
+
+	can_upgrade_trigger = {
+		
+	}
+
+	keep_trigger = {
+		
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			advisor_cost = 0
+			advisor_pool = 0
+			monarch_military_power = 0
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			advisor_cost = -0.1
+			advisor_pool = 0
+			monarch_military_power = 0
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+
+		cost_to_upgrade = {
+			factor = 3500
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			advisor_cost = -0.2
+			advisor_pool = 1
+			monarch_military_power = 1
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+
+		cost_to_upgrade = {
+			factor = 7000
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			advisor_cost = -0.25
+			advisor_pool = 1
+			monarch_military_power = 1
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+		}
+	}
+}
+
+#-----------------------------
+
+
+#----------- Varažnunik Cathedral -----------
+wonder_cathedral_16777231 = {
+	start = 419
+
+	date = 1288.12.28
+
+	time = {
+		 months = 0
+	}
+
+	build_cost = 0
+
+	can_be_moved = no
+
+	move_days_per_unit_distance = 2
+
+	starting_tier = 0
+
+	type = monument
+
+	build_trigger = {
+		OR = {
+			AND = {
+				religion_group = christian
+				has_owner_religion = yes
+			}
+		
+	}
+	}
+
+	on_built = {
+		
+	}
+
+	on_destroyed = {
+		
+	}
+
+	can_use_modifiers_trigger = {
+		OR = {
+			AND = {
+				religion_group = christian
+				has_owner_religion = yes
+			}
+		
+	}
+	}
+
+	can_upgrade_trigger = {
+		OR = {
+			AND = {
+				religion_group = christian
+				has_owner_religion = yes
+			}
+		
+	}
+	}
+
+	keep_trigger = {
+		
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			global_unrest = 0
+			governing_capacity_modifier = 0
+			missionaries = 0
+			prestige = 0.1
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+			
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			global_unrest = -0.5
+			governing_capacity_modifier = 0.05
+			missionaries = 1
+			prestige = 0.5
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+			
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+
+		cost_to_upgrade = {
+			factor = 3500
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			global_unrest = -1
+			governing_capacity_modifier = 0.1
+			missionaries = 1
+			prestige = 1
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+			
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+
+		cost_to_upgrade = {
+			factor = 7000
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			global_unrest = -1
+			governing_capacity_modifier = 0.15
+			missionaries = 1
+			prestige = 1
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+			
+		}
+	}
+}
+
+#-----------------------------
+
+
+#----------- Underground City of Dzoraget -----------
+wonder_underground_city_16 = {
+	start = 423
+
+	date = 1289.1.19
+
+	time = {
+		 months = 0
+	}
+
+	build_cost = 0
+
+	can_be_moved = no
+
+	move_days_per_unit_distance = 2
+
+	starting_tier = 0
+
+	type = monument
+
+	build_trigger = {
+		
+	}
+
+	on_built = {
+		
+	}
+
+	on_destroyed = {
+		
+	}
+
+	can_use_modifiers_trigger = {
+		
+	}
+
+	can_upgrade_trigger = {
+		
+	}
+
+	keep_trigger = {
+		
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			local_hostile_attrition = 0
+			province_trade_power_value = 0
+			
+		}
+
+		country_modifiers = {
+			caravan_power = 0
+			governing_capacity_modifier = 0
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+			
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			local_hostile_attrition = 1
+			province_trade_power_value = 5
+			
+		}
+
+		country_modifiers = {
+			caravan_power = 0.1
+			governing_capacity_modifier = 0.05
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+			
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+
+		cost_to_upgrade = {
+			factor = 3500
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			local_hostile_attrition = 1
+			province_trade_power_value = 10
+			
+		}
+
+		country_modifiers = {
+			caravan_power = 0.2
+			governing_capacity_modifier = 0.1
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+			
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+
+		cost_to_upgrade = {
+			factor = 7000
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			local_hostile_attrition = 2
+			province_trade_power_value = 15
+			
+		}
+
+		country_modifiers = {
+			caravan_power = 0.3
+			governing_capacity_modifier = 0.15
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+			
+		}
+	}
+}
+
+#-----------------------------
+
+
+#----------- Uch Library -----------
+wonder_library_13 = {
+	start = 2086
+
+	date = 1215.7.22
+
+	time = {
+		 months = 0
+	}
+
+	build_cost = 0
+
+	can_be_moved = yes
+
+	move_days_per_unit_distance = 2
+
+	starting_tier = 1
+
+	type = monument
+
+	build_trigger = {
+		OR = {
+			 NOT = { OWNER = { has_reform = steppe_horde } } 
+	}
+	}
+
+	on_built = {
+		
+	}
+
+	on_destroyed = {
+		
+	}
+
+	can_use_modifiers_trigger = {
+		OR = {
+			 NOT = { OWNER = { has_reform = steppe_horde } } 
+	}
+	}
+
+	can_upgrade_trigger = {
+		OR = {
+			 NOT = { OWNER = { has_reform = steppe_horde } } 
+	}
+	}
+
+	keep_trigger = {
+		
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			idea_cost = 0
+			innovativeness_gain = 0
+			technology_cost = 0
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			idea_cost = -0.1
+			innovativeness_gain = 0.25
+			technology_cost = -0.05
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+
+		cost_to_upgrade = {
+			factor = 3500
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			idea_cost = -0.15
+			innovativeness_gain = 0.5
+			technology_cost = -0.1
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+
+		cost_to_upgrade = {
+			factor = 7000
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			idea_cost = -0.2
+			innovativeness_gain = 1
+			technology_cost = -0.1
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+		}
+	}
+}
+
+#-----------------------------
+
+
+#----------- Grand University of Arghiyan -----------
+wonder_university_11 = {
+	start = 2236
+
+	date = 1123.2.7
+
+	time = {
+		 months = 0
+	}
+
+	build_cost = 0
+
+	can_be_moved = no
+
+	move_days_per_unit_distance = 2
+
+	starting_tier = 3
+
+	type = monument
+
+	build_trigger = {
+		OR = {
+			 NOT = { OWNER = { has_reform = steppe_horde } } 
+	}
+	}
+
+	on_built = {
+		
+	}
+
+	on_destroyed = {
+		
+	}
+
+	can_use_modifiers_trigger = {
+		OR = {
+			 NOT = { OWNER = { has_reform = steppe_horde } } 
+	}
+	}
+
+	can_upgrade_trigger = {
+		OR = {
+			 NOT = { OWNER = { has_reform = steppe_horde } } 
+	}
+	}
+
+	keep_trigger = {
+		
+	}
+
+	tier_0 = {
+		upgrade_time = {
+			months = 0
+		}
+
+		cost_to_upgrade = {
+			factor = 0
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			idea_cost = 0
+			mil_tech_cost_modifier = 0
+			technology_cost = 0
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+		}
+	}
+
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+
+		cost_to_upgrade = {
+			factor = 1000
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			idea_cost = -0.1
+			mil_tech_cost_modifier = -0.05
+			technology_cost = -0.05
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+		}
+	}
+
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+
+		cost_to_upgrade = {
+			factor = 3500
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			idea_cost = -0.15
+			mil_tech_cost_modifier = -0.1
+			technology_cost = -0.1
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+		}
+	}
+
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+
+		cost_to_upgrade = {
+			factor = 7000
+		}
+
+		province_modifiers = {
+			
+		}
+
+		area_modifier = {
+			
+		}
+
+		country_modifiers = {
+			idea_cost = -0.2
+			mil_tech_cost_modifier = -0.2
+			technology_cost = -0.1
+			
+		}
+
+		on_upgraded = {
+			
+			
+			
+			
+		}
+	}
+}
+
+#-----------------------------
+

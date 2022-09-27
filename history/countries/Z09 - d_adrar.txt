@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+technology_group = sub_saharan
+religion = sunni
+primary_culture = senegambian
+capital = 1112
+add_accepted_culture = tuareg
+1444.11.11= {
+	monarch = {
+		name = "Diawara"
+		dynasty = "Eyjinga-Ouadane"
+		adm = 3
+		dip = 4
+		mil = 4
+		birth_date = 1389.10.27
+		religion = sunni
+		culture = senegambian
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = tactical_genius_personality
+	queen = {
+		name = "Zeinab"
+		dynasty = "Keita-Jolof"
+		adm = 4
+		dip = 3
+		mil = 4
+		country_of_origin = Z09
+		birth_date = 1420.7.12
+		death_date = 1480.7.12
+		female = yes
+		religion = sunni
+		culture = bambara
+	}
+	add_queen_personality = fierce_negotiator_personality
+	add_queen_personality = martial_educator_personality
+	heir = {
+		name = "Yansané"
+		monarch_name = "Yansané"
+		dynasty = "Eyjinga-Ouadane"
+		adm = 4
+		dip = 6
+		mil = 5
+		birth_date = 1409.9.9
+		death_date = 1474.9.9
+		claim = 89
+		religion = sunni
+		culture = bozo
+	}
+	add_heir_personality = calm_personality
+	add_heir_personality = careful_personality
+}
+1444.11.11= {
+	add_prestige = 59
+	add_treasury = 65
+}

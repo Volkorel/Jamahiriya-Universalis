@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+technology_group = muslim
+religion = shiite
+primary_culture = khorasani
+capital = 1225
+fixed_capital = 1225
+1444.11.11= {
+	add_prestige = 80
+	add_treasury = 11
+}

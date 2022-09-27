@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = franconian
+capital = 71
+1444.11.11= {
+	monarch = {
+		name = "Chunrat II"
+		dynasty = "von Henneberg"
+		adm = 6
+		dip = 4
+		mil = 4
+		birth_date = 1403.8.7
+		religion = catholic
+		culture = franconian
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Bertrada"
+		dynasty = "fan Franconia-Lusatia"
+		adm = 4
+		dip = 3
+		mil = 2
+		country_of_origin = NUM
+		birth_date = 1403.1.23
+		death_date = 1463.1.23
+		female = yes
+		religion = catholic
+		culture = lower_saxon
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = free_thinker_personality
+	heir = {
+		name = "Eberhart"
+		monarch_name = "Eberhart"
+		dynasty = "von Henneberg"
+		adm = 4
+		dip = 6
+		mil = 4
+		birth_date = 1427.11.27
+		death_date = 1492.11.27
+		claim = 89
+		religion = catholic
+		culture = franconian
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = silver_tongue_personality
+}
+1444.11.11= {
+	add_prestige = 56
+	add_treasury = 67
+}

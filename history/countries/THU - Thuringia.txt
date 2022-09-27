@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = lower_saxon
+capital = 63
+add_accepted_culture = pommeranian
+add_accepted_culture = saxon
+1444.11.11= {
+	monarch = {
+		name = "Luder"
+		dynasty = "Immedinger"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1383.8.25
+		religion = catholic
+		culture = lower_saxon
+	}
+	add_ruler_personality = drunkard_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Yolande"
+		dynasty = "de Blois"
+		adm = 3
+		dip = 4
+		mil = 4
+		country_of_origin = THU
+		birth_date = 1399.10.7
+		death_date = 1459.10.7
+		female = yes
+		religion = catholic
+		culture = burgundian
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = secretive_personality
+	heir = {
+		name = "Luder"
+		monarch_name = "Luder II"
+		dynasty = "Immedinger"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1433.6.8
+		death_date = 1498.6.8
+		claim = 89
+		religion = catholic
+		culture = lower_saxon
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = kind_hearted_personality
+}
+1444.11.11= {
+	add_prestige = 7
+	add_treasury = 50
+}

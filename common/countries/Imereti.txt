@@ -1,0 +1,149 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 36 132 247 }
+revolutionary_colors = { 5 8 10 }
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	religious_ideas
+	quantity_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	muscovite_caracolle
+	muscovite_cossack
+	muscovite_musketeer
+	muscovite_soldaty
+	russian_cuirassier
+	russian_green_coat
+	russian_lancer
+	russian_mass
+	russian_petrine
+	slavic_stradioti
+}
+monarch_names = {
+	"Alp #1" = 10
+	"Anna #0" = -1
+	"Arwa #0" = -1
+	"Ashot #1" = 10
+	"Athom #0" = 0
+	"Aziza #0" = -1
+	"Bagrat #1" = 10
+	"Dragomir #0" = 0
+	"Euphrosyne #1" = -1
+	"Euthymios #1" = 10
+	"Gadar #0" = -1
+	"Gulchara #1" = -1
+	"Hamzah #0" = 0
+	"Hranoush #0" = -1
+	"Iouliane #1" = -1
+	"Khuterkin #1" = 10
+	"Kohar #0" = -1
+	"Konstantin #1" = 10
+	"Kvirike #1" = 10
+	"Liparit #1" = 10
+	"Mara #0" = -1
+	"Margarid #0" = -1
+	"Maria #0" = -1
+	"Merab #1" = 10
+	"Mleh #1" = 10
+	"Mushegh #0" = 0
+	"Mänär #1" = 10
+	"Oshin #2" = 10
+	"Pardos #1" = 10
+	"Sakho #1" = 10
+	"Sanaa #0" = -1
+	"Shanshe #1" = 10
+	"Stylianos #1" = 10
+	"Theodotos #1" = 10
+	"Tornik #1" = 10
+	"Trdat #1" = 10
+	"Vache #0" = 0
+	"Vakhtank #0" = 0
+	"Örs #1" = 10
+}
+leader_names = {
+	"Abashidze"
+	"Agiashvili"
+	"Anchabadze"
+	"Apakidze"
+	"Chichua"
+	"Chijavadze"
+	"Chikovani"
+	"Chkheidze"
+	"Dadeshkeliani"
+	"Dadiani"
+	"Gelovani"
+	"Gurieli"
+	"Iashvili"
+	"Lortkipanidze"
+	"Machavariani"
+	"Machutadze"
+	"Mikeladze"
+	"Mkheidze"
+	"Nakashidze"
+	"Nikoladze"
+	"Nizharadze"
+	"Shervashidze"
+	"Tsereteli"
+	"Tsulukidze"
+}
+ship_names = {
+	"Abkhazeti"
+	"Amirani"
+	"Anakopia"
+	"Apsaros"
+	"Argo"
+	"Armazi"
+	"Artaani"
+	"Ateni Sioni"
+	"Avtandil"
+	"Batomi"
+	"Bichvinta"
+	"Colchis"
+	"Davit Aghmashenebeli"
+	"Demetre Tavdadebuli"
+	"Didgori"
+	"Dioscurias"
+	"Dmanisi"
+	"Gelati"
+	"Giorgi V Brtskinvale"
+	"Jvari"
+	"Jvari Vazisa"
+	"Khornabuji"
+	"Kutaisi"
+	"Lasharisjvari"
+	"Mtkvari"
+	"Ninotsminda"
+	"Okros Satsmisi"
+	"Parnavaz"
+	"Petre Iberi"
+	"Phasis"
+	"Pityus"
+	"Racha"
+	"Rioni"
+	"Ruisi"
+	"Seti"
+	"Shota Rustaveli"
+	"Skhalta"
+	"Svaneti"
+	"Svetitskhoveli"
+	"Tamar"
+	"Tetri Giorgi"
+	"Tsminda Giorgi"
+	"Tsotne Dadiani"
+	"Uplistsikhe"
+	"Ushba"
+	"Vakhtang Gorgasali"
+	"Vardzia"
+	"Venakhi"
+}
