@@ -1,8 +1,8 @@
 owner = Z55
 controller = Z55
-capital = "Maanselkä"
+capital = "Maanselk?"
 is_city = yes
-culture = sapmi
+culture = finnish
 religion = norse_pagan_reformed
 trade_goods = fur
 base_tax = 6

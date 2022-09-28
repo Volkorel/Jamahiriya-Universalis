@@ -1,8 +1,8 @@
 owner = Z55
 controller = Z55
-capital = "Vardø"
+capital = "Vard?"
 is_city = yes
-culture = norwegian
+culture = sapmi
 religion = norse_pagan_reformed
 trade_goods = fish
 base_tax = 3
