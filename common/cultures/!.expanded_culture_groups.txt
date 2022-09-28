@@ -19,8 +19,8 @@ scandinavian = {
 		dynasty_names = { Arnórsson Ásgeirsson Benediktsson Bjarnasen Björnsson Eggers Eldjárn Hafstein Hansen
 		Hermannsson Johánesson Jónsson Magnússon Stefánsson Steinthosson Thórdarson Thórhallson Thorláksson Thurs }
 	}
-	elsinorian = {
-		primary = DAN
+	holmgardi = {
+		primary = NOV
 		dynasty_names = {
 			Arnórsson Ásgeirsson Benediktsson Bjarnasen Björnsson Eggers Eldjárn Hafstein Hansen
 			Hermannsson Johánesson Jónsson Magnússon Stefánsson Steinthosson Thórdarson Thórhallson Thorláksson Thurs
@@ -29,13 +29,6 @@ scandinavian = {
 			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 		}
 	}
-	ruotsish = { primary = FIN }
-	holmgardrian = { primary = NOV }
-	marisbaltician = { primary = EST }
-	normand_norse = { primary = NRM }
-	miklagardrian = { primary = BYZ }
-	serklandic = { } # No primary because it's truly a joke
-	romsborgian = { primary = ITA }
 }
 british = {
 	anglo_saxon = {
