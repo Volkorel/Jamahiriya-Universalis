@@ -4962,6 +4962,7 @@ province;red;green;blue;x;x
 7907;150;150;73;Montauban;
 7908;150;150;148;Annonay;
 7909;150;150;223;StEtienne;
+7911;150;200;98;Beaujolais;
 7914;150;200;48;Thiers;
 7915;150;200;123;StFlour;
 7918;150;200;148;Ventadour;
@@ -4979,7 +4980,10 @@ province;red;green;blue;x;x
 7932;5;5;200;Saintonge;
 7933;200;150;248;Niort;
 7935;200;150;123;Chinon;
+7938;200;150;148;Chalon;
+7951;50;100;97;Semur;
 7957;50;100;72;Etampes;
+7958;50;100;147;Montargis;
 7960;50;150;22;Sorbonne;
 7972;50;200;172;Harfleur;
 7979;50;200;222;Vendome;
@@ -5003,6 +5007,7 @@ province;red;green;blue;x;x
 7998;100;150;147;Poher;
 7999;100;150;222;Treger;
 8013;150;100;247;Guerande;
+8028;150;150;147;Autun;
 8313;63;25;119;Gironde_Estuary;
 8314;153;224;255;Seine_Estuary;
 8315;176;198;224;Seine_River;
