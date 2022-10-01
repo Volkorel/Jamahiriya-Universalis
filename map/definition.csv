@@ -3899,7 +3899,7 @@ province;red;green;blue;x;x
 3898;100;12;198;RNW;
 3899;100;12;199;RNW;
 3900;100;13;100;RNW;
-3901;100;13;101;RNW;
+3091;91;51;198;Macon;x
 3902;100;13;102;RNW;
 3903;100;13;103;RNW;
 3904;100;13;104;RNW;
@@ -4946,6 +4946,7 @@ province;red;green;blue;x;x
 6926;252;191;11;Lower_Seine_River;
 7001;100;100;83;Caltanissetta;
 7002;100;100;158;Catania;
+7003;100;100;238;Catanzaro;
 7038;200;200;132;Bonifacio;
 7040;100;100;6;Corte;
 7095;200;200;104;Sulcis;
@@ -4965,6 +4966,8 @@ province;red;green;blue;x;x
 7911;150;200;98;Beaujolais;
 7914;150;200;48;Thiers;
 7915;150;200;123;StFlour;
+7916;150;200;198;Riom;
+7917;150;200;73;Montlucon;
 7918;150;200;148;Ventadour;
 7919;150;200;223;Comminges;
 7921;200;50;98;Bigorre;
@@ -4979,11 +4982,15 @@ province;red;green;blue;x;x
 7931;200;150;98;Turenne;
 7932;5;5;200;Saintonge;
 7933;200;150;248;Niort;
+7934;200;150;48;Chatellerault;
 7935;200;150;123;Chinon;
+7936;200;150;198;Loches;
+7937;200;150;73;Chateauroux;
 7938;200;150;148;Chalon;
 7951;50;100;97;Semur;
 7957;50;100;72;Etampes;
 7958;50;100;147;Montargis;
+7959;50;100;222;Sancerre;
 7960;50;150;22;Sorbonne;
 7972;50;200;172;Harfleur;
 7979;50;200;222;Vendome;
@@ -5022,4 +5029,5 @@ province;red;green;blue;x;x
 8434;251;178;51;Saint-Georges d Oleron ;
 8435;139;185;101;Royan ;
 8436;6;241;90;Mirande ;
+8437;196;155;101;Sancerre ;
 8531;203;179;55;Blaye;
