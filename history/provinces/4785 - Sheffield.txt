@@ -9,6 +9,7 @@ base_tax = 5
 base_production = 7
 base_manpower = 3
 add_core = ENG
+add_claim = LEI
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian
