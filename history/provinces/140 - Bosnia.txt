@@ -1,5 +1,5 @@
-owner = HUN
-controller = HUN
+owner = HRZ
+controller = HRZ
 capital = "Doboj"
 is_city = yes
 culture = serbian
@@ -8,7 +8,7 @@ trade_goods = salt
 base_tax = 1
 base_production = 3
 base_manpower = 1
-add_core = HUN
+add_core = HRZ
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

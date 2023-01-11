@@ -6,7 +6,6 @@ culture = lower_saxon
 religion = catholic
 trade_goods = fish
 fort_15th = yes
-hre = yes
 base_tax = 5
 base_production = 5
 base_manpower = 4

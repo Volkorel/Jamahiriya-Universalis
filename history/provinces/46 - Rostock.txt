@@ -6,7 +6,6 @@ culture = pommeranian
 religion = catholic
 trade_goods = naval_supplies
 fort_15th = yes
-hre = yes
 base_tax = 4
 base_production = 3
 base_manpower = 2

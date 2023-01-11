@@ -1908,11 +1908,11 @@ kongo_area = { #5
 }
 
 angola_namibia_area = { #5
-	1098 1167 1171 1172 1174 
+	1098 1167 1171 1172
 }
 
 cape_of_good_hope_area = { #5
-	833 1175 1177 1179 1180
+	833 1175 1177 1179 1180 
 }
 
 south_african_plateau_area = { #5
@@ -2635,7 +2635,7 @@ sakha_area = { #3
 }
 
 buryatia_area = { #5
-	1055 1056 1057 1058 2446
+	1055 1056 1057 2446
 }
 
 tunguska_area = { #5
@@ -2690,41 +2690,31 @@ aqmola_area = { #5
 # China      	                       #
 ########################################
 
-heilongjiang_area = { #3 (West Heilongjiang)
-	724 1053 2102 4664
-} 
+#heilongjiang_area = { #3 (West Heilongjiang)
+	#724 1053 2102
+#} 
 
-east_heilongjiang_area = { #4
-	1049 2104 4662 4659 2103
-}
 
 central_heilongjiang_area = {#4
 	727 728 2185 4200 4660
 }
 
-cicigar_area = {
-	4218 725 4665
-}
+#cicigar_area = {
+	#4218 725 4665 4664
+#}
 
 ilan_hala_area = { #5 (North Jilin Area)
-	1048 1050 4214 4216 4215
+	1048 1050 4214 4216 4215 8059
 }
 
 sakhalin_area = { #2
-	1033 4658
-}
-
-central_jilin_area = { #5
-	729 731 2105 4217 4663
+	1033 4658 8060 8061
 }
 
 ningguta_area = { #5
 	2107 2108 4654 4661 4653
 }
 
-furdan_area = {
-	1850 2106 2186 4655 4656
-}
 
 jilin_area = { #4 (South Jilin Area)
 	730 2110 2188 4201 2111
@@ -2734,29 +2724,26 @@ liaoning_area = { #5
 	704 726 2112 2113 4652
 }
 
-ordos_area = { #4 (Western Inner Mongolia)
-	701 709 2191 4223 4676
-}
 
 eastern_mongolia = { #5
-	2109 2187 4202 4674
+	2109 2187 4202 4674 8065
 }
 
 chahar_area = {
 	722 4203 4675 4672 2115
 }
 
-inner_mongolia_area = { #5
-	702  2114 2747 4671 4670
-}
+#inner_mongolia_area = { #5
+	#702  2114 2747 4671 4670
+#}
 
-outer_mongolia_area = { #5
-	717 721 2116  4220
-}
+#outer_mongolia_area = { #5
+	#717 721 2116 4220 4219
+#}
 
-xilin_gol_area = {
-	4219 4673 723 4666 4667
-}
+#xilin_gol_area = {
+	 
+#}
 
 altai_sayan_area = { #3
 	color = { 203 84 84 }
@@ -2765,10 +2752,6 @@ altai_sayan_area = { #3
 
 tannu_uriankhai_area = {#3
 	716 1065 1066 4679
-}
-
-central_mongolia_area = { #3
-	720 2193 4221 4669 4677
 }
 
 uliastai_area = {#3
@@ -2826,31 +2809,31 @@ ngari_area = { #3
 } #new!!
 
 hebei_area = { #4 (North Hebei)
-	703 1816 2136 4194
+	703 1816 2136 4194 8011
 }
 
 south_hebei_area = { #4
-	695 696 2137 4195
+	695 696 2137 4195 8010
 }
 
-shandong_area = { #5
-	690 691 2138 2139 2140
-}
+#shandong_area = { #5
+	#690 691 2138 2139 2140 8040
+#}
 
 jiangsu_area = { #3
-	2141 2142 4196
+	2141 2142 4196 8018 8019
 }
 
 south_jiangsu_area = { #4
-	685 1821 1822 2145
+	685 1821 1822 2145 8022
 }
 
 anhui_area = { #3 (North Anhui)
-	1838 2143 2144
+	1838 2143 2144 8016 8017
 }
 
 south_anhui_area = { #3
-	686 2146 2147
+	686 2146 2147 8020 8021
 }
 
 zhejiang_area = { #5
@@ -2858,79 +2841,41 @@ zhejiang_area = { #5
 }
 
 jiangxi_area = { #4
-	 670 683 1833 2151
+	 670 683 1833 2151 8024 8038
 }
 
 fujian_area = { #4
-	669 1829 2152 2153
+	669 1829 2152 2153 8028 8039
 }
 
 taiwan_area = { #3
-	738 2154 2155
+	738 2154 2155 8029 8030
 }
 
 guangdong_area = { #5
 	667 668 2156 2157 2158
 }
 
-west_guangdong_area = { #5
-	665 666 2159 2160 2161 
-}
 
-guangxi_area = { #5
-	664 1840 2162 2163 2164
-}
-
-yun_gui_area = { #5 (Yun-Gui Hinterland)
-	662 663 673 674 4199
-}
-
-yun_gui_borderland_area = { #5
-	660 661 2165 2166 2167
-}
-
-sichuan_area = { #3
-	679 680 4212
-}
-
-chuannan_area = { #4
-	675 2168 2748 4213
-}
-
-chuanbei_area = { #3
-	2169 2170 4211
-}
-
-huguang_area = { #5 (Hubei)
-	681 682 2171 2172 4197
-}
-
-hunan_area = { #4
-	671 672 2173 2174
-}
+#hunan_area = { #4
+	#671 672 2173 2174 8023
+#}
 
 henan_area = { #3 (South Henan)
-	687 2175 2176
+	687 2175 2176 8014 8015
 }
 
 north_henan_area = { #3
-	688 692 1836
+	688 692 1836 8012 8013
 }
 
-shanxi_area = { #5
-	693 694 697 2177 2178
-}
+#shanxi_area = { #5
+#	693 694 697 2177 2178
+#}
 
-shaanxi_area = { #4
-	689 700 2179 4198
-}
-
-gansu_area = { #5 (East Gansu)
-	698 699 2180 2181 2183
-}
 
 west_gansu_area = { #4 
-	707 708 2182 2184
+	707 708 2182 2184 8026
 }
 
 ########################################
@@ -3732,7 +3677,128 @@ transvaal_area = { #4
 #Deprecated:
 #############################
 
-#The areas below are used within other scripts and should be not deleted
+great_moluccas_area = {
+
+}
+
+khorasan_area = {
+}
+
+libyan_desert_area = {
+	 
+}
+
+gharbia_area = {
+}
+
+sharqiya_area = {
+}
+
+central_egypt_area = {
+}
+
+upper_egypt_area = {
+}
+
+eastern_mediterrenean_islands_area = {
+}
+
+western_aegean_area = {
+}
+
+odishi_area = {
+}
+
+georgia_area = {
+}
+
+rakka_area = {
+}
+
+south_kurdistan_area = {
+}
+
+east_china_sea_islands_area = {
+
+}
+
+east_african_islands_area = {
+	 
+}
+
+arabian_sea_islands_area = {
+	 
+}
+
+baltic_islands_area = {
+	 
+}
+
+east_altishahr_area = {
+
+}
+
+amnok_area = {
+
+}
+
+north_korea_area = {
+
+}
+
+hejaz_area = {
+
+}
+
+sarat_area = {
+	
+}
+
+ad_dahna_area = {
+}
+
+najd_area = {
+
+}
+
+northern_england_area = {
+}
+
+mercia_area = { 
+}
+
+eastern_ireland_area = {
+}
+
+western_ireland_area = {
+}
+
+
+seine_area = {
+}
+
+luxemburg_liege_area = {
+}
+
+coromandel_area = {
+}
+
+carnatic_area = {
+
+}
+
+kerala_area = {
+
+}
+maharashtra_area = {
+
+}
+gujarat_area = { }
+
+central_doab_area = {
+}
+
+nepalese_area = { }
 
 pomerelia_area = { }
 
@@ -3746,4 +3812,167 @@ indonesian_islands_area = {  }
 
 iceland_area = { }
 
+ceram_area = { }
+
 south_laos_area = { }
+
+################自建区域
+namibiya_area = { #纳米比亚
+    8000 1174 8001 8002 8003
+}
+
+daolisi_area = { #道里斯
+    8004 8005 8006 8007 8008 8009
+}
+
+shanxi_north_area = { #山西北部
+	697 2177 8031 8032
+}
+
+shanxi_south_area = { #山西南部
+	693 2178 694 8033 8034
+}
+
+hunan_north_area = { #湖南北部
+	671 672 8036 8035
+}
+
+hunan_south_area = { #湖南南部
+	2173 2174 8023 8037
+}
+
+shandong_eastern_area = { #山东东部
+	690 2138 2139 8040
+}
+
+shandong_western_area = { #山东西部
+	691 2140 8041 8042
+}
+
+inner_mongolia_eastern_area = { #内蒙古东部
+	2114 723 4673 4671 8043
+}
+
+inner_mongolia_western_area = { #内蒙古西部
+	702 2747 4670 8044 8045
+}
+
+outer_mongolia_eastern_area = { #外蒙古东部
+	721 4219 4667 8046 8047
+}
+
+outer_mongolia_western_area = { #外蒙古西部
+	717 2116 4220 8048 8049
+}
+
+cicigar_area = {#齐齐哈尔
+	4218 725 4665 4664 8050
+}
+
+heilongjiang_area = { #黑龙江西部
+	2102 1058 8053 8054
+} 
+
+hulunbeier_area = { #呼伦贝尔
+	724 1053 4666 8051 8052
+}
+
+furdan_area = { #富尔丹
+	2106 1850 2186 4655 4656
+}
+
+yilanhala_south_area = { #南依兰哈喇
+	731 4663 8055 8056 
+}
+
+yilanhala_zhong_area = { #中依兰哈喇
+	4217 729 2105 8057 8058
+}
+
+east_heilongjiang_area = { #黑龙江东部
+	1049 4662 8062 8063
+}
+
+wudihe_area = { #乌弟河
+	8064 4659 2104 2103
+}
+
+central_mongolia_area = { #戈壁
+	2193 4221 4677 8068
+}
+
+donggebi_area = { #东戈壁
+	720 4669 8066 8067
+}
+
+ordos_area = { # 鄂尔多斯
+	701 4223 8069 8070
+}
+
+xi_ordos_area = { # 西鄂尔多斯
+	709 2191 4676
+}
+
+sichuan_area = { #四川
+	679 680 4212 8071 8072 8073
+}
+
+chuannan_area = { #川南
+	675 2168 2748 4213 8025
+}
+
+chuanbei_area = { #川北
+	2169 2170 4211 8074 8075
+}
+
+huguang_area = { #湖北
+	682 4197 8076 8077 8078
+}
+
+xi_huguang_area = { #湖北西部
+	681 2171 2172 8079
+}
+
+yun_gui_area = { #云贵腹地
+	662 663 2165 660 8082
+}
+
+guizhou_area = { #贵州
+	673 674 4199 8080 8081
+}
+
+yun_gui_borderland_area = { #云贵边陲
+	661 2166 2167 8083 8084
+}
+
+guangxi_area = { #广西
+	1840 2163 8085 8087
+}
+
+nan_guangxi_area = { #广西南部
+	2164 8086 8088 664 2162
+}
+
+gansu_area = { #甘肃东部
+	699 2180 2183 8091 8092
+}
+
+ningxia_area = { #宁夏
+	698 2181 8089 8090
+}
+
+shaanxi_area = { #陕西
+	689 700 4198 8093 8094
+}
+
+bei_shaanxi_area = { #陕西北部
+	2179 8027 8095 8096
+}
+
+west_guangdong_area = { #广东西部
+	665 2159 2161 8100
+}
+
+hainan_area = {	#海南
+	666 2160 8097 8098 8099
+}

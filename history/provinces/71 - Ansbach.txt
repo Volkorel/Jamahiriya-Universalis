@@ -6,7 +6,6 @@ culture = franconian
 religion = catholic
 trade_goods = salt
 fort_15th = yes
-hre = yes
 base_tax = 3
 base_production = 2
 base_manpower = 4

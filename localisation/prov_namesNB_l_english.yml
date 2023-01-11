@@ -1,0 +1,103 @@
+﻿l_english:
+ Wendeheke:0 "Windhoek"  #温得和克（首都）
+ Daolisi:0 "Doris"   #道里斯（首都）
+ PROV8000:0 "Alexander Bay"  #亚历山大贝
+ PROV8001:0 "Ludritz"  #吕德里茨
+ PROV8002:0 "Malinthal"  #马林塔尔
+ PROV8003:0 "Windhoek"  #温得和克
+ PROV8004:0 "Alandis"  #阿兰迪斯
+ PROV8005:0 "Opvo"  #奥普沃
+ PROV8006:0 "Aumentri"  #奥门特里
+ PROV8007:0 "Doris"  #道里斯
+ PROV8008:0 "Horixas"  #霍里克萨斯
+ PROV8009:0 "Kamanibuya"  #卡马尼布亚
+ PROV8010:0 "Hengshui"  #衡水
+ PROV8011:0 "Tianjin"  #天津
+ PROV8012:0 "Puyang"  #濮阳
+ PROV8013:0 "Pingdingshan"  #平顶山
+ PROV8014:0 "XuChang"  #许昌
+ PROV8015:0 "Xinyang"  #信阳
+ PROV8016:0 "Ma'an Mountain"  #马鞍山
+ PROV8017:0 "Lu'an"  #六安
+ PROV8018:0 "Suqian"  #宿迁
+ PROV8019:0 "Yancheng"  #盐城
+ PROV8020:0 "Tongling"  #铜陵
+ PROV8021:0 "Jiaxing"  #嘉兴
+ PROV8022:0 "Nantong"  #南通
+ PROV8023:0 "Yongzhou"  #永州
+ PROV8024:0 "Yingtan"  #鹰潭
+ PROV8025:0 "Yibin"  #宜宾
+ PROV8026:0 "Jiayuguan"  #嘉峪关
+ PROV8027:0 "Yulin"  #榆林
+ PROV8028:0 "Xiamen"  #厦门
+ PROV8029:0 "Hualian"  #花莲
+ PROV8030:0 "Gaoxiong"  #高雄
+ PROV8031:0 "Shuozhou"  #朔州
+ PROV8032:0 "Xinzhou"  #忻州
+ PROV8033:0 "Lvliang"  #吕梁
+ PROV8034:0 "Yangquan"  #阳泉
+ PROV8035:0 "Zhangjiajie"  #张家界
+ PROV8036:0 "Yueyang"  #岳阳
+ PROV8037:0 "Shaoyang"  #邵阳
+ PROV8038:0 "Yichun"  #宜春
+ PROV8039:0 "Nanping"  #南平
+ PROV8040:0 "Weihai"  #威海
+ PROV8041:0 "Rizhao"  #日照
+ PROV8042:0 "Caoxian"  #曹县
+ PROV8043:0 "Huade"  #化德
+ PROV8044:0 "Baotou"  #包头
+ PROV8045:0 "Bayan'e"  #白云鄂
+ PROV8046:0 "Matad"  #马塔德
+ PROV8047:0 "Dariganga"  #达里甘嘎
+ PROV8048:0 "Darhan"  #达尔汗
+ PROV8050:0 "Gannan"  #甘南
+ PROV8051:0 "Xing'an League"  #兴安盟
+ PROV8052:0 "Tahe"  #塔河
+ PROV8053:0 "Siurkan"  #西乌尔堪
+ PROV8054:0 "Eastern Gannan River"  #东幹难河
+ PROV8055:0 "Qitai River"  #七台河
+ PROV8056:0 "Yichun"  #伊春
+ PROV8057:0 "Eastern Boli"  #东伯力
+ PROV8058:0 "Northern Kulu"  #北库噜
+ PROV8059:0 "Sakhalin Bay"  #萨哈林湾
+ PROV8060:0 "Dolinsk"  #多林斯克
+ PROV8061:0 "Boronesk"  #波罗奈斯克
+ PROV8062:0 "Southern kelp"  #南海兰泡
+ PROV8063:0 "Northern Hailan bubble"  #北海兰泡
+ PROV8064:0 "Selemza"  #谢列姆扎
+ PROV8065:0 "Kailu"  #开鲁
+ PROV8066:0 "Manley"  #曼莱
+ PROV8067:0 "Atanchelli"  #阿坦谢利
+ PROV8068:0 "Mandahan"  #曼达汉
+ PROV8069:0 "Southern Ordos"  #南鄂尔多斯
+ PROV8070:0 "Wuhai"  #乌海
+ PROV8071:0 "Wanzhou"  #万州
+ PROV8072:0 "Nanchong"  #南充
+ PROV8073:0 "Neijiang"  #内江
+ PROV8074:0 "Guangyuan"  #广元
+ PROV8075:0 "Wenchuan"  #汶川
+ PROV8076:0 "Xianning"  #咸宁
+ PROV8077:0 "Huangshi"  #黄石
+ PROV8078:0 "Suizhou"  #随州
+ PROV8079:0 "Jingmen"  #荆门
+ PROV8080:0 "Anshun"  #安顺
+ PROV8081:0 "Fuquan˜"  #福泉
+ PROV8082:0 "Yuxi"  #玉溪
+ PROV8083:0 "Yongren"  #永仁
+ PROV8084:0 "Baoshan"  #保山
+ PROV8085:0 "Laibin"  #来宾
+ PROV8086:0 "Congzuo"  #崇左
+ PROV8087:0 "Hechi"  #河池
+ PROV8088:0 "Yulin"  #玉林
+ PROV8089:0 "Guyuan"  #固原
+ PROV8090:0 "Qingyang"  #庆阳
+ PROV8091:0 "Baiyin"  #白银
+ PROV8092:0 "Dingxi"  #定西
+ PROV8093:0 "Ankang"  #安康
+ PROV8094:0 "Shangluo"  #商洛
+ PROV8095:0 "Tongchuan"  #铜川
+ PROV8096:0 "Zichang"  #子长
+ PROV8097:0 "Changhua"  #昌化
+ PROV8098:0 "Wanzhou"  #万州
+ PROV8099:0 "Wenchang"  #文昌
+ PROV8100:0 "Zhanjiang"  #湛江

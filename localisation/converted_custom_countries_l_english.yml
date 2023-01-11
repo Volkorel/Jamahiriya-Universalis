@@ -13,7 +13,12 @@
  ISR_ADJ:0 "Israeli"
  TEM:0 "Knights Templar"
  TEM_ADJ:0 "Templar"
-
+ HUN:0 "Máriaföld"
+ HUN_ADJ:0 "Máriaföld"
+ Y40:0 "Latin Empire"
+ Y40_ADJ:0 "Latin"
+ ADU:0 "Crown of Castille and Andalusia"
+ ADU_ADJ:0 "Athnaynese"
  #New Countries
  ADD:0 "Order of St. Addai"
  ADD_ADJ:0 "St. Addai"

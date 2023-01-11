@@ -1,0 +1,101 @@
+﻿l_english:
+ PROV_ADJ8000:0 "Alexander Bay"  #亚历山大贝
+ PROV_ADJ8001:0 "Ludritz"  #吕德里茨
+ PROV_ADJ8002:0 "Malinthal"  #马林塔尔
+ PROV_ADJ8003:0 "Windhoek"  #温得和克
+ PROV_ADJ8004:0 "Alandis"  #阿兰迪斯
+ PROV_ADJ8005:0 "Opvo"  #奥普沃
+ PROV_ADJ8006:0 "Aumentri"  #奥门特里
+ PROV_ADJ8007:0 "Doris"  #道里斯
+ PROV_ADJ8008:0 "Horixas"  #霍里克萨斯
+ PROV_ADJ8009:0 "Kamanibuya"  #卡马尼布亚
+ PROV_ADJ8010:0 "Hengshui"  #衡水
+ PROV_ADJ8011:0 "Tianjin"  #天津
+ PROV_ADJ8012:0 "Puyang"  #濮阳
+ PROV_ADJ8013:0 "Pingdingshan"  #平顶山
+ PROV_ADJ8014:0 "XuChang"  #许昌
+ PROV_ADJ8015:0 "Xinyang"  #信阳
+ PROV_ADJ8016:0 "Ma'an Mountain"  #马鞍山
+ PROV_ADJ8017:0 "Lu'an"  #六安
+ PROV_ADJ8018:0 "Suqian"  #宿迁
+ PROV_ADJ8019:0 "Yancheng"  #盐城
+ PROV_ADJ8020:0 "Tongling"  #铜陵
+ PROV_ADJ8021:0 "Jiaxing"  #嘉兴
+ PROV_ADJ8022:0 "Nantong"  #南通
+ PROV_ADJ8023:0 "Yongzhou"  #永州
+ PROV_ADJ8024:0 "Yingtan"  #鹰潭
+ PROV_ADJ8025:0 "Yibin"  #宜宾
+ PROV_ADJ8026:0 "Jiayuguan"  #嘉峪关
+ PROV_ADJ8027:0 "Yulin"  #榆林
+ PROV_ADJ8028:0 "Xiamen"  #厦门
+ PROV_ADJ8029:0 "Hualian"  #花莲
+ PROV_ADJ8030:0 "Gaoxiong"  #高雄
+ PROV_ADJ8031:0 "Shuozhou"  #朔州
+ PROV_ADJ8032:0 "Xinzhou"  #忻州
+ PROV_ADJ8033:0 "Lvliang"  #吕梁
+ PROV_ADJ8034:0 "Yangquan"  #阳泉
+ PROV_ADJ8035:0 "Zhangjiajie"  #张家界
+ PROV_ADJ8036:0 "Yueyang"  #岳阳
+ PROV_ADJ8037:0 "Shaoyang"  #邵阳
+ PROV_ADJ8038:0 "Yichun"  #宜春
+ PROV_ADJ8039:0 "Nanping"  #南平
+ PROV_ADJ8040:0 "Weihai"  #威海
+ PROV_ADJ8041:0 "Rizhao"  #日照
+ PROV_ADJ8042:0 "Caoxian"  #曹县
+ PROV_ADJ8043:0 "Huade"  #化德
+ PROV_ADJ8044:0 "Baotou"  #包头
+ PROV_ADJ8045:0 "Bayan'e"  #白云鄂
+ PROV_ADJ8046:0 "Matad"  #马塔德
+ PROV_ADJ8047:0 "Dariganga"  #达里甘嘎
+ PROV_ADJ8048:0 "Darhan"  #达尔汗
+ PROV_ADJ8050:0 "Gannan"  #甘南
+ PROV_ADJ8051:0 "Xing'an League"  #兴安盟
+ PROV_ADJ8052:0 "Tahe"  #塔河
+ PROV_ADJ8053:0 "Siurkan"  #西乌尔堪
+ PROV_ADJ8054:0 "Eastern Gannan River"  #东幹难河
+ PROV_ADJ8055:0 "Qitai River"  #七台河
+ PROV_ADJ8056:0 "Yichun"  #伊春
+ PROV_ADJ8057:0 "Eastern Boli"  #东伯力
+ PROV_ADJ8058:0 "Northern Kulu"  #北库噜
+ PROV_ADJ8059:0 "Sakhalin Bay"  #萨哈林湾
+ PROV_ADJ8060:0 "Dolinsk"  #多林斯克
+ PROV_ADJ8061:0 "Boronesk"  #波罗奈斯克
+ PROV_ADJ8062:0 "Southern kelp"  #南海兰泡
+ PROV_ADJ8063:0 "Northern Hailan bubble"  #北海兰泡
+ PROV_ADJ8064:0 "Selemza"  #谢列姆扎
+ PROV_ADJ8065:0 "Kailu"  #开鲁
+ PROV_ADJ8066:0 "Manley"  #曼莱
+ PROV_ADJ8067:0 "Atanchelli"  #阿坦谢利
+ PROV_ADJ8068:0 "Mandahan"  #曼达汉
+ PROV_ADJ8069:0 "Southern Ordos"  #南鄂尔多斯
+ PROV_ADJ8070:0 "Wuhai"  #乌海
+ PROV_ADJ8071:0 "Wanzhou"  #万州
+ PROV_ADJ8072:0 "Nanchong"  #南充
+ PROV_ADJ8073:0 "Neijiang"  #内江
+ PROV_ADJ8074:0 "Guangyuan"  #广元
+ PROV_ADJ8075:0 "Wenchuan"  #汶川
+ PROV_ADJ8076:0 "Xianning"  #咸宁
+ PROV_ADJ8077:0 "Huangshi"  #黄石
+ PROV_ADJ8078:0 "Suizhou"  #随州
+ PROV_ADJ8079:0 "Jingmen"  #荆门
+ PROV_ADJ8080:0 "Anshun"  #安顺
+ PROV_ADJ8081:0 "Fuquan˜"  #福泉
+ PROV_ADJ8082:0 "Yuxi"  #玉溪
+ PROV_ADJ8083:0 "Yongren"  #永仁
+ PROV_ADJ8084:0 "Baoshan"  #保山
+ PROV_ADJ8085:0 "Laibin"  #来宾
+ PROV_ADJ8086:0 "Congzuo"  #崇左
+ PROV_ADJ8087:0 "Hechi"  #河池
+ PROV_ADJ8088:0 "Yulin"  #玉林
+ PROV_ADJ8089:0 "Guyuan"  #固原
+ PROV_ADJ8090:0 "Qingyang"  #庆阳
+ PROV_ADJ8091:0 "Baiyin"  #白银
+ PROV_ADJ8092:0 "Dingxi"  #定西
+ PROV_ADJ8093:0 "Ankang"  #安康
+ PROV_ADJ8094:0 "Shangluo"  #商洛
+ PROV_ADJ8095:0 "Tongchuan"  #铜川
+ PROV_ADJ8096:0 "Zichang"  #子长
+ PROV_ADJ8097:0 "Changhua"  #昌化
+ PROV_ADJ8098:0 "Wanzhou"  #万州
+ PROV_ADJ8099:0 "Wenchang"  #文昌
+ PROV_ADJ8100:0 "Zhanjiang"  #湛江

@@ -6,7 +6,6 @@ culture = bavarian
 religion = catholic
 trade_goods = wine
 fort_15th = yes
-hre = yes
 base_tax = 9
 base_production = 1
 base_manpower = 3

@@ -220,6 +220,7 @@ baltic_region = {
 		curonia_area
 		west_prussia_area
 		east_prussia_area
+		pomerelia_area
 		samogitia_area
 	}
 }
@@ -607,6 +608,8 @@ south_africa_region = {
 		butua_area
 		limpopo_area
 		transvaal_area
+		namibiya_area
+		daolisi_area
 	}
 	monsoon = {
 		00.11.01
@@ -644,35 +647,47 @@ east_siberia_region = {
 
 mongolia_region = {
 	areas = {
-		outer_mongolia_area
-		inner_mongolia_area
-		ordos_area
+		#outer_mongolia_area
+		outer_mongolia_eastern_area
+		outer_mongolia_western_area
+		heilongjiang_area
+		#inner_mongolia_area
+		#ordos_area
 		zungaria_area
 		north_zungaria
 		altai_sayan_area
-		eastern_mongolia
+		#eastern_mongolia
 		central_mongolia_area
 		uliastai_area
 		turpan_kumul_area
 		tannu_uriankhai_area
 		xilin_gol_area
-		chahar_area
-		cicigar_area
+		#cicigar_area
+		donggebi_area
+		inner_mongolia_eastern_area
+		inner_mongolia_western_area
+		xi_ordos_area
 	}
 }
 
 manchuria_region = {
 	areas = {
-		heilongjiang_area
+		#heilongjiang_area
+		hulunbeier_area
 		east_heilongjiang_area
 		jilin_area
 		central_jilin_area
 		ilan_hala_area
-		liaoning_area
+		#liaoning_area
 		ningguta_area
 		central_heilongjiang_area
+		eastern_mongolia
 		sakhalin_area
 		furdan_area
+		cicigar_area		
+		yilanhala_zhong_area
+		yilanhala_south_area
+		wudihe_area
 	}
 }
 
@@ -884,8 +899,13 @@ south_china_region = {
 		south_anhui_area
 		taiwan_area
 		south_jiangsu_area
-		hunan_area
+		#hunan_area
+		hunan_north_area
+		hunan_south_area
 		guangxi_area
+		xi_huguang_area
+		nan_guangxi_area
+		hainan_area
 	}
 	monsoon = {
 		00.05.01
@@ -900,6 +920,7 @@ xinan_region = {
 		chuannan_area
 		yun_gui_borderland_area
 		chuanbei_area
+		guizhou_area
 	}
 }
 
@@ -910,13 +931,23 @@ north_china_region = {
 		south_hebei_area
 		shandong_area
 		henan_area
-		shanxi_area
+		#shanxi_area
+		shanxi_north_area
+		shanxi_south_area
 		gansu_area
 		shaanxi_area
 		north_henan_area
 		west_gansu_area
 		jiangsu_area
 		anhui_area
+		shandong_eastern_area
+		shandong_western_area				
+		ordos_area
+		liaoning_area
+		ningxia_area
+		bei_shaanxi_area
+		chahar_area
+		
 	}
 }
 

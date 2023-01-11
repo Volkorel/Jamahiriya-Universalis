@@ -1,5 +1,5 @@
-owner = MOL
-controller = MOL
+owner = Y80
+controller = Y80
 capital = "Bender"
 is_city = yes
 culture = kishinyov
@@ -10,6 +10,8 @@ base_production = 1
 base_manpower = 1
 add_core = MOL
 add_core = VOL
+add_core = WAL
+add_core = Y80
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = BUL
-controller = BUL
+owner = HUN
+controller = HUN
 capital = "Varazdin"
 is_city = yes
 culture = croatian
@@ -8,7 +8,8 @@ trade_goods = cloth
 base_tax = 3
 base_production = 5
 base_manpower = 2
-add_core = BUL
+add_core = HUN
+add_core = CRO
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

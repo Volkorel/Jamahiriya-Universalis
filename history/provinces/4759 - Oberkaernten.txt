@@ -6,7 +6,6 @@ culture = slovene
 religion = catholic
 trade_goods = iron
 fort_15th = yes
-hre = yes
 base_tax = 5
 base_production = 1
 base_manpower = 4
