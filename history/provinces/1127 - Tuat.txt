@@ -1,3 +1,5 @@
+owner = JOL
+controller = JOL
 capital = "Tawat"
 culture = tuareg
 religion = sunni
@@ -5,6 +7,7 @@ trade_goods = unknown
 base_tax = 4
 base_production = 2
 base_manpower = 1
+add_core = JOL
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

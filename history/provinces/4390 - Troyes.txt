@@ -1,5 +1,5 @@
-owner = NEV
-controller = NEV
+owner = BUR
+controller = BUR
 capital = "Troyes"
 is_city = yes
 culture = cosmopolitan_french
@@ -10,6 +10,7 @@ base_tax = 8
 base_production = 3
 base_manpower = 2
 add_core = FRA
+add_core = BUR
 add_core = NEV
 discovered_by = MGE
 discovered_by = eastern

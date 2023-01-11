@@ -1,5 +1,5 @@
-owner = PAL
-controller = PAL
+owner = GER
+controller = GER
 capital = "Koblenz"
 is_city = yes
 culture = hessian
@@ -10,6 +10,7 @@ base_production = 3
 base_manpower = 3
 add_core = HES
 add_core = PAL
+add_core = GER
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

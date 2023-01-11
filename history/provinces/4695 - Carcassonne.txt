@@ -1,5 +1,5 @@
-owner = Y83
-controller = Y83
+owner = TOU
+controller = TOU
 capital = "Carcassonne"
 is_city = yes
 culture = occitain
@@ -10,6 +10,7 @@ base_tax = 6
 base_production = 3
 base_manpower = 6
 add_core = Y83
+add_core = TOU
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -1,7 +1,10 @@
+owner = JOL
+controller = JOL
 capital = "Arguin"
 culture = berber
 religion = sunni
 trade_goods = unknown
+add_core = JOL
 base_tax = 1
 base_production = 1
 base_manpower = 1

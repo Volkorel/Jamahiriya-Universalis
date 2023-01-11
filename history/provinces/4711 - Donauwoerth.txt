@@ -1,5 +1,5 @@
-owner = NUM
-controller = NUM
+owner = GER
+controller = GER
 capital = "Nördlingen"
 is_city = yes
 culture = swabian
@@ -9,6 +9,7 @@ base_tax = 6
 base_production = 1
 base_manpower = 2
 add_core = NUM
+add_core = GER
 add_core = SWA
 discovered_by = MGE
 discovered_by = eastern

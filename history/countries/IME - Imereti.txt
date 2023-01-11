@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = eastern
-religion = coptic
+religion = apostolic
 primary_culture = armenian
 capital = 422
 1444.11.11= {
@@ -13,7 +13,7 @@ capital = 422
 		dip = 4
 		mil = 4
 		birth_date = 1415.7.22
-		religion = coptic
+		religion = apostolic
 		culture = armenian
 	}
 	add_ruler_personality = drunkard_personality
@@ -28,7 +28,7 @@ capital = 422
 		birth_date = 1414.1.5
 		death_date = 1474.1.5
 		female = yes
-		religion = coptic
+		religion = apostolic
 		culture = goths
 	}
 	add_queen_personality = intricate_web_weaver_personality

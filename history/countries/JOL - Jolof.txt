@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = ottoman_government
-government_rank = 1
+government_rank = 3
 technology_group = sub_saharan
 religion = sunni
 primary_culture = bambara

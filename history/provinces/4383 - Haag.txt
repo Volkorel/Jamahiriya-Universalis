@@ -1,5 +1,5 @@
-owner = HOL
-controller = HOL
+owner = FRI
+controller = FRI
 capital = "'s-Gravenhage"
 is_city = yes
 culture = italian
@@ -10,7 +10,7 @@ base_production = 1
 base_manpower = 2
 extra_cost = 10
 add_core = HOL
-add_core = ITA
+add_core = FRI
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

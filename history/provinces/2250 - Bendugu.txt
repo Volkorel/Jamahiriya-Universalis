@@ -1,5 +1,5 @@
-owner = JOL
-controller = JOL
+owner = MAL
+controller = MAL
 capital = "San"
 is_city = yes
 culture = bambara
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 5
 base_production = 1
 base_manpower = 1
-add_core = JOL
+add_core = MAL
 add_core = SOF
 add_core = Z69
 discovered_by = MGE

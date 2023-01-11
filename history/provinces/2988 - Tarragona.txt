@@ -1,5 +1,5 @@
-owner = CAT
-controller = CAT
+owner = ADU
+controller = ADU
 capital = "Taragona"
 is_city = yes
 culture = andalucian
@@ -11,6 +11,7 @@ base_manpower = 3
 extra_cost = 10
 add_core = CAT
 add_core = GRA
+add_core = ADU
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

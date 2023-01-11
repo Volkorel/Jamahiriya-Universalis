@@ -1,5 +1,5 @@
-owner = Y45
-controller = Y45
+owner = BUR
+controller = BUR
 capital = "Salins"
 is_city = yes
 culture = occitain
@@ -10,6 +10,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 add_core = Y45
+add_core = BUR
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

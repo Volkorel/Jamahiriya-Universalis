@@ -1,5 +1,5 @@
-owner = WBG
-controller = WBG
+owner = GER
+controller = GER
 capital = "Würzburg"
 is_city = yes
 culture = franconian
@@ -9,6 +9,7 @@ base_tax = 7
 base_production = 3
 base_manpower = 3
 add_core = FKN
+add_core = GER
 add_core = WBG
 discovered_by = MGE
 discovered_by = eastern

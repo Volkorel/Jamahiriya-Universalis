@@ -1,5 +1,5 @@
-owner = GER
-controller = GER
+owner = PAD
+controller = PAD
 capital = "Dortmund"
 is_city = yes
 culture = lower_saxon
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 2
 center_of_trade = 1
-add_core = GER
+add_core = PAD
 add_core = HAN
 discovered_by = MGE
 discovered_by = eastern

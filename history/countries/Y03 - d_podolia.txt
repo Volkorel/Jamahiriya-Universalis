@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
-religion = coptic
+religion = apostolic
 primary_culture = hungarian
 capital = 1943
 add_accepted_culture = ruthenian
@@ -14,7 +14,7 @@ add_accepted_culture = ruthenian
 		dip = 3
 		mil = 4
 		birth_date = 1404.6.14
-		religion = coptic
+		religion = apostolic
 		culture = hungarian
 	}
 	add_ruler_personality = pious_personality
@@ -29,7 +29,7 @@ add_accepted_culture = ruthenian
 		birth_date = 1409.8.7
 		death_date = 1469.8.7
 		female = yes
-		religion = coptic
+		religion = apostolic
 		culture = lithuanian
 	}
 	add_queen_personality = secretive_personality

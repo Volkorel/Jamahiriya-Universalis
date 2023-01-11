@@ -1,5 +1,5 @@
-owner = Z50
-controller = Z50
+owner = TOU
+controller = TOU
 capital = "Viviers"
 is_city = yes
 culture = occitain
@@ -10,6 +10,7 @@ base_tax = 6
 base_production = 3
 base_manpower = 2
 add_core = Z50
+add_core = TOU
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

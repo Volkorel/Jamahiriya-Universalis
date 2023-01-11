@@ -1,5 +1,5 @@
-owner = BAR
-controller = BAR
+owner = LOR
+controller = LOR
 capital = "Verdun"
 is_city = yes
 culture = cosmopolitan_french
@@ -11,6 +11,7 @@ base_production = 1
 base_manpower = 2
 add_core = BAR
 add_core = FRA
+add_core = LOR
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

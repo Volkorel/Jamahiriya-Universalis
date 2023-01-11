@@ -1,5 +1,5 @@
-owner = Y57
-controller = Y57
+owner = GUY
+controller = GUY
 capital = "Guéret"
 is_city = yes
 culture = cosmopolitan_french
@@ -9,7 +9,7 @@ hre = yes
 base_tax = 5
 base_production = 3
 base_manpower = 1
-add_core = FRA
+add_core = GUY
 add_core = Y57
 discovered_by = MGE
 discovered_by = eastern

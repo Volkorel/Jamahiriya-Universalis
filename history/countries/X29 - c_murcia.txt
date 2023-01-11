@@ -1,12 +1,13 @@
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 1
+government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = neapolitan
+primary_culture = andalucian
 capital = 221
 fixed_capital = 221
-add_accepted_culture = andalucian
+add_accepted_culture = castillian
+add_accepted_culture = leonese
 1444.11.11= {
 	monarch = {
 		name = "Iride"

@@ -2,7 +2,7 @@ government = theocracy
 add_government_reform = monastic_order_reform
 government_rank = 1
 technology_group = eastern
-religion = coptic
+religion = apostolic
 primary_culture = armenian
 capital = 1974
 fixed_capital = 1974
@@ -15,7 +15,7 @@ add_accepted_culture = hungarian
 		dip = 3
 		mil = 4
 		birth_date = 1401.6.2
-		religion = coptic
+		religion = apostolic
 		culture = armenian
 	}
 	add_ruler_personality = careful_personality

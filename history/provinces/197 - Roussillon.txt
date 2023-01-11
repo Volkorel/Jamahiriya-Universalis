@@ -1,5 +1,5 @@
-owner = Y95
-controller = Y95
+owner = TOU
+controller = TOU
 capital = "Perpignan"
 is_city = yes
 culture = catalan
@@ -10,6 +10,7 @@ base_tax = 7
 base_production = 3
 base_manpower = 2
 add_core = X44
+add_core = TOU
 add_core = Y95
 discovered_by = MGE
 discovered_by = eastern

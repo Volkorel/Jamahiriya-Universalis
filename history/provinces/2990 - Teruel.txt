@@ -1,5 +1,5 @@
-owner = Y38
-controller = Y38
+owner = ADU
+controller = ADU
 capital = "Teruel"
 is_city = yes
 culture = andalucian
@@ -9,6 +9,7 @@ base_tax = 3
 base_production = 4
 base_manpower = 2
 add_core = GRA
+add_core = ADU
 add_core = Y38
 discovered_by = MGE
 discovered_by = eastern

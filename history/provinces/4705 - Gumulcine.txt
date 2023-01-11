@@ -1,5 +1,5 @@
-owner = X73
-controller = X73
+owner = Y40
+controller = Y40
 capital = "Gumulcine"
 is_city = yes
 culture = greek
@@ -10,6 +10,8 @@ base_production = 4
 base_manpower = 2
 add_core = GRE
 add_core = X73
+add_core = Y40
+add_core = BYZ
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

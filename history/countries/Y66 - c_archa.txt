@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = plutocratic_reform
 government_rank = 1
 technology_group = muslim
-religion = coptic
+religion = apostolic
 primary_culture = al_suryah_arabic
 capital = 377
 fixed_capital = 377
@@ -15,7 +15,7 @@ mercantilism = 15
 		dip = 3
 		mil = 3
 		birth_date = 1413.2.24
-		religion = coptic
+		religion = apostolic
 		culture = al_suryah_arabic
 	}
 	add_ruler_personality = intricate_web_weaver_personality
@@ -30,7 +30,7 @@ mercantilism = 15
 		birth_date = 1412.3.16
 		death_date = 1472.3.16
 		female = yes
-		religion = coptic
+		religion = apostolic
 		culture = tuareg
 	}
 	add_queen_personality = tactical_genius_personality
@@ -45,7 +45,7 @@ mercantilism = 15
 		birth_date = 1430.11.19
 		death_date = 1495.11.19
 		claim = 89
-		religion = coptic
+		religion = apostolic
 		culture = tuareg
 	}
 	add_heir_personality = loose_lips_personality

@@ -1,5 +1,5 @@
-owner = GER
-controller = GER
+owner = PAD
+controller = PAD
 capital = "Münster"
 is_city = yes
 culture = lower_saxon
@@ -8,7 +8,7 @@ trade_goods = cloth
 base_tax = 10
 base_production = 1
 base_manpower = 2
-add_core = GER
+add_core = PAD
 add_core = HAN
 discovered_by = MGE
 discovered_by = eastern

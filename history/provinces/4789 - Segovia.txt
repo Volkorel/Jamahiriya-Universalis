@@ -1,5 +1,5 @@
-owner = Y19
-controller = Y19
+owner = ADU
+controller = ADU
 capital = "Segovia"
 is_city = yes
 culture = andalucian
@@ -10,6 +10,7 @@ base_production = 1
 base_manpower = 4
 add_core = GRA
 add_core = Y19
+add_core = ADU
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

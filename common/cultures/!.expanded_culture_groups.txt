@@ -346,6 +346,21 @@ west_slavic = {
 			Zapolský Palfi Cáki Balaša Báthory
 		}
 	}
+	lusat = {
+		primary = SOR
+		male_names = {
+			Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding
+			Jauguttis Karatas Klukis Kugis Milzas Nomedas Prusas Sergonis Ulinniks Ulitis
+		}
+		female_names = {
+			Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
+		}
+		dynasty_names = { Adamkus Almenas Avizienis Baltruï¿½aitis Brazauskas Basanavicius Birutis Brazdï¿½iunas Buga Ciurlionis
+		Danauskas Daukantas Dobkevicius Dubeneckis Dvarionas Galdikas Grinius Griï¿½kevicius Ivanauskas Jablonskis
+		Jucys Krupavicius Landsbergis Lozoraitis Merkys Paksas Paleckis Paulauskas Petrauskas Piskarkas
+		Poï¿½ela Radvila ï¿½abaniauskas Schatz Simonavicius ï¿½irvydas ï¿½leï¿½evicius Semtona Snieckus Stauaitis
+		Straiï¿½ys Stulginkis ï¿½vedas Terleckas Urbï¿½ys Vagnorius Valeï¿½ka Voldemaras ï¿½emaitis Zuokas }
+	}
 }
 carpathian = {
 	aromanian = {

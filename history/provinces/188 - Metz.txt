@@ -1,5 +1,5 @@
-owner = Z49
-controller = Z49
+owner = LOR
+controller = LOR
 capital = "Metz"
 is_city = yes
 culture = lower_saxon
@@ -13,6 +13,7 @@ extra_cost = 8
 center_of_trade = 1
 add_core = HAN
 add_core = Z49
+add_core = LOR
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

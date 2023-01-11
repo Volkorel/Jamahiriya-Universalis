@@ -1,5 +1,5 @@
-owner = Z65
-controller = Z65
+owner = KOJ
+controller = KOJ
 capital = "Gazzah"
 is_city = yes
 culture = al_suryah_arabic
@@ -8,7 +8,7 @@ trade_goods = salt
 base_tax = 3
 base_production = 3
 base_manpower = 1
-add_core = Z65
+add_core = KOJ
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

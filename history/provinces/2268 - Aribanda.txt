@@ -1,5 +1,5 @@
-owner = JOL
-controller = JOL
+owner = Y32
+controller = Y32
 capital = "Kukiya"
 is_city = yes
 culture = songhai
@@ -11,6 +11,7 @@ base_manpower = 1
 add_core = JOL
 add_core = MSI
 add_core = SON
+add_core = Y32
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

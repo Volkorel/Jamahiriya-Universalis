@@ -1,5 +1,5 @@
-owner = X71
-controller = X71
+owner = Y40
+controller = Y40
 capital = "Siroz"
 is_city = yes
 culture = greek
@@ -10,6 +10,8 @@ base_production = 8
 base_manpower = 4
 add_core = GRE
 add_core = X71
+add_core = Y40
+add_core = BYZ
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

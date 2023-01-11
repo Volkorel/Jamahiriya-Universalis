@@ -1,5 +1,5 @@
-owner = TUN
-controller = TUN
+owner = Y35
+controller = Y35
 capital = "Malaga"
 is_city = yes
 culture = andalucian
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 add_core = GRA
-add_core = TUN
+add_core = Y35
 add_core = Z07
 discovered_by = MGE
 discovered_by = eastern

@@ -1,5 +1,5 @@
-owner = Y75
-controller = Y75
+owner = GUY
+controller = GUY
 capital = "Pau"
 is_city = yes
 culture = aquitaine
@@ -10,6 +10,7 @@ base_tax = 6
 base_production = 3
 base_manpower = 2
 add_core = Y75
+add_core = GUY
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

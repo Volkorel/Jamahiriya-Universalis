@@ -1,5 +1,5 @@
-owner = WUR
-controller = WUR
+owner = GER
+controller = GER
 capital = "Stuttgart"
 is_city = yes
 culture = swabian
@@ -10,6 +10,7 @@ base_production = 1
 base_manpower = 1
 add_core = SWA
 add_core = WUR
+add_core = GER
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

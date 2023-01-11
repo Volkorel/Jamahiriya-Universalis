@@ -1,5 +1,5 @@
-owner = LON
-controller = LON
+owner = ADU
+controller = ADU
 capital = "Zamora"
 is_city = yes
 culture = andalucian
@@ -10,6 +10,7 @@ base_production = 5
 base_manpower = 1
 add_core = GRA
 add_core = LON
+add_core = ADU
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

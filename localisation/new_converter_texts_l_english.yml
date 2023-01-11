@@ -55,6 +55,8 @@
  mazdaki_religion_desc: "Mazdak was a Zoroastrian priest who claimed to be a prophet of Ahura Mazda. He attempted to reform the religion with Gnostic elements, and advocated communal possessions and welfare programs."
  manichean_religion_desc: "Manichaeism is a Gnostic religion which incorporates elements of Christianity, Zoroastrianism, Buddhism and Gnosticism."
  arianism_religion_desc:0 "Arianism is a nontrinitarian branch of Christianity that asserts that Jesus Christ is the Son of God, created by God the Father, distinct from the Father and therefore subordinate to the Father. Arian teachings were first attributed to Arius and declared heretical by the First Council of Nicaea in 325."
+ meinwerkist_religion_desc:0 "Meinwerkists takes it's name from it's founder and writer of the Meinwerkist Bible, Meinwerk von Hoya in 11th century. Meinwerkist views differ widely on the nature of God, Jesus, and the Holy Spirit. Thus adapting nontrinitarian philosophy into it's commentary of Christianity. Various nontrinitarian philosophies, such as adoptionism and monarchianism existed prior to the establishment of the Trinity doctrine in AD 325, 381, and 431, at the Councils of Nicaea, Constantinople, and Ephesus. Nontrinitarianism was later renewed by Cathars in the 11th through 13th centuries, of which the Meinwerkists claim to be the continuation of."
+ apostolic_religion_desc:0 "The Armenian Apostolic Church believes in apostolic succession through the apostles Bartholomew and Thaddeus. Like all Oriental Orthodox Churches, the Armenian Church has been referred to as monophysite by both Roman Catholic and Eastern Orthodox theologians because it rejected the decisions of the Council of Chalcedon, which condemned the belief of one incarnate nature of Christ (monophysis). The Armenian Church officially severed ties with Rome and Constantinople in 554, during the Second Council of Dvin where the Chalcedonian dyophysite christological formula was rejected. After the fall of the Orthodox Church of Constantinople, Armenian Apostolic Church has filled the power vacuum."
 
  ##I:R Religious Descriptions
  canaanite_pagan_religion_desc: "The Canaanite religion venerates a number of Gods and their aspects, in a polytheistic manner. Baal is regarded as the chief deity in a complex hierarchy of lesser gods, which were often worshiped at shrines found on mountains or hilltops."
@@ -252,7 +254,18 @@
  arianism_rebels_name:0 "$RELIGION$ Zealots"
  arianism_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
  arianism_rebels_army:0 "$RELIGION$ Army"
-
+ meinwerkist_rebels_demand:0 "Cleanse $COUNTRYNAME$"
+ meinwerkist_rebels_demand_desc:0 "Meinwerkists want to 'cleanse' anyone believing any other sect of Christianity or other religions in our country! They will not stop until every other religion's member in our country is killed by them!"
+ meinwerkist_rebels_title:0 "Prophet"
+ meinwerkist_rebels_name:0 "$RELIGION$ Crusaders"
+ meinwerkist_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ meinwerkist_rebels_army:0 "$RELIGION$ Crusaders"
+ apostolic_rebels_demand:0 "Convert $COUNTRYNAME$"
+ apostolic_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ apostolic_rebels_title:0 "Religious"
+ apostolic_rebels_name:0 "$RELIGION$ Zealots"
+ apostolic_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ apostolic_rebels_army:0 "$RELIGION$ Army"
  #I:R religion rebels
 
  canaanite_pagan_rebels_demand:0 "Convert $COUNTRYNAME$"

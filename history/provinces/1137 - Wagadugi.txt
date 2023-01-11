@@ -1,5 +1,5 @@
-owner = JOL
-controller = JOL
+owner = KNG
+controller = KNG
 capital = "Wagadugu"
 is_city = yes
 culture = soninke
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 3
 base_production = 1
 base_manpower = 2
-add_core = JOL
+add_core = KNG
 add_core = MSI
 discovered_by = MGE
 discovered_by = eastern

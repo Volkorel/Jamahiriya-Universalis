@@ -1,5 +1,5 @@
-owner = GER
-controller = GER
+owner = Y77
+controller = Y77
 capital = "Emden"
 is_city = yes
 culture = frisian
@@ -10,7 +10,8 @@ base_tax = 2
 base_production = 6
 base_manpower = 4
 extra_cost = 10
-add_core = GER
+add_core = Y77
+add_core = FRI
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

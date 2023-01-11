@@ -1,5 +1,5 @@
-owner = HSA
-controller = HSA
+owner = GER
+controller = GER
 capital = "Aschaffenburg"
 is_city = yes
 culture = franconian
@@ -10,6 +10,7 @@ base_production = 3
 base_manpower = 1
 add_core = FKN
 add_core = HSA
+add_core = GER
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

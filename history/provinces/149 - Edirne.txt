@@ -1,5 +1,5 @@
-owner = X18
-controller = X18
+owner = Y40
+controller = Y40
 capital = "Edirne"
 is_city = yes
 culture = greek
@@ -11,6 +11,8 @@ base_manpower = 3
 add_core = GRE
 add_core = X18
 add_core = Y60
+add_core = Y40
+add_core = BYZ
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

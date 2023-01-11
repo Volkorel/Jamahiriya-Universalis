@@ -1,5 +1,5 @@
-owner = NAV
-controller = NAV
+owner = ADU
+controller = ADU
 capital = "Logroño"
 is_city = yes
 culture = castillian
@@ -9,6 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 add_core = NAV
+add_core = ADU
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -1,11 +1,10 @@
-government = monarchy
-add_government_reform = elective_monarchy
+government = republic
+add_government_reform = free_city
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = neapolitan
+primary_culture = lower_saxon
 capital = 183
-add_accepted_culture = lower_saxon
 1444.11.11= {
 	monarch = {
 		name = "Friedrich"

@@ -1,5 +1,5 @@
-owner = Z49
-controller = Z49
+owner = GUY
+controller = GUY
 capital = "Bayonne"
 is_city = yes
 culture = basque
@@ -10,6 +10,7 @@ base_tax = 4
 base_production = 6
 base_manpower = 2
 add_core = Z49
+add_core = GUY
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

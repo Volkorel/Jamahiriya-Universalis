@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 2
 technology_group = eastern
-religion = coptic
+religion = apostolic
 primary_culture = russian
 capital = 1753
 add_accepted_culture = meshchera
@@ -14,7 +14,7 @@ add_accepted_culture = meshchera
 		dip = 6
 		mil = 6
 		birth_date = 1396.9.10
-		religion = coptic
+		religion = apostolic
 		culture = russian
 	}
 	add_ruler_personality = intricate_web_weaver_personality
@@ -29,7 +29,7 @@ add_accepted_culture = meshchera
 		birth_date = 1415.3.16
 		death_date = 1480.3.16
 		claim = 89
-		religion = coptic
+		religion = apostolic
 		culture = russian
 	}
 	add_heir_personality = midas_touched_personality

@@ -1,5 +1,5 @@
-owner = JOL
-controller = JOL
+owner = Y32
+controller = Y32
 capital = "Amanvi"
 is_city = yes
 culture = songhai
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 2
 base_production = 1
 base_manpower = 1
-add_core = JOL
+add_core = Y32
 add_core = MSI
 add_core = SON
 discovered_by = MGE

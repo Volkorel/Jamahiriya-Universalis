@@ -1,5 +1,5 @@
-owner = Z10
-controller = Z10
+owner = Y40
+controller = Y40
 capital = "Izmit"
 is_city = yes
 culture = anatolian
@@ -9,7 +9,7 @@ base_tax = 6
 base_production = 13
 base_manpower = 5
 add_core = BYZ
-add_core = Z10
+add_core = Y40
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

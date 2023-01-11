@@ -1,5 +1,5 @@
-owner = ALS
-controller = ALS
+owner = LOR
+controller = LOR
 capital = "Altkirch"
 is_city = yes
 culture = swabian
@@ -11,6 +11,7 @@ base_production = 1
 base_manpower = 2
 add_core = ALS
 add_core = SWA
+add_core = LOR
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

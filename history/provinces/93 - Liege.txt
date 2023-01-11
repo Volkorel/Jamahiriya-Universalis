@@ -1,5 +1,5 @@
-owner = Z31
-controller = Z31
+owner = LOR
+controller = LOR
 capital = "Liège"
 is_city = yes
 culture = wallonian
@@ -10,6 +10,7 @@ base_tax = 5
 base_production = 6
 base_manpower = 4
 add_core = Z31
+add_core = LOR
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

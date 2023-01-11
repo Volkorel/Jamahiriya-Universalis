@@ -1,5 +1,5 @@
-owner = Z83
-controller = Z83
+owner = GUY
+controller = GUY
 capital = "Limoges"
 is_city = yes
 culture = occitain
@@ -10,6 +10,7 @@ base_tax = 6
 base_production = 1
 base_manpower = 2
 add_core = Z83
+add_core = GUY
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

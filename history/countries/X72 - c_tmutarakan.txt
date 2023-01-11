@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = eastern
-religion = coptic
+religion = apostolic
 primary_culture = armenian
 capital = 2447
 fixed_capital = 2447
@@ -16,7 +16,7 @@ add_accepted_culture = khazar
 		mil = 4
 		birth_date = 1422.7.22
 		female = yes
-		religion = coptic
+		religion = apostolic
 		culture = armenian
 	}
 	add_ruler_personality = careful_personality
@@ -30,7 +30,7 @@ add_accepted_culture = khazar
 		country_of_origin = X72
 		birth_date = 1422.9.13
 		death_date = 1482.9.13
-		religion = coptic
+		religion = apostolic
 		culture = tuareg
 	}
 	add_queen_personality = righteous_personality
@@ -45,7 +45,7 @@ add_accepted_culture = khazar
 		birth_date = 1437.12.7
 		death_date = 1502.12.7
 		claim = 89
-		religion = coptic
+		religion = apostolic
 		culture = tuareg
 	}
 	add_heir_personality = well_connected_personality

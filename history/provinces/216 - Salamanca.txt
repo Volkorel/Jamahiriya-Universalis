@@ -1,5 +1,5 @@
-owner = Z44
-controller = Z44
+owner = ADU
+controller = ADU
 capital = "Salamanca"
 is_city = yes
 culture = leonese
@@ -10,6 +10,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = Z44
+add_core = ADU
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

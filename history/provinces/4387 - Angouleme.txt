@@ -1,5 +1,5 @@
-owner = Y04
-controller = Y04
+owner = GUY
+controller = GUY
 capital = "Angoulême"
 is_city = yes
 culture = occitain
@@ -11,6 +11,7 @@ base_tax = 6
 base_production = 3
 base_manpower = 2
 add_core = Y04
+add_core = GUY
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

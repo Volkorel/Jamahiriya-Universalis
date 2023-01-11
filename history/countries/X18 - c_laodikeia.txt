@@ -31,7 +31,7 @@ add_accepted_culture = greek
 		birth_date = 1412.5.10
 		death_date = 1472.5.10
 		female = yes
-		religion = coptic
+		religion = apostolic
 		culture = byelorussian
 	}
 	add_queen_personality = bold_fighter_personality

@@ -30,7 +30,7 @@ add_accepted_culture = armenian
 		birth_date = 1427.9.17
 		death_date = 1487.9.17
 		female = yes
-		religion = coptic
+		religion = apostolic
 		culture = armenian
 	}
 	add_queen_personality = lawgiver_personality

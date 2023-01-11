@@ -1,5 +1,5 @@
-owner = Y09
-controller = Y09
+owner = GER
+controller = GER
 capital = "Heidelberg"
 is_city = yes
 culture = swabian
@@ -9,6 +9,7 @@ base_tax = 7
 base_production = 3
 base_manpower = 4
 add_core = SWA
+add_core = GER
 add_core = Y09
 discovered_by = MGE
 discovered_by = eastern

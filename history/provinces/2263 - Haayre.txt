@@ -1,5 +1,5 @@
-owner = JOL
-controller = JOL
+owner = Y32
+controller = Y32
 capital = "Douentza"
 is_city = yes
 culture = bozo
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 1
 base_manpower = 2
 add_core = JNN
-add_core = JOL
+add_core = Y32
 add_core = MSI
 discovered_by = MGE
 discovered_by = eastern

@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = eastern
-religion = coptic
+religion = apostolic
 primary_culture = armenian
 capital = 2411
 fixed_capital = 2411
@@ -14,7 +14,7 @@ fixed_capital = 2411
 		dip = 3
 		mil = 4
 		birth_date = 1393.12.10
-		religion = coptic
+		religion = apostolic
 		culture = armenian
 	}
 	add_ruler_personality = benevolent_personality
@@ -29,7 +29,7 @@ fixed_capital = 2411
 		birth_date = 1405.10.8
 		death_date = 1465.10.8
 		female = yes
-		religion = coptic
+		religion = apostolic
 		culture = lithuanian
 	}
 	add_queen_personality = loose_lips_personality
@@ -45,7 +45,7 @@ fixed_capital = 2411
 		death_date = 1494.8.28
 		female = yes
 		claim = 89
-		religion = coptic
+		religion = apostolic
 		culture = armenian
 	}
 	add_heir_personality = free_thinker_personality

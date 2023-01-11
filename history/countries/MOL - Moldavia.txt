@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
-religion = coptic
+religion = apostolic
 primary_culture = kishinyov
 capital = 2405
 1444.11.11= {
@@ -13,7 +13,7 @@ capital = 2405
 		dip = 4
 		mil = 3
 		birth_date = 1375.11.7
-		religion = coptic
+		religion = apostolic
 		culture = kishinyov
 	}
 	add_ruler_personality = pious_personality
@@ -28,7 +28,7 @@ capital = 2405
 		birth_date = 1408.10.22
 		death_date = 1468.10.22
 		female = yes
-		religion = coptic
+		religion = apostolic
 		culture = byelorussian
 	}
 	add_queen_personality = careful_personality
@@ -43,7 +43,7 @@ capital = 2405
 		birth_date = 1391.1.11
 		death_date = 1456.1.11
 		claim = 89
-		religion = coptic
+		religion = apostolic
 		culture = byelorussian
 	}
 	add_heir_personality = infertile_personality

@@ -1,5 +1,5 @@
-owner = HOL
-controller = HOL
+owner = FRI
+controller = FRI
 capital = "Utrecht"
 is_city = yes
 culture = lower_saxon
@@ -10,6 +10,7 @@ base_production = 1
 base_manpower = 2
 add_core = HAN
 add_core = HOL
+add_core = FRI
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

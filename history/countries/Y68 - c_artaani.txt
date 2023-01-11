@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = western
-religion = coptic
+religion = apostolic
 primary_culture = bear
 capital = 2204
 fixed_capital = 2204
@@ -14,7 +14,7 @@ fixed_capital = 2204
 		dip = 4
 		mil = 6
 		birth_date = 1402.6.28
-		religion = coptic
+		religion = apostolic
 		culture = bear
 	}
 	add_ruler_personality = bold_fighter_personality

@@ -1,5 +1,5 @@
-owner = SHL
-controller = SHL
+owner = GER
+controller = GER
 capital = "Düsseldorf"
 is_city = yes
 culture = franconian
@@ -10,6 +10,7 @@ base_production = 1
 base_manpower = 2
 add_core = FKN
 add_core = SHL
+add_core = GER
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = eastern
-religion = coptic
+religion = apostolic
 primary_culture = armenian
 capital = 2202
 1443.1.1= {
@@ -133,5 +133,5 @@ capital = 2202
 	}
 }
 1813.10.24= {
-	religion = coptic
+	religion = apostolic
 }
