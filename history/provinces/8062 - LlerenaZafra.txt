@@ -1,0 +1,23 @@
+
+#BT's Western Europe Overhaul in 12.0
+
+owner = Y35
+controller = Y35
+add_core = Y35
+add_core = TUN
+add_core = CAS
+add_core = TLD #BTB added: Castilian revolter tag.
+culture = castillian
+religion = catholic
+capital = "Llerena"			#Also Zafra
+base_tax = 1
+base_production = 1
+base_manpower = 2
+trade_goods = wine
+is_city = yes
+hre = no
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

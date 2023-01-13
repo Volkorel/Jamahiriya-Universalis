@@ -1,0 +1,21 @@
+ 
+#BT's Western Europe Overhaul in 12.0
+
+owner = TOU
+controller = TOU
+add_core = TOU
+add_core = BOU
+culture = occitain
+religion = catholic
+capital = "Mende"
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = wool
+is_city = yes
+hre = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

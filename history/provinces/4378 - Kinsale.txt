@@ -10,6 +10,7 @@ base_production = 1
 base_manpower = 1
 add_core = MCM
 add_core = IRE
+add_core = ANI
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = ADU
-controller = ADU
+owner = Z44
+controller = Z44
 capital = "Viseu"
 is_city = yes
 culture = andalucian
@@ -8,6 +8,7 @@ trade_goods = wine
 base_tax = 3
 base_production = 3
 base_manpower = 2
+add_core = Z44
 add_core = ADU
 add_core = GRA
 discovered_by = MGE

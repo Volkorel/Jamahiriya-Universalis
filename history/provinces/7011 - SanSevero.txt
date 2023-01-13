@@ -1,0 +1,20 @@
+ 
+#BT Italy reoverhaul
+
+owner = Z27
+controller = Z27
+add_core = Z27
+culture = neapolitan 
+religion = catholic 
+hre = no 
+base_tax = 2
+base_production = 3
+trade_goods = wine
+base_manpower = 2
+capital = "San Severo"
+is_city = yes 
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

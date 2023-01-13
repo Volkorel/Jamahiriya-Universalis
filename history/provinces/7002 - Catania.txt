@@ -1,0 +1,20 @@
+ 
+#BT Italy reoverhaul
+owner = Y23
+controller = Y23
+add_core = Y23
+add_core = SIC
+culture = lombard
+religion = sunni
+capital = "Catania"
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = grain
+is_city = yes
+hre = no
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

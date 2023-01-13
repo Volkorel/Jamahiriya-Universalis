@@ -1,19 +1,26 @@
-owner = LEI
-controller = LEI
-capital = "Carrickfergus"
-is_city = yes
+ 
+#4121 - Ulster
+#Region - Ireland
+#Area - Ulster
+
+owner = CLN
+add_core = ANR
+add_core = CLN
+add_core = LOI
+add_core = ANI
+add_core = IRE
+controller = CLN
 culture = irish
 religion = catholic
-trade_goods = grain
-base_tax = 2
-base_production = 2
-base_manpower = 1
-add_core = LEI
-add_core = IRE
-discovered_by = MGE
-discovered_by = eastern
-discovered_by = indian
-discovered_by = muslim
-discovered_by = nomad_group
-discovered_by = ottoman
+hre = no
+base_tax = 4 
+base_production = 4 
+base_manpower = 2 
+trade_goods = wool
+capital = "Cois Abhann Dalla"
+#capital = "Carraig Fhearghais"
+is_city = yes
 discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

@@ -1,0 +1,20 @@
+ 
+#BT Italy reoverhaul
+
+owner = Z27
+controller = Z27
+add_core = Z27
+culture = neapolitan
+religion = catholic
+capital = "Benevento"
+base_tax = 5
+base_production = 5
+base_manpower = 2
+trade_goods = grain
+is_city = yes
+hre = no
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

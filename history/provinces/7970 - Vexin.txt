@@ -1,0 +1,20 @@
+ 
+#BT's Western Europe Overhaul in 12.0
+
+owner = NRM
+controller = NRM
+add_core = NRM
+culture = normand
+religion = catholic
+capital = "Gisors"
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = livestock
+is_city = yes
+hre = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

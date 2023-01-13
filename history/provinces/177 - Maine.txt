@@ -1,5 +1,6 @@
-owner = PRO
-controller = PRO
+owner = Z29
+controller = Z29
+add_core = Z29
 capital = "Le Mans"
 is_city = yes
 culture = cosmopolitan_french
@@ -9,8 +10,6 @@ hre = yes
 base_tax = 5
 base_production = 3
 base_manpower = 4
-add_core = FRA
-add_core = PRO
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = NAV
-controller = NAV
+owner = KOS
+controller = KOS
 capital = "Pontevedra"
 is_city = yes
 culture = leonese
@@ -8,7 +8,7 @@ trade_goods = fish
 base_tax = 6
 base_production = 3
 base_manpower = 4
-add_core = NAV
+add_core = KOS
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,6 @@
-owner = NRM
-controller = NRM
+owner = BUR
+controller = BUR
+add_core = BUR
 capital = "Soissons"
 is_city = yes
 culture = cosmopolitan_french
@@ -9,8 +10,6 @@ hre = yes
 base_tax = 4
 base_production = 2
 base_manpower = 4
-add_core = FRA
-add_core = NRM
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

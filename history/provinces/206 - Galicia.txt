@@ -1,5 +1,5 @@
-owner = NAV
-controller = NAV
+owner = KOS
+controller = KOS
 capital = "Corunna"
 is_city = yes
 culture = galician
@@ -10,7 +10,8 @@ base_tax = 3
 base_production = 4
 base_manpower = 1
 add_core = GAL
-add_core = NAV
+add_core = CAS
+add_core = KOS
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

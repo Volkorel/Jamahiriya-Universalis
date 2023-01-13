@@ -1,0 +1,19 @@
+ 
+#BT Italy reoverhaul
+
+owner = VRN
+controller = VRN
+add_core = VRN
+add_core = FTR
+culture = venetian
+religion = catholic
+capital = "Feltre"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = wool#produces wool, wood and iron
+is_city = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

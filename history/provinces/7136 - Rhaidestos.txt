@@ -1,0 +1,20 @@
+ 
+#BT Balkans reoverhaul
+
+owner = Y40
+controller = Y40
+add_core = Y40
+culture = greek
+religion = orthodox
+capital = "Rhaedestus"			#Or Rodoschuk under the Ottomans.
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = bt_trade_good_fruit			#Rich region, no real other logic here.
+is_city = yes
+hre = no
+add_local_autonomy = 10
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western

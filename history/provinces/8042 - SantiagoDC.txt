@@ -1,0 +1,22 @@
+
+#BT's Western Europe Overhaul in 12.0
+
+owner = KOS
+controller = KOS
+add_core = CAS
+add_core = GAL
+add_core = KOS
+culture = galician
+religion = catholic
+capital = "Santiago de Compostela"
+base_tax = 3
+base_production = 3
+base_manpower = 2
+trade_goods = bt_trade_good_books
+is_city = yes
+hre = no
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

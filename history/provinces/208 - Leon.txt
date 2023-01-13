@@ -1,5 +1,5 @@
-owner = LON
-controller = LON
+owner = ADU
+controller = ADU
 capital = "León"
 is_city = yes
 culture = leonese
@@ -10,6 +10,8 @@ base_production = 5
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
+add_core = ADU
+add_core = CAS
 add_core = LON
 discovered_by = MGE
 discovered_by = eastern

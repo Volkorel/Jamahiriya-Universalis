@@ -1,5 +1,6 @@
-owner = ALE
-controller = ALE
+owner = ORL
+controller = ORL
+add_core = ORL
 capital = "Chartres"
 is_city = yes
 culture = normand

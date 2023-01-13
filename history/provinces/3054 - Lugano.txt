@@ -1,0 +1,22 @@
+ 
+#3054 - Lugano
+#Region - Germany
+#Area - Switzerland
+
+owner = MLO
+controller = MLO 
+culture = lombard
+religion = catholic
+capital = "Lugano"
+trade_goods = wool
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_core = MLO
+add_core = SWI
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

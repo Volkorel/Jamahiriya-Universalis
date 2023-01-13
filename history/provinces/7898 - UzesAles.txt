@@ -1,0 +1,24 @@
+ 
+#BT's Western Europe Overhaul in 12.0
+
+latent_trade_goods = {
+	coal
+}
+
+owner = TOU
+controller = TOU
+add_core = TOU
+culture = occitain
+religion = catholic
+capital = "Uzès"
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = wine
+is_city = yes
+hre = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

@@ -1,0 +1,23 @@
+ 
+#3068 - Cournaille
+#Region - France
+#Area - Brittany
+
+owner = BRI
+controller = BRI
+capital = "Quimper"
+is_city = yes
+culture = breton
+religion = catholic
+hre = yes
+base_tax = 5 
+base_production = 5
+trade_goods = fish
+base_manpower = 3 
+add_core = BRI
+add_core = RHN
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

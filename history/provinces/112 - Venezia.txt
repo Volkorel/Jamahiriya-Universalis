@@ -1,5 +1,5 @@
-owner = GER
-controller = GER
+owner = VEN
+controller = VEN
 capital = "Venezia"
 is_city = yes
 culture = venetian
@@ -10,7 +10,6 @@ base_production = 14
 base_manpower = 4
 extra_cost = 24
 center_of_trade = 3
-add_core = GER
 add_core = VEN
 discovered_by = MGE
 discovered_by = eastern

@@ -1,0 +1,23 @@
+ 
+# No previous file for Beyond Typus province
+
+owner = TUN
+controller = TUN
+culture = riffian
+religion = sunni
+capital = "Taza"
+trade_goods = wool
+hre = no
+base_tax = 3 
+base_production = 3 
+base_manpower = 2 
+is_city = yes
+add_core = MOR
+add_core = TUN
+add_core = DBD
+fort_15th = yes
+
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western
+discovered_by = eastern

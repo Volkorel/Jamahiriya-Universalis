@@ -1,0 +1,21 @@
+ 
+#BT's Western Europe Overhaul in 12.0
+
+owner = BUR
+controller = BUR
+add_core = BUR
+add_core = VNE
+culture = arpitan
+religion = catholic
+capital = "Vienne"
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = bt_trade_good_books
+is_city = yes
+hre = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

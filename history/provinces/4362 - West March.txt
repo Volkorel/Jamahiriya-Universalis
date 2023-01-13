@@ -10,6 +10,7 @@ base_production = 1
 base_manpower = 1
 add_core = ENG
 add_core = SCO
+add_core = Z14
 add_claim = LEI
 discovered_by = MGE
 discovered_by = eastern

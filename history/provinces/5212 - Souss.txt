@@ -1,0 +1,22 @@
+ 
+# No previous file for Beyond Typus province
+
+owner = X60
+controller = X60
+culture = shilha
+religion = sunni
+capital = "Taroudant"
+trade_goods = sugar
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 4 
+is_city = yes
+add_core = SOS
+add_core = X60
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

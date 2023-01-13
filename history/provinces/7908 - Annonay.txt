@@ -1,0 +1,21 @@
+ 
+#BT's Western Europe Overhaul in 12.0
+owner = BUR
+controller = BUR
+add_core = BUR
+add_core = VNE
+add_core = BOU
+culture = arpitan
+religion = catholic
+capital = "Annonay"
+base_tax = 2
+base_production = 3
+base_manpower = 2
+trade_goods = paper
+is_city = yes
+hre = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

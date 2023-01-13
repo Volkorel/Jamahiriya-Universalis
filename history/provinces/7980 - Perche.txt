@@ -1,0 +1,23 @@
+
+#BT's Western Europe Overhaul in 12.0
+
+owner = Z29
+controller = Z29
+add_core = Z29
+add_core = NRM
+add_core = ALE
+add_core = ORL
+culture = angevin_culture
+religion = catholic
+capital = "Mortagne"
+base_tax = 4
+base_production = 5
+base_manpower = 2
+trade_goods = grain			#Major  agriculture centre
+is_city = yes
+hre = no
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

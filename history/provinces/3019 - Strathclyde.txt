@@ -1,0 +1,34 @@
+ 
+#3019 - Strathclyde
+#Region - Britain
+#Area - Lowlands
+
+latent_trade_goods = {
+	coal 
+}
+owner = Z14
+controller = Z14
+culture = scottish
+religion = catholic
+hre = no
+base_tax = 6
+base_production = 3
+trade_goods = naval_supplies #Glasgow's position as a national leader and later world leader in shipbuilding and naval industries
+base_manpower = 3
+capital = "Lanark" #Lanark was still the preminent centre of power in the area. Glasgow was certainly challenging though, and Renfrew a strong 3rd. Put Glasgow as capital from 1450.
+is_city = yes
+add_core = SCO
+add_core = Z14
+
+extra_cost = 24
+center_of_trade = 2
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+
+add_permanent_province_modifier = {
+	name = clyde_estuary_modifier
+	duration = -1
+}

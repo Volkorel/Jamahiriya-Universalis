@@ -1,0 +1,23 @@
+ 
+#BT Italy reoverhaul
+
+owner = MLO
+controller = MLO
+add_core = BSC
+add_core = MLO	#Local rebels tried to obtain protection from the Visconti against Brescia in 1287, but failed. Surrendered in 1291, but Milan retained an interest and claim to the region
+#I'll probably add a Val Camonica tag for 11.0, if I remember
+culture = lombard
+religion = catholic
+capital = "Breno"			#modern capital is Darfo, but Breno served that purpouse during Eu4 times - Nikicaga
+base_tax = 3
+base_production = 5
+base_manpower = 2
+trade_goods = iron			#best known for iron mining
+is_city = yes
+hre = yes
+add_local_autonomy = 50
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

@@ -1,0 +1,22 @@
+ 
+# No previous file for Beyond Typus province
+
+owner = Y35
+controller = Y35
+culture = riffian
+religion = sunni
+capital = "Chefchaouen"			#Not founded until 1471, but does anyone really care
+trade_goods = sugar
+hre = no
+base_tax = 5
+base_production = 5 
+base_manpower = 4 
+is_city = yes
+add_core = Y35
+add_core = MOR
+add_core = RIF
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

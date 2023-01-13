@@ -1,0 +1,25 @@
+ 
+#3009 - Ossory
+#Region - Ireland
+#Area - Leinster
+
+owner = MCM
+controller = MCM
+add_core = MCM
+add_core = WEX
+add_core = ANI
+add_core = IRE
+culture = irish
+religion = catholic
+hre = no
+base_tax = 4  
+base_production = 4 
+base_manpower = 4 
+trade_goods = grain
+capital = "Wexford" #"Weiseforthe"
+is_city = yes
+fort_15th = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

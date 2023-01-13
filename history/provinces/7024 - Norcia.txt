@@ -1,0 +1,21 @@
+ 
+#BT Italy reoverhaul
+
+owner = Z23
+controller = Z23
+add_core = Z23
+add_core = NRC
+culture = umbrian
+religion = catholic
+capital = "Norcia"
+base_tax = 3
+base_production = 4
+base_manpower = 2
+trade_goods = livestock # famous for it's swine
+is_city = yes
+hre = no
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

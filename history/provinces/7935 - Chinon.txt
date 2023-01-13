@@ -1,0 +1,21 @@
+ 
+#BT's Western Europe Overhaul in 12.0
+
+owner = PRO
+controller = PRO
+add_core = PRO
+add_core = BER
+culture = angevin_culture
+religion = catholic
+capital = "Chinon"
+base_tax = 4
+base_production = 4
+base_manpower = 2
+trade_goods = wine
+is_city = yes
+hre = no
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

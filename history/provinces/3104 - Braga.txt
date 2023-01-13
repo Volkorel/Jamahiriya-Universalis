@@ -1,0 +1,23 @@
+ 
+#3104 - Minho
+#Region - Iberia
+#Area - Beiras
+
+owner = KCL
+controller = KCL
+culture = leonese
+religion = catholic
+capital = "Braga"
+trade_goods = wine
+hre = no
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core = KCL
+add_core = PRT
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

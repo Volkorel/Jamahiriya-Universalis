@@ -1,0 +1,25 @@
+ 
+#3077 - Parthenay
+#Region - France
+#Area - Guyenne
+
+owner = Y04
+controller = Y04
+add_core = YO4
+add_core = POI
+capital = "Thouars"
+is_city = yes
+culture = poitevin_culture
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 3
+trade_goods = wine
+base_manpower = 2 
+add_local_autonomy = 10
+add_core = ORL
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

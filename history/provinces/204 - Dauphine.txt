@@ -1,19 +1,28 @@
+ 
+# 204 Grenoble - Principal cities: Grenoble
+#Region - France
+#Area - Savoy
+
+latent_trade_goods = {
+	coal
+}
+
 owner = Z49
 controller = Z49
+add_core = Z49
 capital = "Grenoble"
 is_city = yes
-culture = occitain
+culture = arpitan
 religion = catholic
-trade_goods = wool
 hre = yes
-base_tax = 5
-base_production = 3
-base_manpower = 4
-add_core = Z49
-discovered_by = MGE
-discovered_by = eastern
-discovered_by = indian
-discovered_by = muslim
-discovered_by = nomad_group
-discovered_by = ottoman
+base_tax = 4
+base_production = 4
+trade_goods = cloth
+base_manpower = 2 
+add_local_autonomy = 35			#Added to represent relative autonomy until 1457
+add_core = DAU
+
 discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

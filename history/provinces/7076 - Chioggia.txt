@@ -1,0 +1,19 @@
+ 
+#BT Italy reoverhaul
+
+owner = VRN
+controller = VRN
+add_core = VRN
+add_core = VEN
+culture = venetian
+religion = catholic
+capital = "Chioggia"
+base_tax = 6
+base_production = 6
+base_manpower = 3
+trade_goods = salt			#major salt trade post
+is_city = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

@@ -1,0 +1,25 @@
+ 
+
+#3139 - Angus
+#Region - Britain
+#Area - Grampians
+
+owner = Z14
+controller = Z14
+culture = highland_scottish
+religion = catholic
+hre = no
+base_tax = 2 
+base_production = 3 
+trade_goods = livestock			#Angus cattle.
+base_manpower = 2 
+capital = "Forfar" #"Dundee"
+is_city = yes
+add_core = SCO
+add_core = Z14
+add_core = HSC
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

@@ -1,0 +1,21 @@
+ 
+#BT Balkans reoverhaul
+
+owner = Y40
+controller = Y40
+add_core = Y40
+add_core = PHP
+add_core = BUL
+culture = greek
+religion = orthodox
+capital = "Sozopolis"
+base_tax = 3
+base_production = 3
+base_manpower = 3
+trade_goods = fish
+is_city = yes
+hre = no
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western

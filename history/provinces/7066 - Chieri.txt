@@ -1,0 +1,21 @@
+ 
+#BT Italy reoverhaul
+
+owner = MFA
+controller = MFA
+add_core = MFA
+add_core = CIE
+culture = piedmontese
+religion = catholic
+capital = "Chieri"
+base_tax = 6			#A rival of Asti, Genoa, or Pisa in the early days, though always a bit smaller, and was reduced in importance a bit earlier.
+base_production = 6
+base_manpower = 3
+trade_goods = grain
+is_city = yes
+hre = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

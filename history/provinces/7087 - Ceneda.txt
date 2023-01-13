@@ -1,0 +1,21 @@
+ 
+#BT Italy reoverhaul
+
+owner = VRN
+controller = VRN
+add_core = VRN
+add_core = CEN
+culture = friulian_culture	#Appears borderline, but I think this is probably accurate enough
+religion = catholic
+capital = "Ceneda"
+base_tax = 5
+base_production = 5
+base_manpower = 3
+trade_goods = grain #mentioned as primarily agricultural
+is_city = yes
+hre = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

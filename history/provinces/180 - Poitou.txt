@@ -9,7 +9,6 @@ hre = yes
 base_tax = 5
 base_production = 3
 base_manpower = 4
-add_core = FRA
 add_core = Y04
 discovered_by = MGE
 discovered_by = eastern
