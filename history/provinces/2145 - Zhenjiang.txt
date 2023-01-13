@@ -1,5 +1,6 @@
-owner = QIN
-controller = QIN
+owner = SNG
+controller = SNG
+add_core = SNG
 capital = "Zhenjiang"
 is_city = yes
 culture = jianghuai
@@ -8,7 +9,5 @@ trade_goods = naval_supplies
 base_tax = 5
 base_production = 5
 base_manpower = 2
-add_core = MNG
-add_core = QIN
 discovered_by = chinese
 discovered_by = nomad_group

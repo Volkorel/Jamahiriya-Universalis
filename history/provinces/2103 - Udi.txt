@@ -1,5 +1,5 @@
-owner = SOL
-controller = SOL
+owner = KHA
+controller = KHA
 capital = "Udi"
 is_city = yes
 culture = evenk
@@ -9,5 +9,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = SOL
+add_core = KHA
 discovered_by = chinese
 discovered_by = nomad_group

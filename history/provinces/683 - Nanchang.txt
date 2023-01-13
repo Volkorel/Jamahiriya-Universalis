@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = NNG
+controller = NNG
 capital = "Nanchang"
 is_city = yes
 culture = gan
@@ -9,7 +9,6 @@ base_tax = 6
 base_production = 6
 base_manpower = 3
 center_of_trade = 1
-add_core = MNG
 add_core = NNG
 add_core = QIN
 discovered_by = chinese

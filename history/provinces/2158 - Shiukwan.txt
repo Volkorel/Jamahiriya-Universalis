@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = HUA
+controller = HUA
 capital = "Shiukwan"
 is_city = yes
 culture = hakka
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 add_core = HUA
-add_core = MNG
+add_core = YUE
 add_core = QIN
 discovered_by = chinese
 discovered_by = nomad_group

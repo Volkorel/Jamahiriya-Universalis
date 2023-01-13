@@ -1,5 +1,5 @@
-owner = MJZ
-controller = MJZ
+owner = KHA
+controller = KHA
 capital = "Ningguta"
 is_city = yes
 culture = manchu
@@ -8,6 +8,7 @@ trade_goods = iron
 base_tax = 3
 base_production = 2
 base_manpower = 2
+add_core = KHA
 add_core = MJZ
 discovered_by = chinese
 discovered_by = nomad_group

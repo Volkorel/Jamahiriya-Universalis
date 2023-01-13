@@ -1,5 +1,5 @@
-owner = KRC
-controller = KRC
+owner = KHA
+controller = KHA
 capital = "Josutu"
 is_city = yes
 culture = chahar

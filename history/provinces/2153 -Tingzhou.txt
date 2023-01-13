@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = MIN
+controller = MIN
 capital = "Tingzhou"
 is_city = yes
 culture = hakka
@@ -9,7 +9,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 add_core = MIN
-add_core = MNG
 add_core = NNG
 add_core = QIN
 discovered_by = chinese

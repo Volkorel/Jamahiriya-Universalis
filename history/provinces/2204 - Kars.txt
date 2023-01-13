@@ -1,5 +1,5 @@
-owner = Y68
-controller = Y68
+owner = ARM
+controller = ARM
 capital = "Akhaltsikhe"
 is_city = yes
 culture = armenian
@@ -8,7 +8,7 @@ trade_goods = wine
 base_tax = 4
 base_production = 3
 base_manpower = 2
-add_core = Y68
+add_core = ARM
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

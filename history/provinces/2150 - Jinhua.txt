@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = WUU
+controller = WUU
 capital = "Jinhua"
 is_city = yes
 culture = wu
@@ -8,7 +8,6 @@ trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = MNG
 add_core = QIN
 add_core = WUU
 discovered_by = chinese

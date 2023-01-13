@@ -1,0 +1,135 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 255 186 0 }
+revolutionary_colors = { 8 8 8 }
+historical_idea_groups = {
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+	humanist_ideas
+	quantity_ideas
+	influence_ideas
+	offensive_ideas
+}
+historical_units = {
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_cavalry_charge
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = {
+	"'A'isha #0" = -1
+	"'Abdus #0" = 0
+	"'Alqamah #1" = 10
+	"'Atikah #0" = -1
+	"'Isa #1" = 10
+	"'Umar #1" = 10
+	"Abbad #0" = 0
+	"Ali #1" = 10
+	"Asma' #0" = -1
+	"Azadeh #0" = -1
+	"Buthayna #0" = -1
+	"Damdam #0" = 0
+	"Farras #1" = 10
+	"Ghadir #0" = -1
+	"Ghalib #0" = 0
+	"Ghassan #1" = 10
+	"Golpari #0" = -1
+	"Harthamah #0" = 0
+	"Husayn #1" = 10
+	"Isma'il Ali #1" = 10
+	"Ismail #1" = 10
+	"Ja'far #1" = 10
+	"Jaffar #1" = 10
+	"Jahm #0" = 0
+	"Mahdi #2" = 10
+	"Muslim #0" = 0
+	"Nusayr #1" = 10
+	"Parvaneh #0" = -1
+	"Qays #1" = 10
+	"Rabi'a #0" = 0
+	"Ru'ba #1" = 10
+	"Sayf #1" = 10
+	"Shadhan #1" = 10
+	"Sinan #1" = 10
+	"Talha #1" = 10
+	"Ya'qub #1" = 10
+	"Yunus #1" = 10
+	"Zayid #1" = 10
+	"al-Julanda #1" = 10
+	"al-Salt #1" = 10
+}
+leader_names = {
+	"Abbas"
+	"Bazzi"
+	"Issa"
+	"Jomaa"
+	"Khoury"
+	"Mourad"
+	"Moussa"
+	"Moustafa"
+	"Nasser"
+	"Sakr"
+	"Jafar"
+	"Hassan"
+	"Ali"
+	"Mostafa"
+	"Hussein"
+	"Mohammad"
+	"Keyqobat"
+	"Juhayman"
+	"Soleyman"
+	"Jangavar"
+	"Yaqub"
+	"Ismail"
+	"Jaffar"
+	"Mahdi"
+}
+ship_names = {
+	"Sharq"
+	"Fursan"
+	"Furqan"
+	"Shamsu Sharq"
+	"Al-Akhdar"
+	"Al-Batinah"
+	"Al-Gharbi"
+	"Al-Hadd"
+	"Al-Hajar"
+	"Al-Huqf"
+	"Al-Jabal"
+	"Al-Khaburah"
+	"As-Sib"
+	"Ash-Sharqi"
+	"Dank"
+	"Fins"
+	"Ibr�"
+	"Jabal ash-Sh�m"
+	"Masirah"
+	"Maskin"
+	"Masqat"
+	"Matrah"
+	"Nizw�"
+	"Quraqq�t"
+	"Ra's Abu Daud"
+	"Ra's Al-Hadd"
+	"Ramlat al Wahibah"
+	"Sar�r"
+	"Shinas"
+	"Suhar"
+	"S�r"
+	"Tan'am"
+	"Tiwi"
+	"Tur at Masirah"
+	"Umm As-Samim"
+	"Wadi Andam"
+	"Wadi Aswad"
+	"Wadi al-Bahta"
+}

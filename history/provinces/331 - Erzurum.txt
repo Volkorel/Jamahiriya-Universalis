@@ -1,5 +1,5 @@
-owner = Z90
-controller = Z90
+owner = ARM
+controller = ARM
 capital = "Erzurum"
 is_city = yes
 culture = armenian
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 4
 base_production = 3
 base_manpower = 2
-add_core = Z90
+add_core = ARM
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

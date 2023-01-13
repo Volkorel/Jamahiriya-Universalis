@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = SHU
+controller = SHU
 capital = "Yichang"
 is_city = yes
 culture = sichuanese

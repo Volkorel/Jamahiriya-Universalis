@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = CDL
+controller = CDL
 capital = "Dali"
 is_city = yes
 culture = bai
@@ -10,7 +10,6 @@ base_production = 3
 base_manpower = 3
 center_of_trade = 1
 add_core = CDL
-add_core = MNG
 add_core = QIN
 discovered_by = chinese
 discovered_by = indian

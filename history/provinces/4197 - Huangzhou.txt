@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = CXI
+controller = CXI
 capital = "Huangzhou"
 is_city = yes
 culture = hubei
@@ -10,7 +10,6 @@ base_production = 2
 base_manpower = 1
 add_core = CHC
 add_core = CXI
-add_core = MNG
 add_core = QIN
 discovered_by = chinese
 discovered_by = nomad_group

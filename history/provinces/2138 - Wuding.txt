@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = QIC
+controller = QIC
 capital = "Wuding"
 is_city = yes
 culture = shandong_culture

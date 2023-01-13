@@ -1,5 +1,6 @@
-owner = QIN
-controller = QIN
+owner = SNG
+controller = SNG
+add_core = SNG
 capital = "Fengyang"
 is_city = yes
 culture = zhongyuan
@@ -8,7 +9,5 @@ trade_goods = silk
 base_tax = 2
 base_production = 1
 base_manpower = 1
-add_core = MNG
-add_core = QIN
 discovered_by = chinese
 discovered_by = nomad_group

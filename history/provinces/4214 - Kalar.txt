@@ -1,5 +1,5 @@
-owner = NVK
-controller = NVK
+owner = KHA
+controller = KHA
 capital = "Kalar"
 is_city = yes
 culture = nivkh
@@ -8,6 +8,7 @@ trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 1
+add_core = KHA
 add_core = NVK
 discovered_by = chinese
 discovered_by = nomad_group

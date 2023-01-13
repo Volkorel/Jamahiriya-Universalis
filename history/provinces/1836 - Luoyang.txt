@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = LNG
+controller = LNG
 capital = "Luoyang"
 is_city = yes
 culture = zhongyuan
@@ -9,7 +9,6 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 add_core = LNG
-add_core = MNG
 add_core = QIN
 discovered_by = chinese
 discovered_by = nomad_group

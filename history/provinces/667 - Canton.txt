@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = YUE
+controller = YUE
 capital = "Canton"
 is_city = yes
 culture = cantonese
@@ -11,7 +11,6 @@ base_production = 12
 base_manpower = 3
 extra_cost = 34
 center_of_trade = 3
-add_core = MNG
 add_core = QIN
 add_core = YUE
 discovered_by = chinese

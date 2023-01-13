@@ -1,5 +1,5 @@
-owner = NVK
-controller = NVK
+owner = KHA
+controller = KHA
 capital = "Miyoo Gasan"
 is_city = yes
 culture = nivkh
@@ -9,6 +9,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 add_core = NVK
+add_core = KHA
 discovered_by = ANU
 discovered_by = SOL
 discovered_by = nomad_group

@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = YUE
+controller = YUE
 capital = "Ngchow"
 is_city = yes
 culture = cantonese
@@ -8,7 +8,7 @@ trade_goods = copper
 base_tax = 1
 base_production = 1
 base_manpower = 2
-add_core = MNG
+add_core = YUE
 add_core = QIN
 discovered_by = chinese
 discovered_by = indian

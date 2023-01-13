@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = CDL
+controller = CDL
 capital = "Guangnan"
 is_city = yes
 culture = bai
@@ -9,7 +9,6 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = CDL
-add_core = MNG
 add_core = QIN
 discovered_by = chinese
 discovered_by = indian

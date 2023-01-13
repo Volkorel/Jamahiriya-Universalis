@@ -1,5 +1,5 @@
-owner = QIN
-controller = QIN
+owner = CMI
+controller = CMI
 capital = "Hengyang"
 is_city = yes
 culture = xiang
