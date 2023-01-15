@@ -1,5 +1,5 @@
-owner = Z55
-controller = Z55
+owner = TAV
+controller = TAV
 capital = "Korsholm"
 is_city = yes
 culture = finnish
@@ -9,7 +9,7 @@ base_tax = 6
 base_production = 1
 base_manpower = 1
 add_core = SMI
-add_core = Z55
+add_core = TAV
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

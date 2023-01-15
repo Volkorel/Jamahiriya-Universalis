@@ -5,8 +5,8 @@
 #Core Details
 capital = "Kissingen"
 is_city = yes
-owner = WBG
-controller = WBG
+owner = GER
+controller = GER
 
 #Demographics
 culture = franconian
@@ -20,9 +20,9 @@ trade_goods = wine
 
 #Cores and Occupation (Alphabetical after current)
 add_core = WBG
+add_core = GER
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

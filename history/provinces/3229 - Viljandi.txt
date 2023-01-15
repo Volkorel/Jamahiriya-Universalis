@@ -1,0 +1,20 @@
+ 
+#3229 - Viljandi
+#Region - Baltic
+#Area - Livonia
+
+owner = Z81
+controller = Z81
+add_core = Z81
+culture = norse
+religion = norse_pagan_reformed
+hre = no
+base_tax = 2 
+base_production = 2 
+trade_goods = naval_supplies
+base_manpower = 2 
+capital = "Viljandi"			#DE Fellin
+is_city = yes
+fort_15th = yes #Fortifications of Reval, Wesenberg, Toompea Castle
+discovered_by = western
+discovered_by = eastern

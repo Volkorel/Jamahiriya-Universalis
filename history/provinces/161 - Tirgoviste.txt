@@ -1,5 +1,6 @@
-owner = BUL
-controller = BUL
+owner = WAL
+controller = WAL
+add_core = WAL
 capital = "Tîrgoviste"
 is_city = yes
 culture = romanian
@@ -10,8 +11,6 @@ base_production = 2
 base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
-add_core = BUL
-add_core = WAL
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

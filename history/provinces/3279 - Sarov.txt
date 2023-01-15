@@ -1,0 +1,22 @@
+ 
+#3279 - Lyskovo
+
+owner = MOS
+controller = MOS
+culture = russian 
+religion = apostolic
+hre = no
+base_tax = 2 
+base_production = 4 
+trade_goods = livestock
+base_manpower = 2 
+capital = "Sarov"
+is_city = yes
+add_core = NZH
+add_core = MOS
+
+discovered_by = eastern
+discovered_by = western
+1444.1.1 = { discovered_by = GOL }
+discovered_by = nomad_group
+discovered_by = ottoman

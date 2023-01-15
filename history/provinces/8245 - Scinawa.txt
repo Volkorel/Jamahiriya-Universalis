@@ -24,8 +24,6 @@ add_core = OLE
 add_core = SCI
 
 #Other Political
-hre = yes
-
 #Fort/Other Buildings
 
 #Special Modifiers

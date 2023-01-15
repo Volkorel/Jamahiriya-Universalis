@@ -8,7 +8,6 @@ controller = POM
 add_core = POM
 culture = pommeranian
 religion = catholic
-hre = yes
 base_tax = 6
 base_production = 6
 trade_goods = cloth

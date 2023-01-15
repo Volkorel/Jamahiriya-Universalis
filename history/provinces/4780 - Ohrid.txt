@@ -1,5 +1,5 @@
-owner = Z95
-controller = Z95
+owner = Z04
+controller = Z04
 capital = "Ohrid"
 is_city = yes
 culture = greek
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 4
 add_core = GRE
-add_core = Z95
+add_core = Z04
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

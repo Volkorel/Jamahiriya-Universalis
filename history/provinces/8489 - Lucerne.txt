@@ -22,7 +22,6 @@ trade_goods = wool
 add_core = SWI
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

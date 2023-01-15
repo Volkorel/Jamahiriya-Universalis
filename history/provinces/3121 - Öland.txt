@@ -1,0 +1,22 @@
+ 
+#3121 - Kalmar
+#Region - Scandinavia
+#Area - Gotaland
+
+add_core = SWE
+owner = GTA
+controller = GTA
+culture = swedish
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1 
+trade_goods = fur
+base_manpower = 1 
+capital = "Borgholm"
+is_city = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

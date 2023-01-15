@@ -23,7 +23,6 @@ add_core = SWI
 add_core = VOR
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

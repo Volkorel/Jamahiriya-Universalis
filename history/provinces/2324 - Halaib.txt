@@ -1,5 +1,5 @@
-owner = Z43
-controller = Z43
+owner = BEJ
+controller = BEJ
 capital = "Halaib"
 is_city = yes
 culture = beja

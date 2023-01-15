@@ -1,0 +1,25 @@
+ 
+#3178 - Achaea/Patras
+
+owner = ACH
+controller = ACH
+culture = greek
+religion = orthodox
+capital = "Patras"
+trade_goods = cloth
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+add_core = ACH			#Temp cut, readd later
+add_core = MOE
+add_core = BYZ
+add_local_autonomy = 25
+
+extra_cost = 8
+center_of_trade = 1
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western

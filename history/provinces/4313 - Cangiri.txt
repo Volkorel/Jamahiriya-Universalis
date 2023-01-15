@@ -1,5 +1,5 @@
-owner = TRE
-controller = TRE
+owner = Z22
+controller = Z22
 capital = "Kangiri"
 is_city = yes
 culture = armenian
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 4
 base_production = 3
 base_manpower = 2
-add_core = TRE
+add_core = Z22
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = AKK
-controller = AKK
+owner = Z41
+controller = Z41
 capital = "Arbil"
 is_city = yes
 culture = assyrian
@@ -8,7 +8,7 @@ trade_goods = cloth
 base_tax = 5
 base_production = 3
 base_manpower = 2
-add_core = AKK
+add_core = Z41
 add_core = ASY
 add_core = Y92
 discovered_by = MGE

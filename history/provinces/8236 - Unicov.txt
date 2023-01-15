@@ -1,5 +1,5 @@
 
-#8236 - UniÄov
+#8236 - UniÄ?ov
 #Area - Moravia
 #Region - South Germany
 
@@ -24,7 +24,6 @@ add_core = BOH
 add_core = MRV
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

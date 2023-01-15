@@ -1,0 +1,22 @@
+ 
+#3201 - Siegen
+#Region - Germany
+#Area - Hesse
+
+owner = GER
+controller = GER
+add_core = GER
+add_core = NSA
+capital = "Siegen"
+trade_goods = copper
+culture = hessian
+religion = catholic
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

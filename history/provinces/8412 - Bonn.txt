@@ -22,7 +22,6 @@ trade_goods = glass
 add_core = KOL
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

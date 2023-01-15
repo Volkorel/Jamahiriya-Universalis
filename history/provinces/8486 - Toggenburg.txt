@@ -26,7 +26,6 @@ add_core = VOR
 add_core = ZUR
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

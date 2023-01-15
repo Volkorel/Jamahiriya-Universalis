@@ -1,0 +1,20 @@
+ 
+#3154 - Alba/Feh?r
+
+owner = HUN
+controller = HUN 
+culture = hungarian
+religion = catholic
+capital = "Aiud" #"Alba Iulia"
+trade_goods = gold
+hre = no
+base_tax = 2
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+add_core = HUN
+add_core = TRA
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

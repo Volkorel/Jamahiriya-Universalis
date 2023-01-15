@@ -24,7 +24,6 @@ add_core = BOH
 add_core = SWD
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

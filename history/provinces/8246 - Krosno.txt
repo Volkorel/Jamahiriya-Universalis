@@ -24,7 +24,6 @@ add_core = GLG
 add_core = KRO
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

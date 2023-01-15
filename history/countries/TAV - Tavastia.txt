@@ -2,9 +2,10 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-religion = catholic
+religion = norse_pagan_reformed
 primary_culture = finnish
 add_accepted_culture = swedish
+add_accepted_culture = norse
 capital = 29
 
 1444.1.1 = {

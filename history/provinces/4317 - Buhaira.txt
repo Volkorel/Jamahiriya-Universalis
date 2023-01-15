@@ -1,5 +1,5 @@
-owner = FRS
-controller = FRS
+owner = Z32
+controller = Z32
 capital = "Damanhur"
 is_city = yes
 culture = al_misr_arabic
@@ -8,7 +8,7 @@ trade_goods = salt
 base_tax = 6
 base_production = 1
 base_manpower = 1
-add_core = FRS
+add_core = Z32
 add_core = MAM
 add_core = Z17
 discovered_by = MGE

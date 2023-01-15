@@ -1,5 +1,5 @@
-owner = RAS
-controller = RAS
+owner = MED
+controller = MED
 capital = "Mitsiwa"
 is_city = yes
 culture = beja
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 add_core = BEJ
-add_core = RAS
+add_core = MED
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

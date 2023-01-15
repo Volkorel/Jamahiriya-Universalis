@@ -1,0 +1,22 @@
+ 
+#3055 - Basel
+#Region - Germany
+#Area - Romandie
+
+owner = BSL
+controller = BSL 
+culture = swiss
+religion = catholic
+capital = "Basel"
+trade_goods = wool
+hre = yes
+base_tax = 6
+base_production = 5
+base_manpower = 5
+is_city = yes
+add_core = BSL
+add_core = SWI
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

@@ -1,5 +1,5 @@
-owner = MOS
-controller = MOS
+owner = X79
+controller = X79
 capital = "Ar-Chally"
 is_city = yes
 culture = kazani
@@ -8,8 +8,7 @@ trade_goods = grain
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = KAZ
-add_core = MOS
+add_core = X79
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

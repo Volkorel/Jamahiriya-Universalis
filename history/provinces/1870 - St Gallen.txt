@@ -6,7 +6,6 @@ culture = swiss
 religion = catholic
 trade_goods = livestock
 fort_15th = yes
-hre = yes
 base_tax = 5
 base_production = 3
 base_manpower = 2

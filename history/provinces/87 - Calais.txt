@@ -2,6 +2,7 @@ owner = ENG
 controller = ENG
 capital = "Calais"
 is_city = yes
+hre = yes
 culture = frankish
 religion = catholic
 trade_goods = fish

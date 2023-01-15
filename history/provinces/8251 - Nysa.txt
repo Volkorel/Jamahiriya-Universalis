@@ -23,7 +23,6 @@ trade_goods = cloth
 add_core = NIE
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

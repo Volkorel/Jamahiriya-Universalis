@@ -1,5 +1,6 @@
-owner = Y44
-controller = Y44
+owner = BUL
+controller = BUL
+add_core = BUL
 capital = "Giurgiu"
 is_city = yes
 culture = romanian
@@ -8,8 +9,6 @@ trade_goods = livestock
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = WAL
-add_core = Y44
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

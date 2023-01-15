@@ -1,5 +1,6 @@
-owner = EPI
-controller = EPI
+owner = SER
+controller = SER
+add_core = SER
 capital = "Nis"
 is_city = yes
 culture = greek
@@ -8,8 +9,6 @@ trade_goods = livestock
 base_tax = 2
 base_production = 6
 base_manpower = 4
-add_core = EPI
-add_core = GRE
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -1,18 +1,18 @@
 government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
-technology_group = ottoman
-religion = sunni
-primary_culture = turkish
+technology_group = eastern
+religion = orthodox
+primary_culture = armenian
 capital = 319
 religious_school = hanafi_school
-1399.1.1= {
+1412.1.1= {
 	monarch = {
-		name = "Ilyas I"
-		dynasty = "Mentesoglu"
-		adm = 2
-		dip = 2
-		mil = 2
+		name = "Hohannes"
+		dynasty = "Kriostophesyan"
+		adm = 4
+		dip = 3
+		mil = 3
 	}
 	add_piety = 0.2
 }

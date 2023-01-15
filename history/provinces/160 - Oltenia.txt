@@ -1,5 +1,6 @@
-owner = BUL
-controller = BUL
+owner = WAL
+controller = WAL
+add_core = WAL
 capital = "Craiova"
 is_city = yes
 culture = romanian
@@ -9,8 +10,6 @@ fort_15th = yes
 base_tax = 3
 base_production = 1
 base_manpower = 1
-add_core = BUL
-add_core = WAL
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

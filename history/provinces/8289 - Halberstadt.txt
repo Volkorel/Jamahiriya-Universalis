@@ -5,8 +5,8 @@
 #Core Details
 capital = "Halberstadt"
 is_city = yes
-owner = HLB
-controller = HLB
+owner = BRU
+controller = BRU
 
 #Demographics
 culture = lower_saxon
@@ -20,9 +20,9 @@ trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
 add_core = HLB
+add_core = BRU
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

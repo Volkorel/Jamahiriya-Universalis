@@ -1,0 +1,20 @@
+ 
+#3117 - Oppland
+#Region - Scandinavia
+#Area - Eastern Norway
+
+owner = Z81
+controller = Z81
+add_core = Z81
+culture = norse
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1  
+base_production = 1 
+trade_goods = fur
+base_manpower = 1 
+capital = "Lillehammer"
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern

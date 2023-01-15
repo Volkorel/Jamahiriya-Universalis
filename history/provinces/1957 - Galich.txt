@@ -1,5 +1,5 @@
-owner = MOS
-controller = MOS
+owner = X78
+controller = X78
 capital = "Galich"
 is_city = yes
 culture = meshchera
@@ -8,6 +8,7 @@ trade_goods = salt
 base_tax = 1
 base_production = 1
 base_manpower = 1
+add_core = X78
 add_core = MOS
 discovered_by = MGE
 discovered_by = eastern

@@ -22,7 +22,6 @@ trade_goods = iron		#Velius: major centre of iron and steel production
 add_core = KLE
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

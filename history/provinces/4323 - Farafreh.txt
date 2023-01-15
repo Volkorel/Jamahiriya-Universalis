@@ -1,19 +1,24 @@
-owner = FRS
-controller = FRS
-capital = "Farafreh"
-is_city = yes
-culture = al_suryah_arabic
+ 
+#4323 - Farafreh
+
+owner = FAF
+controller = FAF
+add_core = FAF
+capital = "Al Qasr"			#Or Mut
+culture = al_misr_arabic
 religion = sunni
 trade_goods = livestock
-base_tax = 5
-base_production = 3
-base_manpower = 2
-add_core = FRS
-add_core = Z17
-discovered_by = MGE
-discovered_by = eastern
-discovered_by = indian
-discovered_by = muslim
-discovered_by = nomad_group
-discovered_by = ottoman
+hre = no
+base_tax = 1 
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+add_local_autonomy = 50
+
+
 discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = nomad_group
+discovered_by = east_african

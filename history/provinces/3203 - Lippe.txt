@@ -1,0 +1,24 @@
+ 
+#3203 - Lippe
+#Region - Germany
+#Area - Westphalia
+
+owner = PAD
+controller = PAD
+culture = lower_saxon
+religion = catholic
+trade_goods = wool
+capital = "Detmold"
+base_tax = 5 
+base_production = 4 
+base_manpower = 3
+hre = yes
+is_city = yes
+add_core = LPP
+add_core = PAD
+add_core = KOL
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

@@ -12,7 +12,6 @@ base_production = 4
 base_manpower = 2
 trade_goods = cloth			#Livestock might be best, but too much of that in the immediate area, so going cloth. As good as anything, really. Note the city had minting rights, but almost never excercised them.
 is_city = yes
-hre = yes
 
 discovered_by = western
 discovered_by = muslim

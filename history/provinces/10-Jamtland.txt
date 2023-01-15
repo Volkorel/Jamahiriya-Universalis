@@ -1,5 +1,5 @@
-owner = SWE
-controller = SWE
+owner = Z56
+controller = Z56
 capital = "Frösön"
 is_city = yes
 culture = norse
@@ -8,8 +8,7 @@ trade_goods = fur
 base_tax = 3
 base_production = 2
 base_manpower = 1
-add_core = NOR
-add_core = SWE
+add_core = Z56
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

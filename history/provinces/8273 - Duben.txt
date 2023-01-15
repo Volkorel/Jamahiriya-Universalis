@@ -22,7 +22,6 @@ trade_goods = cloth
 add_core = SAX
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

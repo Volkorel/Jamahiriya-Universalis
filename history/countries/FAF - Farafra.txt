@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = feudalism_reform #SE tribal despotism, using basic feudalism for now.
 government_rank = 1
-primary_culture = tuareg #Eh, ok.
-religion = shamanism #imohag
+primary_culture = coptic #Eh, ok.
+religion = coptic #imohag
 technology_group = muslim
 capital = 4323 # old province deprecated, presuming Dakhla.
 

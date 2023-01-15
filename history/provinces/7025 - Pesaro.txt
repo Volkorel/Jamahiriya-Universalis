@@ -13,8 +13,7 @@ base_production = 4
 base_manpower = 3
 trade_goods = glass #ancient tradition of majolica (like Faenza), but could also be Olives or Wine or Cheese/Livestock or Fish
 is_city = yes
-hre = no
-
+hre = yes
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

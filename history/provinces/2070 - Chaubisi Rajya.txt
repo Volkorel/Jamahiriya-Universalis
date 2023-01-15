@@ -1,5 +1,5 @@
-owner = GRK
-controller = GRK
+owner = GUG
+controller = GUG
 capital = "Ghurka"
 is_city = yes
 culture = nepali
@@ -8,6 +8,7 @@ trade_goods = naval_supplies
 base_tax = 3
 base_production = 3
 base_manpower = 2
+add_core = GUG
 add_core = GRK
 discovered_by = chinese
 discovered_by = indian

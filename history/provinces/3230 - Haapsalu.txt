@@ -1,0 +1,19 @@
+ 
+#3230 - Haapsalu
+#Region - Baltic
+#Area - Estonia
+
+owner = Z81
+controller = Z81
+add_core = Z81
+culture = norse
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1 
+trade_goods = cloth
+base_manpower = 1 
+capital = "Old Perona"			#Vana-P?rnu, or DE Alt-Pernau
+is_city = yes
+discovered_by = western
+discovered_by = eastern

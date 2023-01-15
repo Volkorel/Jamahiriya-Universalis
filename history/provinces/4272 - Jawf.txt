@@ -1,5 +1,5 @@
-owner = ARB
-controller = ARB
+owner = Z76
+controller = Z76
 capital = "Karah"
 is_city = yes
 culture = al_suryah_arabic
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = ARB
+add_core = Z76
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

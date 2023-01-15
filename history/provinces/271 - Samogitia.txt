@@ -1,5 +1,5 @@
-owner = TEU
-controller = TEU
+owner = SMG
+controller = SMG
 capital = "Varniai"
 is_city = yes
 culture = lithuanian
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 6
 base_production = 2
 base_manpower = 1
-add_core = TEU
+add_core = SMG
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

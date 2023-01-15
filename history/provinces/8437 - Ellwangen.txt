@@ -5,8 +5,8 @@
 #Core Details
 capital = "Ellwangen"
 is_city = yes
-owner = ELL
-controller = ELL
+owner = GER
+controller = GER
 
 #Demographics
 culture = franconian
@@ -20,9 +20,9 @@ trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
 add_core = ELL
+add_core = GER
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

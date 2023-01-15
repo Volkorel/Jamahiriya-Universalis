@@ -1,0 +1,20 @@
+ 
+#3177 - Thebes
+
+owner = EPI
+controller = EPI
+culture = greek
+religion = orthodox
+capital = "Thebes"
+trade_goods = silk			#Perhaps the single greatest hub of the silk trade in Europe. Possibly worth a province modifier.
+hre = no
+base_tax = 4
+base_production = 6
+base_manpower = 3
+is_city = yes
+add_core = EPI
+add_core = ATH
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western

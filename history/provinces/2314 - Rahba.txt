@@ -1,5 +1,5 @@
-owner = AKK
-controller = AKK
+owner = X32
+controller = X32
 capital = "Deir ez-Zor"
 is_city = yes
 culture = al_suryah_arabic
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 4
 base_production = 6
 base_manpower = 2
-add_core = AKK
+add_core = X32
 add_core = Z63
 discovered_by = MGE
 discovered_by = eastern

@@ -1,5 +1,5 @@
-owner = ALH
-controller = ALH
+owner = ORM
+controller = ORM
 capital = "Abu Dhabi"
 is_city = yes
 culture = gulf_arabic
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 4
 base_production = 1
 base_manpower = 2
-add_core = ALH
+add_core = ORM
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -22,7 +22,6 @@ trade_goods = iron
 add_core = FST
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

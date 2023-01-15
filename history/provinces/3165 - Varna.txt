@@ -1,0 +1,25 @@
+ 
+#3165 - Varna
+
+owner = BUL
+controller = BUL
+add_core = BUL
+add_core = DRJ
+culture = bulgarian
+religion = orthodox
+capital = "Varna"
+trade_goods = grain	#a major agricultural exporter
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+fort_15th = yes
+add_local_autonomy = 10
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western
+
+extra_cost = 8
+center_of_trade = 1

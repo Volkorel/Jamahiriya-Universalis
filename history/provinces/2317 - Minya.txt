@@ -1,5 +1,5 @@
-owner = RAS
-controller = RAS
+owner = X08
+controller = X08
 capital = "Al Minya"
 is_city = yes
 culture = al_misr_arabic
@@ -9,7 +9,7 @@ base_tax = 7
 base_production = 1
 base_manpower = 3
 add_core = MAM
-add_core = RAS
+add_core = X08
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

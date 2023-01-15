@@ -23,7 +23,6 @@ trade_goods = glass
 add_core = TES
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Hanau"
 is_city = yes
-owner = HNA
-controller = HNA
+owner = GER
+controller = GER
 
 #Demographics
 culture = hessian
@@ -20,9 +20,9 @@ trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
 add_core = HNA
+add_core = GER
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

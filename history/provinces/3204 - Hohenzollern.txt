@@ -1,0 +1,22 @@
+ 
+#3204 - Hohenzollern
+#Region - Germany
+#Area - Lower Swabia
+
+culture = swabian
+owner = HOH
+controller = HOH
+add_core = HOH
+add_core = WUR
+capital = "Hechingen"
+religion = catholic
+trade_goods = wool
+base_tax = 2 
+base_production = 3 
+base_manpower = 4 
+is_city = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

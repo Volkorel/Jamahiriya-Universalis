@@ -5,11 +5,11 @@
 #Core Details
 capital = "Senftenburg"
 is_city = yes
-owner = BOH
-controller = BOH
+owner = SOR
+controller = SOR
 
 #Demographics
-culture = sorbian
+culture = lusat
 religion = catholic
 
 #Development and Trade
@@ -20,10 +20,9 @@ trade_goods = grain
 latent_trade_goods = { coal }
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BOH
+add_core = SOR
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

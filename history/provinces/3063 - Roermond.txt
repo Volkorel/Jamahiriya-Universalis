@@ -1,0 +1,27 @@
+ 
+#3063 - Overmaas
+#Region - Low Countries
+#Area - Brabant
+
+latent_trade_goods = {
+	coal
+}
+
+owner = Z82
+controller = Z82
+add_core = Z82
+add_core = GEL
+is_city = yes
+capital = "Roermond"
+culture = dutch
+religion = catholic
+base_tax = 4 		#On the banks of the Meuse. Recently joined the Hansa and was an important economic centre.
+base_production = 4
+trade_goods = bt_trade_good_beer			#Major commercial centre of Guelders for virtually the entire period, and a key chokepoint between Low Countries and Germany. Coal and peat eventually became the 2 main industries in the region, but for base going beer, because why not? Beer was a big deal here.
+base_manpower = 2 
+fort_15th = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

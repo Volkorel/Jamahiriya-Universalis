@@ -5,8 +5,8 @@
 #Core Details
 capital = "Schwabach"
 is_city = yes
-owner = ANS
-controller = ANS
+owner = GER
+controller = GER
 
 #Demographics
 culture = franconian
@@ -20,9 +20,9 @@ trade_goods = gold		#Velius: Famous for the crafts made of gold.
 
 #Cores and Occupation (Alphabetical after current)
 add_core = ANS
+add_core = GER
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

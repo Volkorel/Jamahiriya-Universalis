@@ -1,5 +1,5 @@
-owner = TRE
-controller = TRE
+owner = Z18
+controller = Z18
 capital = "Kirshehir"
 is_city = yes
 culture = armenian
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 4
 base_production = 6
 base_manpower = 2
-add_core = TRE
+add_core = Z18
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

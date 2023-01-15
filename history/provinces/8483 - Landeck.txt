@@ -22,8 +22,6 @@ trade_goods = livestock
 add_core = TIR
 
 #Other Political
-hre = yes
-
 #Fort/Other Buildings
 
 #Special Modifiers

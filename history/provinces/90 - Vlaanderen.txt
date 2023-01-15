@@ -10,6 +10,7 @@ base_production = 3
 base_manpower = 4
 extra_cost = 8
 center_of_trade = 2
+hre = yes
 add_core = ENG
 discovered_by = MGE
 discovered_by = eastern

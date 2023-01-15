@@ -1,5 +1,5 @@
-owner = ARB
-controller = ARB
+owner = RAS
+controller = RAS
 capital = "Jazan"
 is_city = yes
 culture = yemeni_culture
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 2
 add_core = ADE
-add_core = ARB
+add_core = RAS
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

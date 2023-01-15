@@ -8,7 +8,6 @@ trade_goods = grain
 base_tax = 5
 base_production = 4
 base_manpower = 4
-hre = yes
 add_core = AAC
 add_core = HES
 discovered_by = MGE

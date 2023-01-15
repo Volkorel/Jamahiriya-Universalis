@@ -5,8 +5,8 @@
 #Core Details
 capital = "Walsrode"
 is_city = yes
-owner = LUN
-controller = LUN
+owner = PAD
+controller = PAD
 
 #Demographics
 culture = lower_saxon
@@ -20,9 +20,8 @@ trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
 add_core = LUN
-
+add_core = PAD
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

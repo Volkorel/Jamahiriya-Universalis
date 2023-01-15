@@ -1,5 +1,5 @@
-owner = Z55
-controller = Z55
+owner = TAV
+controller = TAV
 capital = "Lieksa"
 is_city = yes
 culture = finnish
@@ -8,7 +8,8 @@ trade_goods = fur
 base_tax = 1
 base_production = 1
 base_manpower = 1
-add_core = Z55
+add_core = TAV
+add_core = FIN
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -22,7 +22,6 @@ trade_goods = paper
 add_core = BUC
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

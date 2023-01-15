@@ -1,5 +1,5 @@
-owner = LWA
-controller = LWA
+owner = GUG
+controller = GUG
 capital = "Phedap"
 is_city = yes
 culture = nepali
@@ -9,6 +9,7 @@ base_tax = 2
 base_production = 1
 base_manpower = 1
 add_core = LWA
+add_core = GUG
 discovered_by = NPL
 discovered_by = chinese
 discovered_by = indian

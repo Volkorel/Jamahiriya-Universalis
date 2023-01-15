@@ -1,9 +1,10 @@
  
 #BT's Western Europe Overhaul in 12.0
 
-owner = ALS
-controller = ALS
+owner = GER
+controller = GER
 add_core = ALS
+add_core = GER
 culture = swabian
 religion = catholic
 capital = "Haguenau"
@@ -12,7 +13,6 @@ base_production = 4
 base_manpower = 3
 trade_goods = grain
 is_city = yes
-hre = yes
 
 discovered_by = western
 discovered_by = muslim

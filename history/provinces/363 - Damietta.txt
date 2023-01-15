@@ -1,5 +1,5 @@
-owner = KRM
-controller = KRM
+owner = Z32
+controller = Z32
 capital = "Dumyat"
 is_city = yes
 culture = al_misr_arabic
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 5
 base_manpower = 2
 extra_cost = 15
-add_core = KRM
+add_core = Z32
 add_core = MAM
 add_core = Z39
 discovered_by = MGE

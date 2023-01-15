@@ -5,8 +5,8 @@
 #Core Details
 capital = "Solingen"
 is_city = yes
-owner = BRG
-controller = BRG
+owner = GER
+controller = GER
 
 #Demographics
 culture = hessian
@@ -20,9 +20,9 @@ trade_goods = iron	#Velius: known for manufacturing of blades
 
 #Cores and Occupation (Alphabetical after current)
 add_core = BRG
+add_core = GER
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

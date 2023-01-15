@@ -6,8 +6,8 @@
 #Core Details
 capital = "Guben"
 is_city = yes
-owner = BOH
-controller = BOH
+owner = SOR
+controller = SOR
 
 #Demographics
 culture = sorbian
@@ -20,11 +20,9 @@ base_manpower = 1
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BOH
 add_core = SOR
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

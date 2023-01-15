@@ -1,0 +1,21 @@
+ 
+#3119 - Troms?
+#Region - Scandinavia
+#Area - Northern Norway
+
+owner = Z55
+controller = Z55
+culture = sapmi
+religion = animism
+hre = no
+base_tax = 1  
+base_production = 1 
+base_manpower = 1 
+trade_goods = fish
+capital = "Troms?"
+add_local_autonomy = 55 #This stacks with culture and religious starting autonomy, it seems. Reducing from 90.
+is_city = yes
+add_core = Z55
+add_core = SMI
+discovered_by = western
+discovered_by = eastern

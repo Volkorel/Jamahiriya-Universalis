@@ -1,5 +1,5 @@
-owner = Z18
-controller = Z18
+owner = Z22
+controller = Z22
 capital = "Samsun"
 is_city = yes
 culture = armenian
@@ -8,7 +8,7 @@ trade_goods = wine
 base_tax = 2
 base_production = 4
 base_manpower = 5
-add_core = Z18
+add_core = Z22
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

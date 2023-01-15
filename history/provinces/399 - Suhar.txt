@@ -1,5 +1,5 @@
-owner = OMA
-controller = OMA
+owner = ORM
+controller = ORM
 capital = "Suhar"
 is_city = yes
 culture = omani_culture
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 1
 base_production = 3
 base_manpower = 2
-add_core = OMA
+add_core = ORM
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

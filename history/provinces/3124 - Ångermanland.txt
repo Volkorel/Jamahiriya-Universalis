@@ -1,0 +1,20 @@
+ 
+#3124 - ?ngermanland
+#Region - Scandinavia
+#Area - Norrland
+
+add_core = Z56
+owner = Z56
+controller = Z56
+culture = norse
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1 
+base_production = 1 
+trade_goods = fish
+base_manpower = 1 
+capital = "Styresholm"
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern

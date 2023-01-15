@@ -1,5 +1,5 @@
-owner = AKK
-controller = AKK
+owner = X22
+controller = X22
 capital = "Hisn Kayfa"
 is_city = yes
 culture = assyrian
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 7
 base_production = 3
 base_manpower = 2
-add_core = AKK
+add_core = X22
 add_core = ASY
 discovered_by = MGE
 discovered_by = eastern

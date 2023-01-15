@@ -6,8 +6,8 @@
 #Core Details
 capital = "Chisinau"
 is_city = yes
-owner = MOL
-controller = MOL
+owner = Y80
+controller = Y80
 
 #Demographics
 culture = romanian
@@ -20,7 +20,7 @@ base_manpower = 1
 trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
-add_core = MOL
+add_core = Y80
 
 #Other Political
 hre = no
@@ -30,11 +30,6 @@ hre = no
 #Special Modifiers
 
 #Discoveries
-1444.1.1 = { discovered_by = KAZ }
-1444.1.1 = { discovered_by = CRI }
-1444.1.1 = { discovered_by = GOL }
-1444.1.1 = { discovered_by = AST }
-1444.1.1 = { discovered_by = QAS }
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

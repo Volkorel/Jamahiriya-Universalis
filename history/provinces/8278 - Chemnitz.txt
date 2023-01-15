@@ -22,7 +22,6 @@ trade_goods = grain
 add_core = MEI
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

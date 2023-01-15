@@ -1,5 +1,5 @@
-owner = MDA
-controller = MDA
+owner = YEM
+controller = YEM
 capital = "Aden"
 is_city = yes
 culture = yemeni_culture
@@ -11,7 +11,7 @@ base_manpower = 3
 extra_cost = 16
 center_of_trade = 2
 add_core = ADE
-add_core = MDA
+add_core = YEM
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

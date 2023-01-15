@@ -6,8 +6,8 @@
 #Core Details
 capital = "Zagan"
 is_city = yes
-owner = GLG
-controller = GLG
+owner = SOR
+controller = SOR
 
 #Demographics
 culture = silesian_german
@@ -22,9 +22,9 @@ trade_goods = iron
 #Cores and Occupation (Alphabetical after current)
 add_core = GLG
 add_core = SAG
+add_core = SOR
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

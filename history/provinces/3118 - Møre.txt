@@ -1,0 +1,21 @@
+ 
+#3118 - Romsdal
+#Region - Scandinavia
+#Area - Western Norway
+
+owner = Z92
+controller = Z92
+add_core = Z92
+culture = norse
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1  
+base_production = 1 
+trade_goods = fish
+base_manpower = 1 
+is_city = yes
+capital = "?lesund"
+is_city = yes
+
+discovered_by = western
+discovered_by = eastern

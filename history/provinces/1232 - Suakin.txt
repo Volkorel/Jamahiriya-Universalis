@@ -1,5 +1,5 @@
-owner = ADA
-controller = ADA
+owner = NUB
+controller = NUB
 capital = "Suakin"
 is_city = yes
 culture = al_suryah_arabic
@@ -8,7 +8,7 @@ trade_goods = slaves
 base_tax = 2
 base_production = 1
 base_manpower = 1
-add_core = ADA
+add_core = NUB
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

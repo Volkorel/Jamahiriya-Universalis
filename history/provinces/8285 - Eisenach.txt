@@ -22,7 +22,6 @@ trade_goods = dyes
 add_core = THU
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

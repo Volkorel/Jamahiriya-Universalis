@@ -5,8 +5,8 @@
 #Core Details
 capital = "Montmédy"
 is_city = yes
-owner = LUX
-controller = LUX
+owner = LOR
+controller = LOR
 
 #Demographics
 culture = wallonian
@@ -19,6 +19,7 @@ base_manpower = 2
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
+add_core = LOR
 add_core = LUX
 
 #Other Political

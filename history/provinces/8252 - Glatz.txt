@@ -23,7 +23,6 @@ trade_goods = gold
 add_core = BOH
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

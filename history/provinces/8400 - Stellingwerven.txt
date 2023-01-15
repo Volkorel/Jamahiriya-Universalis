@@ -22,7 +22,6 @@ trade_goods = naval_supplies
 add_core = FRI
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

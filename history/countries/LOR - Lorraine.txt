@@ -1,11 +1,11 @@
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 1
+government_rank = 2
 technology_group = western
 religion = catholic
-primary_culture = cosmopolitan_french
+primary_culture = lorraine_culture
 capital = 189
-add_accepted_culture = swabian
+add_accepted_culture = cosmopolitan_french
 1444.11.11= {
 	monarch = {
 		name = "Enguerrand"
@@ -15,7 +15,7 @@ add_accepted_culture = swabian
 		mil = 3
 		birth_date = 1409.2.20
 		religion = catholic
-		culture = cosmopolitan_french
+		culture = lorraine_culture
 	}
 	add_ruler_personality = strict_personality
 	add_ruler_personality = zealot_personality

@@ -1,0 +1,22 @@
+ 
+#3282 - Sukhona
+#Region - Russia
+#Area - Beloozero
+
+owner = Z01
+controller = Z01
+capital = "Pudozh"
+culture = karelian
+religion = norse_pagan_reformed
+trade_goods = fur
+hre = no
+base_tax = 1 
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+add_core = Z01
+add_core = VEP
+add_local_autonomy = 25
+
+discovered_by = eastern
+discovered_by = western

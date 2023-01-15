@@ -12,7 +12,6 @@ base_production = 5
 base_manpower = 3
 trade_goods = naval_supplies			#Main industries today are ship building, lumber, and steel. I suspect the situation would have only been modestly different (less heavy industry) in the Middle Ages. I think Naval supplies is a fine choice.
 is_city = yes
-hre = yes
 
 discovered_by = western
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = OMA
-controller = OMA
+owner = ORM
+controller = ORM
 capital = "Qalhat"
 is_city = yes
 culture = omani_culture
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 2
 base_production = 1
 base_manpower = 1
-add_core = OMA
+add_core = ORM
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

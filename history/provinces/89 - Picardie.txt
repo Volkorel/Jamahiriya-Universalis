@@ -2,6 +2,7 @@ owner = ENG
 controller = ENG
 capital = "Amiens"
 is_city = yes
+hre = yes
 culture = english
 religion = jewish
 trade_goods = grain

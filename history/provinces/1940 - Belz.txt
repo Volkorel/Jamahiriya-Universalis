@@ -1,5 +1,6 @@
-owner = LIT
-controller = LIT
+owner = UKR
+controller = UKR
+add_core = UKR
 capital = "Belz"
 is_city = yes
 culture = kishinyov
@@ -8,7 +9,6 @@ trade_goods = livestock
 base_tax = 4
 base_production = 2
 base_manpower = 1
-add_core = LIT
 add_core = VOL
 discovered_by = MGE
 discovered_by = eastern

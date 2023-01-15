@@ -1,5 +1,5 @@
-owner = KRL
-controller = KRL
+owner = BLV
+controller = BLV
 capital = "Toropets"
 is_city = yes
 culture = holmgardi
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 2
 base_production = 1
 base_manpower = 1
-add_core = KRL
+add_core = BLV
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

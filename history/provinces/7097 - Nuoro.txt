@@ -13,7 +13,7 @@ base_production = 1
 base_manpower = 1
 trade_goods = grain			#Probably keep grain here, known to be the most fertile area of Sardinia. As Nikicaga points out, also has wine, though I'm opting to keep poorer grain for the moment.
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim

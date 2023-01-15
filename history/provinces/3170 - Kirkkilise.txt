@@ -1,0 +1,20 @@
+ 
+#3170 - Kirkkilise
+
+owner = Y40
+controller = Y40
+add_core = Y40
+culture = greek
+religion = orthodox
+capital = "Kirkkilise"
+trade_goods = naval_supplies
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_local_autonomy = 10
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western

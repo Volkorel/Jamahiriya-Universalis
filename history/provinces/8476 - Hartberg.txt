@@ -22,7 +22,6 @@ trade_goods = cloth
 add_core = STY
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

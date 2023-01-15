@@ -22,7 +22,6 @@ trade_goods = fish
 add_core = LAU
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

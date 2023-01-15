@@ -1,5 +1,5 @@
-owner = SYR
-controller = SYR
+owner = Z86
+controller = Z86
 capital = "Maras"
 is_city = yes
 culture = armenian
@@ -10,6 +10,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 add_core = SYR
+add_core = Z86
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -22,7 +22,6 @@ trade_goods = wine
 add_core = ZGB
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

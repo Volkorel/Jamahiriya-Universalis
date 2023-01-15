@@ -1,5 +1,5 @@
-owner = KOJ
-controller = KOJ
+owner = HWA
+controller = HWA
 capital = "Aswan"
 is_city = yes
 culture = al_suryah_arabic
@@ -8,7 +8,7 @@ trade_goods = livestock
 base_tax = 8
 base_production = 2
 base_manpower = 3
-add_core = KOJ
+add_core = HWA
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

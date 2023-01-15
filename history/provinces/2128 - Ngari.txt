@@ -1,5 +1,5 @@
-owner = X17
-controller = X17
+owner = GUG
+controller = GUG
 is_city = yes
 culture = tibetan
 religion = shiite
@@ -8,6 +8,7 @@ base_tax = 5
 base_production = 1
 base_manpower = 1
 add_core = X17
+add_core = GUG
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

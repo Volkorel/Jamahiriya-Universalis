@@ -23,7 +23,6 @@ trade_goods = grain
 add_core = OLE
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

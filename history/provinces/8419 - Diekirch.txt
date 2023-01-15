@@ -5,8 +5,8 @@
 #Core Details
 capital = "Diekirch"
 is_city = yes
-owner = LUX
-controller = LUX
+owner = LOR
+controller = LOR
 
 #Demographics
 culture = hessian
@@ -19,6 +19,7 @@ base_manpower = 2
 trade_goods = bt_trade_good_beer
 
 #Cores and Occupation (Alphabetical after current)
+add_core = LOR
 add_core = LUX
 
 #Other Political

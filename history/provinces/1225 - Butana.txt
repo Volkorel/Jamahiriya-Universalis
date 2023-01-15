@@ -1,5 +1,5 @@
-owner = KHO
-controller = KHO
+owner = DAM
+controller = DAM
 capital = "Qarri"
 is_city = yes
 culture = beja
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = BEJ
-add_core = KHO
+add_core = DAM
 add_core = X82
 discovered_by = MGE
 discovered_by = eastern

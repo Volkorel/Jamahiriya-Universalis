@@ -22,8 +22,6 @@ trade_goods = cloth
 add_core = BIB
 
 #Other Political
-hre = yes
-
 #Fort/Other Buildings
 
 #Special Modifiers

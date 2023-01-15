@@ -1,19 +1,22 @@
-owner = ALH
-controller = ALH
-capital = "Manama"
-is_city = yes
+ 
+#396 - Bahrain
+
+owner = ORM
+controller = ORM
 culture = gulf_arabic
 religion = shiite
-trade_goods = gems
-fort_15th = yes
+capital = "Manama"
+trade_goods = fish
+hre = no
 base_tax = 3
 base_production = 3
-base_manpower = 2
+base_manpower = 2 
+is_city = yes
 add_core = ALH
-discovered_by = MGE
-discovered_by = eastern
-discovered_by = indian
+add_core = ORM #Tributary to Hormuz up until conquest by Jabrids
+
 discovered_by = muslim
-discovered_by = nomad_group
 discovered_by = ottoman
-discovered_by = western
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = east_african

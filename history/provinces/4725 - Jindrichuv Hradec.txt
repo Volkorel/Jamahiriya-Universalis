@@ -1,5 +1,5 @@
-owner = BAV
-controller = BAV
+owner = BOH
+controller = BOH
 capital = "Jindrichuv Hradec"
 is_city = yes
 culture = slovak
@@ -8,7 +8,7 @@ trade_goods = grain
 base_tax = 2
 base_production = 3
 base_manpower = 1
-add_core = BAV
+add_core = BOH
 add_core = SLO
 discovered_by = MGE
 discovered_by = eastern

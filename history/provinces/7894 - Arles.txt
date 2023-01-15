@@ -14,7 +14,7 @@ base_production = 5
 base_manpower = 3
 trade_goods = salt			#Per Niki, the area has large salt pans... good enough. Nice rich good for the important city.
 is_city = yes
-hre = no
+hre = yes
 
 discovered_by = western
 discovered_by = muslim

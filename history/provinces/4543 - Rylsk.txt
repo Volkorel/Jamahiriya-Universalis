@@ -1,5 +1,6 @@
-owner = X41
-controller = X41
+owner = UKR
+controller = UKR
+add_core = UKR
 capital = "Rylsk"
 is_city = yes
 culture = ruthenian
@@ -8,8 +9,6 @@ trade_goods = grain
 base_tax = 6
 base_production = 1
 base_manpower = 1
-add_core = KIE
-add_core = X41
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

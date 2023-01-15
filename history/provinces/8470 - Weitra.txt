@@ -5,8 +5,8 @@
 #Core Details
 capital = "Weitra"
 is_city = yes
-owner = HAB
-controller = HAB
+owner = BOH
+controller = BOH
 
 #Demographics
 culture = austrian
@@ -19,10 +19,11 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
+add_core = BOH
 add_core = HAB
+add_core = BAV
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

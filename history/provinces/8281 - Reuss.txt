@@ -5,8 +5,8 @@
 #Core Details
 capital = "Gera"
 is_city = yes
-owner = REU
-controller = REU
+owner = X38
+controller = X38
 
 #Demographics
 culture = saxon
@@ -20,9 +20,8 @@ trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
 add_core = REU
-
+add_core = X38
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

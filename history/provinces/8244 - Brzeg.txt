@@ -23,7 +23,6 @@ trade_goods = fish
 add_core = BEG
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

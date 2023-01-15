@@ -1,5 +1,5 @@
-owner = MDA
-controller = MDA
+owner = YEM
+controller = YEM
 capital = "Taiz"
 is_city = yes
 culture = yemeni_culture
@@ -9,7 +9,7 @@ base_tax = 6
 base_production = 3
 base_manpower = 4
 add_core = ADE
-add_core = MDA
+add_core = YEM
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

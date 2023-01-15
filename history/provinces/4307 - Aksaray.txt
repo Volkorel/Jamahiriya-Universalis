@@ -1,5 +1,5 @@
-owner = TRE
-controller = TRE
+owner = Z18
+controller = Z18
 capital = "Aksaray"
 is_city = yes
 culture = armenian
@@ -8,7 +8,8 @@ trade_goods = livestock
 base_tax = 2
 base_production = 1
 base_manpower = 3
-add_core = TRE
+add_core = Z18
+add_core = CAP
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

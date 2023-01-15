@@ -1,5 +1,5 @@
-owner = KTU
-controller = KTU
+owner = GUG
+controller = GUG
 capital = "Kathmandu"
 is_city = yes
 culture = nepali
@@ -10,6 +10,7 @@ base_production = 3
 base_manpower = 2
 extra_cost = 8
 center_of_trade = 1
+add_core = GUG
 add_core = KTU
 discovered_by = chinese
 discovered_by = indian

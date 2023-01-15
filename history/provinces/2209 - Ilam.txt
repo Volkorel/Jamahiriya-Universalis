@@ -1,5 +1,5 @@
-owner = FRS
-controller = FRS
+owner = Z78
+controller = Z78
 capital = "Ilam"
 is_city = yes
 culture = luri
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 5
 base_production = 3
 base_manpower = 1
-add_core = FRS
+add_core = Z78
 add_core = LRI
 discovered_by = MGE
 discovered_by = eastern

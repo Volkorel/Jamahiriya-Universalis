@@ -5,8 +5,8 @@
 #Core Details
 capital = "Sayn"
 is_city = yes
-owner = SAY
-controller = SAY
+owner = GER
+controller = GER
 
 #Demographics
 culture = hessian
@@ -20,9 +20,9 @@ trade_goods = copper
 
 #Cores and Occupation (Alphabetical after current)
 add_core = SAY
+add_core = GER
 
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 

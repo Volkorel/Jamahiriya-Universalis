@@ -1,0 +1,25 @@
+ 
+#3183 - Bitola
+
+owner = Z95
+controller = Z95
+culture = bulgarian
+religion = orthodox
+capital = "Vitolia"			#Monastir in Ottoman Turkish
+trade_goods = livestock
+hre = no
+base_tax = 4 #3
+base_production = 3
+base_manpower = 4 #2
+is_city = yes
+add_core = Z95
+add_core = VBZ
+fort_15th = yes
+add_local_autonomy = 10
+
+extra_cost = 8
+center_of_trade = 1
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

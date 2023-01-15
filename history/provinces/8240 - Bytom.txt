@@ -26,8 +26,6 @@ add_core = BET
 add_core = OLE
 
 #Other Political
-hre = yes
-
 #Fort/Other Buildings
 
 #Special Modifiers

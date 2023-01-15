@@ -1,5 +1,5 @@
-owner = FRS
-controller = FRS
+owner = X08
+controller = X08
 capital = "Al Fayyum"
 is_city = yes
 culture = al_misr_arabic
@@ -8,7 +8,7 @@ trade_goods = cotton
 base_tax = 6
 base_production = 1
 base_manpower = 1
-add_core = FRS
+add_core = X08
 add_core = MAM
 add_core = Z17
 discovered_by = MGE

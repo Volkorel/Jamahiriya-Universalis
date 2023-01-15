@@ -2,6 +2,7 @@ owner = ENG
 controller = ENG
 capital = "Lille"
 is_city = yes
+hre = yes
 culture = normand
 religion = catholic
 trade_goods = cloth

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Dannenburg"
 is_city = yes
-owner = LUN
-controller = LUN
+owner = BRU
+controller = BRU
 
 #Demographics
 culture = lower_saxon
@@ -20,9 +20,8 @@ trade_goods = salt
 
 #Cores and Occupation (Alphabetical after current)
 add_core = LUN
-
+add_core = BRU
 #Other Political
-hre = yes
 
 #Fort/Other Buildings
 
