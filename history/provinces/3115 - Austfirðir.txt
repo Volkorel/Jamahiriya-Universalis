@@ -1,0 +1,17 @@
+ 
+#3115 - Austfir?ir
+
+owner = ICE
+controller = ICE 
+add_core = ICE
+culture = norse
+religion = norse_pagan_reformed
+hre = no
+base_tax = 1  
+base_production = 1 
+trade_goods = fish
+base_manpower = 1 
+capital = "Dj?pavogshreppur"
+is_city = yes	
+
+discovered_by = western

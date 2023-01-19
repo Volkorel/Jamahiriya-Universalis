@@ -3,9 +3,8 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = norwegian
+primary_culture = norse
 capital = 17
-add_accepted_culture = icelandic
 historical_friend = DAN
 1397.1.1= {
 	set_estate_privilege = estate_nobles_danish_nobility
@@ -14,7 +13,8 @@ historical_friend = DAN
 1436.1.1= { 
 	leader = { 
 		name = "Amund Bolt"
-		type = general  
+		type = general 
+ 
 		fire = 1 
 		shock = 2 
 		manuever = 2 
@@ -25,7 +25,8 @@ historical_friend = DAN
 1520.1.1= { 
 	leader = { 
 		name = "Olav Galle" 
-		type = general  
+		type = general 
+ 
 		fire = 1 
 		shock = 2 
 		manuever = 2 
@@ -39,7 +40,7 @@ historical_friend = DAN
 add_government_reform = autocracy_reform }
 1814.2.16= {
 	monarch = {
-		name = "Christian Frederik"
+		name = "Chdanskn Frederik"
 		dynasty = "von Oldenburg"
 		culture = danish
 		birth_date = 1786.9.18

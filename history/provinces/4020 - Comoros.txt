@@ -1,6 +1,6 @@
 capital = "Ndzuwani"
 culture = madagasque
-religion = sunni
+religion = shiite
 trade_goods = unknown
 base_tax = 1
 base_production = 1

@@ -9,8 +9,8 @@ owner = Z22
 controller = Z22
 
 #Demographics
-culture = turkish
-religion = sunni
+culture = armenian
+religion = catholic
 
 #Development and Trade
 base_tax = 2

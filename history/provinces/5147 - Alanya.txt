@@ -4,8 +4,8 @@
 owner = X55
 controller = X55
 add_core = X55
-culture = turkish
-religion = sunni
+culture = armenian
+religion = catholic
 capital = "Alaiye"
 trade_goods = bt_trade_good_fruit			#(JP) Known for Citrus Fruits
 hre = no

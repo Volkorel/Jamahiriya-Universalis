@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = gotlander
-add_accepted_culture = norwegian
+add_accepted_culture = norse
 religion = catholic
 technology_group = western
 capital = 3120

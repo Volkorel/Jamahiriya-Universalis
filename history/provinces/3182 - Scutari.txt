@@ -3,7 +3,7 @@
 
 owner = Z04
 controller = Z04
-culture = albanian
+culture = arbereshe
 religion = catholic
 capital = "Shkodra"
 trade_goods = cloth

@@ -4,9 +4,9 @@
 
 owner = Z04
 controller = Z04
-culture = albanian
-religion = orthodox			#When did they turn Catholic... I remember reading something somewhere about Catholic majorities in the region, but I can't find anything, leaving it Orthodox until I can
-capital = "Kukës"			# the Dukagjini continued to rule over their villages Buba, Salita, Gurichuchi, Baschina. Couldn't find modern contemporary locations for any, so picking the most important modern city in the region, which does date back to the period as well, Pezhve. Later this was changed to Kukes with Balkan reoverhaul
+culture = arbereshe
+religion = catholic		#When did they turn Catholic... I remember reading something somewhere about Catholic majorities in the region, but I can't find anything, leaving it Orthodox until I can
+capital = "Kukï¿½s"			# the Dukagjini continued to rule over their villages Buba, Salita, Gurichuchi, Baschina. Couldn't find modern contemporary locations for any, so picking the most important modern city in the region, which does date back to the period as well, Pezhve. Later this was changed to Kukes with Balkan reoverhaul
 trade_goods = livestock
 hre = no
 base_tax = 1 

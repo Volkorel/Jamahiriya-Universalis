@@ -10,8 +10,8 @@ owner = Y14
 controller = Y14
 
 #Demographics
-culture = turkish
-religion = sunni
+culture = armenian
+religion = catholic
 
 #Development and Trade
 base_tax = 2

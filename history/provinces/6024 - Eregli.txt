@@ -10,7 +10,7 @@ controller = Z18
 
 #Demographics
 culture = armenian
-religion = catholic
+religion = apostolic
 
 #Development and Trade
 base_tax = 4

@@ -4,8 +4,8 @@
 owner = Y14
 controller = Y14
 add_core = Y14
-culture = turkish
-religion = sunni
+culture = armenian
+religion = catholic
 capital = "Mihalich"
 trade_goods = livestock			#Well known cheese named after the city
 hre = no

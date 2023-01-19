@@ -31,7 +31,7 @@ add_accepted_culture = karelian
 		birth_date = 1416.8.14
 		death_date = 1476.8.14
 		religion = norse_pagan_reformed
-		culture = icelandic
+		culture = norse
 	}
 	add_queen_personality = righteous_personality
 	add_queen_personality = tactical_genius_personality

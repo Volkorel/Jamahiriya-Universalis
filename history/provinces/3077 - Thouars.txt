@@ -5,7 +5,7 @@
 
 owner = Y04
 controller = Y04
-add_core = YO4
+add_core = Y04
 add_core = POI
 capital = "Thouars"
 is_city = yes

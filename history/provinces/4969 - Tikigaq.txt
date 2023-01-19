@@ -2,7 +2,7 @@
 # No previous file for Beyond Typus province
 
 culture = inuit
-religion = totemism 
+religion = norse_pagan_reformed 
 capital = "Tikigaq" 
 trade_goods = unknown
 hre = no 

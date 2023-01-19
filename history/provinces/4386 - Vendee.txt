@@ -1,8 +1,8 @@
 owner = Y04
 controller = Y04
-add_core = YO4
+add_core = Y04
 add_core = POI
-capital = "Luçon"
+capital = "Luï¿½on"
 is_city = yes
 culture = cosmopolitan_french
 religion = catholic

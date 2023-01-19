@@ -4,8 +4,8 @@
 owner = Y14
 controller = Y14
 add_core = Y14
-culture = turkish
-religion = sunni
+culture = armenian
+religion = catholic
 capital = "Biga"
 trade_goods = fish
 hre = no

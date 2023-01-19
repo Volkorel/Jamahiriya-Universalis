@@ -6,7 +6,7 @@
 owner = Y35
 controller = Y35
 culture = andalucian
-religion = catholic
+religion = sunni
 capital = "Set?bal"
 trade_goods = salt
 hre = no

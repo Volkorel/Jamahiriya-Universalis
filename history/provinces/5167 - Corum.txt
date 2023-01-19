@@ -4,10 +4,10 @@
 owner = Z18
 controller = Z18
 add_core = Z18
-culture = turkish
-religion = sunni
-capital = "Çorum"
-trade_goods = livestock			#Wiki says - 'Çorum is primarily known for its insults' what the hell does that mean?????
+culture = armenian
+religion = catholic
+capital = "ï¿½orum"
+trade_goods = livestock			#Wiki says - 'ï¿½orum is primarily known for its insults' what the hell does that mean?????
 hre = no
 base_tax = 2 
 base_production = 1 

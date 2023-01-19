@@ -4,8 +4,8 @@
 owner = Z18
 controller = Z18
 add_core = Z18
-culture = turkish
-religion = sunni
+culture = armenian
+religion = catholic
 capital = "Potlatli"
 trade_goods = grain		#Polatli is one of the most productive agricultural districts in Turkey and is best known for its cereal production, especially barley and wheat. Despite dry conditions and too hot-too cold weather
 hre = no

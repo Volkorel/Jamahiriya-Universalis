@@ -5,8 +5,8 @@
 
 owner = Z01
 controller = Z01
-culture = russian
-religion = orthodox
+culture = byelorussian
+religion = apostolic
 hre = no
 base_tax = 1 
 base_production = 1 

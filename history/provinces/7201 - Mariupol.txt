@@ -4,8 +4,8 @@
 owner = ZAZ
 controller = ZAZ
 add_core = ZAZ
-culture = crimean
-religion = sunni
+culture = avar
+religion = catholic
 capital = "Mariampol"			#Nothing here 'til the late 18th century... so.... getting creative. No evidence of settlement prior to Tartar devastation, so a Greek names isn't the absolute worst.
 base_tax = 1
 base_production = 1

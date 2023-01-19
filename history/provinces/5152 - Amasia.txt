@@ -4,8 +4,8 @@
 owner = Z22
 controller = Z22
 add_core = Z22
-culture = turkish
-religion = sunni
+culture = armenian
+religion = catholic
 capital = "Amasya"
 trade_goods = bt_trade_good_books			#(JP) Important educational site for Ottoman Heirs
 hre = no

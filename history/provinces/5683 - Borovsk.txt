@@ -4,8 +4,8 @@
 owner = SPK
 controller = SPK
 add_core = SPK
-culture = russian
-religion = orthodox
+culture = byelorussian
+religion = apostolic
 capital = "Borovsk"
 trade_goods = livestock
 hre = no

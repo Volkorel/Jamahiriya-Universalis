@@ -3,8 +3,8 @@
 #Region - Scandinavia
 #Area - Denmark
 
-controller = ZEA
 owner = ZEA
+controller = ZEA
 add_core = ZEA
 culture = dansk
 religion = norse_pagan_reformed

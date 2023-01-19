@@ -4,8 +4,8 @@
 owner = EPI
 controller = EPI
 add_core = EPI
-culture = turkish
-religion = sunni
+culture = armenian
+religion = catholic
 capital = "Ayvalik"
 trade_goods = bt_trade_good_fruit		#(JP) Olives
 hre = no

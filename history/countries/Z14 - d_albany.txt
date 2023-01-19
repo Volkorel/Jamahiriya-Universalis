@@ -30,13 +30,13 @@ add_accepted_culture = scottish
 		birth_date = 1418.10.8
 		death_date = 1478.10.8
 		religion = catholic
-		culture = icelandic
+		culture = norse
 	}
 	add_queen_personality = strict_personality
 	add_queen_personality = tolerant_personality
 	heir = {
-		name = "Gráinne"
-		monarch_name = "Gráinne"
+		name = "Grï¿½inne"
+		monarch_name = "Grï¿½inne"
 		dynasty = "Hezmira"
 		adm = 0
 		dip = 0

@@ -4,8 +4,8 @@
 owner = ZAZ
 controller = ZAZ
 add_core = ZAZ
-culture = crimean
-religion = sunni
+culture = avar
+religion = catholic
 capital = "Kyzyl-Yar"
 base_tax = 1 
 base_production = 1 

@@ -7,19 +7,6 @@ religion = catholic
 capital = 7026
 fixed_capital = 7026
 set_estate_privilege = estate_church_papal_emissary
-
-#historical_friend = XXX
-#historical_rival = XXX
-
-#Link for future history: https://it.wikipedia.org/wiki/Ducato_di_Camerino#Sovrani_di_Camerino_(1259_circa_-_1539)[9]
-#History, currently empty.
-1291.5.20 = {
-	add_country_modifier = {
-		name = bt_guelph_nation
-		duration = -1
-	}
-}
-#Was in exile from 1434 to 1444.
 1444.1.1 = { #c. 1444
 	monarch = {
 		name = "Rodolfo IV"
@@ -52,11 +39,4 @@ set_estate_privilege = estate_church_papal_emissary
 		dip = 5			#Rounding off.
 		mil = 6			#Good mil dude, apparently, fought for a lot of different powers in the region. 
 	}
-}
-#Missing 1447 entry: Giulio Cesare as a general.
-
-
-
-1648.1.1 = {
-	remove_country_modifier = bt_guelph_nation
 }

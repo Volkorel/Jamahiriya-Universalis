@@ -1,0 +1,19 @@
+ 
+#3112 - Kikertarsocitsiak
+#Region - Hudson Bay
+#Area - West Greenland
+
+owner = YZZ			#Kalaallisut
+controller = YZZ
+add_core = YZZ
+culture = kalaallisut
+religion = norse_pagan_reformed
+capital = "Nuuk"
+trade_goods = unknown
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 5

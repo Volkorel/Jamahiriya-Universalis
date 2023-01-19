@@ -6,7 +6,7 @@ add_core = SMI
 add_core = Z93
 culture = sapmi
 religion = animism
-capital = "Kuolajärvi"
+capital = "Kuolajï¿½rvi"
 base_tax = 1
 base_production = 1
 base_manpower = 1
@@ -17,5 +17,3 @@ add_local_autonomy = 55 #This stacks with culture and religious starting autonom
 
 discovered_by = eastern
 discovered_by = western
-
-add_province_triggered_modifier = bt_birkarls

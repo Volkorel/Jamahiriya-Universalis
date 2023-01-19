@@ -3,12 +3,12 @@
 
 owner = Y06
 controller = Y06
-add_core = YO6
+add_core = Y06
 add_core = PRO
 add_core = ANJ
 culture = aquitaine
 religion = catholic
-capital = "Fréjus"
+capital = "Frï¿½jus"
 base_tax = 2
 base_production = 3
 base_manpower = 2

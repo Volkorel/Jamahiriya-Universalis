@@ -1,0 +1,20 @@
+ 
+#3223 - Biala
+
+owner = TEU
+controller = TEU
+add_core = TEU
+add_core = SMG
+culture = yotvingian_culture
+religion = catholic
+capital = "Bialystok"
+base_tax = 1
+base_production = 1
+base_manpower = 1
+trade_goods = grain
+is_city = yes
+hre = no
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

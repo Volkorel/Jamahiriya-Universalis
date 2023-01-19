@@ -4,14 +4,14 @@
 #Region - Carpathia
 
 #Core Details
-capital = "Máramarossziget"
+capital = "Mï¿½ramarossziget"
 is_city = yes
 owner = HUN
 controller = HUN
 
 #Demographics
 culture = ruthenian
-religion = orthodox
+religion = catholic
 
 #Development and Trade
 base_tax = 1

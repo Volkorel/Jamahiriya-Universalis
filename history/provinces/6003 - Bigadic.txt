@@ -1,18 +1,18 @@
  
-#6003 - Bigadiç
+#6003 - Bigadiï¿½
 #Area - 
 #Region - Anatolia
 
 #Core Details
-capital = "Bigadiç"
+capital = "Bigadiï¿½"
 is_city = yes
 owner = Y14
 controller = Y14
 add_core = Y14
 
 #Demographics
-culture = turkish
-religion = sunni
+culture = armenian
+religion = catholic
 
 #Development and Trade
 base_tax = 2

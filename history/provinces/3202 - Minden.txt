@@ -12,7 +12,6 @@ capital = "Minden"
 base_tax = 2
 base_production = 2
 base_manpower = 2 
-hre = yes
 is_city = yes
 add_core = MND
 add_core = PAD

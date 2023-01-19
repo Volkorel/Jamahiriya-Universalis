@@ -2,7 +2,7 @@
 # No previous file for Beyond Typus province
 
 culture = cree
-religion = totemism 
+religion = norse_pagan_reformed
 capital = "Winisk"
 trade_goods = unknown
 hre = no 

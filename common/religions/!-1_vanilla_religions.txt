@@ -464,24 +464,96 @@ christian = {
 			shock_damage_received = -0.025
 		}
 		heretic = { TABORITE UTRAQUIST ORPHAN }
-		uses_church_power = yes				# Uses church power/aspect mechanics
-		aspects = {
-			organised_through_bishops_aspect
-			priests_may_marry_aspect
-			adult_baptism_aspect
-			holy_sacraments_aspect
-			saints_accept_prayers_aspect
-			icons_images_aspect
-			legalised_divorces_aspect
-			heretics_deported_aspect
-			parish_registers_aspect
-			individual_creeds_aspect
-			allow_usury_aspect
-			translated_bibles_aspect
-		}
-		aspects_name = PROTESTANT_ASPECTS
+#		uses_church_power = yes				# Uses church power/aspect mechanics
+#		aspects = {
+#			organised_through_bishops_aspect
+#			priests_may_marry_aspect
+#			adult_baptism_aspect
+#			holy_sacraments_aspect
+##			saints_accept_prayers_aspect
+#			icons_images_aspect
+#			legalised_divorces_aspect
+#			heretics_deported_aspect
+#			parish_registers_aspect
+#			individual_creeds_aspect
+#			allow_usury_aspect
+#			translated_bibles_aspect
+#		}
+#		aspects_name = PROTESTANT_ASPECTS
 
 		hre_heretic_religion = yes
+	}
+	
+	anglican = {
+		color = { 135 77 255 }
+		icon = 45
+		allow_female_defenders_of_the_faith = yes
+
+		allowed_center_conversion = {
+			catholic
+		}
+		country = {
+			development_cost = -0.1
+			technology_cost = -0.05
+		}
+		
+		country_as_secondary = {
+			idea_cost = -0.1
+		}
+		
+		uses_anglican_power = yes				# Uses church power/aspect mechanics
+		
+		aspects = {
+			divorce_consort_aspect
+			gain_consort_aspect
+			dissolve_monasteries_aspect
+			monopoly_aspect
+			stability_aspect
+			innovativeness_aspect
+			expel_heretics_aspect
+			diplomats_of_the_reformation_aspect
+			icons_of_the_church_aspect
+		}
+		aspects_name = ANGLICAN_ASPECTS
+		
+		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
+		
+		date = 1534.11.3 # act of supremacy
+	}
+	
+	hussite = {
+		color = { 244 55 9 }
+		icon = 45
+
+		allowed_center_conversion = {
+			catholic
+		}
+		country = {
+			shock_damage_received = -0.05
+			global_heretic_missionary_strength = 0.02
+		}
+		
+		country_as_secondary = {
+			shock_damage_received = -0.025
+		}
+		
+		uses_hussite_power = yes				# Uses church power/aspect mechanics
+		
+		aspects = {
+			clerical_poverty_aspect
+			bread_and_wine_aspect
+			sola_scriptura_aspect
+			adamite_services_aspect
+			pacifism_aspect
+			punishment_of_sins_aspect
+			regular_defenestrations_aspect
+			taborite_resurgence_aspect
+			orphan_hetmans_aspect
+			freedom_to_preach_aspect
+		}
+		aspects_name = PROTESTANT_ASPECTS
+		
+		heretic = { TABORITE UTRAQUIST ORPHAN }
 	}
 
 	protestant = {

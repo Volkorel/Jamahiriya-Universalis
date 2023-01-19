@@ -4,8 +4,8 @@
 owner = GLC
 controller = GLC
 add_core = GLC
-culture = russian
-religion = orthodox
+culture = byelorussian
+religion = apostolic
 capital = "Khotshin"
 trade_goods = livestock
 hre = no

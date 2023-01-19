@@ -6,7 +6,7 @@
 owner = IRE
 controller = IRE
 add_core = IRE
-add_core = ANA
+add_core = ANI
 add_core = GLW
 culture = irish
 religion = catholic

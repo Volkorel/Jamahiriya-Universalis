@@ -22,7 +22,7 @@ trade_goods = livestock
 #Cores and Occupation (Alphabetical after current)
 add_core = LEI
 add_core = IRE
-add_core = ANA
+add_core = ANI
 add_core = WMC
 add_core = MTH
 

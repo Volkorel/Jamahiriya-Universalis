@@ -3,7 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = norse_pagan_reformed
-primary_culture = norwegian
+primary_culture = norse
 capital = 1930
 add_accepted_culture = swedish
 1444.11.11= {
@@ -15,7 +15,7 @@ add_accepted_culture = swedish
 		birth_date = 1.1.1
 		regent = yes
 		religion = norse_pagan_reformed
-		culture = norwegian
+		culture = norse
 	}
 	heir = {
 		name = "Tryggve"
@@ -27,7 +27,7 @@ add_accepted_culture = swedish
 		death_date = 1497.11.8
 		claim = 89
 		religion = norse_pagan_reformed
-		culture = norwegian
+		culture = norse
 	}
 }
 1444.11.11= {

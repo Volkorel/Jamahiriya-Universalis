@@ -3,8 +3,8 @@
 
 owner = Z04
 controller = Z04
-culture = albanian
-religion = orthodox
+culture = arbereshe
+religion = catholic
 capital = "Vlora"
 trade_goods = fish
 hre = no

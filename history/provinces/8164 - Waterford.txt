@@ -28,13 +28,6 @@ hre = no
 add_local_autonomy = 25
 
 #Fort/Other Buildings
-
-#Special Modifiers
-add_permanent_province_modifier = {
-	name = waterford_harbour_modifier
-	duration = -1
-}
-
 #Discoveries
 discovered_by = western
 discovered_by = muslim

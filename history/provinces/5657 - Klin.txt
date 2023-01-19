@@ -4,8 +4,8 @@
 owner = TVE
 controller = TVE
 add_core = TVE
-culture = russian
-religion = orthodox
+culture = byelorussian
+religion = apostolic
 capital = "Klin"
 trade_goods = grain			#in modern times produces a lot of beer... good enough
 hre = no

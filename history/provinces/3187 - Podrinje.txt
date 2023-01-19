@@ -4,7 +4,7 @@
 owner = SER
 controller = SER
 culture = serbian
-religion = orthodox
+religion = catholic
 capital = "Macva"			#Missing caron. Encoding doesn't seem to want to do it
 trade_goods = grain
 hre = no

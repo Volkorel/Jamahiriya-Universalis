@@ -2,7 +2,7 @@
 # No previous file for Beyond Typus province
 
 culture = inuit
-religion = totemism 
+religion = norse_pagan_reformed
 capital = "Amadjuak" 
 trade_goods = unknown
 hre = no 
@@ -14,6 +14,3 @@ native_ferocity = 1
 native_hostileness = 3 
 
 discovered_by = north_american
-
-1578.1.1 = { discovered_by = ENG } # Martin Frobisher
-1707.5.12 = { discovered_by = GBR }

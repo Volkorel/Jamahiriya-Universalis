@@ -4,7 +4,7 @@
 owner = SER
 controller = SER
 culture = serbian
-religion = orthodox
+religion = catholic
 capital = "Kru?evac"
 trade_goods = grain
 hre = no

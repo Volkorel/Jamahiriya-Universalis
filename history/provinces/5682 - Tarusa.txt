@@ -4,8 +4,8 @@
 owner = MOS
 controller = MOS
 add_core = MOS
-culture = russian
-religion = orthodox
+culture = byelorussian
+religion = apostolic
 capital = "Tarusa"
 trade_goods = grain
 hre = no

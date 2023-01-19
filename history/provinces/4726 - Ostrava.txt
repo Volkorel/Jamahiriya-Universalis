@@ -1,19 +1,30 @@
-owner = SIL
-controller = SIL
-capital = "Ostrava"
+ 
+#4726 - Prerov
+#Area - Moravia
+#Region - South Germany
+
+#Core Details
+capital = "Ostrava" #Representing Ostrava like vanilla, but with Prerov being province name for the kraj.
 is_city = yes
+owner = MVA
+controller = MVA
+
+#Demographics
 culture = slovak
-religion = catholic
-trade_goods = grain
-base_tax = 4
-base_production = 1
-base_manpower = 2
-add_core = SIL
-add_core = SLO
-discovered_by = MGE
-discovered_by = eastern
-discovered_by = indian
-discovered_by = muslim
-discovered_by = nomad_group
-discovered_by = ottoman
-discovered_by = western
+religion = hussite
+
+#Development and Trade
+base_tax = 2
+base_production = 2
+base_manpower = 1
+trade_goods = wine
+
+#Cores and Occupation (Alphabetical after current)
+add_core = BOH
+add_core = MVA
+
+#Other Political
+
+#Fort/Other Buildings
+
+#Special Modifiers

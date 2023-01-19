@@ -10,7 +10,7 @@ controller = X55
 
 #Demographics
 culture = turkish
-religion = sunni
+religion = apostolic
 
 #Development and Trade
 base_tax = 2

@@ -2,7 +2,7 @@
 # No previous file for Beyond Typus province
 
 culture = inuit
-religion = totemism 
+religion = norse_pagan_reformed 
 capital = "Qaaktugvik"			#Barter Island, actuall a rather major trading centre for being so far north, not giving it a CoT, however, because it is so remote, cold, and small.
 trade_goods = unknown
 hre = no 

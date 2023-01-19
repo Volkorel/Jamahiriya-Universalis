@@ -3,8 +3,8 @@
 owner = Y14
 controller = Y14
 add_core = Y14
-culture = turkish
-religion = sunni
+culture = armenian
+religion = catholic
 capital = "Karasi"			#Later known as Balikesir
 trade_goods = grain			#(JP) Known for its Agriculture
 hre = no

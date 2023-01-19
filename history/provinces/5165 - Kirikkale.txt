@@ -3,8 +3,8 @@
 owner = Z18
 controller = Z18
 add_core = Z18
-culture = turkish
-religion = sunni
+culture = armenian
+religion = catholic
 capital = "Balisheyh"
 is_city = yes
 hre = no

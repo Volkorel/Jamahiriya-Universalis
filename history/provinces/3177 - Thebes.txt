@@ -4,7 +4,7 @@
 owner = EPI
 controller = EPI
 culture = greek
-religion = orthodox
+religion = catholic
 capital = "Thebes"
 trade_goods = silk			#Perhaps the single greatest hub of the silk trade in Europe. Possibly worth a province modifier.
 hre = no

@@ -4,8 +4,8 @@
 owner = Y86
 controller = Y86
 add_core = Y86
-culture = crimean
-religion = sunni
+culture = avar
+religion = catholic
 capital = "Aleksandrovka"			#Nothing here 'til the late 18th century... so.... getting creative. Modern Donetsk
 base_tax = 1
 base_production = 1

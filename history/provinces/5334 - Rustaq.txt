@@ -4,7 +4,7 @@
 owner = OMA
 controller = OMA
 culture = omani_culture
-religion = ibadi
+religion = shiite
 capital = "Rustaq"
 trade_goods = grain		#Fruit
 hre = no

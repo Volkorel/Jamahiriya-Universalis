@@ -1,17 +1,17 @@
  
-#6001 - Sögüt
+#6001 - Sï¿½gï¿½t
 #Area - 
 #Region - Anatolia
 
 #Core Details
-capital = "Sögüt"
+capital = "Sï¿½gï¿½t"
 is_city = yes
 owner = Z04
 controller = Z04
 
 #Demographics
-culture = turkish
-religion = sunni
+culture = armenian
+religion = catholic
 
 #Development and Trade
 base_tax = 2

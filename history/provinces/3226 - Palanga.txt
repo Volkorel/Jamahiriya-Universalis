@@ -1,0 +1,22 @@
+ 
+#3226 - Palanga
+#Region - Baltic
+#Area - Lithuania
+
+owner = TEU
+controller = TEU
+culture = lithuanian
+religion = catholic
+capital = "Palanga"
+trade_goods = grain
+hre = no
+base_tax = 2 
+base_production = 2 
+base_manpower = 3 
+is_city = yes
+add_core = SMG
+add_core = TEU
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

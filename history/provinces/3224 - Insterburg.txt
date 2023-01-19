@@ -1,0 +1,23 @@
+ 
+#3224 - Insterburg
+#Region - Baltic
+#Area - East Prussia
+
+owner = TEU
+controller = TEU
+capital = "Stallup?nen"
+culture = yotvingian_culture
+religion = catholic
+trade_goods = naval_supplies
+hre = no
+base_tax = 1 
+base_production = 1 
+base_manpower = 1 
+is_city = yes
+add_core = TEU
+add_core = WRM
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

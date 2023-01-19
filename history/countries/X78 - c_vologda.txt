@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = western
 religion = norse_pagan_reformed
-primary_culture = norwegian
+primary_culture = norse
 capital = 4263
 fixed_capital = 4263
 add_accepted_culture = karelian
@@ -16,7 +16,7 @@ add_accepted_culture = karelian
 		birth_date = 1.1.1
 		regent = yes
 		religion = norse_pagan_reformed
-		culture = norwegian
+		culture = norse
 	}
 	heir = {
 		name = "�se"
@@ -29,7 +29,7 @@ add_accepted_culture = karelian
 		female = yes
 		claim = 89
 		religion = norse_pagan_reformed
-		culture = norwegian
+		culture = norse
 	}
 }
 1444.11.11= {

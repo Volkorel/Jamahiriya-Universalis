@@ -10,7 +10,6 @@ base_production = 5
 base_manpower = 2
 add_core = GEL
 add_core = HAN
-add_core = SHI
 add_core = FRI
 discovered_by = MGE
 discovered_by = eastern

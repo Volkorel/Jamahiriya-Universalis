@@ -6,11 +6,11 @@
 #Core Details
 capital = "Nowy Targ"
 is_city = yes
-owner = POL
-controller = POL
+owner = X45
+controller = X45
 
 #Demographics
-culture = polish
+culture = kishinyov
 religion = catholic
 
 #Development and Trade
@@ -20,7 +20,8 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = POL
+add_core = X45
+add_core = MPK
 
 #Other Political
 hre = no
@@ -29,29 +30,9 @@ hre = no
 
 #Special Modifiers
 
-#Discoveries
-1444.1.1 = { discovered_by = KAZ }
-1444.1.1 = { discovered_by = CRI }
-1444.1.1 = { discovered_by = GOL }
-1444.1.1 = { discovered_by = AST }
-1444.1.1 = { discovered_by = QAS }
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 
 #Histories
-
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
-	remove_core = POL
-	add_core = MPK
-	owner = MPK
-	controller = MPK
-} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-	add_core = POL
-	remove_core = MPK
-	owner = POL
-	controller = POL
-} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-

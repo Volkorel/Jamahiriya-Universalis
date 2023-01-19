@@ -3,7 +3,7 @@
 
 owner = Y06
 controller = Y06
-add_core = YO6
+add_core = Y06
 add_core = ANJ
 culture = aquitaine
 religion = catholic

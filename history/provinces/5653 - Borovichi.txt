@@ -4,8 +4,8 @@
 owner = NOV
 controller = NOV
 add_core = NOV
-culture = russian
-religion = orthodox
+culture = byelorussian
+religion = apostolic
 capital = "Borovichi"
 trade_goods = naval_supplies
 hre = no

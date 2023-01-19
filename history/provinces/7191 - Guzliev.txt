@@ -4,8 +4,8 @@
 owner = CRI
 controller = CRI
 add_core = CRI
-culture = crimean
-religion = sunni
+culture = avar
+religion = catholic
 capital = "Guzliev"
 base_tax = 4
 base_production = 4

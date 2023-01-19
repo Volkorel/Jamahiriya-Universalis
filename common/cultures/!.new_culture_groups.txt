@@ -4,17 +4,17 @@
 oghuz = {
 	# Pecheneg name pool used as default one
 	male_names = {
-		Çelgil Aba Baitzas Balgor Batan Batas Bator Bayça Biçkili Bizel Boru Bula Giazis Ildey
+		ï¿½elgil Aba Baitzas Balgor Batan Batas Bator Bayï¿½a Biï¿½kili Bizel Boru Bula Giazis Ildey
 		Ipa Ipaos Kabuksin Karaca Kaydum Kegen Konel Korkutan Kortan Kostas Kourkoutai
-		Kuchug Kuerçi Kugel Kure Kürä Metiga Sol Suru Tatus Teber Temir Tyrach Yavdi Yazi Yeke
+		Kuchug Kuerï¿½i Kugel Kure Kï¿½rï¿½ Metiga Sol Suru Tatus Teber Temir Tyrach Yavdi Yazi Yeke
 	}
 	female_names = {
-		Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge
-		Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
+		ï¿½iï¿½ek ï¿½ilen ï¿½iltanesi ï¿½zgul ï¿½zlem Akgul Asli Ayasun Ayten Bozï¿½in Dilek Esin Gulï¿½iï¿½ek Gulay Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge
+		Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik Sibel Sirin Sirma Songul Tekï¿½e Tura Umay Usunbike Yasar Yeldem Yildiz
 	}
 	dynasty_names = {
-		Kankali Tzopon Paguman Belermen Thonuzoba Yüregir Beçenek Bügdüz Üçok Çavuldur
-		Bayandur Irtim Talmat Batas Alayuntlu Çepni Eymür Salgurlu Kankali
+		Kankali Tzopon Paguman Belermen Thonuzoba Yï¿½regir Beï¿½enek Bï¿½gdï¿½z ï¿½ï¿½ok ï¿½avuldur
+		Bayandur Irtim Talmat Batas Alayuntlu ï¿½epni Eymï¿½r Salgurlu Kankali
 	}
 	pecheneg = {
 		primary = PTZ
@@ -26,17 +26,17 @@ oghuz = {
 		primary = BUL
 		male_names = {
 			Almish Alzek Anzi Apskhih Araslan Asparukh Balamber Bars Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Boyan Bulger Buzan Chepa Chinialush Dengizikh
-			Dizeng Dometa Dristar Drong Dukum Ellak Elemag Ernakh Eskhakh Goleda Gostun Guar Hudbad Iani Irnek Isbul Islivan Isperikh Ispor Kälaç Kano Karan Karaton
+			Dizeng Dometa Dristar Drong Dukum Ellak Elemag Ernakh Eskhakh Goleda Gostun Guar Hudbad Iani Irnek Isbul Islivan Isperikh Ispor Kï¿½laï¿½ Kano Karan Karaton
 			Kardam Kharaton Khinialon Khudbard Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kurt Kutrigur Kuvrat Labertam Magotin Malamir Mugel Odolgan Okhsi
-			Okhsun Okors Omurtag Onegavon Organ Organa Ornag Oshi Ostro Pagan Pakhtiyar Paväl Praksa Rassate Rugila Sabin Sandil Sandilkh Sarkhan Sartäç Savin Sevar Shilki
-			Sondoke Tähtaman Tarasiy Taridin Tatra Telec Telerig Tervel Timër Timëreç
-			Timërpälat Tingiz Tiradin Tokhtaman Toktu Tsog Tsul Tuk Umor Uturgur Vakrim Venda
+			Okhsun Okors Omurtag Onegavon Organ Organa Ornag Oshi Ostro Pagan Pakhtiyar Pavï¿½l Praksa Rassate Rugila Sabin Sandil Sandilkh Sarkhan Sartï¿½ï¿½ Savin Sevar Shilki
+			Sondoke Tï¿½htaman Tarasiy Taridin Tatra Telec Telerig Tervel Timï¿½r Timï¿½reï¿½
+			Timï¿½rpï¿½lat Tingiz Tiradin Tokhtaman Toktu Tsog Tsul Tuk Umor Uturgur Vakrim Venda
 			Vetam Vinekh Yani
-			Yavantey Yençepi Yerneslu Yeçtirek Zabergan Zenti Tukiy Aydar Irkhan Batir
+			Yavantey Yenï¿½epi Yerneslu Yeï¿½tirek Zabergan Zenti Tukiy Aydar Irkhan Batir
 		}
 		dynasty_names = {
 			Vokil Altsikur Kashu Barskhan Barsil Balanjar Vokil Erdevulu Silkid Bilar Sabir Esegel Izgil Askil
-			Bersula Urazgilid Kalmagorid Klyuch Ureñ Mayna Yasach Utka Bezd Kurnal Mesha Kaban
+			Bersula Urazgilid Kalmagorid Klyuch Ureï¿½ Mayna Yasach Utka Bezd Kurnal Mesha Kaban
 			Oshnya Tolkish Izgar Sulcha Karmal
 		}
 	}
@@ -54,7 +54,7 @@ oghuz = {
 	khazar = {
 		primary = KAZ
 		male_names = {
-			Kozar Karadach Ziebel "Böri Shad" Irbis Khalga Kaban Busir Barjik Bihar Prisbit
+			Kozar Karadach Ziebel "Bï¿½ri Shad" Irbis Khalga Kaban Busir Barjik Bihar Prisbit
 			Baghatur Dyggvi Tarkhan Zachariah "Yazir Bulash" Chorpan Tarkhan "Alp Tarkhan"
 			Tar'mach Hazer Bulan Sabriel Obadiah Hezekiah Manasseh Chanukkah Isaac Zebulun
 			Manasseh Nisi Aaron Menahem Benjamin Joseph David Georgius Tzul Tzitzak
@@ -72,7 +72,7 @@ oghuz = {
 			Iskandar
 		}
 		female_names = {
-			Temülen Börte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene
+			Temï¿½len Bï¿½rte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Sorghaghtani Beki Toregene
 		}
 	}
 }

@@ -30,7 +30,7 @@ add_accepted_culture = piedmontese
 		birth_date = 1426.10.26
 		death_date = 1486.10.26
 		religion = catholic
-		culture = icelandic
+		culture = norse
 	}
 	add_queen_personality = bold_fighter_personality
 	add_queen_personality = zealot_personality

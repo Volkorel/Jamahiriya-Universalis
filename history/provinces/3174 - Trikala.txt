@@ -4,7 +4,7 @@
 owner = EPI
 controller = EPI
 culture = aromanian_culture			#A major centre of Vlachs, or Aromanians, apparently was eastern Thessaly, and much of the region even came to be known as Vlachia
-religion = orthodox
+religion = catholic
 capital = "Trikala"
 trade_goods = wine			#known for wine
 hre = no

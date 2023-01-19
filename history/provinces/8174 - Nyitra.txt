@@ -6,8 +6,8 @@
 #Core Details
 capital = "Nyitra"
 is_city = yes
-owner = HUN
-controller = HUN
+owner = MVA
+controller = MVA
 
 #Demographics
 culture = slovak
@@ -21,7 +21,9 @@ trade_goods = bt_trade_good_fruit
 
 #Cores and Occupation (Alphabetical after current)
 add_core = HUN
+add_core = MVA
 add_core = LHU
+add_core = SLO
 
 #Other Political
 hre = no
@@ -31,29 +33,7 @@ hre = no
 #Special Modifiers
 
 #Discoveries
-1444.1.1 = { discovered_by = KAZ }
-1444.1.1 = { discovered_by = CRI }
-1444.1.1 = { discovered_by = GOL }
-1444.1.1 = { discovered_by = AST }
-1444.1.1 = { discovered_by = QAS }
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-#Histories
-
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
-	remove_core = HUN
-	remove_core = LHU
-	add_core = SLO
-	owner = SLO
-	controller = SLO
-} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
-	add_core = HUN
-	add_core = LHU
-	remove_core = SLO
-	owner = HUN
-	controller = HUN
-} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
