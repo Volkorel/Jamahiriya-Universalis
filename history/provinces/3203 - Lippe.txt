@@ -5,7 +5,7 @@
 
 owner = PAD
 controller = PAD
-culture = lower_saxon
+culture = hannoverian
 religion = catholic
 trade_goods = wool
 capital = "Detmold"

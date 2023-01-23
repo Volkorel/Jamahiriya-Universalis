@@ -4,7 +4,7 @@
 owner = BRI
 controller = BRI
 add_core = BRI
-culture = breton
+culture = gallo_culture
 religion = catholic
 capital = "Guérande"
 base_tax = 4

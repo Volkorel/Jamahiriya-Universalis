@@ -9,7 +9,7 @@ owner = LOR
 controller = LOR
 
 #Demographics
-culture = hessian
+culture = lorraine_culture
 religion = catholic
 
 #Development and Trade

@@ -3,9 +3,9 @@
 #Region - Scandinavia
 #Area - Gotaland
 
-add_core = SWE
-owner = GTA
-controller = GTA
+add_core = Y46
+owner = Y46
+controller = Y46
 culture = swedish
 religion = norse_pagan_reformed
 hre = no

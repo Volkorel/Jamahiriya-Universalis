@@ -6,7 +6,7 @@
 owner = MVA
 controller = MVA
 capital = "Hradi?te"
-culture = slovak
+culture = czech
 religion = catholic
 trade_goods = wine
 base_tax = 2 

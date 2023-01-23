@@ -10,7 +10,7 @@ owner = NIE
 controller = NIE
 
 #Demographics
-culture = silesian_german
+culture = schlesian
 religion = catholic
 
 #Development and Trade

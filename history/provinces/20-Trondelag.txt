@@ -1,5 +1,5 @@
-owner = Z92
-controller = Z92
+owner = Y46
+controller = Y46
 capital = "Trondheim"
 is_city = yes
 culture = norse
@@ -11,7 +11,7 @@ base_manpower = 4
 extra_cost = 8
 center_of_trade = 1
 add_core = NOR
-add_core = Z92
+add_core = Y46
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

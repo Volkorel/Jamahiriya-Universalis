@@ -5,7 +5,7 @@
 
 owner = GEN
 controller = GEN
-culture = corsican_culture 
+culture = sardinian 
 religion = catholic 
 hre = yes
 base_tax = 2

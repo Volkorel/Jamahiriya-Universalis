@@ -10,7 +10,7 @@ owner = SOR
 controller = SOR
 
 #Demographics
-culture = sorbian
+culture = lusat
 religion = catholic
 
 #Development and Trade

@@ -3,7 +3,7 @@
 #Region - Germany
 #Area - Lower Swabia
 
-culture = franconian
+culture = swabian
 owner = GER
 controller = GER
 add_core = GER

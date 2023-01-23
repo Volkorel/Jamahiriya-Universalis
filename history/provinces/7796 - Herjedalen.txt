@@ -1,9 +1,9 @@
  
 #BT Scandinavia and Baltics reoverhaul
 
-owner = Z56
-controller = Z56
-add_core = Z56
+owner = Y46
+controller = Y46
+add_core = Y46
 add_core = JMT
 culture = norse
 religion = norse_pagan_reformed

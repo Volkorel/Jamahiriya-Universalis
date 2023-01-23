@@ -9,7 +9,7 @@ owner = GER
 controller = GER
 
 #Demographics
-culture = franconian
+culture = saxon
 religion = catholic
 
 #Development and Trade

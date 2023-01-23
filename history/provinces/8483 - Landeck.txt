@@ -9,7 +9,7 @@ owner = TIR
 controller = TIR
 
 #Demographics
-culture = bavarian
+culture = austrian
 religion = catholic
 
 #Development and Trade

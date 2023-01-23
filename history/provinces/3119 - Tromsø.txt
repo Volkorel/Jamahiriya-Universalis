@@ -5,8 +5,8 @@
 
 owner = Z55
 controller = Z55
-culture = sapmi
-religion = animism
+culture = norse
+religion = norse_pagan_reformed
 hre = no
 base_tax = 1  
 base_production = 1 

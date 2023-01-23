@@ -4,7 +4,7 @@
 owner = POM
 controller = POM
 add_core = POM
-culture = polabian_culture
+culture = pommeranian
 religion = catholic
 capital = "Usedom"
 base_tax = 2 

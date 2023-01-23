@@ -1,5 +1,5 @@
-owner = Y24
-controller = Y24
+owner = Y46
+controller = Y46
 capital = "Örebro"
 is_city = yes
 culture = norse

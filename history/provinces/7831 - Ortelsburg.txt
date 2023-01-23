@@ -3,7 +3,7 @@
 owner = TEU
 controller = TEU
 add_core = TEU
-culture = polish
+culture = yotvingian_culture
 religion = catholic
 capital = "Ortelsburg"
 is_city = yes

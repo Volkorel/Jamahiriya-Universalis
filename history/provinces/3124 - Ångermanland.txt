@@ -3,9 +3,9 @@
 #Region - Scandinavia
 #Area - Norrland
 
-add_core = Z56
-owner = Z56
-controller = Z56
+add_core = Y46
+owner = Y46
+controller = Y46
 culture = norse
 religion = norse_pagan_reformed
 hre = no

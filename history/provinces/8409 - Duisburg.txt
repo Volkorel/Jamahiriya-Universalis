@@ -9,7 +9,7 @@ owner = KLE
 controller = KLE
 
 #Demographics
-culture = dutch
+culture = hessian
 religion = catholic
 
 #Development and Trade

@@ -1,5 +1,5 @@
-owner = X76
-controller = X76
+owner = Y46
+controller = Y46
 capital = "Västerås"
 is_city = yes
 culture = norse
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 2
 base_production = 3
 base_manpower = 1
-add_core = X76
+add_core = Y46
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -5,27 +5,19 @@ pagan = {
 		country = {
 			
 
-		global_missionary_strength = 0.02
-		tolerance_heathen = -1
-	
-
+		tolerance_heathen = 1
 		female_advisor_chance = 0.5
-	
-
-		naval_morale = 0.1
+		ship_durability = 0.1
+		shock_damage = 0.1
 	
 		}
 		province = {
 			
 		}
-				country_as_secondary = {
+		country_as_secondary = {
 			
-
-		female_advisor_chance = 0.5
-		fire_damage_received = -0.1
-	
-
-		naval_morale = 0.1
+		shock_damage = 0.1
+		ship_durability = 0.1
 	
 		}
 		

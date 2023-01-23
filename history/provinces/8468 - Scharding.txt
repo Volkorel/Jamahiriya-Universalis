@@ -9,7 +9,7 @@ owner = BAV
 controller = BAV
 
 #Demographics
-culture = bavarian
+culture = austrian
 religion = catholic
 
 #Development and Trade

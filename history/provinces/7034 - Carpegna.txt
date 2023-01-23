@@ -4,7 +4,7 @@
 owner = CRP
 controller = CRP
 add_core = CRP
-culture = romagnan
+culture = umbrian
 religion = catholic
 capital = "Carpegna"
 base_tax = 4

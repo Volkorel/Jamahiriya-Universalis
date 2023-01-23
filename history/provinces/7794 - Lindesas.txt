@@ -1,9 +1,9 @@
  
 #BT Scandinavia and Baltics reoverhaul
 
-owner = X76
-controller = X76
-add_core = X76
+owner = Y46
+controller = Y46
+add_core = Y46
 culture = norse
 religion = norse_pagan_reformed
 capital = "Lindesås"
