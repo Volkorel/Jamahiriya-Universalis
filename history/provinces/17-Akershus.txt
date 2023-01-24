@@ -1,5 +1,5 @@
-owner = Z81
-controller = Z81
+owner = NOR
+controller = NOR
 capital = "Oslo"
 is_city = yes
 culture = norse
@@ -11,7 +11,6 @@ base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
 add_core = NOR
-add_core = Z81
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

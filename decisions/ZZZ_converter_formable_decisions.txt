@@ -1155,5 +1155,79 @@ country_decisions = {
 		}
 	}
 
+	form_vinland = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { has_reform = celestial_empire }
+			NOT = { tag = VZZ }
+			OR = {
+				NOT = { exists = VZZ }
+				ai = no
+			}
+			culture_group = scandinavian
+		}
+		provinces_to_highlight = {
+			province_id = 980
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = VZZ }
+			owns_or_non_sovereign_subject_of = 980
+			is_at_war = no
+		}
+		effect = {
+			980 = {
+				cede_province = ROOT
+				add_core = VZZ
+			}
+			release = VZZ
+			every_province = {
+				limit = {
+					continent = north_america
+					OR = {
+						owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+				add_core = VZZ
+				cede_province = VZZ
+			}
+			VZZ = {
+				restore_country_name_effect = yes
+				swap_non_generic_missions = yes
+				add_country_modifier = {
+					name = "centralization_modifier"
+					duration = 3650
+				}
+				add_prestige = 10
+				change_primary_culture = vinlandi
+				980 = {
+					move_capital_effect = yes
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = scandinavian
+					}
+					change_culture = vinlandi
+				}
+			}
+			switch_tag = VZZ
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 
 }

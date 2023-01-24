@@ -1,9 +1,9 @@
  
 #BT Scandinavia and Baltics reoverhaul
 
-owner = Y51
-controller = Y51
-add_core = Y51
+owner = NOR
+controller = NOR
+add_core = NOR
 culture = norse
 religion = norse_pagan_reformed
 capital = "Vinger"

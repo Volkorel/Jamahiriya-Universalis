@@ -1,9 +1,9 @@
  
 #BT Scandinavia and Baltics reoverhaul
 
-owner = Z98
-controller = Z98
-add_core = Z98
+owner = NOR
+controller = NOR
+add_core = NOR
 culture = norse
 religion = norse_pagan_reformed
 capital = "Farsund"			#Not sure if this existed in the 1300s?

@@ -8,7 +8,6 @@ trade_goods = iron
 base_tax = 1
 base_production = 6
 base_manpower = 2
-add_core = NOR
 add_core = Z94
 discovered_by = MGE
 discovered_by = eastern

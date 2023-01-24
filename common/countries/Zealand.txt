@@ -2,9 +2,9 @@
 
 graphical_culture = westerngfx
 
-color = { 70 70 190 }
+color = { 186 15 15 }
 
-preferred_religion = protestant
+preferred_religion = norse_pagan_reformed
 
 historical_idea_groups = {
 	maritime_ideas
@@ -35,7 +35,6 @@ historical_units = {
 }
 
 monarch_names = {
-	"Christian #0" = 140
 	"Frederik #0" = 120
 	"Erik #7" = 20
 	"Christoffer #3" = 20

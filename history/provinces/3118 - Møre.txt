@@ -3,9 +3,9 @@
 #Region - Scandinavia
 #Area - Western Norway
 
-owner = Z92
-controller = Z92
-add_core = Z92
+owner = NOR
+controller = NOR
+add_core = NOR
 culture = norse
 religion = norse_pagan_reformed
 hre = no

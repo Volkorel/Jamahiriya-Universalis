@@ -2,50 +2,31 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-religion = catholic
+religion = norse_pagan_reformed
 primary_culture = norse
 capital = 17
-historical_friend = DAN
-1397.1.1= {
-	set_estate_privilege = estate_nobles_danish_nobility
-	set_estate_privilege = estate_nobles_nobles_instead_of_royal_court
-}
-1436.1.1= { 
-	leader = { 
-		name = "Amund Bolt"
-		type = general 
- 
-		fire = 1 
-		shock = 2 
-		manuever = 2 
-		siege = 0 
-		death_date = 1440.1.1 
-	} 
-}
-1520.1.1= { 
-	leader = { 
-		name = "Olav Galle" 
-		type = general 
- 
-		fire = 1 
-		shock = 2 
-		manuever = 2 
-		siege = 0 
-		death_date = 1530.1.1 
-	} 
-}
-1521.1.1= { leader = { name = "Engelbriktsson"         type = general fire = 1 shock = 1 manuever = 3 siege = 0 death_date = 1538.2.7 } }
-1537.1.1= { religion = protestant }
-1670.2.10= { government = monarchy
-add_government_reform = autocracy_reform }
-1814.2.16= {
+historical_friend = SWE
+1444.11.11= {
 	monarch = {
-		name = "Chdanskn Frederik"
-		dynasty = "von Oldenburg"
-		culture = danish
-		birth_date = 1786.9.18
-		adm = 0
-		dip = 0
-		mil = 0
+		name = "(Regency Council)"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1.1.1
+		regent = yes
+		religion = norse_pagan_reformed
+		culture = norse
+	}
+	heir = {
+		name = "Tryggve"
+		dynasty = "Synirulfa"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1432.11.8
+		death_date = 1497.11.8
+		claim = 89
+		religion = norse_pagan_reformed
+		culture = norse
 	}
 }

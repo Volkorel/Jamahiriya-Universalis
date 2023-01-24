@@ -1,5 +1,5 @@
-owner = Z92
-controller = Z92
+owner = NOR
+controller = NOR
 capital = "Molde"
 is_city = yes
 culture = norse
@@ -9,7 +9,6 @@ base_tax = 6
 base_production = 1
 base_manpower = 1
 add_core = NOR
-add_core = Z92
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = Y51
-controller = Y51
+owner = NOR
+controller = NOR
 capital = "Moss"
 is_city = yes
 culture = norse
@@ -9,7 +9,6 @@ base_tax = 5
 base_production = 1
 base_manpower = 2
 add_core = NOR
-add_core = Y51
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = Y94
-controller = Y94
+owner = NOR
+controller = NOR
 capital = "Bergen"
 is_city = yes
 culture = norse
@@ -11,7 +11,6 @@ base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
 add_core = NOR
-add_core = Y94
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian
