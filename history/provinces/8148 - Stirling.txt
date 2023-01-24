@@ -10,7 +10,7 @@ owner = Z14
 controller = Z14
 
 #Demographics
-culture = highland_scottish
+culture = scottish
 religion = catholic
 
 #Development and Trade

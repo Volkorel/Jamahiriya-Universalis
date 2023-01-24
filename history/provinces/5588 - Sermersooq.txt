@@ -4,7 +4,7 @@
 #Area - East Greenland
 
 culture = kalaallisut
-religion = totemism
+religion = norse_pagan_reformed
 capital = "Paamiut"
 trade_goods = unknown
 hre = no

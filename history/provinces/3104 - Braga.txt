@@ -5,7 +5,7 @@
 
 owner = KCL
 controller = KCL
-culture = leonese
+culture = portugese
 religion = catholic
 capital = "Braga"
 trade_goods = wine

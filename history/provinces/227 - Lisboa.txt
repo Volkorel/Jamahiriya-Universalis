@@ -5,7 +5,7 @@
 
 owner = ADU
 controller = ADU
-culture = portugese
+culture = mozarab
 religion = sunni
 capital = "Lisboa"
 trade_goods = naval_supplies

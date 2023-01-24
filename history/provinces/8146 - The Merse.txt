@@ -10,7 +10,7 @@ owner = ENG
 controller = ENG
 
 #Demographics
-culture = scottish
+culture = northumbrian
 religion = catholic
 
 #Development and Trade

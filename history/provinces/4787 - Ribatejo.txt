@@ -5,7 +5,7 @@
 
 owner = Y35
 controller = Y35
-culture = andalucian
+culture = mozarab
 religion = sunni
 capital = "Santar?m"
 trade_goods = grain

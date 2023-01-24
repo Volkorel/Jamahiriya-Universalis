@@ -4,7 +4,7 @@
 owner = ADU
 controller = ADU
 add_core = ADU
-culture = andalucian
+culture = mozarab
 religion = sunni
 capital = "Abrantes"
 base_tax = 3

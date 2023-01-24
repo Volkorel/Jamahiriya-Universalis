@@ -5,7 +5,7 @@
 
 owner = LEI
 controller = LEI
-culture = gallgaidheil			#Galwegian Gaelic seems to have lasted longer than Gaelic in other parts of Lowland Scotland
+culture = highland_scottish			#Galwegian Gaelic seems to have lasted longer than Gaelic in other parts of Lowland Scotland
 religion = catholic
 hre = no
 base_tax = 2

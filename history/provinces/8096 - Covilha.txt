@@ -4,7 +4,7 @@
 owner = Z44
 controller = Z44
 add_core = Z44
-culture = leonese
+culture = moreiros
 religion = catholic
 capital = "Covilhã"
 base_tax = 2
