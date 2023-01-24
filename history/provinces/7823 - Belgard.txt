@@ -1,9 +1,9 @@
  
 #BT Scandinavia and Baltics reoverhaul
 
-owner = POM
-controller = POM
-add_core = POM
+owner = Y05
+controller = Y05
+add_core = Y05
 culture = pommeranian
 religion = catholic
 capital = "Belgard"

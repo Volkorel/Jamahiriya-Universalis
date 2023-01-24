@@ -10,8 +10,8 @@ owner = EPI
 controller = EPI
 
 #Demographics
-culture = greek
-religion = orthodox
+culture = anatolian
+religion = catholic
 
 #Development and Trade
 base_tax = 2

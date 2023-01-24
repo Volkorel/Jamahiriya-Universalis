@@ -3,7 +3,7 @@
 
 owner = MOS
 controller = MOS
-culture = russian 
+culture = mordvin 
 religion = apostolic
 hre = no
 base_tax = 2 

@@ -3,7 +3,7 @@
 
 owner = Z04
 controller = Z04
-culture = arbereshe
+culture = greek
 religion = catholic
 capital = "Vlora"
 trade_goods = fish

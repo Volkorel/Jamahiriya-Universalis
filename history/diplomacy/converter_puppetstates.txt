@@ -329,7 +329,7 @@ dependency=
 
 vassal=
 {
-	first="Y46"
+	first="SWE"
 	second="ICE"
 	start_date="1444.11.11"
 	end_date="1836.1.1"

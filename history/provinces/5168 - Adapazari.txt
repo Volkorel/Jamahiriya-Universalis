@@ -3,7 +3,7 @@
 owner = Y40
 controller = Y40
 add_core = Y40
-culture = greek
+culture = anatolian
 religion = catholic
 capital = "Adaparazi"
 trade_goods = bt_trade_good_fruit

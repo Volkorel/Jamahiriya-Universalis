@@ -10,7 +10,7 @@ controller = KAR
 
 #Demographics
 culture = armenian
-religion = orthodox
+religion = catholic
 
 #Development and Trade
 base_tax = 1

@@ -10,7 +10,7 @@ controller = X50
 
 #Demographics
 culture = polish
-religion = catholic
+religion = norse_pagan_reformed
 
 #Development and Trade
 base_tax = 2

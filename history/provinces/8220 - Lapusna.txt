@@ -11,7 +11,7 @@ controller = Y80
 
 #Demographics
 culture = romanian
-religion = orthodox
+religion = catholic
 
 #Development and Trade
 base_tax = 2

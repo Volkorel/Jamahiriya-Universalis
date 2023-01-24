@@ -22,23 +22,6 @@ ENG_ideas = {
 	}
 }
 
-SWE_ideas = {
-	trigger = {
-		OR = {
-			tag= SWE
-			AND = {
-				num_of_cities = 15
-				OR = {
-					government_rank = 2
-					government_rank = 3
-				}
-				is_subject = no
-				primary_culture = swedish
-			}
-		}
-	}
-}
-
 RUS_ideas = {
 	trigger = {
 		OR = {

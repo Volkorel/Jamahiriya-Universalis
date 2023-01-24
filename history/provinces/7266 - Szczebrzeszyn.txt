@@ -4,8 +4,8 @@
 owner = Z67
 controller = Z67
 add_core = Z67
-culture = ruthenian
-religion = catholic
+culture = polish
+religion = norse_pagan_reformed
 capital = "Szczebrzeszyn"
 base_tax = 1
 base_production = 2

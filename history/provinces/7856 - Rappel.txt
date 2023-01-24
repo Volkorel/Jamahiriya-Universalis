@@ -3,7 +3,7 @@
 owner = Z96
 controller = Z96
 add_core = Z96
-culture = norse
+culture = marisbaltician
 religion = norse_pagan_reformed
 capital = "Rapla"			#DE Rappel
 base_tax = 1

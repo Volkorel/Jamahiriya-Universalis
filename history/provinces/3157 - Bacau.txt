@@ -4,7 +4,7 @@
 owner = MOL
 controller = MOL
 culture = csango
-religion = catholic
+religion = apostolic
 hre = no
 base_tax = 2 
 base_production = 2 

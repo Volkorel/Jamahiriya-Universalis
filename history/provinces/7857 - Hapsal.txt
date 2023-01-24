@@ -4,7 +4,7 @@
 owner = Z96
 controller = Z96
 add_core = Z96
-culture = norse
+culture = marisbaltician
 religion = norse_pagan_reformed
 capital = "Haapsalu"			#DE Hapsal
 base_tax = 2

@@ -4,8 +4,8 @@
 owner = NEG
 controller = NEG
 add_core = NEG
-culture = arvanite			#Exact timeline unclear, but this would become a centre of the Arvanites in later years
-religion = orthodox
+culture = greek			#glow
+religion = catholic
 capital = "Karystos"
 base_tax = 1
 base_production = 1

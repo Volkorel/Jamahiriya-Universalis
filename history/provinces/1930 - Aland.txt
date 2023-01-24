@@ -1,5 +1,5 @@
-owner = Y46
-controller = Y46
+owner = SWE
+controller = SWE
 capital = "Mariehamn"
 is_city = yes
 culture = norse
@@ -8,7 +8,7 @@ trade_goods = fish
 base_tax = 4
 base_production = 3
 base_manpower = 2
-add_core = Y46
+add_core = SWE
 add_core = AAL
 discovered_by = MGE
 discovered_by = eastern

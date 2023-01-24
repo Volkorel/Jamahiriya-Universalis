@@ -2,7 +2,7 @@
 #New Beyond Typus Province
 
 culture = samoyed
-religion = tengri_pagan_reformed
+religion = tengri_pagan
 capital = "Ust-Usa"
 trade_goods = unknown
 hre = no

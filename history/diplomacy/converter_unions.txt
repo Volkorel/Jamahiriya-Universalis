@@ -72,14 +72,6 @@ union=
 
 union=
 {
-	first="X61"
-	second="X76"
-	start_date="1444.11.11"
-	end_date="1836.1.1"
-}
-
-union=
-{
 	first="X41"
 	second="X67"
 	start_date="1444.11.11"

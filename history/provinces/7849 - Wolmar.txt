@@ -4,7 +4,7 @@
 owner = Z81
 controller = Z81
 add_core = Z81
-culture = norse
+culture = estonian
 religion = norse_pagan_reformed
 capital = "Valmiera"			#DE Wolmar
 base_tax = 2

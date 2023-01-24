@@ -9,7 +9,7 @@ owner = Z86
 controller = Z86
 
 #Demographics
-culture = syriac_culture
+culture = armenian
 religion = apostolic
 
 #Development and Trade

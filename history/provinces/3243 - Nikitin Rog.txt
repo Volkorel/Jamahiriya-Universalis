@@ -4,7 +4,7 @@
 owner = ZAZ
 controller = ZAZ
 culture = avar
-religion = catholic
+religion = apostolic
 hre = no
 base_tax = 1 
 base_production = 1 

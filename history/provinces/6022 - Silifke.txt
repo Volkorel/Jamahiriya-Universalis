@@ -10,7 +10,7 @@ controller = X55
 
 #Demographics
 culture = cilician
-religion = apostolic
+religion = orthodox
 
 #Development and Trade
 base_tax = 2

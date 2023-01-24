@@ -1,9 +1,9 @@
  
 #BT reoverhaul
 
-owner = Z67
-controller = Z67
-add_core = Z67
+owner = ZEA
+controller = ZEA
+add_core = ZEA
 add_core = JUT
 culture = dansk
 religion = norse_pagan_reformed

@@ -4,7 +4,7 @@
 owner = HUN
 controller = HUN
 add_core = HUN
-culture = hungarian
+culture = avar
 religion = catholic
 capital = "Beckerek"			#Could also use Kikinda or Becej
 base_tax = 2 

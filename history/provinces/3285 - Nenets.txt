@@ -4,7 +4,7 @@
 #Area - Pomorye
 
 culture = samoyed
-religion = tengri_pagan_reformed
+religion = tengri_pagan
 capital = "Pustozyorsk"			#Temp name, look for better later
 trade_goods = unknown
 hre = no

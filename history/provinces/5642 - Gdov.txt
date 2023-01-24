@@ -4,8 +4,8 @@
 owner = PSK
 controller = PSK
 add_core = PSK
-culture = russian #116novogorodian
-religion = orthodox
+culture = holmgardi #116novogorodian
+religion = norse_pagan_reformed
 capital = "Gdov"
 trade_goods = naval_supplies
 hre = no

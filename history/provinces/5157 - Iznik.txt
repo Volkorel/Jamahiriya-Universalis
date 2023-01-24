@@ -4,7 +4,7 @@
 owner = Y40
 controller = Y40
 add_core = Y40
-culture = greek
+culture = anatolian
 religion = catholic
 capital = "Iznik"
 trade_goods = glass		#(JP) Pottery

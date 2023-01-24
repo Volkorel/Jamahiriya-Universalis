@@ -5,8 +5,8 @@
 
 owner = UKR
 controller = UKR
-culture = ruthenian
-religion = catholic
+culture = ryazanian
+religion = apostolic
 hre = no
 base_tax = 1 
 base_production = 1 

@@ -3,9 +3,9 @@
 #Region - Baltic
 #Area - West Prussia
 
-owner = TEU
-controller = TEU
-add_core = TEU
+owner = POM
+controller = POM
+add_core = POM
 capital = "Stargard"
 culture = kashubian_culture
 religion = catholic

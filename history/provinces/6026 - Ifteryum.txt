@@ -10,7 +10,7 @@ controller = Z18
 
 #Demographics
 culture = cappadocian
-religion = orthodox
+religion = apostolic
 
 #Development and Trade
 base_tax = 1

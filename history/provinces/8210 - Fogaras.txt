@@ -10,7 +10,7 @@ owner = HUN
 controller = HUN
 
 #Demographics
-culture = romanian
+culture = transylvanian_saxons
 religion = catholic
 
 #Development and Trade

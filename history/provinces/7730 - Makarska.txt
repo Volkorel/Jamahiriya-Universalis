@@ -4,7 +4,7 @@
 owner = HRZ
 controller = HRZ
 add_core = HRZ
-culture = serbian
+culture = greek
 religion = catholic
 capital = "Makarska"
 base_tax = 3

@@ -4,7 +4,7 @@
 owner = X49
 controller = X49
 add_core = X49
-culture = samoyed
+culture = komi
 religion = norse_pagan_reformed
 capital = "Ust-Kulom"
 trade_goods = fur

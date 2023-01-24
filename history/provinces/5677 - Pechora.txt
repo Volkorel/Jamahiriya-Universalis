@@ -1,8 +1,8 @@
  
 #New Beyond Typus Province
 
-culture = uralic
-religion = tengri_pagan_reformed
+culture = komi
+religion = tengri_pagan
 capital = "Pechora"			#Placeholder, this city wasn't founded until modern era
 trade_goods = unknown
 hre = no

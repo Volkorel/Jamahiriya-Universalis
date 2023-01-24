@@ -4,8 +4,8 @@
 owner = X75
 controller = X75
 capital = "Yoshkar-Ola"
-culture = uralic
-religion = tengri_pagan_reformed
+culture = meshchera
+religion = apostolic
 trade_goods = grain
 hre = no
 base_tax = 4 

@@ -1,9 +1,9 @@
  
 #BT Scandinavia and Baltics reoverhaul
 
-owner = X76
-controller = X76
-add_core = X76
+owner = Y50
+controller = Y50
+add_core = Y50
 add_core = GTA
 culture = norse
 religion = norse_pagan_reformed

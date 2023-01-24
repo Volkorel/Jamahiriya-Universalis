@@ -11,7 +11,7 @@ controller = BOH
 
 #Demographics
 culture = czech
-religion = catholic
+religion = hussite
 
 #Development and Trade
 base_tax = 2

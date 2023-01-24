@@ -10,7 +10,7 @@ controller = Z22
 
 #Demographics
 culture = pontic_greek		#Converted to Islam but still many Greeks, often practicising Christianity in secret
-religion = sunni
+religion = paulician
 
 #Development and Trade
 base_tax = 2

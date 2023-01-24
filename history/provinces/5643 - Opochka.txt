@@ -1,11 +1,11 @@
  
 #New Beyond Typus Province
 
-owner = PSK
-controller = PSK
-add_core = PSK
+owner = JOM
+controller = JOM
+add_core = JOM
 culture = russian #116novogorodian
-religion = orthodox
+religion = norse_pagan_reformed
 capital = "Opochka"
 trade_goods = livestock
 hre = no

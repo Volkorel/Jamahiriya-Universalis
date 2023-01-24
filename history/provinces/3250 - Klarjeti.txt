@@ -3,7 +3,7 @@
 
 owner = ARM
 controller = ARM
-culture = georgian
+culture = armenian
 religion = apostolic
 capital = "Artana"
 trade_goods = wool

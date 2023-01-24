@@ -4,7 +4,7 @@
 owner = Z81
 controller = Z81
 add_core = Z81
-culture = norse
+culture = marisbaltician
 religion = norse_pagan_reformed
 capital = "New Perona"			#Uus-Pärnu, or DE Neu-Pernau
 base_tax = 2

@@ -3,7 +3,7 @@
 
 owner = PRM
 controller = PRM
-culture = russian
+culture = komi
 religion = apostolic
 hre = no
 base_tax = 4 

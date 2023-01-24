@@ -10,7 +10,7 @@ controller = Y41
 add_core = Y41
 
 #Demographics
-culture = armenian
+culture = anatolian
 religion = catholic
 
 #Development and Trade

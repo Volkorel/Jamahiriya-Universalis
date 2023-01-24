@@ -4,7 +4,7 @@
 owner = UKR
 controller = UKR
 add_core = UKR
-culture = ruthenian
+culture = english
 religion = catholic
 capital = "Korsun"
 base_tax = 1

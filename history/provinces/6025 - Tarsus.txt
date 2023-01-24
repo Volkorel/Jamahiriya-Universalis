@@ -9,7 +9,7 @@ owner = Z33
 controller = Z33
 
 #Demographics
-culture = cilician
+culture = armenian
 religion = apostolic
 
 #Development and Trade

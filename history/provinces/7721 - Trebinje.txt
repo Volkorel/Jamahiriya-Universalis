@@ -4,7 +4,7 @@
 owner = HRZ
 controller = HRZ
 add_core = HRZ
-culture = serbian
+culture = bosnian
 religion = catholic
 capital = "Trebinje"
 base_tax = 4 

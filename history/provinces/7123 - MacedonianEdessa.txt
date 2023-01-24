@@ -4,7 +4,7 @@
 owner = Y39
 controller = Y39
 add_core = Y39
-culture = bulgarian
+culture = greek
 religion = catholic
 capital = "Vodena"
 base_tax = 2

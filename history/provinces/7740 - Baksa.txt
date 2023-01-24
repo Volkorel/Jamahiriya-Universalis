@@ -4,7 +4,7 @@
 owner = HUN
 controller = HUN
 add_core = HUN
-culture = serbian
+culture = avar
 religion = catholic
 capital = "Bácspalánka"
 base_tax = 2 

@@ -4,8 +4,8 @@
 owner = GLC
 controller = GLC
 add_core = GLC
-culture = byelorussian
-religion = apostolic
+culture = holmgardi
+religion = norse_pagan_reformed
 capital = "Ostashkov"
 base_tax = 3
 base_production = 3

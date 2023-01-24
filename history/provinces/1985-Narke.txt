@@ -1,5 +1,5 @@
-owner = Y46
-controller = Y46
+owner = SWE
+controller = SWE
 capital = "Örebro"
 is_city = yes
 culture = norse
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 6
 base_production = 1
 base_manpower = 1
-add_core = Y46
+add_core = SWE
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

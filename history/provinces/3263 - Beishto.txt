@@ -3,7 +3,7 @@
 
 owner = Z12
 controller = Z12
-culture = circassian
+culture = alan
 religion = apostolic
 hre = no
 base_tax = 4 

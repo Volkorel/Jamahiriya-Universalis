@@ -4,7 +4,7 @@
 owner = Y63
 controller = Y63
 culture = al_suryah_arabic
-religion = shiite
+religion = apostolic
 capital = "Antiokia"			#Was once one of the greatest cities in the world, circa the late Roman period
 trade_goods = cloth			#But hundreds of years of warfare weakened it -it is right on the border of most large empires for the 1000 years leading
 hre = no				#up to the start date. Experienced a revival under the Crusaders, but after the fall of Antioch in 1268

@@ -9,7 +9,7 @@ owner = Z36
 controller = Z36
 
 #Demographics
-culture = armenian
+culture = pontic_greek
 religion = apostolic
 
 #Development and Trade

@@ -1,11 +1,11 @@
  
 #BT Scandinavia and Baltics reoverhaul
 
-owner = SMG
-controller = SMG
-add_core = SMG
+owner = Y42
+controller = Y42
+add_core = Y42
 culture = lithuanian
-religion = catholic
+religion = baltic_pagan
 capital = "Ukmerge"
 base_tax = 2
 base_production = 2

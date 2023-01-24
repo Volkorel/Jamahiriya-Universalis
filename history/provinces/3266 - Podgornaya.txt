@@ -6,7 +6,7 @@
 owner = UKR
 controller = UKR
 culture = mishary
-religion = sunni
+religion = shiite
 hre = no
 base_tax = 4 
 base_production = 4 

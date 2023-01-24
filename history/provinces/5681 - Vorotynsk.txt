@@ -4,7 +4,7 @@
 owner = VTN
 controller = VTN
 add_core = VTN
-culture = byelorussian
+culture = russian
 religion = apostolic
 capital = "Vorotynsk"
 trade_goods = grain

@@ -4,7 +4,7 @@
 owner = JOM
 controller = JOM
 add_core = JOM
-culture = byelorussian
+culture = marisbaltician
 religion = norse_pagan_reformed
 capital = "Glubokoye"
 base_tax = 1

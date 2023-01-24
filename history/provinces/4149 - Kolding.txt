@@ -1,5 +1,5 @@
-owner = Z67
-controller = Z67
+owner = ZEA
+controller = ZEA
 capital = "Kolding"
 is_city = yes
 culture = dansk
@@ -9,7 +9,7 @@ base_tax = 8
 base_production = 6
 base_manpower = 4
 add_core = DAN
-add_core = Z67
+add_core = ZEA
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

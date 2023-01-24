@@ -10,8 +10,8 @@ owner = TRE
 controller = TRE
 
 #Demographics
-culture = armenian
-religion = apostolic
+culture = pontic_greek
+religion = orthodox
 
 #Development and Trade
 base_tax = 2

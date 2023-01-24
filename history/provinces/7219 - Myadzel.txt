@@ -4,7 +4,7 @@
 owner = JOM
 controller = JOM
 add_core = JOM
-culture = lithuanian
+culture = byelorussian
 religion = norse_pagan_reformed
 capital = "Myadzel"
 base_tax = 1

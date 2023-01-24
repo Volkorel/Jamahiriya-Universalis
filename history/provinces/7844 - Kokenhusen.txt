@@ -1,8 +1,8 @@
  
 #BT Scandinavia and Baltics reoverhaul
-owner = Y58
-controller = Y58
-add_core = Y58
+owner = JOM
+controller = JOM
+add_core = JOM
 add_core = RIG
 add_core = LGT
 culture = latvian

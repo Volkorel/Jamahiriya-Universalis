@@ -4,7 +4,7 @@
 owner = BLO
 controller = BLO
 add_core = BLO
-culture = byelorussian
+culture = russian
 religion = apostolic
 capital = "Vereya"
 trade_goods = livestock

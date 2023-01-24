@@ -3,7 +3,7 @@
 
 owner = HUN
 controller = HUN 
-culture = hungarian
+culture = transylvanian_saxons
 religion = catholic
 capital = "Aiud" #"Alba Iulia"
 trade_goods = gold

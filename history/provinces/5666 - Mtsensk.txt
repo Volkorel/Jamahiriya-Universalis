@@ -4,7 +4,7 @@
 owner = UKR
 controller = UKR
 add_core = UKR
-culture = byelorussian
+culture = ryazanian
 religion = apostolic
 capital = "Mtsensk"
 trade_goods = grain

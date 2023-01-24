@@ -4,9 +4,9 @@
 #Area - Svealand
 
 
-add_core = Y46
-owner = Y46
-controller = Y46
+add_core = SWE
+owner = SWE
+controller = SWE
 culture = norse
 religion = norse_pagan_reformed
 hre = no

@@ -4,7 +4,7 @@
 owner = HUN
 controller = HUN
 add_core = HUN
-culture = serbian
+culture = romanian
 religion = catholic
 capital = "Orsova"
 base_tax = 2 

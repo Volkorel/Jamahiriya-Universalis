@@ -4,7 +4,7 @@
 owner = Y41
 controller = Y41
 add_core = Y41
-culture = turkish
+culture = armenian
 religion = catholic
 capital = "Usak"
 trade_goods = cloth			#(JP) Usak Rugs

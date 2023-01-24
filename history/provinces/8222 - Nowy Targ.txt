@@ -10,7 +10,7 @@ owner = X45
 controller = X45
 
 #Demographics
-culture = kishinyov
+culture = slovak
 religion = catholic
 
 #Development and Trade

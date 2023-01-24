@@ -1,7 +1,7 @@
 #4687 - Imakia
 
 culture = kirgiz
-religion = tengri_pagan_reformed
+religion = tengri_pagan
 capital = "Imakia"
 trade_goods = unknown
 hre = no

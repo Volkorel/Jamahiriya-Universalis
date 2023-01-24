@@ -3,7 +3,7 @@
 
 owner = UKR
 controller = UKR
-culture = byelorussian
+culture = russian
 religion = apostolic
 hre = no
 base_tax = 2 

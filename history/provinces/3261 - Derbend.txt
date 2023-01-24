@@ -4,7 +4,7 @@
 owner = SRV
 controller = SRV
 culture = dagestani
-religion = orthodox
+religion = apostolic
 capital = "Derbent"
 trade_goods = cloth
 hre = no

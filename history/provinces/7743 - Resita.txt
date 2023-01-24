@@ -4,7 +4,7 @@
 owner = HUN
 controller = HUN
 add_core = HUN
-culture = serbian#by the Hungarian ethnic maps, refugees from south of Danube
+culture = romanian
 religion = catholic
 capital = "Resita"
 base_tax = 1
