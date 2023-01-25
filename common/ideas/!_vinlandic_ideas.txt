@@ -1,0 +1,42 @@
+vinlandic_ideas = {
+	start = {
+		colonists = 1
+		land_morale = 0.15
+	}
+	bonus = {
+		infantry_power = 0.20
+	}
+	trigger = {
+		tag = VZZ
+	}
+	free = yes
+
+	VZZ_pagan_syncretism = {
+		native_uprising_chance = -0.5
+		global_missionary_strength = 0.02
+	}
+	VZZ_making_a_killing = {
+		naval_morale = 0.15
+		may_perform_slave_raid_on_same_religion	= yes
+	}
+	VZZ_the_vinland_saga = {
+		auto_explore_adjacent_to_colony = yes
+		may_establish_frontier = yes
+	}
+	VZZ_our_new_homeland = {
+		development_cost = -0.15
+		global_colonial_growth = 25
+	}
+	VZZ_forged_in_valhalla = {
+		army_tradition = 1
+		discipline = 0.05
+	}
+	VZZ_thorr_ok_mjolnir = {
+		shock_damage = 0.2
+		fire_damage_received = -0.15
+	}
+	VZZ_til_ragnarok = {
+		manpower_recovery_speed = 0.15
+		war_exhaustion = -0.05
+	}
+}

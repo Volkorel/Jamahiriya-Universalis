@@ -11,7 +11,7 @@ controller = MCM
 
 #Demographics
 culture = irish
-religion = catholic
+religion = arianism
 
 #Development and Trade
 base_tax = 4

@@ -1,5 +1,5 @@
-owner = Y50
-controller = Y50
+owner = SWE
+controller = SWE
 capital = "Dalaborg"
 is_city = yes
 culture = norse
@@ -8,7 +8,7 @@ trade_goods = naval_supplies
 base_tax = 4
 base_production = 2
 base_manpower = 2
-add_core = Y50
+add_core = SWE
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

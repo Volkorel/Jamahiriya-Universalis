@@ -1,9 +1,9 @@
  
 #BT Scandinavia and Baltics reoverhaul
 
-owner = NOR
-controller = NOR
-add_core = NOR
+owner = SWE
+controller = SWE
+add_core = SWE
 culture = norse
 religion = norse_pagan_reformed
 capital = "Molde"
