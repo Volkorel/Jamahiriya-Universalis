@@ -167,14 +167,6 @@ vassal=
 
 vassal=
 {
-	first="GUJ"
-	second="KAT"
-	start_date="1444.11.11"
-	end_date="1836.1.1"
-}
-
-vassal=
-{
 	first="IRE"
 	second="MCM"
 	start_date="1444.11.11"

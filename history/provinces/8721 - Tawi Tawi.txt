@@ -2,7 +2,7 @@
 #Tawi Tawi
 
 culture = bajau
-religion = sunni
+religion = shiite
 capital = "Bongao"
 trade_goods = unknown
 hre = no

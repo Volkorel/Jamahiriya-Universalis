@@ -2,7 +2,7 @@
 #Serampas 
 
 culture = musi
-religion = sunni
+religion = shiite
 capital = "Serampas"
 trade_goods = unknown
 hre = no

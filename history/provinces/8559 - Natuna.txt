@@ -2,7 +2,7 @@
 #4531 - Natuna
 
 culture = malayan
-religion = sunni
+religion = shiite
 capital = "Ranai"
 trade_goods = unknown
 hre = no

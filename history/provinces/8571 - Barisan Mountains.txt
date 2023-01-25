@@ -2,7 +2,7 @@
 #Pasemah
 
 culture = musi
-religion = sunni
+religion = shiite
 capital = "Pasemah"
 trade_goods = unknown
 hre = no

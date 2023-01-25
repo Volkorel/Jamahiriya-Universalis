@@ -4,7 +4,7 @@
 owner = MLC
 controller = MLC
 culture = malayan
-religion = sunni
+religion = shiite
 capital = "Lumut" #Not sure if this town existed at the time
 trade_goods = fish
 hre = no

@@ -1,5 +1,5 @@
-owner = Y10
-controller = Y10
+owner = KRY
+controller = KRY
 capital = "Zanjan"
 is_city = yes
 culture = azerbaijani
@@ -8,7 +8,7 @@ trade_goods = spices
 base_tax = 7
 base_production = 6
 base_manpower = 4
-add_core = Y10
+add_core = KRY
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -5,7 +5,6 @@ technology_group = chinese
 religion = hinduism
 primary_culture = sumatran
 capital = 622
-religious_school = shafii_school
 1399.1.1= {
 	add_piety = -0.1
 }

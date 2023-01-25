@@ -1,5 +1,5 @@
-owner = Z16
-controller = Z16
+owner = KHO
+controller = KHO
 capital = "Sabzevar"
 is_city = yes
 culture = khorasani
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 4
 base_production = 6
 base_manpower = 2
-add_core = Z16
+add_core = KHO
 add_core = Z77
 discovered_by = MGE
 discovered_by = eastern

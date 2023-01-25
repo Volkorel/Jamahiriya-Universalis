@@ -1,5 +1,5 @@
-owner = Z89
-controller = Z89
+owner = NOG
+controller = NOG
 capital = "Alimuly"
 is_city = yes
 culture = turkmeni
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 3
 base_manpower = 1
 add_core = KHI
-add_core = Z89
+add_core = NOG
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

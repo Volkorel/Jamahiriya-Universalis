@@ -4,7 +4,7 @@
 owner = IDG
 controller = IDG
 culture = musi
-religion = sunni
+religion = shiite
 capital = "Kota Besar"
 trade_goods = incense
 hre = no

@@ -1,5 +1,5 @@
-owner = FRS
-controller = FRS
+owner = Z16
+controller = Z16
 capital = "Yazd"
 is_city = yes
 culture = persian
@@ -10,7 +10,7 @@ base_production = 3
 base_manpower = 4
 extra_cost = 8
 center_of_trade = 1
-add_core = FRS
+add_core = Z16
 add_core = PER
 discovered_by = MGE
 discovered_by = eastern

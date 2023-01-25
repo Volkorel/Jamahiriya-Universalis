@@ -4,7 +4,7 @@
 owner = KED
 controller = KED
 culture = malayan
-religion = sunni
+religion = shiite
 capital = "Terang"
 trade_goods = bt_trade_good_fruit
 hre = no

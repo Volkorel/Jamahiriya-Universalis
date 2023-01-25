@@ -2,11 +2,10 @@ government = monarchy
 add_government_reform = plutocratic_reform
 government_rank = 1
 technology_group = chinese
-religion = sunni
+religion = shiite
 primary_culture = malayan
 capital = 594
 fixed_capital = 594
-religious_school = shafii_school
 1399.1.1= {
 	add_piety = -0.1
 }

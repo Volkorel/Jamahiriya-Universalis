@@ -4,7 +4,7 @@
 owner = KEL
 controller = KEL
 culture = orang_asli
-religion = sunni
+religion = shiite
 capital = "Batu Mengkebang"
 trade_goods = livestock
 hre = no

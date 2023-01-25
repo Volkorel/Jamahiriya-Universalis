@@ -4,7 +4,7 @@
 owner = MLC
 controller = MLC
 culture = malayan
-religion = sunni
+religion = shiite
 capital = "Seri Menanti"
 trade_goods = bt_trade_good_fruit
 hre = no

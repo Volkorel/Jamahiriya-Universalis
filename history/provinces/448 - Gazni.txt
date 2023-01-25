@@ -1,5 +1,5 @@
-owner = Z74
-controller = Z74
+owner = LDK
+controller = LDK
 capital = "Gazni"
 is_city = yes
 culture = panjabi
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 add_core = PUN
-add_core = Z74
+add_core = LDK
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

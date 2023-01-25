@@ -1,5 +1,5 @@
-owner = Y28
-controller = Y28
+owner = Z74
+controller = Z74
 capital = "Munjan"
 is_city = yes
 culture = khorasani
@@ -8,7 +8,7 @@ trade_goods = gems
 base_tax = 7
 base_production = 3
 base_manpower = 4
-add_core = Y28
+add_core = Z74
 add_core = Y72
 discovered_by = MGE
 discovered_by = eastern

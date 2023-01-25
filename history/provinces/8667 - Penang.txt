@@ -4,7 +4,7 @@
 owner = KED
 controller = KED
 culture = malayan
-religion = sunni
+religion = shiite
 capital = "Penang"
 trade_goods = fish
 hre = no

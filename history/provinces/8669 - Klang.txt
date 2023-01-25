@@ -4,7 +4,7 @@
 owner = MLC
 controller = MLC
 culture = malayan
-religion = sunni
+religion = shiite
 capital = "Klang"
 trade_goods = copper #Tin
 hre = no

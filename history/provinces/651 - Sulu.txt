@@ -1,6 +1,6 @@
 capital = "Jolo"
 culture = filipino
-religion = sunni
+religion = shiite
 trade_goods = unknown
 base_tax = 4
 base_production = 4
