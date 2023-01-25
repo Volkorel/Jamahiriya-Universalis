@@ -1,5 +1,5 @@
-owner = SND
-controller = SND
+owner = CHD
+controller = CHD
 capital = "Wairagarh"
 is_city = yes
 culture = marathi
@@ -9,7 +9,7 @@ base_tax = 4
 base_production = 5
 base_manpower = 4
 add_core = MAR
-add_core = SND
+add_core = CHD
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

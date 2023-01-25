@@ -1,5 +1,5 @@
-owner = KRK
-controller = KRK
+owner = VIJ
+controller = VIJ
 capital = "Arcot"
 is_city = yes
 culture = tamil
@@ -9,7 +9,7 @@ add_brahmins_or_church_effect = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = KRK
+add_core = VIJ
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

@@ -1,5 +1,5 @@
-owner = SND
-controller = SND
+owner = RJP
+controller = RJP
 capital = "Bundi"
 is_city = yes
 culture = rajput
@@ -11,6 +11,7 @@ base_production = 2
 base_manpower = 1
 add_core = MER
 add_core = MLW
+add_core = RJP
 add_core = SND
 discovered_by = MGE
 discovered_by = eastern

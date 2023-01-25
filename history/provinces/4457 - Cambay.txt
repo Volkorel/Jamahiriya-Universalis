@@ -1,5 +1,5 @@
-owner = GUJ
-controller = GUJ
+owner = KAT
+controller = KAT
 capital = "Khambhat"
 is_city = yes
 culture = gujarati
@@ -11,7 +11,7 @@ base_production = 4
 base_manpower = 3
 extra_cost = 24
 center_of_trade = 3
-add_core = GUJ
+add_core = KAT
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

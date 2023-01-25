@@ -1,5 +1,5 @@
-owner = KRK
-controller = KRK
+owner = Z40
+controller = Z40
 capital = "Mahur"
 is_city = yes
 culture = telegu
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 add_core = GOC
-add_core = KRK
+add_core = Z40
 add_core = TLG
 discovered_by = MGE
 discovered_by = eastern

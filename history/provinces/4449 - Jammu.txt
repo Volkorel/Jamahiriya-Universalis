@@ -1,5 +1,5 @@
-owner = SND
-controller = SND
+owner = KSH
+controller = KSH
 capital = "Jammu"
 is_city = yes
 culture = kashmiri
@@ -8,7 +8,7 @@ trade_goods = silk
 base_tax = 4
 base_production = 1
 base_manpower = 2
-add_core = SND
+add_core = KSH
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

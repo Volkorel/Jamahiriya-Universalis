@@ -1,5 +1,5 @@
-owner = GUJ
-controller = GUJ
+owner = KAT
+controller = KAT
 capital = "Halwad"
 is_city = yes
 culture = gujarati
@@ -8,7 +8,7 @@ trade_goods = cotton
 base_tax = 5
 base_production = 1
 base_manpower = 1
-add_core = GUJ
+add_core = KAT
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

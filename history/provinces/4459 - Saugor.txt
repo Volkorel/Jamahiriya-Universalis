@@ -1,5 +1,5 @@
-owner = SND
-controller = SND
+owner = Z03
+controller = Z03
 capital = "Saugor"
 is_city = yes
 culture = vindhyan
@@ -10,7 +10,7 @@ base_production = 3
 base_manpower = 1
 add_core = BND
 add_core = MLW
-add_core = SND
+add_core = Z03
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

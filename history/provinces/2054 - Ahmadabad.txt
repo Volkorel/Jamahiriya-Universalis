@@ -1,5 +1,5 @@
-owner = GUJ
-controller = GUJ
+owner = KAT
+controller = KAT
 capital = "Ahmadabad"
 is_city = yes
 culture = gujarati
@@ -8,7 +8,7 @@ trade_goods = paper
 base_tax = 6
 base_production = 3
 base_manpower = 3
-add_core = GUJ
+add_core = KAT
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

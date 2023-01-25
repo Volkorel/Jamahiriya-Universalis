@@ -1,5 +1,5 @@
-owner = KAT
-controller = KAT
+owner = GUJ
+controller = GUJ
 capital = "Thalner"
 is_city = yes
 culture = marathi
@@ -8,7 +8,7 @@ trade_goods = cotton
 base_tax = 3
 base_production = 4
 base_manpower = 2
-add_core = KAT
+add_core = GUJ
 add_core = MAR
 discovered_by = MGE
 discovered_by = eastern

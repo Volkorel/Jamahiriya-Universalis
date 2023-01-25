@@ -1,5 +1,5 @@
-owner = Z06
-controller = Z06
+owner = BAL
+controller = BAL
 capital = "Calicut"
 is_city = yes
 culture = kannada
@@ -12,6 +12,7 @@ extra_cost = 16
 center_of_trade = 2
 add_core = MYS
 add_core = Z06
+add_core = BAL
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

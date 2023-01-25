@@ -1,5 +1,5 @@
-owner = SND
-controller = SND
+owner = GUJ
+controller = GUJ
 capital = "Kherla"
 is_city = yes
 culture = marathi
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 2
 base_manpower = 2
 add_core = MAR
-add_core = SND
+add_core = GUJ
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = SND
-controller = SND
+owner = BAH
+controller = BAH
 capital = "Ikkeri"
 is_city = yes
 culture = rajput
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 add_core = MER
-add_core = SND
+add_core = BAH
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

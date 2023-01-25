@@ -1,5 +1,5 @@
-owner = GUJ
-controller = GUJ
+owner = KAT
+controller = KAT
 capital = "Bhavnagar"
 is_city = yes
 culture = gujarati
@@ -8,7 +8,7 @@ trade_goods = salt
 base_tax = 9
 base_production = 1
 base_manpower = 3
-add_core = GUJ
+add_core = KAT
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

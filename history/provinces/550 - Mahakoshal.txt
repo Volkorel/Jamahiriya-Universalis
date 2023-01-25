@@ -1,5 +1,5 @@
-owner = GUJ
-controller = GUJ
+owner = Z03
+controller = Z03
 capital = "Garha"
 is_city = yes
 culture = rajput
@@ -10,6 +10,7 @@ base_production = 2
 base_manpower = 2
 add_core = GUJ
 add_core = MER
+add_core = Z03
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -1,5 +1,5 @@
-owner = SND
-controller = SND
+owner = BAH
+controller = BAH
 capital = "Sholhapur"
 is_city = yes
 culture = rajput
@@ -10,7 +10,7 @@ base_production = 4
 base_manpower = 3
 add_core = MER
 add_core = MLW
-add_core = SND
+add_core = BAH
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

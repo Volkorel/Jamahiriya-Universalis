@@ -1,5 +1,5 @@
-owner = SND
-controller = SND
+owner = BND
+controller = BND
 capital = "Gwalior"
 is_city = yes
 culture = vindhyan

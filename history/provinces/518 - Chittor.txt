@@ -1,5 +1,5 @@
-owner = SND
-controller = SND
+owner = RJP
+controller = RJP
 capital = "Chittor"
 is_city = yes
 culture = rajput
