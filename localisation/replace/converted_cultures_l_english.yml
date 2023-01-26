@@ -122,7 +122,7 @@
  belgae: "Belgae"
  vandal: "Vandal"
  gothic: "Gothic"
- nabatean: "Nabatean"
+ nabatean: "Bedawi"
  dacian: "Dacian"
  iberic: "Iberic"
  turdetanian: "Turdetanian"
@@ -188,4 +188,8 @@
  ikisatekatl:0 "Ikisatekatl"
  kapotsautekatl:0 "Kapotsautekatl"
  elpantekatl:0 "Elpantekatl"
+ 
+ #Arab cultures
+ sicilian:0 "Siqiliyyi"
+ rumi:0 "Rûmî"
 

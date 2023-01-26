@@ -3,7 +3,7 @@
 
 owner = KOJ
 controller = KOJ
-culture = al_suryah_arabic
+culture = nabatean
 religion = shiite
 capital = "Jerusalem"
 trade_goods = grain			#why not, leaving it. Too much wool around here anyway

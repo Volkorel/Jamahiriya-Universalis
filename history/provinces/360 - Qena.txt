@@ -3,7 +3,7 @@
 
 owner = X08
 controller = X08
-culture = al_misr_arabic
+culture = nabatean
 religion = sunni
 capital = "Qus"
 trade_goods = paper

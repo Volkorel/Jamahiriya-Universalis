@@ -1172,9 +1172,6 @@ latin = {
 	umbrian = {
 		primary = URB
 	}
-	sicilian = {
-		primary = SIC
-	}
 	maltese = {
 		primary = JAI
 		dynasty_names = {

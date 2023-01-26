@@ -3,7 +3,7 @@
 
 owner = Z38
 controller = Z38
-culture = al_misr_arabic
+culture = fezzan_arabic
 religion = sunni
 capital = "Tubruq"
 trade_goods = livestock

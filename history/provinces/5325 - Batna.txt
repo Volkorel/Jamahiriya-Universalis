@@ -4,7 +4,7 @@
 owner = TUN
 controller = TUN
 add_core = TUN
-culture = berber
+culture = algerian
 religion = sunni
 capital = "Batna"
 trade_goods = wool

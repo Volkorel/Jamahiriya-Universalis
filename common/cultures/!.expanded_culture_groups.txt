@@ -1588,6 +1588,12 @@ turko_semitic = {
 			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
 		}
 	}
+	sicilian = {
+		primary = SIC
+	}
+	rumi = {
+		
+	}
 }
 iranian = {
 	sogdian = {

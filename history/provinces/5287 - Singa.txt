@@ -2,7 +2,7 @@
 #New Province
 
 capital = "Singa"
-culture = nubian
+culture = berta_culture
 religion = coptic
 trade_goods = unknown
 hre = no

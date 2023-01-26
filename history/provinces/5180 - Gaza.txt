@@ -4,7 +4,7 @@
 owner = KOJ
 controller = KOJ
 add_core = KOJ
-culture = al_suryah_arabic
+culture = nabatean
 religion = shiite
 capital = "Gaza"
 trade_goods = fish			#Going with fish because I cant think of anything better... it was mostly coastal desert.
