@@ -1137,7 +1137,14 @@ country_event = {
 			remove_country_modifier = importing_food
 			remove_country_modifier = plundering_soldiers
 			remove_country_modifier = legitimacy_questioned
-
+			if = {
+				limit = { has_country_flag = picards_conscripted_JAMAHIRIYA }
+				clr_country_flag = picards_conscripted_JAMAHIRIYA
+				kill_units = {
+					who = ENG
+					type = halberd_infantry
+				}
+			}
 			# Clear Province Modifiers
 			every_owned_province = {
 				if = {
@@ -1769,7 +1776,7 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = norman_invasion_waroftheroses_jam
 			ENG = { country_event = { id = jamahiriya_war_of_the_roses.1 days = 1 } }
-		} #Add events for Picardie here
+		}
 	}
 	option = {		# Nah
 		name = jamahiriya_war_of_the_roses.1.b #Add events for restoration of relations here
@@ -1789,7 +1796,7 @@ country_event = {
 	picture = WAR_OF_THE_ROSES_eventPicture
 	is_triggered_only = yes
 	option = {		# Fight them as well
-		name = jamahiriya_war_of_the_roses.2.a #Add event for Jewish zealots rising in support, for balance reasons
+		name = jamahiriya_war_of_the_roses.2.a
 	}
 	option = {		# Give channel islands in return of peace?
 		name = jamahiriya_war_of_the_roses.2.b
@@ -1804,13 +1811,14 @@ country_event = {
 	picture = WAR_OF_THE_ROSES_eventPicture
 	is_triggered_only = yes
 	option = {		# Sure lol, bozo
-		name = jamahiriya_war_of_the_roses.3.a #Add event for Jewish zealots rising in support, for balance reasons
+		name = jamahiriya_war_of_the_roses.3.a
 		white_peace = ENG
 		3110 = {
 			cede_province = NRM
 			add_unrest = 4
 		}
 		ENG = { country_event = { id = jamahiriya_war_of_the_roses.4 } }
+		clr_country_flag = norman_invasion_waroftheroses_jam
 	}
 	option = {		# What if the entirety of Picard lol?
 		name = jamahiriya_war_of_the_roses.3.b
@@ -1840,8 +1848,12 @@ country_event = {
 	picture = WAR_OF_THE_ROSES_eventPicture
 	is_triggered_only = yes
 	option = {		# Fine
-		name = jamahiriya_war_of_the_roses.5.a #Add event for Jewish zealots rising in support, for balance reasons
+		name = jamahiriya_war_of_the_roses.5.a
 		white_peace = NRM
+		3110 = {
+			cede_province = NRM
+			add_unrest = 4
+		}
 		89 = {
 			cede_province = NRM
 			add_unrest = 4
@@ -1890,7 +1902,12 @@ country_event = {
 			cede_province = NRM
 			add_unrest = 4
 		}
-		NRM = { country_event = { id = jamahiriya_war_of_the_roses.4 } }
+		NRM = {
+			clr_country_flag = norman_invasion_waroftheroses_jam
+			country_event = { 
+				id = jamahiriya_war_of_the_roses.4
+			}
+		}
 	}
 	option = {		# No
 		name = jamahiriya_war_of_the_roses.5.b
@@ -1906,5 +1923,182 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = jamahiriya_war_of_the_roses.6.a
+		hidden_effect = {
+			ENG = { country_event = { id = jamahiriya_war_of_the_roses.7 } }
+		}
+	}
+}
+
+country_event = {
+	id = jamahiriya_war_of_the_roses.7 #Picards Rise up in support of Engelond
+	title = jamahiriya_war_of_the_roses.7.name
+	desc = jamahiriya_war_of_the_roses.7.desc
+	picture = ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.7.a
+		random_owned_province = {
+			limit = { 
+				OR = {
+					culture = picard_culture
+					culture = flemish
+				}
+			}
+			ROOT = {
+				halberd_infantry = PREV
+			}
+		}
+		define_general = {
+			name = 	Philippe le Bon
+			shock = 3
+			fire = 3
+			manuever = 2
+			siege = 2
+		}
+		89 = {
+			set_local_autonomy = 50
+		}
+		hidden_effect = {
+			7965 = {
+				set_local_autonomy = 50	
+			}
+			7969 = {
+				set_local_autonomy = 50	
+			}
+			7973 = {
+				set_local_autonomy = 50	
+			}
+			87 = {
+				set_local_autonomy = 50	
+			}
+			3064 = {
+				set_local_autonomy = 50	
+			}
+			7974 = {
+				set_local_autonomy = 50	
+			}
+			4769 = {
+				set_local_autonomy = 50	
+			}
+			8015 = {
+				set_local_autonomy = 50	
+			}
+			8020 = {
+				set_local_autonomy = 50	
+			}
+			90 = {
+				set_local_autonomy = 50	
+			}
+			1865 = {
+				set_local_autonomy = 50	
+			}
+			set_country_flag = picards_conscripted_JAMAHIRIYA
+			BUR = { country_event = { id = jamahiriya_war_of_the_roses.8 days = 25 } }
+		}
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.7.b
+		3110 = {
+			add_unrest = 2
+		}
+		89 = {
+			add_unrest = 2
+		}
+		7965 = {
+			add_unrest = 2
+		}
+		7969 = {
+			add_unrest = 2
+		}
+		7973 = {
+			add_unrest = 2
+		}
+		87 = {
+			add_unrest = 2
+		}
+		3064 = {
+			add_unrest = 2
+		}
+		7974 = {
+			add_unrest = 2
+		}
+		4769 = {
+			add_unrest = 2
+		}
+		8015 = {
+			add_unrest = 2
+		}
+		8020 = {
+			add_unrest = 2
+		}
+		90 = {
+			add_unrest = 2
+		}
+		1865 = {
+			add_unrest = 2
+		}
+	}
+}
+
+country_event = {
+	id = jamahiriya_war_of_the_roses.8 #Burgundy considers intervention
+	title = jamahiriya_war_of_the_roses.8.name
+	desc = jamahiriya_war_of_the_roses.8.desc
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.8.a
+		if = {
+			limit = { is_rival = ENG }
+			remove_rival = ENG
+		}
+		add_opinion = {
+			who = ENG
+			modifier = in_war_together
+		}
+		add_trust = {
+			who = ENG
+			value = 25
+			mutual = yes
+		}
+		ENG = {
+			add_favors = {
+			   who = BUR
+			   amount = 50
+			}
+		}
+		declare_war_with_cb = {
+			who = NRM
+			casus_belli = cb_border_war
+		}
+		ENG = { country_event = { id = jamahiriya_war_of_the_roses.9 } }
+	}
+}
+
+country_event = {
+	id = jamahiriya_war_of_the_roses.9 #Engelond learns Burgundian help
+	title = jamahiriya_war_of_the_roses.9.name
+	desc = jamahiriya_war_of_the_roses.9.desc
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.9.a
+		if = {
+			limit = { is_rival = BUR }
+			remove_rival = BUR
+		}
+		add_opinion = {
+			who = BUR
+			modifier = in_war_together
+		}
+		add_trust = {
+			who = BUR
+			value = 25
+			mutual = yes
+		}
+		add_favors = {
+		   who = BUR
+		   amount = 50
+		}
 	}
 }
