@@ -1,0 +1,1358 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+army_of_light_ideas = {
+	start = {
+		cav_to_inf_ratio = 0.25
+		missionaries = 1
+	}
+	bonus = {
+		artillery_power = 0.15
+	}
+	trigger = {
+		tag = AOL
+		religion = manichean
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_ride_of_the_light_brigade = {
+		cavalry_power = 0.25
+		cavalry_cost = -0.1
+	}
+	ZZZ_inquisition_of_light = {
+		global_missionary_strength = 0.025
+	}
+	ZZZ_light_tithe = {
+		global_tax_modifier = 0.2
+	}
+	ZZZ_light_always_shines = {
+		land_morale = 0.10
+		naval_morale = 0.10
+	}
+	ZZZ_message_of_light = {
+		improve_relation_modifier = 0.15
+	}
+	ZZZ_into_the_fold_of_light = {
+		global_autonomy = -0.1
+	}
+	ZZZ_into_the_light = {
+		leader_land_fire = 1
+		fire_damage_received = -0.15
+	}
+}
+
+ASY_ideas = {
+	start = {
+		tolerance_own = 2
+		global_missionary_strength = 0.01
+	}
+
+	bonus = {
+		leader_siege = 1
+	}
+
+	trigger = {
+		tag = ASY
+	}
+	free = yes
+
+ 	ZZZ_assyrian_bowmen = {
+		infantry_power = 0.1
+	}
+	ZZZ_forced_resttlement = {
+		culture_conversion_cost = -0.15
+	}
+	ZZZ_banks_of_tigris = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	ZZZ_learn_from_babylon = {
+		diplomatic_annexation_cost = -0.10
+		diplomatic_upkeep = 1
+	}
+	ZZZ_rebuild_the_cities = {
+		development_cost = -0.1
+	}
+	ZZZ_restore_the_library_of_nineveh = {
+		technology_cost = -0.05
+	}
+	ZZZ_nineveh_falls_no_more = {
+		discipline = 0.05
+	}
+}
+
+bektashi_order_ideas = {
+	start = {
+		leader_land_manuever = 1
+		cavalry_power = 0.25
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = BEK
+		religion_group = muslim
+		OR = {
+			government = theocracy
+			has_reform = feudal_theocracy
+		}
+	}
+	free = yes
+
+	ZZZ_wahdat_al_wujud = {
+		global_institution_spread = 0.1
+	}
+	ZZZ_bektashi_graves_of_the_sanints = {
+		global_own_trade_power = 0.15
+	}
+	ZZZ_dervish_alms = {
+		yearly_corruption = -0.05
+	}
+	ZZZ_bektashi_initiation = {
+		missionaries = 1
+		global_missionary_strength = 0.01
+	}
+	ZZZ_spiritual_outreach = {
+		diplomatic_reputation = 1
+	}
+	ZZZ_bektashi_heterodoxy = {
+		idea_cost = -0.1
+	}
+	ZZZ_bektashi_need_for_speed = {
+		movement_speed = 0.05
+	}
+}
+
+brotherhood_of_the_holy_sepulchre_ideas = {
+	start = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 0.5
+		republican_tradition = 0.5
+		technology_cost = -0.1
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = BHS
+		religion_group = christian
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_the_brotherhood_long_game = {
+		manpower_recovery_speed = 0.2
+		recover_army_morale_speed = 0.1
+	}
+	ZZZ_the_indefatiguable_brotherhood = {
+		prestige = 1
+	}
+	ZZZ_legacy_of_the_byzantines = {
+		infantry_power = 0.1
+		cavalry_power = 0.1
+	}
+	ZZZ_brotherhood_conversion = {
+		global_missionary_strength = 0.03
+	}
+	ZZZ_universal_brotherhood = {
+		num_accepted_cultures = 2
+	}
+	ZZZ_caravans_of_the_brotherhood = {
+		caravan_power = 0.3
+	}
+	ZZZ_churches_of_the_holy_sepulchre = {
+		build_cost = -0.15
+	}
+}
+
+bulls_of_rishabha_ideas = {
+	start = {
+		interest = -1
+		shock_damage_received = -0.2
+	}
+	bonus = {
+		fire_damage_received = -0.2
+	}
+	trigger = {
+		tag = BOR
+		religion = jain
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_jain_varna = {
+		religious_unity = 0.5
+		global_unrest = -1
+	}
+	ZZZ_jain_asi = {
+		discipline = 0.05
+	}
+	ZZZ_jain_masi = {
+		global_institution_spread = 0.25
+		embracement_cost = -0.25
+	}
+	ZZZ_jain_krishi = {
+		all_power_cost = -0.1
+	}
+	ZZZ_jain_vidya = {
+		technology_cost = -0.10
+	}
+	ZZZ_jain_vanijya = {
+		trade_efficiency = 0.25
+	}
+	ZZZ_jain_shilp = {
+		global_trade_goods_size_modifier = 0.15
+	}
+}
+
+karling_ideas = {
+	start = {
+		prestige = 1
+		diplomatic_reputation = 2
+	}
+	bonus = {
+		legitimacy = 1
+	}
+	trigger = {
+		dynasty = "Karling"
+		OR = {
+			religion = catholic
+			religion = fraticelli
+		}
+		government = monarchy
+	}
+	free = yes
+
+	kings_of_europe = {
+		global_unrest = -2
+	}
+	carolingian_grand_strategy = {
+		core_creation = -0.20
+	}
+	military_obligations = {
+		global_manpower_modifier = 0.30
+	}
+	retinue_regnum_francorum = {
+		land_morale = 0.20
+	}
+	legacy_of_the_romans = {
+		idea_cost = -0.1
+		development_cost = -0.1
+	}
+	carolingian_renaissance = {
+		technology_cost = -0.05
+	}
+	tradition_of_war = {
+		army_tradition = 1
+	}
+}
+
+children_of_dralha_ideas = {
+	start = {
+		global_tax_modifier = 0.15
+		land_morale = 0.15
+	}
+	bonus = {
+		manpower_recovery_speed = 0.25
+	}
+	trigger = {
+		tag = COD
+		OR = {
+			religion = bon
+			religion = bon_reformed
+			religion = buddhism
+			religion = vajrayana
+			religion = mahayana
+		}
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_defend_the_motherland = {
+		defensiveness = 0.2
+		garrison_size = 0.5
+	}
+	ZZZ_resist_the_invader = {
+		core_decay_on_your_own = -1
+		hostile_attrition = 1
+	}
+	ZZZ_bon_prayer = {
+		global_missionary_strength = 0.02
+	}
+	ZZZ_bon_diligence = {
+		production_efficiency = 0.15
+	}
+	ZZZ_bon_devotion = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 0.5
+		republican_tradition = 0.5
+	}
+	ZZZ_bon_temple_castles = {
+		fort_maintenance_modifier = -0.25
+	}
+	ZZZ_monk_and_leader = {
+		monarch_admin_power = 1
+		monarch_military_power = 1
+	}
+}
+
+chosen_of_ashoka_ideas = {
+	start = {
+		monthly_karma = 0.1
+		enforce_religion_cost = -0.33
+	}
+	bonus = {
+		land_maintenance_modifier = -0.2
+	}
+	trigger = {
+		tag = COA
+		OR = {
+			religion = buddhism
+			religion = vajrayana
+			religion = mahayana
+		}
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_major_edict_1 = {
+		global_unrest = -0.2
+	}
+	ZZZ_major_edict_2 = {
+		development_cost = -0.2
+	}
+	ZZZ_protectors_of_india = {
+		land_morale = 0.2
+	}
+	ZZZ_major_edict_5 = {
+		missionaries = 1
+		global_missionary_strength = 0.01
+	}
+	ZZZ_major_edict_6 = {
+		yearly_absolutism = 0.5
+		administrative_efficiency = 0.05
+	}
+	ZZZ_major_edict_7 = {
+		num_accepted_cultures = 2
+		no_religion_penalty = yes
+	}
+	ZZZ_men_to_protect_india = {
+		global_manpower_modifier = 0.25
+	}
+}
+
+chosen_of_perkunas_ideas = {
+	start = {
+		hostile_attrition = 2
+		garrison_size = 0.5
+	}
+	bonus = {
+		land_maintenance_modifier = -0.2
+	}
+	trigger = {
+		tag = COP
+		OR = {
+			religion = baltic_pagan
+			religion = baltic_pagan_reformed
+		}
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_defenders_of_the_old_ways = {
+		fire_damage_received = -0.10
+		shock_damage_received = -0.10
+	}
+	ZZZ_guard_the_coasts = {
+		galley_power = 0.1
+		own_coast_naval_combat_bonus = 1
+	}
+	ZZZ_builders_of_perkunas = {
+		build_cost = -0.25
+	}
+	ZZZ_never_surrender = {
+		enemy_core_creation = 0.1
+	}
+	ZZZ_stop_foreign_spies = {
+		global_spy_defence = 0.5
+	}
+	ZZZ_the_chosen_of_perkunas = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 0.5
+		republican_tradition = 0.5
+	}
+	ZZZ_keep_out_the_invaders = {
+		leader_land_fire = 2
+	}
+}
+
+cult_of_huitzilopochtli_ideas = {
+	start = {
+		global_missionary_strength = 0.02
+		range = 0.5
+	}
+	bonus = {
+		production_efficiency = 0.2
+	}
+	trigger = {
+		tag = COH
+		OR = {
+			religion = nahuatl
+			religion = aztec_pagan
+		}
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_legacy_of_flowers = {
+		discipline = 0.05
+	}
+	ZZZ_will_of_the_gods = {
+		cb_on_religious_enemies = yes
+	}
+	ZZZ_permanent_godly_expansion = {
+		core_creation = -0.20
+	}
+	ZZZ_content_gods = {
+		land_morale = 0.15
+	}
+	ZZZ_from_across_the_sea = {
+		ship_durability = 0.15
+		leader_naval_manuever = 1
+	}
+	ZZZ_take_to_the_seas_again = {
+		global_colonial_growth = 35
+	}
+	ZZZ_aztec_trade_home = {
+		naval_maintenance_modifier = -0.15
+		global_trade_power = 0.15
+	}
+}
+
+ENG_ideas = {
+	start = {
+		war_exhaustion = -0.10	
+		manpower_in_true_faith_provinces = 0.15	
+	}
+	bonus = {
+		land_morale = 0.15
+	}
+	trigger = {
+		tag = ENG
+	}
+	free = yes
+
+	ENG_jews = {
+		global_missionary_strength = 0.05
+		manpower_recovery_speed = 0.15
+	}
+	ENG_channel = {
+		naval_morale = 0.15
+		galley_cost = -0.3
+	}
+	ENG_newzion = {
+		auto_explore_adjacent_to_colony = yes
+		may_establish_frontier = yes
+	}
+	ENG_buildbetter = {
+		development_cost = -0.15
+		build_cost = -0.1
+	}
+	ENG_merchant = {
+		global_institution_spread = 0.1	
+		trade_company_governing_cost = 0.1	
+	}
+	ENG_oyvey = {
+		rebel_support_efficiency = 0.25
+		fire_damage_received = -0.15
+	}
+	ENG_holy_war = {
+		missionaries = 3
+		missionary_maintenance_cost = -0.40
+	}
+}
+
+followers_of_arjuna_ideas = {
+	start = {
+		monthly_karma = 0.1
+		shock_damage = 0.15
+	}
+	bonus = {
+		land_forcelimit_modifier = 0.25
+	}
+	trigger = {
+		tag = FOA
+		religion = hinduism
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_dhananjaya = {
+		global_tax_modifier = 0.2
+	}
+	ZZZ_jishnu = {
+		land_morale = 0.10
+		naval_morale = 0.10
+	}
+	ZZZ_truth_of_arjuna = {
+		tolerance_own = 2
+	}
+	ZZZ_indian_trade = {
+		merchants = 1
+	}
+	ZZZ_grand_temples = {
+		build_cost = -0.15
+	}
+	ZZZ_cheap_gurus = {
+		advisor_cost = -0.25
+	}
+	ZZZ_vijaya = {
+		discipline = 0.05
+	}
+}
+
+FAP_ideas = {
+	start = {
+		diplomatic_reputation = 2
+		years_of_nationalism  = -10
+	}
+
+	bonus = {
+		free_policy = 1
+	}
+
+	trigger = {
+		tag = FAP
+	}
+	free = yes		#will be added at load.
+
+	ZZZ_little_brethren = {
+		improve_relation_modifier = 0.25
+	}
+	ZZZ_true_christians = {
+		devotion = 1.5
+	}
+	ZZZ_defenders_of_the_faith = {
+		land_morale = 0.2
+	}
+	ZZZ_beauty_in_simplicity = {
+		build_cost = -0.2
+		build_time = -0.25
+	}
+	ZZZ_love_thy_neighbor = {
+		num_accepted_cultures = 5
+		promote_culture_cost = -0.75
+	}
+	ZZZ_a_loving_hand = {
+		global_unrest = -2
+	}
+	ZZZ_spread_the_word = {
+		global_missionary_strength = 0.025
+	}
+}
+
+haruriyyah_ideas = {
+	start = {
+		land_morale = 0.10
+		spy_offence = 0.33
+	}
+	bonus = {
+		discipline = 0.1
+	}
+	trigger = {
+		tag = HYY
+		religion_group = muslim
+		NOT = { religion = sunni }
+		NOT = { religion = shia }
+		NOT = { religion = yazidi }
+		OR = {
+			government = theocracy
+			has_reform = feudal_theocracy
+		}
+	}
+	free = yes
+
+	ZZZ_legacy_of_oman = {
+		ship_durability = 0.1
+		navy_tradition = 0.5
+	}
+	ZZZ_for_the_faithful = {
+		cb_on_religious_enemies = yes
+	}
+	ZZZ_nomadic_traditions = {
+		cavalry_power = 0.2
+	}
+	ZZZ_converting_the_other = {
+		global_missionary_strength = 0.02
+	}
+	ZZZ_bring_the_big_guns = {
+		artillery_power = 0.10
+		artillery_cost = -0.10
+	}
+	ZZZ_use_ships_to_trade_and_propagate = {
+		global_ship_trade_power = 0.2
+		sunk_ship_morale_hit_recieved = -0.2
+	}
+	ZZZ_the_true_followers = {
+		tolerance_own = 2
+	}
+}
+
+hashshashin_ideas = {
+	start = {
+		global_spy_defence = 0.25
+		hostile_attrition = 1
+	}
+	bonus = {
+		global_garrison_growth = 0.1
+	}
+	trigger = {
+		tag = HAH
+		religion_group = muslim
+		government = theocracy
+	}
+	free = yes
+
+	hashshashins_creed = {
+		spy_offence = 0.2
+	}
+	avoid_bloodshed = {
+		diplomats = 1
+	}
+	ismailis_dar_al_hijra = {
+		defensiveness = 0.30
+	}
+	mountain_fortresses = {
+		enemy_core_creation = 1.0
+	}
+	dagger_and_a_note = {
+		diplomatic_reputation = 2
+	}
+	murder_in_the_open = {
+		rebel_support_efficiency = 0.50
+	}
+	revive_jihad_hassan = {
+		manpower_recovery_speed = 0.1
+	}
+}
+
+immortals_ideas = {
+	start = {
+		manpower_recovery_speed = 0.15
+		infantry_power = 0.15
+	}
+	bonus = {
+		global_manpower_modifier = 0.25
+	}
+	trigger = {
+		tag = IMM
+		religion_group = zoroastrian_group
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_era_of_conversion = {
+		global_missionary_strength = 0.02
+	}
+	ZZZ_immortal_diaspora = {
+		global_foreign_trade_power = 0.2
+	}
+	ZZZ_expand_the_immortal_ranks = {
+		land_forcelimit_modifier = 0.5
+	}
+	ZZZ_expand_the_rites = {
+		missionaries = 2
+	}
+	ZZZ_immortal_sameness = {
+		culture_conversion_cost = -0.25
+	}
+	ZZZ_the_eternal_fires = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 1
+		republican_tradition = 1
+	}
+	ZZZ_the_whites_of_their_eyes = {
+		fire_damage = 0.15
+	}
+}
+
+jerusalem_ideas = {
+	start = {
+		tolerance_heathen = 1
+		global_missionary_strength = 0.03
+	}
+
+	bonus = {
+		global_manpower_modifier = 0.25
+	}
+
+	trigger = {
+		tag = KOJ
+		religion_group = christian
+	}
+	free = yes
+
+	crown_of_thorns = {
+		prestige = 1
+		legitimacy = 1
+	}
+	latin_patriarch = {
+		papal_influence = 2
+	}
+	frontier_state = {
+		discipline = 0.05
+	}
+	land_of_the_heathen = {
+		missionaries = 1
+	}
+	crusader_aristocracy = {
+		leader_land_shock = 1
+	}
+	crusader_castles = {
+		defensiveness = 0.25
+	}
+	cosmopolitan_nobility = {
+		diplomatic_reputation = 2
+	}
+}
+
+jewish_ideas = {
+	start = {
+		tolerance_own = 1
+		legitimacy = 1
+	}
+
+	bonus = {
+		diplomatic_reputation = 1
+	}
+
+	trigger = {
+		tag = ISR
+		religion_group = jewish_group
+	}
+	free = yes
+
+	end_of_diaspora = {
+		global_unrest = -1
+	}
+	national_myths_restored = {
+		discipline = 0.05
+	}
+	return_home = {
+		production_efficiency = 0.2
+	}
+	jewish_trade_tradition = {
+		trade_steering = 0.1
+		trade_efficiency = 0.1
+	}
+	jewish_banking = {
+		interest = -1
+	}
+	people_of_exile = {
+		global_colonial_growth = 33
+	}
+	the_chosen_people = {
+		enemy_core_creation = 1.0
+	}
+}
+
+jomsvikings_ideas = {
+	start = {
+		leader_land_shock = 1
+		discipline = 0.05
+	}
+	bonus = {
+		infantry_power = 0.10
+	}
+	trigger = {
+		tag = JOM
+		religion = norse_pagan_reformed
+		government = theocracy
+	}
+	free = yes
+
+	jomsviking_code = {
+		land_morale = 0.1
+	}
+	legend_of_jomsborg = {
+		land_forcelimit_modifier = 0.15
+		naval_forcelimit_modifier = 0.05
+	}
+	glory_of_the_allfather = {
+		manpower_recovery_speed = 0.10
+	}
+	name_of_thor = {
+		cb_on_religious_enemies = yes
+	}
+	adopt_feudal_system = {
+		production_efficiency = 0.10
+	}
+	implement_hogting = {
+		stability_cost_modifier = -0.10
+	}
+	valhalla_awaits = {
+		prestige = 1
+	}
+}
+
+knights_of_calatrava_ideas = {
+	start = {
+		defensiveness = 0.15
+		garrison_size = 0.25
+	}
+	bonus = {
+		leader_siege = 1
+	}
+	trigger = {
+		tag = KCL
+		OR = {
+			religion = catholic
+			religion = fraticelli
+		}
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_calatravan_vows = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 0.5
+		republican_tradition = 0.5
+	}
+	ZZZ_calatravan_royal_intrigue = {
+		global_spy_defence = 0.4
+	}
+	ZZZ_calatravan_papal_favour = {
+		papal_influence = 1
+	}
+	ZZZ_calatravan_aggression = {
+		infantry_power = 0.2
+	}
+	ZZZ_calatravan_rule = {
+		production_efficiency = 0.15
+	}
+	ZZZ_light_to_heathens = {
+		warscore_cost_vs_other_religion = -0.25
+		global_missionary_strength = 0.01
+	}
+	ZZZ_the_tireless_calatravans = {
+		war_exhaustion = -0.05
+	}
+}
+
+knights_of_santiago_ideas = {
+	start = {
+		female_advisor_chance = 0.25
+		land_morale = 0.15
+	}
+	bonus = {
+		global_manpower_modifier = 0.25
+	}
+	trigger = {
+		tag = KOS
+		OR = {
+			religion = catholic
+			religion = fraticelli
+		}
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_cross_of_st_james = {
+		prestige_from_land = 1
+		prestige_decay = -0.005
+	}
+	ZZZ_canons_of_augustine = {
+		tolerance_own = 1
+	}
+	ZZZ_galleys_of_santiago = {
+		global_sailors_modifier = 0.1
+		galley_power = 0.1
+	}
+	ZZZ_santiago_encomienda = {
+		global_tax_modifier = 0.2
+	}
+	ZZZ_nobility_of_santiago = {
+		free_leader_pool = 2
+	}
+	ZZZ_santiago_bullarium = {
+		papal_influence = 2
+	}
+	ZZZ_santiago_true_calling = {
+		global_missionary_strength = 0.02
+	}
+}
+
+knights_of_the_sun_ideas = {
+	start = {
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		meritocracy = 0.5
+		republican_tradition = 0.5
+		leader_land_fire = 1
+	}
+	bonus = {
+		free_adm_policy = 1
+	}
+	trigger = {
+		tag = KOZ
+		OR = {
+			religion = zoroastrian
+			religion = zun_pagan
+			religion = zun_pagan_reformed
+		}
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_all_shall_praise_the_sun = {
+		missionaries = 1
+		global_missionary_strength = 0.02
+	}
+	ZZZ_the_sword_of_zun = {
+		discipline = 0.1
+	}
+	ZZZ_zun_the_lawgiver = {
+		global_autonomy = -0.1
+	}
+	ZZZ_zun_the_bringer_of_light = {
+		core_creation = -0.20
+	}
+	ZZZ_greatness_of_zun = {
+		prestige = 1
+	}
+	ZZZ_fire_of_zun = {
+		fire_damage = 0.2
+	}
+	ZZZ_fire_of_zun_naval = {
+		heavy_ship_power = 0.2
+	}
+}
+
+knights_templar_ideas = {
+	start = {
+		tolerance_heathen = 1
+		diplomatic_reputation = 1
+	}
+
+	bonus = {
+		global_manpower_modifier = 0.25
+	}
+
+	trigger = {
+		tag = TEM
+		religion_group = christian
+	}
+	free = yes
+
+	latin_rule = {
+		discipline = 0.1
+	}
+	letters_of_credit = {
+		global_tax_modifier = 0.2
+	}
+	assault_troops_of_the_crusades = {
+		cavalry_power = 0.1
+	}
+	bank_of_europe = {
+		inflation_reduction = 0.1
+	}
+	the_templar_enterprise = {
+		production_efficiency = 0.2
+	}
+	the_supporting_infrastructure = {
+		advisor_pool = 1
+	}
+	crusader_traditions = {
+		free_leader_pool = 1
+	}
+}
+
+lords_of_the_sky_ideas = {
+	start = {
+		cavalry_cost = -0.2
+		movement_speed = 0.2
+	}
+	bonus = {
+		global_manpower_modifier = 0.25
+	}
+	trigger = {
+		tag = LOS
+		OR = {
+			religion = tengri_pagan
+			religion = tengri_pagan_reformed
+		}
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_shock_and_awe = {
+		leader_land_shock = 1
+		shock_damage = 0.15
+	}
+	ZZZ_lords_of_the_caravan = {
+		caravan_power = 0.25
+	}
+	ZZZ_horse_lords = {
+		cavalry_power = 0.33
+		cav_to_inf_ratio = 0.5
+	}
+	ZZZ_the_sprawling_sky = {
+		governing_capacity = 500
+	}
+	ZZZ_or_else = {
+		unjustified_demands = -0.2
+	}
+	ZZZ_lords_abroad = {
+		merchants = 1
+	}
+	ZZZ_modern_cavalry = {
+		cavalry_fire = 2
+	}
+}
+
+myrmidons_ideas = {
+	start = {
+		infantry_power = 0.15
+		stability_cost_modifier = -0.2
+	}
+	bonus = {
+		siege_ability = 0.25
+	}
+	trigger = {
+		tag = MYM
+		OR = {
+			religion = pagan_religion
+			religion = hellenic_pagan
+			religion = hellenic_pagan_reformed
+		}
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_legacy_of_the_legions = {
+		army_tradition = 0.5
+		discipline = 0.05
+	}
+	ZZZ_hellenic_exceptionalism = {
+		idea_cost = -0.2
+	}
+	ZZZ_mare_nostrum = {
+		galley_power = 0.2
+	}
+	ZZZ_myrmidon_taxes = {
+		global_tax_modifier = 0.15
+	}
+	ZZZ_myrmidon_ranks = {
+		global_manpower_modifier = 0.33
+	}
+	ZZZ_myrmidon_building = {
+		build_cost = -0.1
+		development_cost = -0.1
+	}
+	ZZZ_legacy_of_alexander = {
+		province_warscore_cost = -0.25
+	}
+}
+
+order_of_saint_addai_ideas = {
+	start = {
+		diplomatic_upkeep = 1
+		reinforce_cost_modifier = -0.5
+	}
+	bonus = {
+		free_mil_policy = 1
+	}
+	trigger = {
+		tag = ADD
+		religion_group = christian
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_christians_of_the_east = {
+		religious_unity = 0.33
+	}
+	ZZZ_kings_khans_emperors = {
+		diplomatic_reputation = 2
+	}
+	ZZZ_fight_until_the_end = {
+		land_morale = 0.2
+	}
+	ZZZ_underdog_nestorians = {
+		ae_impact = -0.15
+	}
+	ZZZ_all_for_the_struggle = {
+		war_taxes_cost_modifier = -0.75
+	}
+	ZZZ_ideas_of_nations = {
+		technology_cost = -0.1
+		auto_explore_adjacent_to_colony = yes
+	}
+	ZZZ_military_opportunities = {
+		possible_mil_policy = 1
+	}
+}
+
+order_of_saint_anthony_ideas = {
+	start = {
+		missionaries = 1
+		leader_land_shock = 1
+	}
+	bonus = {
+		diplomats = 1
+	}
+	trigger = {
+		tag = OOA
+		religion_group = christian
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_coptic_defenders = {
+		shock_damage_received = -0.2
+	}
+	ZZZ_go_far_copts = {
+		merchants = 1
+	}
+	ZZZ_order_in_every_town = {
+		global_unrest = -1.5
+	}
+	ZZZ_mission_to_the_unknown = {
+		colonists = 1
+	}
+	ZZZ_capacity_for_more = {
+		land_forcelimit_modifier = 0.25
+	}
+	ZZZ_coptic_gold = {
+		inflation_reduction = 0.1
+	}
+	ZZZ_order_in_the_ranks = {
+		discipline = 0.05
+	}
+}
+
+sons_of_kaleva_ideas = {
+	start = {
+		defensiveness = 0.2
+		leader_land_fire = 1
+	}
+	bonus = {
+		global_regiment_cost = -0.2
+	}
+	trigger = {
+		tag = SKL
+		OR = {
+			religion = finnish_pagan
+			religion = finnish_pagan_reformed
+		}
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_large_order = {
+		governing_capacity = 250
+		state_maintenance_modifier = -0.25
+	}
+	ZZZ_kalevan_trade = {
+		trade_steering = 0.2
+	}
+	ZZZ_cannon_hunters = {
+		backrow_artillery_damage = 0.2
+	}
+	ZZZ_convert_the_masses = {
+		missionaries = 1
+	}
+	ZZZ_vast_peoples = {
+		advisor_pool = 2
+	}
+	ZZZ_kalevan_expansion = {
+		colonists = 1
+	}
+	ZZZ_take_down_the_walls = {
+		artillery_levels_available_vs_fort = 2
+	}
+}
+
+spirit_guardians_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		global_unrest = -2
+	}
+	bonus = {
+		promote_culture_cost = -0.75
+	}
+	trigger = {
+		tag = SGD
+		OR = {
+			religion = shamanism
+			religion = west_african_pagan
+			religion = west_african_pagan_reformed
+		}
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_guardians_of_the_people = {
+		shock_damage_received = -0.2
+	}
+	ZZZ_guardians_of_trade = {
+		caravan_power = 0.2
+		trade_efficiency = 0.2
+	}
+	ZZZ_guardians_of_spirit = {
+		land_morale = 0.10
+		naval_morale = 0.10
+	}
+	ZZZ_guardians_of_the_arts = {
+		prestige_decay = -0.015
+	}
+	ZZZ_guardians_of_industry = {
+		production_efficiency = 0.2
+	}
+	ZZZ_guardians_of_the_seas = {
+		heavy_ship_power = 0.15
+	}
+	ZZZ_guardians_of_all = {
+		num_accepted_cultures = 3
+	}
+}
+
+vinlandic_ideas = {
+	start = {
+		colonists = 1
+		land_morale = 0.15
+	}
+	bonus = {
+		infantry_power = 0.20
+	}
+	trigger = {
+		tag = VZZ
+	}
+	free = yes
+
+	VZZ_pagan_syncretism = {
+		native_uprising_chance = -0.5
+		global_missionary_strength = 0.02
+	}
+	VZZ_making_a_killing = {
+		naval_morale = 0.15
+		may_perform_slave_raid_on_same_religion	= yes
+	}
+	VZZ_the_vinland_saga = {
+		auto_explore_adjacent_to_colony = yes
+		may_establish_frontier = yes
+	}
+	VZZ_our_new_homeland = {
+		development_cost = -0.15
+		global_colonial_growth = 25
+	}
+	VZZ_forged_in_valhalla = {
+		army_tradition = 1
+		discipline = 0.05
+	}
+	VZZ_thorr_ok_mjolnir = {
+		shock_damage = 0.2
+		fire_damage_received = -0.15
+	}
+	VZZ_til_ragnarok = {
+		manpower_recovery_speed = 0.15
+		war_exhaustion = -0.05
+	}
+}
+
+warriors_of_perun_ideas = {
+	start = {
+		manpower_recovery_speed = 0.15
+		global_missionary_strength = 0.02
+	}
+	bonus = {
+		culture_conversion_cost = -0.5
+	}
+	trigger = {
+		tag = WOP
+		OR = {
+			religion = slavic_pagan
+			religion = slavic_pagan_reformed
+		}
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_best_warriors = {
+		infantry_power = 0.15
+	}
+	ZZZ_warriors_of_conversion = {
+		missionaries = 1
+	}
+	ZZZ_warriors_of_unity = {
+		tolerance_own = 3
+	}
+	ZZZ_warriors_read_books = {
+		technology_cost = -0.05
+		institution_spread_from_true_faith = 0.33
+	}
+	ZZZ_seasonal_warriors = {
+		global_trade_goods_size_modifier = 0.10
+	}
+	ZZZ_one_nation = {
+		native_assimilation = 1
+		diplomatic_annexation_cost = -0.25
+	}
+	ZZZ_warriors_in_unison = {
+		discipline = 0.075
+	}
+}
+
+zealots_ideas = {
+	start = {
+		tolerance_own = 2
+		land_morale = 0.15
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	trigger = {
+		tag = ZLT
+		religion_group = jewish_group
+		government = theocracy
+	}
+	free = yes
+
+	ZZZ_free_from_invaders = {
+		core_decay_on_your_own = -1
+		hostile_attrition = 1
+	}
+	ZZZ_our_own_zealot_destiny = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	ZZZ_zealot_revolts = {
+		rebel_support_efficiency = 0.5
+	}
+	ZZZ_protect_the_coasts = {
+		naval_morale = 0.2
+	}
+	ZZZ_zealot_purity = {
+		monarch_military_power = 1
+		army_tradition_decay = -0.005
+	}
+	ZZZ_jewish_foreign_contacts = {
+		diplomats = 1
+	}
+	ZZZ_zealot_commerce = {
+		inflation_reduction = 0.05
+	}
+}
+
+

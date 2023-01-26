@@ -10,6 +10,7 @@ base_production = 6
 base_manpower = 2
 add_core = ENG
 add_claim = LEI
+add_core = NOL
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

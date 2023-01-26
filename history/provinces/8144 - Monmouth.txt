@@ -21,7 +21,6 @@ trade_goods = wool
 
 #Cores and Occupation (Alphabetical after current)
 add_core = ENG
-add_core = LCA
 add_core = WLS
 add_core = GLA
 

@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = oligarchy_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = anglo_irish
+add_accepted_culture = english
+add_accepted_culture = irish
+add_accepted_culture = american

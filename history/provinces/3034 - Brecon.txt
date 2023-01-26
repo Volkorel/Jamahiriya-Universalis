@@ -15,7 +15,6 @@ base_manpower = 1
 capital = "Brecon" #Brecknock archaic
 is_city = yes
 add_core = ENG
-add_core = BRC
 add_core = WLS
 add_local_autonomy = 75
 discovered_by = western

@@ -1229,5 +1229,72 @@ country_decisions = {
 		}
 	}
 
+	form_albion = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { has_reform = celestial_empire }
+			NOT = { tag = WBA }
+			OR = {
+				NOT = { exists = WBA }
+				ai = no
+			}
+			culture = anglo_irish
+		}
+		provinces_to_highlight = {
+			province_id = 2561
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = WBA }
+			owns_or_non_sovereign_subject_of = 2561
+			is_at_war = no
+		}
+		effect = {
+			2561 = {
+				cede_province = ROOT
+				add_core = VZZ
+			}
+			release = WBA
+			every_province = {
+				limit = {
+					continent = north_america
+					OR = {
+						owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+				add_core = WBA
+				cede_province = WBA
+			}
+			WBA = {
+				restore_country_name_effect = yes
+				swap_non_generic_missions = yes
+				add_country_modifier = {
+					name = "centralization_modifier"
+					duration = 3650
+				}
+				add_prestige = 10
+				change_primary_culture = anglo_irish
+				2561 = {
+					move_capital_effect = yes
+				}				
+			}
+			switch_tag = WBA
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 }

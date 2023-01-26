@@ -9,6 +9,7 @@ base_tax = 5
 base_production = 2
 base_manpower = 3
 add_core = ENG
+add_core = WSX
 add_claim = LEI
 discovered_by = MGE
 discovered_by = eastern

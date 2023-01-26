@@ -21,7 +21,7 @@ trade_goods = wool #Quarries also existed though were exhausted at the end of th
 
 #Cores and Occupation (Alphabetical after current)
 add_core = ENG
-add_core = DNL
+add_core = MID
 
 #Other Political
 hre = no

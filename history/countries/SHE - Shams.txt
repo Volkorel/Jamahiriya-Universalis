@@ -5,7 +5,6 @@ technology_group = chinese
 religion = shiite
 primary_culture = bedouin_arabic
 capital = 699
-add_accepted_culture = zhili
 add_accepted_culture = sichuanese
 add_accepted_culture = xibei
 add_accepted_culture = jin
