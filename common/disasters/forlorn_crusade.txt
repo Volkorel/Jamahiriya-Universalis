@@ -52,12 +52,19 @@ forlorn_crusade = {
 		modifier = {
 			factor = 1
 			war_exhaustion = 5
-		} 
+		}
+		modifier = {
+			factor = 1
+			exists = LEI
+		}
+		modifier = {
+			factor = 5
+			has_country_flag = had_war_of_the_roses
+		}
 	}
-	
 	modifier = {
 		global_unrest = 20
-	}	
+	}
 	can_end = {
 		NOT = { num_of_rebel_armies = 1 }
 		NOT = { num_of_rebel_controlled_provinces = 1 }

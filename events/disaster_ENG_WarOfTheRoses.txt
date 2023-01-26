@@ -2100,5 +2100,170 @@ country_event = {
 		   who = BUR
 		   amount = 50
 		}
+		hidden_effect = { BRI = { country_event = { id = jamahiriya_war_of_the_roses.10 } days = 10 } }
+	}
+}
+
+country_event = {
+	id = jamahiriya_war_of_the_roses.10 #Brittany is seething and coping, asks Normandy, Toulouse and Friesland to form an alliance against Burgundy and Engelond
+	title = jamahiriya_war_of_the_roses.10.name
+	desc = jamahiriya_war_of_the_roses.10.desc
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.10.a #Send the Letters!
+		FRI = { country_event = { id = jamahiriya_war_of_the_roses.11 } }
+	}
+}
+
+country_event = {
+	id = jamahiriya_war_of_the_roses.11 #Friesland Response
+	title = jamahiriya_war_of_the_roses.11.name
+	desc = jamahiriya_war_of_the_roses.11.desc
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.11.a #Um.. no?
+		BRI = {
+			country_event = {
+				id = jamahiriya_war_of_the_roses.14
+			}
+			set_country_flag = didnt_join_counsil_de_la
+		}
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.11.b #I love killing Christkillers
+		GUY = { country_event = { id = jamahiriya_war_of_the_roses.12 } }
+		NRM = { country_event = { id = jamahiriya_war_of_the_roses.13 } }
+		add_opinion = {
+			who = BRI
+			modifier = conseil_de_la_manche
+		}
+		add_trust = {
+			who = BRI
+			value = 25
+			mutual = yes
+		}
+		add_historical_friend = BRI
+		add_historical_rival = ENG
+		create_alliance = BRI
+	}
+}
+
+country_event = {
+	id = jamahiriya_war_of_the_roses.12 #Guy Response
+	title = jamahiriya_war_of_the_roses.12.name
+	desc = jamahiriya_war_of_the_roses.12.desc
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.12.a #I love killing Christkillers
+		add_opinion = {
+			who = BRI
+			modifier = conseil_de_la_manche
+		}
+		if = {
+			limit = {
+				FRI = { NOT = has_country_flag = didnt_join_counsil_de_la }
+			}
+			add_opinion = {
+				who = FRI
+				modifier = conseil_de_la_manche
+			}
+		}
+		add_trust = {
+			who = BRI
+			value = 25
+			mutual = yes
+		}
+		create_alliance = BRI
+		create_alliance = FRI
+	}
+}
+
+country_event = {
+	id = jamahiriya_war_of_the_roses.13 #Normandy Response
+	title = jamahiriya_war_of_the_roses.13.name
+	desc = jamahiriya_war_of_the_roses.13.desc
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.13.a #I love killing Christkillers
+		add_opinion = {
+			who = BRI
+			modifier = conseil_de_la_manche
+		}
+		if = {
+			limit = {
+				FRI = { NOT = has_country_flag = didnt_join_counsil_de_la }
+			}
+			add_opinion = {
+				who = FRI
+				modifier = conseil_de_la_manche
+			}
+		}
+		add_opinion = {
+			who = GUY
+			modifier = conseil_de_la_manche
+		}
+		add_trust = {
+			who = BRI
+			value = 25
+			mutual = yes
+		}
+		create_alliance = BRI
+		create_alliance = FRI
+		create_alliance = GUY
+		BRI = { country_event = { id = jamahiriya_war_of_the_roses.14 days = 5 } }
+	}
+}
+
+country_event = {
+	id = jamahiriya_war_of_the_roses.14 #Planning
+	title = jamahiriya_war_of_the_roses.14.name
+	desc = jamahiriya_war_of_the_roses.14.desc
+	picture = WAR_OF_THE_ROSES_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.13.a #Ask the non-AI player what to do, using .14  as a way to concentrate the events lol
+		if = {
+			limit = {
+				AND = {
+					BRI = { ai = yes }
+					GUY = { ai = yes }
+					NRM = { ai = yes }
+					FRI = { ai = no }
+				}
+			}
+			if = {
+				limit = {
+					FRI = { NOT = has_country_flag = didnt_join_counsil_de_la }
+				}
+				FRI = {
+					country_event = {
+						id = jamahiriya_war_of_the_roses.15
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				AND = {
+					BRI = { ai = yes }
+					GUY = { ai = yes }
+					NRM = { ai = yes }
+					FRI = { ai = yes }
+				}
+			}
+			BRI = { join_all_defensive_wars_of = NRM }
+			GUY = { join_all_defensive_wars_of = NRM }
+			NRM = { join_all_defensive_wars_of = NRM }
+			if = {
+				limit = {
+					FRI = { NOT = has_country_flag = didnt_join_counsil_de_la }
+				}			
+				FRI = { join_all_defensive_wars_of = NRM }
+			}
+		}
 	}
 }
