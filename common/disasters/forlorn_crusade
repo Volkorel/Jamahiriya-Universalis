@@ -1,0 +1,91 @@
+forlorn_crusade = {
+	ended_by_country_breaking_to_rebels = no
+	potential = {
+		OR = {
+			AND = {
+				tag = ENG
+				NOT = { exists = GBR }
+			}
+			tag = GBR
+		}
+		NOT = { has_country_flag = eng_forlorn_crusade_happened }
+		OR = {
+			ENG = {
+				religion = jewish
+				dominant_religion = catholic
+			}
+			GBR = {
+				religion = jewish
+				dominant_religion = catholic
+			}
+		}
+	}
+	can_start = {
+		current_age = age_of_discovery
+		has_any_disaster = no
+		stability > 1
+	}
+	can_stop = {
+		OR = {
+			has_any_disaster = yes
+			stability = 3
+			NOT = { religion = catholic }
+		}
+	}
+	progress = {
+		modifier = {
+			factor = 1
+			NOT = { legitimacy = 50 }
+		} 
+		modifier = {
+			factor = 1
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 1
+			current_debate = support_ruling_dynasty
+		}
+		modifier = {
+			factor = 0.5
+			has_country_modifier = eng_court_star_chamber
+		}
+		modifier = {
+			factor = 1
+			war_exhaustion = 5
+		} 
+	}
+	
+	modifier = {
+		global_unrest = 20
+	}	
+	can_end = {
+		NOT = { num_of_rebel_armies = 1 }
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		NOT = { average_unrest = 1 }
+		stability = 1
+		hidden_trigger = {
+			NOT = { has_country_modifier = just_lost_to_rebels }
+			NOT = { has_country_flag = forlorn_crusade }
+		}
+	}
+	
+	on_start = jamahiriya_forlorn_crusade.1
+	on_end = jamahiriya_forlorn_crusade.100
+	
+#	on_monthly = {
+#		events = { }
+#		random_events = {
+#			1000 = 0
+#			100 = english_civil_war.2 # Self-denying Ordinance and New Model Army
+#			100 = english_civil_war.3 # New Model Army
+#			100 = english_civil_war.4 # Treaty with the Scots
+#			100 = english_civil_war.5 # Treaty with the Scots
+#			100 = english_civil_war.6 # The Rebellion in Wales
+#			100 = english_civil_war.7 # The Rebellion in Wales
+#			100 = english_civil_war.8 # The Rebellion in Ireland
+#			100 = english_civil_war.9 # The Rebellion in Ireland
+#			100 = english_civil_war.10 # Pride's Purge
+#		}
+#	}
+}
+

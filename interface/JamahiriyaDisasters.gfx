@@ -1,0 +1,8 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_disaster_forlorn_crusade"
+		texturefile = "gfx/interface/disasters/forlorn_crusade.dds"
+		noOfFrames = 3
+		loadType = "INGAME"
+	}
+}
