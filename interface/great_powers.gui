@@ -90,7 +90,7 @@ guiTypes = {
 			name = "gp_list"
 			position = { x = 60 y = 119 }
 			backGround=""
-			size = { x=465  y=315}
+			size = { x=475  y = 360}
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
@@ -207,7 +207,7 @@ guiTypes = {
 				borderSize = {x = 4 y = 2}
 				maxWidth =45
 				maxHeight = 100	
-				format = left
+				format = center
 			}		
 		
 
@@ -227,7 +227,8 @@ guiTypes = {
 		
 		guiButtonType = {
 			name ="shield"
-			quadTextureSprite ="GFX_shield_thin"
+			quadTextureSprite ="GFX_shield_thin_old" # is this the correct mod file?			
+#			quadTextureSprite ="GFX_shield_thin"
 			position = { x= 82 y = 8 }
 			tooltip = ""
 			tooltipText =""

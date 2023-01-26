@@ -1030,6 +1030,9 @@ country_decisions = {
 
 	from_great_yuan_EXTRA = {
 		major = yes
+		potential = {
+			culture_group = altaic
+		}
 		provinces_to_highlight = {
 			OR = {
 				province_id = 723 #Xilin Gol
