@@ -23,7 +23,7 @@ forlorn_crusade = {
 	can_start = {
 		current_age = age_of_discovery
 		has_any_disaster = no
-		stability > 1
+		stability < 1
 	}
 	can_stop = {
 		OR = {
@@ -58,8 +58,16 @@ forlorn_crusade = {
 			exists = LEI
 		}
 		modifier = {
-			factor = 5
+			factor = 1.5
 			has_country_flag = had_war_of_the_roses
+		}
+		modifier = {
+			factor = 2.5
+			LEI = exists
+		}
+		modifier = {
+			factor = 15
+			has_country_flag = conseil_de_la_manche_supports_forlorn
 		}
 	}
 	modifier = {

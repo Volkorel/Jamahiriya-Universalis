@@ -113,3 +113,13 @@ spreading_norse_rituals = {
 	religion = yes
 }
 
+hundred_years_wars = {
+	infantry_cost = -0.10
+	movement_speed = 0.10
+	fire_damage_received = -0.10	
+	shock_damage_received = -0.10	
+	morale_damage_received = -0.025	
+	army_tradition_from_battle = 0.01
+	picture = "JAM_hundred_years_war"
+
+}
