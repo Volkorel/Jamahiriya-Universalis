@@ -1,4 +1,5 @@
 namespace = war_of_the_roses
+namespace = jamahiriya_war_of_the_roses
 
 # Start Event
 country_event = {
@@ -67,7 +68,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = pretender_rebels
-					size = 6
+					size = 37
 					leader = "Elohem"
 					leader_dynasty = "Itzik"
 					win = yes
@@ -96,7 +97,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = pretender_rebels
-					size = 3
+					size = 37
 					leader = "Elohem"
 					leader_dynasty = "Itzik"
 					win = yes
@@ -141,7 +142,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = pretender_rebels
-					size = 3
+					size = 37
 					leader = "Edward David"
 					leader_dynasty = "Salbstein"
 					win = yes
@@ -170,7 +171,7 @@ country_event = {
 				}
 				spawn_rebels = {
 					type = pretender_rebels
-					size = 3
+					size = 37
 					leader = "Edward David"
 					leader_dynasty = "Salbstein"
 					win = yes
@@ -1767,6 +1768,7 @@ country_event = {
 	desc = jamahiriya_war_of_the_roses.1.desc
 	picture = WAR_OF_THE_ROSES_eventPicture
 	is_triggered_only = yes
+	immediate = { clr_country_flag = jamahiriya_setup_waroftheroses }
 	option = {		# Normandian Invasion
 		name = jamahiriya_war_of_the_roses.1.a
 		declare_war_with_cb = {
@@ -1780,6 +1782,7 @@ country_event = {
 	}
 	option = {		# Nah
 		name = jamahiriya_war_of_the_roses.1.b #Add events for restoration of relations here
+		trigger = { ai = no }
 		FROM = {
 			add_opinion = {
 				who = ROOT
@@ -1946,10 +1949,18 @@ country_event = {
 			}
 			ROOT = {
 				halberd_infantry = PREV
+				halberd_infantry = PREV
+				halberd_infantry = PREV
+				halberd_infantry = PREV
+				halberd_infantry = PREV
+				halberd_infantry = PREV
+				halberd_infantry = PREV
+				halberd_infantry = PREV
+				halberd_infantry = PREV
 			}
 		}
 		define_general = {
-			name = 	Philippe le Bon
+			name = 	"Philippe le Bon"
 			shock = 3
 			fire = 3
 			manuever = 2
@@ -1998,6 +2009,7 @@ country_event = {
 	}
 	option = {
 		name = jamahiriya_war_of_the_roses.7.b
+		trigger = { ai = no }
 		3110 = {
 			add_unrest = 2
 		}
@@ -2046,6 +2058,7 @@ country_event = {
 	desc = jamahiriya_war_of_the_roses.8.desc
 	picture = WAR_OF_THE_ROSES_eventPicture
 	is_triggered_only = yes
+	immediate = { clr_country_flag = jamahiriya_setup_waroftheroses }
 	option = {
 		name = jamahiriya_war_of_the_roses.8.a
 		if = {
@@ -2069,9 +2082,9 @@ country_event = {
 		}
 		declare_war_with_cb = {
 			who = NRM
-			casus_belli = cb_border_war
+			casus_belli = cb_hundred_years_war
 		}
-		ENG = { country_event = { id = jamahiriya_war_of_the_roses.9 } }
+		ENG = { country_event = { id = jamahiriya_war_of_the_roses.9 days = 9 } }
 	}
 }
 
@@ -2100,7 +2113,7 @@ country_event = {
 		   who = BUR
 		   amount = 50
 		}
-		hidden_effect = { BRI = { country_event = { id = jamahiriya_war_of_the_roses.10 } days = 10 } }
+		hidden_effect = { BRI = { country_event = { id = jamahiriya_war_of_the_roses.10 days = 10 } } }
 	}
 }
 
@@ -2124,6 +2137,29 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = jamahiriya_war_of_the_roses.11.a #Um.. no?
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 55
+				OR = {
+					is_rival = BRI
+					is_rival = NRM
+					is_rival = GUY
+				}
+			}
+			modifier = {
+				factor = 5
+				is_at_war = yes
+			}
+			modifier = {
+				factor = 5
+				stability > 1
+			}
+			modifier = {
+				factor = 5
+				is_bankrupt = yes
+			}
+		}
 		BRI = {
 			country_event = {
 				id = jamahiriya_war_of_the_roses.14
@@ -2133,6 +2169,16 @@ country_event = {
 	}
 	option = {
 		name = jamahiriya_war_of_the_roses.11.b #I love killing Christkillers
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 100
+				OR = {
+					is_rival = BUR
+					is_rival = ENG
+				}
+			}
+		}
 		GUY = { country_event = { id = jamahiriya_war_of_the_roses.12 } }
 		NRM = { country_event = { id = jamahiriya_war_of_the_roses.13 } }
 		add_opinion = {
@@ -2144,7 +2190,6 @@ country_event = {
 			value = 25
 			mutual = yes
 		}
-		add_historical_friend = BRI
 		add_historical_rival = ENG
 		create_alliance = BRI
 	}
@@ -2164,7 +2209,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FRI = { NOT = has_country_flag = didnt_join_counsil_de_la }
+				FRI = { NOT = { has_country_flag = didnt_join_counsil_de_la } }
 			}
 			add_opinion = {
 				who = FRI
@@ -2178,6 +2223,30 @@ country_event = {
 		}
 		create_alliance = BRI
 		create_alliance = FRI
+		hidden_effect = {
+			GUY = {
+				add_opinion = {
+					who = FRI
+					modifier = conseil_de_la_manche
+				}
+				add_opinion = {
+					who = BRI
+					modifier = conseil_de_la_manche
+				}
+			}
+			FRI = {
+				add_opinion = {
+					who = GUY
+					modifier = conseil_de_la_manche
+				}
+			}
+			BRI = {
+				add_opinion = {
+					who = GUY
+					modifier = conseil_de_la_manche
+				}
+			}
+		}
 	}
 }
 
@@ -2195,11 +2264,13 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FRI = { NOT = has_country_flag = didnt_join_counsil_de_la }
+				FRI = { NOT = { has_country_flag = didnt_join_counsil_de_la } }
 			}
-			add_opinion = {
-				who = FRI
-				modifier = conseil_de_la_manche
+			FRI = {
+				add_opinion = {
+					who = NRM
+					modifier = conseil_de_la_manche
+				}
 			}
 		}
 		add_opinion = {
@@ -2215,6 +2286,20 @@ country_event = {
 		create_alliance = FRI
 		create_alliance = GUY
 		BRI = { country_event = { id = jamahiriya_war_of_the_roses.14 days = 5 } }
+		hidden_effect = {
+			BRI = {
+				add_opinion = {
+					who = NRM
+					modifier = conseil_de_la_manche
+				}
+			}
+			GUY = {
+				add_opinion = {
+					who = NRM
+					modifier = conseil_de_la_manche
+				}
+			}
+		}
 	}
 }
 
@@ -2225,7 +2310,7 @@ country_event = {
 	picture = WAR_OF_THE_ROSES_eventPicture
 	is_triggered_only = yes
 	option = {
-		name = jamahiriya_war_of_the_roses.13.a #Ask the non-AI player what to do, using .14  as a way to concentrate the events lol
+		name = jamahiriya_war_of_the_roses.14.a #Ask the non-AI player what to do, using .14  as a way to concentrate the events lol
 		if = {
 			limit = {
 				AND = {
@@ -2237,7 +2322,7 @@ country_event = {
 			}
 			if = {
 				limit = {
-					FRI = { NOT = has_country_flag = didnt_join_counsil_de_la }
+					FRI = { NOT = { has_country_flag = didnt_join_counsil_de_la } }
 				}
 				FRI = {
 					country_event = {
@@ -2255,15 +2340,174 @@ country_event = {
 					FRI = { ai = yes }
 				}
 			}
-			BRI = { join_all_defensive_wars_of = NRM }
-			GUY = { join_all_defensive_wars_of = NRM }
-			NRM = { join_all_defensive_wars_of = NRM }
+			BRI = {
+				clr_country_flag = jamahiriya_setup_waroftheroses
+				add_country_modifier = { name = hundred_years_wars }
+				join_all_defensive_wars_of = NRM
+				join_all_offensive_wars_of = NRM 
+			}
+			GUY = {
+				clr_country_flag = jamahiriya_setup_waroftheroses
+				add_country_modifier = { name = hundred_years_wars }
+				join_all_defensive_wars_of = NRM
+				join_all_offensive_wars_of = NRM 
+			}
+			NRM = { add_country_modifier = { name = hundred_years_wars } }
 			if = {
 				limit = {
-					FRI = { NOT = has_country_flag = didnt_join_counsil_de_la }
+					FRI = { NOT = { has_country_flag = didnt_join_counsil_de_la } }
 				}			
-				FRI = { join_all_defensive_wars_of = NRM }
+				FRI = {
+					add_country_modifier = { name = hundred_years_wars }
+					join_all_defensive_wars_of = NRM
+					join_all_offensive_wars_of = NRM 
+				}
 			}
 		}
+	}
+}
+
+country_event = {
+	id = jamahiriya_war_of_the_roses.15 #Planning - Frisland - Round 1
+	title = jamahiriya_war_of_the_roses.15.name
+	desc = jamahiriya_war_of_the_roses.15.desc
+	picture = REBELLION_BRAUNSCHWEIG_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.15.a #We should stage a Catholic Uprising in Engelond
+		add_piety = 0.5
+		ENG = { set_country_flag = conseil_de_la_manche_supports_forlorn }
+		add_treasury = -100
+		FRI = { country_event = { id = jamahiriya_war_of_the_roses.15 days = 6 } }
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.15.b #We should focus to dominate the Channel
+		add_navy_tradition = 15
+		add_sailors = 350
+		add_treasury = -150
+		FRI = { country_event = { id = jamahiriya_war_of_the_roses.15 days = 6 } }
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.15.c #We should focus to defeat Burgundian military
+		add_manpower = 6
+		add_army_professionalism = 0.05
+		add_treasury = -200
+		FRI = { country_event = { id = jamahiriya_war_of_the_roses.15 days = 6 } }
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.15.d #All of the Above
+		add_piety = 0.5
+		ENG = { set_country_flag = conseil_de_la_manche_supports_forlorn }
+		add_navy_tradition = 15
+		add_sailors = 350
+		add_manpower = 6
+		add_army_professionalism = 0.05
+		add_treasury = -450
+		FRI = { country_event = { id = jamahiriya_war_of_the_roses.15 days = 6 } }
+	}
+}
+
+country_event = {
+	id = jamahiriya_war_of_the_roses.16 #Planning - Frisland - Round 2
+	title = jamahiriya_war_of_the_roses.16.name
+	desc = jamahiriya_war_of_the_roses.16.desc
+	picture = SCOTTISH_MARCH_CULLODEN_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.16.a #Contact White Band
+		BRI = { create_guarantee = LEI }
+		FRI = { create_guarantee = LEI }
+		NRM = { create_guarantee = LEI }
+		GUY = { create_guarantee = LEI }
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.16.b #Contact Toki's Scotland
+		trigger = { exists = SCO }
+		BRI = { create_guarantee = SCO }
+		FRI = { create_guarantee = SCO }
+		NRM = { create_guarantee = SCO }
+		GUY = { create_guarantee = SCO }
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.16.c #Contact Queen Sisuile's Scotland
+		trigger = { exists = Z14 }
+		BRI = { create_guarantee = Z14 }
+		FRI = { create_guarantee = Z14 }
+		NRM = { create_guarantee = Z14 }
+		GUY = { create_guarantee = Z14 }
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.16.d #Contact White Band & Toki, if Sisuile's Scotland doesn't exists
+		trigger = {
+			exists = SCO 
+			NOT = { exists = Z14 }
+		}
+		BRI = {
+			create_guarantee = LEI
+			create_guarantee = SCO
+		}
+		FRI = {
+			create_guarantee = LEI
+			create_guarantee = SCO
+		}
+		NRM = {
+			create_guarantee = LEI
+			create_guarantee = SCO
+		}
+		GUY = {
+			create_guarantee = LEI
+			create_guarantee = SCO
+		}
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.16.d #Contact White Band & Sisuile, if Toki doesnt exists
+		trigger = {
+			exists = Z14
+			NOT = { exists = SCO }
+		}
+		BRI = {
+			create_guarantee = LEI
+			create_guarantee = Z14
+		}
+		FRI = {
+			create_guarantee = LEI
+			create_guarantee = Z14
+		}
+		NRM = {
+			create_guarantee = LEI
+			create_guarantee = Z14
+		}
+		GUY = {
+			create_guarantee = LEI
+			create_guarantee = Z14
+		}
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.16.d #Contact White Band & Queen Sisuile
+		trigger = {
+			AND = {
+				exists = SCO
+				exists = Z14
+			}
+		}
+		BRI = {
+			create_guarantee = LEI
+			create_guarantee = Z14
+		}
+		FRI = {
+			create_guarantee = LEI
+			create_guarantee = Z14
+		}
+		NRM = {
+			create_guarantee = LEI
+			create_guarantee = Z14
+		}
+		GUY = {
+			create_guarantee = LEI
+			create_guarantee = Z14
+		}
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.16.e #Alone
 	}
 }
