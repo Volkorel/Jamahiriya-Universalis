@@ -93,6 +93,7 @@ war_of_the_roses = {
 			NOT = { has_country_modifier = wotr_one_year_timer }
 			NOT = { has_country_flag = war_of_the_roses_pretender_fled }
 		}
+		is_at_war = no
 	}
 	modifier = {
 		global_unrest = 5

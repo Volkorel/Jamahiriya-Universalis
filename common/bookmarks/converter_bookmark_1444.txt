@@ -5,7 +5,13 @@ bookmark = {
 	country = FRI
 	country = ENG
 	country = SWE
-	country = CAS
+	country = ADU
 	country = BRU
 	country = HUN
+	country = Y40
+	country = JOM
+	country = NOV
+	country = ARM
+	country = GUG
+	country = SHE
 }
