@@ -1,6 +1,16 @@
-bookmark =
-{
+bookmark = {
 	name = CK2A_NAME
 	desc = CK2A_DESC
 	date = "1444.11.11"
+	country = FRI
+	country = ENG
+	country = SWE
+	country = CAS
+	country = SHE
+	country = MCM
+	country = BRU
+	country = HUN
+	country = ARM
+	country = Z89
+	country = GUG
 }

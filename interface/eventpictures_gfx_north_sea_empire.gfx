@@ -104,6 +104,7 @@ spriteTypes = {
         name = "war_of_the_roses.1_WAR_OF_THE_ROSES_eventPicture"
         texturefile = "gfx/event_pictures/ROSE_REVENGE_eventPicture.dds"
         allwaystransparent = yes
+        legacy_lazy_load=no
     }
     spriteType = {
         name = "war_of_the_roses.10_WAR_OF_THE_ROSES_eventPicture"
