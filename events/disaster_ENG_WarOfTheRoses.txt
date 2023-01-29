@@ -2351,23 +2351,26 @@ country_event = {
 			}
 			BRI = {
 				clr_country_flag = jamahiriya_setup_waroftheroses
-				add_country_modifier = { name = hundred_years_wars }
+				add_country_modifier = { name = hundred_years_wars duration = -1 }
+				set_country_flag = hundred_years_wars
 				join_all_defensive_wars_of = NRM
 				join_all_offensive_wars_of = NRM 
 			}
 			GUY = {
 				clr_country_flag = jamahiriya_setup_waroftheroses
-				add_country_modifier = { name = hundred_years_wars }
+				add_country_modifier = { name = hundred_years_wars duration = -1 }
+				set_country_flag = hundred_years_wars
 				join_all_defensive_wars_of = NRM
 				join_all_offensive_wars_of = NRM 
 			}
-			NRM = { add_country_modifier = { name = hundred_years_wars } }
+			NRM = add_country_modifier = { name = hundred_years_wars duration = -1 } }
 			if = {
 				limit = {
 					FRI = { NOT = { has_country_flag = didnt_join_counsil_de_la } }
 				}			
 				FRI = {
-					add_country_modifier = { name = hundred_years_wars }
+					add_country_modifier = { name = hundred_years_wars duration = -1 }
+					set_country_flag = hundred_years_wars
 					join_all_defensive_wars_of = NRM
 					join_all_offensive_wars_of = NRM 
 				}
@@ -2524,7 +2527,7 @@ country_event = {
 	}
 	option = {
 		name = jamahiriya_war_of_the_roses.16.e #Alone
-		hidden_effect = { country_event = { id = jamahiriya_war_of_the_roses.17 days = 3 } }		
+		hidden_effect = { country_event = { id = jamahiriya_war_of_the_roses.17 days = 3 } }	
 	}
 }
 
@@ -2537,21 +2540,27 @@ country_event = {
 	major = yes
 	option = {
 		name = jamahiriya_war_of_the_roses.17.a
-		NRM = { add_country_modifier = { name = hundred_years_wars } }
+		NRM = {
+			add_country_modifier = { name = hundred_years_wars duration = -1 }
+			set_country_flag = hundred_years_wars
+		}
 		BRI = {
 			clr_country_flag = jamahiriya_setup_waroftheroses
-			add_country_modifier = { name = hundred_years_wars }
+			set_country_flag = hundred_years_wars
+			add_country_modifier = { name = hundred_years_wars duration = -1 }
 			join_all_defensive_wars_of = NRM
 			join_all_offensive_wars_of = NRM 
 		}
 		GUY = {
 			clr_country_flag = jamahiriya_setup_waroftheroses
-			add_country_modifier = { name = hundred_years_wars }
+			set_country_flag = hundred_years_wars
+			add_country_modifier = { name = hundred_years_wars duration = -1 }
 			join_all_defensive_wars_of = NRM
 			join_all_offensive_wars_of = NRM 
 		}
 		FRI = {
-			add_country_modifier = { name = hundred_years_wars }
+			add_country_modifier = { name = hundred_years_wars duration = -1 }
+			set_country_flag = hundred_years_wars
 			join_all_defensive_wars_of = NRM
 			join_all_offensive_wars_of = NRM 
 		}
@@ -2563,7 +2572,8 @@ country_event = {
 					guaranteed_by = GUY
 					guaranteed_by = BRI
 				}
-				add_country_modifier = { name = hundred_years_wars }
+				add_country_modifier = { name = hundred_years_wars duration = -1 }
+				set_country_flag = hundred_years_wars
 				join_all_defensive_wars_of = NRM
 				join_all_offensive_wars_of = NRM 				
 			}
@@ -2576,7 +2586,8 @@ country_event = {
 					guaranteed_by = GUY
 					guaranteed_by = BRI
 				}
-				add_country_modifier = { name = hundred_years_wars }
+				add_country_modifier = { name = hundred_years_wars duration = -1 }
+				set_country_flag = hundred_years_wars
 				join_all_defensive_wars_of = NRM
 				join_all_offensive_wars_of = NRM 				
 			}
@@ -2589,7 +2600,8 @@ country_event = {
 					guaranteed_by = GUY
 					guaranteed_by = BRI
 				}
-				add_country_modifier = { name = hundred_years_wars }
+				add_country_modifier = { name = hundred_years_wars duration = -1 }
+				set_country_flag = hundred_years_wars
 				join_all_defensive_wars_of = NRM
 				join_all_offensive_wars_of = NRM 				
 			}
@@ -2603,21 +2615,96 @@ country_event = {
 	picture = SCOTTISH_MARCH_CULLODEN_eventPicture
 	is_triggered_only = yes
 	option = {
+		name = jamahiriya_war_of_the_roses.18.a
 		if = {
 			limit = { LEI = { is_at_war = yes } }
-			add_country_modifier = { name = hundred_years_wars }
+			add_country_modifier = { name = hundred_years_wars duration = -1 }
+			set_country_flag = hundred_years_wars
 			add_disaster_progress = {
 				disaster = forlorn_crusade
 				value = 50
 			}
 		}
 		else_if = {
-			add_country_modifier = { name = hundred_years_wars }
+			add_country_modifier = { name = hundred_years_wars duration = -1 }
+			set_country_flag = hundred_years_wars
 			add_disaster_progress = {
 				disaster = forlorn_crusade
 				value = 25
 			}
 		}
-		else = { add_country_modifier = { name = hundred_years_wars } }
+		else = {
+			add_country_modifier = { name = hundred_years_wars duration = -1 }
+			set_country_flag = hundred_years_wars
+		}
+	}
+}
+
+
+### ON ACTIONS RELATED EVENTS ###
+### THOU SHALL NOT TOUCH ###
+### MAY CHAOS TAKE THE WORLD ###
+
+#England wins the Hundred Years Wars
+country_event = {
+	id = jamahiriya_war_of_the_roses.100
+	title = jamahiriya_war_of_the_roses.100.name
+	desc = jamahiriya_war_of_the_roses.100.desc
+	picture = SCOTTISH_MARCH_CULLODEN_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.100.a
+		add_stability = 2
+		add_army_tradition = 10
+		if = {
+			limit = {
+				has_won_war_against = {
+					who = NRM
+					max_years_since = 1
+				}
+			}
+			country_event = { id = jamahiriya_war_of_the_roses.101 days = 7 }
+		}
+	}
+}
+#What to do if England won against Normandy
+country_event = {
+	id = jamahiriya_war_of_the_roses.101
+	title = jamahiriya_war_of_the_roses.101.name
+	desc = jamahiriya_war_of_the_roses.101.desc
+	picture = SCOTTISH_MARCH_CULLODEN_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.101.a #Unite the Crowns, PU
+		trigger = { exists = NRM }
+		create_union = NRM
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.101.b #Take some lands if none taken
+		trigger = {
+			exists = NRM
+			NOT = { any_owned_province = { previous_owner = NRM } }
+		}
+		4385 = {
+			add_core = ENG
+			change_controller = ENG
+		}
+		7967 = {
+			add_core = ENG
+			change_controller = ENG
+		}
+		7971 = {
+			add_core = ENG
+			change_controller = ENG
+		}
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.101.c #Release Normandy as a vassal
+		trigger = { NOT = { exists = NRM } }
+		create_vassal = NRM
+	}
+	option = {
+		name = jamahiriya_war_of_the_roses.101.d #Do nothing
+		create_vassal = NRM
 	}
 }

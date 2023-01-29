@@ -557,3 +557,22 @@ on_country_creation = {
 		add_government_reform = papacy_reform
 	}
 }
+
+on_war_won = {
+	ROOT = {
+		if = {
+			limit = { has_country_flag = hundred_years_wars }
+			clr_country_flag = hundred_years_wars
+			if = {
+				limit = { tag = ENG }
+				country_event = { id = jamahiriya_war_of_the_roses.100 }
+			}
+		}
+	}
+	FROM = {
+		if = {
+			limit = { has_country_flag = hundred_years_wars }
+			clr_country_flag = hundred_years_wars
+		}
+	}
+}

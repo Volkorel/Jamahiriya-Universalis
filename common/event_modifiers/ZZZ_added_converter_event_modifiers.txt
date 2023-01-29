@@ -121,5 +121,4 @@ hundred_years_wars = {
 	morale_damage_received = -0.025	
 	army_tradition_from_battle = 0.01
 	picture = "JAM_hundred_years_war"
-
 }
