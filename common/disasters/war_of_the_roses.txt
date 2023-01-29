@@ -15,7 +15,6 @@ war_of_the_roses = {
 			dynasty = Itzik
 			dynasty = Salbstein
 		}
-		has_any_disaster = no
 		OR = {
 			has_heir = no
 			AND = {

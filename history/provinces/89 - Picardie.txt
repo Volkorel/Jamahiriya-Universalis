@@ -10,6 +10,7 @@ base_tax = 6
 base_production = 3
 base_manpower = 3
 add_core = ENG
+add_core = PIC
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

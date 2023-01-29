@@ -1860,7 +1860,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {		# Fine
 		name = jamahiriya_war_of_the_roses.5.a
-		trigger = { ai = no }
 		white_peace = NRM
 		3110 = {
 			cede_province = NRM
@@ -1917,7 +1916,8 @@ country_event = {
 		NRM = {
 			clr_country_flag = norman_invasion_waroftheroses_jam
 			country_event = { 
-				id = jamahiriya_war_of_the_roses.4
+				id = jamahiriya_war_of_the_roses.19
+				days = 10
 			}
 		}
 	}
@@ -2541,25 +2541,25 @@ country_event = {
 	option = {
 		name = jamahiriya_war_of_the_roses.17.a
 		NRM = {
-			add_country_modifier = { name = hundred_years_wars duration = -1 }
+			hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
 			set_country_flag = hundred_years_wars
 		}
 		BRI = {
 			clr_country_flag = jamahiriya_setup_waroftheroses
 			set_country_flag = hundred_years_wars
-			add_country_modifier = { name = hundred_years_wars duration = -1 }
+			hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
 			join_all_defensive_wars_of = NRM
 			join_all_offensive_wars_of = NRM 
 		}
 		GUY = {
 			clr_country_flag = jamahiriya_setup_waroftheroses
 			set_country_flag = hundred_years_wars
-			add_country_modifier = { name = hundred_years_wars duration = -1 }
+			hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
 			join_all_defensive_wars_of = NRM
 			join_all_offensive_wars_of = NRM 
 		}
 		FRI = {
-			add_country_modifier = { name = hundred_years_wars duration = -1 }
+			hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
 			set_country_flag = hundred_years_wars
 			join_all_defensive_wars_of = NRM
 			join_all_offensive_wars_of = NRM 
@@ -2572,7 +2572,7 @@ country_event = {
 					guaranteed_by = GUY
 					guaranteed_by = BRI
 				}
-				add_country_modifier = { name = hundred_years_wars duration = -1 }
+				hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
 				set_country_flag = hundred_years_wars
 				join_all_defensive_wars_of = NRM
 				join_all_offensive_wars_of = NRM 				
@@ -2586,7 +2586,7 @@ country_event = {
 					guaranteed_by = GUY
 					guaranteed_by = BRI
 				}
-				add_country_modifier = { name = hundred_years_wars duration = -1 }
+				hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
 				set_country_flag = hundred_years_wars
 				join_all_defensive_wars_of = NRM
 				join_all_offensive_wars_of = NRM 				
@@ -2606,6 +2606,7 @@ country_event = {
 				join_all_offensive_wars_of = NRM 				
 			}
 		}
+		hidden_effect = { ENG = { country_event = { id = jamahiriya_war_of_the_roses.18 } } }
 	}
 }
 country_event = {
@@ -2618,7 +2619,7 @@ country_event = {
 		name = jamahiriya_war_of_the_roses.18.a
 		if = {
 			limit = { LEI = { is_at_war = yes } }
-			add_country_modifier = { name = hundred_years_wars duration = -1 }
+			hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
 			set_country_flag = hundred_years_wars
 			add_disaster_progress = {
 				disaster = forlorn_crusade
@@ -2626,7 +2627,7 @@ country_event = {
 			}
 		}
 		else_if = {
-			add_country_modifier = { name = hundred_years_wars duration = -1 }
+			hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
 			set_country_flag = hundred_years_wars
 			add_disaster_progress = {
 				disaster = forlorn_crusade
@@ -2634,13 +2635,187 @@ country_event = {
 			}
 		}
 		else = {
-			add_country_modifier = { name = hundred_years_wars duration = -1 }
+			hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
 			set_country_flag = hundred_years_wars
 		}
 	}
 }
+country_event = {
+	id = jamahiriya_war_of_the_roses.19 #Picard Revolt under Normandy
+	title = jamahiriya_war_of_the_roses.19.name
+	desc = jamahiriya_war_of_the_roses.19.desc
+	picture = SCOTTISH_MARCH_CULLODEN_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.19.a
+		hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
+		89 = {
+			cede_province = PIC
+			hidden_effect = { add_unrest = -4 }
+		}
+		7965 = {
+			cede_province = PIC
+			hidden_effect = { add_unrest = -4 }
+		}
+		7969 = {
+			cede_province = PIC
+			hidden_effect = { add_unrest = -4 }
+		}
+		7973 = {
+			cede_province = PIC
+			hidden_effect = { add_unrest = -4 }
+		}
+		87 = {
+			cede_province = PIC
+			hidden_effect = { add_unrest = -4 }
+		}
+		3064 = {
+			cede_province = PIC
+			hidden_effect = { add_unrest = -4 }
+		}
+		7974 = {
+			cede_province = PIC
+			hidden_effect = { add_unrest = -4 }
+		}
+		4769 = {
+			cede_province = PIC
+			hidden_effect = { add_unrest = -4 }
+		}
+		8015 = {
+			cede_province = PIC
+			hidden_effect = { add_unrest = -4 }
+		}
+		8020 = {
+			cede_province = PIC
+			hidden_effect = { add_unrest = -4 }
+		}
+		90 = {
+			cede_province = PIC
+			hidden_effect = { add_unrest = -4 }
+		}
+		1865 = {
+			cede_province = PIC
+			hidden_effect = { add_unrest = -4 }
+		}
+		PIC = {
+			declare_war_with_cb = {
+				who = NRM
+				casus_belli = cb_independence_war
+			}
+		}
+		hidden_effect = {
+			BRI = { country_event = { id = jamahiriya_war_of_the_roses.20 days = 6 } }
+			BUR = { country_event = { id = jamahiriya_war_of_the_roses.21 days = 6 } }
+		}
+	}
+}
 
+country_event = {
+	id = jamahiriya_war_of_the_roses.20 #Brittany invades Channel Islands
+	title = jamahiriya_war_of_the_roses.20.name
+	desc = jamahiriya_war_of_the_roses.20.desc
+	picture = SCOTTISH_MARCH_CULLODEN_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.20.a
+		hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
+		BRI = {
+			clr_country_flag = jamahiriya_setup_waroftheroses
+			declare_war_with_cb = {
+				who = NRM
+				casus_belli = cb_core
+			}
+		}
+		hidden_effect = {
+			NRM = { country_event = { id = jamahiriya_war_of_the_roses.22 } }
+			BUR = { country_event = { id = jamahiriya_war_of_the_roses.23 days = 7 } }
+		}
+	}
+}
 
+country_event = {
+	id = jamahiriya_war_of_the_roses.21 #Burgundy supports Picardie, joins war
+	title = jamahiriya_war_of_the_roses.21.name
+	desc = jamahiriya_war_of_the_roses.21.desc
+	picture = SCOTTISH_MARCH_CULLODEN_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.21.a
+		hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
+		BUR = {
+			clr_country_flag = jamahiriya_setup_waroftheroses
+			create_alliance = PIC
+			create_guarantee = PIC
+			join_all_offensive_wars_of = PIC
+		}
+		hidden_effect = { NRM = { country_event = { id = jamahiriya_war_of_the_roses.24 days = 15 } } }
+	}
+}
+
+country_event = {
+	id = jamahiriya_war_of_the_roses.22 #Normandy learns Brittany invades Channel Islands
+	title = jamahiriya_war_of_the_roses.22.name
+	desc = jamahiriya_war_of_the_roses.22.desc
+	picture = SCOTTISH_MARCH_CULLODEN_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.22.a
+		create_alliance = GUY
+		GUY = {
+			hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
+			clr_country_flag = jamahiriya_setup_waroftheroses
+			join_all_defensive_wars_of = NRM
+		}
+	}
+}
+country_event = {
+	id = jamahiriya_war_of_the_roses.23 #Burgundy and Brittany unites
+	title = jamahiriya_war_of_the_roses.23.name
+	desc = jamahiriya_war_of_the_roses.23.desc
+	picture = SCOTTISH_MARCH_CULLODEN_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.23.a
+		BUR = {
+			create_alliance = BRI
+			create_alliance = GUY
+			join_all_offensive_wars_of = BRI
+		}
+		BRI = {
+			create_alliance = PIC
+			join_all_offensive_wars_of = PIC
+		}
+		GUY = {
+			create_alliance = PIC
+			join_all_offensive_wars_of = PIC
+		}
+	}
+}
+
+country_event = {
+	id = jamahiriya_war_of_the_roses.24 #Normandy learns Burgundian-Brittany alliance, asks Lorraine and Toulouse to unitew
+	title = jamahiriya_war_of_the_roses.24.name
+	desc = jamahiriya_war_of_the_roses.24.desc
+	picture = SCOTTISH_MARCH_CULLODEN_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_war_of_the_roses.24.a
+		NRM = {
+			create_alliance = TOU
+			create_alliance = LOR
+		}
+		TOU = {
+			hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
+			create_alliance = LOR
+			join_all_defensive_wars_of = NRM
+		}
+		LOR = {
+			hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
+			create_alliance = TOU
+			join_all_offensive_wars_of = NRM
+		}
+	}
+}
 ### ON ACTIONS RELATED EVENTS ###
 ### THOU SHALL NOT TOUCH ###
 ### MAY CHAOS TAKE THE WORLD ###

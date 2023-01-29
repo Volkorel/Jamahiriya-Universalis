@@ -54,5 +54,5 @@ capital = 100
 }
 1444.11.11= {
 	add_prestige = 64
-	add_treasury = 67
+	add_treasury = 567
 }
