@@ -1,0 +1,258 @@
+namespace = anbennar_setup
+
+#Startup Racial Admin and Military at start
+country_event = {
+	id =  anbennar_setup.9
+	title = anbennar_setup.9.t
+	desc =  anbennar_setup.9.d
+	picture = WAR_OF_THE_ROSES_eventPicture
+
+	#fire_only_once = yes
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		#NOT = { has_country_flag = init_racial_admin_mil }
+		OR = {
+			NOT = { has_any_racial_administration = yes }
+			NOT = { has_any_racial_military = yes }
+		}
+		#is_year = 1444
+	}
+
+	immediate = {
+		clear_racial_administration = yes
+		clear_racial_military = yes
+	}
+	option = {
+		name = "anbennar_setup.1.a"
+
+		#Elven
+		if = {
+			limit = {
+				culture = picard_culture
+			}
+			add_country_modifier = {
+				name = elven_administration
+				duration = -1
+			}
+		}
+		#Dwarven
+		if = {
+			limit = {
+				culture = english
+			}
+			add_country_modifier = {
+				name = dwarven_administration
+				duration = -1
+			}
+		}
+		#Gnollish
+		if = {
+			limit = {
+				culture_group = scandinavian
+			}
+			add_country_modifier = {
+				name = gnollish_administration
+				duration = -1
+			}
+		}
+		#gnomish
+		if = {
+			limit = {
+				culture = dutch
+			}
+			add_country_modifier = {
+				name = gnomish_administration
+				duration = -1
+			}
+		}
+		#goblin
+		if = {
+			limit = {
+				OR = {
+					culture_group = turko_semitic
+					culture_group = maghrebi
+				}
+			}
+			add_country_modifier = {
+				name = goblin_administration
+				duration = -1
+			}
+		}
+		#half_elven
+		if = {
+			limit = {
+				culture = frisian
+			}
+			add_country_modifier = {
+				name = half_elven_administration
+				duration = -1
+			}
+		}
+		#half_orcish
+		if = {
+			limit = {
+				culture = irish
+			}
+			add_country_modifier = {
+				name = half_orcish_administration
+				duration = -1
+			}
+		}
+		#halfling
+		if = {
+			limit = {
+				culture_group = latin
+			}
+			add_country_modifier = {
+				name = halfling_administration
+				duration = -1
+			}
+		}
+		#harpy
+		if = {
+			limit = {
+				culture_group = iberian
+			}
+			add_country_modifier = {
+				name = harpy_administration
+				duration = -1
+			}
+		}
+		#Human
+		if = {
+			limit = {
+				culture = basque
+			}
+			add_country_modifier = {
+				name = human_administration
+				duration = -1
+			}
+		}
+		#kobold
+		if = {
+			limit = {
+				OR = {
+					culture_group = central_american
+					culture_group = aridoamerican
+					culture_group = maya
+					culture_group = otomanguean
+					culture_group = andean_group
+					culture_group = je_tupi
+					culture_group = je
+					culture_group = maranon
+					culture_group = chibchan
+					culture_group = mataco
+					culture_group = araucanian
+					culture_group = carribean
+					culture_group = eskaleut
+					culture_group = central_algonquian
+					culture_group = plains_algonquian
+					culture_group = eastern_algonquian
+					culture_group = iroquoian
+					culture_group = siouan
+					culture_group = caddoan
+					culture_group = muskogean
+					culture_group = sonoran
+					culture_group = apachean
+					culture_group = na_dene
+					culture_group = penutian
+				}
+			}
+			add_country_modifier = {
+				name = kobold_administration
+				duration = -1
+			}
+		}
+		#orcish
+		if = {
+			limit = {
+				OR = {
+					culture_group = mande
+					culture_group = sahelian
+					culture_group = west_african
+					culture_group = southern_african
+					culture_group = kongo_group
+					culture_group = great_lakes_group
+					culture_group = african
+					culture_group = cushitic
+					culture_group = sudanese
+					culture_group = khoisan_group
+				}
+			}
+			add_country_modifier = {
+				name = orcish_administration
+				duration = -1
+			}
+		}
+		#ruinborn
+		if = {
+			limit = {
+				culture_group = east_asian
+			}
+			add_country_modifier = {
+				name = ruinborn_administration
+				duration = -1
+			}
+		}
+		#troll
+		if = {
+			limit = {
+				OR = {
+					culture_group = turkish_g
+					culture_group = oghuz
+					culture_group = altaic
+				}
+			}
+			add_country_modifier = {
+				name = troll_administration
+				duration = -1
+			}
+		}
+		#ogre
+		if = {
+			limit = {
+				OR = {
+					culture_group = west_slavic
+					culture_group = south_slavic
+					culture_group = finno_ugric
+				}
+			}
+			add_country_modifier = {
+				name = ogre_administration
+				duration = -1
+			}
+		}
+		# #centaur
+		if = {
+			limit = {
+				culture_group = east_slavic
+			}
+			add_country_modifier = {
+				name = centaur_administration
+				duration = -1
+			}
+		}
+		#harimari
+		if = {	
+			limit = {
+				culture_group = germanic
+			}
+			add_country_modifier = {
+				name = harimari_administration
+				duration = -1
+			}
+		}
+		#hobgoblin
+		if = {
+			limit = {
+				culture = armenian
+			}
+			add_country_modifier = {
+				name = hobgoblin_administration
+				duration = -1
+			}
+		}
+	}
+}
