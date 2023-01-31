@@ -1,0 +1,90 @@
+slave_revolution = {
+	potential = {
+        has_country_modifier = triangle_trade
+		any_province = {
+			culture_group = black_american
+		}
+		current_age = age_of_revolutions
+		NOT = { has_global_modifier = slaves_revolted }
+	}
+	picture = GFX_disaster_slave_revolution
+	can_start = {
+        has_any_disaster = no
+		any_owned_province = {
+			OR = {
+				province_id = 487
+				province_id = 481
+				province_id = 501
+				province_id = 1572
+				province_id = 489
+				province_id = 4619
+				province_id = 4618
+				province_id = 488
+				province_id = 2658
+				province_id = 4620
+				province_id = 490
+				province_id = 4621
+				province_id = 2803
+				province_id = 743
+				province_id = 744
+				province_id = 745
+				province_id = 2937
+				province_id = 746
+			}
+			culture_group = black_american
+		}
+	}
+	can_stop = {
+        NOT = { has_country_modifier = triangle_trade }
+    }
+	can_end = {
+		num_of_rebel_armies < 1
+		num_of_rebel_controlled_provinces < 1
+	}
+	progress = {
+        modifier = {
+                factor = 1
+				has_country_modifier = triangle_trade
+        }
+        modifier = {
+                factor = 2
+                NOT = { stability = 0 }
+        }
+        modifier = {
+                factor = 1
+				any_owned_province = {
+					AND = {
+						OR = {
+							province_id = 487
+							province_id = 481
+							province_id = 501
+							province_id = 1572
+							province_id = 489
+							province_id = 4619
+							province_id = 4618
+							province_id = 488
+							province_id = 2658
+							province_id = 4620
+							province_id = 490
+							province_id = 4621
+							province_id = 2803
+							province_id = 743
+							province_id = 744
+							province_id = 745
+							province_id = 2937
+							province_id = 746
+						}
+						unrest > 0
+					}
+				}
+        }
+	}
+	modifier = {
+        global_unrest = 3
+		infantry_power = -0.10
+		land_morale = -0.10
+		prestige = -2
+    }
+	on_start = afroamerican.4
+    on_end = afroamerican.5
+}

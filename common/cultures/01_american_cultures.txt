@@ -1,0 +1,136 @@
+black_american = {
+	graphical_culture = africangfx
+
+	afro_carribean = {
+		male_names = {
+			Cudjoe Cubbenah Quaco Quao Cuffee Quamin Quashee Ebo Calabar Arrow Guiney New Ebo Gambia Mandingo Bambara Mookinga Sambo Oladah Joseph Allexander Sampson John Christopher William Jeoffrey Samuel Robert
+            Samuel Milen Richard David Thomas Peter John Cuffey Sandy Swan Jack Kitt Will Jeffery Etto Robin Sambo Milen "Dick Sober" Quashey Quoffey Peter Drummer London Mayfangoe John Quashey
+            Thomas Anthony John Anthony Willoughby Daniel Jonah Abraham Richard Tuma Tong Maffungo Anthony Bacchus Quaccoe Issue Deway Quobina Chrismas Cuffey
+            Payen Philippe Pierre Raimbaut Raoul Raymond Raynaud Renaud Richard Robert Robin Roger Rorgues Roubaud Savary Sigismond Simon Thibault
+            Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho
+
+		}
+		female_names = {
+			Juba Beneba Cuba Abba Phibba Mimba Quasheba Frances Philis Jane Ann Elizabeth Mary Hannah Elizabeth Margaret Lucretia Susanna Jane Mercy Joanna Hannah Jane Diana Ruth
+            Frankey Occo Adjubah Nanny "Little Betty" Molley Murreat Occo Fattimore Josebah Sue Jiba Occo Joan Arnotte Jiba Dada Guando Matty Johntoe Gong Jobbah Wawdey Affiba Occobah Jobbue Betty Obah Fattimore Tomsin Tomsin
+            Mayor Mayor Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
+            Charlotte Constance Denise Douce Echive Eglantine
+		}
+		dynasty_names = {
+			Austin Anderson Adams Armstrong Astor Albright Averill Ayers Arnold Armistead
+			Boone Bannister Brown Buchanan Bacon Bryant Barclay Butler Brooks Bowie Bagge Berlin Baird Baker
+			Banks Banning Bailey Booth Barnum Barlett Bates Boyle Buell Burnside Burr
+			Coolidge Chamberlain Crockett Cooper Carpenter Coles Coffey Clemens Cleveland Cass Curley Choate
+			Custis Curtiss Clinch Cranston Call Canby Crawford Corbin
+			Jackson Jefferson Jones Jennings Johnson Jessup Jay Joslyn
+			Kirkpatrick Key Kent Kearney
+			Lee Lincoln Langley Lovelace London Larned Lewis
+			Monroe Madison McKinley Meade Morganson McNeely Miller McClellan Mulhouse May Malone McCarthy
+			McGivney MacGregor Morris Mason McCauley
+			Owens "O'Hara" Oswald "O'Neill"
+			Peck Peterson Peel Poole Pierce Pickett Palmer Payne Penn Parton Parker
+			Rogers Richardson Roberts Reed Rice Ratliffe Randolph Revere Ross
+			Scott Stevens Smith Sanders "St. Paul" "St. Germaine" Simmons "St. Vincent" Stuart Sewall Sousa
+			Sullivan Sherman Sheridan Stuyvesant Short Shaftoe
+			Taft Thompson Tweed Taylor Todd Temple Trump Twiggs Totten Tuttle Twigden
+			Vane
+			Washington Wayne Wilson Wood Williams Whitney Waldron Wolfe Wright Wyatt Worsam Wilkes Wythe
+			Waterhouse
+			Young Yelverton
+            Tollez-Giron "Manrique de Lara" "de ovalos" Enroquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalo"
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+            "de Lorraine" "de Foix" "de Montfort" "de Blois" "de Penthievre" "de Dreux"
+			"de Rohan" "de Bar" "d'Albert" "d'Escoubleau" "de Neufville"
+            Dessalines
+		}
+	}
+
+    african_american = {
+		male_names = {
+			Boohum Boomy Bowzar Cuffee Cuffey Cuffy Habella Kauchee Mila Minas Monimea Wabee Whan Wolly Yanke Yanki Zick Zocky Zoun
+            Pamo Pamo Qua Quaco Quamina Quash Warrah Coffee Caucos Assey Balipho Banjoe Beay Beoy Bram Cockcoose Crack Cudjoe Cuff Cuffee Culley Cumin Dago
+            Dembow Dibbe Donas Easom Fodee Gamone Gunnah Homady Hughky Jobny Ketch Mallay Mambee Mamena Manso Marmillo Mingo Mobe Mollock "Musco Jack" Okree Pherco
+            Pouta Quacoe Quammano Quaow Quash Quaw Rente Saffran Sambo Sandico Sango Saundy Sawney Serrah Shampee Sirrah Sogo Stepney Tokey Tomboe Jack Jack Footbea
+            Mussu Serrah Carolina Carolina Ponpon Achilles Apollo Caesar Brutus "John-Baptist" "John-Baptist" Romeo Othello Piero Pierre Paris James Henry Abraham Edward Charles James
+            William Richard Philip Henry Frederick Arthur Charles James Edgar Thomas Edmund Carolina Carolina Ponpon Achilles Apollo Caesar Brutus "John-Baptist" "John-Baptist" Romeo
+            Othello Piero Pierre Paris James Henry Abraham Edward Charles James William Richard Philip Henry Frederick Arthur Charles James Edgar Thomas Edmund
+            Jack Jack Jack Jack
+		}
+		female_names = {
+			Annika Yonaha Comba Camba Massery Agua Aba Abey Affey Agua Arrah Banaba Binah Body Dye Eley Embro Fantame Fortimer Juba Juda Mabia Mamadoe Mawdlong Minda Nea Rino
+            Rynah Sack Sibby Tinah Teina Windy Amoretta Belinda Harriet Jane Adela Adelaide Alice Amice Anne Anna Aveline Avelina Beatrice Blanche Catherine Cecilia Harriet Harriet
+		}
+		dynasty_names = {
+			Austin Anderson Adams Armstrong Astor Albright Averill Ayers Arnold Armistead
+			Boone Bannister Brown Buchanan Bacon Bryant Barclay Butler Brooks Bowie Bagge Berlin Baird Baker
+			Banks Banning Bailey Booth Barnum Barlett Bates Boyle Buell Burnside Burr
+			Coolidge Chamberlain Crockett Cooper Carpenter Coles Coffey Clemens Cleveland Cass Curley Choate
+			Custis Curtiss Clinch Cranston Call Canby Crawford Corbin
+			Davis Daniels Dolan Durant Dewitt Dent Drake Dilworth
+			Early Evans Eppes
+			Findlay Franklin Ford Farragut Featherstone Fitzgerald Firefly Fox Fillmore
+			Garrett Gurney Grant Gibson Garfield Gage Gallatin Gorslin
+			Harding Hayes Hamilton Hughes Hart Harrison Hannegan Hill Hicks Holly Hammer Harney Halleck
+			Hancock Hawkins Harris
+			Jackson Jefferson Jones Jennings Johnson Jessup Jay Joslyn
+			Kirkpatrick Key Kent Kearney
+			Lee Lincoln Langley Lovelace London Larned Lewis
+			Monroe Madison McKinley Meade Morganson McNeely Miller McClellan Mulhouse May Malone McCarthy
+			McGivney MacGregor Morris Mason McCauley
+			Owens "O'Hara" Oswald "O'Neill"
+			Peck Peterson Peel Poole Pierce Pickett Palmer Payne Penn Parton Parker
+			Rogers Richardson Roberts Reed Rice Ratliffe Randolph Revere Ross
+			Scott Stevens Smith Sanders "St. Paul" "St. Germaine" Simmons "St. Vincent" Stuart Sewall Sousa
+			Sullivan Sherman Sheridan Stuyvesant Short Shaftoe
+			Taft Thompson Tweed Taylor Todd Temple Trump Twiggs Totten Tuttle Twigden
+			Vane
+			Washington Wayne Wilson Wood Williams Whitney Waldron Wolfe Wright Wyatt Worsam Wilkes Wythe
+			Waterhouse
+			Young Yelverton
+            Tollez-Giron "Manrique de Lara" "de ovalos" Enroquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalo"
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+            "de Lorraine" "de Foix" "de Montfort" "de Blois" "de Penthievre" "de Dreux"
+			"de Rohan" "de Bar" "d'Albert" "d'Escoubleau" "de Neufville" 
+		}
+	}
+
+    afro_latino = {
+        male_names = {
+           Egidius Gomez Gomez Gonzalo Gonzalo Guillon William Guillermo William Gutierre Walter Juan 
+		    Lope Lupo Luis Louis Manrique Amalric Marton Martin Munio Munio Nuoo Nuno Ordooo Ordono 
+		    Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho 
+		    Suero Tello Vela Vela Suero Oveco John Enrique
+            Moacir Caoque Ubirajara Ubirato Joacir Domingos Quintino Deodoro Eduardo Emolio Castro Pascoal
+		    Moreira Cloudio Dirceu Evandro Tomo Amado Silvorio Basolio Cipriano Amaro Cosme Jolio Lucas
+		    Severino Severiano Benjamim Epaminondas Seixas Torquato Antonio Getolio Silveriano Bros
+            Arnault Arnoul Aubry Aymar Bartholomi Baudouin Benoot Borenger Bernard Bertrand Bohemond 
+		    Boson Bouchard Centule Charles Clotaire Ebbon Enguerrand Eudes Eustache Evrard Foulques Franoois 
+		    Frodoric Gaucher Gaucelin Gauthier Geoffroi Goraud Gilbert Gilles Godefroi
+		    Guichard Guiges Guilhem Guillaume Guy Holie Hamelin Henri Herbert Hildebert Hugues Humbert Jacques 
+        }
+
+        female_names = {
+	    	Charlotte Constance Denise Douce Echive Eglantine
+    		Elisabeth Emma Ermengarde Ermessinde Esclarmonde 
+    		Euphrosine Eustachie Eve Gerberge Gisole Guillaumette Holoise Helvis Hodierne Ide Ildogarde
+    		Isabeau Isabelle Jeanne Judith Julienne Mafalda Mahaut Margot Marguerite Marie Marthe
+    		Mascarose Mathilde Molisande Molisende Molusine Poronelle Pernelle Perinne Pernette Plaisance
+            Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
+			Constance Elvira Elvira Estefanoa Stephania Fronilda Fronilde Gontroda Gotruda Inos Agnes 
+			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda Maroa Maria Marina Marine Guiomar Inos Agnes Joana Joan Leonor Eleanor Mafalda Matilda Margarida Margaret Maria 
+			Marinha Marine Mor Mayor Ouroana Sancha Sancha Teresa Teresa Urraca Urraca Gotruda Constanoa
+        }
+
+        dynasty_names = {
+            "de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zooiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+	    	"de Rochechouart" "d'Aumont" "de Vergy" "de Saboulin" "de Gramont" "de Bissy"
+     		"de Barrau" "de La Fayette" "d'Armagnac" "de Rougo" "du Quenoy" "de Ficquelmont"
+    		"de Talleyrand" "de Saintignon" "von Luxemburg" "de Montmorency" "de Savoie"
+    		"de Vaudemont" "de Nicolao"
+        }
+    }
+}

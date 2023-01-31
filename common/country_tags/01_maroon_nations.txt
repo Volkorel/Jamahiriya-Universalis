@@ -1,0 +1,9 @@
+#Maroons
+
+JMC = "countries/Jamaica.txt"
+BMD = "countries/Bermuda.txt"
+GYN = "countries/Guyana.txt"
+BDS = "countries/Barbados.txt"
+PLM = "countries/Palmares.txt"
+LBR = "countries/Liberia.txt"
+BMH = "countries/Bahamas.txt"

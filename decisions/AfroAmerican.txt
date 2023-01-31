@@ -1,0 +1,63 @@
+country_decisions = {
+	
+	introduce_slavery = {
+		potential = {
+			NOT = { has_country_modifier = the_abolish_slavery_act }
+			NOT = { has_country_modifier = triangle_trade }
+			NOT = { culture_group = black_american }
+			has_global_flag = triangle_happened
+			technology_group = western
+		}
+		allow = {
+			OR = {
+				any_province = {
+					OR = {
+						continent = north_america
+						continent = south_america
+					}
+				}
+				colony = 1
+			}
+		}
+		effect = {
+			set_country_flag = slavery_enabled
+			add_country_modifier = {
+				name = triangle_trade
+				duration = -1
+			}
+			custom_tooltip = triangletradetooltip
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	revoke_slave_trade = {
+		potential = {
+			AND = {
+				has_country_modifier = triangle_trade
+			}
+		}
+		allow = {
+
+		}
+		effect = {
+			clr_country_flag = slavery_enabled
+			remove_country_modifier = triangle_trade
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 1
+				current_age = age_of_revolutions
+				NOT = {
+					capital = {
+						continent = north_america
+					}
+				}
+			}
+		}
+	}
+
+
+}

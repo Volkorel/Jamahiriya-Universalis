@@ -1,0 +1,572 @@
+
+namespace = afroamerican
+
+country_event = {
+	id = afroamerican.1
+	title = afroamerican.1.t
+	desc = afroamerican.1.d
+	picture = FARMING_WIFE_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = afroamerican.1.a
+		ai_chance = { factor = 1 }
+		random_owned_province = {
+			limit = {
+				AND = {
+					NOT = {
+						OR = {
+							culture = afro_carribean
+							culture = afro_latino
+							culture = african_american
+						}
+					}
+					OR = {
+						continent = north_america
+						continent = south_america
+					}
+					OR = {
+						trade_goods = sugar
+						trade_goods = cotton
+						trade_goods = tobacco
+					}
+					NOT = {
+						OR = {
+							has_winter = normal_winter
+							has_winter = severe_winter
+						}
+					}
+				}
+			}
+
+			random_list = {
+				33 = {
+					add_base_tax = 1
+				}
+				33 = {
+					add_base_production = 1
+				}
+				33 = {
+					add_base_manpower = 1
+				}
+			}
+
+			if = {
+				limit = {
+					OR = {
+						region = carribeans_region
+						area = suriname_area
+						area = guyana_area
+					}
+				}
+				change_culture = afro_carribean
+
+				else = {
+					if = {
+						limit = {
+							OR = {
+								continent = south_america
+								region = mexico_region
+								region = central_america_region
+							}
+						}
+						change_culture = afro_latino
+					}
+
+					else = {
+						change_culture = african_american
+					}
+				}
+			}
+
+			add_local_autonomy = 25
+			add_unrest = 3
+
+			#Maroon Nations
+			hidden_effect = {
+				if = {
+					limit = {
+						OR = {
+							area = dominica_area
+							area = hispaniola_area
+						}
+					}
+					add_core = HAT
+					add_permanent_claim = HAT
+					add_nationalism = 10
+				}
+				if = {
+					limit = {
+						province_id = 487
+					}
+					add_core = JMC
+					add_permanent_claim = JMC
+					add_nationalism = 10
+				}
+				if = {
+					limit = {
+						province_id = 481
+					}
+					add_core = BMD
+					add_permanent_claim = BMD
+					add_nationalism = 10
+				}
+				if = {
+					limit = {
+						province_id = 1572
+					}
+					add_core = BDS
+					add_permanent_claim = BDS
+					add_nationalism = 10
+				}
+				if = {
+					limit = {
+						province_id = 501
+					}
+					add_core = PLM
+					add_permanent_claim = PLM
+					add_nationalism = 10
+				}
+				if = {
+					limit = {
+						OR = {
+							province_id = 482
+							province_id = 483
+						}
+					}
+					add_core = BHM
+					add_permanent_claim = BHM
+					add_nationalism = 10
+				}
+				if = {
+					limit = {
+						OR = {
+							area = suriname_area
+							area = guyana_area
+						}
+					}
+					add_core = GYN
+					add_permanent_claim = GYN
+					add_nationalism = 10
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = afroamerican.2
+	
+	trigger = {
+		has_country_modifier = triangle_trade
+	}
+
+	hidden = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				any_province = {
+					AND = {
+						NOT = {
+							OR = {
+								culture = afro_carribean
+								culture = afro_latino
+								culture = african_american
+							}
+						}
+						OR = {
+							continent = north_america
+							continent = south_america
+						}
+						OR = {
+							trade_goods = sugar
+							trade_goods = cotton
+							trade_goods = tobacco
+						}
+						NOT = {
+							OR = {
+								has_winter = normal_winter
+								has_winter = severe_winter
+							}
+						}
+					}
+				}
+			}
+			country_event = {
+				id = afroamerican.1
+			}
+		}
+	}
+
+	option = {
+		ai_chance = { factor = 1 }
+	}
+
+	mean_time_to_happen = {
+		months = 300
+
+		#Spain didn't use as many slaves
+		modifier = {
+			factor = 3
+			tag = SPA
+		}
+		modifier = {
+			factor = 6
+			tag = SPA
+			OR = {
+				current_age = age_of_absolutism
+				current_age = age_of_revolutions
+			}
+		}
+
+		#Slave trade boom between 1610 and 1790
+		modifier = {
+			factor = 0.75
+			AND = {
+				OR = {
+					tag = ENG
+					tag = FRA
+					tag = GBR
+					tag = HOL
+					tag = DAN
+					tag = NED
+					overlord = { tag = ENG }
+					overlord = { tag = FRA }
+					overlord = { tag = GBR }
+					overlord = { tag = HOL }
+					overlord = { tag = DAN }
+					overlord = { tag = NED }
+				}
+				OR = {
+					current_age = age_of_absolutism
+					current_age = age_of_revolutions
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = afroamerican.3
+	title = afroamerican.3.t
+	desc = afroamerican.3.d
+
+	trigger = {
+		NOT = { has_country_modifier = the_abolish_slavery_act }
+		NOT = { has_country_modifier = slave_revolt_successful }
+		NOT = { has_country_modifier = just_lost_to_rebels }
+		NOT = { has_country_modifier = recent_slave_revolt }
+		any_province = {
+			culture_group = black_american
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 200
+		modifier = {
+			factor = 200
+			current_age = age_of_discovery
+		}	
+		modifier = {
+			factor = 2
+			current_age = age_of_reformation
+		}	
+		modifier = {
+			factor = 0.8
+			current_age = age_of_revolutions
+		}	
+	}
+
+	immediate = {
+		random_owned_province = {
+			limit = {
+				culture_group = black_american
+			}
+			set_province_flag = slaverevoltflag@ROOT
+		}
+	}
+
+	option = {
+		name = afroamerican.3.a
+		ai_chance = { factor = 1 }
+		random_owned_province = {
+			limit = {
+				has_province_flag = slaverevoltflag@ROOT
+			}
+			clr_province_flag = slaverevoltflag@ROOT
+			spawn_rebels = {
+				type = slave_revolt
+				size = 2
+			}
+			ROOT = {
+				add_country_modifier = { 
+					name = recent_slave_revolt
+					duration = 25
+					hidden = yes
+				}
+			}
+		}
+	}
+	option = {
+		name = afroamerican.3.b
+		ai_chance = { factor = 1 }
+		random_owned_province = {
+			limit = {
+				has_province_flag = slaverevoltflag@ROOT
+			}
+			clr_province_flag = slaverevoltflag@ROOT
+			if = {
+				limit = {
+					has_building = plantations
+				}
+				remove_building = plantations
+			}
+			set_local_autonomy = 50
+			add_province_modifier = { 
+				name = free_slaves
+				duration = 10
+			}
+			ROOT = {
+				add_country_modifier = { 
+					name = recent_slave_revolt
+					duration = 25
+					hidden = yes
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = afroamerican.4
+	title = afroamerican.4.t
+	desc = afroamerican.4.d
+	picture = REVOLT_HUNGARIAN_eventPicture
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = afroamerican.4.a
+		ai_chance = {
+			factor = 1
+		}
+		add_stability = -2
+		add_war_exhaustion = 2
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						area = dominica_area
+						area = hispaniola_area
+					}
+					culture_group = black_american
+				}
+				add_core = HAT
+				add_permanent_claim = HAT
+				add_unrest = 3
+				spawn_rebels = {
+					type = slave_revolution_rebels
+					size = 3
+				}
+			}
+			every_owned_province = {
+				limit = {
+					province_id = 487
+					culture_group = black_american
+				}
+				add_core = JMC
+				add_permanent_claim = JMC
+				add_unrest = 3
+				spawn_rebels = {
+					type = slave_revolution_rebels
+					size = 3
+				}
+			}
+			every_owned_province = {
+				limit = {
+					province_id = 481
+					culture_group = black_american
+				}
+				add_core = BMD
+				add_permanent_claim = BMD
+				add_unrest = 3
+				spawn_rebels = {
+					type = slave_revolution_rebels
+					size = 3
+				}
+			}
+			every_owned_province = {
+				limit = {
+					province_id = 501
+					culture_group = black_american
+				}
+				add_core = BDS
+				add_permanent_claim = BDS
+				add_unrest = 3
+				spawn_rebels = {
+					type = slave_revolution_rebels
+					size = 3
+				}
+			}
+			every_owned_province = {
+				limit = {
+					province_id = 501
+					culture_group = black_american
+				}
+				add_core = PLM
+				add_permanent_claim = PLM
+				add_unrest = 3
+				spawn_rebels = {
+					type = slave_revolution_rebels
+					size = 3
+				}
+			}
+			every_owned_province = {
+				limit = {
+					OR = {
+						area = suriname_area
+						area = guyana_area
+					}
+					culture_group = black_american
+				}
+				add_core = GYN
+				add_permanent_claim = GYN
+				add_unrest = 3
+				spawn_rebels = {
+					type = slave_revolution_rebels
+					size = 3
+				}
+			}
+			every_owned_province = {
+				limit = {
+					OR = {
+						province_id = 482
+						province_id = 483
+					}
+					culture_group = black_american
+				}
+				add_core = BHM
+				add_permanent_claim = BHM
+				add_unrest = 3
+				spawn_rebels = {
+					type = slave_revolution_rebels
+					size = 3
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = afroamerican.5
+	hidden=yes
+	option = {
+		ai_chance = {
+			factor = 0
+		}
+	}
+	is_triggered_only = yes
+	immediate = {
+		set_global_modifier = slaves_revolted
+		clr_country_flag = slavery_enabled
+		remove_country_modifier = triangle_trade
+
+		if = {
+			limit = {
+				has_country_modifier = lost_slave_revolution
+			}
+			if = {
+				limit = { exists = HAT }
+				HAT = { country_event = afroamerican.6 }
+				else = {
+					limit = {
+						limit = { exists = JMC }
+						JMC = { country_event = afroamerican.6 }
+					}
+				}
+				else = {
+					limit = {
+						limit = { exists = BMD }
+						BMD = { country_event = afroamerican.6 }
+					}
+				}
+				else = {
+					limit = {
+						limit = { exists = BDS }
+						BDS = { country_event = afroamerican.6 }
+					}
+				}
+				else = {
+					limit = {
+						limit = { exists = GYN }
+						GYN = { country_event = afroamerican.6 }
+					}
+				}
+				else = {
+					limit = {
+						limit = { exists = PLM }
+						PLM = { country_event = afroamerican.6 }
+					}
+				}
+			}
+			else = {
+				country_event = afroamerican.7
+			}
+		}
+	}
+}
+
+country_event = {
+	id = afroamerican.6
+	title = afroamerican.6.t
+	desc = afroamerican.6.d
+	picture = REVOLT_HUNGARIAN_eventPicture
+	immediate = {
+		hidden_effect = {
+			prestige = 50
+		}
+	}
+	major = yes
+	option = {
+		name = afroamerican.6.a
+		ai_chance = {
+			factor = 1
+		}
+		stability = 1
+		every_known_country = {
+			if = {
+				limit = {
+					has_country_modifier = triangle_trade
+				}
+				stability = -1
+			}
+		}
+	}
+	is_triggered_only = yes
+
+}
+
+country_event = {
+	id = afroamerican.7
+	title = afroamerican.7.t
+	desc = afroamerican.7.d
+	picture = REVOLT_HUNGARIAN_eventPicture
+
+	major = yes
+	option = {
+		name - afroamerican.7.a
+		ai_chance = {
+			factor = 1
+		}
+		stability = 1
+	}
+	is_triggered_only = yes
+
+}
