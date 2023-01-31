@@ -1,0 +1,67 @@
+has_adm_advisor_with_skill = {
+	OR = {
+		treasurer = $skill$
+		philosopher = $skill$
+		artist = $skill$
+		theologian = $skill$
+		master_of_mint = $skill$
+		inquisitor = $skill$
+		natural_scientist = $skill$
+		administrator = $skill$
+		state_overseer = $skill$
+		civil_engineer = $skill$
+		researcher = $skill$
+		reformist = $skill$
+		religious_representative = $skill$
+		julius_archbishop = $skill$
+		fu_accountant = $skill$
+		fu_royal_imam = $skill$
+		fu_city_planner = $skill$
+		fu_cartographer = $skill$
+		fu_head_of_patriarchate = $skill$
+		fu_right_hand_captain = $skill$
+	}
+}
+
+has_dip_advisor_with_skill = {
+	OR = {
+		statesman = $skill$
+		diplomat = $skill$
+		naval_reformer = $skill$
+		trader = $skill$
+		colonial_governor = $skill$
+		navigator = $skill$
+		spymaster = $skill$
+		negotiator = $skill$
+		pioneer = $skill$
+		marauder_captain = $skill$
+		marketeer = $skill$
+		mercantile_influencer = $skill$
+		navarch = $skill$
+		subject_mediator = $skill$
+		composer = $skill$
+		poet = $skill$
+		fu_spymaster_assassin = $skill$
+		fu_naval_supply_master = $skill$
+	}
+}
+
+has_mil_advisor_with_skill = {
+	OR = {
+		army_organiser = $skill$
+		army_reformer = $skill$
+		commandant = $skill$
+		grand_captain = $skill$
+		recruitmaster = $skill$
+		fortification_expert = $skill$
+		quartermaster = $skill$
+		commander = $skill$
+		drill_instructor = $skill$
+		combat_engineer = $skill$
+		tactician = $skill$
+		mercenary_captain = $skill$
+		defensive_planner = $skill$
+		fu_aristocrat = $skill$
+		fu_legendary_buccaneer = $skill$
+	}
+}
