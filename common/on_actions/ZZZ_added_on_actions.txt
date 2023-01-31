@@ -1,6 +1,7 @@
 #Check for reformed religions in a "HISTORICAL" start
 on_startup = {
 	########### VANILLA
+	PAP = { country_event = { id = jamahiriya_fraticelli.1 days = 1080 } } #better not to allow almost instant DOWs
 	if = {
 		limit = {
 			current_age = age_of_discovery

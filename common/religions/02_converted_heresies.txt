@@ -69,9 +69,14 @@ christian = {
 			horde_unity = 1
 			tolerance_own = 1
 		}
-		hre_religion = yes
-
-
+		hre_heretic_religion = yes
+		will_get_center = { #Refered to even for initial CoR Spawn
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = fraticelli
+				}
+			}
+		}
 		on_convert = {
 			change_religion = fraticelli
 			add_prestige = -100
@@ -86,7 +91,6 @@ christian = {
 			}
 
 		}
-
 		heretic = { BOGOMILIST WALDENSIAN HUSSITE LOLLARD SOCINIAN }
 
 		papacy = {

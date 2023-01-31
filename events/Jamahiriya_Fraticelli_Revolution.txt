@@ -1,0 +1,57 @@
+namespace = jamahiriya_fraticelli
+
+# Start Event
+country_event = {
+	id = jamahiriya_fraticelli.1
+	title = jamahiriya_fraticelli.1.t
+	desc = jamahiriya_fraticelli.1.d
+	picture = RELIGIOUS_WARS_eventPicture
+	major = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = fraticelli_revolution
+		7020 = { cede_province = FAP }
+		2978 = { add_reform_center = fraticelli }
+		Y67 = {
+			change_religion = fraticelli
+			set_country_flag = fraticelli
+		}
+		FER = {
+			change_religion = fraticelli
+			set_country_flag = fraticelli
+		}
+		MFA = {
+			change_religion = fraticelli
+			set_country_flag = fraticelli
+		}
+		MRC = {
+			change_religion = fraticelli
+			set_country_flag = fraticelli
+		}
+		SIE = {
+			change_religion = fraticelli
+			set_country_flag = fraticelli
+		}
+		spawn_rebels = {
+			type = fraticelli_rebels
+			size = 20
+			leader = rebel_preacher
+			friend = FAP
+		}
+	}
+	option = {
+		name = jamahiriya_fraticelli.1.a
+		hidden_effect = { kill_ruler = yes }
+		declare_war_with_cb = {
+			who = FAP
+			casus_belli = cb_annex
+		}
+		every_country = {
+			limit = { has_country_flag = fraticelli }
+			join_all_defensive_wars_of = FAP
+		}
+	}
+}
