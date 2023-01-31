@@ -1355,4 +1355,49 @@ zealots_ideas = {
 	}
 }
 
+FRI_ideas = {
+	start = {
+		infantry_cost = -0.10
+		land_morale = 0.15
+	}
+	bonus = {
+		land_attrition = -0.10
+	}
+	trigger = {
+		tag = FRI
+	}
+	free = yes
+	FRI_Radbardr_Folcwald = {
+		manpower_recovery_speed = 0.10
+		discipline = 0.03
+	}
+	FRI_Fryske_Frijheid = {
+		hostile_attrition = 1.5
+		hostile_fleet_attrition = 1.5
+	}
+	FRI_Meinwerk_von_Hoya = {
+		global_missionary_strength = 0.05
+		missionaries = 1
+	}
+	FRI_Magna_Frisia_Niuj = {
+		global_colonial_growth = 10
+		native_uprising_chance = -0.25	
+	}
+	FRI_Friesland_United = {
+		state_maintenance_modifier = -0.25	
+		build_cost = -0.5
+	}
+	FRI_Building_Build = {
+		build_time = -0.25
+		production_efficiency = 0.05
+	}
+	FRI_Forever = {
+		enemy_core_creation = 2
+		global_unrest = -2
+		relation_with_same_culture_group = 25
+		relation_with_accepted_culture = 50
+		relation_with_same_culture = 100
+	}
+}
+
 

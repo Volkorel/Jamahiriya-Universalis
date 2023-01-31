@@ -1255,3 +1255,6 @@ ZUL = "countries/Zulu.txt"
 ZUN = "countries/Zunghar.txt"
 ZZZ = "countries/Zazzau.txt"
 
+#Formables#
+A00 = "countries/Keninkryk.txt"
+

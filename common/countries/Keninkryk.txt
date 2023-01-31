@@ -1,0 +1,161 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 24 68 141 }
+revolutionary_colors = { 9 8 5 }
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	influence_ideas
+	spy_ideas
+	diplomatic_ideas
+	economic_ideas
+	quality_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_tercio
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swedish_gallop
+	swiss_landsknechten
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+historical_units = {
+	anglofrench_line
+	dutch_maurician
+	french_bluecoat
+	french_caracolle
+	french_cuirassier
+	french_dragoon
+	french_impulse
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Aldgisl #2" = 10
+	"Alfrik #0" = 0
+	"Arda #0" = -1
+	"Bentet #0" = 0
+	"Berengero #0" = 0
+	"Cath�rine #0" = -1
+	"Cissa #0" = 0
+	"Ebbon #0" = 0
+	"Ester #0" = -1
+	"Etto #1" = 10
+	"F�lki #0" = 0
+	"Gundebold #1" = 10
+	"Haneman #1" = 10
+	"Heilwiva #0" = -1
+	"Hildegerd #0" = -1
+	"Hrafn #0" = 0
+	"Isabeau #0" = -1
+	"Liudgod #0" = 0
+	"Maurizio #0" = 0
+	"Meinhart #5" = 10
+	"Meinwerk #3" = 10
+	"Nantwig #1" = 10
+	"Pernette #0" = -1
+	"Poppo #1" = 10
+	"Radboud #2" = 10
+	"Radulf #1" = 10
+	"Reinhart #1" = 10
+	"Rudigar #0" = 0
+	"Rudolf #1" = 10
+	"Simon #1" = 10
+	"Welf #1" = 10
+	"�lfr #0" = 0
+}
+leader_names = {
+	"Banda"
+	"Barents"
+	"Bergsma"
+	"Bonga"
+	"De Vries"
+	"Donia"
+	"Dykstra"
+	"Eelsma"
+	"Elsinga"
+	"Friso"
+	"Galama"
+	"Gauma"
+	"Halbertsma"
+	"Japisk"
+	"Jongstra"
+	"Jousma"
+	"Kamminga"
+	"Kamstra"
+	"Kiestra"
+	"Kooistra"
+	"Martena"
+	"Riemersma"
+	"Ripperda"
+	"Roorda"
+	"Saakma"
+	"Sems"
+	"Stellingwerf"
+	"Stiensma"
+	"Stijl"
+	"Sytstra"
+	"Tjerkstra"
+	"Van Schellinkhout"
+	"Van Uylenburgh"
+	"Wynja"
+}
+ship_names = {
+	"Bernlef"
+	"Boalsert"
+	"Damw�ld"
+	"De Swarte Heap"
+	"Dokkum"
+	"Drylts"
+	"Frede"
+	"Frijheid"
+	"Frisia Magna"
+	"Frjentsjer"
+	"Frysl�n"
+	"Frysl�n Boppe"
+	"Grut Frysl�n"
+	"Grutte Pier"
+	"Harns"
+	"Heitel�n"
+	"Hylpen"
+	"It Beaken"
+	"It Frouke"
+	"Kening Poppo"
+	"Kening Redbad"
+	"Kriich"
+	"Lauwers"
+	"Leaver dea as slaaf"
+	"Ljouwert"
+	"Meinwerk"
+	"Pier Gerlofs Donia"
+	"Sleat"
+	"Snits"
+	"Starum"
+	"Sudersee"
+	"Thiadsvind"
+	"von Hoya"
+	"Wapen fan Frysl�n"
+	"Warkum"
+}
+army_names = {
+	"Leger van $PROVINCE$"
+}
+fleet_names = {
+	"Floot van $PROVINCE$"
+}
