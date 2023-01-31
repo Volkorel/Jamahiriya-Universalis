@@ -29,15 +29,6 @@ union=
 	start_date="1444.11.11"
 	end_date="1836.1.1"
 }
-
-union=
-{
-	first="Z27"
-	second="Y48"
-	start_date="1444.11.11"
-	end_date="1836.1.1"
-}
-
 union=
 {
 	first="MOS"
