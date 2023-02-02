@@ -864,7 +864,6 @@ south_slavic = {
 			"Pashï¿½ Pï¿½rmeti" "Pashï¿½ Tepelena" "Pashï¿½ Toptani" Poga "Qemal Bej" Shahini Skiroi Thaï¿½i Troja Xoxe
 		}
 	}
-		primary = ALB
 		male_names = {
 			Gjergj Lekë Gjon Kostandin Lulëzim Pal Tanush Aleksandër Karolus Filippo Adnan Agim Bashkim Besnik
 			Dardan Dhurim Dritëro Elidon Erjon Fatmir Flamur Florin Hekuran Ilir Ismail Klodian Luigj Milaim

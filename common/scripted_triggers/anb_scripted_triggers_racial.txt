@@ -289,8 +289,25 @@ has_dwarven_accepted_culture = {
 	accepted_culture = english
 }
 
-has_halfling_accepted_culture = {
-#culture_group = latin
+has_halfling_accepted_culture = { #latin
+	OR = {
+		accepted_culture = lombard
+		accepted_culture = tuscan
+		accepted_culture = sardinian
+		accepted_culture = romagnan
+		accepted_culture = ligurian
+		accepted_culture = venetian
+		accepted_culture = dalmatian
+		accepted_culture = neapolitan
+		accepted_culture = piedmontese
+		accepted_culture = umbrian
+		accepted_culture = maltese
+		accepted_culture = romanch_culture
+		accepted_culture = corsican_culture
+		accepted_culture = friulian_culture
+		accepted_culture = ladin_culture
+		accepted_culture = istriot_culture
+	}
 }
 
 has_gnomish_accepted_culture = {
@@ -305,71 +322,411 @@ has_half_orcish_accepted_culture = {
 	accepted_culture = irish
 }
 
-has_orcish_accepted_culture = {
-#culture_group = mande
-#culture_group = sahelian
-#culture_group = west_african
-#culture_group = southern_african
-#culture_group = kongo_group
-#culture_group = great_lakes_group
-#culture_group = african
-#culture_group = cushitic
-#culture_group = sudanese
-#culture_group = khoisan_group
+has_orcish_accepted_culture = { #african #this isn't any more racist than the others #although tbh if anything white people are the orcs because both were created in a lab to destroy civilizations
+	OR = {
+		accepted_culture = mali
+		accepted_culture = songhai
+		accepted_culture = soninke
+		accepted_culture = bambara
+		accepted_culture = bozo
+		accepted_culture = dyola
+
+		accepted_culture = hausa
+		accepted_culture = kanuri
+		accepted_culture = bilala
+		accepted_culture = tunjur
+		accepted_culture = tuareg
+		accepted_culture = senegambian
+		accepted_culture = fulani
+		accepted_culture = zaghawa
+
+		accepted_culture = yorumba
+		accepted_culture = aka
+		accepted_culture = nupe
+		accepted_culture = fon
+		accepted_culture = mossi
+		accepted_culture = dagomba
+
+		accepted_culture = makua
+		accepted_culture = nguni
+		accepted_culture = bemba
+		accepted_culture = khoisan
+		accepted_culture = shona
+		accepted_culture = nyasa
+		accepted_culture = tswana_culture
+		accepted_culture = tsonga_culture
+
+		accepted_culture = lunda
+		accepted_culture = luba
+		accepted_culture = kongolese
+		accepted_culture = yaka
+		accepted_culture = kuba
+		accepted_culture = mbundu
+		accepted_culture = chokwe
+		accepted_culture = mbangala
+		accepted_culture = jukun
+		accepted_culture = sawabantu
+		accepted_culture = tegali_culture
+		accepted_culture = ovambo_culture
+		accepted_culture = kavango_culture
+
+		accepted_culture = rwandan
+		accepted_culture = ganda
+		accepted_culture = masaba
+
+		accepted_culture = madagasque
+		accepted_culture = takama
+		accepted_culture = bena
+		accepted_culture = bantu
+		accepted_culture = swahili
+
+		accepted_culture = somali
+		accepted_culture = harari
+		accepted_culture = afar
+		accepted_culture = oromo
+		accepted_culture = tigray
+		accepted_culture = sidamo
+		accepted_culture = amhara
+
+		accepted_culture = acholi
+		accepted_culture = nubian
+		accepted_culture = beja
+		accepted_culture = luo_culture
+		accepted_culture = berta_culture
+		accepted_culture = daju
+		accepted_culture = old_egyptian
+
+		accepted_culture = khoisan
+		accepted_culture = san_culture
+		accepted_culture = kama_culture
+		accepted_culture = tshu_khwe_culture
+		accepted_culture = kwadi_culture
+		accepted_culture = juu_culture
+	}
 }
 
 has_kobold_accepted_culture = {
-#culture_group = central_american
-#culture_group = aridoamerican
-#culture_group = maya
-#culture_group = otomanguean
-#culture_group = andean_group
-#culture_group = je_tupi
-#culture_group = je
-#culture_group = maranon
-#culture_group = chibchan
-#culture_group = mataco
-#culture_group = araucanian
-#culture_group = carribean
-#culture_group = eskaleut
-#culture_group = central_algonquian
-#culture_group = plains_algonquian
-#culture_group = eastern_algonquian
-#culture_group = iroquoian
-#culture_group = siouan
-#culture_group = caddoan
-#culture_group = muskogean
-#culture_group = sonoran
-#culture_group = apachean
-#culture_group = na_dene
-#culture_group = penutian
+	OR = {
+		accepted_culture = aztek
+		accepted_culture = totonac
+		accepted_culture = purepecha
+		accepted_culture = matlatzinca
+
+		accepted_culture = tecos
+		accepted_culture = tepic
+		accepted_culture = chichimecan
+		accepted_culture = guamares
+		accepted_culture = otomi
+		accepted_culture = yaqui
+
+		accepted_culture = yucatec
+		accepted_culture = putun
+		accepted_culture = mayan
+		accepted_culture = highland_mayan
+		accepted_culture = lacandon
+		accepted_culture = wastek
+		accepted_culture = chontales
+
+		accepted_culture = zapotek
+		accepted_culture = mixtec
+		accepted_culture = tlapanec
+
+		accepted_culture = inca
+		accepted_culture = aimara
+		accepted_culture = diaguita
+		accepted_culture = chimuan
+
+		accepted_culture = tupinamba
+		accepted_culture = guarani
+
+		accepted_culture = charruan
+		accepted_culture = ge
+
+		accepted_culture = jivaro
+		accepted_culture = chachapoyan
+		
+		accepted_culture = muisca
+		accepted_culture = cara
+		accepted_culture = miskito
+
+		accepted_culture = chacoan
+
+		accepted_culture = mapuche
+		accepted_culture = patagonian
+		accepted_culture = het
+		accepted_culture = huarpe
+
+		accepted_culture = arawak
+		accepted_culture = maipurean
+		accepted_culture = carib
+		accepted_culture = guajiro
+
+		accepted_culture = aleutian
+		accepted_culture = inuit
+		accepted_culture = yupik
+		accepted_culture = kalaallisut
+		accepted_culture = sugpiat
+
+		accepted_culture = shawnee
+		accepted_culture = illini
+		accepted_culture = miami
+		accepted_culture = anishinabe
+		accepted_culture = algonquin
+		accepted_culture = cree
+		accepted_culture = innu
+		accepted_culture = mesquakie
+
+		accepted_culture = cheyenne
+		accepted_culture = blackfoot
+		accepted_culture = arapaho
+		accepted_culture = plains_cree
+		accepted_culture = bungi
+		accepted_culture = ojicree
+
+		accepted_culture = delaware
+		accepted_culture = abenaki
+		accepted_culture = mikmaq
+		accepted_culture = maliseet
+		accepted_culture = mahican
+		accepted_culture = powhatan
+		accepted_culture = pequot
+		accepted_culture = massachusset
+		accepted_culture = beothuk
+
+		accepted_culture = iroquois
+		accepted_culture = cherokee
+		accepted_culture = huron
+		accepted_culture = laurentian
+		accepted_culture = tionontate
+		accepted_culture = susquehannock
+
+		accepted_culture = dakota
+		accepted_culture = nakota
+		accepted_culture = chiwere
+		accepted_culture = osage
+		accepted_culture = lakota
+		accepted_culture = crow_culture
+		accepted_culture = mandan_culture
+		accepted_culture = dhegihan
+		accepted_culture = catawba
+
+		accepted_culture = wichita
+		accepted_culture = caddo
+		accepted_culture = pawnee
+		accepted_culture = arikara
+
+		accepted_culture = creek
+		accepted_culture = choctaw
+		accepted_culture = chickasaw
+		accepted_culture = yuchi
+		accepted_culture = yoron
+		accepted_culture = catawba
+		accepted_culture = natchez
+		accepted_culture = yamasee
+
+		accepted_culture = pueblo
+		accepted_culture = piman
+		accepted_culture = shoshone
+		accepted_culture = kiowa
+		accepted_culture = takic
+		accepted_culture = tubatulabal
+		accepted_culture = mono_culture
+		accepted_culture = timbisha
+		accepted_culture = kawaiisu
+		accepted_culture = paiute_culture
+		accepted_culture = ute_culture
+
+		accepted_culture = apache
+		accepted_culture = mescalero
+		accepted_culture = lipan
+		accepted_culture = navajo
+		accepted_culture = pueblo
+		accepted_culture = kiowa
+		accepted_culture = keres
+		accepted_culture = hopi
+		accepted_culture = zuni
+
+		accepted_culture = chipewyan
+		accepted_culture = haida
+		accepted_culture = athabascan
+		accepted_culture = denaina
+		accepted_culture = kutchin
+		accepted_culture = koyukon
+		accepted_culture = tanana
+		accepted_culture = dakelh
+		accepted_culture = tutchone
+		accepted_culture = slavey
+		accepted_culture = sahtu
+		accepted_culture = clatskanie
+		accepted_culture = nahanni
+		accepted_culture = eyak
+		accepted_culture = tlingit
+
+		accepted_culture = salish
+		accepted_culture = chinook
+		accepted_culture = yokuts
+		accepted_culture = coast_penutian
+		accepted_culture = plateau_penutian
+		accepted_culture = tsimshianic
+		accepted_culture = maiduan
+		accepted_culture = utian
+		accepted_culture = wintuan
+		accepted_culture = klamath_culture
+		accepted_culture = cayuse
+		accepted_culture = siuslaw
+		accepted_culture = coosan
+		accepted_culture = nez_perce_culture
+	}
 }
 
 has_troll_accepted_culture = {
-#culture_group = turkish_g
-#culture_group = oghuz
-#culture_group = altaic
+	OR = {
+		accepted_culture = turkish
+		accepted_culture = turkmeni
+		accepted_culture = azerbaijani
+
+		accepted_culture = pecheneg
+		accepted_culture = cuman
+		accepted_culture = bolghar
+		accepted_culture = avar
+		accepted_culture = khazar
+		accepted_culture = karluk
+
+		accepted_culture = mongol
+		accepted_culture = chahar
+		accepted_culture = khalkha
+		accepted_culture = oirats
+		accepted_culture = uzbehk
+		accepted_culture = turkmeni
+		accepted_culture = uyghur
+		accepted_culture = khazak
+		accepted_culture = kirgiz
+		accepted_culture = khitan
+	}
 }
 
 has_harpy_accepted_culture = {
-#culture_group = iberian
+	OR = {
+		accepted_culture = castillian
+		accepted_culture = mexican
+		accepted_culture = platinean
+		accepted_culture = leonese
+		accepted_culture = aragonese
+		accepted_culture = catalan
+		accepted_culture = galician
+		accepted_culture = portugese
+		accepted_culture = brazilian
+		accepted_culture = basque
+		accepted_culture = iberic
+		accepted_culture = moreiros
+		accepted_culture = turdetanian
+	}
 }
 
 has_ruinborn_accepted_culture = {
-#culture_group = east_asian
+	OR = {
+		accepted_culture = vietnamese_new
+		accepted_culture = korean_new
+		accepted_culture = tibetan_new
+		accepted_culture = altaic_new
+		accepted_culture = manchu_new
+		accepted_culture = chihan
+		accepted_culture = cantonese
+		accepted_culture = jin
+		accepted_culture = wu
+		accepted_culture = chimin
+		accepted_culture = hakka
+		accepted_culture = gan
+		accepted_culture = xiang
+		accepted_culture = sichuanese
+		accepted_culture = jianghuai
+		accepted_culture = xibei
+		accepted_culture = hubei
+		accepted_culture = zhongyuan
+		accepted_culture = shandong_culture
+	}
 }
 
 has_goblin_accepted_culture = {
-#culture_group = turko_semitic
-#culture_group = maghrebi
+	OR = {
+		accepted_culture = al_misr_arabic
+		accepted_culture = al_suryah_arabic
+		accepted_culture = al_iraqiya_arabic
+		accepted_culture = gulf_arabic
+		accepted_culture = bedouin_arabic
+		accepted_culture = mahri_culture
+		accepted_culture = hejazi_culture
+		accepted_culture = omani_culture
+		accepted_culture = yemeni_culture
+		accepted_culture = mozarab
+		accepted_culture = frencharab
+		accepted_culture = nabatean
+		accepted_culture = moroccan
+		accepted_culture = tunisian
+		accepted_culture = fezzan_arabic
+		accepted_culture = syriac_culture
+		accepted_culture = algerian
+		accepted_culture = andalucian
+		accepted_culture = sicilian
+		accepted_culture = rumi
+
+		accepted_culture = moroccan
+		accepted_culture = tunisian
+		accepted_culture = algerian
+		accepted_culture = berber
+	}
 }
 
-has_gnollish_accepted_culture = {
-#culture_group = scandinavian
+has_gnollish_accepted_culture = { #this is true because scandinavians are furries and love raiding
+	OR = {
+		accepted_culture = swedish
+		accepted_culture = danish
+		accepted_culture = norwegian
+		accepted_culture = finnish
+		accepted_culture = sapmi
+		accepted_culture = karelian
+		accepted_culture = icelandic
+		accepted_culture = norse
+		accepted_culture = gotlander
+		accepted_culture = faroese
+		accepted_culture = holmgardi
+		accepted_culture = marisbaltician
+		accepted_culture = vinlandi
+		accepted_culture = serklandic
+	}
 }
 
 has_harimari_accepted_culture = {
-#culture_group = germanic
+	OR = {
+		accepted_culture = pommeranian
+		accepted_culture = prussian
+		accepted_culture = baltic_german
+		accepted_culture = lower_saxon
+		accepted_culture = hannoverian
+		accepted_culture = hessian
+		accepted_culture = saxon
+		accepted_culture = franconian
+		accepted_culture = swabian
+		accepted_culture = swiss
+		accepted_culture = bavarian
+		accepted_culture = austrian
+		accepted_culture = dutch
+		accepted_culture = flemish
+		accepted_culture = frisian
+		accepted_culture = german
+		accepted_culture = alsatian
+		accepted_culture = sudeten
+		accepted_culture = frankish
+		accepted_culture = suebi
+		accepted_culture = old_lombard
+		accepted_culture = visigothic
+		accepted_culture = gothic
+		accepted_culture = vandal
+		accepted_culture = afrikaner_culture
+		accepted_culture = transylvanian_saxons
+		accepted_culture = silesian_german
+		accepted_culture = markish
+	}
 }
 
 has_hobgoblin_accepted_culture = {
@@ -377,13 +734,46 @@ has_hobgoblin_accepted_culture = {
 }
 
 has_centaur_accepted_culture = {
-#culture_group = east_slavic
+	OR = {
+		accepted_culture = russian
+		accepted_culture = novgorodian
+		accepted_culture = ryazanian
+		accepted_culture = byelorussian
+		accepted_culture = ruthenian
+		accepted_culture = ilmenian
+		accepted_culture = volhynian
+		accepted_culture = severian
+		accepted_culture = kishinyov
+	}
 }
 
 has_ogre_accepted_culture = {
-#culture_group = west_slavic
-#culture_group = south_slavic
-#culture_group = finno_ugric
+	OR = {
+		accepted_culture = czech
+		accepted_culture = polish
+		accepted_culture = schlesian
+		accepted_culture = sorbian
+		accepted_culture = slovak
+		accepted_culture = lusat
+		accepted_culture = polabian_culture
+		accepted_culture = kashubian_culture
+
+		accepted_culture = croatian
+		accepted_culture = serbian
+		accepted_culture = slovene
+		accepted_culture = bosnian
+		accepted_culture = bulgarian
+		accepted_culture = albanian
+		accepted_culture = arbereshe
+
+		accepted_culture = uralic
+		accepted_culture = samoyed
+		accepted_culture = ostyaki
+		accepted_culture = ingrian
+		accepted_culture = komi
+		accepted_culture = mordvin
+		accepted_culture = meshchera
+	}
 }
 
 has_no_majority_trigger = {
