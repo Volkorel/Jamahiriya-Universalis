@@ -1701,6 +1701,12 @@ country_event = {
 			ORDER = 18
 		}
 	}
+	option = {
+		name = racial_pop_misc.3.ja
+		pop_menu_rank_effect = {
+			ORDER = 19
+		}
+	}
 	
 	#Close menu
 	option = {		

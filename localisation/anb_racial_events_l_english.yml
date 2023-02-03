@@ -103,7 +103,7 @@
  pop_menu_ogre_tt:0 "§YSlavics§!\n[Root.GetPopTooltipPOgrePrimary][Root.GetPopTooltipPOgreMilitary]Tolerance Level: [Root.GetOgreTolerance]\nCurrent Policy: [Root.GetPolicyOgre]\n------------------\nClick this button to manage your policy\ntowards this race."
  pop_menu_orcish_tt:0 "§YAfricans§!\n[Root.GetPopTooltipPOrcishPrimary][Root.GetPopTooltipPOrcishMilitary]Tolerance Level: [Root.GetOrcishTolerance]\nCurrent Policy: [Root.GetPolicyOrcish]\n------------------\nClick this button to manage your policy\ntowards this race."
  pop_menu_ruinborn_tt:0 "§YChinese§!\n[Root.GetPopTooltipPRuinbornPrimary][Root.GetPopTooltipPRuinbornMilitary]Tolerance Level: [Root.GetRuinbornTolerance]\nCurrent Policy: [Root.GetPolicyRuinborn]\n------------------\nClick this button to manage your policy\ntowards this race."
- pop_menu_troll_tt:0 "§YTurks§!\n[Root.GetPopTooltipPTrollPrimary][Root.GetPopTooltipPTrollMilitary]Tolerance Level: [Root.GetTrollTolerance]\nCurrent Policy: [Root.GetPolicyRuinborn]\n------------------\nClick this button to manage your policy\ntowards this race."
+ pop_menu_troll_tt:0 "§YTurks§!\n[Root.GetPopTooltipPTrollPrimary][Root.GetPopTooltipPTrollMilitary]Tolerance Level: [Root.GetTrollTolerance]\nCurrent Policy: [Root.GetPolicyTroll]\n------------------\nClick this button to manage your policy\ntowards this race."
  
  pop_menu_unavailable_tt:0 "This policy is unavailable because:"
  pop_menu_cannot_purge_forced_tt:0 "£no£ Less than §Y10 years§! since having been forced to stop Purging."
