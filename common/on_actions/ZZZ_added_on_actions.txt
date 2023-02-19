@@ -1,7 +1,7 @@
 #Check for reformed religions in a "HISTORICAL" start
 on_startup = {
 	########### VANILLA
-	PAP = { country_event = { id = jamahiriya_fraticelli.1 days = 1080 } } #better not to allow almost instant DOWs
+	PAP = { country_event = { id = jamahiriya_fraticelli.1 days = 4 } } #better not to allow almost instant DOWs
 	if = {
 		limit = {
 			current_age = age_of_discovery
@@ -31,7 +31,6 @@ on_startup = {
 	events = {
 		muslim_school_events.20 #Pick School
 		flavor_got.1 #Event for Gotland to select their mission tree
-		anbennar_setup.9
 	#flavor_fra.15000 #Make the French Revolution happen if starting in 1789
 	}
 	if = {
