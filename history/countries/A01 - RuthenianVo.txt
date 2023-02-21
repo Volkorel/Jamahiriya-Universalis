@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = ruthenian
+add_accepted_culture = polish
+capital = 2961
+1444.11.11= {
+	monarch = {
+		name = "Lev Yurevich"
+		dynasty = "Halychovich"
+		adm = 4
+		dip = 5
+		mil = 4
+		birth_date = 1421.1.1
+		religion = catholic
+		culture = ruthenian
+	}
+}

@@ -5,7 +5,7 @@
 
 owner = HUN
 controller = HUN 
-culture = hungarian
+culture = avar
 religion = catholic
 capital = "Egerszeg"
 trade_goods = naval_supplies

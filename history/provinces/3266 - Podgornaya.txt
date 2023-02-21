@@ -7,14 +7,13 @@ owner = UKR
 controller = UKR
 culture = mishary
 religion = shiite
-hre = no
 base_tax = 4 
 base_production = 4 
 trade_goods = grain  
 base_manpower = 2 
 capital = "Pokrovka"
 is_city = yes
-add_core = GOL
+add_core = X12
 add_core = UKR
 
 discovered_by = muslim

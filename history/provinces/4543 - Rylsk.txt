@@ -1,6 +1,7 @@
 owner = UKR
 controller = UKR
 add_core = UKR
+add_core = CHR
 capital = "Rylsk"
 is_city = yes
 culture = ryazanian

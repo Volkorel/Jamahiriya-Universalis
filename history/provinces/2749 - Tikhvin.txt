@@ -1,5 +1,6 @@
-owner = Z94
-controller = Z94
+owner = NOV
+controller = NOV
+add_core = NOV
 capital = "Tikhvin"
 is_city = yes
 culture = russian

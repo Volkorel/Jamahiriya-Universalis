@@ -3,7 +3,7 @@ errr = {
 	generic = no
 	ai = yes
 	potential = {
-		always = yes
+		tag = FRI
 	}
 
 	FRI_breton_connection = {
@@ -108,7 +108,7 @@ hm = {
 	generic = no
 	ai = yes
 	potential = {
-		always = yes
+		tag = FRI
 	}
 
 	FRI_unification_of_wfrisia = {
@@ -204,7 +204,7 @@ ddd = {
 	generic = no
 	ai = yes
 	potential = {
-		always = yes
+		tag = FRI
 	}
 
 	FRI_german_heritage = {
@@ -228,7 +228,7 @@ aaa = {
 	generic = no
 	ai = yes
 	potential = {
-		always = yes
+		tag = FRI
 	}
 
 	FRI_the_church_of_von_hoya = {

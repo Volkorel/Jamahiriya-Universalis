@@ -4,7 +4,7 @@
 owner = UKR
 controller = UKR
 add_core = UKR
-add_core = PLT
+add_core = SLT
 culture = byelorussian
 religion = norse_pagan_reformed
 capital = "Svisloch"

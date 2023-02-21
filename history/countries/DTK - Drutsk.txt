@@ -3,8 +3,5 @@ add_government_reform = principality
 government_rank = 1
 technology_group = eastern
 primary_culture = byelorussian
-religion = orthodox
+religion = apostolic
 capital = 7222
-
-
-#History, currently empty.

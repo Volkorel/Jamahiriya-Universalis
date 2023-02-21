@@ -1,7 +1,6 @@
 #Check for reformed religions in a "HISTORICAL" start
 on_startup = {
 	########### VANILLA
-	PAP = { country_event = { id = jamahiriya_fraticelli.1 days = 4 } } #better not to allow almost instant DOWs
 	if = {
 		limit = {
 			current_age = age_of_discovery
@@ -41,7 +40,18 @@ on_startup = {
 		remove_country_modifier = tur_janissary
 	}
 	initialize_schools_effect = yes #This is only used here but is used for readability of on_action file.
-
+	if = {
+		limit = {
+			tag = PAP
+		}
+		PAP = { country_event = { id = jamahiriya_fraticelli.1 days = 1800 } }
+	}
+	if = {
+		limit = {
+			tag = UKR
+		}
+		UKR = { country_event = { id = jamahiriya_rusland.1 days = 1080 } }
+	}
 	if = {
 		limit = {
 			NOT = { has_country_flag = new_flavour_bav_13_has_been_triggered }

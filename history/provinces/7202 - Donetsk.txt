@@ -4,7 +4,7 @@
 owner = Y86
 controller = Y86
 add_core = Y86
-culture = avar
+culture = hungarian
 religion = apostolic
 capital = "Aleksandrovka"			#Nothing here 'til the late 18th century... so.... getting creative. Modern Donetsk
 base_tax = 1

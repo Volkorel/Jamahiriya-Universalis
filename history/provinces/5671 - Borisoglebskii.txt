@@ -4,6 +4,7 @@
 owner = UKR
 controller = UKR
 add_core = UKR
+add_core = X12
 culture = mishary
 religion = shiite
 capital = "Borisoglebsk"
@@ -13,7 +14,6 @@ base_tax = 4
 base_production = 4 
 base_manpower = 2 
 is_city = yes
-
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = western

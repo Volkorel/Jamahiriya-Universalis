@@ -4,7 +4,7 @@
 owner = ZAZ
 controller = ZAZ
 add_core = ZAZ
-culture = avar
+culture = hungarian
 religion = apostolic
 capital = "Kyzyl-Yar"
 base_tax = 1 

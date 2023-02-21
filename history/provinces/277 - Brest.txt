@@ -8,7 +8,6 @@ trade_goods = wool
 base_tax = 4
 base_production = 1
 base_manpower = 1
-add_core = KIE
 add_core = Z67
 discovered_by = MGE
 discovered_by = eastern

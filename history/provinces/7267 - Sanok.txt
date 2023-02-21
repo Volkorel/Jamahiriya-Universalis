@@ -5,6 +5,7 @@ owner = UKR
 controller = UKR
 add_core = UKR
 add_core = VOL
+add_core = A01
 culture = polish
 religion = catholic
 capital = "Sanok"

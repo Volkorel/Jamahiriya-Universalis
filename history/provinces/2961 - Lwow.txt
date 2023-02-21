@@ -12,6 +12,7 @@ extra_cost = 8
 center_of_trade = 1
 add_core = UKR
 add_core = VOL
+add_core = A01
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

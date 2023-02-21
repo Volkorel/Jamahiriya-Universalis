@@ -3,7 +3,7 @@ add_government_reform = steppe_horde
 government_rank = 1
 technology_group = muslim
 religion = apostolic
-primary_culture = khazar
+primary_culture = crimean
 capital = 284
 1444.11.11= {
 	monarch = {
@@ -14,7 +14,7 @@ capital = 284
 		mil = 3
 		birth_date = 1412.11.12
 		religion = jewish
-		culture = khazar
+		culture = crimean
 	}
 	add_ruler_personality = righteous_personality
 	add_ruler_personality = tactical_genius_personality

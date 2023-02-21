@@ -5,6 +5,7 @@ owner = UKR
 controller = UKR
 add_core = UKR
 add_core = VOL
+add_core = A01
 culture = ruthenian
 religion = catholic
 capital = "Kolomea"

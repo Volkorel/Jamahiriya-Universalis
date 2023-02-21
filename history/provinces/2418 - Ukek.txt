@@ -1,5 +1,5 @@
-owner = Y13
-controller = Y13
+owner = X12
+controller = X12
 capital = "Ukek"
 is_city = yes
 culture = pecheneg
@@ -8,6 +8,7 @@ trade_goods = iron
 base_tax = 1
 base_production = 1
 base_manpower = 1
+add_core = X12
 add_core = Y13
 discovered_by = MGE
 discovered_by = eastern

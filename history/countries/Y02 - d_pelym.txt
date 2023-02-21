@@ -3,9 +3,8 @@ add_government_reform = ottoman_government
 government_rank = 1
 technology_group = muslim
 religion = shiite
-primary_culture = tajik
+primary_culture = uralic
 capital = 1078
-add_accepted_culture = persian
 1444.11.11= {
 	monarch = {
 		name = "(Regency Council)"
@@ -15,7 +14,7 @@ add_accepted_culture = persian
 		birth_date = 1.1.1
 		regent = yes
 		religion = shiite
-		culture = tajik
+		culture = uralic
 	}
 	queen = {
 		name = "Farnaz"
@@ -42,7 +41,7 @@ add_accepted_culture = persian
 		death_date = 1494.1.18
 		claim = 89
 		religion = shiite
-		culture = tajik
+		culture = uralic
 	}
 }
 1444.11.11= {

@@ -3,7 +3,7 @@
 
 owner = ZAZ
 controller = ZAZ
-culture = avar
+culture = hungarian
 religion = apostolic
 hre = no
 base_tax = 1 

@@ -1,0 +1,148 @@
+namespace = jamahiriya_rusland
+
+# Start Event
+country_event = {
+	id = jamahiriya_rusland.1
+	title = jamahiriya_rusland.1.t
+	desc = jamahiriya_rusland.1.d
+	picture = RELIGIOUS_WARS_eventPicture
+	major = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = jamahiriya_rusland_revolution
+		#Ruthenia
+		7273 = { cede_province = A01 }
+		261 = { cede_province = A01 }
+		4541 = { cede_province = A01 }
+		7267 = { cede_province = A01 }
+		2424 = { cede_province = A01 }
+		7270 = { cede_province = A01 }
+		2961 = { cede_province = A01 }
+		7269 = { cede_province = A01 }
+		7271 = { cede_province = A01 }
+		4539 = { cede_province = A01 }
+		7268 = { cede_province = A01 }
+		1940 = { cede_province = A01 }
+		HUN = { country_event = { id = jamahiriya_rusland.2 days = 10 } }
+		#Smolensk
+		5685 = { cede_province = SMO }
+		293 = { cede_province = SMO }
+		5684 = { cede_province = SMO }
+		7880 = { cede_province = SMO }
+		7881 = { cede_province = SMO }
+		3271 = { cede_province = SMO }
+		1752 = { cede_province = SMO }
+		4245 = { cede_province = SMO }
+		3301 = { cede_province = SMO }
+		NOV = { country_event = { id = jamahiriya_rusland.3 days = 10 } } #invade Smolensk?
+		MOS = { country_event = { id = jamahiriya_rusland.4 days = 15 } } #ally with Apostolic Smolensk?
+		#Khazaria
+		467 = { cede_province = X12 }
+		302 = { cede_province = X12 }
+		5671 = { cede_province = X12 }
+		3266 = { cede_province = X12 }
+		299 = { cede_province = X12 }
+		2408 = { cede_province = X12 }
+		#Pronsk
+		5669 = { cede_province = PRS }
+		5668 = { cede_province = PRS }
+		4255 = { cede_province = PRS }
+		5679 = { cede_province = PRS }
+		#Drutsk #ADD JOMSVIKING EVENT
+		4246 = { cede_province = DTK }
+		7238 = { cede_province = DTK }
+		7882 = { cede_province = DTK }
+		3270 = { cede_province = DTK }
+		4115 = { cede_province = DTK }
+		7236 = { cede_province = DTK }
+		7235 = { cede_province = DTK }
+		7234 = { cede_province = DTK }
+		7240 = { cede_province = DTK }
+		7227 = { cede_province = DTK }
+		7229 = { cede_province = DTK }
+		292 = { cede_province = DTK }
+		#Slutsk
+		7245 = { cede_province = SLT }
+		1941 = { cede_province = SLT }
+		7241 = { cede_province = SLT }
+		7237 = { cede_province = SLT }
+		7233 = { cede_province = SLT }
+		7232 = { cede_province = SLT }
+		4545 = { cede_province = SLT }
+		4544 = { cede_province = SLT }
+		7231 = { cede_province = SLT }
+		#East Ruthenia > Gardtariki
+		7244 = { cede_province = Z67 }
+		7207 = { cede_province = Z67 }
+		#Chernikov
+		7256 = { cede_province = CHR }
+		2407 = { cede_province = CHR }
+		7250 = { cede_province = CHR }
+		289 = { cede_province = CHR }
+		7248 = { cede_province = CHR }
+		3246 = { cede_province = CHR }
+		4542 = { cede_province = CHR }
+		7255 = { cede_province = CHR }
+		7252 = { cede_province = CHR }
+		3267 = { cede_province = CHR }
+		298 = { cede_province = CHR }
+		4543 = { cede_province = CHR }
+		5670 = { cede_province = CHR }
+		1945 = { cede_province = CHR }
+		7249 = { cede_province = CHR }
+	}
+	option = {
+		name = jamahiriya_rusland.1.a
+	}
+}
+
+country_event = {
+	id = jamahiriya_rusland.2
+	title = jamahiriya_rusland.2.t
+	desc = jamahiriya_rusland.2.d
+	picture = RELIGIOUS_WARS_eventPicture
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_rusland.2.a
+		create_guarantee = A01
+		create_alliance = A01
+	}
+	option = {
+		name = jamahiriya_rusland.2.b
+	}
+}
+
+country_event = {
+	id = jamahiriya_rusland.3
+	title = jamahiriya_rusland.3.t
+	desc = jamahiriya_rusland.3.d
+	picture = RELIGIOUS_WARS_eventPicture
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_rusland.3.a
+		declare_war = SMO
+	}
+	option = {
+		name = jamahiriya_rusland.3.b
+	}
+}
+
+country_event = {
+	id = jamahiriya_rusland.4
+	title = jamahiriya_rusland.4.t
+	desc = jamahiriya_rusland.4.d
+	picture = RELIGIOUS_WARS_eventPicture
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_rusland.4.a
+		create_guarantee = SMO
+		create_alliance = SMO
+		join_all_defensive_wars_of = SMO
+	}
+}

@@ -5,7 +5,7 @@
 
 owner = UKR
 controller = UKR
-culture = english
+culture = ryazanian
 religion = catholic
 hre = no
 base_tax = 1 
