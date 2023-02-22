@@ -15,7 +15,6 @@ base_manpower = 2
 capital = "Yelets"
 is_city = yes
 add_core = YLT
-add_core = GOL
 add_core = UKR
 
 discovered_by = eastern

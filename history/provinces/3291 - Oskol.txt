@@ -14,7 +14,6 @@ trade_goods = iron
 base_manpower = 4 
 capital = "Stary Oskol"
 is_city = yes
-add_core = GOL
 add_core = YLT
 add_core = UKR
 

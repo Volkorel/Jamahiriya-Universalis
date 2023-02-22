@@ -4,6 +4,7 @@
 owner = UKR
 controller = UKR
 add_core = UKR
+add_core = KIE
 culture = ruthenian
 religion = catholic
 capital = "Zvyahel"

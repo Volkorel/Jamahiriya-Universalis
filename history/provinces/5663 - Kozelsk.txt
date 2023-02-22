@@ -9,6 +9,7 @@ owner = UKR
 controller = UKR
 add_core = UKR
 add_core = VTN
+add_core = MSL
 add_core = SPK
 culture = russian
 religion = apostolic

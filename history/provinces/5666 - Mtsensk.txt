@@ -4,6 +4,7 @@
 owner = UKR
 controller = UKR
 add_core = UKR
+add_core = OKA
 culture = ryazanian
 religion = apostolic
 capital = "Mtsensk"

@@ -4,6 +4,7 @@
 owner = UKR
 controller = UKR
 add_core = UKR
+add_core = KIE
 culture = ruthenian
 religion = catholic
 capital = "Olevsk"			#first mentioned in late 15th century, though probably founded around the 1444 start date. A better option would be lovely.

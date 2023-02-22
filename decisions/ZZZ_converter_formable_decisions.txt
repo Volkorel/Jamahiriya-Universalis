@@ -308,6 +308,303 @@ country_decisions = {
 			factor = 1
 		}
 	}
+	
+	restore_rusland_order = {
+		major = yes
+		potential = {
+			was_never_end_game_tag_trigger = yes
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_rusland_flag }
+			NOT = { exists = UKR }
+			NOT = { tag = JOM }
+			NOT = { tag = NOV }
+			NOT = { tag = MOS }
+			NOT = { tag = RUS }
+			AND = { #New Cultures
+				culture_group = east_slavic
+				religion = catholic
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 280 # Kiev
+				province_id = 4545	# Sluck
+				province_id = 1944 #Cherkasy
+				province_id = 7239 # Bila Tserka
+				province_id = 7259 # Korsun
+				province_id = 3242 # Buhogard
+				province_id = 7256 # Kremenchuk
+				province_id = 2407 # Pereyaslav
+				province_id = 4544 # Bobrujsk
+				province_id = 293 # Smolensk
+				province_id = 3301 # Dorogobuzh
+				province_id = 2408 # Yelets
+				province_id = 299 # Voronezh
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			owns = 280 # Kiev
+			owns = 4545	# Sluck
+			owns = 1944
+			owns = 7239
+			owns = 7259
+			owns = 3242
+			owns = 7256
+			owns = 2407
+			owns = 4544
+			owns = 293
+			owns = 3301
+			owns = 2408
+			owns = 299
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			280 = {
+				move_capital_effect = yes
+			}
+			change_tag = UKR
+			swap_non_generic_missions = yes
+			every_province = {
+				limit = {
+					OR = {
+						area = lower_dnieper_area
+						area = pryazovia_area
+						area = zaporizhia_area
+						area = yedisan_area
+						area = podolia_volhynia_area
+						area = west_dniepr_area
+						area = east_dniepr_area
+						area = pripyat_area
+						area = sloboda_ukraine_area
+						area = chernigov_area
+						area = podlasie_area
+						area = volhynia_area
+						area = eastern_volhynia_area
+						area = novogrudok_area
+						area = bryansk_area
+						area = middle_don_area
+						area = galich_area
+						area = oka_area
+						area = white_ruthenia_area
+						area = vitebsk_area
+						area = minsk_area
+						area = trakai_area
+						province_id = 280 # Kiev
+						province_id = 4545	# Sluck
+						province_id = 1944 #Cherkasy
+						province_id = 7239 # Bila Tserka
+						province_id = 7259 # Korsun
+						province_id = 3242 # Buhogard
+						province_id = 7256 # Kremenchuk
+						province_id = 2407 # Pereyaslav
+						province_id = 4544 # Bobrujsk
+						province_id = 293 # Smolensk
+						province_id = 3301 # Dorogobuzh
+						province_id = 2408 # Yelets
+						province_id = 299 # Voronezh
+					}
+					NOT = { is_core = UKR }
+				}
+				add_permanent_claim = UKR
+			}
+			random_owned_province = {
+				limit = { culture = ruthenian }
+				add_base_tax = 1
+			}
+			random_owned_province = {
+				limit = { culture = ruthenian }
+				add_base_tax = 1
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			UKR = {
+				add_core = 280 #Kyiv
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_rusland_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_hungary = {
+		major = yes
+		potential = {
+			was_never_end_game_tag_trigger = yes
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_magyarok_flag }
+			NOT = { exists = A02 }
+			NOT = { tag = X12 }
+			NOT = { tag = HUN }
+			NOT = { tag = SHY }
+			culture = hungarian
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 7279
+				province_id = 282
+				province_id = 7197
+				province_id = 7195
+				province_id = 2406
+				province_id = 7194
+				province_id = 7199
+				province_id = 7198
+				province_id = 3243
+				province_id = 7196
+				province_id = 7251
+				province_id = 1974
+				province_id = 7200
+				province_id = 283
+				province_id = 2412
+				province_id = 7201
+				province_id = 7202
+				province_id = 2411
+				province_id = 7257
+				province_id = 290
+				province_id = 291
+				province_id = 3247
+				province_id = 7258
+				province_id = 7205
+				province_id = 3302
+				province_id = 284
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			owns = 7279
+			owns = 282
+			owns = 7197
+			owns = 7195
+			owns = 2406
+			owns = 7194
+			owns = 7199
+			owns = 7198
+			owns = 3243
+			owns = 7196
+			owns = 7251
+			owns = 1974
+			owns = 7200
+			owns = 283
+			owns = 2412
+			owns = 7201
+			owns = 7202
+			owns = 2411
+			owns = 7257
+			owns = 290
+			owns = 291
+			owns = 3247
+			owns = 7258
+			owns = 7205
+			owns = 3302
+			owns = 284
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+		}
+		effect = {
+			283 = {
+				move_capital_effect = yes
+			}
+			change_tag = A02
+			swap_non_generic_missions = yes
+			every_province = {
+				limit = {
+					OR = {
+						area = pryazovia_area
+						area = lower_dnieper_area
+						area = zaporizhia_area
+						area = yedisan_area
+						area = sloboda_ukraine_area
+						province_id = 7279
+						province_id = 282
+						province_id = 7197
+						province_id = 7195
+						province_id = 2406
+						province_id = 7194
+						province_id = 7199
+						province_id = 7198
+						province_id = 3243
+						province_id = 7196
+						province_id = 7251
+						province_id = 1974
+						province_id = 7200
+						province_id = 283
+						province_id = 2412
+						province_id = 7201
+						province_id = 7202
+						province_id = 2411
+						province_id = 7257
+						province_id = 290
+						province_id = 291
+						province_id = 3247
+						province_id = 7258
+						province_id = 7205
+						province_id = 3302
+						province_id = 284
+					}
+					NOT = { is_core = A02 }
+				}
+				add_permanent_claim = A02
+			}
+			random_owned_province = {
+				limit = { culture = hungarian }
+				add_base_tax = 1
+			}
+			random_owned_province = {
+				limit = { culture = hungarian }
+				add_base_tax = 1
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			A02 = {
+				add_core = 283
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_magyarok_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	institute_prussian_monarchy_EXTRA = { #New Religions
 		major = yes

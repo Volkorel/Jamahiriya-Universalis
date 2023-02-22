@@ -1258,3 +1258,4 @@ ZZZ = "countries/Zazzau.txt"
 #Formables#
 A00 = "countries/Keninkryk.txt"
 A01 = "countries/RuthenianVo.txt"
+A02 = "countries/Magyarok.txt"

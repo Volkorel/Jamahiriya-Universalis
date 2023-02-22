@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = elective_monarchy
+government_rank = 3
+technology_group = nomad_group
+primary_culture = hungarian
+capital = 283
+add_accepted_culture = mishary
+add_accepted_culture = crimean
+add_accepted_culture = khazar

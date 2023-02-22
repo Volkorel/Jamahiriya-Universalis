@@ -93,6 +93,39 @@ country_event = {
 		5670 = { cede_province = CHR }
 		1945 = { cede_province = CHR }
 		7249 = { cede_province = CHR }
+		#Yelets
+		3291 = { cede_province = YLT }
+		3268 = { cede_province = YLT }
+		#Odoyev
+		300 = { cede_province = OKA }
+		5667 = { cede_province = OKA }
+		4116 = { cede_province = OKA }
+		5666 = { cede_province = OKA }
+		296 = { cede_province = OKA }
+		#Ryazan
+		297 = { cede_province = RYA }
+		4244 = { cede_province = RYA }
+		#Mosalsk
+		5662 = { cede_province = MSL }
+		5663 = { cede_province = MSL }
+		5664 = { cede_province = MSL }
+		5680 = { cede_province = MSL }
+		#Hungary/Tokmak
+		7198 = { cede_province = ZAZ }
+		7196 = { cede_province = ZAZ }
+		7251 = { cede_province = ZAZ }
+		7199 = { cede_province = ZAZ }
+		#Ukraine
+		3242 = { cede_province = KIE }
+		7259 = { cede_province = KIE }
+		1944 = { cede_province = KIE }
+		280 = { cede_province = KIE }
+		7239 = { cede_province = KIE }
+		7242 = { cede_province = KIE }
+		1942 = { cede_province = KIE }
+		4247 = { cede_province = KIE }
+		7228 = { cede_province = KIE }
+		7246 = { cede_province = KIE }
 	}
 	option = {
 		name = jamahiriya_rusland.1.a

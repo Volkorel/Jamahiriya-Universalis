@@ -12,6 +12,7 @@ base_manpower = 2
 extra_cost = 16
 center_of_trade = 2
 add_core = UKR
+add_core = KIE
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian
