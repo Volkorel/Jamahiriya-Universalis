@@ -3,7 +3,7 @@ add_government_reform = autocracy_reform
 government_rank = 1
 technology_group = eastern
 religion = apostolic
-primary_culture = armenian
+primary_culture = georgian
 capital = 1856
 1444.11.11= {
 	monarch = {
@@ -14,7 +14,7 @@ capital = 1856
 		mil = 2
 		birth_date = 1389.4.25
 		religion = apostolic
-		culture = armenian
+		culture = georgian
 	}
 	add_ruler_personality = lawgiver_personality
 	add_ruler_personality = zealot_personality
@@ -29,7 +29,7 @@ capital = 1856
 		death_date = 1484.12.17
 		female = yes
 		religion = apostolic
-		culture = khorasani
+		culture = georgian
 	}
 	add_queen_personality = silver_tongue_personality
 	add_queen_personality = well_connected_personality
@@ -44,7 +44,7 @@ capital = 1856
 		death_date = 1487.2.24
 		claim = 89
 		religion = apostolic
-		culture = armenian
+		culture = georgian
 	}
 	add_heir_personality = intricate_web_weaver_personality
 	add_heir_personality = secretive_personality

@@ -1,5 +1,5 @@
-owner = ARL
-controller = ARL
+owner = BHT
+controller = BHT
 capital = "Khoy"
 is_city = yes
 culture = kurdish
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 6
 base_manpower = 4
 add_core = ARD
-add_core = ARL
+add_core = BHT
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

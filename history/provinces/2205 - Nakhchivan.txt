@@ -1,5 +1,5 @@
-owner = Y73
-controller = Y73
+owner = Y31
+controller = Y31
 capital = "Nakhchevani"
 is_city = yes
 culture = armenian
@@ -8,7 +8,7 @@ trade_goods = wine
 base_tax = 7
 base_production = 1
 base_manpower = 3
-add_core = Y73
+add_core = Y31
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

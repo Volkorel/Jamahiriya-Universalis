@@ -5,11 +5,11 @@
 #Core Details
 capital = "Elbistan"
 is_city = yes
-owner = DUL
-controller = DUL
+owner = CAP
+controller = CAP
 
 #Demographics
-culture = armenian
+culture = cappadocian
 religion = apostolic
 
 #Development and Trade
@@ -20,7 +20,7 @@ trade_goods = bt_trade_good_fruit	#Velius: Arabic and Turkish names for the area
 latent_trade_goods = { coal }	#Elbistan Coalfield
 
 #Cores and Occupation (Alphabetical after current)
-add_core = DUL
+add_core = CAP
 
 #Other Political
 hre = no

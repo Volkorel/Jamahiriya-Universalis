@@ -5,8 +5,8 @@
 #Core Details
 capital = "Sarkisla"
 is_city = yes
-owner = Z90
-controller = Z90
+owner = CAP
+controller = CAP
 
 #Demographics
 culture = cappadocian
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = cloth			#(JP) Sarkisla Rugs
 
 #Cores and Occupation (Alphabetical after current)
-add_core = Z90
+add_core = CAP
 #Other Political
 hre = no
 
