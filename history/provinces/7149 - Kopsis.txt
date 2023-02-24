@@ -1,10 +1,10 @@
  
 #BT Balkans reoverhaul
-owner = BUL
-controller = BUL
-add_core = BUL
+owner = Y40
+controller = Y40
+add_core = Y40
 add_core = PHP
-culture = bulgarian
+culture = greek
 religion = catholic
 capital = "Kopsis"
 base_tax = 1

@@ -3,7 +3,7 @@ add_government_reform = ottoman_government
 government_rank = 1
 technology_group = muslim
 religion = shiite
-primary_culture = khorasani
+primary_culture = kurdish
 capital = 415
 add_accepted_culture = al_iraqiya_arabic
 1444.11.11= {
@@ -15,7 +15,7 @@ add_accepted_culture = al_iraqiya_arabic
 		mil = 4
 		birth_date = 1410.1.26
 		religion = shiite
-		culture = khorasani
+		culture = kurdish
 	}
 	add_ruler_personality = intricate_web_weaver_personality
 	add_ruler_personality = secretive_personality
@@ -44,7 +44,7 @@ add_accepted_culture = al_iraqiya_arabic
 		death_date = 1506.12.19
 		claim = 89
 		religion = shiite
-		culture = khorasani
+		culture = kurdish
 	}
 	add_heir_personality = charismatic_negotiator_personality
 	add_heir_personality = zealot_personality

@@ -5,3 +5,12 @@ technology_group = eastern
 primary_culture = byelorussian
 religion = norse_pagan_reformed
 capital = 7222
+1444.1.1= {
+	monarch = {
+		name = "Aingelf"
+		dynasty = "Sigurðarson"
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+}

@@ -1,5 +1,5 @@
-owner = Y59
-controller = Y59
+owner = AFG
+controller = AFG
 capital = "Kandahar"
 is_city = yes
 culture = afghani
@@ -8,7 +8,7 @@ trade_goods = cotton
 base_tax = 4
 base_production = 3
 base_manpower = 3
-add_core = Y59
+add_core = AFG
 add_core = SIS
 discovered_by = MGE
 discovered_by = eastern

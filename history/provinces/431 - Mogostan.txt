@@ -1,5 +1,5 @@
-owner = FRS
-controller = FRS
+owner = KRM
+controller = KRM
 capital = "Gamrun"
 is_city = yes
 culture = persian
@@ -10,7 +10,7 @@ base_production = 7
 base_manpower = 3
 extra_cost = 8
 center_of_trade = 1
-add_core = FRS
+add_core = KRM
 add_core = ORM
 add_core = PER
 discovered_by = MGE

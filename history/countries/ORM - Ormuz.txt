@@ -8,14 +8,14 @@ capital = 2999
 fixed_capital = 2999
 1444.11.11= {
 	monarch = {
-		name = "Nawid Sájí"
+		name = "Hussayn VI"
 		dynasty = "Yahmadi"
 		adm = 4
 		dip = 4
 		mil = 6
 		birth_date = 1425.3.5
 		religion = shiite
-		culture = luri
+		culture = gulf_arabic
 	}
 	add_ruler_personality = intricate_web_weaver_personality
 	add_ruler_personality = secretive_personality

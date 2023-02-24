@@ -1,5 +1,5 @@
-owner = Z78
-controller = Z78
+owner = LRI
+controller = LRI
 capital = "Ilam"
 is_city = yes
 culture = luri

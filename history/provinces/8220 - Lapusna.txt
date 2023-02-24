@@ -10,7 +10,7 @@ owner = Y80
 controller = Y80
 
 #Demographics
-culture = romanian
+culture = kishinyov
 religion = catholic
 
 #Development and Trade

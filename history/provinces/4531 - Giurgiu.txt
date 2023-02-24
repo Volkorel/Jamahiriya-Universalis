@@ -1,6 +1,6 @@
-owner = BUL
-controller = BUL
-add_core = BUL
+owner = WAL
+controller = WAL
+add_core = WAL
 capital = "Giurgiu"
 is_city = yes
 culture = romanian

@@ -956,6 +956,24 @@ east_slavic = {
 				Nikolayevich Ostrovskiy Pavlov Putyatin Romanov Rozhestvenskiy Skobelev
 				Shuvalov Surkov Tukhachevskiy Yegorov Yudenich Vorontsov Voroshilov Zavoyko }
 	}
+	bolghar = {
+		primary = BUL
+		male_names = {
+			Almish Alzek Anzi Apskhih Araslan Asparukh Balamber Bars Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Boyan Bulger Buzan Chepa Chinialush Dengizikh
+			Dizeng Dometa Dristar Drong Dukum Ellak Elemag Ernakh Eskhakh Goleda Gostun Guar Hudbad Iani Irnek Isbul Islivan Isperikh Ispor Kï¿½laï¿½ Kano Karan Karaton
+			Kardam Kharaton Khinialon Khudbard Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kurt Kutrigur Kuvrat Labertam Magotin Malamir Mugel Odolgan Okhsi
+			Okhsun Okors Omurtag Onegavon Organ Organa Ornag Oshi Ostro Pagan Pakhtiyar Pavï¿½l Praksa Rassate Rugila Sabin Sandil Sandilkh Sarkhan Sartï¿½ï¿½ Savin Sevar Shilki
+			Sondoke Tï¿½htaman Tarasiy Taridin Tatra Telec Telerig Tervel Timï¿½r Timï¿½reï¿½
+			Timï¿½rpï¿½lat Tingiz Tiradin Tokhtaman Toktu Tsog Tsul Tuk Umor Uturgur Vakrim Venda
+			Vetam Vinekh Yani
+			Yavantey Yenï¿½epi Yerneslu Yeï¿½tirek Zabergan Zenti Tukiy Aydar Irkhan Batir
+		}
+		dynasty_names = {
+			Vokil Altsikur Kashu Barskhan Barsil Balanjar Vokil Erdevulu Silkid Bilar Sabir Esegel Izgil Askil
+			Bersula Urazgilid Kalmagorid Klyuch Ureï¿½ Mayna Yasach Utka Bezd Kurnal Mesha Kaban
+			Oshnya Tolkish Izgar Sulcha Karmal
+		}
+	}
 	volhynian = {
 		primary = VOL
 		dynasty_names = { Aleksseyev Antonov Azarov Badanov Brusilov Budonnyy Chibisov Denikin
@@ -1757,22 +1775,24 @@ oghuz = {
 	cuman = {
 		primary = GLH
 	}
-	bolghar = {
-		primary = BUL
-		male_names = {
-			Almish Alzek Anzi Apskhih Araslan Asparukh Balamber Bars Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Boyan Bulger Buzan Chepa Chinialush Dengizikh
-			Dizeng Dometa Dristar Drong Dukum Ellak Elemag Ernakh Eskhakh Goleda Gostun Guar Hudbad Iani Irnek Isbul Islivan Isperikh Ispor Kï¿½laï¿½ Kano Karan Karaton
-			Kardam Kharaton Khinialon Khudbard Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kurt Kutrigur Kuvrat Labertam Magotin Malamir Mugel Odolgan Okhsi
-			Okhsun Okors Omurtag Onegavon Organ Organa Ornag Oshi Ostro Pagan Pakhtiyar Pavï¿½l Praksa Rassate Rugila Sabin Sandil Sandilkh Sarkhan Sartï¿½ï¿½ Savin Sevar Shilki
-			Sondoke Tï¿½htaman Tarasiy Taridin Tatra Telec Telerig Tervel Timï¿½r Timï¿½reï¿½
-			Timï¿½rpï¿½lat Tingiz Tiradin Tokhtaman Toktu Tsog Tsul Tuk Umor Uturgur Vakrim Venda
-			Vetam Vinekh Yani
-			Yavantey Yenï¿½epi Yerneslu Yeï¿½tirek Zabergan Zenti Tukiy Aydar Irkhan Batir
-		}
+	astrakhani = {
+		primary = AST
 		dynasty_names = {
-			Vokil Altsikur Kashu Barskhan Barsil Balanjar Vokil Erdevulu Silkid Bilar Sabir Esegel Izgil Askil
-			Bersula Urazgilid Kalmagorid Klyuch Ureï¿½ Mayna Yasach Utka Bezd Kurnal Mesha Kaban
-			Oshnya Tolkish Izgar Sulcha Karmal
+			"Qara Chinua" "Delger Qyugun" "Arigh Gal" "Koke Erdene"	"Suren Unegen" "Tegus Enq" Qadandei Burilgigene Arighteni
+			Yekecher Surenqai Qorchigge
+		}
+		male_names = {
+			"Abdul-Karim" "Abdul-Latif" "Abdul-Rahman" "Abdullah" "Agalak" "Ahmad" "Ak K�bek" "Ali Beg" "Arab Shah" 
+			"Arslan" "Baraq" "Bek Bulat" "Bolaq" "Cherkes" "Chokra" "Daniyal" "Darwish" "Darwish Ali" "Devlet Berdi" 
+			"Edigu" "Hajji Muhammad" "Husayn" "Ibak" "Ibrahim" "Ilham" "Ishim" "Jabbar Berdi" "Jalal al-Din" "Jan Ali" 
+			"Janay" "Jani Beg" "Jumaduq" "Karim Berdi" "Kebek" "Khalil" "Khaqan Beg" "K�ch�k Muhammad" "Kuchum" 
+			"Mahmud" "Mahmudak" "Mamai" "Mamuk" "Mansur" "Muhammad" "Murtaza" "Mustafa Ali" "Nogai" "Pulad" "Pulad Timur" "Qadir Berdi" "Qasim" "Sain Bulat" "Satilghan" "Sayid Ahmad" "Sayid Burhan" "Sayid Mahmud" 
+			"Shadi Beg" "Shah Ali" "Shaikh Ahmad" "Shaikh Awliar" "Shaikh Haidar" "Shiban" "Taibugha" "Timur" 
+			"Timur Qutlugh" "Toqtamish" "Ulugh Muhammad" "Urus" "Urus Muhammad" "Yadigar Muhammad" "Yamghurchi"
+		}
+		female_names = {
+			"Fatima" "Ibtisam" "Jalila" "Janan" "Layla" "Sakina" "Sharifa" Ibtisam Jalila Janan Layla Sakina Sharifa 
+			Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima
 		}
 	}
 	khazar = {

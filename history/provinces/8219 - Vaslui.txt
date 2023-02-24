@@ -10,7 +10,7 @@ owner = MOL
 controller = MOL
 
 #Demographics
-culture = romanian
+culture = kishinyov
 religion = apostolic
 
 #Development and Trade

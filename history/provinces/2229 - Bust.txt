@@ -1,5 +1,5 @@
-owner = Y59
-controller = Y59
+owner = AFG
+controller = AFG
 capital = "Bust"
 is_city = yes
 culture = afghani
@@ -9,7 +9,6 @@ base_tax = 7
 base_production = 3
 base_manpower = 6
 add_core = AFG
-add_core = Y59
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

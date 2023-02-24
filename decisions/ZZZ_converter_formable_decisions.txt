@@ -449,6 +449,148 @@ country_decisions = {
 		}
 	}
 	
+	restore_rusland_order_norse = {
+		major = yes
+		potential = {
+			was_never_end_game_tag_trigger = yes
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_rusland_flag }
+			NOT = { exists = UKR }
+			NOT = { exists = A03 }
+			NOT = { tag = JOM }
+			NOT = { tag = NOV }
+			AND = { #New Cultures
+				OR = {
+					culture_group = east_slavic
+					culture_group = scandinavian
+				}
+				religion = norse_pagan_reformed
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 280 # Kiev
+				province_id = 4545	# Sluck
+				province_id = 1944 #Cherkasy
+				province_id = 7239 # Bila Tserka
+				province_id = 7259 # Korsun
+				province_id = 3242 # Buhogard
+				province_id = 7256 # Kremenchuk
+				province_id = 2407 # Pereyaslav
+				province_id = 4544 # Bobrujsk
+				province_id = 293 # Smolensk
+				province_id = 3301 # Dorogobuzh
+				province_id = 2408 # Yelets
+				province_id = 299 # Voronezh
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			owns = 280 # Kiev
+			owns = 4545	# Sluck
+			owns = 1944
+			owns = 7239
+			owns = 7259
+			owns = 3242
+			owns = 7256
+			owns = 2407
+			owns = 4544
+			owns = 293
+			owns = 3301
+			owns = 2408
+			owns = 299
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			280 = {
+				move_capital_effect = yes
+			}
+			change_tag = A03
+			swap_non_generic_missions = yes
+			every_province = {
+				limit = {
+					OR = {
+						area = lower_dnieper_area
+						area = pryazovia_area
+						area = zaporizhia_area
+						area = yedisan_area
+						area = podolia_volhynia_area
+						area = west_dniepr_area
+						area = east_dniepr_area
+						area = pripyat_area
+						area = sloboda_ukraine_area
+						area = chernigov_area
+						area = podlasie_area
+						area = volhynia_area
+						area = eastern_volhynia_area
+						area = novogrudok_area
+						area = bryansk_area
+						area = middle_don_area
+						area = galich_area
+						area = oka_area
+						area = white_ruthenia_area
+						area = vitebsk_area
+						area = minsk_area
+						area = trakai_area
+						province_id = 280 # Kiev
+						province_id = 4545	# Sluck
+						province_id = 1944 #Cherkasy
+						province_id = 7239 # Bila Tserka
+						province_id = 7259 # Korsun
+						province_id = 3242 # Buhogard
+						province_id = 7256 # Kremenchuk
+						province_id = 2407 # Pereyaslav
+						province_id = 4544 # Bobrujsk
+						province_id = 293 # Smolensk
+						province_id = 3301 # Dorogobuzh
+						province_id = 2408 # Yelets
+						province_id = 299 # Voronezh
+					}
+					NOT = { is_core = A03 }
+				}
+				add_permanent_claim = A03
+			}
+			random_owned_province = {
+				limit = { culture = ruthenian }
+				add_base_tax = 1
+			}
+			random_owned_province = {
+				limit = { culture = ruthenian }
+				add_base_tax = 1
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			A03 = {
+				add_core = 280 #Kyiv
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_rusland_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	form_hungary = {
 		major = yes
 		potential = {

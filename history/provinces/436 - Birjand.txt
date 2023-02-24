@@ -1,5 +1,5 @@
-owner = Z89
-controller = Z89
+owner = Y07
+controller = Y07
 capital = "Birjand"
 is_city = yes
 culture = khorasani
@@ -8,7 +8,7 @@ trade_goods = cotton
 base_tax = 6
 base_production = 5
 base_manpower = 3
-add_core = Z89
+add_core = Y07
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

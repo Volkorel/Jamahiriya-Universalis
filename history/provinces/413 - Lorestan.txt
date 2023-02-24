@@ -1,5 +1,5 @@
-owner = X06
-controller = X06
+owner = LRI
+controller = LRI
 capital = "Khorramabad"
 is_city = yes
 culture = luri

@@ -1,9 +1,9 @@
  
 #BT Balkans reoverhaul
 
-owner = BUL
-controller = BUL
-add_core = BUL
+owner = WAL
+controller = WAL
+add_core = WAL
 culture = romanian
 religion = catholic
 capital = "Turnu"

@@ -1,5 +1,5 @@
-owner = X05
-controller = X05
+owner = LRI
+controller = LRI
 capital = "Shushtar"
 is_city = yes
 culture = luri

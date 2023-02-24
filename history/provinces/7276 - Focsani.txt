@@ -4,7 +4,7 @@
 owner = Y80
 controller = Y80
 add_core = Y80
-culture = romanian
+culture = csango
 religion = catholic
 capital = "Focshani"
 base_tax = 2

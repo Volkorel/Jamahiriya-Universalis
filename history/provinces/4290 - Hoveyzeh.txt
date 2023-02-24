@@ -1,5 +1,5 @@
-owner = Y76
-controller = Y76
+owner = LRI
+controller = LRI
 capital = "Hoveyzeh"
 is_city = yes
 culture = luri
@@ -10,7 +10,6 @@ base_production = 6
 base_manpower = 4
 add_core = LRI
 add_core = SOS
-add_core = Y76
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

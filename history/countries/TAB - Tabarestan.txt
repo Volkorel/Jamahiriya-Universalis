@@ -1,11 +1,10 @@
 government = monarchy
 add_government_reform = ottoman_government
 government_rank = 1
-technology_group = nomad_group
+technology_group = muslim
 religion = shiite
-primary_culture = turkmeni
+primary_culture = persian
 capital = 4341
-add_accepted_culture = persian
 1444.11.11= {
 	monarch = {
 		name = "Erdem"
@@ -15,7 +14,7 @@ add_accepted_culture = persian
 		mil = 3
 		birth_date = 1399.9.12
 		religion = shiite
-		culture = turkmeni
+		culture = persian
 	}
 	add_ruler_personality = drunkard_personality
 	add_ruler_personality = strict_personality
@@ -45,7 +44,7 @@ add_accepted_culture = persian
 		death_date = 1493.3.24
 		claim = 89
 		religion = shiite
-		culture = turkmeni
+		culture = persian
 	}
 	add_heir_personality = fertile_personality
 	add_heir_personality = tactical_genius_personality

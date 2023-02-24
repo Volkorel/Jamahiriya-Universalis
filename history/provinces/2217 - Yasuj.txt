@@ -1,5 +1,5 @@
-owner = FRS
-controller = FRS
+owner = LRI
+controller = LRI
 capital = "Yasuj"
 is_city = yes
 culture = luri

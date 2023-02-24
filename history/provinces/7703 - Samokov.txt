@@ -4,7 +4,7 @@
 owner = Z95
 controller = Z95
 add_core = Z95
-culture = bulgarian
+culture = greek
 religion = catholic
 capital = "Samokov"
 base_tax = 1
