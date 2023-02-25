@@ -22,6 +22,23 @@ ENG_ideas = {
 	}
 }
 
+KZH_ideas = {
+	trigger = {
+		NOT = { tag = A04 } #Forces GB to have British ideas
+		OR = {
+			tag = KZH
+			AND = {
+				OR = {
+					government_rank = 2
+					government_rank = 3
+				}
+				is_subject = no
+				primary_culture = khazak
+			}
+		}
+	}
+}
+
 RUS_ideas = {
 	trigger = {
 		OR = {

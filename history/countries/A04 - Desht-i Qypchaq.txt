@@ -1,0 +1,12 @@
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 3
+technology_group = muslim
+religion = shiite
+primary_culture = khazak
+add_accepted_culture = cuman
+add_accepted_culture = karluk
+add_accepted_culture = kirgiz
+add_accepted_culture = pecheneg
+add_accepted_culture = astrakhani
+add_accepted_culture = khazar

@@ -1,5 +1,5 @@
-owner = Y02
-controller = Y02
+owner = X35
+controller = X35
 capital = "Neromkar"
 is_city = yes
 culture = uralic
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 2
 base_production = 1
 base_manpower = 1
-add_core = Y02
+add_core = X35
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

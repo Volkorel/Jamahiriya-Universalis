@@ -3,9 +3,10 @@ add_government_reform = ottoman_government
 government_rank = 1
 technology_group = muslim
 religion = shiite
-primary_culture = khorasani
+primary_culture = khazak
 capital = 476
-add_accepted_culture = turkmeni
+add_accepted_culture = cuman
+historical_rival = SHY
 1444.11.11= {
 	monarch = {
 		name = "(Regency Council)"
@@ -15,11 +16,11 @@ add_accepted_culture = turkmeni
 		birth_date = 1.1.1
 		regent = yes
 		religion = shiite
-		culture = khorasani
+		culture = khazak
 	}
 	heir = {
-		name = "Shahryar"
-		dynasty = "Ámulid"
+		name = "Jäleläddin"
+		dynasty = "Kipshak"
 		adm = 6
 		dip = 4
 		mil = 5
@@ -27,7 +28,7 @@ add_accepted_culture = turkmeni
 		death_date = 1498.2.14
 		claim = 89
 		religion = shiite
-		culture = khorasani
+		culture = khazak
 	}
 }
 1444.11.11= {

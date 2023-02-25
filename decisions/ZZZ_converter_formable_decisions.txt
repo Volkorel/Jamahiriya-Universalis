@@ -770,7 +770,185 @@ country_decisions = {
 			add_government_reform = prussian_monarchy
 		}
 	}
-
+	form_deshti_kypshak = {
+		major = yes
+		potential = {
+			was_never_end_game_tag_trigger = yes
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_kypshak_flag }
+			NOT = { exists = A04 }
+			NOT = { tag = SHY }
+			culture = khazak
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2352
+				province_id = 2351
+				province_id = 2353
+				province_id = 2358
+				province_id = 476
+				province_id = 2359
+				province_id = 4685
+				province_id = 477
+				province_id = 2361
+				province_id = 456
+				province_id = 1970
+				province_id = 471
+				province_id = 472
+				province_id = 1966
+				province_id = 4692
+				province_id = 2357
+				province_id = 2369
+				province_id = 479
+				province_id = 2354
+				province_id = 4686
+				province_id = 465
+				province_id = 439
+				province_id = 443
+				province_id = 2370
+				province_id = 440
+				province_id = 1973
+				province_id = 2362
+				province_id = 455
+				province_id = 1969
+				province_id = 2356
+				province_id = 2363
+				province_id = 2360
+				province_id = 478
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			owns = 2352
+			owns = 2351
+			owns = 2353
+			owns = 2358
+			owns = 476
+			owns = 2359
+			owns = 4685
+			owns = 477
+			owns = 2361
+			owns = 456
+			owns = 1970
+			owns = 471
+			owns = 472
+			owns = 1966
+			owns = 4692
+			owns = 2357
+			owns = 2369
+			owns = 479
+			owns = 2354
+			owns = 4686
+			owns = 465
+			owns = 439
+			owns = 443
+			owns = 2370
+			owns = 440
+			owns = 1973
+			owns = 2362
+			owns = 455
+			owns = 1969
+			owns = 2356
+			owns = 2363
+			owns = 2360
+			owns = 478
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+		}
+		effect = {
+			change_tag = A04
+			swap_non_generic_missions = yes
+			every_province = {
+				limit = {
+					OR = {
+						area = nogai_area
+						area = lower_yik_area
+						area = bashkiria_area
+						area = aqmola_area
+						area = yrtesh_area
+						area = ob_area
+						area = central_siberia_area
+						area = ishim_area
+						area = kara_area
+						area = khiva_area
+						area = transcaspia_area
+						area = astrakhan_area
+						area = lower_don_area
+						area = saratov_area
+						area = 
+						province_id = 2352
+						province_id = 2351
+						province_id = 2353
+						province_id = 2358
+						province_id = 476
+						province_id = 2359
+						province_id = 4685
+						province_id = 477
+						province_id = 2361
+						province_id = 456
+						province_id = 1970
+						province_id = 471
+						province_id = 472
+						province_id = 1966
+						province_id = 4692
+						province_id = 2357
+						province_id = 2369
+						province_id = 479
+						province_id = 2354
+						province_id = 4686
+						province_id = 465
+						province_id = 439
+						province_id = 443
+						province_id = 2370
+						province_id = 440
+						province_id = 1973
+						province_id = 2362
+						province_id = 455
+						province_id = 1969
+						province_id = 2356
+						province_id = 2363
+						province_id = 2360
+						province_id = 478
+					}
+					NOT = { is_core = A04 }
+				}
+				add_permanent_claim = A04
+			}
+			random_owned_province = {
+				limit = { culture = khazak }
+				add_base_tax = 1
+			}
+			random_owned_province = {
+				limit = { culture = khazak }
+				add_base_tax = 1
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			if = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_kypshak_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	form_kingdom_of_prussia_EXTRA = { #New Religions/Cultures
 		major = yes
 		potential = {
