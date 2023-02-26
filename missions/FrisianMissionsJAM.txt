@@ -21,7 +21,7 @@ errr = {
 		effect = {
 			add_country_modifier = { 
 				name = galley_power
-				value = 1.5
+				value = 0.15
 				duration = 7200
 			}
 			243 = {
@@ -39,15 +39,47 @@ errr = {
 		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { FRI_breton_connection }
-		trigger = { }
-		effect = { }
+		trigger = {
+			NOT = { war_with = ENG }
+			FRI = {
+				OR = {
+					controls = 243
+					controls = 245
+					controls = 246
+				}
+			}
+		}
+		effect = {
+			add_prestige = 20
+			add_country_modifier = { 
+				name = culture_conversion_cost
+				value = -0.10
+				duration = 3650
+			}
+		}
 	}
 	FRI_windmills_n_polders = {
 		icon = mission_build_up_to_force_limit
 		position = 5
 		required_missions = { FRI_victory_in_britain }
-		trigger = { }
-		effect = { }
+		trigger = {
+			development_in_provinces = {
+				value = 100
+				area = frisia_area
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = build_cost
+				value = -0.10
+				duration = 3650
+			}
+			add_country_modifier = { 
+				name = build_time
+				value = -0.5
+				duration = 1820
+			}
+		}
 	}
 	FRI_wadden_sea_trade = {
 		icon = mission_build_up_to_force_limit
@@ -68,7 +100,7 @@ errr = {
 			}
 			add_country_modifier = { 
 				name = global_trade_power
-				value = 5
+				value = 0.5
 				duration = 1800
 			}
 		}
@@ -91,12 +123,12 @@ errr = {
 			add_prestige = 20
 			add_country_modifier = { 
 				name = global_trade_power
-				value = 15
+				value = 0.15
 				duration = 1800
 			}
 			add_country_modifier = { 
 				name = trade_efficiency
-				value = 10
+				value = 0.10
 				duration = 1800
 			}
 		}
@@ -145,6 +177,15 @@ hm = {
 				value = 0.10
 				duration = 1800
 			}
+			frisia_area = {
+				add_permanent_claim	= FRI 
+			}
+			oversticht_area = {
+				add_permanent_claim	= FRI 
+			}
+			weser_area = {
+				add_permanent_claim	= FRI 
+			}
 		}
 	}
 	FRI_go_north = {
@@ -160,41 +201,107 @@ hm = {
 		}
 		effect = {
 			add_prestige = 10
+			schleswig_area = {
+				add_permanent_claim	= FRI 
+			}
+			holstein_area = {
+				add_permanent_claim	= FRI 
+			}
+			bremen_verden_area = {
+				add_permanent_claim	= FRI 
+			}			
 		}
 	}
 	FRI_vikingr_legacy = {
 		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { FRI_go_north }
-		trigger = { }
-		effect = { }
+		trigger = {
+			naval_forcelimit = FRI
+			1975 = { #North Sea
+				trade_share = {
+					country = FRI
+					share = 20
+				}
+			}
+			FRI = {
+				OR = {
+					controls = 1978
+					controls = 369
+					controls = 1979
+					controls = 3115
+					controls = 371
+					controls = 370
+					controls = 3114
+				}
+			}
+		}
+		effect = {
+			may_explore = yes
+			add_country_modifier = { 
+				name = range
+				value = 0.10
+				duration = 3650
+			}
+			add_country_modifier = { 
+				name = colonist_placement_chance
+				value = 0.15
+				duration = 1820
+			}
+		}
 	}
 	FRI_trustworthy_allies = {
 		icon = mission_build_up_to_force_limit
 		position = 5
 		required_missions = {  }
-		trigger = { }
-		effect = { }
+		trigger = {
+			num_of_allies = 2
+		}
+		effect = {
+			add_country_modifier = { 
+				name = diplomatic_reputation
+				value = 0.1
+				duration = 1820
+			}
+		}
 	}
 	FRI_frisian_unity = {
 		icon = mission_build_up_to_force_limit
 		position = 6
 		required_missions = { FRI_trustworthy_allies }
-		trigger = { }
-		effect = { }
+		trigger = {
+			all_province = {
+				culture = frisian
+				owned_by = FRI
+			}
+		}
+		effect = {
+			diplomatic_upkeep = 1
+		}
 	}
 	FRI_frisian_freedom = {
 		icon = mission_build_up_to_force_limit
 		position = 7
 		required_missions = { FRI_frisian_unity }
-		trigger = { }
-		effect = { }
+		trigger = {
+			can_create_vassals = yes
+		}
+		effect = {
+			add_country_modifier = { 
+				name = infantry_power	
+				value = 0.5
+				duration = 1820
+			}
+			add_prestige = 10
+		}
 	}
 	FRI_league_of_folcwald = {
 		icon = mission_build_up_to_force_limit
 		position = 8
 		required_missions = { FRI_frisian_freedom }
-		trigger = { }
+		trigger = {
+			is_in_coalition = no
+		}
 		effect = { }
 	}
 }
@@ -211,15 +318,60 @@ ddd = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { FRI_amass_an_army }
-		trigger = { }
-		effect = { }
+		trigger = {
+			PAD = { manpower = 10 }
+			FRI = {
+				accepted_culture = lower_saxon
+				OR = {
+					controls = 1874
+					controls = 8298
+					controls = 8296
+					controls = 4771
+					controls = 8297
+					controls = 54
+				}
+			}
+		}
+		effect = {
+			bremen_verden_area = {
+				add_permanent_claim	= FRI 
+			}
+			weser_area = {
+				add_permanent_claim	= FRI 
+			}
+			braunschweig_area = {
+				add_permanent_claim	= FRI 
+			}
+		}
 	}
 	FRI_frisian_might = {
 		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { FRI_german_heritage }
-		trigger = { }
-		effect = { }
+		trigger = {
+			army_tradition = 20
+			NOT = {
+				war_with = PAD
+				war_with = GER
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = discipline
+				value = 0.05
+				duration = 1820
+			}
+			add_country_modifier = { 
+				name = manpower_recovery_speed 
+				value = 0.10
+				duration = 1820
+			}
+			add_country_modifier = { 
+				name = infantry_power
+				value = 0.10
+				duration = 1820
+			}
+		}
 	}
 }
 
@@ -235,36 +387,107 @@ aaa = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = {  }
-		trigger = { }
-		effect = { }
+		trigger = {
+			num_of_religion = {
+				religion = meinwerkist
+				value = 100
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = global_missionary_strength
+				value = 0.05
+				duration = 1820
+			}
+		}
 	}
 	FRI_places_of_worship = {
 		icon = mission_build_up_to_force_limit
 		position = 4
 		required_missions = { FRI_the_church_of_von_hoya }
-		trigger = { }
-		effect = { }
+		trigger = {
+			temple = 5
+		}
+		effect = {
+			add_prestige = 5
+			add_country_modifier = { 
+				name = development_cost	
+				value = -0.05
+				duration = 1820
+			}
+		}
 	}
 	FRI_quest_for_da_nworld = {
 		icon = mission_build_up_to_force_limit
 		position = 5
 		required_missions = { FRI_places_of_worship }
-		trigger = { }
-		effect = { }
+		trigger = {
+			any_province = {
+				is_colony = yes
+				owned_by = FRI
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = range
+				value = 0.20
+				duration = 3650
+			}
+			add_country_modifier = { 
+				name = global_colonial_growth 
+				value = 0.10
+				duration = 3650
+			}
+		}
 	}
 	FRI_magna_frisya = {
 		icon = mission_build_up_to_force_limit
 		position = 6
 		required_missions = { FRI_quest_for_da_nworld }
-		trigger = { }
-		effect = { }
+		trigger = {
+			colony = 1
+			FRI = {
+				all_subject_country	= {
+					total_development = 50
+					OR = {
+						colonial_region = colonial_east_america
+						colonial_region = colonial_acadia
+						colonial_region = colonial_newfoundland
+						colonial_region = colonial_canada
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = global_colonial_growth 
+				value = 0.20
+				duration = 3650
+			}
+		}
 	}
 	FRI_teaching_of_meinwerk = {
 		icon = mission_build_up_to_force_limit
 		position = 7
 		required_missions = { FRI_magna_frisya }
-		trigger = { }
-		effect = { }
+		trigger = {
+			is_defender_of_faith = yes
+			calc_true_if = {
+				all_province = {
+					religion = protestant
+				}
+				amount = 100
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = global_missionary_strength
+				value = 0.10
+				duration = 3650
+			}
+			add_prestige = 30
+			tolerance_own = 3
+		}
 	}
 }
 
