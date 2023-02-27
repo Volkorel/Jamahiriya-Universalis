@@ -23,6 +23,7 @@ trade_goods = wool
 add_core = ENG
 add_core = NOL
 add_core = LCA
+add_core = LEI
 
 #Other Political
 hre = no

@@ -1,5 +1,5 @@
-owner = LEI
-controller = LEI
+owner = Z14
+controller = Z14
 capital = "Loch Awe"
 is_city = yes
 culture = gallgaidheil
@@ -8,7 +8,7 @@ trade_goods = iron
 base_tax = 1
 base_production = 5
 base_manpower = 2
-add_core = LEI
+add_core = Z14
 add_core = SCO
 discovered_by = MGE
 discovered_by = eastern

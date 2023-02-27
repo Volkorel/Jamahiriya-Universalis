@@ -22,6 +22,7 @@ trade_goods = livestock
 #Cores and Occupation (Alphabetical after current)
 add_core = ENG
 add_core = WSX
+add_claim = LEI
 
 #Other Political
 hre = no

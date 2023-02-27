@@ -3,8 +3,8 @@
 #Region - Britain
 #Area - Western Lowlands
 
-owner = LEI
-controller = LEI
+owner = Z14
+controller = Z14
 culture = highland_scottish			#Galwegian Gaelic seems to have lasted longer than Gaelic in other parts of Lowland Scotland
 religion = catholic
 hre = no

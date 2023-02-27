@@ -22,7 +22,7 @@ trade_goods = paper
 #Cores and Occupation (Alphabetical after current)
 add_core = ENG
 add_core = LOD
-
+add_claim = LEI
 #Other Political
 hre = no
 seat_in_parliament = yes

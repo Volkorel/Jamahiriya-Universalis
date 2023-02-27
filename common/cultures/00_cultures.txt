@@ -713,7 +713,7 @@ british	= {
 			Talbot Stanley Courtenay "de la Pole" "de Vere" Stafford Grey Mortimer "le Despenser" "de Camoys"
 			"Oglethorpe" Hyde
 			# CKII
-			"Turberville" "Butler" "Montagu" "Beauchamp" "Raleigh" "Stratford"
+			"Turberville" "Butler" "Montagu" "Beauchamp" "Raleigh" "Stratford" "Savarice" "Itzik" "Salbstein"
 		}
 		male_names = {
 			Henry Edward Charles James William Richard Philip Henry Frederick Arthur Charles James Edgar Thomas Edmund 

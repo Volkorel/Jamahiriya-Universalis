@@ -23,6 +23,7 @@ trade_goods = fish
 add_core = ENG
 add_core = DUR
 add_core = SCO
+add_core = LEI
 add_core = NOL
 
 #Other Political

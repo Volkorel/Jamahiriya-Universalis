@@ -19,7 +19,6 @@ war_of_the_roses = {
 			has_heir = no
 			AND = {
 				has_heir = yes
-				NOT = { heir_dynasty = Savarice }
 				NOT = { heir_dynasty = Itzik }
 				NOT = { heir_dynasty = Salbstein }
 			}
@@ -34,7 +33,6 @@ war_of_the_roses = {
 				has_heir = yes
 				OR = {
 					heir_dynasty = Itzik
-					heir_dynasty = Savarice
 					heir_dynasty = Salbstein
 				}
 			}

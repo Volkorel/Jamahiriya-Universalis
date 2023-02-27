@@ -25,6 +25,11 @@ spriteTypes = {
 		name = "GFX_remove2"
 		texturefile = "gfx/interface/button_type_9.dds"
 	}
+	
+    spriteType = {
+        name = "GFX_great_project_ahmadyasawi"	
+        texturefile = "gfx//interface//great_projects//great_project_ahmadyasawi.dds"
+    }
 		
 	### CHECKBOXES
 	spriteType = {

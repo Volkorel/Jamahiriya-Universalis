@@ -25,6 +25,7 @@ trade_goods = wool
 add_core = ENG
 add_core = DUR
 add_core = NOL
+add_core = LEI
 add_core = SCO
 
 #Other Political

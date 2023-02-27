@@ -1,1 +1,99 @@
 namespace = jamahiriya_forlorn_crusade
+
+
+# Start Event
+country_event = {
+	id = jamahiriya_forlorn_crusade.1
+	title = jamahiriya_forlorn_crusade.1.t
+	desc = jamahiriya_forlorn_crusade.1.d
+	picture = WAR_OF_THE_ROSES_eventPicture
+	major = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		set_country_flag = eng_forlorn_crusade_happened
+		LEI = {
+			declare_war_with_cb = {
+				who = ENG
+				casus_belli = cb_annex
+			}
+		}
+	}
+	option = {
+		name = jamahiriya_forlorn_crusade.1.a
+		add_stability = -2
+		set_country_flag = forlorn_crusade
+		if = {
+			limit = {
+				owns = 235 #Kent
+				235 = {
+					NOT = { units_in_province = 1 }
+				}
+			}
+			235 = {
+				spawn_rebels = {
+					type = catholic_rebels
+					size = 50
+					leader = "Jack"
+					leader_dynasty = "Cade"
+					win = yes
+				}
+			}
+		}
+		else = {
+			random_owned_province = {
+				limit = {
+					region = british_isles_region
+					OR = {
+						NOT = {
+							root = {
+								any_owned_province = {
+									region = british_isles_region
+									NOT = { units_in_province = 1 }
+								}
+							}
+						}
+						NOT = { units_in_province = 1 }
+					}
+				}
+				spawn_rebels = {
+					type = catholic_rebels
+					size = 50
+					leader = "Jack"
+					leader_dynasty = "Cade"
+					win = yes
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = jamahiriya_forlorn_crusade.100
+	title = jamahiriya_forlorn_crusade.100.t
+	desc = jamahiriya_forlorn_crusade.100.d
+	picture = WAR_OF_THE_ROSES_eventPicture
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+			# Clear Flags
+			clr_country_flag = forlorn_crusade
+			# Clear Province Modifiers
+			set_country_flag = eng_forlorn_crusade_happened
+		}
+	}
+	
+	option = {		# Order has finally been restored
+		name = war_of_the_roses.100.a
+		add_stability_or_adm_power = yes
+		add_prestige = 50
+		LEI = { collapse_nation = yes }
+	}
+}

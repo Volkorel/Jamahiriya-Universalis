@@ -1,9 +1,9 @@
-government = republic
-add_government_reform = free_city
-government_rank = 1
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3
 technology_group = western
 religion = catholic
-primary_culture = lower_saxon
+primary_culture = cosmopolitan_french
 capital = 183
 1444.11.11= {
 	monarch = {
