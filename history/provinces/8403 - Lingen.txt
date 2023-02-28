@@ -5,8 +5,8 @@
 #Core Details
 capital = "Lingen"
 is_city = yes
-owner = Y77
-controller = Y77
+owner = BTH
+controller = BTH
 
 #Demographics
 culture = lower_saxon
@@ -20,6 +20,8 @@ trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
 add_core = Y77
+add_core = BTH
+add_core = PAD
 add_core = TCK
 
 #Other Political

@@ -1,5 +1,5 @@
-owner = Y77
-controller = Y77
+owner = FRI
+controller = FRI
 capital = "Emden"
 is_city = yes
 culture = frisian

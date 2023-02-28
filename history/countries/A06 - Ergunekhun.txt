@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 3
+technology_group = muslim
+religion = shiite
+primary_culture = khazak
+capital = 476
+add_accepted_culture = cuman

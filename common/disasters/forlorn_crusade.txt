@@ -61,10 +61,6 @@ forlorn_crusade = {
 			has_country_flag = had_war_of_the_roses
 		}
 		modifier = {
-			factor = 2.5
-			exists = LEI
-		}
-		modifier = {
 			factor = 15
 			has_country_flag = conseil_de_la_manche_supports_forlorn
 		}
@@ -79,7 +75,6 @@ forlorn_crusade = {
 		stability = 1
 		hidden_trigger = {
 			NOT = { has_country_modifier = just_lost_to_rebels }
-			NOT = { has_country_flag = forlorn_crusade }
 		}
 	}
 	

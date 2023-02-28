@@ -1,0 +1,342 @@
+Jamahiriya = {
+	slot = 2
+	generic = no
+	potential = {
+		tag = VZZ
+	}
+
+	SWE_achantoff_tried = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { SWE_nowdoisee_the_earthanew }
+		trigger = {
+			num_of_colonists = 1
+		}
+		effect = {
+			newfoundland_area = {
+				add_permanent_claim	= VZZ
+			}
+			cote_nord_area = {
+				add_permanent_claim	= VZZ
+			}
+		}
+	}
+	SWE_andwholeshallthybodybe = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { SWE_achantoff_tried }
+		trigger = {
+			newfoundland_area = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+			upper_acadia_area = {
+				add_permanent_claim	= VZZ
+			}
+			lower_acadia_area = {
+				add_permanent_claim	= VZZ
+			}
+		}
+	}
+	Foggedvisionfalls = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { SWE_RisingGreen }
+		trigger = {
+			notre_dame_mountains_area = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+			lower_canada_area = {
+				add_permanent_claim	= VZZ
+			}
+		}
+	}
+	theagleflies = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { Foggedvisionfalls }
+		trigger = {
+			lower_canada_area = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+			upper_canada_area = {
+				add_permanent_claim	= VZZ
+			}
+			grand_river_area = {
+				add_permanent_claim	= VZZ
+			}
+			upper_ontario_area = {
+				add_permanent_claim	= VZZ
+			}
+			huronia_area = {
+				add_permanent_claim	= VZZ
+			}
+		}
+	}
+	atimeofswords = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { Shieldsaresundered }
+		trigger = {
+			is_at_war = yes
+		}
+		effect = {
+			add_country_modifier = { 
+				name = discipline
+				value = 0.15
+				duration = 3650
+			}
+		}
+	}
+}
+
+middle_sweden = {
+	slot = 3
+	generic = no
+	potential = {
+		tag = VZZ
+	}
+
+	SWE_nowdoisee_the_earthanew = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = {
+			num_of_cities = 5
+		}
+		effect = {
+			colonists = 1
+		}
+	}
+	SWE_RisingGreen = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { SWE_andwholeshallthybodybe SWE_thougheverymanmustshare SWE_andcomfortwise SWE_FrostShallNotGrip }
+		trigger = {
+			is_at_war = no
+		}
+		effect = {
+			add_dip_power = 100
+			add_country_modifier = { 
+				name = global_colonial_growth
+				value = 0.05
+				duration = 3650
+			}
+		}
+	}
+	Shieldsaresundered = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { Andwholetheyhence theagleflies curseofchristians }
+		trigger = {
+			is_at_war = yes
+		}
+		effect = {
+			add_country_modifier = { 
+				name = ae_impact
+				value = -0.50
+				duration = 1820
+			}
+			add_country_modifier = { 
+				name = core_creation
+				value = -0.25
+				duration = 1820
+			}
+		}
+	}
+	eretheworldfails = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { atimeofaxes atimeofswords atimeofwinds atimeofwolves }
+		trigger = {
+			canada_region = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = development_cost_modifier
+				value = -0.05
+				duration = 3650
+			}
+			add_country_modifier = { 
+				name = global_colonial_growth
+				value = 0.05
+				duration = 3650
+			}
+		}
+	}
+	tofightsuffer = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { eretheworldfails }
+		trigger = {
+			has_won_war_against = {
+				who = ANY
+				value = 50
+			}
+		effect = {
+			discipline = 0.05
+			infantry_shock = 1	
+		}
+	}
+	andonlythederread = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		required_missions = { toliveistobreathe tofightsuffer bravingeveryday }
+		trigger = {
+			prestige = 50
+		}
+		effect = {
+			alaska_region = {
+				add_permanent_claim	= VZZ
+			}
+			northwest_territories_region = {
+				add_permanent_claim	= VZZ
+			}
+			hudson_bay_region = {
+				add_permanent_claim	= VZZ
+			}
+		}
+	}
+}
+
+SWE_East = {
+	slot = 4
+	generic = no
+	potential = {
+		tag = VZZ
+	}
+
+	SWE_wealthisacomfort = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { SWE_nowdoisee_the_earthanew }
+		trigger = { }
+		effect = { }
+	}
+	SWE_thougheverymanmustshare = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { SWE_wealthisacomfort }
+		trigger = { }
+		effect = { }
+	}
+	iwishhatredoff = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { SWE_RisingGreen }
+		trigger = { }
+		effect = { }
+	}
+	atimeofwinds = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { Shieldsaresundered }
+		trigger = { }
+		effect = { }
+	}
+}
+
+SWE_fareast = {
+	slot = 5
+	generic = no
+	potential = {
+		tag = VZZ
+	}	
+	SWE_supportofwisdom = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { SWE_nowdoisee_the_earthanew }
+		trigger = { }
+		effect = { }
+	}
+	SWE_andcomfortwise = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { SWE_supportofwisdom }
+		trigger = { }
+		effect = { }
+	}
+	breakingfeathers = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { SWE_RisingGreen }
+		trigger = { }
+		effect = { }
+	}
+	curseofchristians = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { iwishhatredoff breakingfeathers }
+		trigger = { }
+		effect = { }
+	}
+	atimeofwolves = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { Shieldsaresundered }
+		trigger = { }
+		effect = { }
+	}
+	bravingeveryday = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { eretheworldfails }
+		trigger = { }
+		effect = { }
+	}
+}
+
+SWE_Farewest = {
+	slot = 1
+	generic = no
+	potential = {
+		tag = VZZ
+	}
+	SWE_FrostShallNotGrip = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { SWE_achantoff_tried }
+		trigger = { }
+		effect = { }
+	}
+	Wholetothefield = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { SWE_RisingGreen }
+		trigger = { }
+		effect = { }
+	}
+	Andwholetheyhence = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { Wholetothefield }
+		trigger = { }
+		effect = { }
+	}
+	atimeofaxes = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { Shieldsaresundered }
+		trigger = { }
+		effect = { }
+	}
+	toliveistobreathe = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { eretheworldfails }
+		trigger = { }
+		effect = { }
+	}
+}
+

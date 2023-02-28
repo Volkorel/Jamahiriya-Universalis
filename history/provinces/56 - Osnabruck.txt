@@ -1,5 +1,5 @@
-owner = Y77
-controller = Y77
+owner = PAD
+controller = PAD
 capital = "Osnabrück"
 is_city = yes
 culture = lower_saxon
@@ -10,6 +10,7 @@ base_production = 1
 base_manpower = 4
 add_core = HAN
 add_core = Y77
+add_core = PAD
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

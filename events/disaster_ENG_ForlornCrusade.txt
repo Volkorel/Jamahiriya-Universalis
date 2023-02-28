@@ -82,14 +82,16 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			
+			2561 = {
+				cede_province = WBA
+				add_core = WBA
+			}
 			# Clear Flags
 			clr_country_flag = forlorn_crusade
 			# Clear Province Modifiers
 			set_country_flag = eng_forlorn_crusade_happened
 		}
 	}
-	
 	option = {		# Order has finally been restored
 		name = war_of_the_roses.100.a
 		add_stability_or_adm_power = yes

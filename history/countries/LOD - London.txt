@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = feudalism_reform
+government = theocracy
+add_government_reform = monastic_order_reform
 government_rank = 1
 mercantilism = 25
 technology_group = western
@@ -11,10 +11,9 @@ capital = 236 # London
 
 1444.11.1 = {
 	monarch = {
-		name = "(Regency Council)"
-		adm = 3
-		mil = 3
-		dip = 3
-		regent = yes
+		name = "Galahad"
+		adm = 6
+		mil = 6
+		dip = 6
 	}
 }

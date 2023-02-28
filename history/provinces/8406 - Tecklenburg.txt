@@ -5,8 +5,8 @@
 #Core Details
 capital = "Tecklenburg"
 is_city = yes
-owner = Y77
-controller = Y77
+owner = PAD
+controller = PAD
 
 #Demographics
 culture = hannoverian
@@ -21,6 +21,7 @@ trade_goods = livestock
 #Cores and Occupation (Alphabetical after current)
 add_core = Y77
 add_core = TCK
+add_core = PAD
 
 #Other Political
 
