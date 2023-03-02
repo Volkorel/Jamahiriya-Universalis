@@ -1,5 +1,5 @@
-owner = HDR
-controller = HDR
+owner = MHR
+controller = MHR
 capital = "Salalah"
 is_city = yes
 culture = mahri_culture
@@ -8,7 +8,7 @@ trade_goods = incense
 base_tax = 7
 base_production = 1
 base_manpower = 2
-add_core = HDR
+add_core = MHR
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

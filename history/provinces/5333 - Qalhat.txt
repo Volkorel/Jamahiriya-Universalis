@@ -1,13 +1,12 @@
  
 #399 - Suhar
 
-owner = Oma
-controller = Oma
+owner = OMA
+controller = OMA
 culture = omani_culture
 religion = shiite
 capital = "Qalhat"
 trade_goods = spices
-hre = no
 base_tax = 7
 base_production = 7
 base_manpower = 3 

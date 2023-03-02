@@ -117,15 +117,7 @@ christian = {
 					}
 				}
 			}
-
-
-
-
-
-
-
 			# Papal Actions below!
-
 			levy_church_tax = {
 				cost = 50
 				potential = {
@@ -464,23 +456,13 @@ christian = {
 			shock_damage_received = -0.025
 		}
 		heretic = { TABORITE UTRAQUIST ORPHAN }
-#		uses_church_power = yes				# Uses church power/aspect mechanics
-#		aspects = {
-#			organised_through_bishops_aspect
-#			priests_may_marry_aspect
-#			adult_baptism_aspect
-#			holy_sacraments_aspect
-##			saints_accept_prayers_aspect
-#			icons_images_aspect
-#			legalised_divorces_aspect
-#			heretics_deported_aspect
-#			parish_registers_aspect
-#			individual_creeds_aspect
-#			allow_usury_aspect
-#			translated_bibles_aspect
-#		}
-#		aspects_name = PROTESTANT_ASPECTS
-
+		blessings = {
+			legitimize_government
+			encourage_warriors_of_the_faith
+			send_monks_to_establish_monasteries
+			promote_territorial_rights
+			will_of_the_martyrs
+		}
 		hre_heretic_religion = yes
 	}
 	

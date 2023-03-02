@@ -60,7 +60,7 @@ country_decisions = {
 			NOT = { exists = A05 }
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
-			religion = monophysite
+			religion = apostolic
 			is_nomad = no
 			owns_core_province = 327	# Cilicia
 			owns_core_province = 419	# Yerevan
@@ -292,7 +292,7 @@ country_decisions = {
 			NOT = { exists = ARM }
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
-			religion = monophysite
+			religion = apostolic
 			is_nomad = no
 			owns_core_province = 327	# Cilicia
 			owns_core_province = 419	# Yerevan

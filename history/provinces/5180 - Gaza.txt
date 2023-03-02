@@ -4,6 +4,7 @@
 owner = KOJ
 controller = KOJ
 add_core = KOJ
+add_core = KNT
 culture = nabatean
 religion = shiite
 capital = "Gaza"

@@ -13,6 +13,7 @@ base_production = 3
 base_manpower = 2 
 is_city = yes
 add_core = ALH
+add_core = B02
 add_core = ORM #Tributary to Hormuz up until conquest by Jabrids
 
 discovered_by = muslim

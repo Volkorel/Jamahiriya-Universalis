@@ -1,5 +1,5 @@
-owner = Z76
-controller = Z76
+owner = NAJ
+controller = NAJ
 capital = "Aflaj"
 is_city = yes
 culture = bedouin_arabic
@@ -9,7 +9,6 @@ base_tax = 4
 base_production = 1
 base_manpower = 2
 add_core = NAJ
-add_core = Z76
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

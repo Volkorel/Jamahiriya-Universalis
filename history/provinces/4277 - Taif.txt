@@ -1,5 +1,5 @@
-owner = X08
-controller = X08
+owner = AZD
+controller = AZD
 capital = "Taif"
 is_city = yes
 culture = hejazi_culture
@@ -9,8 +9,7 @@ fort_15th = yes
 base_tax = 4
 base_production = 11
 base_manpower = 1
-add_core = HED
-add_core = X08
+add_core = AZD
 add_core = X24
 discovered_by = MGE
 discovered_by = eastern

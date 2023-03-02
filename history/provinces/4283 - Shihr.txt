@@ -1,5 +1,5 @@
-owner = HDR
-controller = HDR
+owner = MHR
+controller = MHR
 capital = "As Shihr"
 is_city = yes
 culture = mahri_culture
@@ -10,7 +10,7 @@ base_production = 1
 base_manpower = 5
 extra_cost = 8
 center_of_trade = 1
-add_core = HDR
+add_core = MHR
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

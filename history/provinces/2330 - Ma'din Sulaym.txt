@@ -1,5 +1,5 @@
-owner = X08
-controller = X08
+owner = MDA
+controller = MDA
 capital = "Ma'din Sulaym"
 is_city = yes
 culture = hejazi_culture
@@ -9,7 +9,7 @@ base_tax = 6
 base_production = 3
 base_manpower = 3
 add_core = HED
-add_core = X08
+add_core = MDA
 add_core = X25
 discovered_by = MGE
 discovered_by = eastern

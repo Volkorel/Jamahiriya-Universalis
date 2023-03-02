@@ -1,5 +1,5 @@
-owner = X08
-controller = X08
+owner = X24
+controller = X24
 capital = "Al-Lidam"
 is_city = yes
 culture = bedouin_arabic
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 2
 base_production = 7
 base_manpower = 2
-add_core = X08
+add_core = X24
 add_core = HED
 discovered_by = MGE
 discovered_by = eastern

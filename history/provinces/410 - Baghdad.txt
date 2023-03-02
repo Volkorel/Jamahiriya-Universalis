@@ -1,5 +1,5 @@
-owner = HDR
-controller = HDR
+owner = X11
+controller = X11
 capital = "Baghdad"
 is_city = yes
 culture = al_iraqiya_arabic
@@ -10,7 +10,7 @@ base_production = 8
 base_manpower = 4
 extra_cost = 8
 center_of_trade = 1
-add_core = HDR
+add_core = X11
 add_core = IRQ
 discovered_by = MGE
 discovered_by = eastern

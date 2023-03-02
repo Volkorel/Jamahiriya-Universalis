@@ -1,5 +1,5 @@
-owner = OMA
-controller = OMA
+owner = MUS
+controller = MUS
 capital = "Liwa"
 is_city = yes
 culture = gulf_arabic
@@ -9,6 +9,8 @@ base_tax = 2
 base_production = 1
 base_manpower = 1
 add_core = OMA
+add_core = MUS
+add_core = ORM
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

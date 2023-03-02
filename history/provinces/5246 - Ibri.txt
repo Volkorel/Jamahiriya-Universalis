@@ -1,9 +1,11 @@
  
 #New Province
 
-owner = OMA
-controller = OMA
+owner = MUS
+controller = MUS
 add_core = OMA
+add_core = ORM
+add_core = MUS
 capital = "Ibri"
 culture = omani_culture
 religion = shiite

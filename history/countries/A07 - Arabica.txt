@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 3
+technology_group = muslim
+religion = shiite
+primary_culture = bedouin_arabic
+add_accepted_culture = gulf_arabic
+add_accepted_culture = al_misr_arabic
+add_accepted_culture = al_suryah_arabic
+add_accepted_culture = mahri_culture
+add_accepted_culture = hejazi_culture
+add_accepted_culture = omani_culture
+add_accepted_culture = yemeni_culture

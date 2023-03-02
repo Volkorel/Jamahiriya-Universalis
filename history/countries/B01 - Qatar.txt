@@ -1,0 +1,54 @@
+government = monarchy
+add_government_reform = ottoman_government
+government_rank = 1
+technology_group = muslim
+religion = shiite
+primary_culture = gulf_arabic
+capital = 395
+fixed_capital = 395
+add_historical_friend = B02
+add_historical_friend = B03
+1444.11.11= {
+	monarch = {
+		name = "Nizar"
+		dynasty = "Banu Hanzala"
+		adm = 4
+		dip = 4
+		mil = 6
+		birth_date = 1425.3.5
+		religion = shiite
+		culture = gulf_arabic
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Zabiba"
+		dynasty = "Munqi"
+		adm = 4
+		dip = 3
+		mil = 3
+		country_of_origin = ORM
+		birth_date = 1424.2.12
+		death_date = 1484.2.12
+		female = yes
+		religion = shiite
+		culture = tuareg
+	}
+	add_queen_personality = martial_educator_personality
+	add_queen_personality = tactical_genius_personality
+	heir = {
+		name = "Abbas"
+		monarch_name = "Abbas"
+		dynasty = "Banu Hanzala"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1440.11.21
+		death_date = 1505.11.21
+		claim = 89
+		religion = shiite
+		culture = gulf_arabic
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}

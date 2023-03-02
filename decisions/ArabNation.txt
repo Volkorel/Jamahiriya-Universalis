@@ -1,0 +1,331 @@
+country_decisions = {
+	unite_najd = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = united_najd_flag }
+			NOT = { tag = A07 }
+			OR = {
+				culture_group = turko_semitic
+				culture_group = maghrebi
+				culture_group = berber_group
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = tihama_al_yemen_area
+				area = asir_area
+				area = yamamah_area
+				area = mecca_area
+				area = medina_area
+				area = nafud_area
+				area = tabuk_area
+				area = mahra_area
+				area = bahrain_area
+				area = qasim_area
+				area = pirate_coast_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = A07 }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			OR = {
+				culture_group = turko_semitic
+				culture_group = maghrebi
+				culture_group = berber_group
+			}
+			tihama_al_yemen_area = {
+				owned_by = ROOT
+				type = all
+			}
+			asir_area = {
+				owned_by = ROOT
+				type = all
+			}
+			yamamah_area = {
+				owned_by = ROOT
+				type = all
+			}
+			mecca_area = {
+				owned_by = ROOT
+				type = all
+			}
+			medina_area = {
+				owned_by = ROOT
+				type = all
+			}
+			nafud_area = {
+				owned_by = ROOT
+				type = all
+			}
+			tabuk_area = {
+				owned_by = ROOT
+				type = all
+			}
+			mahra_area = {
+				owned_by = ROOT
+				type = all
+			}
+			bahrain_area = {
+				owned_by = ROOT
+				type = all
+			}
+			qasim_area = {
+				owned_by = ROOT
+				type = all
+			}
+			pirate_coast_area = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+			change_tag = A07
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+			upper_yemen_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			yemen_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			hadramut_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			dhofar_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			oman_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			mascat_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			persian_gulf_islands_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			basra_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			syrian_desert_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			trans_jordan_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			palestine_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			syria_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			iraq_arabi_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			rakka_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			al_jazira_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			khuzestan_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			tripoli_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			aleppo_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			mardin_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			shahrizor_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = A07
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 60
+			set_country_flag = unite_najd_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+	unite_arabia = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = united_arabia_flag }
+			NOT = { tag = A08 }
+			OR = {
+				culture_group = turko_semitic
+				culture_group = maghrebi
+				culture_group = berber_group
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				region = maghreb_region
+				region = sahel_region
+				region = egypt_region
+				region = arabia_region
+				region = mashriq_region
+				region = mesopotamia_region
+				area = lower_andalucia_area
+				area = algarve_area
+				area = upper_andalucia_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = A08 }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			OR = {
+				culture_group = turko_semitic
+				culture_group = maghrebi
+				culture_group = berber_group
+			}
+			maghreb_region = {
+				owned_by = ROOT
+				type = all
+			}
+			sahel_region = {
+				owned_by = ROOT
+			}
+			egypt_region = {
+				owned_by = ROOT
+				type = all
+			}
+			arabia_region = {
+				owned_by = ROOT
+				type = all
+			}
+			mashriq_region = {
+				owned_by = ROOT
+				type = all
+			}
+			mesopotamia_region = {
+				owned_by = ROOT
+			}
+			lower_andalucia_area = {
+				owned_by = ROOT
+				type = all
+			}
+			algarve_area = {
+				owned_by = ROOT
+				type = all
+			}
+			upper_andalucia_area = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+			change_tag = A08
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 100
+			add_stability = 6
+			set_country_flag = united_arabia_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
+}

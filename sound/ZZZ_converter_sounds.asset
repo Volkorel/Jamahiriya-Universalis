@@ -283,10 +283,35 @@
 		name = start_convert_messalian
 		file = "start_conversion_christian_reformed.wav"
 	}
+	#Arian
+	sound = {
+		name = religion_arianism
+		file = "tab_religion_christian.wav"
+	}
+	sound = {
+		name = start_convert_arianism
+		file = "start_conversion_christian_reformed.wav"
+	}
 	#Monophysite
 	sound = {
 		name = religion_monophysite
 		file = "tab_religion_christian.wav"
+	}
+	sound = {
+		name = religion_apostolic
+		file = "tab_religion_christian.wav"
+	}
+	sound = {
+		name = religion_meinwerkist
+		file = "tab_religion_christian.wav"
+	}
+	sound = {
+		name = start_convert_meinwerkist
+		file = "start_conversion_christian_orthodox.wav"
+	}
+	sound = {
+		name = start_convert_apostolic
+		file = "start_conversion_christian_orthodox.wav"
 	}
 	sound = {
 		name = start_convert_monophysite

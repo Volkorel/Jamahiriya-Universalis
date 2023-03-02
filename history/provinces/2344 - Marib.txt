@@ -1,5 +1,5 @@
-owner = HDR
-controller = HDR
+owner = FDI
+controller = FDI
 capital = "Marib"
 is_city = yes
 culture = yemeni_culture
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 5
 base_manpower = 2
 add_core = ADE
-add_core = HDR
+add_core = FDI
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

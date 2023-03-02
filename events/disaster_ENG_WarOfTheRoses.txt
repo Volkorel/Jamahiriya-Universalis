@@ -1132,7 +1132,7 @@ country_event = {
 		hidden_effect = {
 			
 			# Clear Flags
-			
+			ENG = { country_event = { id = jamahiriya_war_of_the_roses.100 days = 5 } }
 			# Clear Country Modifiers
 			remove_country_modifier = hundred_years_wars
 			remove_country_modifier = low_fertility
