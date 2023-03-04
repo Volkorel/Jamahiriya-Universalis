@@ -1,4 +1,134 @@
-Jamahiriya = {
+VZZ_missions_column_1 = {
+	slot = 1
+	generic = no
+	potential = {
+		tag = VZZ
+	}
+	SWE_FrostShallNotGrip = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { SWE_achantoff_tried }
+		trigger = { }
+		effect = { }
+	}
+	Wholetothefield = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { SWE_RisingGreen }
+		trigger = { }
+		effect = { }
+	}
+	Andwholetheyhence = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { Wholetothefield }
+		trigger = { }
+		effect = { }
+	}
+	atimeofaxes = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { Shieldsaresundered }
+		trigger = { }
+		effect = { }
+	}
+	toliveistobreathe = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { eretheworldfails }
+		trigger = { }
+		effect = { }
+	}
+}
+
+VZZ_missions_column_4 = {
+	slot = 4
+	generic = no
+	potential = {
+		tag = VZZ
+	}
+
+	SWE_wealthisacomfort = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { SWE_nowdoisee_the_earthanew }
+		trigger = { }
+		effect = { }
+	}
+	SWE_thougheverymanmustshare = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { SWE_wealthisacomfort }
+		trigger = { }
+		effect = { }
+	}
+	iwishhatredoff = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { SWE_RisingGreen }
+		trigger = { }
+		effect = { }
+	}
+	atimeofwinds = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { Shieldsaresundered }
+		trigger = { }
+		effect = { }
+	}
+}
+
+VZZ_missions_column_5 = {
+	slot = 5
+	generic = no
+	potential = {
+		tag = VZZ
+	}	
+	SWE_supportofwisdom = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { SWE_nowdoisee_the_earthanew }
+		trigger = { }
+		effect = { }
+	}
+	SWE_andcomfortwise = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { SWE_supportofwisdom }
+		trigger = { }
+		effect = { }
+	}
+	breakingfeathers = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { SWE_RisingGreen }
+		trigger = { }
+		effect = { }
+	}
+	curseofchristians = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { iwishhatredoff breakingfeathers }
+		trigger = { }
+		effect = { }
+	}
+	atimeofwolves = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { Shieldsaresundered }
+		trigger = { }
+		effect = { }
+	}
+	bravingeveryday = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { eretheworldfails }
+		trigger = { }
+		effect = { }
+	}
+}
+
+VZZ_missions_column_2 = {
 	slot = 2
 	generic = no
 	potential = {
@@ -98,7 +228,7 @@ Jamahiriya = {
 	}
 }
 
-middle_sweden = {
+VZZ_missions_column_3 = {
 	slot = 3
 	generic = no
 	potential = {
@@ -209,134 +339,3 @@ middle_sweden = {
 		}
 	}
 }
-
-SWE_East = {
-	slot = 4
-	generic = no
-	potential = {
-		tag = VZZ
-	}
-
-	SWE_wealthisacomfort = {
-		icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { SWE_nowdoisee_the_earthanew }
-		trigger = { }
-		effect = { }
-	}
-	SWE_thougheverymanmustshare = {
-		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { SWE_wealthisacomfort }
-		trigger = { }
-		effect = { }
-	}
-	iwishhatredoff = {
-		icon = mission_build_up_to_force_limit
-		position = 5
-		required_missions = { SWE_RisingGreen }
-		trigger = { }
-		effect = { }
-	}
-	atimeofwinds = {
-		icon = mission_build_up_to_force_limit
-		position = 8
-		required_missions = { Shieldsaresundered }
-		trigger = { }
-		effect = { }
-	}
-}
-
-SWE_fareast = {
-	slot = 5
-	generic = no
-	potential = {
-		tag = VZZ
-	}	
-	SWE_supportofwisdom = {
-		icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { SWE_nowdoisee_the_earthanew }
-		trigger = { }
-		effect = { }
-	}
-	SWE_andcomfortwise = {
-		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { SWE_supportofwisdom }
-		trigger = { }
-		effect = { }
-	}
-	breakingfeathers = {
-		icon = mission_build_up_to_force_limit
-		position = 5
-		required_missions = { SWE_RisingGreen }
-		trigger = { }
-		effect = { }
-	}
-	curseofchristians = {
-		icon = mission_build_up_to_force_limit
-		position = 6
-		required_missions = { iwishhatredoff breakingfeathers }
-		trigger = { }
-		effect = { }
-	}
-	atimeofwolves = {
-		icon = mission_build_up_to_force_limit
-		position = 8
-		required_missions = { Shieldsaresundered }
-		trigger = { }
-		effect = { }
-	}
-	bravingeveryday = {
-		icon = mission_build_up_to_force_limit
-		position = 10
-		required_missions = { eretheworldfails }
-		trigger = { }
-		effect = { }
-	}
-}
-
-SWE_Farewest = {
-	slot = 1
-	generic = no
-	potential = {
-		tag = VZZ
-	}
-	SWE_FrostShallNotGrip = {
-		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { SWE_achantoff_tried }
-		trigger = { }
-		effect = { }
-	}
-	Wholetothefield = {
-		icon = mission_build_up_to_force_limit
-		position = 5
-		required_missions = { SWE_RisingGreen }
-		trigger = { }
-		effect = { }
-	}
-	Andwholetheyhence = {
-		icon = mission_build_up_to_force_limit
-		position = 6
-		required_missions = { Wholetothefield }
-		trigger = { }
-		effect = { }
-	}
-	atimeofaxes = {
-		icon = mission_build_up_to_force_limit
-		position = 8
-		required_missions = { Shieldsaresundered }
-		trigger = { }
-		effect = { }
-	}
-	toliveistobreathe = {
-		icon = mission_build_up_to_force_limit
-		position = 10
-		required_missions = { eretheworldfails }
-		trigger = { }
-		effect = { }
-	}
-}
-

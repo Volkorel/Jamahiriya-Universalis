@@ -1112,7 +1112,6 @@ country_decisions = {
 						area = astrakhan_area
 						area = lower_don_area
 						area = saratov_area
-						area = 
 						province_id = 2352
 						province_id = 2351
 						province_id = 2353
@@ -1186,6 +1185,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
+	
 	form_ergunekhun = {
 		major = yes
 		potential = {
@@ -1224,98 +1224,98 @@ country_decisions = {
 			NOT = { owned_by = ROOT }
 		}
 		allow = {
-			kama_area = {
-				owned_by = ROOT
-				type = all
-			}
-			perm_area = {
-				owned_by = ROOT
-				type = all
-			}
-			pechora_area = {
-				owned_by = ROOT
-				type = all
-			}
-			pomor_area = {
-				owned_by = ROOT
-				type = all
-			}
-			vyatka_area = {
-				owned_by = ROOT
-				type = all
-			}
-			kazan_area = {
-				owned_by = ROOT
-				type = all
-			}
-			samara_area = {
-				owned_by = ROOT
-				type = all
-			}
-			saratov_area = {
-				owned_by = ROOT
-				type = all
-			}
-			tambov_area = {
-				owned_by = ROOT
-				type = all
-			}
-			ryazan_area = {
-				owned_by = ROOT
-				type = all
-			}
-			suzdal_area = {
-				owned_by = ROOT
-				type = all
-			}
-			yaroslavl_area = {
-				owned_by = ROOT
-				type = all
-			}
-			arkhangelsk_area_area = {
-				owned_by = ROOT
-				type = all
-			}
-			ural_area = {
-				owned_by = ROOT
-				type = all
-			}
-			kara_area = {
-				owned_by = ROOT
-				type = all
-			}
-			central_siberia_area = {
-				owned_by = ROOT
-				type = all
-			}
-			tunguska_area = {
-				owned_by = ROOT
-				type = all
-			}
-			irkutsk_area = {
-				owned_by = ROOT
-				type = all
-			}
-			tannu_uriankhai_area = {
-				owned_by = ROOT
-				type = all
-			}
-			balchasj_area = {
-				owned_by = ROOT
-				type = all
-			}
-			jetysuu_area = {
-				owned_by = ROOT
-				type = all
-			}
-			zungaria_area = {
-				owned_by = ROOT
-				type = all
-			}
-			north_zungaria_area = {
-				owned_by = ROOT
-				type = all
-			}
+#			kama_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			perm_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			pechora_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			pomor_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			vyatka_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			kazan_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			samara_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			saratov_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			tambov_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			ryazan_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			suzdal_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			yaroslavl_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			arkhangelsk_area_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			ural_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			kara_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			central_siberia_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			tunguska_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			irkutsk_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			tannu_uriankhai_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			balchasj_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			jetysuu_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			zungaria_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
+#			north_zungaria_area = {
+#				owned_by = ROOT
+#				type = all
+#			}
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 		}
@@ -1360,6 +1360,7 @@ country_decisions = {
 						culture = cuman
 						culture = pecheneg
 					}
+				}
 				add_base_tax = 1
 			}
 			random_owned_province = {
@@ -1369,6 +1370,7 @@ country_decisions = {
 						culture = cuman
 						culture = pecheneg
 					}
+				}
 				add_base_tax = 1
 			}
 			add_country_modifier = {
@@ -1398,6 +1400,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
+	
 	form_kingdom_of_prussia_EXTRA = { #New Religions/Cultures
 		major = yes
 		potential = {
@@ -2362,5 +2365,4 @@ country_decisions = {
 			factor = 1
 		}
 	}
-
 }
