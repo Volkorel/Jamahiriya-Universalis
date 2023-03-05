@@ -122,3 +122,27 @@ hundred_years_wars = {
 	army_tradition_from_battle = 0.01
 	picture = "JAM_hundred_years_war"
 }
+
+#ODIN
+VZZ_extra_colonist = {
+	colonists = 1
+	can_colony_boost_development = yes
+}
+VZZ_discipline = {
+	discipline = 0.05
+}
+VZZ_global_colonial_growth = {
+	global_colonial_growth = 40
+}
+VZZ_ae_ccr = {
+	ae_impact = -0.2
+	core_creation = -0.2
+}
+VZZ_dev_cost_colonial_growth = {
+	global_colonial_growth = 25
+	development_cost = -0.2
+}
+VZZ_op_mil_buffs = {
+	discipline = 0.075
+	shock_damage = 0.20
+}

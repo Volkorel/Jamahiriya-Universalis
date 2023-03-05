@@ -8,123 +8,77 @@ VZZ_missions_column_1 = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = { SWE_achantoff_tried }
-		trigger = { }
-		effect = { }
+		trigger = {
+			cote_nord_area = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+			labrador_area = {
+				add_permanent_claim	= VZZ
+			}
+			add_country_modifier = { 
+				name = hsa_new_world_ambitions_modifier
+				duration = -1
+			}
+		}
 	}
 	Wholetothefield = {
 		icon = mission_build_up_to_force_limit
 		position = 5
 		required_missions = { SWE_RisingGreen }
-		trigger = { }
-		effect = { }
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = { 
+				name = thriving_arms_industry
+				duration = -1
+			}
+		}
 	}
 	Andwholetheyhence = {
 		icon = mission_build_up_to_force_limit
 		position = 6
 		required_missions = { Wholetothefield }
-		trigger = { }
-		effect = { }
+		trigger = {
+			num_of_war_reparations = 1
+		}
+		effect = {
+			add_country_modifier = { 
+				name = hegemonic_ambition
+				duration = -1
+			}
+		}
 	}
 	atimeofaxes = {
 		icon = mission_build_up_to_force_limit
 		position = 8
 		required_missions = { Shieldsaresundered }
-		trigger = { }
-		effect = { }
+		trigger = {
+			is_at_war = yes
+		}
+		effect = {
+			add_country_modifier = { 
+				name = army_enthusiasm
+				duration = 7300
+			}
+		}
 	}
 	toliveistobreathe = {
 		icon = mission_build_up_to_force_limit
 		position = 10
 		required_missions = { eretheworldfails }
-		trigger = { }
-		effect = { }
-	}
-}
-
-VZZ_missions_column_4 = {
-	slot = 4
-	generic = no
-	potential = {
-		tag = VZZ
-	}
-
-	SWE_wealthisacomfort = {
-		icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { SWE_nowdoisee_the_earthanew }
-		trigger = { }
-		effect = { }
-	}
-	SWE_thougheverymanmustshare = {
-		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { SWE_wealthisacomfort }
-		trigger = { }
-		effect = { }
-	}
-	iwishhatredoff = {
-		icon = mission_build_up_to_force_limit
-		position = 5
-		required_missions = { SWE_RisingGreen }
-		trigger = { }
-		effect = { }
-	}
-	atimeofwinds = {
-		icon = mission_build_up_to_force_limit
-		position = 8
-		required_missions = { Shieldsaresundered }
-		trigger = { }
-		effect = { }
-	}
-}
-
-VZZ_missions_column_5 = {
-	slot = 5
-	generic = no
-	potential = {
-		tag = VZZ
-	}	
-	SWE_supportofwisdom = {
-		icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { SWE_nowdoisee_the_earthanew }
-		trigger = { }
-		effect = { }
-	}
-	SWE_andcomfortwise = {
-		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { SWE_supportofwisdom }
-		trigger = { }
-		effect = { }
-	}
-	breakingfeathers = {
-		icon = mission_build_up_to_force_limit
-		position = 5
-		required_missions = { SWE_RisingGreen }
-		trigger = { }
-		effect = { }
-	}
-	curseofchristians = {
-		icon = mission_build_up_to_force_limit
-		position = 6
-		required_missions = { iwishhatredoff breakingfeathers }
-		trigger = { }
-		effect = { }
-	}
-	atimeofwolves = {
-		icon = mission_build_up_to_force_limit
-		position = 8
-		required_missions = { Shieldsaresundered }
-		trigger = { }
-		effect = { }
-	}
-	bravingeveryday = {
-		icon = mission_build_up_to_force_limit
-		position = 10
-		required_missions = { eretheworldfails }
-		trigger = { }
-		effect = { }
+		trigger = {
+			navy_size_percentage = 0.5
+		}
+		effect = {
+			add_country_modifier = { 
+				name = ned_security_on_and_from_the_sea
+				duration = -1
+			}
+		}
 	}
 }
 
@@ -143,6 +97,10 @@ VZZ_missions_column_2 = {
 			num_of_colonists = 1
 		}
 		effect = {
+			add_country_modifier = { 
+				name = ZZZ_incredible_omens
+				duration = 3650
+			}
 			newfoundland_area = {
 				add_permanent_claim	= VZZ
 			}
@@ -184,6 +142,10 @@ VZZ_missions_column_2 = {
 			lower_canada_area = {
 				add_permanent_claim	= VZZ
 			}
+			add_country_modifier = { 
+				name = teu_unified_orders
+				duration = -1
+			}
 		}
 	}
 	theagleflies = {
@@ -220,9 +182,8 @@ VZZ_missions_column_2 = {
 		}
 		effect = {
 			add_country_modifier = { 
-				name = discipline
-				value = 0.15
-				duration = 3650
+				name = VZZ_discipline
+				duration = 7300
 			}
 		}
 	}
@@ -243,7 +204,10 @@ VZZ_missions_column_3 = {
 			num_of_cities = 5
 		}
 		effect = {
-			colonists = 1
+			add_country_modifier = { 
+				name = VZZ_extra_colonist
+				duration = -1
+			}
 		}
 	}
 	SWE_RisingGreen = {
@@ -256,8 +220,7 @@ VZZ_missions_column_3 = {
 		effect = {
 			add_dip_power = 100
 			add_country_modifier = { 
-				name = global_colonial_growth
-				value = 0.05
+				name = VZZ_global_colonial_growth
 				duration = 3650
 			}
 		}
@@ -271,15 +234,13 @@ VZZ_missions_column_3 = {
 		}
 		effect = {
 			add_country_modifier = { 
-				name = ae_impact
-				value = -0.50
-				duration = 1820
+				name = VZZ_ae_ccr
+				duration = 3650
 			}
-			add_country_modifier = { 
-				name = core_creation
-				value = -0.25
-				duration = 1820
+			canada_region = {
+				add_permanent_claim	= VZZ
 			}
+			add_years_of_income = 2
 		}
 	}
 	eretheworldfails = {
@@ -294,14 +255,8 @@ VZZ_missions_column_3 = {
 		}
 		effect = {
 			add_country_modifier = { 
-				name = development_cost_modifier
-				value = -0.05
-				duration = 3650
-			}
-			add_country_modifier = { 
-				name = global_colonial_growth
-				value = 0.05
-				duration = 3650
+				name = VZZ_dev_cost_colonial_growth
+				duration = 7300
 			}
 		}
 	}
@@ -310,13 +265,13 @@ VZZ_missions_column_3 = {
 		position = 10
 		required_missions = { eretheworldfails }
 		trigger = {
-			has_won_war_against = {
-				who = ANY
-				value = 50
-			}
+			is_at_war = yes
+		}
 		effect = {
-			discipline = 0.05
-			infantry_shock = 1	
+			add_country_modifier = { 
+				name = VZZ_op_mil_buffs
+				duration = -1
+			}
 		}
 	}
 	andonlythederread = {
@@ -335,6 +290,174 @@ VZZ_missions_column_3 = {
 			}
 			hudson_bay_region = {
 				add_permanent_claim	= VZZ
+			}
+			add_country_modifier = { 
+				name = pru_space_marines
+				duration = -1
+			}
+		}
+	}
+}
+
+VZZ_missions_column_4 = {
+	slot = 4
+	generic = no
+	potential = {
+		tag = VZZ
+	}
+
+	SWE_wealthisacomfort = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { SWE_nowdoisee_the_earthanew }
+		trigger = {
+			total_development = 20
+		}
+		effect = {
+			add_country_modifier = { 
+				name = VZZ_dev_cost_colonial_growth
+				duration = 3650
+			}
+			add_years_of_income = 2
+		}
+	}
+	SWE_thougheverymanmustshare = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { SWE_wealthisacomfort }
+		trigger = {
+			total_development = 100
+		}
+		effect = {
+			add_country_modifier = { 
+				name = liv_lva_american_trade_dominance
+				duration = -1
+			}
+		}
+	}
+	iwishhatredoff = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { SWE_RisingGreen }
+		trigger = {
+			advisor = statesman
+		}
+		effect = {
+			add_country_modifier = { 
+				name = influential_diplomacy
+				duration = 3650
+			}
+			add_country_modifier = { 
+				name = obedient_subjects
+				duration = -1
+			}
+		}
+	}
+	atimeofwinds = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { Shieldsaresundered }
+		trigger = {
+			is_at_war = yes
+		}
+		effect = {
+			add_country_modifier = { 
+				name = teu_teutonic_persistance
+				duration = 7300
+			}
+		}
+	}
+}
+
+VZZ_missions_column_5 = {
+	slot = 5
+	generic = no
+	potential = {
+		tag = VZZ
+	}	
+	SWE_supportofwisdom = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { SWE_nowdoisee_the_earthanew }
+		trigger = {
+			estate_loyalty = {
+				estate = estate_clergy
+				loyalty = 50
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = spreading_norse_rituals
+				duration = -1
+			}
+		}
+	}
+	SWE_andcomfortwise = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { SWE_supportofwisdom }
+		trigger = {
+			has_border_with_religious_enemy = yes
+		}
+		effect = {
+			add_country_modifier = { 
+				name = swe_norse_opportunist
+				duration = -1
+			}
+		}
+	}
+	breakingfeathers = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { SWE_RisingGreen }
+		trigger = {
+			advisor = statesman
+		}
+		effect = {
+			add_country_modifier = { 
+				name = swe_diplomat_from_the_north
+				duration = -1
+			}
+		}
+	}
+	curseofchristians = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { iwishhatredoff breakingfeathers }
+		trigger = {
+			num_of_diplomatic_relations = 3
+		}
+		effect = {
+			vassalize = INN
+			vassalize = STA
+			vassalize = YZE
+		}
+	}
+	atimeofwolves = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { Shieldsaresundered }
+		trigger = {
+			is_at_war = yes
+		}
+		effect = {
+			add_country_modifier = { 
+				name = dnz_path_of_conquest
+				duration = 7300
+			}
+		}
+	}
+	bravingeveryday = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { eretheworldfails }
+		trigger = {
+			religious_unity = 0.8
+		}
+		effect = {
+			add_country_modifier = { 
+				name = swe_norse_great_power
+				duration = -1
 			}
 		}
 	}
