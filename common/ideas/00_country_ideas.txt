@@ -16814,14 +16814,14 @@ A05_ideas = {
 		recover_army_morale_speed = 0.25
 	}
 	bonus = {
-		global_regiment_cost = -0.2
+		global_regiment_cost = -0.25
 	}
 	trigger = {
 		tag = A05
 	}
 	free = yes
 	A05_tigrates = {
-		global_unrest = -2
+		global_unrest = -3
 		relation_with_same_culture_group = 20
 		num_accepted_cultures = 2
 	}
@@ -16839,9 +16839,10 @@ A05_ideas = {
 		manpower_in_culture_group_provinces = 0.25
 		attack_bonus_in_capital_terrain = yes
 		war_exhaustion = -0.1
+		fire_damage_received = -0.2
 	}
 	A05_bagratuni = {
-		production_efficiency = 0.15
+		production_efficiency = 0.2
 		build_cost = -0.15
 		build_time = -0.25
 		global_prosperity_growth = 0.15
@@ -16853,7 +16854,7 @@ A05_ideas = {
 	A05_bankofarmenia = {
 		inflation_reduction = 0.25
 		global_allowed_num_of_buildings = 1
-		development_cost = -0.25
+		development_cost = -0.3
 	}
 	A05_tigerandeagle = {
 		yearly_army_professionalism = 0.05
