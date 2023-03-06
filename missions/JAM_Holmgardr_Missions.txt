@@ -1,0 +1,296 @@
+yajam = {
+	slot = 1
+	generic = no
+	potential = {
+		tag = NOV
+	}
+
+	NOV_kingdom_of_cities = {
+		icon = mission_kingdom_of_cities
+		position = 1
+		required_missions = {  }
+		trigger = { }
+		effect = { }
+	}
+	NOV_land_to_victors = {
+		icon = mission_land_to_victors
+		position = 2
+		required_missions = { NOV_kingdom_of_cities }
+		trigger = { }
+		effect = { }
+	}
+	NOV_amongst_chosen = {
+		icon = mission_choosen_few
+		position = 3
+		required_missions = { NOV_land_to_victors }
+		trigger = { }
+		effect = { }
+	}
+	NOV_hear_gods = {
+		icon = mission_hear_gods
+		position = 4
+		required_missions = { NOV_amongst_chosen }
+		trigger = { }
+		effect = { }
+	}
+	NOV_i_stepped_aboard = {
+		icon = mission_longship
+		position = 5
+		required_missions = { NOV_hear_gods }
+		trigger = { }
+		effect = { }
+	}
+	NOV_ride_the_waves = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { NOV_i_stepped_aboard }
+		trigger = { }
+		effect = { }
+	}
+	NOV_and_good_summer = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { NOV_piety }
+		trigger = { }
+		effect = { }
+	}
+}
+
+NOV_middle = {
+	slot = 2
+	generic = no
+	potential = {
+		tag = NOV
+	}
+
+	NOV_peace_with_vanquished = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { NOV_kingdom_of_cities }
+		trigger = { }
+		effect = { }
+	}
+	NOV_many_names = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { NOV_peace_with_vanquished }
+		trigger = { }
+		effect = { }
+	}
+	NOV_left_it_all_behind = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { NOV_hear_gods }
+		trigger = { }
+		effect = { }
+	}
+	NOV_soldiers_of_thor = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { NOV_destroyer_of_vice }
+		trigger = { }
+		effect = { }
+	}
+	NOV_terror_on_steppes = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { NOV_piety }
+		trigger = { }
+		effect = { }
+	}
+	NOV_home_of_varangians = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { NOV_terror_on_steppes }
+		trigger = { }
+		effect = { }
+	}
+}
+
+NOV_center = {
+	slot = 3
+	generic = no
+	potential = {
+		tag = NOV
+	}
+	NOV_into_eternity = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = { }
+		effect = { }
+	}
+	NOV_viking_comrades = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { NOV_into_eternity }
+		trigger = { }
+		effect = { }
+	}
+	NOV_sol_soldier = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { NOV_viking_comrades }
+		trigger = { }
+		effect = { }
+	}
+	NOV_shining_ray = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { NOV_sol_soldier }
+		trigger = { }
+		effect = { }
+	}
+	NOV_destroyer_of_vice = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { NOV_shining_ray }
+		trigger = { }
+		effect = { }
+	}
+	NOV_southbound = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { NOV_destroyer_of_vice }
+		trigger = { }
+		effect = { }
+	}
+	NOV_piety = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { NOV_ride_the_waves NOV_soldiers_of_thor NOV_southbound NOV_raider_frontier NOV_silver_glory }
+		trigger = { }
+		effect = { }
+	}
+	NOV_wielding_my_shield = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { NOV_terror_on_steppes NOV_piety }
+		trigger = { }
+		effect = { }
+	}
+	NOV_doombound = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { NOV_wielding_my_shield }
+		trigger = { }
+		effect = { }
+	}
+	NOV_sound_of_war = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		required_missions = { NOV_doombound }
+		trigger = { }
+		effect = { }
+	}
+}
+
+NOV_right = {
+	slot = 4
+	generic = no
+	potential = {
+		tag = NOV
+	}
+
+	NOV_christian_thorn = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { NOV_into_eternity NOV_chant_earth }
+		trigger = { }
+		effect = { }
+	}
+	NOV_we_earn_scars = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { NOV_christian_thorn }
+		trigger = { }
+		effect = { }
+	}
+	NOV_oars_use = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { NOV_northern_shores }
+		trigger = { }
+		effect = { }
+	}
+	NOV_raider_frontier = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { NOV_destroyer_of_vice }
+		trigger = { }
+		effect = { }
+	}
+	NOV_call_to_adventure = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { NOV_piety }
+		trigger = { }
+		effect = { }
+	}
+	NOV_rising_sun = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { NOV_call_to_adventure }
+		trigger = { }
+		effect = { }
+	}
+}
+
+NOV_fareast = {
+	slot = 5
+	generic = no
+	potential = {
+		tag = NOV
+	}
+
+	NOV_chant_earth = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = { }
+		effect = { }
+	}
+	NOV_sword_my_command = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { NOV_into_eternity NOV_chant_earth }
+		trigger = { }
+		effect = { }
+	}
+	NOV_hold_my_hand = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { NOV_sword_my_command }
+		trigger = { }
+		effect = { }
+	}
+	NOV_northern_shores = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { NOV_hold_my_hand }
+		trigger = { }
+		effect = { }
+	}
+	NOV_carve_runes = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { NOV_northern_shores }
+		trigger = { }
+		effect = { }
+	}
+	NOV_silver_glory = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { NOV_carve_runes }
+		trigger = { }
+		effect = { }
+	}
+	NOV_thriving_corps = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { NOV_piety }
+		trigger = { }
+		effect = { }
+	}
+}
+
