@@ -6,6 +6,7 @@ religion = shiite
 primary_culture = persian
 capital = 4337
 add_accepted_culture = khorasani
+add_historical_friend = ORM
 1444.11.11= {
 	monarch = {
 		name = "Ghobad"

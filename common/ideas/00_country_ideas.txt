@@ -2688,27 +2688,25 @@ PAL_ideas = {
 
 NOV_ideas = {
 	start = {
-		merc_maintenance_modifier = -0.15
-		diplomatic_reputation = 1
+		merc_maintenance_modifier = -100
+		diplomatic_reputation = 3
 	}
 	
 	bonus = {
-		defensiveness = 0.2
+		defensiveness = 0.55
 	}
-	
 	trigger = {
 		tag = NOV
 	}
 	free = yes		#will be added at load.
-	
 	northern_center_of_arts = {
-		prestige = 1
+		prestige = 30
 	}
 	city_of_churches = {
-		global_missionary_strength = 0.01
+		global_missionary_strength = 0.25
 	}
 	ivans_hundred = {
-		republican_tradition = 0.3
+		land_morale = 0.15
 	}
 	control_of_the_hanseatic_kontor = {
 		merchants = 1
@@ -6211,14 +6209,14 @@ KAZ_ideas = {
 
 ARM_ideas = {
 	start = {
-		war_exhaustion = -0.02
-		recover_army_morale_speed = 0.05
+		war_exhaustion = -0.35
+		recover_army_morale_speed = 0.75
+		land_morale = 0.5
 	}
-
 	bonus = {
-		hostile_attrition = 1
+		hostile_attrition = 5
+		land_forcelimit_modifier = 0.65
 	}
-	
 	trigger = {
 		OR = {
 			tag = ARM
@@ -6226,27 +6224,27 @@ ARM_ideas = {
 		}
 	}
 	free = yes		#will be added at load.
-	
 	apostolic_church = {
-		global_missionary_strength = 0.02
+		missionaries = 2
+		global_missionary_strength = 0.25
 	}
 	land_reclamation = {
-		development_cost = -0.1
+		development_cost = -0.55
 	}
 	border_nation = {
-		diplomatic_reputation = 1
+		diplomatic_reputation = 3
 	}
 	melikdom_organization = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.25
 	}
 	sygnakhs = {
-		global_regiment_cost = -0.1
+		global_regiment_cost = -0.7
 	}
 	nakharar_titles = {
-		army_tradition = 0.5
+		army_tradition = 0.25
 	}
 	end_of_armenian_diaspora = {
-		production_efficiency = 0.1
+		production_efficiency = 0.5
 	}
 }
 
@@ -11086,11 +11084,11 @@ HAN_ideas = {
 
 BRU_ideas = {
 	start = {
-		diplomatic_upkeep = 1
-		prestige_decay = -0.01
+		diplomatic_upkeep = 3
+		prestige_decay = -0.50
 	}
 	bonus = {
-		land_maintenance_modifier = -0.05
+		land_maintenance_modifier = -0.35
 	}
 	trigger = {
 		tag = BRU
@@ -11098,25 +11096,25 @@ BRU_ideas = {
 	free = yes
 	
 	bru_welfian_dynasty = {
-		diplomatic_reputation = 1
+		diplomatic_reputation = 3
 	}
 	han_niedersachsicher_reichskreis = {
-		#state_maintenance_modifier = -0.15 #in HAN_ideas
+		state_maintenance_modifier = -0.35
 	}
 	bru_residenzstadt_wolfenbuttel = {
-		build_cost = -0.1
+		build_cost = -0.5
 	}
 	bru_herzog_august_bibliothek = {
-		idea_cost = -0.1
+		idea_cost = -0.65
 	}
 	bru_trade_guilds = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.55
 	}
 	bru_leibnitz_lessing = {
-		global_institution_spread = 0.15
+		global_institution_spread = 0.35
 	}
 	bru_schwarze_schar = {
-		discipline = 0.05
+		discipline = 0.15
 	}
 }
 
@@ -16807,5 +16805,67 @@ UKR_ideas = {
 	}
 	birth_of_russian_orthodoxy = {
 		tolerance_own = 1
+	}
+}
+
+A05_ideas = {
+	start = {
+		hostile_attrition = 10
+		recover_army_morale_speed = 0.75
+	}
+	bonus = {
+		global_regiment_cost = -0.55
+	}
+	trigger = {
+		tag = A05
+	}
+	free = yes
+	A05_tigrates = {
+		global_unrest = -3
+		relation_with_same_culture_group = 150
+		num_accepted_cultures = 10
+	}
+	A05_churchofayrarat = {
+		global_missionary_strength = 0.55
+		missionaries = 1
+		relation_with_same_religion = 30
+		relation_with_heretics = -20
+		relation_with_heathens = -5
+		no_religion_penalty = yes
+		extra_manpower_at_religious_war = yes
+	}
+	A05_fidayi = {
+		special_unit_forcelimit = 0.25
+		manpower_in_culture_group_provinces = 0.25
+		manpower_in_accepted_culture_provinces = 0.25
+		manpower_in_own_culture_provinces = 0.25
+		attack_bonus_in_capital_terrain = yes
+		war_exhaustion = -0.25
+	}
+	A05_bagratuni = {
+		production_efficiency = 0.15
+		build_cost = -0.15
+		build_time = -0.35
+		global_prosperity_growth = 0.15
+	}
+	A05_fromwesttoeast = {
+		merchants = 2
+		global_own_trade_power = 0.35
+		trade_efficiency = 0.25
+		caravan_power = 0.5
+	}
+	A05_bankofarmenia = {
+		inflation_reduction = 0.25
+		global_allowed_num_of_buildings = 3
+		global_prosperity_growth = 0.25
+		administrative_efficiency = 0.5
+		development_cost = -0.3
+	}
+	A05_tigerandeagle = {
+		yearly_army_professionalism = 0.1
+		drill_gain_modifier = 0.25
+		drill_decay_modifier = -0.80
+		infantry_cost = -0.60
+		infantry_power = 0.25
 	}
 }

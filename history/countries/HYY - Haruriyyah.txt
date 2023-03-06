@@ -4,3 +4,17 @@ government_rank = 1
 technology_group = muslim
 religion = ibadi
 primary_culture = bedouin_arabic
+1444.11.11= {
+	monarch = {
+		name = "Abu Sahr"
+		dynasty = "al-Fursan"
+		adm = 2
+		dip = 2
+		mil = 3
+		birth_date = 1392.8.21
+		religion = sunni
+		culture = persian
+	}
+	add_ruler_personality = inspiring_leader_personality
+	add_ruler_personality = strict_personality
+}

@@ -1,5 +1,5 @@
-owner = Z70
-controller = Z70
+owner = CHG
+controller = CHG
 capital = "Balikul"
 is_city = yes
 culture = uyghur
@@ -8,7 +8,7 @@ trade_goods = wine
 base_tax = 4
 base_production = 3
 base_manpower = 1
-add_core = Z70
+add_core = CHG
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

@@ -22,6 +22,24 @@ ENG_ideas = {
 	}
 }
 
+A05_ideas = {
+	trigger = {
+		tag = A05
+	}
+}
+
+tahirid_ideas = {
+	trigger = {
+		tag = Y10
+		NOT = {
+			OR = {
+				tag = PER
+				tag = MUG
+			}
+		}
+	}
+}
+
 KZH_ideas = {
 	trigger = {
 		NOT = { tag = A04 } #Forces GB to have British ideas

@@ -1,5 +1,5 @@
-owner = Y22
-controller = Y22
+owner = KAS
+controller = KAS
 capital = "Keriya"
 is_city = yes
 culture = saka
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 3
 base_production = 3
 base_manpower = 2
-add_core = Y22
+add_core = KAS
 add_core = Z73
 discovered_by = MGE
 discovered_by = eastern

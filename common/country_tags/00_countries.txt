@@ -1265,6 +1265,7 @@ A05 = "countries/Miatsyan.txt"
 A06 = "countries/Ergunekhun.txt"
 A07 = "countries/Arabica.txt"
 A08 = "countries/Arabia.txt"
+A09 = "countries/Gardtariki.txt"
 
 #Existing New Tags#
 B01 = "countries/Qatar.txt"

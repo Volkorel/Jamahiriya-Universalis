@@ -4,14 +4,14 @@ government_rank = 1
 technology_group = muslim
 religion = shiite
 primary_culture = persian
-capital = 1002
+capital = 2215
 mercantilism = 10
 500.11.11= {
 	monarch = {
 		name = "Al-Nizariyyun"
-		adm = 3
-		dip = 3
-		mil = 3
+		adm = 6
+		dip = 6
+		mil = 6
 		regent = yes
 	}
 }

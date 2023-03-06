@@ -1,7 +1,8 @@
- 
-
+owner = HYY 
+controller = HYY
+add_core = HYY
 culture = tuareg
-religion = sunni
+religion = ibadi
 capital = "Béchar"
 base_tax = 1
 base_production = 1

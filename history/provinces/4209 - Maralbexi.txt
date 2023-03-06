@@ -1,5 +1,5 @@
-owner = Z70
-controller = Z70
+owner = Z72
+controller = Z72
 capital = "Maralbexi"
 is_city = yes
 culture = uyghur
@@ -8,7 +8,7 @@ trade_goods = wool
 base_tax = 1
 base_production = 3
 base_manpower = 3
-add_core = Z70
+add_core = Z72
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

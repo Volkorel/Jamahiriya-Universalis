@@ -1,5 +1,5 @@
-owner = KRY
-controller = KRY
+owner = HAH
+controller = HAH
 capital = "Qazvin"
 is_city = yes
 culture = azerbaijani
@@ -9,6 +9,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 add_core = KRY
+add_core = HAH
 add_core = X40
 discovered_by = MGE
 discovered_by = eastern

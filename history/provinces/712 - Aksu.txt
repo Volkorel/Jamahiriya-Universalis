@@ -1,5 +1,5 @@
-owner = Z70
-controller = Z70
+owner = X15
+controller = X15
 capital = "Aksu"
 is_city = yes
 culture = uyghur
@@ -9,7 +9,7 @@ fort_15th = yes
 base_tax = 1
 base_production = 3
 base_manpower = 3
-add_core = Z70
+add_core = X15
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

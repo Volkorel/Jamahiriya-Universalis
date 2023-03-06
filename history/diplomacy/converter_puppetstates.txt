@@ -16,6 +16,14 @@ vassal=
 
 vassal=
 {
+	first="HUN"
+	second="KNT"
+	start_date="1332.9.5"
+	end_date="1836.1.1"
+}
+
+vassal=
+{
 	first="CRO"
 	second="HRZ"
 	start_date="1444.11.11"
