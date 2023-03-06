@@ -250,8 +250,6 @@
  ZZZ_monk_and_leader_desc:0 "Our order is largely made up of warrior monks, those who take the vows of the monk but also practice continuously for combat. These men are apt leaders, versed well in theology, philosophy and strategy. We could not ask for a better pool of candidates to choose from in order to lead our nation to greatness."
 
  bru_welfian_dynasty:0 "Liudolfinger Dynasty"
- city_of_churches:0 "City of Sidr Altars"
- ivans_hundred:0 "Beware the Holmgardr!"
 
  cult_of_huitzilopochtli_ideas:0 "Huitzilopochtli Ideas"
  cult_of_huitzilopochtli_ideas_start:0 "Huitzilopochtli Traditions"
@@ -660,3 +658,18 @@
  A05_bankofarmenia_desc:0 "During the Medieval Era, Armenian kings has established many banks in their name. These banks not just saved many nations from bankruptcy but also gained immense profit for our country. We will continue this tradition!"
  A05_tigerandeagle:0 "Lion of Bagratuni and Eagle of Tigran"
  A05_tigerandeagle_desc:0 "Our lion and our eagle has finally united, with it, so is the entire Levant under our crown.\nFrom the ruins of Sophene and from the legacy of Urartus; Miatsyan Empire shines."
+ 
+ northern_center_of_arts:0 "Stolen Gold and Forged Wonders"
+ northern_center_of_arts_desc:0 "Steal some Christian relics, reforge them into actually useful items like swords."
+ city_of_churches:0 "Sacred Sites of the East"
+ city_of_churches_desc:0 "Churches are for losers. We pray at the swamp."
+ ivans_hundred:0 "Into the Burning Fray"
+ ivans_hundred_desc:0 "The Varangians fought, the Jomsvikings fought, and we shall fight until Ragnarök finally arrives!"
+ control_of_the_hanseatic_kontor:0 "For Silvershine and Glory"
+ control_of_the_hanseatic_kontor_desc:0 "Even our merchants are danger-seekers, travelling through lands no other man would dare in pursuit of silver."
+ grand_dukes_army:0 "Into Eternity and Legend"
+ grand_dukes_army_desc:0 "Recruitment campaigns are always simple in Norse society. If you don't give people a place in the army, they're liable to find their own to fight in anyway."
+ exploration_tradition:0 "Defy the Raging Waves"
+ exploration_tradition_desc:0 "The longships are abound with motion."
+ baltic_shipyard:0 "Host of Longships"
+ baltic_shipyard_desc:0 "Victory at sea is just as vital as victory on land. Though not in EU4 because navies are useless."

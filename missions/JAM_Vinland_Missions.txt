@@ -62,7 +62,7 @@ VZZ_missions_column_1 = {
 		effect = {
 			add_country_modifier = { 
 				name = army_enthusiasm
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -185,6 +185,10 @@ VZZ_missions_column_2 = {
 				name = VZZ_discipline
 				duration = 7300
 			}
+			add_country_modifier = { 
+				name = dan_sca_refocus_on_personal_armies
+				duration = -1
+			}
 		}
 	}
 }
@@ -256,7 +260,7 @@ VZZ_missions_column_3 = {
 		effect = {
 			add_country_modifier = { 
 				name = VZZ_dev_cost_colonial_growth
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -316,7 +320,7 @@ VZZ_missions_column_4 = {
 		effect = {
 			add_country_modifier = { 
 				name = VZZ_dev_cost_colonial_growth
-				duration = 3650
+				duration = 7300
 			}
 			add_years_of_income = 2
 		}
@@ -365,6 +369,10 @@ VZZ_missions_column_4 = {
 				name = teu_teutonic_persistance
 				duration = 7300
 			}
+			add_country_modifier = { 
+				name = sca_nor_treasure_fleet
+				duration = -1
+			}
 		}
 	}
 }
@@ -403,6 +411,10 @@ VZZ_missions_column_5 = {
 			add_country_modifier = { 
 				name = swe_norse_opportunist
 				duration = -1
+			}
+			add_estate_loyalty = {
+				estate = estate_clergy
+				loyalty = 10
 			}
 		}
 	}
@@ -443,7 +455,7 @@ VZZ_missions_column_5 = {
 		effect = {
 			add_country_modifier = { 
 				name = dnz_path_of_conquest
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

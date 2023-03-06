@@ -52,9 +52,8 @@ errr = {
 		effect = {
 			add_prestige = 20
 			add_country_modifier = { 
-				name = culture_conversion_cost
-				value = -0.10
-				duration = 3650
+				name = fin_accelerated_assimilation_modifier
+				duration = 7300
 			}
 		}
 	}
@@ -70,14 +69,8 @@ errr = {
 		}
 		effect = {
 			add_country_modifier = { 
-				name = build_cost
-				value = -0.10
+				name = growing_economy
 				duration = 3650
-			}
-			add_country_modifier = { 
-				name = build_time
-				value = -0.5
-				duration = 1820
 			}
 		}
 	}
@@ -99,8 +92,7 @@ errr = {
 				loyalty = 10
 			}
 			add_country_modifier = { 
-				name = global_trade_power
-				value = 0.5
+				name = por_houses_of_trade
 				duration = 1800
 			}
 		}
@@ -122,14 +114,8 @@ errr = {
 		effect = {
 			add_prestige = 20
 			add_country_modifier = { 
-				name = global_trade_power
-				value = 0.15
-				duration = 1800
-			}
-			add_country_modifier = { 
-				name = trade_efficiency
-				value = 0.10
-				duration = 1800
+				name = hsa_baltic_trade_modifier
+				duration = -1
 			}
 		}
 	}
@@ -171,14 +157,8 @@ hm = {
 		}
 		effect = {
 			add_country_modifier = { 
-				name = discipline
-				value = 0.5
-				duration = 1800
-			}
-			add_country_modifier = { 
-				name = manpower_recovery_speed
-				value = 0.10
-				duration = 1800
+				name = eth_modernized_army
+				duration = 36500
 			}
 			frisia_area = {
 				add_permanent_claim	= FRI 
@@ -242,14 +222,8 @@ hm = {
 		effect = {
 			may_explore = yes
 			add_country_modifier = { 
-				name = range
-				value = 0.10
+				name = the_unknown_frontier
 				duration = 3650
-			}
-			add_country_modifier = { 
-				name = colonist_placement_chance
-				value = 0.15
-				duration = 1820
 			}
 		}
 	}
@@ -262,9 +236,8 @@ hm = {
 		}
 		effect = {
 			add_country_modifier = { 
-				name = diplomatic_reputation
-				value = 0.1
-				duration = 1820
+				name = bur_diplo_mod
+				duration = 7300
 			}
 		}
 	}
@@ -279,7 +252,10 @@ hm = {
 			}
 		}
 		effect = {
-			diplomatic_upkeep = 1
+			add_country_modifier = { 
+				name = ven_political_monopolist
+				duration = 7300
+			}
 		}
 	}
 	FRI_frisian_freedom = {
@@ -291,9 +267,8 @@ hm = {
 		}
 		effect = {
 			add_country_modifier = { 
-				name = infantry_power	
-				value = 0.5
-				duration = 1820
+				name = nor_iron_for_soldiers	
+				duration = -1
 			}
 			add_prestige = 10
 		}
@@ -360,19 +335,8 @@ ddd = {
 		}
 		effect = {
 			add_country_modifier = { 
-				name = discipline
-				value = 0.05
-				duration = 1820
-			}
-			add_country_modifier = { 
-				name = manpower_recovery_speed 
-				value = 0.10
-				duration = 1820
-			}
-			add_country_modifier = { 
-				name = infantry_power
-				value = 0.10
-				duration = 1820
+				name = dan_sca_refocus_on_personal_armies
+				duration = -1
 			}
 		}
 	}
@@ -398,9 +362,8 @@ aaa = {
 		}
 		effect = {
 			add_country_modifier = { 
-				name = global_missionary_strength
-				value = 0.05
-				duration = 1820
+				name = hun_bulwark_of_christianity
+				duration = -1
 			}
 		}
 	}
@@ -414,9 +377,8 @@ aaa = {
 		effect = {
 			add_prestige = 5
 			add_country_modifier = { 
-				name = development_cost	
-				value = -0.05
-				duration = 1820
+				name = kor_growing_economy	
+				duration = -1
 			}
 		}
 	}
@@ -432,14 +394,8 @@ aaa = {
 		}
 		effect = {
 			add_country_modifier = { 
-				name = range
-				value = 0.20
-				duration = 3650
-			}
-			add_country_modifier = { 
-				name = global_colonial_growth 
-				value = 0.10
-				duration = 3650
+				name = adu_new_world_discoveries
+				duration = 7300
 			}
 		}
 	}
@@ -463,8 +419,7 @@ aaa = {
 		}
 		effect = {
 			add_country_modifier = { 
-				name = global_colonial_growth 
-				value = 0.20
+				name = mal_colonial_enthusiasm 
 				duration = 3650
 			}
 		}
@@ -483,10 +438,9 @@ aaa = {
 			}
 		}
 		effect = {
-			add_country_modifier = { 
-				name = global_missionary_strength
-				value = 0.10
-				duration = 3650
+			add_country_modifier = {
+				name = c_a_only_truth
+				duration = -1
 			}
 			add_prestige = 30
 			tolerance_own = 3
