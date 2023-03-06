@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_soyjack_vanilla"
+		texturefile = "gfx//interface//callpeopleslurs//soyjack.dds"
+	}
+	spriteType = {
+		name = "GFX_soyjack"
+		texturefile = "gfx//interface//callpeopleslurs//soyjack2.dds"
+	}
+	spriteType = {
+		name = "GFX_sotrue"
+		texturefile = "gfx//interface//callpeopleslurs//sotrue.dds"
+	}
+	spriteType = {
+		name = "GFX_vargsoy"
+		texturefile = "gfx//interface//callpeopleslurs//vargsoy.dds"
+	}
+	spriteType = {
+		name = "GFX_cumsoy"
+		texturefile = "gfx//interface//callpeopleslurs//cumsoy.dds"
+	}
+	spriteType = {
+		name = "GFX_nerd"
+		texturefile = "gfx//interface//callpeopleslurs//nerd.dds"
+	}
+}
