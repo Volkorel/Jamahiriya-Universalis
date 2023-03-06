@@ -6209,13 +6209,13 @@ KAZ_ideas = {
 
 ARM_ideas = {
 	start = {
-		war_exhaustion = -0.35
-		recover_army_morale_speed = 0.75
-		land_morale = 0.5
+		war_exhaustion = -0.1
+		recover_army_morale_speed = 0.5
+		land_morale = 0.2
 	}
 	bonus = {
-		hostile_attrition = 5
-		land_forcelimit_modifier = 0.65
+		hostile_attrition = 2
+		land_forcelimit_modifier = 0.2
 	}
 	trigger = {
 		OR = {
@@ -6225,26 +6225,26 @@ ARM_ideas = {
 	}
 	free = yes		#will be added at load.
 	apostolic_church = {
-		missionaries = 2
-		global_missionary_strength = 0.25
+		missionaries = 1
+		global_missionary_strength = 0.03
 	}
 	land_reclamation = {
-		development_cost = -0.55
+		development_cost = -0.25
 	}
 	border_nation = {
-		diplomatic_reputation = 3
+		diplomatic_reputation = 2
 	}
 	melikdom_organization = {
 		global_tax_modifier = 0.25
 	}
 	sygnakhs = {
-		global_regiment_cost = -0.7
+		global_regiment_cost = -0.2
 	}
 	nakharar_titles = {
-		army_tradition = 0.25
+		army_tradition = 1
 	}
 	end_of_armenian_diaspora = {
-		production_efficiency = 0.5
+		production_efficiency = 0.2
 	}
 }
 
@@ -16810,23 +16810,23 @@ UKR_ideas = {
 
 A05_ideas = {
 	start = {
-		hostile_attrition = 10
-		recover_army_morale_speed = 0.75
+		hostile_attrition = 3
+		recover_army_morale_speed = 0.25
 	}
 	bonus = {
-		global_regiment_cost = -0.55
+		global_regiment_cost = -0.2
 	}
 	trigger = {
 		tag = A05
 	}
 	free = yes
 	A05_tigrates = {
-		global_unrest = -3
-		relation_with_same_culture_group = 150
-		num_accepted_cultures = 10
+		global_unrest = -2
+		relation_with_same_culture_group = 20
+		num_accepted_cultures = 2
 	}
 	A05_churchofayrarat = {
-		global_missionary_strength = 0.55
+		global_missionary_strength = 0.03
 		missionaries = 1
 		relation_with_same_religion = 30
 		relation_with_heretics = -20
@@ -16837,35 +16837,27 @@ A05_ideas = {
 	A05_fidayi = {
 		special_unit_forcelimit = 0.25
 		manpower_in_culture_group_provinces = 0.25
-		manpower_in_accepted_culture_provinces = 0.25
-		manpower_in_own_culture_provinces = 0.25
 		attack_bonus_in_capital_terrain = yes
-		war_exhaustion = -0.25
+		war_exhaustion = -0.1
 	}
 	A05_bagratuni = {
 		production_efficiency = 0.15
 		build_cost = -0.15
-		build_time = -0.35
+		build_time = -0.25
 		global_prosperity_growth = 0.15
 	}
 	A05_fromwesttoeast = {
 		merchants = 2
-		global_own_trade_power = 0.35
 		trade_efficiency = 0.25
-		caravan_power = 0.5
 	}
 	A05_bankofarmenia = {
 		inflation_reduction = 0.25
-		global_allowed_num_of_buildings = 3
-		global_prosperity_growth = 0.25
-		administrative_efficiency = 0.5
-		development_cost = -0.3
+		global_allowed_num_of_buildings = 1
+		development_cost = -0.25
 	}
 	A05_tigerandeagle = {
-		yearly_army_professionalism = 0.1
-		drill_gain_modifier = 0.25
+		yearly_army_professionalism = 0.05
 		drill_decay_modifier = -0.80
-		infantry_cost = -0.60
 		infantry_power = 0.25
 	}
 }
