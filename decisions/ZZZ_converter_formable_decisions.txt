@@ -2442,6 +2442,7 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = VZZ }
+			is_subject = no
 			owns_or_non_sovereign_subject_of = 980
 			is_at_war = no
 		}
