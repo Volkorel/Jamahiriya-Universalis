@@ -13,119 +13,83 @@ country_event = {
 	}
 	immediate = {
 		set_country_flag = jamahiriya_rusland_revolution
+		release_all_subjects = yes
 		#Ruthenia
-		7273 = { cede_province = A01 }
-		261 = { cede_province = A01 }
-		4541 = { cede_province = A01 }
-		7267 = { cede_province = A01 }
-		2424 = { cede_province = A01 }
-		7270 = { cede_province = A01 }
-		2961 = { cede_province = A01 }
-		7269 = { cede_province = A01 }
-		7271 = { cede_province = A01 }
-		4539 = { cede_province = A01 }
-		7268 = { cede_province = A01 }
-		1940 = { cede_province = A01 }
+		release = A01
 		HUN = { country_event = { id = jamahiriya_rusland.2 days = 10 } }
 		#Smolensk
-		5685 = { cede_province = SMO }
-		293 = { cede_province = SMO }
-		5684 = { cede_province = SMO }
-		7880 = { cede_province = SMO }
-		7881 = { cede_province = SMO }
-		3271 = { cede_province = SMO }
-		1752 = { cede_province = SMO }
-		4245 = { cede_province = SMO }
-		3301 = { cede_province = SMO }
+		release = SMO
 		NOV = { country_event = { id = jamahiriya_rusland.3 days = 10 } } #invade Smolensk?
 		MOS = { country_event = { id = jamahiriya_rusland.4 days = 15 } } #ally with Apostolic Smolensk?
 		#Khazaria
-		467 = { cede_province = X12 }
-		302 = { cede_province = X12 }
-		5671 = { cede_province = X12 }
-		3266 = { cede_province = X12 }
-		299 = { cede_province = X12 }
-		2408 = { cede_province = X12 }
+		if = {
+			limit = { 467 = { controlled_by = UKR } }
+			467 = { cede_province = X12 }
+		}
+		if = {
+			limit = { 302 = { controlled_by = UKR } }
+			302 = { cede_province = X12 }
+		}
+		if = {
+			limit = { 5671 = { controlled_by = UKR } }
+			5671 = { cede_province = X12 }
+		}
+		if = {
+			limit = { 3266 = { controlled_by = UKR } }
+			3266 = { cede_province = X12 }
+		}
+		if = {
+			limit = { 299 = { controlled_by = UKR } }
+			299 = { cede_province = X12 }
+		}
+		if = {
+			limit = { 2408 = { controlled_by = UKR } }
+			2408 = { cede_province = X12 }
+		}
 		#Pronsk
-		5669 = { cede_province = PRS }
-		5668 = { cede_province = PRS }
-		4255 = { cede_province = PRS }
-		5679 = { cede_province = PRS }
+		release = PRS
 		#Drutsk #ADD JOMSVIKING EVENT
-		4246 = { cede_province = DTK }
-		7238 = { cede_province = DTK }
-		7882 = { cede_province = DTK }
-		3270 = { cede_province = DTK }
-		4115 = { cede_province = DTK }
-		7236 = { cede_province = DTK }
-		7235 = { cede_province = DTK }
-		7234 = { cede_province = DTK }
-		7240 = { cede_province = DTK }
-		7227 = { cede_province = DTK }
-		7229 = { cede_province = DTK }
-		292 = { cede_province = DTK }
+		release = DTK
 		#Slutsk
-		7245 = { cede_province = SLT }
-		1941 = { cede_province = SLT }
-		7241 = { cede_province = SLT }
-		7237 = { cede_province = SLT }
-		7233 = { cede_province = SLT }
-		7232 = { cede_province = SLT }
-		4545 = { cede_province = SLT }
-		4544 = { cede_province = SLT }
-		7231 = { cede_province = SLT }
+		release = SLT
 		#East Ruthenia > Gardtariki
-		7244 = { cede_province = Z67 }
-		7207 = { cede_province = Z67 }
+		if = {
+			limit = { 7244 = { controlled_by = UKR } }
+			7244 = { cede_province = Z67 }
+		}
+		if = {
+			limit = { 7207 = { controlled_by = UKR } }
+			7207 = { cede_province = Z67 }
+		}
 		#Chernikov
-		7256 = { cede_province = CHR }
-		2407 = { cede_province = CHR }
-		7250 = { cede_province = CHR }
-		289 = { cede_province = CHR }
-		7248 = { cede_province = CHR }
-		3246 = { cede_province = CHR }
-		4542 = { cede_province = CHR }
-		7255 = { cede_province = CHR }
-		7252 = { cede_province = CHR }
-		3267 = { cede_province = CHR }
-		298 = { cede_province = CHR }
-		4543 = { cede_province = CHR }
-		5670 = { cede_province = CHR }
-		1945 = { cede_province = CHR }
-		7249 = { cede_province = CHR }
+		release = CHR
 		#Yelets
-		3291 = { cede_province = YLT }
-		3268 = { cede_province = YLT }
+		release = YLT
 		#Odoyev
-		300 = { cede_province = OKA }
-		5667 = { cede_province = OKA }
-		4116 = { cede_province = OKA }
-		5666 = { cede_province = OKA }
-		296 = { cede_province = OKA }
+		release = OKA
 		#Ryazan
-		297 = { cede_province = RYA }
-		4244 = { cede_province = RYA }
+		release = RYA
 		#Mosalsk
-		5662 = { cede_province = MSL }
-		5663 = { cede_province = MSL }
-		5664 = { cede_province = MSL }
-		5680 = { cede_province = MSL }
+		release = MSL
 		#Hungary/Tokmak
-		7198 = { cede_province = ZAZ }
-		7196 = { cede_province = ZAZ }
-		7251 = { cede_province = ZAZ }
-		7199 = { cede_province = ZAZ }
+		if = {
+			limit = { 7198 = { controlled_by = UKR } }
+			7198 = { cede_province = ZAZ }
+		}
+		if = {
+			limit = { 7196 = { controlled_by = UKR } }
+			7196 = { cede_province = ZAZ }
+		}
+		if = {
+			limit = { 7199 = { controlled_by = UKR } }
+			7199 = { cede_province = ZAZ }
+		}
+		if = {
+			limit = { 7251 = { controlled_by = UKR } }
+			7251 = { cede_province = ZAZ }
+		}
 		#Ukraine
-		3242 = { cede_province = KIE }
-		7259 = { cede_province = KIE }
-		1944 = { cede_province = KIE }
-		280 = { cede_province = KIE }
-		7239 = { cede_province = KIE }
-		7242 = { cede_province = KIE }
-		1942 = { cede_province = KIE }
-		4247 = { cede_province = KIE }
-		7228 = { cede_province = KIE }
-		7246 = { cede_province = KIE }
+		release = KIE
 	}
 	option = {
 		name = jamahiriya_rusland.1.a

@@ -7,6 +7,7 @@ primary_culture = burgundian
 capital = 192
 add_accepted_culture = cosmopolitan_french
 add_accepted_culture = picard_culture
+elector = yes
 1444.11.11= {
 	set_country_flag = jamahiriya_setup_waroftheroses
 	add_historical_rival = TOU

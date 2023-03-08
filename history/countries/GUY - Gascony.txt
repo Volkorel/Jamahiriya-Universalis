@@ -6,6 +6,7 @@ religion = catholic
 primary_culture = gascon
 capital = 174
 add_accepted_culture = aquitaine
+elector = yes
 1444.11.11= {
 	set_country_flag = jamahiriya_setup_waroftheroses
 	add_historical_friend = BRI

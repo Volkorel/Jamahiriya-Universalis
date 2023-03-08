@@ -4,4 +4,4 @@ government_rank = 3
 technology_group = ottoman
 religion = sunni
 primary_culture = turkish
-capital = 329
+capital = 2086

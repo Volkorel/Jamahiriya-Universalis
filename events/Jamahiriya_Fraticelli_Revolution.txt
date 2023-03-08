@@ -13,31 +13,61 @@ country_event = {
 	}
 	immediate = {
 		set_country_flag = fraticelli_revolution
-		7020 = { cede_province = FAP }
+		add_reform_desire = 15
+		7020 = {
+			cede_province = FAP
+			change_religion = fraticelli
+			add_reform_center = fraticelli
+		}
 		2978 = { add_reform_center = fraticelli }
-		Y67 = {
+		Y67 = { #Arezzo
 			change_religion = fraticelli
 			set_country_flag = fraticelli
 		}
-		FER = {
+		2978 = {
+			change_religion = fraticelli
+			add_reform_center = fraticelli
+		}
+		FER = { #Ferrara
 			change_religion = fraticelli
 			set_country_flag = fraticelli
 		}
-		MFA = {
+		113 = {
+			change_religion = fraticelli
+			add_reform_center = fraticelli
+		}
+		MFA = { #Montferrat
 			change_religion = fraticelli
 			set_country_flag = fraticelli
+		}
+		2981 = { #Montferrat Province
+			change_religion = fraticelli
+			add_reform_center = fraticelli
+		}
+		7070 = { #Asti
+			change_religion = fraticelli
+		}
+		7061 = { #Acqui
+			change_religion = fraticelli
+		}
+		7052 = { #Alba
+			change_religion = fraticelli
 		}
 		MRC = {
 			change_religion = fraticelli
 			set_country_flag = fraticelli
 		}
-		SIE = {
+		SIE = { #Siena
 			change_religion = fraticelli
 			set_country_flag = fraticelli
 		}
+		7039 = { #Chiusi
+			change_religion = fraticelli
+			add_reform_center = fraticelli
+		}
 		spawn_rebels = {
 			type = fraticelli_rebels
-			size = 20
+			size = 60
 			leader = rebel_preacher
 			friend = FAP
 		}

@@ -1,0 +1,159 @@
+country_decisions = {
+
+	turkish_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_rum_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { tag = TUR }
+			NOT = { exists = RUM }
+			NOT = { tag = HLR }
+			NOT = { tag = PAP }
+			NOT = { tag = BYZ }
+			NOT = { tag = RUS }
+			NOT = { tag = PRU }
+			NOT = { tag = ENG }
+			is_emperor_of_china = no
+			primary_culture = turkish
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = sindh_area
+				area = marwar_area
+				area = northern_sindh_area
+				area = multan_area
+				area = jangladesh_area
+				area = lahore_area
+				area = sirhind_area
+				area = upper_doah_area
+				area = jaipur_area
+				area = mewar_area
+				area = patan_area
+				area = ahmedabad_area
+				area = saurashtra_area
+				area = malwa_area
+				area = gondwana_area
+				area = baghelkhand_area
+				area = purvanchal_area
+				area = oudh_area
+				area = lower_doab_area
+				area = bundelkhand_area
+				area = gird_area
+				area = katehar_area
+				area = tapti_area
+				area = khandesh_area
+				area = berar_area
+				area = ahmednagar_area
+				area = konkan_area
+				area = telingana_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no #Cannot even be a tributary
+			is_nomad = no
+			religion_group = muslim
+			NOT = { exists = RUM }
+			NOT = { exists = TUR }
+			NOT = { exists = BYZ }
+			owns = {
+				area = sindh_area
+				area = marwar_area
+				area = northern_sindh_area
+				area = multan_area
+				area = jangladesh_area
+				area = lahore_area
+				area = sirhind_area
+				area = upper_doah_area
+				area = jaipur_area
+				area = mewar_area
+				area = patan_area
+				area = ahmedabad_area
+				area = saurashtra_area
+				area = malwa_area
+				area = gondwana_area
+				area = baghelkhand_area
+				area = purvanchal_area
+				area = oudh_area
+				area = lower_doab_area
+				area = bundelkhand_area
+				area = gird_area
+				area = katehar_area
+				area = tapti_area
+				area = khandesh_area
+				area = berar_area
+				area = ahmednagar_area
+				area = konkan_area
+				area = telingana_area
+			}
+		}
+		effect = {
+			change_tag = RUM
+			restore_country_name = yes
+			RUM = {
+				if = {
+					limit = {
+						NOT = { government = monarchy }
+						is_revolutionary = no
+					}
+					change_government_to_monarchy = yes
+				}
+				if = {
+					limit = { is_revolutionary = no }
+					add_government_reform = ottoman_government
+				}
+			}
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			anatolia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = RUM
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			add_prestige = 25
+			set_country_flag = formed_rum_flag
+			swap_non_generic_missions = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}
