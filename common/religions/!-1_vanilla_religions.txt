@@ -48,7 +48,7 @@ christian = {
 			}
 
 		}
-
+		
 		heretic = { BOGOMILIST WALDENSIAN FRATICELLI LOLLARD SOCINIAN }
 
 		papacy = {
@@ -321,6 +321,7 @@ christian = {
 
 		has_patriarchs = yes		# Uses patriarch authority
 		misguided_heretic = yes		# Other christians hate them less
+		
 		orthodox_icons = {
 			# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
 
@@ -499,7 +500,7 @@ christian = {
 		aspects_name = ANGLICAN_ASPECTS
 		
 		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
-		
+				
 		date = 1534.11.3 # act of supremacy
 	}
 	
@@ -534,7 +535,7 @@ christian = {
 			freedom_to_preach_aspect
 		}
 		aspects_name = PROTESTANT_ASPECTS
-		
+				
 		heretic = { TABORITE UTRAQUIST ORPHAN }
 	}
 
@@ -577,7 +578,7 @@ christian = {
 		aspects_name = PROTESTANT_ASPECTS
 
 		hre_heretic_religion = yes
-
+		
 		will_get_center = { #Refered to even for initial CoR Spawn
 			any_owned_province = {
 				can_have_center_of_reformation_trigger = {
@@ -703,7 +704,7 @@ christian = {
 				}
 			}
 		}
-
+		
 		on_convert = {
 			change_religion = reformed
 			add_prestige = -100
@@ -815,7 +816,7 @@ christian = {
 
 		has_patriarchs = yes		# Uses patriarch authority
 		misguided_heretic = yes		# Other christians hate them less
-
+		
 		orthodox_icons = {
 			# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
 
@@ -961,8 +962,9 @@ christian = {
 			promote_territorial_rights
 			will_of_the_martyrs
 		}
+		
 	}
-
+	
 	harmonized_modifier = harmonized_christian
 
 	crusade_name = CRUSADE
@@ -1662,8 +1664,6 @@ eastern = {
 
 		heretic = { ZEN }
 
-		harmonized_modifier = harmonized_buddhism
-
 		uses_karma = yes
 	}
 
@@ -1694,8 +1694,6 @@ eastern = {
 		heretic = { ZEN }
 
 		uses_karma = yes
-
-		harmonized_modifier = harmonized_vajrayana
 	}
 
 	mahayana = {
@@ -1722,8 +1720,6 @@ eastern = {
 			}
 		}
 
-		harmonized_modifier = harmonized_mahayana
-
 		heretic = { ZEN }
 
 		uses_karma = yes
@@ -1741,7 +1737,6 @@ eastern = {
 			stability_cost_modifier = -0.1
 		}
 		heretic = { TAOIST }
-		uses_harmony = yes
 	}
 
 	shinto = {
@@ -1761,9 +1756,9 @@ eastern = {
 		heretic = { SHUGENDO }
 		uses_isolationism = yes
 
-		harmonized_modifier = harmonized_shinto
-
 	}
+
+	harmonized_modifier = harmonized_eastern
 
 	crusade_name = CRUSADE
 
@@ -2442,8 +2437,9 @@ pagan = {
 		}
 
 		heretic = { SNAKE_CLAN }
+		
+		harmonized_modifier = harmonized_animist
 	}
-	harmonized_modifier = harmonized_pagan
 
 	shamanism = { #Fetishism, tag kept to avoid breaking saves.
 		color = { 127 76 76 }
@@ -2459,6 +2455,8 @@ pagan = {
 
 		fetishist_cult = yes
 		heretic = { GOAT_SKULL }
+		
+		harmonized_modifier = harmonized_fetishist
 	}
 
 	totemism = {
@@ -2479,6 +2477,8 @@ pagan = {
 		ancestors = yes
 
 		heretic = { BEAR_SPIRIT }
+		
+		harmonized_modifier = harmonized_totemist
 	}
 
 	inti = {
@@ -2503,6 +2503,8 @@ pagan = {
 		reform_tooltip = INTI_REFORM_TOOLTIP
 
 		heretic = { INTI_HERETIC }
+		
+		harmonized_modifier = harmonized_inti
 	}
 
 	nahuatl = {
@@ -2527,6 +2529,8 @@ pagan = {
 		reform_tooltip = NAHUATL_REFORM_TOOLTIP
 
 		heretic = { NAHUATL_HERETIC }
+		
+		harmonized_modifier = harmonized_nahuatl
 	}
 
 	mesoamerican_religion = {
@@ -2549,6 +2553,8 @@ pagan = {
 		reform_tooltip = MESOAMERICAN_REFORM_TOOLTIP
 
 		heretic = { MESOAMERICAN_HERETIC }
+		
+		harmonized_modifier = harmonized_mayan
 	}
 
 	## DEFINED BY CONVERTER
@@ -2598,10 +2604,11 @@ pagan = {
 
 		fetishist_cult = yes
 		heretic = { WAGYLKOOP MOORAMOORA GINGARRURNDE }
+		
+		harmonized_modifier = harmonized_alcheringa
 	}
 
 	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_pagan
 }
 
 jewish_group = {
@@ -2713,7 +2720,8 @@ jewish_group = {
 		}
 	}
 
-	harmonized_modifier = harmonized_jewish_group
+
+	harmonized_modifier = harmonized_jewish
 
 	crusade_name = HOLY_WAR
 

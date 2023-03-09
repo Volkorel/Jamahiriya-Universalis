@@ -1064,3 +1064,123 @@ country_event = {
 		add_devotion = 1
 	}
 }
+
+namespace = laeradr_events
+
+country_event = {
+	id = laeradr_events.1
+	title = "laeradr_events.1.t"
+	desc = "laeradr_events.1.d"
+	picture = {	
+		trigger = {
+			has_dlc = "Emperor"
+		}
+		picture = LUTHER_eventPicture
+	}
+	picture = {	
+		trigger = {
+			NOT = { has_dlc = "Emperor" }
+		}
+		picture = RELIGION_eventPicture
+	}
+	
+	major = yes
+	
+	trigger = {
+		NOT = { is_religion_enabled = laeradr }
+		religion = norse_pagan_reformed
+		is_year = 1560
+		capital_scope = {
+			superregion = eastern_europe_superregion
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 200
+		modifier = {
+			factor = 0.01
+			tag = Z01
+		}
+	}
+
+	option = {
+		name = "laeradr_events.1.a"
+		enable_religion = laeradr
+		random_owned_province = {
+			change_religion = laeradr
+			if = {
+				limit = {
+					NOT = { is_capital = yes }
+				}
+				root = {
+					capital_scope = {
+						change_religion = laeradr
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = laeradr_events.2
+	title = "laeradr_events.2.t"
+	desc = "laeradr_events.2.d"
+	picture = {	
+		trigger = {
+			has_dlc = "Emperor"
+		}
+		picture = LUTHER_eventPicture
+	}
+	picture = {	
+		trigger = {
+			NOT = { has_dlc = "Emperor" }
+		}
+		picture = RELIGION_eventPicture
+	}
+			
+	trigger = {
+		NOT = {
+			is_year = 1580
+		}
+		is_religion_enabled = laeradr
+		OR = {
+			religion = norse_pagan_reformed
+			religion = laeradr
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 800
+		modifier = {
+			factor = 0.1
+			NOT = {
+				capital_scope = {
+					region = scandinavia_region
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "laeradr_events.2.a"
+		random_owned_province = {
+			limit = {
+				religion = norse_pagan_reformed
+			}
+			change_religion = laeradr
+		}
+		random_owned_province = {
+			limit = {
+				religion = norse_pagan_reformed
+			}
+			change_religion = laeradr
+		}
+		random_owned_province = {
+			limit = {
+				religion = norse_pagan_reformed
+			}
+			change_religion = laeradr
+		}
+	}
+}

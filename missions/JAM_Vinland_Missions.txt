@@ -305,6 +305,7 @@ VZZ_missions_column_3 = {
 				name = pru_space_marines
 				duration = -1
 			}
+			add_harmonized_religion = nahuatl
 		}
 	}
 }

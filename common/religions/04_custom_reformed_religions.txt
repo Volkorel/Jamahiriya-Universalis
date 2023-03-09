@@ -8,6 +8,7 @@ pagan = {
 		ship_durability = 0.1
 		shock_damage = 0.1
 		female_advisor_chance = 0.5
+		may_recruit_female_generals = yes
 	
 		}
 		province = {
@@ -20,13 +21,70 @@ pagan = {
 	
 		}
 		
+		allowed_conversion = {
+			laeradr
+		}
+		on_convert = {
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
 		personal_deity = yes
 	
-		
-
-		may_recruit_female_generals = yes
+		harmonized_modifier = harmonized_sidr
 	
 		heretic = {  OLD_NORSE  }
 	}
+	laeradr = {
+		icon = 66
+		color = { 100 170 190 }
+		country = {
+			
+
+		shock_damage = 0.1
+		yearly_harmony = 2
+		female_advisor_chance = 0.5
+		may_recruit_female_generals = yes
 	
+		}
+		province = {
+			
+		}
+		country_as_secondary = {
+			
+		shock_damage = 0.1
+		ship_durability = 0.1
+	
+		}
+		
+		allowed_conversion = {
+			norse_pagan_reformed
+		}
+		on_convert = {
+			add_harmonized_religion = norse_pagan_reformed
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+			hidden_effect = {
+				capital_scope = {
+					area = {
+						limit = {
+							owned_by = ROOT
+							religion = norse_pagan_reformed
+						}
+						change_religion = laeradr
+					}
+				}
+			}
+		}
+		
+		uses_harmony = yes
+	
+		heretic = {  OLD_NORSE  }
+		
+		date = 1560.3.10
+	}
 }

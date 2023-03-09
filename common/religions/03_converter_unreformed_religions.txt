@@ -205,6 +205,8 @@ pagan = {
 		
 		
 		heretic = {  OLD_ROMUVA  }
+		
+		harmonized_modifier = harmonized_romuva
 	}
 	bon = {
 		icon = 129
@@ -957,7 +959,7 @@ pagan = {
 		
 			can_have_secondary_religion = yes
 		
-		
+		harmonized_modifier = harmonized_tengri
 		heretic = {  GOAT_SKULL  }
 	}
 	tengri_pagan_reformed = {

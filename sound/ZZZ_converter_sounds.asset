@@ -25,6 +25,15 @@
 		name = start_convert_norse_pagan
 		file = "start_conversion_norse.wav"
 	}
+	#Læraðr
+	sound = {
+		name = religion_laeradr
+		file = "start_conversion_norse.wav"
+	}
+	sound = {
+		name = start_convert_laeradr
+		file = "start_conversion_norse.wav"
+	}
 	#Tengri
 	sound = {
 		name = religion_tengri_pagan

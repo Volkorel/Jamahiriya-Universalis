@@ -313,7 +313,7 @@
  jamahiriya_rusland.2.a:0 "Understandable."
  jamahiriya_rusland.2.b:0 "We have other desires."
  jamahiriya_rusland.3.t:0 "Rusland Breaks!"
- jamahiriya_rusland.3.d:0 "Odinn be praised, Catholic Order of Rusland has finally collapsed due to a secession crisis. Now is our chance to invade the newly independent Smolensk region and spread the words of Sidr!"
+ jamahiriya_rusland.3.d:0 "Odinn be praised, Catholic Order of Rusland has finally collapsed due to a secession crisis. Now is our chance to invade the newly independent Smolensk region and spread the words of Siðr!"
  jamahiriya_rusland.3.a:0 "Onwards!"
  jamahiriya_rusland.3.b:0 "Nevsky might be involved, do not invade."
  jamahiriya_rusland.4.t:0 "Rusland Breaks!"
@@ -333,4 +333,12 @@
  form_hungary_desc:0 "For far too long the tribes and descendants of Attila the Hun has rode these lands freely, where the only border we knew was the stamina of our horses and the length of our sword. Yet, no more. This place, is a place we can call home. A nation for the Hungarians."
  restore_rusland_order_norse_title:0 "Form Hardradaland"
  restore_rusland_order_norse_desc:0 "Lands of Gardtariki are cruel and filled with harsh battles to control a plot of land. Yet, these cruel lands have been tamed by Harald Hardrada; a Vanguard warrior who joined the Jomsvikings and saved it from being conquered by the Christians. After him, we named this region in his honour. Now, it is time to immortalize his legacy by naming our country after him! May Rusland be tamed!\n\nKom dei fram til Koenugard by da fyste slaget gnydde.\nJarlen Muru-Kare fall og Valtjov Jarl han flydde.\nHarald og Toste fram dei for, de möter ved Koenugard brua.\n-Norse song of the Battle of Koenugard Bridge"
+ 
+ laeradr_events.1.t:0 "The Læraðr Proclamations"
+ laeradr_events.1.d:0 "Siðr followers in the eastern lands conquered long ago by the Empire of Svitjod have begun propagating the teachings of Eiríkr Alfarrson, a Goðar from Svitjod. While most Goðar view the gods of other religions as either entirely false, or mere aspects of the Germanic pantheon, Alfarrson's teachings claim that such gods are both separate from the Æsir and equally worthy of worship and respect."
+ laeradr_events.1.a:0 "This syncretism will pass."
+ 
+ laeradr_events.2.t:0 "Spread of Læraðr Sects"
+ laeradr_events.2.d:0 "Læraðr syncretic worship is becoming increasingly popular in our territory, as the people take up more gods to acknowledge and distance themselves from the Fylkir. The Læraðr faithful have begun integrating other dieties in a unified pantheon, with prayers to Odin, Yahweh, Perun, and a plethora of other gods each being heard at Læraðr meetings."
+ laeradr_events.2.a:0 "Compelling."
  
