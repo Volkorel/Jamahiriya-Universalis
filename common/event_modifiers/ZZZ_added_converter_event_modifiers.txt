@@ -148,6 +148,32 @@ VZZ_op_mil_buffs = {
 }
 
 
+
+#THOR
+NOV_norse_conversions = {
+	missionary_maintenance_cost = -0.5
+	global_missionary_strength = 0.02
+	missionaries = 1
+}
+NOV_norse_tolerance = {
+	tolerance_heretic = 2
+	tolerance_heathen = 3
+	tolerance_of_heathens_capacity = 1
+}
+NOV_death_to_rusland = {
+	land_morale = 0.15
+	discipline = 0.1
+	manpower_recovery_speed = 0.3
+}
+NOV_pacific = {
+	land_forcelimit_modifier = 0.1
+	land_maintenance_modifier = -0.2
+}
+MOS_oh_no = {
+	land_morale = -0.15
+	discipline = -0.2
+}
+
 ##################################################
 # Harmonized Modifiers
 ##################################################
