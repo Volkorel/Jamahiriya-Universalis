@@ -1,9 +1,11 @@
  
 #BT Balkans reoverhaul
 
-owner = Z04
-controller = Z04
-add_core = Z04
+owner = ALB
+controller = ALB
+add_core = ALB
+add_core = EPI
+add_core = SER
 culture = serbian
 religion = catholic
 capital = "Prizren"

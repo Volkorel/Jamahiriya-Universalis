@@ -20,6 +20,7 @@ trade_goods = grain
 #Cores and Occupation (Alphabetical after current)
 add_core = IVE
 add_core = CLN
+add_core = ANI
 
 #Other Political
 hre = no

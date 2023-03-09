@@ -85,7 +85,7 @@ yajam = {
 		}
 	}
 	NOV_ride_the_waves = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_ride_the_wave
 		position = 6
 		required_missions = { NOV_i_stepped_aboard }
 		trigger = {
@@ -109,7 +109,7 @@ yajam = {
 		}
 	}
 	NOV_and_good_summer = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_good_summer
 		position = 8
 		required_missions = { NOV_piety }
 		trigger = {
@@ -137,7 +137,7 @@ NOV_middle = {
 	}
 
 	NOV_peace_with_vanquished = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unityandshit
 		position = 2
 		required_missions = { NOV_kingdom_of_cities }
 		trigger = {
@@ -151,7 +151,7 @@ NOV_middle = {
 		}
 	}
 	NOV_many_names = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_many_names_of_father
 		position = 3
 		required_missions = { NOV_peace_with_vanquished }
 		trigger = {
@@ -165,7 +165,7 @@ NOV_middle = {
 		}
 	}
 	NOV_left_it_all_behind = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_third_norse_rome
 		position = 5
 		required_missions = { NOV_hear_gods }
 		trigger = {
@@ -183,7 +183,7 @@ NOV_middle = {
 		}
 	}
 	NOV_soldiers_of_thor = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_fursanat_thorr
 		position = 6
 		required_missions = { NOV_destroyer_of_vice }
 		trigger = {
@@ -203,7 +203,7 @@ NOV_middle = {
 		}
 	}
 	NOV_terror_on_steppes = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_newterror
 		position = 8
 		required_missions = { NOV_piety }
 		trigger = {
@@ -216,7 +216,7 @@ NOV_middle = {
 		}
 	}
 	NOV_home_of_varangians = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_varangianhome
 		position = 9
 		required_missions = { NOV_terror_on_steppes }
 		trigger = {
@@ -246,7 +246,7 @@ NOV_center = {
 		tag = NOV
 	}
 	NOV_into_eternity = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_into_unknown
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -263,7 +263,7 @@ NOV_center = {
 		}
 	}
 	NOV_viking_comrades = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_viking_comrades
 		position = 2
 		required_missions = { NOV_into_eternity }
 		trigger = {
@@ -277,7 +277,7 @@ NOV_center = {
 		}
 	}
 	NOV_sol_soldier = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_sol_blacksun
 		position = 3
 		required_missions = { NOV_viking_comrades }
 		trigger = {
@@ -290,7 +290,7 @@ NOV_center = {
 		}
 	}
 	NOV_shining_ray = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_shine
 		position = 4
 		required_missions = { NOV_sol_soldier }
 		trigger = {
@@ -303,7 +303,7 @@ NOV_center = {
 		}
 	}
 	NOV_destroyer_of_vice = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_oustchristians
 		position = 5
 		required_missions = { NOV_shining_ray }
 		trigger = {
@@ -317,7 +317,7 @@ NOV_center = {
 		}
 	}
 	NOV_southbound = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_southbound
 		position = 6
 		required_missions = { NOV_destroyer_of_vice }
 		trigger = {
@@ -330,7 +330,7 @@ NOV_center = {
 		}
 	}
 	NOV_piety = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_pienty
 		position = 7
 		required_missions = { NOV_ride_the_waves NOV_southbound NOV_silver_glory }
 		trigger = {
@@ -346,7 +346,7 @@ NOV_center = {
 		}
 	}
 	NOV_wielding_my_shield = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_shieldequip
 		position = 9
 		required_missions = { NOV_terror_on_steppes NOV_piety }
 		trigger = {
@@ -363,7 +363,7 @@ NOV_center = {
 		}
 	}
 	NOV_doombound = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_doombound
 		position = 10
 		required_missions = { NOV_wielding_my_shield }
 		trigger = {
@@ -388,7 +388,7 @@ NOV_center = {
 		}
 	}
 	NOV_sound_of_war = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_soundsofwar
 		position = 11
 		required_missions = { NOV_doombound }
 		trigger = {
@@ -411,7 +411,7 @@ NOV_right = {
 	}
 
 	NOV_christian_thorn = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_christianthorn
 		position = 2
 		required_missions = { NOV_into_eternity NOV_chant_earth }
 		trigger = {
@@ -434,7 +434,7 @@ NOV_right = {
 		}
 	}
 	NOV_we_earn_scars = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_hereweearn
 		position = 3
 		required_missions = { NOV_christian_thorn }
 		trigger = {
@@ -448,7 +448,7 @@ NOV_right = {
 		}
 	}
 	NOV_oars_use = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_oarstouse
 		position = 5
 		required_missions = { NOV_northern_shores }
 		trigger = {
@@ -466,7 +466,7 @@ NOV_right = {
 		}
 	}
 	NOV_raider_frontier = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_raidersfrontier
 		position = 6
 		required_missions = { NOV_destroyer_of_vice }
 		trigger = {
@@ -493,7 +493,7 @@ NOV_right = {
 		}
 	}
 	NOV_call_to_adventure = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_the_call
 		position = 8
 		required_missions = { NOV_piety }
 		trigger = {
@@ -510,7 +510,7 @@ NOV_right = {
 		}
 	}
 	NOV_rising_sun = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_towardstherisingsun
 		position = 9
 		required_missions = { NOV_call_to_adventure }
 		trigger = {
@@ -536,7 +536,7 @@ NOV_fareast = {
 	}
 
 	NOV_chant_earth = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_ichantearth
 		position = 1
 		required_missions = {  }
 		trigger = {
@@ -561,7 +561,7 @@ NOV_fareast = {
 		}
 	}
 	NOV_sword_my_command = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_sword_command
 		position = 2
 		required_missions = { NOV_chant_earth }
 		trigger = {
@@ -576,7 +576,7 @@ NOV_fareast = {
 		}
 	}
 	NOV_hold_my_hand = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_holdit_my
 		position = 3
 		required_missions = { NOV_sword_my_command }
 		trigger = {
@@ -603,7 +603,7 @@ NOV_fareast = {
 		}
 	}
 	NOV_northern_shores = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_northern_shores
 		position = 4
 		required_missions = { NOV_hold_my_hand }
 		trigger = {
@@ -624,7 +624,7 @@ NOV_fareast = {
 		}
 	}
 	NOV_carve_runes = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_carverune
 		position = 5
 		required_missions = { NOV_northern_shores }
 		trigger = {
@@ -640,7 +640,7 @@ NOV_fareast = {
 		}
 	}
 	NOV_silver_glory = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_curiosity
 		position = 6
 		required_missions = { NOV_carve_runes }
 		trigger = {
@@ -655,7 +655,7 @@ NOV_fareast = {
 		}
 	}
 	NOV_thriving_corps = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_crops
 		position = 8
 		required_missions = { NOV_piety }
 		trigger = {

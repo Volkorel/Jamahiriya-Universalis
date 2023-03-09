@@ -22,7 +22,7 @@ trade_goods = cloth
 #Cores and Occupation (Alphabetical after current)
 add_core = MCM
 add_core = WTF
-
+add_core = ANI
 #Other Political
 hre = no
 add_local_autonomy = 25

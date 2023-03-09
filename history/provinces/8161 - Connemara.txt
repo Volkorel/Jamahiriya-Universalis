@@ -23,7 +23,7 @@ trade_goods = bt_trade_good_apiculture
 add_core = IRE
 add_core = WCO
 add_core = GLW
-
+add_core = ANI
 #Other Political
 hre = no
 

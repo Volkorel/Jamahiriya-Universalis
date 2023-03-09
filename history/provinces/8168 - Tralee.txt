@@ -22,7 +22,7 @@ trade_goods = bt_trade_good_apiculture
 #Cores and Occupation (Alphabetical after current)
 add_core = DMS
 add_core = MCM
-
+add_core = ANI
 #Other Political
 hre = no
 

@@ -610,4 +610,128 @@ spriteTypes = {
 		name = "mission_longship"
 		texturefile = "gfx/interface/jamahiriyamissions/mission_longship.dds"
 	}
+	spriteType = {
+		name = "mission_into_unknown"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_into_unknown.dds"
+	}
+	spriteType = {
+		name = "mission_viking_comrades"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_viking_comrades.dds"
+	}
+	spriteType = {
+		name = "mission_sol_blacksun"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_sol_blacksun.dds"
+	}
+	spriteType = {
+		name = "mission_shine"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_shine.dds"
+	}
+	spriteType = {
+		name = "mission_oustchristians"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_oustchristians.dds"
+	}
+	spriteType = {
+		name = "mission_southbound"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_southbound.dds"
+	}
+	spriteType = {
+		name = "mission_pienty"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_pienty.dds"
+	}
+	spriteType = {
+		name = "mission_shieldequip"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_shieldequip.dds"
+	}
+	spriteType = {
+		name = "mission_doombound"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_doombound.dds"
+	}
+	spriteType = {
+		name = "mission_soundsofwar"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_soundsofwar.dds"
+	}
+	spriteType = {
+		name = "mission_christianthorn"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_christianthorn.dds"
+	}
+	spriteType = {
+		name = "mission_hereweearn"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_hereweearn.dds"
+	}
+	spriteType = {
+		name = "mission_oarstouse"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_oarstouse.dds"
+	}
+	spriteType = {
+		name = "mission_raidersfrontier"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_raidersfrontier.dds"
+	}
+	spriteType = {
+		name = "mission_the_call"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_the_call.dds"
+	}
+	spriteType = {
+		name = "mission_towardstherisingsun"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_towardstherisingsun.dds"
+	}
+	spriteType = {
+		name = "mission_ichantearth"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_ichantearth.dds"
+	}
+	spriteType = {
+		name = "mission_sword_command"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_sword_command.dds"
+	}
+	spriteType = {
+		name = "mission_holdit_my"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_holdit_my.dds"
+	}
+	spriteType = {
+		name = "mission_northern_shores"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_northern_shores.dds"
+	}
+	spriteType = {
+		name = "mission_carverune"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_carverune.dds"
+	}
+	spriteType = {
+		name = "mission_curiosity"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_curiosity.dds"
+	}
+	spriteType = {
+		name = "mission_crops"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_crops.dds"
+	}
+	spriteType = {
+		name = "mission_unityandshit"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_unityandshit.dds"
+	}
+	spriteType = {
+		name = "mission_many_names_of_father"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_many_names_of_father.dds"
+	}
+	spriteType = {
+		name = "mission_third_norse_rome"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_third_norse_rome.dds"
+	}
+	spriteType = {
+		name = "mission_fursanat_thorr"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_fursanat_thorr.dds"
+	}
+	spriteType = {
+		name = "mission_newterror"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_newterror.dds"
+	}
+	spriteType = {
+		name = "mission_varangianhome"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_varangianhome.dds"
+	}
+	spriteType = {
+		name = "mission_ride_the_wave"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_ride_the_wave.dds"
+	}
+	spriteType = {
+		name = "mission_good_summer"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_good_summer.dds"
+	}
 }
