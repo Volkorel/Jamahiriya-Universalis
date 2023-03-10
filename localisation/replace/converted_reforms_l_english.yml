@@ -32,6 +32,9 @@
  apoikos_reform:0 "Apoikos"
  apoikos_reform_desc:0 "When the Apoi is Kos!"
  
+ vinlandic_monarchy_reform:0 "Vinlandic Kingship"
+ vinlandic_monarchy_reform_desc:0 "The Vinlandic monarchy rejects absolutism, instead seeking a modern reformed version of Germanic kingship. The king has three main functions; to act as a judge for popular assemblies, to act as a priest in major religious events, and to act as a military leader during wars."
+ 
  ###HRE STUFF###
  emperor_reichsreform_title:0 "Call for Réformecarolingien"
  emperor_reichsreform_desc:0 "Reform the Carolingian Empire to a more centralized model."

@@ -46,6 +46,29 @@ autocracy_reform = {
 	}
 }
 
+vinlandic_monarchy_reform = {
+	icon = "peasants"
+	allow_normal_conversion = yes
+	potential = {
+		tag = VZZ
+	}
+	legacy_equivalent = feudal_monarchy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	modifiers = {
+		max_absolutism = -60
+		global_unrest = -2
+		army_tradition_decay = -0.01
+		leader_land_shock = 1
+		leader_naval_shock = 1
+		monarch_military_power = 2
+	}
+	custom_attributes = {
+		has_parliament = yes
+		militarised_society = yes
+	}
+}
+
 plutocratic_reform = {
 	icon = "asian_scripture"
 	allow_normal_conversion = yes

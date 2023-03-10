@@ -2768,6 +2768,7 @@ country_decisions = {
 					}
 					change_culture = vinlandi
 				}
+				add_government_reform = vinlandic_monarchy_reform
 			}
 			switch_tag = VZZ
 		}
