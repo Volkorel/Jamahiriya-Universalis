@@ -1,0 +1,89 @@
+ck2_converter_generated = yes
+graphical_culture = easterngfx
+color = { 0 36 125 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	innovativeness_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"'Afra' #0" = -1
+	"Agathonikos #0" = 0
+	"Arda #1" = -1
+	"Athanasia #0" = -1
+	"Bardas #0" = 0
+	"Dananir #0" = -1
+	"Diogenes #0" = 0
+	"Dionysios #0" = 0
+	"Emiliya #0" = -1
+	"Eshkhan #1" = 10
+	"Eustratios #0" = 0
+	"Hristina #0" = -1
+	"Ishkhan #1" = 10
+	"Kallistos #1" = 10
+	"Kaloioannes #1" = 10
+	"Levon #1" = 10
+	"Mikica #0" = 0
+	"Mushel #2" = 10
+	"Nikephoros #0" = 0
+	"Ovsanna #1" = -1
+	"Rostam #0" = 0
+	"Roupen #0" = 0
+	"Styliane #1" = -1
+	"Thamar #0" = -1
+	"Vachagan #0" = 0
+	"Vesd #1" = 10
+	"Yeva #1" = -1
+}
+leader_names = {
+	"Angelus"
+	"Asan"
+	"Branas"
+	"Cantacuzene"
+	"Comnenus"
+	"Ducas"
+	"Mavros"
+	"Notaras"
+	"Palaeologus"
+	"Phocas"
+	"Raoul"
+	"Spagnoli"
+	"Sphrantzes"
+	"Tocco"
+	"Zaccaria"
+}
+ship_names = {
+	"Agios Kyprianos"
+	"Areopoli"
+	"Elika"
+	"Geronlimenas"
+	"Gytheio"
+	"Kardamyli"
+	"Kokkala"
+	"Kotronas"
+	"Skoutari"
+	"Vathia"
+}

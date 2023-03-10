@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+technology_group = eastern
+primary_culture = greek
+capital = 151
+add_accepted_culture = anatolian
+add_accepted_culture = cappadocian
+add_accepted_culture = pontic_greek
+add_accepted_culture = laz_culture
+add_accepted_culture = armenian
+add_accepted_culture = cypriot
+add_accepted_culture = rumi

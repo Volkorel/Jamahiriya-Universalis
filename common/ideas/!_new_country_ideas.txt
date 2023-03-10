@@ -1498,3 +1498,57 @@ tahirid_ideas = {
 		land_forcelimit_modifier = 0.55
 	}
 }
+
+A10_ideas = {
+	start = {
+		war_exhaustion = -0.25
+		manpower_in_true_faith_provinces = 1.50
+	}
+	bonus = {
+		land_maintenance_modifier = -0.75
+	}
+	trigger = {
+		tag = A10
+	}
+	free = yes
+	A10_medusa = {
+		infantry_cost = -0.50
+		morale_damage = 0.075
+		fire_damage = 0.075
+		shock_damage = 0.075
+	}
+	A10_macedonia = {
+		global_unrest = -5
+		allow_client_states = yes	
+	}
+	A10_athena = {
+		improve_relation_modifier = 1
+		governing_capacity_modifier = 1.50
+		ae_impact = -0.15
+	}
+	A10_phonecia = {
+		caravan_power = 0.80
+		global_trade_power = 0.60
+		merchants = 2
+		trade_efficiency = 0.50
+	}
+	A10_sparta = {
+		fire_damage = 0.15
+		land_morale = 0.15	
+		shock_damage = 0.15	
+		morale_damage = 0.25
+	}
+	A10_byzantion = {
+		global_tax_modifier = 0.75
+		production_efficiency = 0.50
+		build_time = -0.75
+		build_cost = -0.75
+	}
+	A10_anewidentity = {
+		infantry_cost = -0.60
+		discipline = 0.10
+		reinforce_speed = 0.10	
+		land_attrition = -0.15
+		land_forcelimit_modifier = 0.55
+	}
+}

@@ -28,6 +28,12 @@ A05_ideas = {
 	}
 }
 
+A10_ideas = {
+	trigger = {
+		tag = A10
+	}
+}
+
 tahirid_ideas = {
 	trigger = {
 		tag = Y10

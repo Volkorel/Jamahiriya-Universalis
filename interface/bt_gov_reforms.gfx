@@ -3,4 +3,8 @@ spriteTypes = {
 		name = "government_reform_imp_abbey"
 		texturefile = "gfx//interface//government_reform_icons//imperial_abbey_reform.dds"
 	}
+	spriteType = {
+		name = "government_reform_apoikos_reform"
+		texturefile = "gfx//interface//government_reform_icons//apoikos_reform.dds"
+	}
 }

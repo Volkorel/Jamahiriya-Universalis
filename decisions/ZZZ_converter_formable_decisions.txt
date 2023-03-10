@@ -2367,7 +2367,293 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
-
+	form_nikisetokako = {
+		major = yes
+		potential = {
+			was_never_end_game_tag_trigger = yes
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_magnagraecia_flag }
+			NOT = { exists = A10 }
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = morea_area
+				area = western_aegean_area
+				area = aegean_archipelago_area
+				area = eastern_mediterrenean_islands_area
+				area = aetolia_area
+				area = northern_epirus_area
+				area = thessaly_area
+				area = northern_greece_area
+				area = macedonia_area
+				area = eastern_macedonia_area
+				area = upper_thrace_area
+				area = thrace_area
+				area = hudavendigar_area
+				area = karasi_area
+				area = aydin_area
+				area = caria_area
+				province_id = 5162
+				province_id = 6013
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			morea_area = {
+				owned_by = ROOT
+				type = all
+			}
+			western_aegean_area = {
+				owned_by = ROOT
+				type = all
+			}
+			aegean_archipelago_area = {
+				owned_by = ROOT
+				type = all
+			}
+			eastern_mediterrenean_islands_area = {
+				owned_by = ROOT
+				type = all
+			}
+			aetolia_area = {
+				owned_by = ROOT
+				type = all
+			}
+			northern_epirus_area = {
+				owned_by = ROOT
+				type = all
+			}
+			thessaly_area = {
+				owned_by = ROOT
+				type = all
+			}
+			northern_greece_area = {
+				owned_by = ROOT
+				type = all
+			}
+			macedonia_area = {
+				owned_by = ROOT
+				type = all
+			}
+			eastern_macedonia_area = {
+				owned_by = ROOT
+				type = all
+			}
+			upper_thrace_area = {
+				owned_by = ROOT
+				type = all
+			}
+			thrace_area = {
+				owned_by = ROOT
+				type = all
+			}
+			hudavendigar_area = {
+				owned_by = ROOT
+				type = all
+			}
+			karasi_area = {
+				owned_by = ROOT
+				type = all
+			}
+			aydin_area = {
+				owned_by = ROOT
+				type = all
+			}
+			caria_area = {
+				owned_by = ROOT
+				type = all
+			}
+			owns = 5162
+			owns = 6013
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+		}
+		effect = {
+			change_tag = A10
+			swap_non_generic_missions = yes
+			every_province = {
+				limit = {
+					OR = {
+						area = cyprus_area
+						area = albania_area
+						area = northern_macedonia_area
+						area = northern_thrace_area
+						area = montenegro_area
+						area = east_adriatic_coast_area
+						area = sicily_area
+						area = calabria_area
+						area = naples_area
+						area = apulia_area
+						area = kastamonu_area
+						area = rum_area
+						area = pontus_area
+						area = crimea_area
+						area = baleares_area
+						province_id = 2954
+						province_id = 112
+						province_id = 226
+						province_id = 1751
+						province_id = 358
+						province_id = 5224
+						province_id = 339
+						province_id = 338
+						province_id = 378
+						province_id = 5205
+						province_id = 286
+						province_id = 2447
+						province_id = 335
+					}
+					NOT = { is_core = A10 }
+				}
+				add_permanent_claim = A10
+			}
+			random_owned_province = {
+				limit = {
+					OR = {
+						culture = greek
+						culture = anatolian
+						culture = pontic_greek
+					}
+				}
+				add_base_tax = 1
+			}
+			random_owned_province = {
+				limit = {
+					OR = {
+						culture = greek
+						culture = anatolian
+						culture = pontic_greek
+					}
+				}
+				add_base_tax = 1
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 10
+			if = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			set_government_rank = 3
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_magnagraecia_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_neheptan = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { has_reform = celestial_empire }
+			NOT = { tag = A11 }
+			NOT = { exists = A11 }
+			OR = {
+				exists = A10
+				tag = A10
+			}
+			culture_group = byzantine
+		}
+		provinces_to_highlight = {
+			province_id = 2536
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = A11 }
+			is_subject = no
+			OR = {
+				owns_or_non_sovereign_subject_of = 2536
+				any_country = {
+					NOT = {
+						owns_or_non_sovereign_subject_of = 2536
+					}
+				}
+			}
+			is_at_war = no
+		}
+		effect = {
+			2536 = {
+				cede_province = ROOT
+				add_core = A11
+			}
+			create_march = A11
+			every_province = {
+				limit = {
+					continent = north_america
+					OR = {
+						owned_by = ROOT
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+				add_core = A11
+				cede_province = A11
+			}
+			A11 = {
+				restore_country_name_effect = yes
+				swap_non_generic_missions = yes
+				add_country_modifier = {
+					name = "centralization_modifier"
+					duration = 3650
+				}
+				add_prestige = 10
+				change_primary_culture = apoikos
+				2536 = {
+					move_capital_effect = yes
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = byzantine
+					}
+					change_culture = apoikos
+				}
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = florida_area
+							area = lucayan_area
+							area = southern_bahamas_area
+							area = cuba_area
+							area = dominica_area
+							area = hispaniola_area
+							area = greater_antilles_area
+							area = west_florida_area
+							area = north_florida_area
+							area = american_georgia_area
+							area = leeward_antilles_area
+							province_id = 2808
+						}
+					}
+					add_permanent_claim = A11
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
 	restore_assyrian_empire = {
 		major = yes
 		potential = {
