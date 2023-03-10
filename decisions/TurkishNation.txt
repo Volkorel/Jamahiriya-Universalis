@@ -1,5 +1,4 @@
 country_decisions = {
-
 	turkish_nation = {
 		major = yes
 		potential = {
@@ -35,39 +34,10 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				area = sindh_area
-				area = marwar_area
-				area = northern_sindh_area
-				area = multan_area
-				area = jangladesh_area
-				area = lahore_area
-				area = sirhind_area
-				area = upper_doah_area
-				area = jaipur_area
-				area = mewar_area
-				area = patan_area
-				area = ahmedabad_area
-				area = saurashtra_area
-				area = malwa_area
-				area = gondwana_area
-				area = baghelkhand_area
-				area = purvanchal_area
-				area = oudh_area
-				area = lower_doab_area
-				area = bundelkhand_area
-				area = gird_area
-				area = katehar_area
-				area = tapti_area
-				area = khandesh_area
-				area = berar_area
-				area = ahmednagar_area
-				area = konkan_area
-				area = telingana_area
+				area = hindusthan_region
+				area = west_india_region
 			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
+			NOT = { owned_by = ROOT }
 		}
 		allow = {
 			is_at_war = no
@@ -77,35 +47,13 @@ country_decisions = {
 			NOT = { exists = RUM }
 			NOT = { exists = TUR }
 			NOT = { exists = BYZ }
-			owns = {
-				area = sindh_area
-				area = marwar_area
-				area = northern_sindh_area
-				area = multan_area
-				area = jangladesh_area
-				area = lahore_area
-				area = sirhind_area
-				area = upper_doah_area
-				area = jaipur_area
-				area = mewar_area
-				area = patan_area
-				area = ahmedabad_area
-				area = saurashtra_area
-				area = malwa_area
-				area = gondwana_area
-				area = baghelkhand_area
-				area = purvanchal_area
-				area = oudh_area
-				area = lower_doab_area
-				area = bundelkhand_area
-				area = gird_area
-				area = katehar_area
-				area = tapti_area
-				area = khandesh_area
-				area = berar_area
-				area = ahmednagar_area
-				area = konkan_area
-				area = telingana_area
+			hindusthan_region = {
+				owned_by = ROOT
+				type = all
+			}
+			west_india_region = {
+				owned_by = ROOT
+				type = all
 			}
 		}
 		effect = {
@@ -155,5 +103,4 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
-	
 }
