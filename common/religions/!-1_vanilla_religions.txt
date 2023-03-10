@@ -457,6 +457,7 @@ christian = {
 			shock_damage_received = -0.025
 		}
 		heretic = { TABORITE UTRAQUIST ORPHAN }
+		holy_sites = { 100 3135 172 118 236 }
 		blessings = {
 			legitimize_government
 			encourage_warriors_of_the_faith

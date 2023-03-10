@@ -7,7 +7,7 @@ errr = {
 	}
 
 	FRI_breton_connection = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_breton_connection
 		position = 3
 		required_missions = { FRI_amass_an_army }
 		trigger = {
@@ -35,7 +35,7 @@ errr = {
 		}
 	}
 	FRI_victory_in_britain = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_victory_in_engelond
 		position = 4
 		required_missions = { FRI_breton_connection }
 		trigger = {
@@ -129,17 +129,12 @@ hm = {
 	}
 
 	FRI_unification_of_wfrisia = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_unificationoffrisia
 		position = 1
 		required_missions = {  }
 		trigger = {
-			X85 = {
-				exists = no
-			}
+			num_of_rebel_armies = 0
 			Y77 = {
-				exists = no
-			}
-			Y25 = {
 				exists = no
 			}
 		}
@@ -152,7 +147,7 @@ hm = {
 		}
 	}
 	FRI_amass_an_army = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_frisianamass_an_army
 		position = 2
 		required_missions = { FRI_unification_of_wfrisia }
 		trigger = {
@@ -177,11 +172,14 @@ hm = {
 		}
 	}
 	FRI_go_north = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_geannord
 		position = 3
 		required_missions = { FRI_amass_an_army }
 		trigger = {
 			owns = 3135
+			Y25 = {
+				exists = no
+			}
 			OR = {
 				DAN = { army_size = 10 }
 				ZEA = { army_size = 10 }
@@ -201,7 +199,7 @@ hm = {
 		}
 	}
 	FRI_vikingr_legacy = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_vikingrlegacy
 		position = 4
 		required_missions = { FRI_go_north }
 		trigger = {
@@ -233,7 +231,7 @@ hm = {
 		}
 	}
 	FRI_trustworthy_allies = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_trustworthy_alies
 		position = 5
 		required_missions = {  }
 		trigger = {
@@ -247,7 +245,7 @@ hm = {
 		}
 	}
 	FRI_frisian_unity = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_frysk_unity
 		position = 6
 		required_missions = { FRI_trustworthy_allies }
 		trigger = {
@@ -264,7 +262,7 @@ hm = {
 		}
 	}
 	FRI_frisian_freedom = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_frisian_freedom
 		position = 7
 		required_missions = { FRI_frisian_unity }
 		trigger = {
@@ -279,7 +277,7 @@ hm = {
 		}
 	}
 	FRI_league_of_folcwald = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_folcwald
 		position = 8
 		required_missions = { FRI_frisian_freedom }
 		trigger = {
@@ -298,7 +296,7 @@ ddd = {
 	}
 
 	FRI_german_heritage = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_german_heritage
 		position = 3
 		required_missions = { FRI_amass_an_army }
 		trigger = {
@@ -328,7 +326,7 @@ ddd = {
 		}
 	}
 	FRI_frisian_might = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_fryske_marcht
 		position = 4
 		required_missions = { FRI_german_heritage }
 		trigger = {
@@ -356,7 +354,7 @@ aaa = {
 	}
 
 	FRI_the_church_of_von_hoya = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_von_hoya_church
 		position = 3
 		required_missions = {  }
 		trigger = {
@@ -388,7 +386,7 @@ aaa = {
 		}
 	}
 	FRI_quest_for_da_nworld = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_quest_for_da_world
 		position = 5
 		required_missions = { FRI_places_of_worship }
 		trigger = {
@@ -405,7 +403,7 @@ aaa = {
 		}
 	}
 	FRI_magna_frisya = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_magna_frisia
 		position = 6
 		required_missions = { FRI_quest_for_da_nworld }
 		trigger = {
@@ -430,7 +428,7 @@ aaa = {
 		}
 	}
 	FRI_teaching_of_meinwerk = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_teachings_of_meinwerk
 		position = 7
 		required_missions = { FRI_magna_frisya }
 		trigger = {

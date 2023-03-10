@@ -1928,6 +1928,7 @@ country_decisions = {
 				ai = no
 			}
 			NOT = { tag = GER }
+			NOT = { tag = FRI }
 			NOT = { tag = HLR }
 			NOT = { tag = BRA }
 			NOT = { has_reform = celestial_empire }
@@ -2374,6 +2375,7 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			NOT = { has_country_flag = formed_magnagraecia_flag }
 			NOT = { exists = A10 }
+			culture_group = byzantine
 		}
 		provinces_to_highlight = {
 			OR = {

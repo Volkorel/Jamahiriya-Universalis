@@ -16,7 +16,24 @@ base_manpower = 1
 add_core = Y77
 add_core = FRI
 add_core = UTR
-
+revolt = {
+	type = nationalist_rebels
+	size = 2
+	leader = "Bærengor Tjerkstra"
+	friend = Y77
+}
+revolt = {
+	type = nationalist_rebels
+	size = 2
+	leader = "Rudolf Alfrik Ripperda"
+	friend = Y77
+}
+revolt = {
+	type = nationalist_rebels
+	size = 2
+	leader = "Liudgod Sækmund"
+	friend = Y77
+}
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

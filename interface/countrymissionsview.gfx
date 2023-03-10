@@ -734,4 +734,68 @@ spriteTypes = {
 		name = "mission_good_summer"
 		texturefile = "gfx/interface/jamahiriyamissions/mission_good_summer.dds"
 	}
+	spriteType = {
+		name = "mission_unificationoffrisia"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_unificationoffrisia.dds"
+	}
+	spriteType = {
+		name = "mission_frisianamass_an_army"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_frisianamass_an_army.dds"
+	}
+	spriteType = {
+		name = "mission_geannord"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_geannord.dds"
+	}
+	spriteType = {
+		name = "mission_vikingrlegacy"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_vikingrlegacy.dds"
+	}
+	spriteType = {
+		name = "mission_trustworthy_alies"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_trustworthy_alies.dds"
+	}
+	spriteType = {
+		name = "mission_frysk_unity"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_frysk_unity.dds"
+	}
+	spriteType = {
+		name = "mission_frisian_freedom"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_frisian_freedom.dds"
+	}
+	spriteType = {
+		name = "mission_folcwald"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_folcwald.dds"
+	}
+	spriteType = {
+		name = "mission_german_heritage"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_german_heritage.dds"
+	}
+	spriteType = {
+		name = "mission_fryske_marcht"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_fryske_marcht.dds"
+	}
+	spriteType = {
+		name = "mission_von_hoya_church"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_von_hoya_church.dds"
+	}
+	spriteType = {
+		name = "mission_magna_frisia"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_magna_frisia.dds"
+	}
+	spriteType = {
+		name = "mission_quest_for_da_world"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_quest_for_da_world.dds"
+	}
+	spriteType = {
+		name = "mission_teachings_of_meinwerk"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_teachings_of_meinwerk.dds"
+	}
+	spriteType = {
+		name = "mission_breton_connection"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_breton_connection.dds"
+	}
+	spriteType = {
+		name = "mission_victory_in_engelond"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_victory_in_engelond.dds"
+	}
 }
