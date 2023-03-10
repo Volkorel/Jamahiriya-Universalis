@@ -30,7 +30,7 @@ apoikos_reform = {
 		OR = {
 			AND = {
 				culture_group = byzantine
-				capital = {
+				capital_scope = {
 					continent = north_america
 				}
 			}

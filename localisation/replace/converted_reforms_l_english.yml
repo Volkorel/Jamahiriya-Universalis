@@ -29,6 +29,9 @@
  shaka_regime_desc:0 "A tribal monarchy, which is focused on the militaristic domination of other tribes and the militarization of the state."
  shaka_regime_legacy_desc:0 "A tribal monarchy, which is focused on the militaristic domination of other tribes and the militarization of the state."
  
+ apoikos_reform:0 "Apoikos"
+ apoikos_reform_desc:0 "When the Apoi is Kos!"
+ 
  ###HRE STUFF###
  emperor_reichsreform_title:0 "Call for Réformecarolingien"
  emperor_reichsreform_desc:0 "Reform the Carolingian Empire to a more centralized model."
