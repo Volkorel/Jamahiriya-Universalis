@@ -31,3 +31,27 @@ grand_duchy_monarchy = {
 		}
 	}
 }
+
+vinlandic_kingship = {
+	rank = {
+		1 = TRIBE
+		2 = KINGDOM
+		3 = KINGDOM
+	}
+
+	ruler_male = {
+		1 = KONUNGR
+		2 = KONUNGR
+		3 = KONUNGR
+	}
+
+	ruler_female = {
+		1 = DROTTNING
+		2 = DROTTNING
+		3 = DROTTNING
+	}
+
+	trigger = {
+		has_reform = vinlandic_monarchy_reform
+	}
+}

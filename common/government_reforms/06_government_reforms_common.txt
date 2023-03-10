@@ -805,7 +805,10 @@ embedded_norse_government_reform = {
 			is_revolutionary = no
 			NOT = { has_dlc = "Emperor" }
 		}
-		religion = norse_pagan_reformed
+		OR = {
+			religion = norse_pagan_reformed
+			religion = laeradr
+		}
 	}
 	modifiers = {
 		may_perform_slave_raid = yes
