@@ -1042,6 +1042,9 @@ byzantine = {
 	}
 	apoikos = {
 		primary = A11
+		dynasty_names = { 
+			"Palaiologos" "Komnenos" "Macedon" "Elysiumos" "Icarianes"
+		}
 	}
 	empurian = {
 		primary = SPA

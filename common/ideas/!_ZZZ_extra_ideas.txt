@@ -28,6 +28,18 @@ A05_ideas = {
 	}
 }
 
+A07_ideas = {
+	trigger = {
+		tag = A07
+	}
+}
+
+A11_ideas = {
+	trigger = {
+		tag = A11
+	}
+}
+
 A10_ideas = {
 	trigger = {
 		tag = A10

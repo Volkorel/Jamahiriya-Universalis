@@ -1552,3 +1552,116 @@ A10_ideas = {
 		land_forcelimit_modifier = 0.55
 	}
 }
+
+A07_ideas = {
+	start = {
+		war_exhaustion = -1
+		manpower_in_true_faith_provinces = 1
+		infantry_cost = -0.50
+	}
+	bonus = {
+		hostile_attrition = 5
+	}
+	trigger = {
+		tag = A07
+	}
+	free = yes
+	A07_tricolour_of_ummah = {
+		governing_capacity = 250
+		prestige_decay = -0.05
+		global_unrest = -15
+	}
+	A07_labbayk = {
+		infantry_cost = -0.35
+		infantry_power = 0.25
+		cavalry_cost = -0.35
+		cavalry_power = 0.25
+		artillery_cost = -0.35
+		artillery_power = 0.25
+	}
+	A07_ghazanama = {
+		manpower_in_culture_group_provinces = 1
+		core_creation = -0.35
+		ae_impact = -0.50
+	}
+	A07_spice_trade = {
+		light_ship_cost = -0.25
+		may_perform_slave_raid = yes
+		global_trade_power = 0.75
+		merchants = 1
+		trade_efficiency = 0.55
+	}
+	A07_custodian_of_two_mosques = {
+		institution_spread_from_true_faith = 0.25
+		missionaries = 2
+		manpower_in_true_faith_provinces= 0.75
+		extra_manpower_at_religious_war = yes
+	}
+	A07_unity_for_all = {
+		global_tax_modifier = 0.75
+		dhimmi_loyalty_modifier = 0.50
+		build_cost = -0.75
+	}
+	A07_eagle_of_saladin = {
+		discipline = 0.20
+		land_forcelimit_modifier = 0.25
+	}
+}
+
+A11_ideas = {
+	start = {
+		colonists = 3
+		republican_tradition = 0.15
+	}
+	bonus = {
+		global_trade_goods_size_modifier = 0.65
+	}
+	trigger = {
+		tag = A11
+	}
+	free = yes
+
+	A11_astroikos_in_exile = {
+		prestige = 15
+		global_ship_repair = 0.80
+		global_ship_cost = -0.75
+		native_assimilation = 0.75
+	}
+	A11_lessons_of_magna_graecia = {
+		defensiveness = 0.35
+		idea_cost = -0.25
+		max_hostile_attrition = 10
+	}
+	A11_leash_on_tartarus = {
+		merc_maintenance_modifier = -0.95
+		land_maintenance_modifier = -0.55
+		naval_maintenance_modifier = -0.75
+		naval_forcelimit_modifier = 0.55
+	}
+	A11_dynasties = {
+		diplomatic_reputation = 3
+		idea_claim_colonies = yes
+		cb_on_primitives = yes
+		cb_on_overseas = yes
+		can_chain_claim = yes
+	}
+	A11_renaissance = {
+		global_institution_spread = 0.25
+		innovativeness_gain = 0.5
+		country_admin_power = 3
+		country_diplomatic_power = 3
+		country_military_power = 1
+	}
+	A11_antilles = {
+		global_own_trade_power = 0.55
+		trade_range_modifier = 0.55
+		center_of_trade_upgrade_cost = -0.50
+		embargo_efficiency = 0.75
+	}
+	greek_scholars_abroad = {
+		spy_offence = 0.5
+		global_spy_defence = 0.5
+		rebel_support_efficiency = 0.75
+		discovered_relations_impact = -1
+	}
+}

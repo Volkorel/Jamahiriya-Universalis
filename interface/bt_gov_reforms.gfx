@@ -7,4 +7,12 @@ spriteTypes = {
 		name = "government_reform_apoikos_reform"
 		texturefile = "gfx//interface//government_reform_icons//apoikos_reform.dds"
 	}
+	spriteType = {
+		name = "government_reform_frysk_monarchy_reform"
+		texturefile = "gfx//interface//government_reform_icons//frysk_monarchy_reform.dds"
+	}
+	spriteType = {
+		name = "government_reform_vinlandic_monarchy"
+		texturefile = "gfx//interface//government_reform_icons//vinlandic_monarchy.dds"
+	}
 }

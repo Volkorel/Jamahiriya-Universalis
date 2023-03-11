@@ -6,6 +6,7 @@ monarchy = {
 				feudalism_reform
 				autocracy_reform
 				vinlandic_monarchy_reform
+				friesland_monarchy
 				plutocratic_reform
 				indian_sultanate_reform
 				nayankara_reform
