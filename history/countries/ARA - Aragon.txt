@@ -6,6 +6,7 @@ religion = catholic
 primary_culture = old_lombard
 capital = 7043
 elector = yes
+add_accepted_culture = vandal
 1444.11.11= {
 	monarch = {
 		name = "Magnus"
