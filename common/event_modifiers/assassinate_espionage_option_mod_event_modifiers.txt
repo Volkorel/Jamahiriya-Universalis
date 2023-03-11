@@ -1,0 +1,33 @@
+increased_spy_defence_because_of_unnoticed_assassination = {
+	global_spy_defence = 0.33
+}
+
+increased_spy_defence_because_of_noticed_assassination = {
+	global_spy_defence = 0.33
+}
+
+increased_spy_offence_because_of_assassination = {
+	spy_offence = 0.33
+}
+
+cooldown_plan_assassination = {
+}
+
+ai_cooldown_plan_assassination = {
+}
+
+rumors_investigated_or_not_investigated = {
+}
+
+training_better_assassins_modifier = {
+	diplomatic_reputation = -2
+	prestige = -0.1
+}
+
+become_better_at_bribing_modifier = {
+	improve_relation_modifier = -0.1
+	legitimacy = -0.1
+}
+
+ai_cooldown_discover_assassinations = {
+}

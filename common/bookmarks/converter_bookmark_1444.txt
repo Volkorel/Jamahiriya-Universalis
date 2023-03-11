@@ -9,9 +9,9 @@ bookmark = {
 	country = BRU
 	country = HUN
 	country = Y40
-	country = JOM
+	country = Y10
 	country = NOV
 	country = ARM
-	country = GUG
+	country = KZH
 	country = SHE
 }

@@ -1,0 +1,582 @@
+country_decisions = {
+	train_better_assassins_decision = {
+		potential = {
+			is_free_or_tributary_trigger = yes
+			OR = {
+				NOT = { has_country_flag = training_better_assassins }
+				had_country_flag = { flag = training_better_assassins days = 7665 }
+			}
+			primitives = no
+		}
+		allow = {
+			years_of_income = 4
+			advisor = spymaster
+			if = {
+				limit = {
+					has_dlc = "Rights of Man"
+				}
+				OR = {
+					ruler_has_personality = intricate_web_weaver_personality
+					ruler_has_personality = scholar_personality
+					ruler_has_personality = tactical_genius_personality
+					ruler_has_personality = secretive_personality
+				}
+				NOT = { ruler_has_personality = greedy_personality }
+				NOT = { ruler_has_personality = naive_personality }
+				NOT = { ruler_has_personality = loose_lips_personality }
+				NOT = { ruler_has_personality = drunkard_personality }
+			}
+			else = {
+				if = {
+					limit = {
+						ai = yes
+					}
+					OR = {
+						personality = ai_diplomat
+						personality = ai_balanced
+					}
+				}
+				if = {
+					limit = {
+						ADM = 3
+						MIL = 3
+					}
+					OR = {
+						ADM = 6
+						DIP = 6
+						MIL = 6
+						is_monarch_leader = yes
+					}
+					DIP = 3
+				}
+				else_if = {
+					limit = {
+						ADM = 3
+						NOT = { MIL = 3 }
+					}
+					OR = {
+						ADM = 6
+						DIP = 6
+					}
+					DIP = 3
+					MIL = 3
+				}
+				else_if = {
+					limit = {
+						NOT = { ADM = 3 }
+						MIL = 3
+					}
+					OR = {
+						DIP = 6
+						MIL = 6
+						is_monarch_leader = yes
+					}
+					ADM = 3
+					DIP = 3
+				}
+				else = {
+					ADM = 3
+					DIP = 6
+					MIL = 3
+				}
+			}
+		}
+		effect = {
+			add_years_of_income = -4
+			add_country_modifier = {
+				name = training_better_assassins_modifier
+				duration = 7665
+			}
+			custom_tooltip = TRAIN_BETTER_ASSASSINS_DECISION_TT
+			
+			hidden_effect = {
+				clr_country_flag = training_better_assassins
+				set_country_flag = training_better_assassins
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				OR = {
+					AND = {
+						has_dlc = "Rights of Man"
+						OR = {
+							ruler_has_personality = kind_hearted_personality
+							ruler_has_personality = calm_personality
+							ruler_has_personality = careful_personality
+							ruler_has_personality = benevolent_personality
+							ruler_has_personality = sinner_personality
+							ruler_has_personality = cruel_personality
+							ruler_has_personality = babbling_buffoon_personality
+							ruler_has_personality = craven_personality
+						}
+					}
+					NOT = { legitimacy = 50 }
+					NOT = { years_of_income = 6 }
+					AND = {
+						has_country_flag = training_better_assassins
+						NOT = { had_country_flag = { flag = training_better_assassins days = 18250 } }
+					}
+					has_ruler_flag = become_better_at_bribing
+				}
+			}
+			
+			modifier = {
+				factor = 10
+				
+				has_dlc = "Rights of Man"
+				OR = {
+					ruler_has_personality = intricate_web_weaver_personality
+					ruler_has_personality = scholar_personality
+					ruler_has_personality = secretive_personality
+					ruler_has_personality = obsessive_perfectionist_personality
+					ruler_has_personality = well_advised_personality
+					ruler_has_personality = free_thinker_personality
+				}
+			}
+		}
+	}
+	
+	become_better_at_bribing_decision = {
+		potential = {
+			is_free_or_tributary_trigger = yes
+			NOT = { has_ruler_flag = become_better_at_bribing }
+			primitives = no
+		}
+		allow = {
+			if = {
+				limit = {
+					has_dlc = "Rights of Man"
+				}
+				years_of_income = 7
+			}
+			else = {
+				years_of_income = 3
+			}
+			advisor = spymaster
+			if = {
+				limit = {
+					NOT = { ADM = 1 }
+					NOT = { DIP = 1 }
+					NOT = { MIL = 1 }
+				}
+				legitimacy_equivalent = 20
+			}
+			if = {
+				limit = {
+					has_dlc = "Rights of Man"
+				}
+				OR = {
+					ruler_has_personality = just_personality
+					ruler_has_personality = scholar_personality
+					ruler_has_personality = midas_touched_personality
+					ruler_has_personality = charismatic_negotiator_personality
+					ruler_has_personality = silver_tongue_personality
+				}
+				NOT = { ruler_has_personality = malevolent_personality }
+				NOT = { ruler_has_personality = naive_personality }
+				NOT = { ruler_has_personality = loose_lips_personality }
+				NOT = { ruler_has_personality = babbling_buffoon_personality }
+				NOT = { ruler_has_personality = incorruptible_personality }
+			}
+			else = {
+				if = {
+					limit = {
+						ai = yes
+					}
+					OR = {
+						personality = ai_diplomat
+						personality = ai_balanced
+					}
+				}
+				if = {
+					limit = {
+						ADM = 3
+						DIP = 3
+					}
+					OR = {
+						ADM = 6
+						DIP = 6
+						AND = {
+							DIP = 4
+							NOT = { is_monarch_leader = yes }
+						}
+					}
+					OR = {
+						NOT = { has_idea_group = humanist_ideas }
+						government = theocracy
+						DIP = 6
+					}
+				}
+				else_if = {
+					limit = {
+						ADM = 3
+						NOT = { DIP = 3 }
+					}
+					OR = {
+						ADM = 6
+						DIP = 6
+					}
+					DIP = 3
+					OR = {
+						NOT = { has_idea_group = humanist_ideas }
+						government = theocracy
+						DIP = 6
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = { ADM = 3 }
+						DIP = 3
+					}
+					OR = {
+						DIP = 6
+						AND = {
+							DIP = 4
+							NOT = { is_monarch_leader = yes }
+						}
+					}
+					ADM = 3
+					OR = {
+						NOT = { has_idea_group = humanist_ideas }
+						government = theocracy
+						DIP = 6
+					}
+				}
+				else = {
+					ADM = 3
+					DIP = 3
+					OR = {
+						NOT = { has_idea_group = humanist_ideas }
+						government = theocracy
+						DIP = 6
+					}
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_dlc = "Rights of Man"
+				}
+				add_years_of_income = -7
+			}
+			else = {
+				add_years_of_income = -3
+			}
+			if = {
+				limit = {
+					DIP = 1
+				}
+				change_dip = -1
+			}
+			else_if = {
+				limit = {
+					ADM = 1
+				}
+				change_adm = -1
+			}
+			else_if = {
+				limit = {
+					MIL = 1
+				}
+				change_mil = -1
+			}
+			else = {
+				add_legitimacy = -20
+				add_republican_tradition = -20
+				add_horde_unity = -20
+				add_devotion = -20
+				add_meritocracy = -20
+			}
+			add_ruler_modifier = {
+				name = become_better_at_bribing_modifier
+				duration = -1
+			}
+			custom_tooltip = BECOME_BETTER_AT_BRIBING_DECISION_TT
+			
+			hidden_effect = {
+				set_ruler_flag = become_better_at_bribing
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				OR = {
+					AND = {
+						has_dlc = "Rights of Man"
+						OR = {
+							ruler_has_personality = kind_hearted_personality
+							ruler_has_personality = careful_personality
+							ruler_has_personality = malevolent_personality
+							ruler_has_personality = drunkard_personality
+							ruler_has_personality = cruel_personality
+							ruler_has_personality = babbling_buffoon_personality
+							ruler_has_personality = craven_personality
+							NOT = { years_of_income = 9 }
+						}
+					}
+					NOT = { legitimacy = 50 }
+					NOT = { years_of_income = 5 }
+					AND = {
+						has_country_flag = training_better_assassins
+						NOT = { had_country_flag = { flag = training_better_assassins days = 18250 } }
+					}
+					has_ruler_flag = become_better_at_bribing
+				}
+			}
+			
+			modifier = {
+				factor = 10
+				
+				has_dlc = "Rights of Man"
+				OR = {
+					ruler_has_personality = just_personality
+					ruler_has_personality = scholar_personality
+					ruler_has_personality = midas_touched_personality
+					ruler_has_personality = charismatic_negotiator_personality
+					ruler_has_personality = silver_tongue_personality
+					ruler_has_personality = obsessive_perfectionist_personality
+					ruler_has_personality = well_advised_personality
+					ruler_has_personality = embezzler_personality
+				}
+			}
+		}
+	}
+	
+	assassinate_own_ruler_decision = {
+		major = yes
+		potential = {
+			is_free_or_tributary_trigger = yes
+			has_regency = no
+			NOT = { has_country_flag = assassination_attempt_of_own_ruler }
+			NOT = { has_country_flag = assassination_attempt_of_own_heir }
+		}
+		allow = {
+			if = {
+				limit = {
+					NOT = { dip_tech = 1 }
+				}
+				dip_tech = 1
+			}
+			if = {
+				limit = {
+					has_dlc = "Rights of Man"
+				}
+				years_of_income = 1
+			}
+			else = {
+				years_of_income = 1.5
+			}
+			adm_power = 200
+			custom_trigger_tooltip = {
+				tooltip = DOES_NOT_TRY_TO_ASSASSINATE_SOMEONE_ALREADY
+				NOT = { has_country_flag = planning_assassination_in_another_country }
+			}
+			custom_trigger_tooltip = {
+				tooltip = DID_NOT_PLAN_AN_ASSASSINATION_WITHIN_LAST_15_YEARS
+				NOT = { has_country_modifier = cooldown_plan_assassination }
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					ai = yes
+				}
+				set_ruler_flag = planned_assassination_in_own_country
+				set_heir_flag = planned_assassination_in_own_country
+				set_consort_flag = planned_assassination_in_own_country
+			}
+			set_country_flag = assassination_attempt_of_own_ruler
+			add_country_modifier = {
+				name = cooldown_plan_assassination
+				duration = 5475
+				hidden = yes
+			}
+			add_adm_power = -200
+			tooltip = { country_event = { id = assassinate_espionage_option_mod_own_ruler_events.1 } }
+			hidden_effect = {
+				capital_scope = {
+					add_province_triggered_modifier = assassination_start_own_ruler_triggered_modifier
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				NOT = { years_of_income = 3 } 
+			}
+			
+			modifier = {
+				factor = 0
+				
+				OR = {
+					has_ruler_flag = planned_assassination_in_own_country
+					has_heir_flag = planned_assassination_in_own_country
+					has_consort_flag = planned_assassination_in_own_country
+					legitimacy = 50
+					AND = {
+						has_heir = yes
+						NOT = { heir_age = 15 }
+					}
+					is_emperor = yes
+					is_papal_controller = yes
+					NOT = { prestige = 25 }
+					AND = {
+						has_dlc = "Rights of Man"
+						OR = {
+							has_heir = no
+							NOT = { heir_has_personality = cruel_personality }
+						}
+						OR = {
+							has_consort = no
+							NOT = { consort_has_personality = cruel_personality }
+						}
+						OR = {
+							has_heir = no
+							has_consort = no
+							NOT = { advisor = spymaster }
+						}
+						NOT = { heir_has_personality = naive_personality }
+						NOT = { heir_has_personality = cruel_personality }
+					}
+					AND = {
+						NOT = { has_dlc = "Rights of Man" }
+						OR = {
+							has_heir = no
+							NOT = { advisor = spymaster }
+						}
+						OR = {
+							legitimacy = 33
+							ADM = 3
+							DIP = 3
+							MIL = 3
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	assassinate_own_heir_decision = {
+		major = yes
+		potential = {
+			is_free_or_tributary_trigger = yes
+			has_regency = no
+			has_heir = yes
+			NOT = { has_country_flag = assassination_attempt_of_own_ruler }
+			NOT = { has_country_flag = assassination_attempt_of_own_heir }
+		}
+		allow = {
+			if = {
+				limit = {
+					NOT = { dip_tech = 1 }
+				}
+				dip_tech = 1
+			}
+			if = {
+				limit = {
+					has_dlc = "Rights of Man"
+				}
+				years_of_income = 1
+			}
+			else = {
+				years_of_income = 1.5
+			}
+			adm_power = 100
+			custom_trigger_tooltip = {
+				tooltip = DOES_NOT_TRY_TO_ASSASSINATE_SOMEONE_ALREADY
+				NOT = { has_country_flag = planning_assassination_in_another_country }
+			}
+			custom_trigger_tooltip = {
+				tooltip = DID_NOT_PLAN_AN_ASSASSINATION_WITHIN_LAST_15_YEARS
+				NOT = { has_country_modifier = cooldown_plan_assassination }
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					ai = yes
+				}
+				set_ruler_flag = planned_assassination_in_own_country
+				set_heir_flag = planned_assassination_in_own_country
+				set_consort_flag = planned_assassination_in_own_country
+			}
+			set_country_flag = assassination_attempt_of_own_heir
+			add_country_modifier = {
+				name = cooldown_plan_assassination
+				duration = 5475
+				hidden = yes
+			}
+			add_adm_power = -100
+			tooltip = { country_event = { id = assassinate_espionage_option_mod_own_heir_events.1 } }
+			hidden_effect = {
+				capital_scope = {
+					add_province_triggered_modifier = assassination_start_own_heir_triggered_modifier
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 0
+				
+				NOT = { years_of_income = 3 } 
+			}
+			
+			modifier = {
+				factor = 0
+				
+				OR = {
+					has_ruler_flag = planned_assassination_in_own_country
+					has_heir_flag = planned_assassination_in_own_country
+					has_consort_flag = planned_assassination_in_own_country
+					heir_claim = 50
+					is_emperor = yes
+					NOT = { prestige = 25 }
+					AND = {
+						has_dlc = "Rights of Man"
+						OR = {
+							has_regency = yes
+							NOT = { ruler_has_personality = cruel_personality }
+						}
+						OR = {
+							has_consort = no
+							NOT = { consort_has_personality = cruel_personality }
+						}
+						OR = {
+							has_regency = yes
+							has_consort = no
+							NOT = { advisor = spymaster }
+						}
+						NOT = { heir_has_personality = naive_personality }
+						NOT = { heir_has_personality = cruel_personality }
+					}
+					AND = {
+						NOT = { has_dlc = "Rights of Man" }
+						OR = {
+							has_regency = yes
+							NOT = { advisor = spymaster }
+						}
+						OR = {
+							heir_claim = 33
+							heir_adm = 3
+							heir_dip = 3
+							heir_mil = 3
+						}
+					}
+				}
+			}
+		}
+	}
+}

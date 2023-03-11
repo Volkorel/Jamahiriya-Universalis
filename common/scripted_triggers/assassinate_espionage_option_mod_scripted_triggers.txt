@@ -1,0 +1,224 @@
+success_chance_of_this_method_is_the_best = {
+	NOT = { is_variable_equal = { which = success_chance_of_$method$ value = 0 } }
+	check_variable = { which = success_chance_of_$method$ which = success_chance_of_faked_accident }
+	check_variable = { which = success_chance_of_$method$ which = success_chance_of_poisoned_food }
+	check_variable = { which = success_chance_of_$method$ which = success_chance_of_assassin }
+	check_variable = { which = success_chance_of_$method$ which = success_chance_of_bribed_guard }
+	OR = {
+		AND = {
+			ruler_age = 11
+			has_country_flag = ruler_is_target_of_assassination_attempt
+		}
+		AND = {
+			heir_age = 11
+			has_country_flag = heir_is_target_of_assassination_attempt
+		}
+		AND = {
+			consort_age = 11
+			has_country_flag = consort_is_target_of_assassination_attempt
+		}
+		check_variable = { which = success_chance_of_$method$ which = success_chance_of_infanticide }
+	}
+	OR = {
+		AND = {
+			NOT = { ruler_age = 15 }
+			has_country_flag = ruler_is_target_of_assassination_attempt
+		}
+		AND = {
+			NOT = { heir_age = 15 }
+			has_country_flag = heir_is_target_of_assassination_attempt
+		}
+		AND = {
+			NOT = { consort_age = 15 }
+			has_country_flag = consort_is_target_of_assassination_attempt
+		}
+		AND = {
+			check_variable = { which = success_chance_of_$method$ which = success_chance_of_poisoned_wine }
+			check_variable = { which = success_chance_of_$method$ which = success_chance_of_assault }
+		}
+	}
+	OR = {
+		NOT = { has_dlc = "Rights of Man" }
+		AND = {
+			has_country_flag = ruler_is_target_of_assassination_attempt
+			NOT = { ruler_has_personality = naive_personality }
+		}
+		AND = {
+			has_country_flag = heir_is_target_of_assassination_attempt
+			NOT = { heir_has_personality = naive_personality }
+		}
+		AND = {
+			has_country_flag = consort_is_target_of_assassination_attempt
+			NOT = { consort_has_personality = naive_personality }
+		}
+		check_variable = { which = success_chance_of_$method$ which = success_chance_of_drowning }
+	}
+	OR = {
+		NOT = { has_dlc = "Rights of Man" }
+		AND = {
+			has_country_flag = ruler_is_target_of_assassination_attempt
+			NOT = { ruler_has_personality = greedy_personality }
+			NOT = { ruler_has_personality = entrepreneur_personality }
+		}
+		AND = {
+			has_country_flag = heir_is_target_of_assassination_attempt
+			NOT = { heir_has_personality = greedy_personality }
+			NOT = { heir_has_personality = entrepreneur_personality }
+		}
+		AND = {
+			has_country_flag = consort_is_target_of_assassination_attempt
+			NOT = { consort_has_personality = greedy_personality }
+			NOT = { consort_has_personality = entrepreneur_personality }
+		}
+		check_variable = { which = success_chance_of_$method$ which = success_chance_of_balcony_plummet }
+	}
+	OR = {
+		NOT = { has_dlc = "Rights of Man" }
+		AND = {
+			has_country_flag = ruler_is_target_of_assassination_attempt
+			OR = {
+				NOT = { ruler_has_personality = sinner_personality }
+				NOT = { ruler_age = 15 }
+			}
+		}
+		AND = {
+			has_country_flag = heir_is_target_of_assassination_attempt
+			OR = {
+				NOT = { heir_has_personality = sinner_personality }
+				NOT = { heir_age = 15 }
+			}
+		}
+		AND = {
+			has_country_flag = consort_is_target_of_assassination_attempt
+			OR = {
+				NOT = { consort_has_personality = sinner_personality }
+				NOT = { consort_age = 15 }
+			}
+		}
+		check_variable = { which = success_chance_of_$method$ which = success_chance_of_disguised_harlot }
+	}
+	OR = {
+		NOT = { has_dlc = "Rights of Man" }
+		AND = {
+			has_country_flag = ruler_is_target_of_assassination_attempt
+			OR = {
+				AND = {
+					NOT = { ruler_has_personality = benevolent_personality }
+					NOT = { ruler_has_personality = kind_hearted_personality }
+				}
+				NOT = { ruler_age = 15 }
+			}
+		}
+		AND = {
+			has_country_flag = heir_is_target_of_assassination_attempt
+			OR = {
+				AND = {
+					NOT = { heir_has_personality = benevolent_personality }
+					NOT = { heir_has_personality = kind_hearted_personality }
+				}
+				NOT = { heir_age = 15 }
+			}
+		}
+		AND = {
+			has_country_flag = consort_is_target_of_assassination_attempt
+			OR = {
+				AND = {
+					NOT = { consort_has_personality = benevolent_personality }
+					NOT = { consort_has_personality = kind_hearted_personality }
+				}
+				NOT = { consort_age = 15 }
+			}
+		}
+		check_variable = { which = success_chance_of_$method$ which = success_chance_of_disguised_beggar }
+	}
+	OR = {
+		NOT = { has_dlc = "Rights of Man" }
+		AND = {
+			has_country_flag = ruler_is_target_of_assassination_attempt
+			OR = {
+				AND = {
+					NOT = { ruler_has_personality = zealot_personality }
+					NOT = { ruler_has_personality = pious_personality }
+				}
+				NOT = { ruler_age = 10 }
+			}
+		}
+		AND = {
+			has_country_flag = heir_is_target_of_assassination_attempt
+			OR = {
+				AND = {
+					NOT = { heir_has_personality = zealot_personality }
+					NOT = { heir_has_personality = pious_personality }
+				}
+				NOT = { heir_age = 10 }
+			}
+		}
+		AND = {
+			has_country_flag = consort_is_target_of_assassination_attempt
+			OR = {
+				AND = {
+					NOT = { consort_has_personality = zealot_personality }
+					NOT = { consort_has_personality = pious_personality }
+				}
+				NOT = { consort_age = 10 }
+			}
+		}
+		check_variable = { which = success_chance_of_$method$ which = success_chance_of_disguised_priest }
+	}
+}
+
+success_chance_of_this_method_is_the_best_in_own_country = {
+	NOT = { is_variable_equal = { which = own_$target$_assassination_success_chance_of_$method$ value = 0 } }
+	check_variable = { which = own_$target$_assassination_success_chance_of_$method$ which = own_$target$_assassination_success_chance_of_faked_accident }
+	check_variable = { which = own_$target$_assassination_success_chance_of_$method$ which = own_$target$_assassination_success_chance_of_poisoned_food }
+	check_variable = { which = own_$target$_assassination_success_chance_of_$method$ which = own_$target$_assassination_success_chance_of_assassin }
+	check_variable = { which = own_$target$_assassination_success_chance_of_$method$ which = own_$target$_assassination_success_chance_of_bribed_guard }
+	OR = {
+		$target$_age = 11
+		check_variable = { which = own_$target$_assassination_success_chance_of_$method$ which = own_$target$_assassination_success_chance_of_infanticide }
+	}
+	OR = {
+		NOT = { $target$_age = 15 }
+		AND = {
+			check_variable = { which = own_$target$_assassination_success_chance_of_$method$ which = own_$target$_assassination_success_chance_of_poisoned_wine }
+			check_variable = { which = own_$target$_assassination_success_chance_of_$method$ which = own_$target$_assassination_success_chance_of_assault }
+		}
+	}
+	OR = {
+		NOT = { has_dlc = "Rights of Man" }
+		NOT = { $target$_has_personality = naive_personality }
+		check_variable = { which = own_$target$_assassination_success_chance_of_$method$ which = own_$target$_assassination_success_chance_of_drowning }
+	}
+	OR = {
+		NOT = { has_dlc = "Rights of Man" }
+		AND = {
+			NOT = { $target$_has_personality = greedy_personality }
+			NOT = { $target$_has_personality = entrepreneur_personality }
+		}
+		check_variable = { which = own_$target$_assassination_success_chance_of_$method$ which = own_$target$_assassination_success_chance_of_balcony_plummet }
+	}
+	OR = {
+		NOT = { has_dlc = "Rights of Man" }
+		NOT = { $target$_has_personality = sinner_personality }
+		NOT = { $target$_age = 15 }
+		check_variable = { which = own_$target$_assassination_success_chance_of_$method$ which = own_$target$_assassination_success_chance_of_disguised_harlot }
+	}
+	OR = {
+		NOT = { has_dlc = "Rights of Man" }
+		AND = {
+			NOT = { $target$_has_personality = benevolent_personality }
+			NOT = { $target$_has_personality = kind_hearted_personality }
+		}
+		NOT = { $target$_age = 15 }
+		check_variable = { which = own_$target$_assassination_success_chance_of_$method$ which = own_$target$_assassination_success_chance_of_disguised_beggar }
+	}
+	OR = {
+		NOT = { has_dlc = "Rights of Man" }
+		AND = {
+			NOT = { $target$_has_personality = zealot_personality }
+			NOT = { $target$_has_personality = pious_personality }
+		}
+		NOT = { $target$_age = 10 }
+		check_variable = { which = own_$target$_assassination_success_chance_of_$method$ which = own_$target$_assassination_success_chance_of_disguised_priest }
+	}
+}

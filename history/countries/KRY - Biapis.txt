@@ -7,6 +7,7 @@ primary_culture = azerbaijani
 capital = 417
 fixed_capital = 417
 add_accepted_culture = persian
+add_historical_rival = ARL
 1444.11.11= {
 	monarch = {
 		name = "Morteza"

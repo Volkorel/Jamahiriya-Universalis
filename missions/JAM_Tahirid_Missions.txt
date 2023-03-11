@@ -1,0 +1,163 @@
+tahirid_farleft = {
+	slot = 1
+	generic = no
+	potential = {
+		tag = Y10
+	}
+	TAH_persoarab_ties = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = { }
+		effect = { }
+	}
+	TAH_headquarters_of_abbasids = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { TAH_persoarab_ties }
+		trigger = { }
+		effect = { }
+	}
+	TAH_ajam_mountains = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { TAH_headquarters_of_abbasids }
+		trigger = { }
+		effect = { }
+	}
+}
+
+TAH_fareast = {
+	slot = 3
+	generic = no
+	potential = {
+		tag = Y10
+	}
+
+	TAH_land_of_snakes = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = { }
+		effect = { }
+	}
+	TAH_century_long_rivalry = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { TAH_land_of_snakes }
+		trigger = { }
+		effect = { }
+	}
+	TAH_qizilbash_and_saribash = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { TAH_century_long_rivalry }
+		trigger = { }
+		effect = { }
+	}
+}
+
+TAH_middle = {
+	slot = 2
+	generic = no
+	potential = {
+		tag = Y10
+	}
+
+	TAH_magadash = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		required_missions = { TAH_zanjizamin TAH_tazahazamin }
+		trigger = { }
+		effect = { }
+	}
+	TAH_golestan_rose = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { TAH_ajam_mountains TAH_qizilbash_and_saribash }
+		trigger = { }
+		effect = { }
+	}
+	TAH_wait_for_us_south = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { TAH_golestan_rose }
+		trigger = { }
+		effect = { }
+	}
+	TAH_honouring_legacy_of_jaffar = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { TAH_wait_for_us_south }
+		trigger = { }
+		effect = { }
+	}
+	TAH_lion_of_tehran = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { TAH_tahirid_ocean TAH_transoxanian_standoff }
+		trigger = { }
+		effect = { }
+	}
+}
+
+TAH_southwest = {
+	slot = 1
+	generic = no
+	potential = {
+		tag = Y10
+	}
+
+	TAH_zanjizamin = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { TAH_lion_of_tehran }
+		trigger = { }
+		effect = { }
+	}
+	TAH_persia_proper = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { TAH_honouring_legacy_of_jaffar }
+		trigger = { }
+		effect = { }
+	}
+	TAH_tahirid_ocean = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { TAH_persia_proper }
+		trigger = { }
+		effect = { }
+	}
+}
+
+TAH_southeast = {
+	slot = 3
+	generic = no
+	potential = {
+		tag = Y10
+	}
+
+	TAH_tazahazamin = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { TAH_lion_of_tehran }
+		trigger = { }
+		effect = { }
+	}
+	TAH_kick_the_turk = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { TAH_honouring_legacy_of_jaffar }
+		trigger = { }
+		effect = { }
+	}
+	TAH_transoxanian_standoff = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { TAH_kick_the_turk }
+		trigger = { }
+		effect = { }
+	}
+}
+

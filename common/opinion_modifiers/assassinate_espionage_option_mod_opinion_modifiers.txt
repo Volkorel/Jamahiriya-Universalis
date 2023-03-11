@@ -1,0 +1,35 @@
+successfull_assassination_noticed_opinion = {
+	opinion = -100
+	yearly_decay = 1
+	min = -200
+}
+
+failed_assassination_noticed_opinion = {
+	opinion = -50
+	yearly_decay = 1
+	min = -200
+}
+
+supported_our_assassination_attempt = {
+	opinion = 25
+	months = 60
+	max = 50
+}
+
+supported_their_assassination_attempt = {
+	opinion = 25
+	months = 60
+	max = 50
+}
+
+our_consort_tried_to_kill_their_ruler_or_heir = {
+	opinion = -75
+	yearly_decay = 1
+	min = -150
+}
+
+their_consort_tried_to_kill_our_ruler_or_heir = {
+	opinion = -50
+	yearly_decay = 1
+	min = -100
+}

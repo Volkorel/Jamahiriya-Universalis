@@ -1,0 +1,583 @@
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorCareful
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_careful
+		trigger = {
+			OR = {
+				ruler_has_personality = careful_personality
+				heir_has_personality = careful_personality
+				consort_has_personality = careful_personality
+			}
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_personatility_random
+		trigger = {
+			NOT = { has_dlc = "Rights of Man" }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorCharismatic
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_charismatic
+		trigger = {
+			OR = {
+				ruler_has_personality = charismatic_negotiator_personality
+				heir_has_personality = charismatic_negotiator_personality
+				consort_has_personality = charismatic_negotiator_personality
+			}
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_personatility_random
+		trigger = {
+			NOT = { has_dlc = "Rights of Man" }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorSecretive
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_secretive
+		trigger = {
+			OR = {
+				ruler_has_personality = secretive_personality
+				heir_has_personality = secretive_personality
+				consort_has_personality = secretive_personality
+			}
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_personatility_random
+		trigger = {
+			NOT = { has_dlc = "Rights of Man" }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorCruel
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_cruel
+		trigger = {
+			OR = {
+				ruler_has_personality = cruel_personality
+				heir_has_personality = cruel_personality
+				consort_has_personality = cruel_personality
+			}
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_personatility_random
+		trigger = {
+			NOT = { has_dlc = "Rights of Man" }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorNaive
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_naive
+		trigger = {
+			OR = {
+				ruler_has_personality = naive_personality
+				heir_has_personality = naive_personality
+				consort_has_personality = naive_personality
+			}
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_personatility_random
+		trigger = {
+			NOT = { has_dlc = "Rights of Man" }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorLooseLips
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_loose_lips
+		trigger = {
+			OR = {
+				ruler_has_personality = loose_lips_personality
+				heir_has_personality = loose_lips_personality
+				consort_has_personality = loose_lips_personality
+			}
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_personatility_random
+		trigger = {
+			NOT = { has_dlc = "Rights of Man" }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorRootWebWeaver
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_web_weaver
+		trigger = {
+			ROOT = { ruler_has_personality = intricate_web_weaver_personality }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_personatility_random
+		trigger = {
+			NOT = { has_dlc = "Rights of Man" }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorWebWeaver
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_web_weaver
+		trigger = {
+			ruler_has_personality = intricate_web_weaver_personality
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_personatility_random
+		trigger = {
+			NOT = { has_dlc = "Rights of Man" }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorAllyMarriage
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_alliance
+		trigger = {
+			alliance_with = ROOT
+			NOT = { marriage_with = ROOT }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_marriage
+		trigger = {
+			NOT = { alliance_with = ROOT }
+			marriage_with = ROOT
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_alliance_and_marriage
+		trigger = {
+			alliance_with = ROOT
+			marriage_with = ROOT
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorRival
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_rival
+		trigger = {
+			OR = {
+				is_rival = ROOT
+				is_enemy = ROOT
+			}
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorHistoricalRival
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_historical_rival
+		trigger = {
+			historical_rival_with = ROOT
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorHistoricalFriend
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_historical_friend
+		trigger = {
+			historical_friend_with = ROOT
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorRootStability
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_stability_3
+		trigger = {
+			ROOT = { stability = 3 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_stability_2
+		trigger = {
+			ROOT = { stability = 2 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_stability_1
+		trigger = {
+			ROOT = { stability = 1 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_stability_m1
+		trigger = {
+			ROOT = {
+				NOT = { stability = 0 }
+				stability = -1
+			}
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_stability_m2
+		trigger = {
+			ROOT = {
+				NOT = { stability = -1 }
+				stability = -2
+			}
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_stability_m3
+		trigger = {
+			ROOT = { NOT = { stability = -2 } }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorStability
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_stability_3
+		trigger = {
+			stability = 3
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_stability_2
+		trigger = {
+			stability = 2
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_stability_1
+		trigger = {
+			stability = 1
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_stability_0
+		trigger = {
+			stability = 0
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_stability_m1
+		trigger = {
+			ROOT = { stability = -1 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_stability_m2
+		trigger = {
+			ROOT = { stability = -2 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_stability_m3
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorRootPrestige
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_prestige_75
+		trigger = {
+			ROOT = { prestige = 75 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_prestige_50
+		trigger = {
+			ROOT = { prestige = 50 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_prestige_0
+		trigger = {
+			ROOT = { prestige = 0 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_prestige_m25
+		trigger = {
+			ROOT = { prestige = -25 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_prestige_m50
+		trigger = {
+			ROOT = { prestige = -50 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_root_prestige_m100
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorPrestige
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_prestige_75
+		trigger = {
+			prestige = 75
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_prestige_50
+		trigger = {
+			prestige = 50
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_prestige_25
+		trigger = {
+			prestige = 25
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_prestige_m25
+		trigger = {
+			NOT = { prestige = -25 }
+			prestige = -50
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_prestige_m50
+		trigger = {
+			NOT = { prestige = -50 }
+			prestige = -75
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_prestige_m75
+		trigger = {
+			NOT = { prestige = -75 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorRootSpyIdeas
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_spy_ideas_7
+		trigger = {
+			ROOT = { full_idea_group = spy_ideas }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_spy_ideas_6
+		trigger = {
+			ROOT = { spy_ideas = 6 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_spy_ideas_5
+		trigger = {
+			ROOT = { spy_ideas = 5 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_spy_ideas_4
+		trigger = {
+			ROOT = { spy_ideas = 4 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_spy_ideas_3
+		trigger = {
+			ROOT = { spy_ideas = 3 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_spy_ideas_2
+		trigger = {
+			ROOT = { spy_ideas = 2 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_spy_ideas_1
+		trigger = {
+			ROOT = { spy_ideas = 1 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGeneralAssassinationChanceInfluencingFactorRootSpymaster
+	random = no
+	
+	text = {
+		localisation_key = string_general_assassination_chance_influence_spymaster_3
+		trigger = {
+			ROOT = { spymaster = 3 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_spymaster_2
+		trigger = {
+			ROOT = { spymaster = 2 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_influence_spymaster_1
+		trigger = {
+			ROOT = { spymaster = 1 }
+		}
+	}
+	text = {
+		localisation_key = string_general_assassination_chance_no_influence
+		trigger = {
+			always = yes
+		}
+	}
+}

@@ -1,0 +1,1231 @@
+defined_text = {
+	name = GetCurrentOwnRulerAssassinationChance
+	random = no
+	
+	text = {
+		localisation_key = string_assassination_chances_of_own_ruler_infanticide
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_ruler_is_infanticide
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_ruler_faked_accident
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_ruler_is_faked_accident
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_ruler_poisoned_wine
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_ruler_is_poisoned_wine
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_ruler_poisoned_food
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_ruler_is_poisoned_food
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_ruler_assault
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_ruler_is_assault
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_ruler_assassin
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_ruler_is_assassin
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_ruler_bribed_guard
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_ruler_is_bribed_guard
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_ruler_drowning
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_ruler_is_drowning
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_ruler_balcony_plummet
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_ruler_is_balcony_plummet
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_ruler_disguised_harlot
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_ruler_is_disguised_harlot
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_ruler_disguised_beggar
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_ruler_is_disguised_beggar
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_ruler_disguised_priest
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_ruler_is_disguised_priest
+		}
+	}
+}
+
+defined_text = {
+	name = GetCurrentOwnHeirAssassinationChance
+	random = no
+	
+	text = {
+		localisation_key = string_assassination_chances_of_own_heir_infanticide
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_heir_is_infanticide
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_heir_faked_accident
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_heir_is_faked_accident
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_heir_poisoned_wine
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_heir_is_poisoned_wine
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_heir_poisoned_food
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_heir_is_poisoned_food
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_heir_assault
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_heir_is_assault
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_heir_assassin
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_heir_is_assassin
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_heir_bribed_guard
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_heir_is_bribed_guard
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_heir_drowning
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_heir_is_drowning
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_heir_balcony_plummet
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_heir_is_balcony_plummet
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_heir_disguised_harlot
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_heir_is_disguised_harlot
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_heir_disguised_beggar
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_heir_is_disguised_beggar
+		}
+	}
+	text = {
+		localisation_key = string_assassination_chances_of_own_heir_disguised_priest
+		trigger = {
+			has_country_flag = methode_of_assassination_of_own_heir_is_disguised_priest
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerInfanticideChances
+	random = no
+	
+	text = {
+		localisation_key = string_infanticide_of_own_ruler_chances_green
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_infanticide value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_infanticide_of_own_ruler_chances_yellow
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_infanticide value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_infanticide_of_own_ruler_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerAccidentChances
+	random = no
+	
+	text = {
+		localisation_key = string_accident_of_own_ruler_chances_green
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_faked_accident value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_accident_of_own_ruler_chances_yellow
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_faked_accident value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_accident_of_own_ruler_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerPoisonedWineChances
+	random = no
+	
+	text = {
+		localisation_key = string_poisoned_wine_of_own_ruler_chances_green
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_poisoned_wine value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_poisoned_wine_of_own_ruler_chances_yellow
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_poisoned_wine value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_poisoned_wine_of_own_ruler_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerPoisonedFoodChances
+	random = no
+	
+	text = {
+		localisation_key = string_poisoned_food_of_own_ruler_chances_green
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_poisoned_food value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_poisoned_food_of_own_ruler_chances_yellow
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_poisoned_food value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_poisoned_food_of_own_ruler_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerAssaultChances
+	random = no
+	
+	text = {
+		localisation_key = string_assault_of_own_ruler_chances_green
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_assault value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_assault_of_own_ruler_chances_yellow
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_assault value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_assault_of_own_ruler_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerAssassinChances
+	random = no
+	
+	text = {
+		localisation_key = string_assassin_of_own_ruler_chances_green
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_assassin value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_assassin_of_own_ruler_chances_yellow
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_assassin value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_assassin_of_own_ruler_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerBribedGuardChances
+	random = no
+	
+	text = {
+		localisation_key = string_bribed_guard_of_own_ruler_chances_green
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_bribed_guard value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_bribed_guard_of_own_ruler_chances_yellow
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_bribed_guard value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_bribed_guard_of_own_ruler_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerDrowningChances
+	random = no
+	
+	text = {
+		localisation_key = string_drowning_of_own_ruler_chances_green
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_drowning value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_drowning_of_own_ruler_chances_yellow
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_drowning value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_drowning_of_own_ruler_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerBalconyPlummetChances
+	random = no
+	
+	text = {
+		localisation_key = string_balcony_plummet_of_own_ruler_chances_green
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_balcony_plummet value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_balcony_plummet_of_own_ruler_chances_yellow
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_balcony_plummet value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_balcony_plummet_of_own_ruler_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerDisguisedHarlotChances
+	random = no
+	
+	text = {
+		localisation_key = string_disguised_harlot_of_own_ruler_chances_green
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_disguised_harlot value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_disguised_harlot_of_own_ruler_chances_yellow
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_disguised_harlot value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_disguised_harlot_of_own_ruler_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerDisguisedBeggarChances
+	random = no
+	
+	text = {
+		localisation_key = string_disguised_beggar_of_own_ruler_chances_green
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_disguised_beggar value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_disguised_beggar_of_own_ruler_chances_yellow
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_disguised_beggar value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_disguised_beggar_of_own_ruler_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerDisguisedPriestChances
+	random = no
+	
+	text = {
+		localisation_key = string_disguised_priest_of_own_ruler_chances_green
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_disguised_priest value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_disguised_priest_of_own_ruler_chances_yellow
+		trigger = {
+			check_variable = { which = own_ruler_assassination_success_chance_of_disguised_priest value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_disguised_priest_of_own_ruler_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnHeirInfanticideChances
+	random = no
+	
+	text = {
+		localisation_key = string_infanticide_of_own_heir_chances_green
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_infanticide value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_infanticide_of_own_heir_chances_yellow
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_infanticide value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_infanticide_of_own_heir_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnHeirAccidentChances
+	random = no
+	
+	text = {
+		localisation_key = string_accident_of_own_heir_chances_green
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_faked_accident value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_accident_of_own_heir_chances_yellow
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_faked_accident value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_accident_of_own_heir_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnHeirPoisonedWineChances
+	random = no
+	
+	text = {
+		localisation_key = string_poisoned_wine_of_own_heir_chances_green
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_poisoned_wine value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_poisoned_wine_of_own_heir_chances_yellow
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_poisoned_wine value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_poisoned_wine_of_own_heir_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnHeirPoisonedFoodChances
+	random = no
+	
+	text = {
+		localisation_key = string_poisoned_food_of_own_heir_chances_green
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_poisoned_food value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_poisoned_food_of_own_heir_chances_yellow
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_poisoned_food value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_poisoned_food_of_own_heir_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnHeirAssaultChances
+	random = no
+	
+	text = {
+		localisation_key = string_assault_of_own_heir_chances_green
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_assault value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_assault_of_own_heir_chances_yellow
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_assault value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_assault_of_own_heir_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnHeirAssassinChances
+	random = no
+	
+	text = {
+		localisation_key = string_assassin_of_own_heir_chances_green
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_assassin value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_assassin_of_own_heir_chances_yellow
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_assassin value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_assassin_of_own_heir_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnHeirBribedGuardChances
+	random = no
+	
+	text = {
+		localisation_key = string_bribed_guard_of_own_heir_chances_green
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_bribed_guard value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_bribed_guard_of_own_heir_chances_yellow
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_bribed_guard value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_bribed_guard_of_own_heir_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnHeirDrowningChances
+	random = no
+	
+	text = {
+		localisation_key = string_drowning_of_own_heir_chances_green
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_drowning value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_drowning_of_own_heir_chances_yellow
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_drowning value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_drowning_of_own_heir_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnHeirBalconyPlummetChances
+	random = no
+	
+	text = {
+		localisation_key = string_balcony_plummet_of_own_heir_chances_green
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_balcony_plummet value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_balcony_plummet_of_own_heir_chances_yellow
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_balcony_plummet value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_balcony_plummet_of_own_heir_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnHeirDisguisedHarlotChances
+	random = no
+	
+	text = {
+		localisation_key = string_disguised_harlot_of_own_heir_chances_green
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_disguised_harlot value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_disguised_harlot_of_own_heir_chances_yellow
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_disguised_harlot value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_disguised_harlot_of_own_heir_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnHeirDisguisedBeggarChances
+	random = no
+	
+	text = {
+		localisation_key = string_disguised_beggar_of_own_heir_chances_green
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_disguised_beggar value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_disguised_beggar_of_own_heir_chances_yellow
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_disguised_beggar value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_disguised_beggar_of_own_heir_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnHeirDisguisedPriestChances
+	random = no
+	
+	text = {
+		localisation_key = string_disguised_priest_of_own_heir_chances_green
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_disguised_priest value = 67 }
+		}
+	}
+	text = {
+		localisation_key = string_disguised_priest_of_own_heir_chances_yellow
+		trigger = {
+			check_variable = { which = own_heir_assassination_success_chance_of_disguised_priest value = 34 }
+		}
+	}
+	text = {
+		localisation_key = string_disguised_priest_of_own_heir_chances_red
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerHeirAvailableAssassinationMethodes
+	random = no
+	
+	text = {
+		localisation_key = string_available_assassination_methodes_own_ruler_or_heir
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsAvailableInfanticideOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_available_methode_own_ruler_heir_infanticide
+		trigger = {
+			NOT = { heir_age = 11 }
+			has_country_flag = assassination_attempt_of_own_heir
+		}
+	}
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsAvailablePoisonedWineOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_available_methode_own_ruler_heir_poisoned_wine
+		trigger = {
+			OR = {
+				AND = {
+					ruler_age = 15
+					has_country_flag = assassination_attempt_of_own_ruler
+				}
+				AND = {
+					heir_age = 15
+					has_country_flag = assassination_attempt_of_own_heir
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsAvailableAssaultOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_available_methode_own_ruler_heir_assault
+		trigger = {
+			OR = {
+				AND = {
+					ruler_age = 15
+					has_country_flag = assassination_attempt_of_own_ruler
+				}
+				AND = {
+					heir_age = 15
+					has_country_flag = assassination_attempt_of_own_heir
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsAvailableDrowningOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_available_methode_own_ruler_heir_drowning
+		trigger = {
+			has_dlc = "Rights of Man"
+			OR = {
+				AND = {
+					has_country_flag = assassination_attempt_of_own_ruler
+					ruler_has_personality = naive_personality
+				}
+				AND = {
+					has_country_flag = assassination_attempt_of_own_heir
+					heir_has_personality = naive_personality
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsAvailableBalconyPlummetOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_available_methode_own_ruler_heir_balcony_plummet
+		trigger = {
+			has_dlc = "Rights of Man"
+			OR = {
+				AND = {
+					has_country_flag = assassination_attempt_of_own_ruler
+					OR = {
+						ruler_has_personality = greedy_personality
+						ruler_has_personality = entrepreneur_personality
+					}
+				}
+				AND = {
+					has_country_flag = assassination_attempt_of_own_heir
+					OR = {
+						heir_has_personality = greedy_personality
+						heir_has_personality = entrepreneur_personality
+					}
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsAvailableDisguisedHarlotOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_available_methode_own_ruler_heir_disguised_harlot
+		trigger = {
+			has_dlc = "Rights of Man"
+			OR = {
+				AND = {
+					has_country_flag = assassination_attempt_of_own_ruler
+					ruler_has_personality = sinner_personality
+					ruler_age = 15
+				}
+				AND = {
+					has_country_flag = assassination_attempt_of_own_heir
+					heir_has_personality = sinner_personality
+					heir_age = 15
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsAvailableDisguisedBeggarOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_available_methode_own_ruler_heir_disguised_beggar
+		trigger = {
+			has_dlc = "Rights of Man"
+			OR = {
+				AND = {
+					has_country_flag = assassination_attempt_of_own_ruler
+					OR = {
+						ruler_has_personality = benevolent_personality
+						ruler_has_personality = kind_hearted_personality
+					}
+					ruler_age = 15
+				}
+				AND = {
+					has_country_flag = assassination_attempt_of_own_heir
+					OR = {
+						heir_has_personality = benevolent_personality
+						heir_has_personality = kind_hearted_personality
+					}
+					heir_age = 15
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsAvailableDisguisedPriestOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_available_methode_own_ruler_heir_disguised_priest
+		trigger = {
+			has_dlc = "Rights of Man"
+			OR = {
+				AND = {
+					has_country_flag = assassination_attempt_of_own_ruler
+					OR = {
+						ruler_has_personality = zealot_personality
+						ruler_has_personality = pious_personality
+					}
+					ruler_age = 10
+				}
+				AND = {
+					has_country_flag = assassination_attempt_of_own_heir
+					OR = {
+						heir_has_personality = zealot_personality
+						heir_has_personality = pious_personality
+					}
+					heir_age = 10
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetOwnRulerHeirUnavailableAssassinationMethodes
+	random = no
+	
+	text = {
+		localisation_key = string_unavailable_assassination_methodes_own_ruler_or_heir
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsUnavailableInfanticideOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			OR = {
+				NOT = { heir_age = 11 }
+				NOT = { has_country_flag = assassination_attempt_of_own_heir }
+			}
+		}
+	}
+	text = {
+		localisation_key = string_unavailable_methode_own_ruler_heir_infanticide
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsUnavailablePoisonedWineOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			OR = {
+				AND = {
+					ruler_age = 15
+					has_country_flag = assassination_attempt_of_own_ruler
+				}
+				AND = {
+					heir_age = 15
+					has_country_flag = assassination_attempt_of_own_heir
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_unavailable_methode_own_ruler_heir_poisoned_wine
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsUnavailableAssaultOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			OR = {
+				AND = {
+					ruler_age = 15
+					has_country_flag = assassination_attempt_of_own_ruler
+				}
+				AND = {
+					heir_age = 15
+					has_country_flag = assassination_attempt_of_own_heir
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_unavailable_methode_own_ruler_heir_assault
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsUnavailableDrowningOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			has_dlc = "Rights of Man"
+			OR = {
+				AND = {
+					has_country_flag = assassination_attempt_of_own_ruler
+					ruler_has_personality = naive_personality
+				}
+				AND = {
+					has_country_flag = assassination_attempt_of_own_heir
+					heir_has_personality = naive_personality
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_unavailable_methode_own_ruler_heir_drowning
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsUnavailableBalconyPlummetOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			has_dlc = "Rights of Man"
+			OR = {
+				AND = {
+					has_country_flag = assassination_attempt_of_own_ruler
+					OR = {
+						ruler_has_personality = greedy_personality
+						ruler_has_personality = entrepreneur_personality
+					}
+				}
+				AND = {
+					has_country_flag = assassination_attempt_of_own_heir
+					OR = {
+						heir_has_personality = greedy_personality
+						heir_has_personality = entrepreneur_personality
+					}
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_unavailable_methode_own_ruler_heir_balcony_plummet
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsUnavailableDisguisedHarlotOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			has_dlc = "Rights of Man"
+			OR = {
+				AND = {
+					has_country_flag = assassination_attempt_of_own_ruler
+					ruler_has_personality = sinner_personality
+					ruler_age = 15
+				}
+				AND = {
+					has_country_flag = assassination_attempt_of_own_heir
+					heir_has_personality = sinner_personality
+					heir_age = 15
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_unavailable_methode_own_ruler_heir_disguised_harlot
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsUnavailableDisguisedBeggarOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			has_dlc = "Rights of Man"
+			OR = {
+				AND = {
+					has_country_flag = assassination_attempt_of_own_ruler
+					OR = {
+						ruler_has_personality = benevolent_personality
+						ruler_has_personality = kind_hearted_personality
+					}
+					ruler_age = 15
+				}
+				AND = {
+					has_country_flag = assassination_attempt_of_own_heir
+					OR = {
+						heir_has_personality = benevolent_personality
+						heir_has_personality = kind_hearted_personality
+					}
+					heir_age = 15
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_unavailable_methode_own_ruler_heir_disguised_beggar
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetIfMethodIsUnavailableDisguisedPriestOwnRulerHeir
+	random = no
+	
+	text = {
+		localisation_key = string_methode_not_in_available_unavailable_list
+		trigger = {
+			has_dlc = "Rights of Man"
+			OR = {
+				AND = {
+					has_country_flag = assassination_attempt_of_own_ruler
+					OR = {
+						ruler_has_personality = zealot_personality
+						ruler_has_personality = pious_personality
+					}
+					ruler_age = 10
+				}
+				AND = {
+					has_country_flag = assassination_attempt_of_own_heir
+					OR = {
+						heir_has_personality = zealot_personality
+						heir_has_personality = pious_personality
+					}
+					heir_age = 10
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = string_unavailable_methode_own_ruler_heir_disguised_priest
+		trigger = {
+			always = yes
+		}
+	}
+}
