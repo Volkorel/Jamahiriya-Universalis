@@ -1,0 +1,60 @@
+dlc053_spa_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = SPA
+			tag = CAS
+			tag = NAV
+		}
+	}
+	
+	sprite_infantry = {
+		0 = SPA_INFANTRY_1
+		2 = SPA_INFANTRY_3
+		3 = SPA_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = SPA_CAVALRY_1
+		2 = SPA_CAVALRY_3
+		3 = SPA_CAVALRY_4
+	}
+}
+
+dlc053_hab_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = HAB
+	}
+
+	sprite_infantry = {
+		0 = HAB_NEW_INFANTRY_1
+		2 = HAB_NEW_INFANTRY_3
+		3 = HAB_NEW_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = HAB_NEW_CAVALRY_1
+		2 = HAB_NEW_CAVALRY_3
+		3 = HAB_NEW_CAVALRY_4
+	}
+}
+
+dlc053_pol_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = POL
+			tag = PLC
+			tag = MAZ
+		primary_culture = polish
+
+		}
+	}
+
+	sprite_infantry = {
+		0 = POL_NEW_INFANTRY_1
+		2 = POL_NEW_INFANTRY_3
+		3 = POL_NEW_INFANTRY_4
+	}
+}

@@ -1,0 +1,242 @@
+dlc028_fra_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = FRA
+	}
+
+	sprite_infantry = {
+		1 = FRA_INFANTRY_2_evup
+	}
+
+	sprite_cavalry = {
+		1 = FRA_CAVALRY_2_evup
+	}
+
+	sprite_artillery = {
+		1 = FRA_ARTILLERY_2_evup
+	}
+}
+
+dlc028_bra_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = BRA
+			tag = PRU
+			tag = RIG
+			tag = KUR
+
+		}
+	}
+
+	sprite_infantry = {
+		1 = BRA_INFANTRY_2_evup
+	}
+
+	sprite_cavalry = {
+		1 = BRA_CAVALRY_2_evup
+	}
+
+	sprite_artillery = {
+		1 = BRA_ARTILLERY_2_evup
+	}
+}
+
+dlc028_hes_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = WES
+			tag = HES
+		}
+	}
+
+	sprite_infantry = {
+		1 = HES_INFANTRY_2_evup
+	}
+
+	sprite_cavalry = {
+		1 = HES_CAVALRY_2_evup
+	}
+
+	sprite_artillery = {
+		1 = HES_ARTILLERY_2_evup
+	}
+}
+
+dlc028_eng_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = ENG
+	}
+
+	sprite_infantry = {
+		1 = ENG_INFANTRY_2_evup
+	}
+
+	sprite_cavalry = {
+		1 = ENG_CAVALRY_2_evup
+	}
+
+	sprite_artillery = {
+		1 = ENG_ARTILLERY_2_evup
+	}
+}
+
+dlc028_sax_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = SAX
+			tag = THU
+		}
+	}
+
+	sprite_infantry = {
+		1 = SAX_INFANTRY_2_evup
+	}
+
+	sprite_cavalry = {
+		1 = SAX_CAVALRY_2_evup
+	}
+
+	sprite_artillery = {
+		1 = SAX_ARTILLERY_2_evup
+	}
+}
+
+dlc028_wur_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = WUR
+			tag = SWA
+		}
+	}
+
+	sprite_infantry = {
+		1 = WUR_INFANTRY_2_evup
+	}
+
+	sprite_cavalry = {
+		1 = WUR_CAVALRY_2_evup
+	}
+
+	sprite_artillery = {
+		1 = WUR_ARTILLERY_2_evup
+	}
+}
+
+dlc028_ned_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			primary_culture = dutch
+			primary_culture = frisian
+			primary_culture = flemish
+			tag = BUR
+			tag = LOT
+		}
+	}
+
+	sprite_infantry = {
+		1 = NED_INFANTRY_2_evup
+	}
+
+	sprite_cavalry = {
+		1 = NED_CAVALRY_2_evup
+	}
+
+	sprite_artillery = {
+		1 = NED_ARTILLERY_2_evup
+	}
+}
+
+dlc028_pom_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = POM
+			tag = STE
+			tag = WOL
+		}
+	}
+
+	sprite_infantry = {
+		1 = POM_INFANTRY_2_evup
+	}
+
+	sprite_cavalry = {
+		1 = POM_CAVALRY_2_evup
+	}
+
+	sprite_artillery = {
+		1 = POM_ARTILLERY_2_evup
+	}
+}
+
+dlc028_pal_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = PAL
+	}
+
+	sprite_infantry = {
+		1 = PAL_INFANTRY_2_evup
+	}
+
+	sprite_cavalry = {
+		1 = PAL_CAVALRY_2_evup
+	}
+
+	sprite_artillery = {
+		1 = PAL_ARTILLERY_2_evup
+	}
+}
+
+dlc028_dan_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+		tag = DAN
+		tag = SWE
+	}
+}
+
+	sprite_infantry = {
+		1 = DAN_INFANTRY_2_evup
+	}
+
+	sprite_cavalry = {
+		1 = DAN_CAVALRY_2_evup
+	}
+
+	sprite_artillery = {
+		1 = DAN_ARTILLERY_2_evup
+	}
+}
+
+dlc028_boh_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+		tag = BOH
+		tag = GLG
+		tag = OPL
+		tag = SOR
+
+	}
+}
+	sprite_infantry = {
+		1 = BOH_INFANTRY_2_evup
+	}
+
+	sprite_cavalry = {
+		1 = BOH_CAVALRY_2_evup
+	}
+
+	sprite_artillery = {
+		1 = BOH_ARTILLERY_2_evup
+	}
+}
+

@@ -1,0 +1,140 @@
+dlc057_nub_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = NUB
+			tag = ALO
+			tag = BEJ
+			tag = ABB
+			tag = MAK
+		}
+	}
+
+	sprite_infantry = {
+		0 = NUB_INFANTRY_1
+		1 = NUB_INFANTRY_2
+		2 = NUB_INFANTRY_3
+		3 = NUB_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = NUB_CAVALRY_1
+		1 = NUB_CAVALRY_2
+		2 = NUB_CAVALRY_3
+		3 = NUB_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = NUB_ARTILLERY_1
+		1 = NUB_ARTILLERY_2
+		2 = NUB_ARTILLERY_3
+		3 = NUB_ARTILLERY_4
+	}
+}
+
+dlc057_mdi_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = MDI
+			tag = AJU
+			tag = MRE
+			tag = WAR
+			tag = ADA
+			tag = HDY
+		}
+	}
+
+	sprite_infantry = {
+		0 = MDI_INFANTRY_1
+		1 = MDI_INFANTRY_2
+		2 = MDI_INFANTRY_3
+		3 = MDI_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = MDI_CAVALRY_1
+		1 = MDI_CAVALRY_2
+		2 = MDI_CAVALRY_3
+		3 = MDI_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = MDI_ARTILLERY_1
+		1 = MDI_ARTILLERY_2
+		2 = MDI_ARTILLERY_3
+		3 = MDI_ARTILLERY_4
+	}
+}
+
+dlc057_zan_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = ZAN
+			tag = PTE
+			tag = MLI
+			tag = MBA
+			tag = SFA
+		}
+	}
+
+	sprite_infantry = {
+		0 = ZAN_INFANTRY_1
+		1 = ZAN_INFANTRY_2
+		2 = ZAN_INFANTRY_3
+		3 = ZAN_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = ZAN_CAVALRY_1
+		1 = ZAN_CAVALRY_2
+		2 = ZAN_CAVALRY_3
+		3 = ZAN_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = ZAN_ARTILLERY_1
+		1 = ZAN_ARTILLERY_2
+		2 = ZAN_ARTILLERY_3
+		3 = ZAN_ARTILLERY_4
+	}
+}
+
+dlc057_eth_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		OR = {
+			tag = ETH
+			tag = BTI
+			tag = DAM
+			tag = ENA
+			tag = KAF
+			tag = JJI
+			tag = WLY
+			tag = SOA
+			tag = MED
+		}
+	}
+
+	sprite_infantry = {
+		0 = ETH_INFANTRY_1
+		1 = ETH_INFANTRY_2
+		2 = ETH_INFANTRY_3
+		3 = ETH_INFANTRY_4
+	}
+
+	sprite_cavalry = {
+		0 = ETH_CAVALRY_1
+		1 = ETH_CAVALRY_2
+		2 = ETH_CAVALRY_3
+		3 = ETH_CAVALRY_4
+	}
+
+	sprite_artillery = {
+		0 = ETH_ARTILLERY_1
+		1 = ETH_ARTILLERY_2
+		2 = ETH_ARTILLERY_3
+		3 = ETH_ARTILLERY_4
+	}
+}

@@ -1,0 +1,189 @@
+dlc015_chi_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = CHI
+	}
+
+	sprite_infantry = {
+		0 = CHI_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = CHI_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = CHI_ARTILLERY_1
+	}
+}
+
+dlc015_mah_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = MAH
+	}
+
+	sprite_infantry = {
+		0 = MAH_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = MAH_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = MAH_ARTILLERY_1
+	}
+}
+
+dlc015_mik_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = MIK
+	}
+
+	sprite_infantry = {
+		0 = MIK_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = MIK_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = MIK_ARTILLERY_1
+	}
+}
+
+dlc015_pot_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = POT
+	}
+
+	sprite_infantry = {
+		0 = POT_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = POT_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = POT_ARTILLERY_1
+	}
+}
+
+dlc015_sho_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = SHO
+	}
+
+	sprite_infantry = {
+		0 = SHO_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = SHO_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = SHO_ARTILLERY_1
+	}
+}
+
+dlc015_oji_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = OJI
+	}
+
+	sprite_infantry = {
+		0 = OJI_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = OJI_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = OJI_ARTILLERY_1
+	}
+}
+
+dlc015_nah_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = NAH
+	}
+
+	sprite_infantry = {
+		0 = NAH_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = NAH_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = NAH_ARTILLERY_1
+	}
+}
+
+dlc015_fox_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = FOX
+	}
+
+	sprite_infantry = {
+		0 = FOX_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = FOX_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = FOX_ARTILLERY_1
+	}
+}
+
+dlc015_asi_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = ASI
+	}
+
+	sprite_infantry = {
+		0 = ASI_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = ASI_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = ASI_ARTILLERY_1
+	}
+}
+
+dlc015_mmi_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = MMI
+	}
+
+	sprite_infantry = {
+		0 = MMI_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = MMI_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = MMI_ARTILLERY_1
+	}
+}

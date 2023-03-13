@@ -1,0 +1,151 @@
+dlc012_apa_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = APA
+	}
+
+	sprite_infantry = {
+		0 = APA_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = APA_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = APA_ARTILLERY_1
+	}
+}
+
+dlc012_com_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = COM
+	}
+
+	sprite_infantry = {
+		0 = COM_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = COM_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = COM_ARTILLERY_1
+	}
+}
+
+dlc012_sha_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = SHA
+	}
+
+	sprite_infantry = {
+		0 = SHA_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = SHA_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = SHA_ARTILLERY_1
+	}
+}
+
+dlc012_che_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = CHE
+	}
+
+	sprite_infantry = {
+		0 = CHE_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = CHE_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = CHE_ARTILLERY_1
+	}
+}
+
+dlc012_cre_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = CRE
+	}
+
+	sprite_infantry = {
+		0 = CRE_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = CRE_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = CRE_ARTILLERY_1
+	}
+}
+
+dlc012_hur_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = HUR
+	}
+
+	sprite_infantry = {
+		0 = HUR_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = HUR_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = HUR_ARTILLERY_1
+	}
+}
+
+dlc012_iro_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = IRO
+	}
+
+	sprite_infantry = {
+		0 = IRO_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = IRO_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = IRO_ARTILLERY_1
+	}
+}
+
+dlc012_sio_sprite_pack = {
+	# Tests against every tag in game
+	country_trigger = {
+		tag = SIO
+	}
+
+	sprite_infantry = {
+		0 = SIO_INFANTRY_1
+	}
+
+	sprite_cavalry = {
+		0 = SIO_CAVALRY_1
+	}
+
+	sprite_artillery = {
+		0 = SIO_ARTILLERY_1
+	}
+}
