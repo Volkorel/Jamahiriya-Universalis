@@ -1,56 +1,182 @@
-HUN_centrelan = {
-	slot = 3
+
+HUN_Keresztes_line = {
+	slot = 1
 	generic = no
 	potential = {
 		tag = HUN
 	}
-
-	HUN_Valtsagdij_Szuzanya = {
+	HUN_keresztes_of_varna = {
 		icon = mission_build_up_to_force_limit
-		position = 1
-		required_missions = {  }
-		trigger = { }
-		effect = { }
+		position = 2
+		required_missions = { HUN_Valtsagdij_Szuzanya }
+		trigger = {
+			has_opinion = {
+				who = Y80
+				value = 200
+			}
+			if = {
+				limit = {
+					exists = UKR
+				}
+				has_opinion = {
+					who = UKR
+					value = 200
+				}
+			}
+		}
+		effect = {
+			vassalize = Y80
+			moldavia_area = {
+				add_permanent_claim	= Y80
+			}
+			western_moldovia_area = {
+				add_permanent_claim	= Y80
+			}
+			bukovina_area = {
+				add_permanent_claim	= Y80
+			}
+		}
 	}
-	HUN_Hadjarat = {
+	HUN_protect_the_katolikusai = {
 		icon = mission_build_up_to_force_limit
-		position = 5
-		required_missions = { HUN_drevl_plague HUN_legend_of_hunyadi HUN_legend_of_miklos HUN_cross_illuminates_banat }
-		trigger = { }
-		effect = { }
+		position = 3
+		required_missions = { HUN_keresztes_of_varna }
+		trigger = {
+			NOT = { exists = UKR }
+			exists = A01
+			has_opinion = {
+				who = A01
+				value = 200
+			}
+			has_opinion = {
+				who = KIE
+				value = 150
+			}
+		}
+		effect = {
+			vassalize = A01
+			create_guarantee = KIE
+		}
 	}
-	HUN_forlorn_army = {
+	HUN_drevl_plague = {
 		icon = mission_build_up_to_force_limit
-		position = 8
-		required_missions = { HUN_Rusland_Catholics HUN_sarriod_gowere }
-		trigger = { }
-		effect = { }
+		position = 4
+		required_missions = { HUN_protect_the_katolikusai }
+		trigger = {
+			NOT = { exists = MOL }
+		}
+		effect = {
+			bukovina_area = {
+				add_core = A01
+			}
+			2960 = {
+				add_core = A01
+				add_permanent_claim = HUN
+			}
+			2959 = {
+				add_core = A01
+			}
+			262 = {
+				add_core = A01
+			}
+			8222 = {
+				add_core = A01
+				add_permanent_claim = HUN
+			}
+			upper_hungary_area = {
+				add_core = HUN
+			}
+			slovakia_area = {
+				add_core = HUN
+			}
+		}
 	}
-	HUN_hear_the_call_of_athenia = {
+	HUN_ruthenian_crown = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { HUN_Hadjarat }
+		trigger = {
+			stability = 3
+			A01 = {
+				liberty_desire = 0
+			}
+		}
+		effect = {
+			volhynia_area = {
+				add_core = A01
+			}
+			eastern_volhynia_area = {
+				add_core = A01
+			}
+			sandomierz_area = {
+				add_core = A01
+			}
+			slovakia_area = {
+				add_core = A01
+			}
+		}
+	}
+	HUN_crown_of_volhynia = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { HUN_ruthenian_crown }
+		trigger = {
+			A01 = {
+				liberty_desire = 0
+			}
+			volhynia_area = {
+				owned_by = A01
+				controlled_by = A01
+			}
+			eastern_volhynia_area = {
+				owned_by = A01
+				controlled_by = A01
+			}
+			sandomierz_area = {
+				owned_by = A01
+				controlled_by = A01
+			}
+			slovakia_area = {
+				owned_by = A01
+				controlled_by = A01
+			}
+		}
+		effect = {
+			create_union = A01
+			moravia_area = {
+				add_core = HUN
+			}
+			austria_proper_area = {
+				add_core = HUN
+			}
+			inner_austria_area = {
+				add_core = HUN
+			}
+		}
+	}
+	HUN_hear_the_bavarian = {
 		icon = mission_build_up_to_force_limit
 		position = 9
 		required_missions = { HUN_forlorn_army }
-		trigger = { }
+		trigger = {
+			has_opinion = {
+				who = BAV
+				value = -100
+			}
+		}
 		effect = { }
 	}
-	HUN_magna_graecia = {
+	HUN_bavaria_mariafold = {
 		icon = mission_build_up_to_force_limit
 		position = 10
-		required_missions = { HUN_hear_the_call_of_athenia }
+		required_missions = { HUN_hear_the_bavarian }
 		trigger = { }
 		effect = { }
 	}
-	HUN_cross_of_god = {
+	HUN_church_of_calvin = {
 		icon = mission_build_up_to_force_limit
 		position = 11
 		required_missions = { HUN_magna_graecia }
-		trigger = { }
-		effect = { }
-	}
-	HUN_ad_majorem_dei = {
-		icon = mission_build_up_to_force_limit
-		position = 12
-		required_missions = { HUN_cross_of_god HUN_church_of_calvin HUN_fraticellos }
 		trigger = { }
 		effect = { }
 	}
@@ -99,72 +225,63 @@ HUN_feketeline = {
 		effect = { }
 	}
 }
-
-HUN_Keresztes_line = {
-	slot = 1
+HUN_centrelan = {
+	slot = 3
 	generic = no
 	potential = {
 		tag = HUN
 	}
 
-	HUN_keresztes_of_varna = {
-		icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { HUN_Valtsagdij_Szuzanya }
+	HUN_Valtsagdij_Szuzanya = {
+		icon = mission_valt
+		position = 1
+		required_missions = {  }
 		trigger = { }
 		effect = { }
 	}
-	HUN_protect_the_katolikusai = {
-		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { HUN_keresztes_of_varna }
+	HUN_Hadjarat = {
+		icon = mission_hadjarat
+		position = 5
+		required_missions = { HUN_drevl_plague HUN_legend_of_hunyadi HUN_legend_of_miklos HUN_cross_illuminates_banat }
 		trigger = { }
 		effect = { }
 	}
-	HUN_drevl_plague = {
-		icon = mission_build_up_to_force_limit
-		position = 4
-		required_missions = { HUN_protect_the_katolikusai }
+	HUN_forlorn_army = {
+		icon = mission_forlorn
+		position = 8
+		required_missions = { HUN_Rusland_Catholics HUN_sarriod_gowere }
 		trigger = { }
 		effect = { }
 	}
-	HUN_ruthenian_crown = {
-		icon = mission_build_up_to_force_limit
-		position = 6
-		required_missions = { HUN_Hadjarat }
-		trigger = { }
-		effect = { }
-	}
-	HUN_crown_of_volhynia = {
-		icon = mission_build_up_to_force_limit
-		position = 7
-		required_missions = { HUN_ruthenian_crown }
-		trigger = { }
-		effect = { }
-	}
-	HUN_hear_the_bavarian = {
-		icon = mission_build_up_to_force_limit
+	HUN_hear_the_call_of_athenia = {
+		icon = mission_athenians
 		position = 9
 		required_missions = { HUN_forlorn_army }
 		trigger = { }
 		effect = { }
 	}
-	HUN_bavaria_mariafold = {
-		icon = mission_build_up_to_force_limit
+	HUN_magna_graecia = {
+		icon = mission_magna_graecia
 		position = 10
-		required_missions = { HUN_hear_the_bavarian }
+		required_missions = { HUN_hear_the_call_of_athenia }
 		trigger = { }
 		effect = { }
 	}
-	HUN_church_of_calvin = {
-		icon = mission_build_up_to_force_limit
+	HUN_cross_of_god = {
+		icon = mission_cross_of_god_sails
 		position = 11
 		required_missions = { HUN_magna_graecia }
 		trigger = { }
 		effect = { }
 	}
+	HUN_ad_majorem_dei = {
+		icon = mission_gloriam_dei
+		position = 12
+		required_missions = { HUN_cross_of_god HUN_church_of_calvin HUN_fraticellos }
+		trigger = { }
+		effect = { }
+	}
 }
-
 HUN_placetumline = {
 	slot = 4
 	generic = no
@@ -173,35 +290,35 @@ HUN_placetumline = {
 	}
 
 	HUN_placetum_regnum = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_placetum_reginium
 		position = 2
 		required_missions = { HUN_Valtsagdij_Szuzanya }
 		trigger = { }
 		effect = { }
 	}
 	HUN_Hess_and_Chronica = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_hess
 		position = 3
 		required_missions = { HUN_placetum_regnum }
 		trigger = { }
 		effect = { }
 	}
 	HUN_legend_of_miklos = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_legend_of_miklos
 		position = 4
 		required_missions = { HUN_Hess_and_Chronica }
 		trigger = { }
 		effect = { }
 	}
 	HUN_will_of_pope = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_will_of_pope_eugene
 		position = 6
 		required_missions = { HUN_Hadjarat }
 		trigger = { }
 		effect = { }
 	}
 	HUN_sarriod_gowere = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_sarriod_gowere
 		position = 7
 		required_missions = { HUN_will_of_pope }
 		trigger = { }
@@ -217,7 +334,7 @@ HUN_raolf_mala = {
 	}
 
 	HUN_raolf_and_malakhatun = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_raolf_mala
 		position = 2
 		required_missions = { HUN_Valtsagdij_Szuzanya }
 		trigger = { }

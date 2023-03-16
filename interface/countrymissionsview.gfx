@@ -798,4 +798,56 @@ spriteTypes = {
 		name = "mission_victory_in_engelond"
 		texturefile = "gfx/interface/jamahiriyamissions/mission_victory_in_engelond.dds"
 	}
+	spriteType = {
+		name = "mission_valt"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_valt.dds"
+	}
+	spriteType = {
+		name = "mission_hadjarat"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_hadjarat.dds"
+	}
+	spriteType = {
+		name = "mission_forlorn"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_forlorn.dds"
+	}
+	spriteType = {
+		name = "mission_athenians"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_athenians.dds"
+	}
+	spriteType = {
+		name = "mission_magna_graecia"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_magna_graecia.dds"
+	}
+	spriteType = {
+		name = "mission_cross_of_god_sails"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_cross_of_god_sails.dds"
+	}
+	spriteType = {
+		name = "mission_gloriam_dei"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_gloriam_dei.dds"
+	}
+	spriteType = {
+		name = "mission_placetum_reginium"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_placetum_reginium.dds"
+	}
+	spriteType = {
+		name = "mission_hess"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_hess.dds"
+	}
+	spriteType = {
+		name = "mission_legend_of_miklos"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_legend_of_miklos.dds"
+	}
+	spriteType = {
+		name = "mission_will_of_pope_eugene"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_will_of_pope_eugene.dds"
+	}
+	spriteType = {
+		name = "mission_sarriod_gowere"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_sarriod_gowere.dds"
+	}
+	spriteType = {
+		name = "mission_raolf_mala"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_raolf_mala.dds"
+	}
 }

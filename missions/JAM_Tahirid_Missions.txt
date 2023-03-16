@@ -25,51 +25,33 @@ tahirid_farleft = {
 		trigger = { }
 		effect = { }
 	}
-}
-
-TAH_fareast = {
-	slot = 3
-	generic = no
-	potential = {
-		tag = Y10
-	}
-
-	TAH_land_of_snakes = {
+	TAH_persia_proper = {
 		icon = mission_build_up_to_force_limit
-		position = 1
-		required_missions = {  }
+		position = 7
+		required_missions = { TAH_honouring_legacy_of_jaffar }
 		trigger = { }
 		effect = { }
 	}
-	TAH_century_long_rivalry = {
+	TAH_tahirid_ocean = {
 		icon = mission_build_up_to_force_limit
-		position = 2
-		required_missions = { TAH_land_of_snakes }
+		position = 8
+		required_missions = { TAH_persia_proper }
 		trigger = { }
 		effect = { }
 	}
-	TAH_qizilbash_and_saribash = {
+	TAH_zanjizamin = {
 		icon = mission_build_up_to_force_limit
-		position = 3
-		required_missions = { TAH_century_long_rivalry }
+		position = 10
+		required_missions = { TAH_lion_of_tehran }
 		trigger = { }
 		effect = { }
 	}
 }
-
 TAH_middle = {
 	slot = 2
 	generic = no
 	potential = {
 		tag = Y10
-	}
-
-	TAH_magadash = {
-		icon = mission_build_up_to_force_limit
-		position = 11
-		required_missions = { TAH_zanjizamin TAH_tazahazamin }
-		trigger = { }
-		effect = { }
 	}
 	TAH_golestan_rose = {
 		icon = mission_build_up_to_force_limit
@@ -99,49 +81,39 @@ TAH_middle = {
 		trigger = { }
 		effect = { }
 	}
-}
-
-TAH_southwest = {
-	slot = 1
-	generic = no
-	potential = {
-		tag = Y10
-	}
-
-	TAH_zanjizamin = {
+	TAH_magadash = {
 		icon = mission_build_up_to_force_limit
-		position = 10
-		required_missions = { TAH_lion_of_tehran }
-		trigger = { }
-		effect = { }
-	}
-	TAH_persia_proper = {
-		icon = mission_build_up_to_force_limit
-		position = 7
-		required_missions = { TAH_honouring_legacy_of_jaffar }
-		trigger = { }
-		effect = { }
-	}
-	TAH_tahirid_ocean = {
-		icon = mission_build_up_to_force_limit
-		position = 8
-		required_missions = { TAH_persia_proper }
+		position = 11
+		required_missions = { TAH_zanjizamin TAH_tazahazamin }
 		trigger = { }
 		effect = { }
 	}
 }
-
-TAH_southeast = {
+TAH_fareast = {
 	slot = 3
 	generic = no
 	potential = {
 		tag = Y10
 	}
 
-	TAH_tazahazamin = {
+	TAH_land_of_snakes = {
 		icon = mission_build_up_to_force_limit
-		position = 10
-		required_missions = { TAH_lion_of_tehran }
+		position = 1
+		required_missions = {  }
+		trigger = { }
+		effect = { }
+	}
+	TAH_century_long_rivalry = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { TAH_land_of_snakes }
+		trigger = { }
+		effect = { }
+	}
+	TAH_qizilbash_and_saribash = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { TAH_century_long_rivalry }
 		trigger = { }
 		effect = { }
 	}
@@ -159,5 +131,11 @@ TAH_southeast = {
 		trigger = { }
 		effect = { }
 	}
+	TAH_tazahazamin = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { TAH_lion_of_tehran }
+		trigger = { }
+		effect = { }
+	}
 }
-
