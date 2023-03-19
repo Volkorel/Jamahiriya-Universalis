@@ -7,18 +7,22 @@
 capital = "Pribram"
 is_city = yes
 owner = BOH
-controller = BOH
+controller = REB
 
 #Demographics
 culture = czech
-religion = hussite
+religion = waldensian
 
 #Development and Trade
 base_tax = 2
 base_production = 2
 base_manpower = 1
 trade_goods = gold
-
+revolt = {
+	type = waldensian_rebels
+	size = 5
+	leader = "Jan Hus"
+}
 #Cores and Occupation (Alphabetical after current)
 add_core = BOH
 

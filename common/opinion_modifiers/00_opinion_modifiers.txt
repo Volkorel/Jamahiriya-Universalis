@@ -13,7 +13,9 @@
 conseil_de_la_manche = {
 	opinion = 200
 }
-
+malakhatun_raolf_opinion = {
+	opinion = 200
+}
 rival = {
 	opinion = -100
 }

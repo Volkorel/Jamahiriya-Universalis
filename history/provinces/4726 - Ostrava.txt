@@ -8,10 +8,13 @@ capital = "Ostrava" #Representing Ostrava like vanilla, but with Prerov being pr
 is_city = yes
 owner = MVA
 controller = MVA
-
+revolt = {
+	type = waldensian_rebels
+	size = 1
+}
 #Demographics
 culture = czech
-religion = hussite
+religion = waldensian
 
 #Development and Trade
 base_tax = 2

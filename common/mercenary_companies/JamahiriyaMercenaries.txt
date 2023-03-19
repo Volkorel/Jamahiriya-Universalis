@@ -1,1 +1,23 @@
-#
+merc_white_band = {
+	regiments_per_development = 0.04
+	cost_modifier = 0.75
+	home_province = 373
+	cavalry_weight = 0.2
+	artillery_weight = 0.4
+	cavalry_cap = 4
+	sprites = { westerngfx_sprite_pack }
+	
+	trigger = {
+		OR = {
+			religion = catholic
+			has_country_modifier = HUN_Hosts_English_Catholics
+		}
+		NOT = {
+			tag = ENG
+			LEI = { is_at_war = yes }
+		}
+	}
+	modifier = {
+		discipline = 0.05
+	}
+}

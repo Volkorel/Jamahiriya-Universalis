@@ -1268,6 +1268,7 @@ A08 = "countries/Arabia.txt"
 A09 = "countries/Gardtariki.txt"
 A10 = "countries/Magnagraecia.txt"
 A11 = "countries/Septinsular.txt"
+A12 = "countries/BavariaMariafold.txt"
 
 #Existing New Tags#
 B01 = "countries/Qatar.txt"

@@ -174,6 +174,107 @@ MOS_oh_no = {
 	discipline = -0.2
 }
 
+#Mariaföld
+HUN_black_army_of_jamahiriyan_hunyadi = {
+	allowed_marine_fraction = 0.25
+	discipline = 0.05
+}
+
+HUN_Black_Army_of_Jamahiriya = {
+	manpower_in_true_faith_provinces = 0.15
+	special_unit_forcelimit = 0.25
+	mercenary_manpower = 0.25
+	may_return_manpower_on_disband = yes
+}
+
+HUN_Hosts_English_Catholics = {
+	manpower_in_true_faith_provinces = 0.50
+	special_unit_forcelimit = 0.50
+	may_return_manpower_on_disband = yes
+}
+HUN_cross_of_mary_so_high = {
+	cb_on_religious_enemies = yes
+}
+HUN_schism_round_two = {
+	missionaries = 3
+}
+HUN_crusade_success_rusland = {
+	diplomatic_upkeep = 3
+	diplomats = 3
+	vassal_income = 0.5
+	vassal_forcelimit_bonus = 0.35
+	can_fabricate_for_vassals = yes
+}
+
+HUN_legend_of_toldi_szekely = {
+	manpower_in_accepted_culture_provinces = 0.45
+	force_march_free = yes	
+	tribal_development_growth = 0.05
+	add_tribal_land_cost = -0.25
+	settle_cost = 0.35
+}
+
+SER_malakhatun_raolf = {
+	accept_vassalization_reasons = 150
+	heir_chance = -1
+	block_introduce_heir = yes
+}
+
+hun_the_defender_based = {	#Permanent
+	papal_influence = 1
+	improve_relation_modifier = 0.1
+	church_loyalty_modifier = 0.45
+}
+
+mariafold_wars_of_balkans = {
+	global_unrest = -2
+	global_autonomy = 0.005
+	autonomy_change_time = 0.25
+	global_rebel_suppression_efficiency = -0.2
+	years_of_nationalism = 5
+	liberty_desire = 10
+	can_not_declare_war = yes
+}
+
+HUN_hadjaratla = {
+	infantry_cost = -0.35
+	infantry_power = 0.15
+	cavalry_cost = -0.35
+	cavalry_power = 0.15
+	artillery_cost = 0.35
+	artillery_power = 0.20
+}
+
+hun_easterneuropean_superregion_convert_modifier = {
+	manpower_in_true_faith_provinces = 0.25
+	special_unit_forcelimit = 0.50
+	may_return_manpower_on_disband = yes
+	church_loyalty_modifier = 0.05
+}
+
+HUN_jesuit_order = {
+	religious_unity = 0.5
+	global_missionary_strength = 0.3
+	missionary_maintenance_cost = -0.65
+	papal_influence = 1
+	enforce_religion_cost = -0.5
+	warscore_cost_vs_other_religion = -0.65
+}
+
+HUN_into_unknown = {
+	relation_with_same_religion = 50
+	relation_with_heretics = -50
+	relation_with_heathens = -50
+	global_religious_conversion_resistance = 0.75
+	merchants = 2
+	local_defensiveness = 0.15
+	blockade_force_required = -0.5
+	reduced_liberty_desire = 50
+	unrest_catholic_provinces = -10
+	allow_client_states = yes
+	extra_manpower_at_religious_war = yes
+}
+
 ##################################################
 # Harmonized Modifiers
 ##################################################

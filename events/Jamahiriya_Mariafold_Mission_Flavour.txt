@@ -1,0 +1,147 @@
+namespace = JAM_mariafold_flavour
+
+country_event = {
+	id = JAM_mariafold_flavour.1
+	title = JAM_mariafold_flavour.1.t
+	desc = JAM_mariafold_flavour.1.d
+	picture = RELIGIOUS_WARS_eventPicture
+	major = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	immediate = {
+		2746 = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				leader = "Viseslav-Petar"
+				size = 2
+				friend = BDN
+				unrest = 15
+				culture = serbian
+				separatists_target = BDN
+			}
+		}
+		7711 = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				leader = "Justina Misavolic"
+				size = 2
+				friend = VBZ
+				unrest = 15
+				culture = serbian
+				separatists_target = VBZ
+			}
+		}
+		1766 = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				leader = "Mikhil Ivily"
+				size = 2
+				friend = ALB
+				unrest = 15
+				culture = arbereshe
+				separatists_target = ALB
+			}
+		}
+		4239 = {
+			spawn_rebels = {
+				type = pretender_rebels
+				leader = "Esyael 'the Bold'"
+				leader_dynasty = "Rajko-Nenad"
+				size = 3
+				unrest = 15
+				culture = serbian
+			}
+		}
+		7727 = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				leader = "Albertovic Hrzegov"
+				size = 2
+				friend = BOS
+				unrest = 15
+				culture = bosnian
+				separatists_target = BOS
+			}
+		}
+		7729 = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				leader = "Johannes Hrzegov"
+				size = 2
+				friend = BOS
+				unrest = 15
+				culture = bosnian
+				separatists_target = BOS
+			}
+		}
+		4752 = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				leader = "Meorovich Lokagov"
+				size = 2
+				friend = SLO
+				unrest = 15
+				culture = croatian
+				separatists_target = SLO
+			}
+		}
+		7736 = {
+			spawn_rebels = {
+				type = nationalist_rebels
+				leader = "Priest Ithak"
+				size = 2
+				friend = CRO
+				unrest = 15
+				culture = croatian
+				separatists_target = CRO
+			}
+		}
+		3000 = {
+			spawn_rebels = {
+				type = catholic_rebels
+				leader = "Jovan Kantul"
+				size = 3
+				unrest = 25
+				culture = serbian
+			}
+		}
+		7759 = {
+			cede_province = DRJ
+		}
+		4706 = {
+			cede_province = DRJ
+		}
+		3164 = {
+			cede_province = DRJ
+		}
+		7765 = {
+			cede_province = DRJ
+		}
+		DRJ = {
+			declare_war_with_cb = {
+				who = HUN
+				casus_belli = cb_independence_war
+			}
+			define_ruler = {
+				name = "Vlad"
+				dynasty = "Drăculești"
+				adm = 6
+				dip = 2
+				mil = 6
+				age = 20
+				claim = 100
+				religion = bogomilist
+				culture = romanian
+			}
+		}
+	}
+	option = {
+		name = JAM_mariafold_flavour.1.a
+		add_country_modifier = { 
+			name = mariafold_wars_of_balkans
+			duration = 6650
+		}
+	}
+}

@@ -1,0 +1,13 @@
+government = monarchy
+add_government_reform = elective_monarchy
+government_rank = 3
+technology_group = western
+religion = catholic
+primary_culture = avar
+capital = 153
+add_accepted_culture = croatian
+add_accepted_culture = bavarian
+add_accepted_culture = csango
+add_accepted_culture = cuman
+add_accepted_culture = transylvanian_saxons
+add_accepted_culture = szekely

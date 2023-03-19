@@ -6,7 +6,7 @@ controller = MVA
 
 #Demographics
 culture = schlesian
-religion = hussite
+religion = waldensian
 
 #Development and Trade
 base_tax = 2

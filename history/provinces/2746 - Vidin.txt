@@ -9,6 +9,7 @@ base_tax = 4
 base_production = 1
 base_manpower = 1
 add_core = SER
+add_core = BDN
 discovered_by = MGE
 discovered_by = eastern
 discovered_by = indian

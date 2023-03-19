@@ -1,9 +1,13 @@
 owner = BOH
-controller = BOH
+controller = REB
 capital = "Plzen"
+revolt = {
+	type = waldensian_rebels
+	size = 1
+}
 is_city = yes
 culture = czech
-religion = hussite
+religion = waldensian
 trade_goods = naval_supplies
 base_tax = 5
 base_production = 1

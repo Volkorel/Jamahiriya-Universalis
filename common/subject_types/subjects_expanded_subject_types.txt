@@ -5107,6 +5107,7 @@ voivodeship = {
 			tag = POL
 			tag = PLC
 			primary_culture = polish
+			primary_culture = avar
 		}
 	}
 

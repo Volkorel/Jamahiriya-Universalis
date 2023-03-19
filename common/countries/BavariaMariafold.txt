@@ -1,0 +1,256 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 150 227 255 }
+revolutionary_colors = { 0 14 0 }
+historical_idea_groups = {
+	administrative_ideas
+	defensive_ideas
+	diplomatic_ideas
+	offensive_ideas
+	economic_ideas
+	trade_ideas
+	innovativeness_ideas
+	quantity_ideas
+}
+historical_units = {
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	dutch_maurician
+	halberd_infantry
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	swiss_landsknechten
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = {
+	"Adalbert #3" = 10
+	"Alain #1" = 10
+	"Alessio #1" = 10
+	"Amédée #1" = 10
+	"Antoine #1" = 10
+	"Boddic #1" = 10
+	"Boleslaw #1" = 10
+	"Brunilde #0" = -1
+	"Charles #2" = 10
+	"Diedke #0" = -1
+	"Dorota #0" = -1
+	"Ebbon #0" = 0
+	"Elisska #0" = -1
+	"Enzo #1" = 10
+	"Esclarmonde #0" = -1
+	"Esiko #1" = 10
+	"Foulques #1" = 10
+	"Garibald #2" = 10
+	"Giona #0" = 0
+	"Giselbreht #1" = 10
+	"Grifo #1" = 10
+	"Grimoald #1" = 10
+	"Guilhem #0" = 0
+	"Géraud #1" = 10
+	"Hamelin #1" = 10
+	"Heinrich #2" = 10
+	"Henri #1" = 10
+	"Hugbert #1" = 10
+	"Jaufré #1" = 10
+	"Karl #1" = 10
+	"Karlmann #1" = 10
+	"Katerzyna #0" = -1
+	"Lantpert #1" = 10
+	"Lothaire #1" = 10
+	"Louis #3" = 10
+	"Loup #1" = 10
+	"Lutwig #2" = 10
+	"Markward #0" = 0
+	"Maurice #1" = 10
+	"Odilo #1" = 10
+	"Prokop #0" = 0
+	"Rapoto #1" = 10
+	"Reinhard #0" = 0
+	"Reinolt #1" = 10
+	"Richard #1" = 10
+	"Robin #0" = 0
+	"Romilda #0" = -1
+	"Seinfreid #1" = 10
+	"Sezima #0" = 0
+	"Sobiebor #1" = 10
+	"Tassilo #3" = 10
+	"Telerig #1" = 10
+	"Theobald #1" = 10
+	"Theodbert #1" = 10
+	"Theodo #2" = 10
+	"Unruoch #1" = 10
+	"Volcrat #1" = 10
+	"Volmar #1" = 10
+	"Waldered #1" = 10
+	"Wenzel #1" = 10
+	"Wilhelm #1" = 10
+	"Witcho #1" = 10
+	"Woytiech #1" = 10
+	"Wylém #1" = 10
+	"Abraham #1" = 10
+	"Alberic #0" = 0
+	"Angelbert #0" = 0
+	"Anzi #0" = 0
+	"Arrigo #0" = 0
+	"Arsenda #0" = -1
+	"Belkermak #1" = 10
+	"Berthe #0" = -1
+	"Besar #0" = 0
+	"Bezmer #1" = 10
+	"Bughra #1" = 10
+	"Dengizikh #1" = 10
+	"Ernakh #1" = 10
+	"Ferruccio #0" = 0
+	"Goleda #1" = 10
+	"Guar #1" = 10
+	"Gulvardi #0" = -1
+	"Horpan #1" = 10
+	"Igor #0" = 0
+	"Irnek #0" = 0
+	"Isaac #1" = 10
+	"Isperikh #1" = 10
+	"Itakh #1" = 10
+	"Kharaton #1" = 10
+	"Khuterkin #1" = 10
+	"Labertam #1" = 10
+	"Malusha #0" = -1
+	"Milo #0" = 0
+	"Odolgan #1" = 10
+	"Parsbit #0" = -1
+	"Quirino #0" = 0
+	"Salome #0" = -1
+	"Savilay #0" = -1
+	"Tatra #1" = 10
+	"Thaumaste #0" = -1
+	"Theodorus #1" = 10
+	"Timï¿½reï¿½ #0" = 0
+	"Tsog #1" = 10
+	"Vakrim #1" = 10
+	"Vartouhi #0" = -1
+	"Venda #0" = 0
+	"Vinekh #1" = 10
+	"Zenti #1" = 10
+	"ï¿½lï¿½fr #0" = 0
+}
+leader_names = {
+	"Alvinczy"
+	"Andrï¿½ssy"
+	"Asch"
+	"Batthyï¿½ny"
+	"Beleznay"
+	"Benovskï¿½"
+	"Bethlen"
+	"Bocskay"
+	"Bï¿½thory"
+	"Csï¿½k"
+	"Chlingensperg"
+	"Dulac"
+	"Dessewffy"
+	"Esterhï¿½zy"
+	"Gumpenberg"
+	"Garay"
+	"Hadik"
+	"Horthy"
+	"Hunyadi"
+	"Hafenbrädl"
+	"Hannet"
+	"Hugenpoet"
+	"Lechner"
+	"Livizzani"
+	"Maximillian"
+	"Morawitzky"
+	"Moshamm"
+	"Pfretschner"
+	"Rickauer"
+	"Riedesel"
+	"Satzenhofen"
+	"Scherer"
+	"Treuberg"
+	"Vieregg"
+	"Wilsenhütten"
+	"von Armansperg"
+	"von Dingolfing"
+	"von Freising"
+	"von Garching"
+	"von Pappenheim"
+	"von Passau"
+	"von Rosenheim"
+	"von Seckendorf"
+	"von Starnberg"
+	"von Tegernsee"
+	"von Zentner"
+	"Festetics"
+	"Frangepï¿½n"
+	"Kemeny"
+	"Kinizsi"
+	"Kï¿½n"
+	"Kï¿½rolyi"
+	"Lackovic'"
+	"Losonci"
+	"Milvï¿½nyi"
+	"Mï¿½szï¿½ros"
+	"Nadasdy"
+	"Ozoray"
+	"Rozgonyi"
+	"Rï¿½kï¿½czi"
+	"Szï¿½chenyi"
+	"Teleki"
+	"Thï¿½kï¿½ly"
+	"Zichy"
+	"Zrinski"
+	"Zï¿½polya"
+	"de Kovats"
+	"ï¿½ubic'"
+}
+ship_names = {
+	"Andechs"
+	"Augsburg"
+	"Burgau"
+	"Diessen"
+	"Freising"
+	"Friedberg"
+	"Graf von Andechs"
+	"Graf von Bogen"
+	"Graf von Diepolding"
+	"Graf von Sulzbach"
+	"Ingolstadt"
+	"Kaiser Ludwig IV"
+	"Kempten"
+	"König Arnulf"
+	"König Friedrich I"
+	"König Konrad III"
+	"Landshut"
+	"Lindau"
+	"Memmingen"
+	"Mindel"
+	"Oettingen"
+	"Passau"
+	"Aranybulla"
+	"Arpad"
+	"Hunyadi Matyas"
+	"Kalman"
+	"Karoly Robert"
+	"Laszlo"
+	"Magyar"
+	"Nagy Lajos"
+	"Sigismund"
+	"Szent Istvan kiraly"
+	"Pfalzgraf Otto"
+	"Rosenheim"
+	"Schwangau"
+	"St. Kilian"
+	"Straubing"
+	"Tassilo III"
+	"Tegernsee"
+	"Wittelsbach"
+	"Wolfstein"
+}
+army_names = {
+	"Armee von $PROVINCE$"
+}

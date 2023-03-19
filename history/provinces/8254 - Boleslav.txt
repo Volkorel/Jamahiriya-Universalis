@@ -8,10 +8,13 @@ capital = "Boleslav"
 is_city = yes
 owner = BOH
 controller = BOH
-
+revolt = {
+	type = waldensian_rebels
+	size = 1
+}
 #Demographics
 culture = czech
-religion = hussite
+religion = waldensian
 
 #Development and Trade
 base_tax = 2

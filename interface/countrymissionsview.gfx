@@ -850,4 +850,148 @@ spriteTypes = {
 		name = "mission_raolf_mala"
 		texturefile = "gfx/interface/jamahiriyamissions/mission_raolf_mala.dds"
 	}
+	spriteType = {
+		name = "mission_keresztes"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_keresztes.dds"
+	}
+	spriteType = {
+		name = "mission_katoluksai_rusland"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_katoluksai_rusland.dds"
+	}
+	spriteType = {
+		name = "mission_upper_county"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_upper_county.dds"
+	}
+	spriteType = {
+		name = "mission_crown_of_ruthenia"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_crown_of_ruthenia.dds"
+	}
+	spriteType = {
+		name = "mission_crown_of_volhynia"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_crown_of_volhynia.dds"
+	}
+	spriteType = {
+		name = "mission_call_of_bavarian"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_call_of_bavarian.dds"
+	}
+	spriteType = {
+		name = "mission_church_of_calvin"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_church_of_calvin.dds"
+	}
+	spriteType = {
+		name = "mission_fekete_sereg"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_fekete_sereg.dds"
+	}
+	spriteType = {
+		name = "mission_mariam_heart"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_mariam_heart.dds"
+	}
+	spriteType = {
+		name = "mission_janos_hunyadi_legend"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_janos_hunyadi_legend.dds"
+	}
+	spriteType = {
+		name = "mission_host_catholicos"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_host_catholicos.dds"
+	}
+	spriteType = {
+		name = "mission_host_rusland_catholicos"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_host_rusland_catholicos.dds"
+	}
+	spriteType = {
+		name = "mission_adriatica"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_adriatica.dds"
+	}
+	spriteType = {
+		name = "mission_fraticellos"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_fraticellos.dds"
+	}
+	spriteType = {
+		name = "mission_bavaria_mariafold"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_bavaria_mariafold.dds"
+	}
+	spriteType = {
+		name = "mission_free_of_heretics"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_free_of_heretics.dds"
+	}
+	spriteType = {
+		name = "mission_through_the_words_of_god"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_through_the_words_of_god.dds"
+	}
+	spriteType = {
+		name = "mission_crown_of_serbia"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_crown_of_serbia.dds"
+	}
+	spriteType = {
+		name = "mission_crown_of_balkans"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_crown_of_balkans.dds"
+	}
+	spriteType = {
+		name = "mission_perso_arab_ties"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_perso_arab_ties.dds"
+	}
+	spriteType = {
+		name = "mission_saribash_qizilbash"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_saribash_qizilbash.dds"
+	}
+	spriteType = {
+		name = "mission_abbasid_headquarters"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_abbasid_headquarters.dds"
+	}
+	spriteType = {
+		name = "mission_ajam_mountains"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_ajam_mountains.dds"
+	}
+	spriteType = {
+		name = "mission_persia_proper"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_persia_proper.dds"
+	}
+	spriteType = {
+		name = "mission_tahirid_ocean"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_tahirid_ocean.dds"
+	}
+	spriteType = {
+		name = "mission_zanjizamin"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_zanjizamin.dds"
+	}
+	spriteType = {
+		name = "misson_golestan_rose"
+		texturefile = "gfx/interface/jamahiriyamissions/misson_golestan_rose.dds"
+	}
+	spriteType = {
+		name = "mission_wait_junubi"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_wait_junubi.dds"
+	}
+	spriteType = {
+		name = "mission_jaffar"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_jaffar.dds"
+	}
+	spriteType = {
+		name = "mission_lion_of_theran"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_lion_of_theran.dds"
+	}
+	spriteType = {
+		name = "mission_magadash"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_magadash.dds"
+	}
+	spriteType = {
+		name = "mission_ardul_snake"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_ardul_snake.dds"
+	}
+	spriteType = {
+		name = "mission_century_long"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_century_long.dds"
+	}
+	spriteType = {
+		name = "mission_kick_the_turk"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_kick_the_turk.dds"
+	}
+	spriteType = {
+		name = "mission_transoxiana"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_transoxiana.dds"
+	}
+	spriteType = {
+		name = "mission_australiazamin"
+		texturefile = "gfx/interface/jamahiriyamissions/mission_australiazamin.dds"
+	}
 }
