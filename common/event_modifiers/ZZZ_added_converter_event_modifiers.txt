@@ -275,6 +275,72 @@ HUN_into_unknown = {
 	extra_manpower_at_religious_war = yes
 }
 
+#####################
+# Tahirid Modifiers #
+#####################
+Tahirid_Hormuz_Ties = {
+	num_accepted_cultures = 3
+	global_missionary_strength = 0.15
+	infantry_cost = -0.15
+	infantry_power = 0.15
+	extra_manpower_at_religious_war = yes
+}
+Tahirid_Persia_Proper = {
+	infantry_cost = -0.25
+	infantry_power = 0.15
+	artillery_cost = -0.25
+	artillery_power = 0.15
+	movement_speed = 0.10	
+	siege_ability = 0.10
+	recover_army_morale_speed = 0.10
+}
+
+Zanjizamin_Colon = {
+	range = 1
+	colonists = 3
+	colonist_placement_chance = 0.25
+	global_colonial_growth = 50
+	native_uprising_chance = -0.25
+	global_tariffs = 0.50
+	can_colony_boost_development = yes	
+	may_explore = yes
+	free_maintenance_on_expl_conq = yes		
+}
+
+TAH_the_imamate_rule = {
+	global_missionary_strength = 0.25
+	missionary_maintenance_cost = -0.5
+	religious_unity = 0.5
+	tolerance_own = 1
+	missionaries = 3
+}
+
+Tahirid_Golden_Age = {
+	army_tradition = 5
+	army_tradition_decay = -0.15
+	army_tradition_from_battle = 0.20
+	yearly_army_professionalism = 0.05
+	drill_gain_modifier = 0.25
+	drill_decay_modifier = -0.50
+	artillery_cost = -0.35
+	artillery_power = 0.15
+	artillery_levels_available_vs_fort = 5
+	backrow_artillery_damage = 0.25
+	discipline = 0.25
+	land_morale = 0.15
+}
+
+Magadash_Colon = {
+	colonists = 1	
+	global_colonial_growth = 15
+	colonist_placement_chance = 0.15
+}
+
+Australia_Colon = {
+	colonists = 1	
+	global_colonial_growth = 15
+	colonist_placement_chance = 0.15
+}
 ##################################################
 # Harmonized Modifiers
 ##################################################

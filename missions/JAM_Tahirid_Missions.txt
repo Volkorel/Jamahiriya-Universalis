@@ -8,43 +8,152 @@ tahirid_farleft = {
 		icon = mission_perso_arab_ties
 		position = 1
 		required_missions = {  }
-		trigger = { }
-		effect = { }
+		trigger = {
+			reverse_has_opinion = {
+				who = ORM
+				value = 150
+			}
+		}
+		effect = {
+			iraq_e_ajam_area = {
+				add_permanent_claim	= Y10
+			}
+			tabarestan_area = {
+				add_permanent_claim	= Y10
+			}
+			add_country_modifier = { 
+				name = Tahirid_Hormuz_Ties
+				duration = -1  
+			}
+		}
 	}
 	TAH_headquarters_of_abbasids = {
 		icon = mission_abbasid_headquarters
 		position = 2
 		required_missions = { TAH_persoarab_ties }
-		trigger = { }
-		effect = { }
+		trigger = {
+			2236 = {
+				owned_by = Y10
+				controlled_by = Y10
+			}
+		}
+		effect = {
+			transcaspia_area = {
+				add_permanent_claim	= Y10
+			}
+			merv_area = {
+				add_permanent_claim	= Y10
+			}
+			mashhad_area = {
+				add_permanent_claim	= Y10
+			}
+			khiva_area = {
+				add_permanent_claim	= Y10
+			}
+		}
 	}
 	TAH_ajam_mountains = {
 		icon = mission_ajam_mountains
 		position = 3
 		required_missions = { TAH_headquarters_of_abbasids }
-		trigger = { }
-		effect = { }
+		trigger = {
+			iraq_e_ajam_area = {
+				owned_by = Y10
+				controlled_by = Y10
+				type = all
+			}
+			tabarestan_area = {
+				owned_by = Y10
+				controlled_by = Y10
+				type = all
+			}
+		}
+		effect = {
+			azerbaijan_area = {
+				add_permanent_claim	= Y10
+			}
+			luristan_area = {
+				add_permanent_claim	= Y10
+			}
+		}
 	}
 	TAH_persia_proper = {
 		icon = mission_persia_proper
 		position = 7
 		required_missions = { TAH_honouring_legacy_of_jaffar }
-		trigger = { }
-		effect = { }
+		trigger = {
+			persia_region = {
+				owned_by = Y10
+				controlled_by = Y10
+				type = all
+			}
+			khorasan_region = {
+				owned_by = Y10
+				controlled_by = Y10
+				type = all
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = Tahirid_Persia_Proper
+				duration = -1  
+			}		
+		}
 	}
 	TAH_tahirid_ocean = {
 		icon = mission_tahirid_ocean
 		position = 8
 		required_missions = { TAH_persia_proper }
-		trigger = { }
-		effect = { }
+		trigger = {
+			431 = { #Mogostan, if it works
+				trade_share = {
+					country = Y10
+					share = 45
+				}
+			}
+		}
+		effect = {
+			add_navy_tradition = 15
+			create_admiral = {
+				tradition = 100
+				name = "Reis Xarafo"
+				add_fire = 5
+				add_shock = 5
+				add_maneuver = 5
+				add_siege = 5
+				culture = gulf_arabic
+			}
+			create_explorer = {
+				tradition = 100
+				name = "Piri Reis"
+				add_fire = 5
+				add_shock = 5
+				add_maneuver = 5
+				add_siege = 5
+				culture = gulf_arabic
+			}
+		}
 	}
 	TAH_zanjizamin = {
 		icon = mission_zanjizamin
 		position = 10
 		required_missions = { TAH_lion_of_tehran }
-		trigger = { }
-		effect = { }
+		trigger = {
+			Y10 = {
+				any_subject_country	= {
+					is_colonial_nation_of = ROOT
+					capital_scope = {
+						region = east_africa_region
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = Zanjizamin_Colon
+				duration = -1  
+			}		
+		}
 	}
 }
 TAH_middle = {
@@ -57,36 +166,192 @@ TAH_middle = {
 		icon = misson_golestan_rose
 		position = 4
 		required_missions = { TAH_ajam_mountains TAH_qizilbash_and_saribash }
-		trigger = { }
-		effect = { }
+		trigger = {
+			2214 = { development = 15 }
+			mashhad_area = {
+				owned_by = Y10
+				controlled_by = Y10
+				type = all
+			}
+			merv_area = {
+				owned_by = Y10
+				controlled_by = Y10
+				type = all
+			}
+			transcaspia_area = {
+				owned_by = Y10
+				controlled_by = Y10
+			}
+		}
+		effect = {
+			isfahan_area = {
+				add_permanent_claim	= Y10
+			}
+			birjand_area = {
+				add_permanent_claim	= Y10
+			}
+			2214 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+				add_prosperity = 1
+				add_core = Y10
+			}
+		}
 	}
 	TAH_wait_for_us_south = {
 		icon = mission_wait_junubi
 		position = 5
 		required_missions = { TAH_golestan_rose }
-		trigger = { }
-		effect = { }
+		trigger = {
+			azerbaijan_area = {
+				owned_by = Y10
+				controlled_by = Y10
+				type = all
+			}
+			luristan_area = {
+				owned_by = Y10
+				controlled_by = Y10
+				type = all
+			}
+			isfahan_area = {
+				owned_by = Y10
+				controlled_by = Y10
+				type = all
+			}
+			birjand_area = {
+				owned_by = Y10
+				controlled_by = Y10
+				type = all
+			}
+		}
+		effect = {
+			khuzestan_area = {
+				add_permanent_claim	= Y10
+			}
+			farsistan_area = {
+				add_permanent_claim	= Y10
+			}
+			kerman_area = {
+				add_permanent_claim	= Y10
+			}
+			persian_gulf_coast = {
+				add_permanent_claim	= Y10
+			}
+		}
 	}
 	TAH_honouring_legacy_of_jaffar = {
 		icon = mission_jaffar
 		position = 6
 		required_missions = { TAH_wait_for_us_south }
-		trigger = { }
-		effect = { }
+		trigger = {
+			if = {
+				limit = { exists = ORM }
+				alliance_with = ORM
+				reverse_has_opinion = {
+					who = ORM
+					value = 200
+				}
+				accepted_culture = gulf_arabic
+				pirate_coast_area = {
+					owned_by = ORM
+					controlled_by = ORM
+					type = all
+				}
+				persian_gulf_islands_area = {
+					owned_by = ORM
+					controlled_by = ORM
+					type = all
+				}
+				bahrain_area = {
+					owned_by = ORM
+					controlled_by = ORM
+				}
+				mogostan_area = {
+					owned_by = Y10
+					controlled_by = Y10
+					type = all
+				}
+			}
+			else_if = {
+				limit = { NOT = { exists = ORM } }
+				pirate_coast_area = {
+					owned_by = Y10
+					controlled_by = Y10
+					type = all
+				}
+				persian_gulf_islands_area = {
+					owned_by = Y10
+					controlled_by = Y10
+					type = all
+				}
+				mogostan_area = {
+					owned_by = Y10
+					controlled_by = Y10
+					type = all
+				}
+				bahrain_area = {
+					owned_by = Y10
+					controlled_by = Y10
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = TAH_the_imamate_rule
+				duration = -1  
+			}
+			if = {
+				limit = { exists = ORM }
+				vassalize = ORM
+			}
+			else_if = {
+				limit = { NOT = { exists = ORM } }
+				create_subject = {
+					subject_type = brother_kingdom
+					subject = ORM
+				}
+			}
+		}
 	}
 	TAH_lion_of_tehran = {
 		icon = mission_lion_of_theran
 		position = 9
 		required_missions = { TAH_tahirid_ocean TAH_transoxanian_standoff }
-		trigger = { }
-		effect = { }
+		trigger = {
+			capital = 428
+			stability = 2
+			treasury = 500
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = { 
+				name = Tahirid_Golden_Age
+				duration = -1  
+				desc = Tahirid_Golden_Age_Descriptive_tt
+			}
+		}
 	}
 	TAH_magadash = {
 		icon = mission_magadash
 		position = 11
 		required_missions = { TAH_zanjizamin TAH_tazahazamin }
-		trigger = { }
-		effect = { }
+		trigger = {
+			Y10 = {
+				any_subject_country	= {
+					is_colonial_nation_of = ROOT
+					capital_scope = {
+						area = betsimasaraka_area
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = Magadash_Colon
+				duration = -1  
+			}		
+		}
 	}
 }
 TAH_fareast = {
@@ -135,7 +400,21 @@ TAH_fareast = {
 		icon = mission_australiazamin
 		position = 10
 		required_missions = { TAH_lion_of_tehran }
-		trigger = { }
-		effect = { }
+		trigger = {
+			Y10 = {
+				any_subject_country	= {
+					is_colonial_nation_of = ROOT
+					capital_scope = {
+						region = australia_region
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+				name = Australia_Colon
+				duration = -1  
+			}		
+		}
 	}
 }

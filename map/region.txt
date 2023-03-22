@@ -440,7 +440,6 @@ persia_region = { # 12 areas
 	areas = {
 		luristan_area
 		khuzestan_area
-		shahrizor_area
 		farsistan_area
 		iraq_e_ajam_area
 		azerbaijan_area
