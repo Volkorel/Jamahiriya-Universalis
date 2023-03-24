@@ -12,6 +12,7 @@ bookmark = {
 	country = Y10
 	country = NOV
 	country = ARM
+	country = ARA
 	country = KZH
 	country = SHE
 }

@@ -463,6 +463,7 @@ khorasan_region = { # 10 areas
 		ghor_area
 		merv_area
 		balkh_area
+		transcaspia_area
 	}
 }
 central_asia_region = { # 15 areas
@@ -474,7 +475,6 @@ central_asia_region = { # 15 areas
 		termez_area
 		khiva_area
 		nogai_area
-		transcaspia_area
 		balchasj_area
 		kazakhstan_area
 		jetysuu_area

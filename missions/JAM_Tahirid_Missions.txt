@@ -372,29 +372,79 @@ TAH_fareast = {
 		icon = mission_century_long
 		position = 2
 		required_missions = { TAH_land_of_snakes }
-		trigger = { }
-		effect = { }
+		trigger = {
+			NOT = { exists = Z16 }
+			isfahan_area = {
+				owned_by = Y10
+				controlled_by = Y10
+				type = all
+			}
+		}
+		effect = {
+			add_stability = 1
+			add_treasury = 250
+		}
 	}
 	TAH_qizilbash_and_saribash = {
 		icon = mission_saribash_qizilbash
 		position = 3
 		required_missions = { TAH_century_long_rivalry }
-		trigger = { }
-		effect = { }
+		trigger = {
+			reverse_has_opinion = {
+				who = ARL
+				value = 150
+			}
+		}
+		marriage_with = ARL
+		alliance_with = ARL
+		effect = {
+			vassalize = ARL
+		}
 	}
 	TAH_kick_the_turk = {
 		icon = mission_kick_the_turk
 		position = 7
 		required_missions = { TAH_honouring_legacy_of_jaffar }
-		trigger = { }
-		effect = { }
+		trigger = {
+			border_distance = {
+				who = SND
+				distance = 0
+			}
+		}
+		effect = {
+			sindh_area = {
+				add_permanent_claim	= Y10
+			}
+			northern_sindh_area = {
+				add_permanent_claim	= Y10
+			}
+			multan_area = {
+				add_permanent_claim	= Y10
+			}
+			lahore_area = {
+				add_permanent_claim	= Y10
+			}
+			kashmir_area = {
+				add_permanent_claim	= Y10
+			}
+			sind_sagar_area = {
+				add_permanent_claim	= Y10
+			}
+		}
 	}
 	TAH_transoxanian_standoff = {
 		icon = mission_transoxiana
 		position = 8
 		required_missions = { TAH_kick_the_turk }
-		trigger = { }
-		effect = { }
+		trigger = {
+			border_distance = {
+				who = KZH
+				distance = 0
+			}
+		}
+		effect = {
+			add_prestige = 15
+		}
 	}
 	TAH_tazahazamin = {
 		icon = mission_australiazamin
