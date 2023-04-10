@@ -111,20 +111,20 @@ emp_gen_missions_general_2 = {
 		provinces_to_highlight = {
 			OR = {
 				AND = {
-					province_id = 101
+					province_id = 7043
 					NOT = { is_capital_of = ROOT }
 				}
 				AND = {
-					province_id = 104
-					101 = { NOT = { higher_development_than = prev } }
-				}
-				AND = {
-					province_id = 112
-					101 = { NOT = { higher_development_than = prev } }
+					province_id = 101
+					7043 = { NOT = { higher_development_than = prev } }
 				}
 				AND = {
 					province_id = 116
-					101 = { NOT = { higher_development_than = prev } }
+					7043 = { NOT = { higher_development_than = prev } }
+				}
+				AND = {
+					province_id = 115
+					7043 = { NOT = { higher_development_than = prev } }
 				}
 				owner = {
 					root = {
@@ -147,15 +147,15 @@ emp_gen_missions_general_2 = {
 				prestige = 80
 			}
 			is_subject = no
-			101 = {
+			7043 = {
 				is_capital_of = ROOT
-				higher_development_than = 104 #Milan
-				higher_development_than = 112 #Venice
-				higher_development_than = 116 #Florence
+				higher_development_than = 101
+				higher_development_than = 115
+				higher_development_than = 116
 			}
 		}
 		effect = {
-			101 = { add_base_tax = 2 }
+			7043 = { add_base_tax = 2 }
 			add_country_modifier = {
 				name = gen_prosperous_republic
 				duration = 7300
@@ -765,8 +765,8 @@ emp_gen_missions_western_med_2 = {
 		position = 3
 		trigger = {
 			OR = {
-				NOT = { exists = VEN }
-				navy_size = VEN
+				NOT = { exists = GEN }
+				navy_size = GEN
 			}
 		}
 		effect = {
@@ -788,13 +788,13 @@ emp_gen_missions_western_med_2 = {
 		icon = mission_raid_on_venice
 		required_missions = { emp_gen_venetian_naval_power tradenode_ragusa }
 		provinces_to_highlight = {
-			province_id = 112
+			province_id = 101
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			112 = {
+				101	= {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}

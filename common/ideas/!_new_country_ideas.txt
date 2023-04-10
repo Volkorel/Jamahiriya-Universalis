@@ -1700,3 +1700,44 @@ HUN_ideas = {
 		no_religion_penalty = yes
 	}
 }
+
+LANGOBARD_ideas = {
+	start = {
+		global_ship_cost = -0.75
+		global_tax_modifier = 0.45
+	}
+	bonus = {
+		global_trade_goods_size_modifier = 0.65	
+	}
+	trigger = {
+		tag = ARA
+	}
+	free = yes
+	ara_langobard_goldblatte = {
+		infantry_cost = -0.75
+		cavalry_cost = -0.75
+		land_morale = 0.45
+	}
+	ara_vandal_ties = {
+		global_manpower_modifier = 0.55
+	}
+	ara_legacy_of_desi = {
+		discipline = 0.15
+	}
+	ara_iactuallydontknow = {
+		global_tax_modifier = 0.45
+	}
+	ara_curtailed_peasantry = {
+		production_efficiency = 0.75
+	}
+	ara_etto = {
+		global_own_trade_power = 0.65
+	}
+	ara_imper = {
+		yearly_army_professionalism = 0.10
+		drill_gain_modifier = 0.10
+		relation_with_same_culture_group = 25
+		relation_with_accepted_culture = 50
+		relation_with_same_culture = 100
+	}
+}

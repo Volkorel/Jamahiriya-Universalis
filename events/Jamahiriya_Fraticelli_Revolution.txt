@@ -14,6 +14,7 @@ country_event = {
 	immediate = {
 		set_country_flag = fraticelli_revolution
 		add_reform_desire = 15
+		ARA = { country_event = { id = jamahiriya_fraticelli.2 days = 10 } }
 		7020 = {
 			cede_province = FAP
 			change_religion = fraticelli
@@ -83,5 +84,26 @@ country_event = {
 			limit = { has_country_flag = fraticelli }
 			join_all_defensive_wars_of = FAP
 		}
+	}
+}
+
+country_event = {
+	id = jamahiriya_fraticelli.2
+	title = jamahiriya_fraticelli.2.t
+	desc = jamahiriya_fraticelli.2.d
+	picture = RELIGIOUS_WARS_eventPicture
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = jamahiriya_fraticelli.2.a
+		join_all_defensive_wars_of = FAP
+		change_religion = fraticelli
+	}
+	option = {
+		name = jamahiriya_fraticelli.2.b
+		join_all_defensive_wars_of = PAP
+	}
+	option = {
+		name = jamahiriya_fraticelli.2.c
 	}
 }
