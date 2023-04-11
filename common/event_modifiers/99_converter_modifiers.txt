@@ -156,3 +156,12 @@ wonder_underground_city_petra = {
 	local_hostile_attrition = 2
 	local_core_creation = 1
 }
+shinto_converted_to_islam = {
+	global_missionary_strength = 0.03
+}
+shinto_islamic_realm = {
+	advisor_cost = -0.25
+}
+islamity_defeated = {
+	tolerance_own = 3
+}
