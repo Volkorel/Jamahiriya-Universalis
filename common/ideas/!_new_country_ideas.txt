@@ -1741,3 +1741,164 @@ LANGOBARD_ideas = {
 		relation_with_same_culture = 100
 	}
 }
+FJI_ideas = {  #Fujiwara
+	start = {
+		diplomats = 1
+		legitimacy = 1
+	}
+	
+	bonus = {
+		free_adm_policy = 1
+	}
+	
+	trigger = {
+		OR = {
+			tag = FJI
+			tag = A14
+		}
+	}
+	free = yes
+	
+	foremost_clan_closest_to_power = {
+		ae_impact = -0.10
+		heir_chance = 0.50
+	}
+	the_sessho_and_kampaku_positions = {
+		yearly_corruption = -0.10
+	}
+	strong_links_via_soft_power = {
+		diplomatic_reputation = 1
+	}	
+	uphold_strict_family_governance = {
+		monarch_admin_power = 1
+	}
+	to_become_the_puppet_master = {
+		reduced_liberty_desire = 10
+		diplomatic_upkeep = 1
+	}
+	a_new_period_of_cultural_flourishing = {
+		prestige = 1.0
+	}	
+	steady_enforcement_of_fujiwara_power = {
+		land_forcelimit_modifier = 0.25
+	}
+}
+TAA_ideas = {  #Taira
+	start = {
+		same_culture_advisor_cost = -0.20
+		improve_relation_modifier = 0.20
+	}
+	
+	bonus = {
+		ae_impact = -0.15
+	}
+	
+	trigger = {
+		tag = TAA
+	}
+	free = yes
+	
+	the_kanmu_heishi_lineage = {
+		diplomatic_reputation = 1
+	}
+	taira_no_kiyomori_samurai_lineage = {
+		land_maintenance_modifier = -0.10
+	}
+	the_hogen_and_heiji_rebellions = {
+		land_morale = 0.10
+		prestige = 0.5
+	}	
+	rein_in_the_kanmu_heishi_lines = {
+		province_warscore_cost = -0.10
+	}
+	learn_from_loss_in_the_genpei = {
+		army_tradition_decay = -0.01
+	}
+	defeat_minamoto_power = {
+		land_forcelimit_modifier = 0.20
+	}	
+	restoration_of_proper_power = {
+		legitimacy = 1
+	}
+}
+MTO_ideas = {  #Minamoto
+	start = {
+		land_forcelimit_modifier = 0.25
+		manpower_recovery_speed = 0.10
+	}
+	
+	bonus = {
+		global_regiment_cost = -0.10
+	}
+	
+	trigger = {
+		tag = MTO
+	}
+	free = yes
+	
+	the_21_genji_lines = {
+		global_manpower_modifier = 0.25
+	}
+	guardians_of_heian_kyo = {
+		discipline = 0.05
+	}
+	destruction_of_the_taira_clan = {
+		prestige = 1.0
+	}	
+	legacy_of_the_first_bakufu = {
+		legitimacy = 1.0
+		vassal_forcelimit_bonus = 1
+	}
+	restoration_of_minamoto_power = {
+		core_creation = -0.10 
+	}
+	revoke_the_power_of_shikken = {
+		global_autonomy = -0.05
+	}	
+	the_one_true_leader_of_japan = {
+		free_mil_policy = 1
+	}
+}
+IKI_ideas = { #Jodo Shinshu
+	start = {
+		years_of_nationalism = -5
+		development_cost = -0.10
+	}
+	
+	bonus = {
+		reinforce_cost_modifier = -0.33
+	}
+	
+	trigger = {
+		OR = {
+			tag = IKI
+			tag = A13
+		}
+	}
+	free = yes
+	
+	power_from_the_bottom_up = { 
+		max_absolutism = -10
+		manpower_recovery_speed = 0.15
+	}
+	defensive_temple_towns = { 
+		defensiveness = 0.10
+		garrison_size = 0.25
+	}
+	recruit_the_sohei = { 
+		discipline = 0.05
+	}
+	listening_to_the_commoners = { 
+		global_unrest = -2
+	}
+	preach_to_the_downtrodden = { 
+		global_missionary_strength = 0.02
+	}
+	hail_to_buddha_amida = { 
+		land_morale = 0.05
+		recover_army_morale_speed = 0.10
+	}
+	disband_the_samurai_class = { 
+		global_autonomy = -0.05
+	}
+}

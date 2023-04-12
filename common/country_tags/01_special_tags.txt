@@ -9,7 +9,10 @@ HAH = "countries/Hashshashin.txt"
 ISR = "countries/Israel.txt"
 TEM = "countries/KnightsTemplar.txt"
 TRL = "countries/Trapalanda.txt"
-
+FJI = "countries/Fujiwara.txt" ####Sprite packs assigned!###
+TAA = "countries/Taira.txt" ###Sprite packs assigned!###
+MTO = "countries/Minamoto.txt" ###Sprite packs assigned!###
+IKI = "countries/IkkoIkki.txt"
 #China
 WEI = "countries/Wei.txt"
 HND = "countries/Han.txt"
