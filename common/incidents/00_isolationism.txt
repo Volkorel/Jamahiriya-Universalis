@@ -171,55 +171,6 @@ incident_spread_of_christianity = {
 		set_country_flag = active_incident_flag
 	}
 }
-
-
-incident_spread_of_islam = {
-
-	frame = 9
-
-	variable_initial = 0
-
-	potential = {
-		has_dlc = "Mandate of Heaven"
-		religion = shinto
-	}
-	trigger = {
-		NOT = { current_age = age_of_discovery }
-		if = {
-			limit = {
-				normal_or_historical_nations = yes
-			}
-			custom_trigger_tooltip = {
-				tooltip = japan_has_encountered_the_west_tooltip
-				has_global_flag = japan_has_encountered_the_west
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = encountered_christian_tooltip
-			any_known_country = {
-				religion_group = muslim
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = shinto_incident_recent_tooltip
-			NOT = { has_country_flag = active_incident_flag }
-			OR = {
-				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 100
-	}
-
-	immediate_effect = {
-		country_event = { id = shinto_events.60 }
-		set_country_flag = active_incident_flag
-	}
-}
-
 incident_shogunate_authority = {
 #Stance on central authority - Sankin Kotai, etc
 
