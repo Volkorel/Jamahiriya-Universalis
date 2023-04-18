@@ -1,21 +1,3 @@
-powder_innovation_act = {
-	monarch_power = MIL
-
-	potential = {
-		has_idea_group = standing_army_idea_groups_expanded
-		has_idea_group = innovativeness_ideas
-	}
-	allow = {
-		full_idea_group = standing_army_idea_groups_expanded
-		full_idea_group = innovativeness_ideas
-	}
-	
-	artillery_bonus_vs_fort = 3
-
-	ai_will_do = {
-		factor = 1
-	}
-}
 
 got_mit_und_act = {
 	monarch_power = MIL
@@ -2410,25 +2392,6 @@ tranquil_defence_act = {
 	
 	defensiveness = 0.10
 	hostile_attrition = 1
-	
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-dragon_cannon_act = {
-	monarch_power = MIL
-
-	potential = {
-		has_idea_group = confucian_idea_groups_expanded
-		has_idea_group = offensive_ideas
-	}
-	allow = {
-		full_idea_group = confucian_idea_groups_expanded
-		full_idea_group = offensive_ideas 
-	}
-	
-	artillery_bonus_vs_fort = 3
 	
 	ai_will_do = {
 		factor = 1

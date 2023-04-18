@@ -6,7 +6,7 @@ ZZZ_enhanced_desi =
 	build_cost = -0.1
 	development_cost = -0.1
 
-	allow = { religion = khurmazta }
+	potential = { religion = khurmazta }
 	sprite = 13
 
 	ai_will_do = {
@@ -27,7 +27,7 @@ ZZZ_enhanced_parn =
 	spy_offence = 0.1
 	prestige = 0.5
 
-	allow = { religion = khurmazta }
+	potential = { religion = khurmazta }
 	sprite = 14
 
 	ai_will_do = {
@@ -48,7 +48,7 @@ ZZZ_enhanced_parn =
 #	diplomatic_reputation = 1
 #	devotion = 0.5
 #
-#	allow = {
+#	potential = {
 #		religion = khurmazta
 #		government = theocracy
 #	}
@@ -68,7 +68,7 @@ ZZZ_enhanced_parn =
 #	diplomatic_reputation = 1
 #	heir_chance = 0.5
 #
-#	allow = {
+#	potential = {
 #		religion = khurmazta
 #		has_government_attribute = heir
 #		NOT = { government = theocracy }
@@ -89,7 +89,7 @@ ZZZ_enhanced_parn =
 #	diplomatic_reputation = 1
 #	reelection_cost = -0.1
 #
-#	allow = {
+#	potential = {
 #		religion = khurmazta
 #		government = republic
 #		NOT = { has_government_attribute = heir }
@@ -110,7 +110,7 @@ ZZZ_enhanced_parn =
 #	diplomatic_reputation = 1
 #	legitimacy = 0.5 #For States General/Netherlands
 #
-#	allow = {
+#	potential = {
 #		religion = khurmazta
 #		NOT = { government = theocracy }
 #		NOT = { government = republic }
@@ -133,7 +133,7 @@ ZZZ_enhanced_weshparkar =
 	global_ship_trade_power = 0.2
 	global_naval_engagement_modifier = 0.1
 
-	allow = { religion = khurmazta }
+	potential = { religion = khurmazta }
 	sprite = 16
 
 	ai_will_do = {
@@ -154,7 +154,7 @@ ZZZ_enhanced_wishaghn =
 	discipline = 0.05
 	army_tradition = 0.5
 
-	allow = { religion = khurmazta }
+	potential = { religion = khurmazta }
 	sprite = 17
 
 	ai_will_do = {
@@ -176,7 +176,7 @@ ZZZ_enhanced_zurvan =
 	technology_cost = -0.05
 	global_institution_spread = 0.1
 
-	allow = { religion = khurmazta }
+	potential = { religion = khurmazta }
 	sprite = 18
 
 	ai_will_do = {

@@ -862,7 +862,6 @@ great_power_idea_groups_expanded = {
 	meritorious_influence = {
 		monthly_support_heir_gain = 0.1
 		imperial_mandate = 0.05
-		yearly_tribal_allegiance = 0.5
 		monthly_militarized_society = 0.05
 		dip_advisor_cost = -0.20
 	}
@@ -2460,7 +2459,7 @@ naval_ideas = {
 	}
 
 	boarding_parties = {
-		flagship_landing_penalty = -1  
+		landing_penalty = -1
 		leader_naval_shock = 1 
 	}
 	improved_rams = {

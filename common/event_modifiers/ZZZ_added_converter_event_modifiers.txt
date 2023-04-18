@@ -126,7 +126,6 @@ hundred_years_wars = {
 #ODIN
 VZZ_extra_colonist = {
 	colonists = 1
-	can_colony_boost_development = yes
 }
 VZZ_discipline = {
 	discipline = 0.05
@@ -301,8 +300,7 @@ Zanjizamin_Colon = {
 	colonist_placement_chance = 0.25
 	global_colonial_growth = 50
 	native_uprising_chance = -0.25
-	global_tariffs = 0.50
-	can_colony_boost_development = yes	
+	global_tariffs = 0.50	
 	may_explore = yes
 	free_maintenance_on_expl_conq = yes		
 }
