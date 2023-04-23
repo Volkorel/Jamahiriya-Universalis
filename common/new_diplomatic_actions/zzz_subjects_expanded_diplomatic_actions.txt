@@ -1,5 +1,5 @@
 disallow_subject_from_annexing_subjects = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -71,7 +71,7 @@ disallow_subject_from_annexing_subjects = {
 }
 
 transfer_vassal_to_subject = {
-	category = influence
+	category = subject_interactions
 
 	alert_index = 6
 	alert_tooltip = transfer_vassal_to_subject_alert_tooltip
@@ -197,7 +197,7 @@ transfer_vassal_to_subject = {
 }
 
 release_subject_from_subject = {
-	category = influence
+	category = subject_interactions
 
 	alert_index = 6
 	alert_tooltip = release_subject_from_subject_alert_tooltip

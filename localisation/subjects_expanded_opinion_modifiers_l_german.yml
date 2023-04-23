@@ -141,3 +141,7 @@
  medieval_vassal_forced: "Mittelalterlicher Vasall erzwungen"
  medieval_vassal_forced_small: "Mittelalterlicher Vasall gegen ehemaligen Lehnsherrn erzwungen"
  medieval_vassal_forced_annul_alliance: "Auflösung eines Bündnisses erzwungen"
+
+ is_exarchate_subject: "Exarchat"
+
+ is_real_union_subject: "Realunion"

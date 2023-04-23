@@ -199,10 +199,6 @@ country_decisions = {
 				kill_heir = yes
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
-		ai_importance = 400
 	}
 	taira_nation_japan = {
 		major = yes
@@ -279,10 +275,6 @@ country_decisions = {
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
-		ai_importance = 400
 	}
 	minamoto_nation = {
 		major = yes
@@ -416,10 +408,6 @@ country_decisions = {
 				kill_heir = yes
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
-		ai_importance = 400
 	}
 	fujiwara_nation = {
 		major = yes
@@ -526,10 +514,6 @@ country_decisions = {
 				kill_heir = yes
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
-		ai_importance = 400
 	}
 	fujiwara_nation_japan = {
 		major = yes
@@ -593,9 +577,5 @@ country_decisions = {
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
-		ai_will_do = {
-			factor = 1
-		}
-		ai_importance = 400
 	}
 }

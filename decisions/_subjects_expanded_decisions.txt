@@ -1,5 +1,6 @@
 country_decisions = {
 	subjects_expanded_info_decision = {
+		color = { 35 206 255 }
 		potential = {
 			ai = no
 			NOT = { has_country_flag = used_subjects_expanded_info_decision }

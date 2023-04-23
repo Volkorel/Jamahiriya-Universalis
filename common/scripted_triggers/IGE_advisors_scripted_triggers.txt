@@ -7,7 +7,6 @@ has_adm_advisor_with_skill = {
 		master_of_mint = $skill$
 		inquisitor = $skill$
 		natural_scientist = $skill$
-		administrator = $skill$
 		state_overseer = $skill$
 		civil_engineer = $skill$
 		researcher = $skill$

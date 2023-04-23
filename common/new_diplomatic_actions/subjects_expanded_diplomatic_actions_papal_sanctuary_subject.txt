@@ -1808,7 +1808,7 @@ request_curia_money_from_papal_sanctuary_subject = {
 }
 
 make_papal_sanctuary_subject_to_theocracy = {
-	category = influence
+	category = subject_interactions
 
 	alert_index = 6
 	alert_tooltip = make_papal_sanctuary_subject_to_theocracy_alert_tooltip
@@ -1969,7 +1969,7 @@ make_papal_sanctuary_subject_to_theocracy = {
 				which = ai_value
 				value = modifier:diplomatic_reputation
 			}
-			multiply_variable = { which = ai_value value = 5 }
+			multiply_variable = { which = ai_value value = 3 }
 		}
 		add_entry = {
 			name = FROM_IS_EMPIRE_RANK
@@ -2234,7 +2234,7 @@ make_papal_sanctuary_subject_to_theocracy = {
 				who = FROM
 				with = ROOT
 			}
-			divide_variable = { which = ai_value value = -2 }
+			divide_variable = { which = ai_value value = -3 }
 		}
 		add_entry = {
 			name = FROM_IS_IMPERIAL_CITY
@@ -2590,7 +2590,7 @@ make_papal_sanctuary_subject_to_vassal = {
 				which = ai_value
 				value = modifier:diplomatic_reputation
 			}
-			multiply_variable = { which = ai_value value = 5 }
+			multiply_variable = { which = ai_value value = 3 }
 		}
 		add_entry = {
 			name = FROM_IS_EMPIRE_RANK
@@ -2855,7 +2855,7 @@ make_papal_sanctuary_subject_to_vassal = {
 				who = FROM
 				with = ROOT
 			}
-			divide_variable = { which = ai_value value = -2 }
+			divide_variable = { which = ai_value value = -3 }
 		}
 		add_entry = {
 			name = FROM_IS_IMPERIAL_CITY

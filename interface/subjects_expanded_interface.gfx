@@ -1,4 +1,10 @@
 spriteTypes = {
+	# Diplomatic Categories:
+	spriteType = {
+		name = "GFX_diplomacy_action_subject_interactions"
+		textureFile = "gfx/interface/icon_diplomacy_subject_interactions.dds"
+	}
+
 	# Casus Bellis:
 	spriteType = {
 		name = "GFX_cb_independence_war_semi_volunteer"
@@ -559,5 +565,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_diplomacy_ammedieval_vassal"
 		texturefile = "gfx//interface//icon_diplomacy_ammedieval_vassal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_exarchate_subject"
+		texturefile = "gfx/interface/icon_exarchate_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_leadexarchate_subject"
+		texturefile = "gfx//interface//icon_diplomacy_leadexarchate_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_amexarchate_subject"
+		texturefile = "gfx//interface//icon_diplomacy_amexarchate_subject.dds"
+	}
+
+	spriteType = {
+		name = "GFX_icon_real_union_subject"
+		texturefile = "gfx/interface/icon_real_union_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_leadreal_union_subject"
+		texturefile = "gfx//interface//icon_diplomacy_leadreal_union_subject.dds"
+	}
+	spriteType = {
+		name = "GFX_diplomacy_amreal_union_subject"
+		texturefile = "gfx//interface//icon_diplomacy_amreal_union_subject.dds"
 	}
 }

@@ -33,17 +33,6 @@ pte_demand_manpower = {
 			government = native
 			government = tribal
 			is_nomad = yes
-			# ET Reforms:
-			has_reform = barbarian_reform
-			has_reform = caliphate_reform
-			has_reform = caliphate_theocratic_reform
-			has_reform = fascist_government
-			# ET Ages:
-			current_age = classical_age
-			current_age = late_classical_age
-			current_age = age_of_migrations
-			current_age = dark_age
-			current_age = feudal_age
 		}
 		FROM = {
 			max_manpower = 1

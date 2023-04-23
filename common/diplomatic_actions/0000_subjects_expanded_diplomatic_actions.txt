@@ -1,4 +1,34 @@
 declarewar = {
+	# Vanilla
+	condition = {
+		tooltip = AI_CANNOT_DECLARE_WHEN_STABILITY_LOSS
+		potential = {
+			ai = yes
+		}
+		allow = {
+			ai = yes
+			NOT = {
+				has_global_modifier_value = {
+					which = stability_cost_to_declare_war
+					value = 1
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = CANNOT_DECLARE_WARS_OTHER_THAN_INDEPENDENCE_WARS
+		potential = {
+			has_country_modifier = revoked_war_rights
+			FROM = { NOT = { overlord_of = ROOT } }
+		}
+		allow = {
+			OR = {
+				NOT = { has_country_modifier = revoked_war_rights }
+				FROM = { overlord_of = ROOT }
+			}
+		}
+	}
+	# For SE:
 	condition = {
 		tooltip = CANNOT_DECLARE_WAR_ON_OVERLORD_ALLY
 		potential = {
@@ -147,6 +177,7 @@ declarewar = {
 	}
 	effect = {
 		# Vanilla:
+		on_war_declaration_effect = yes
 		if = {
 			limit = {
 				has_country_flag = nor_norwegian_independence_modifier
@@ -160,6 +191,7 @@ declarewar = {
 		if = {
 			limit = {
 				has_country_flag = teu_joined_the_hre
+				tag = TEU
 				is_part_of_hre = yes
 				FROM = { is_part_of_hre = yes }
 			}
@@ -220,19 +252,6 @@ declarewar = {
 			overlord = {
 				country_event = { id = subjects_expanded_brother_kingdom_events.3 days = 70 }
 			}
-		}
-
-		# Needed for Extended Timeline
-		if = {
-			limit = {
-				has_global_flag = extended_timeline_mod
-				OR = {
-					has_casus_belli = { type = cb_spread_communism target = FROM }
-					has_casus_belli = { type = cb_spread_fascism target = FROM }
-					has_casus_belli = { type = cb_spread_democracy target = FROM }
-				}
-			}
-			set_country_flag = forcing_government
 		}
 	}
 }
@@ -327,6 +346,26 @@ allianceaction = {
 				}
 				NOT = { FROM = { has_government_attribute = cannot_ally_non_republics_or_non_rev } }
 			}
+		}
+	}
+	condition = {
+		tooltip = CANNOT_MAKE_ALLIANCES
+		potential = {
+			has_government_attribute = cannot_form_alliances
+		}
+		allow = {
+			NOT = { has_government_attribute = cannot_form_alliances }
+		}
+	}
+	condition = {
+		tooltip = FROM_CANNOT_MAKE_ALLIANCES
+		potential = {
+			FROM = {
+				has_government_attribute = cannot_form_alliances
+			}
+		}
+		allow = {
+			NOT = { FROM = { has_government_attribute = cannot_form_alliances } }
 		}
 	}
 
@@ -483,7 +522,11 @@ annexationaction = {
 		tooltip = ANNEX_TOO_LOW
 		potential = {
 			FROM = {
-				vassal_of = ROOT
+				OR = {
+					is_subject_of_type = core_eyalet
+					is_subject_of_type = appanage
+					vassal_of = ROOT
+				}
 			}
 		}
 		allow = {
@@ -493,6 +536,29 @@ annexationaction = {
 					value = 190
 				}
 			}
+		}
+	}
+	condition = {
+		tooltip = CANNOT_ANNEX
+		potential = {
+			FROM = {
+				has_country_modifier = tur_mamlukian_administration
+			}
+		}
+		allow = {
+			FROM = {
+				NOT = { has_country_modifier = tur_mamlukian_administration }
+			}
+		}
+	}
+	condition = {
+		tooltip = NEEDS_50_CROWNLAND_TT
+		potential = {
+			has_government_attribute = need_crownland_to_annex
+			NOT = { crown_land_share = 50 }
+		}
+		allow = {
+			crown_land_share = 50
 		}
 	}
 
@@ -677,6 +743,19 @@ integrationaction = {
 		}
 		allow = {
 			NOT = { has_government_attribute = cannot_integrate_personal_unions }
+		}
+	}
+	condition = {
+		tooltip = CANNOT_ANNEX
+		potential = {
+			FROM = {
+				has_country_modifier = tur_mamlukian_administration
+			}
+		}
+		allow = {
+			FROM = {
+				NOT = { has_country_modifier = tur_mamlukian_administration }
+			}
 		}
 	}
 

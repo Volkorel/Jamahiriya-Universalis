@@ -796,8 +796,71 @@ establish_fief_subject = {
 	}
 }
 
-demand_troops_from_fief_subject = {
+cancel_fief_subject = {
 	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = fief_subject
+		}
+	}
+
+	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = fief_subject
+			}
+		}
+		NOT = { truce_with = FROM }
+		prestige = 0
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of = ROOT
+					is_subject_of_type = fief_subject
+				}
+				NOT = { truce_with = FROM }
+				prestige = 0
+			}
+			FROM = {
+				if = {
+					limit = {
+						NOT = { liberty_desire = 50 }
+					}
+					add_opinion = {
+						who = ROOT
+						modifier = vassal_abandoned
+					}
+				}
+				grant_independence = yes
+				add_truce_with = ROOT
+			}
+			add_truce_with = FROM
+			add_prestige = -25
+		}
+	}
+
+	ai_will_do = {
+		FROM = {
+			liberty_desire = 100
+			years_in_vassalage_under = {
+				who = ROOT
+				years = 25
+				all_subject_country = yes
+			}
+		}
+	}
+}
+
+demand_troops_from_fief_subject = {
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -923,7 +986,7 @@ demand_troops_from_fief_subject = {
 }
 
 enforce_call_to_arms_from_fief_subject = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -1034,69 +1097,6 @@ enforce_call_to_arms_from_fief_subject = {
 		FROM = {
 			army_size = 5
 			NOT = { liberty_desire = 30 }
-		}
-	}
-}
-
-cancel_fief_subject = {
-	category = influence
-
-	require_acceptance = no
-
-	is_visible = {
-		FROM = {
-			is_subject_of = ROOT
-			is_subject_of_type = fief_subject
-		}
-	}
-
-	is_allowed = {
-		hidden_trigger = {
-			FROM = {
-				is_subject_of = ROOT
-				is_subject_of_type = fief_subject
-			}
-		}
-		NOT = { truce_with = FROM }
-		prestige = 0
-	}
-
-	on_accept = {
-		if = {
-			limit = {
-				FROM = {
-					is_subject_of = ROOT
-					is_subject_of_type = fief_subject
-				}
-				NOT = { truce_with = FROM }
-				prestige = 0
-			}
-			FROM = {
-				if = {
-					limit = {
-						NOT = { liberty_desire = 50 }
-					}
-					add_opinion = {
-						who = ROOT
-						modifier = vassal_abandoned
-					}
-				}
-				grant_independence = yes
-				add_truce_with = ROOT
-			}
-			add_truce_with = FROM
-			add_prestige = -25
-		}
-	}
-
-	ai_will_do = {
-		FROM = {
-			liberty_desire = 100
-			years_in_vassalage_under = {
-				who = ROOT
-				years = 25
-				all_subject_country = yes
-			}
 		}
 	}
 }

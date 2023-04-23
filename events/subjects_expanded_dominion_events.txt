@@ -18,24 +18,6 @@ country_event = {
 					NOT = { has_reform = colonial_government }
 					capital_scope = {
 						is_node_in_trade_company_region = yes
-						OR = {
-							NOT = { has_global_flag = extended_timeline_mod }
-							AND = {
-								has_global_flag = extended_timeline_mod
-								NOT = { colonial_region = colonial_oceania }
-								NOT = { colonial_region = colonial_south_africa }
-								NOT = { colonial_region = colonial_zambezi }
-								NOT = { colonial_region = colonial_congo }
-								NOT = { colonial_region = colonial_east_africa }
-								NOT = { colonial_region = colonial_ethiopia }
-								NOT = { colonial_region = colonial_sudan }
-								NOT = { colonial_region = colonial_central_africa }
-								NOT = { colonial_region = colonial_niger }
-								NOT = { colonial_region = colonial_ivory_coast }
-								NOT = { colonial_region = colonial_mali }
-								NOT = { colonial_region = colonial_west_africa }
-							}
-						}
 					}
 				}
 			}
@@ -65,24 +47,6 @@ country_event = {
 					is_any_colonial_region_dominion_subject = yes
 					capital_scope = {
 						is_node_in_trade_company_region = yes
-						OR = {
-							NOT = { has_global_flag = extended_timeline_mod }
-							AND = {
-								has_global_flag = extended_timeline_mod
-								NOT = { colonial_region = colonial_oceania }
-								NOT = { colonial_region = colonial_south_africa }
-								NOT = { colonial_region = colonial_zambezi }
-								NOT = { colonial_region = colonial_congo }
-								NOT = { colonial_region = colonial_east_africa }
-								NOT = { colonial_region = colonial_ethiopia }
-								NOT = { colonial_region = colonial_sudan }
-								NOT = { colonial_region = colonial_central_africa }
-								NOT = { colonial_region = colonial_niger }
-								NOT = { colonial_region = colonial_ivory_coast }
-								NOT = { colonial_region = colonial_mali }
-								NOT = { colonial_region = colonial_west_africa }
-							}
-						}
 					}
 				}
 				if = {
@@ -470,7 +434,6 @@ country_event = {
 	# hidden = yes
 
 	trigger = {
-		NOT = { has_global_flag = extended_timeline_mod }
 		capital_scope = {
 			NOT = { superregion = india_superregion }
 			NOT = { superregion = china_superregion }
@@ -633,7 +596,6 @@ country_event = {
 	# hidden = yes
 
 	trigger = {
-		NOT = { has_global_flag = extended_timeline_mod }
 		capital_scope = {
 			NOT = { superregion = india_superregion }
 			NOT = { superregion = china_superregion }
@@ -829,7 +791,6 @@ country_event = {
 	# hidden = yes
 
 	trigger = {
-		NOT = { has_global_flag = extended_timeline_mod }
 		capital_scope = {
 			NOT = { superregion = india_superregion }
 			NOT = { superregion = china_superregion }

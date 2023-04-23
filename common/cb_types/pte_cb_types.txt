@@ -519,9 +519,6 @@ cb_pte_force_convert_heathen = {
 			}
 		}
 		NOT = { has_reform = religious_permanent_revolution_reform }
-		NOT = { current_age = classical_age }
-		NOT = { current_age = late_classical_age }
-		NOT = { current_age = age_of_migrations }
 		NOT = { religion_group = FROM }
 		FROM = {
 			is_free_or_tributary_trigger = yes
@@ -546,20 +543,6 @@ cb_pte_force_convert_heathen = {
 					}
 				}
 			}
-		}
-		OR = {
-			full_idea_group = religious_ideas
-			AND = {
-				has_global_flag = extended_timeline_mod
-				full_idea_group = early_religious_ideas
-				NOT = { adm_tech = 50 }
-			}
-			has_reform = feudal_theocracy
-			has_reform = crusading_kingdom_reform
-			has_reform = militarized_crusader_order_reform
-			has_reform = holy_horde_reform
-			has_reform = kingdom_of_god_reform
-			has_reform = battle_pope_reform
 		}
 		FROM = {
 			OR = {

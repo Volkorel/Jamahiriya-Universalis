@@ -23,14 +23,6 @@ pte_demand_dynastic_legitimization = {
 		OR = {
 			current_age = age_of_discovery
 			current_age = age_of_reformation
-			AND = {
-				has_global_flag = extended_timeline_mod
-				OR = {
-					current_age = feudal_age
-					current_age = high_middle_ages
-					current_age = late_middle_ages
-				}
-			}
 		}
 		government = monarchy
 		uses_legitimacy = yes

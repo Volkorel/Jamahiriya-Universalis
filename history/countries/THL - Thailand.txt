@@ -5,7 +5,7 @@ government = monarchy
 add_government_reform = mandala_reform
 primary_culture = central_thai
 religion = buddhism
-technology_group = early_chinese
+technology_group = chinese
 capital = 600	# Ayutthaya
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }

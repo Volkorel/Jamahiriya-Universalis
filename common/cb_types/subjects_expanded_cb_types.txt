@@ -2,14 +2,17 @@ cb_independence_war_semi_volunteer = {
 	exclusive = yes
 	independence = yes
 
-	prerequisites = {
-		is_subject_of = FROM
-		NOT = { is_colonial_nation_of = FROM }
+	prerequisites_self = {
 		is_similar_tributary_subject = yes
 		NOT = { is_subject_of_type = brother_kingdom }
 		NOT = { is_subject_of_type = papal_sanctuary_subject }
 		NOT = { is_subject_of_type = imperial_feud_subject }
 		NOT = { is_subject_of_type = banking_family_subject }
+	}
+
+	prerequisites = {
+		is_subject_of = FROM
+		NOT = { is_colonial_nation_of = FROM }
 	}
 
 	war_goal = defend_capital_independence
@@ -105,11 +108,14 @@ cb_force_trade_outpost = {
 cb_convert_heathen_for_iqta = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		can_be_overlord = iqta_vassal
 		cb_on_religious_enemies = yes
 		is_revolution_target = no
 		has_subject_of_type = iqta_vassal
+	}
+
+	prerequisites = {
 		NOT = { religion_group = FROM }
 		NOT = { truce_with = FROM }
 		NOT = { alliance_with = FROM }
@@ -156,8 +162,11 @@ cb_disloyal_imperial_feud_subject = {
 	is_triggered_only = yes
 	months = 66
 
-	prerequisites = {
+	prerequisites_self = {
 		can_be_overlord = imperial_feud_subject
+	}
+
+	prerequisites = {
 		FROM = {
 			NOT = { is_subject_of = ROOT }
 		}
@@ -176,8 +185,11 @@ cb_disloyal_brother_kingdom = {
 	is_triggered_only = yes
 	months = 80
 
-	prerequisites = {
+	prerequisites_self = {
 		can_be_overlord = brother_kingdom
+	}
+
+	prerequisites = {
 		FROM = {
 			NOT = { is_subject_of = ROOT }
 		}
@@ -192,8 +204,11 @@ cb_disloyal_banking_family_subject = {
 	is_triggered_only = yes
 	months = 100
 
-	prerequisites = {
+	prerequisites_self = {
 		is_subject = no
+	}
+
+	prerequisites = {
 		can_create_subject_type = {
 			subject = FROM
 			subject_type = banking_family_subject
@@ -213,15 +228,18 @@ cb_disloyal_banking_family_subject = {
 cb_liberate_elector_palatinate_vassal = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		is_emperor = yes
+		is_revolutionary = no
+	}
+
+	prerequisites = {
 		FROM = {
 			any_subject_country = {
 				is_elector = yes
 				is_subject_of_type = palatinate_vassal
 			}
 		}
-		is_revolutionary = no
 	}
 
 	attacker_disabled_po = {

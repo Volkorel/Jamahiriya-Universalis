@@ -556,3 +556,11 @@ medieval_vassal_forced_annul_alliance = {
 	yearly_decay = 3
 	min = -150
 }
+
+is_exarchate_subject = {
+	opinion = 50
+}
+
+is_real_union_subject = {
+	opinion = 25
+}

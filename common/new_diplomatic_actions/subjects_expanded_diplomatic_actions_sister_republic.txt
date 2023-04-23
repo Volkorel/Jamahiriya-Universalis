@@ -24,7 +24,7 @@ establish_sister_republic = {
 		}
 		has_opinion = {
 			who = FROM
-			value = 150
+			value = 100
 		}
 		reverse_has_opinion = {
 			who = FROM
@@ -51,13 +51,17 @@ establish_sister_republic = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				OR = {
+					has_dlc = "The Cossacks"
+					has_dlc = "Leviathan"
+				}
 				OR = {
 					ai = yes
 					FROM = {
 						ai = yes
 					}
 				}
+				NOT = { overlord_of = FROM }
 			}
 			trust = {
 				who = FROM
@@ -72,9 +76,7 @@ establish_sister_republic = {
 		}
 		if = {
 			limit = {
-				FROM = {
-					NOT = { is_subject_of = ROOT }
-				}
+				NOT = { overlord_of = FROM }
 			}
 			alliance_with = FROM
 		}
@@ -98,7 +100,7 @@ establish_sister_republic = {
 				}
 				has_opinion = {
 					who = FROM
-					value = 150
+					value = 100
 				}
 				reverse_has_opinion = {
 					who = FROM
@@ -125,13 +127,17 @@ establish_sister_republic = {
 				}
 				if = {
 					limit = {
-						has_dlc = "The Cossacks"
+						OR = {
+							has_dlc = "The Cossacks"
+							has_dlc = "Leviathan"
+						}
 						OR = {
 							ai = yes
 							FROM = {
 								ai = yes
 							}
 						}
+						NOT = { overlord_of = FROM }
 					}
 					trust = {
 						who = FROM
@@ -146,9 +152,7 @@ establish_sister_republic = {
 				}
 				if = {
 					limit = {
-						FROM = {
-							NOT = { is_subject_of = ROOT }
-						}
+						NOT = { overlord_of = FROM }
 					}
 					alliance_with = FROM
 				}
@@ -178,7 +182,7 @@ establish_sister_republic = {
 				}
 				has_opinion = {
 					who = FROM
-					value = 150
+					value = 100
 				}
 				reverse_has_opinion = {
 					who = FROM
@@ -205,13 +209,17 @@ establish_sister_republic = {
 				}
 				if = {
 					limit = {
-						has_dlc = "The Cossacks"
+						OR = {
+							has_dlc = "The Cossacks"
+							has_dlc = "Leviathan"
+						}
 						OR = {
 							ai = yes
 							FROM = {
 								ai = yes
 							}
 						}
+						NOT = { overlord_of = FROM }
 					}
 					trust = {
 						who = FROM
@@ -226,9 +234,7 @@ establish_sister_republic = {
 				}
 				if = {
 					limit = {
-						FROM = {
-							NOT = { is_subject_of = ROOT }
-						}
+						NOT = { overlord_of = FROM }
 					}
 					alliance_with = FROM
 				}
@@ -254,7 +260,7 @@ establish_sister_republic = {
 			name = base_values
 			export_to_variable = {
 				which = ai_value
-				value = 20
+				value = 30
 			}
 			multiply_variable = { which = ai_value value = -1 }
 		}
@@ -295,7 +301,7 @@ establish_sister_republic = {
 			}
 			export_to_variable = {
 				which = ai_value
-				value = 10
+				value = 15
 			}
 		}
 		add_entry = {
@@ -334,7 +340,7 @@ establish_sister_republic = {
 			}
 			export_to_variable = {
 				which = ai_value
-				value = 10
+				value = 15
 			}
 		}
 		add_entry = {
@@ -469,160 +475,6 @@ establish_sister_republic = {
 			multiply_variable = { which = ai_value value = -1 }
 		}
 		add_entry = {
-			name = ROOT_FROM_MILITARY_POWER_COMPARED
-			limit = {
-				variable_arithmetic_trigger = {
-					export_to_variable = {
-						which = our_mil_tech
-						value = trigger_value:mil_tech
-					}
-					export_to_variable = {
-						which = their_mil_tech
-						value = trigger_value:mil_tech
-						who = FROM
-					}
-					export_to_variable = {
-						which = our_army_size
-						value = trigger_value:army_size
-					}
-					export_to_variable = {
-						which = their_army_size
-						value = trigger_value:army_size
-						who = FROM
-					}
-					export_to_variable = {
-						which = military_power
-						value = 0
-					}
-					divide_variable = { which = our_army_size value = 10 }
-					divide_variable = { which = their_army_size value = -10 }
-					change_variable = { which = our_army_size which = their_army_size }
-					multiply_variable = { which = their_mil_tech value = -1 }
-					change_variable = { which = our_mil_tech which = their_mil_tech }
-					multiply_variable = { which = our_mil_tech value = 3 }
-					change_variable = { which = military_power which = our_army_size }
-					change_variable = { which = military_power which = our_mil_tech }
-					NOT = { check_variable = { which = military_power value = -39 } }
-				}
-			}
-			export_to_variable = {
-				which = ai_value
-				value = 40
-			}
-			multiply_variable = { which = ai_value value = -1 }
-		}
-		add_entry = {
-			name = ROOT_FROM_MILITARY_POWER_COMPARED
-			limit = {
-				variable_arithmetic_trigger = {
-					export_to_variable = {
-						which = our_mil_tech
-						value = trigger_value:mil_tech
-					}
-					export_to_variable = {
-						which = their_mil_tech
-						value = trigger_value:mil_tech
-						who = FROM
-					}
-					export_to_variable = {
-						which = our_army_size
-						value = trigger_value:army_size
-					}
-					export_to_variable = {
-						which = their_army_size
-						value = trigger_value:army_size
-						who = FROM
-					}
-					export_to_variable = {
-						which = military_power
-						value = 0
-					}
-					divide_variable = { which = our_army_size value = 10 }
-					divide_variable = { which = their_army_size value = -10 }
-					change_variable = { which = our_army_size which = their_army_size }
-					multiply_variable = { which = their_mil_tech value = -1 }
-					change_variable = { which = our_mil_tech which = their_mil_tech }
-					multiply_variable = { which = our_mil_tech value = 3 }
-					change_variable = { which = military_power which = our_army_size }
-					change_variable = { which = military_power which = our_mil_tech }
-					check_variable = { which = military_power value = -39 }
-					NOT = { check_variable = { which = military_power value = 30 } }
-				}
-			}
-			export_to_variable = {
-				which = ai_value
-				value = 0
-			}
-			export_to_variable = {
-				which = our_mil_tech
-				value = trigger_value:mil_tech
-			}
-			export_to_variable = {
-				which = their_mil_tech
-				value = trigger_value:mil_tech
-				who = FROM
-			}
-			export_to_variable = {
-				which = our_army_size
-				value = trigger_value:army_size
-			}
-			export_to_variable = {
-				which = their_army_size
-				value = trigger_value:army_size
-				who = FROM
-			}
-			divide_variable = { which = our_army_size value = 10 }
-			divide_variable = { which = their_army_size value = -10 }
-			change_variable = { which = our_army_size which = their_army_size }
-			multiply_variable = { which = their_mil_tech value = -1 }
-			change_variable = { which = our_mil_tech which = their_mil_tech }
-			multiply_variable = { which = our_mil_tech value = 3 }
-			change_variable = { which = ai_value which = our_army_size }
-			change_variable = { which = ai_value which = our_mil_tech }
-		}
-		add_entry = {
-			name = ROOT_FROM_MILITARY_POWER_COMPARED
-			limit = {
-				variable_arithmetic_trigger = {
-					export_to_variable = {
-						which = our_mil_tech
-						value = trigger_value:mil_tech
-					}
-					export_to_variable = {
-						which = their_mil_tech
-						value = trigger_value:mil_tech
-						who = FROM
-					}
-					export_to_variable = {
-						which = our_army_size
-						value = trigger_value:army_size
-					}
-					export_to_variable = {
-						which = their_army_size
-						value = trigger_value:army_size
-						who = FROM
-					}
-					export_to_variable = {
-						which = military_power
-						value = 0
-					}
-					divide_variable = { which = our_army_size value = 10 }
-					divide_variable = { which = their_army_size value = -10 }
-					change_variable = { which = our_army_size which = their_army_size }
-					multiply_variable = { which = their_mil_tech value = -1 }
-					change_variable = { which = our_mil_tech which = their_mil_tech }
-					multiply_variable = { which = our_mil_tech value = 3 }
-					change_variable = { which = military_power which = our_army_size }
-					change_variable = { which = military_power which = our_mil_tech }
-					check_variable = { which = military_power value = 30 }
-				}
-			}
-			export_to_variable = {
-				which = ai_value
-				value = 30
-			}
-		}
-		add_entry = {
 			name = FROM_IS_HRE_MEMBER
 			limit = {
 				NOT = { overlord_of = FROM }
@@ -703,7 +555,7 @@ establish_sister_republic = {
 			}
 			export_to_variable = {
 				which = ai_value
-				value = 75
+				value = 50
 			}
 			multiply_variable = { which = ai_value value = -1 }
 		}
@@ -753,38 +605,19 @@ establish_sister_republic = {
 			}
 			export_to_variable = {
 				which = ai_value
-				value = 25
+				value = 20
 			}
 			multiply_variable = { which = ai_value value = -1 }
 		}
 		add_entry = {
-			name = MUTUAL_OPINION_ABOVE_150
-			limit = {
-				has_opinion = {
-					who = FROM
-					value = 150
-				}
-				reverse_has_opinion = {
-					who = FROM
-					value = 150
-				}
-			}
+			name = OPINION
 			export_to_variable = {
 				which = ai_value
 				value = opinion
 				who = ROOT
 				with = FROM
 			}
-			export_to_variable = {
-				which = ai_value_2
-				value = opinion
-				who = FROM
-				with = ROOT
-			}
-			change_variable = { which = ai_value which = ai_value_2 }
-			divide_variable = { which = ai_value value = 2 }
-			subtract_variable = { which = ai_value value = 150 }
-			divide_variable = { which = ai_value value = 3.3 }
+			divide_variable = { which = ai_value value = 5 }
 		}
 	}
 
@@ -830,7 +663,7 @@ ask_for_sister_republic = {
 		}
 		has_opinion = {
 			who = FROM
-			value = 150
+			value = 100
 		}
 		reverse_has_opinion = {
 			who = FROM
@@ -861,7 +694,11 @@ ask_for_sister_republic = {
 		}
 		if = {
 			limit = {
-				has_dlc = "The Cossacks"
+				OR = {
+					has_dlc = "The Cossacks"
+					has_dlc = "Leviathan"
+				}
+				NOT = { is_subject_of = FROM }
 			}
 			trust = {
 				who = FROM
@@ -900,7 +737,7 @@ ask_for_sister_republic = {
 				}
 				has_opinion = {
 					who = FROM
-					value = 150
+					value = 100
 				}
 				reverse_has_opinion = {
 					who = FROM
@@ -931,7 +768,11 @@ ask_for_sister_republic = {
 				}
 				if = {
 					limit = {
-						has_dlc = "The Cossacks"
+						OR = {
+							has_dlc = "The Cossacks"
+							has_dlc = "Leviathan"
+						}
+						NOT = { is_subject_of = FROM }
 					}
 					trust = {
 						who = FROM
@@ -978,7 +819,7 @@ ask_for_sister_republic = {
 				}
 				has_opinion = {
 					who = FROM
-					value = 150
+					value = 100
 				}
 				reverse_has_opinion = {
 					who = FROM
@@ -1009,7 +850,11 @@ ask_for_sister_republic = {
 				}
 				if = {
 					limit = {
-						has_dlc = "The Cossacks"
+						OR = {
+							has_dlc = "The Cossacks"
+							has_dlc = "Leviathan"
+						}
+						NOT = { is_subject_of = FROM }
 					}
 					trust = {
 						who = FROM
@@ -1066,7 +911,7 @@ ask_for_sister_republic = {
 			name = base_values
 			export_to_variable = {
 				which = ai_value
-				value = 20
+				value = 30
 			}
 			multiply_variable = { which = ai_value value = -1 }
 		}
@@ -1105,7 +950,7 @@ ask_for_sister_republic = {
 			}
 			export_to_variable = {
 				which = ai_value
-				value = 10
+				value = 15
 			}
 		}
 		add_entry = {
@@ -1144,7 +989,7 @@ ask_for_sister_republic = {
 			}
 			export_to_variable = {
 				which = ai_value
-				value = 10
+				value = 15
 			}
 		}
 		add_entry = {
@@ -1265,167 +1110,13 @@ ask_for_sister_republic = {
 			multiply_variable = { which = ai_value value = -1 }
 		}
 		add_entry = {
-			name = ROOT_FROM_MILITARY_POWER_COMPARED
-			limit = {
-				variable_arithmetic_trigger = {
-					export_to_variable = {
-						which = our_mil_tech
-						value = trigger_value:mil_tech
-						who = FROM
-					}
-					export_to_variable = {
-						which = their_mil_tech
-						value = trigger_value:mil_tech
-					}
-					export_to_variable = {
-						which = our_army_size
-						value = trigger_value:army_size
-						who = FROM
-					}
-					export_to_variable = {
-						which = their_army_size
-						value = trigger_value:army_size
-					}
-					export_to_variable = {
-						which = military_power
-						value = 0
-					}
-					divide_variable = { which = our_army_size value = 10 }
-					divide_variable = { which = their_army_size value = -10 }
-					change_variable = { which = our_army_size which = their_army_size }
-					multiply_variable = { which = their_mil_tech value = -1 }
-					change_variable = { which = our_mil_tech which = their_mil_tech }
-					multiply_variable = { which = our_mil_tech value = 3 }
-					change_variable = { which = military_power which = our_army_size }
-					change_variable = { which = military_power which = our_mil_tech }
-					NOT = { check_variable = { which = military_power value = -39 } }
-				}
-			}
-			export_to_variable = {
-				which = ai_value
-				value = 40
-			}
-			multiply_variable = { which = ai_value value = -1 }
-		}
-		add_entry = {
-			name = ROOT_FROM_MILITARY_POWER_COMPARED
-			limit = {
-				variable_arithmetic_trigger = {
-					export_to_variable = {
-						which = our_mil_tech
-						value = trigger_value:mil_tech
-						who = FROM
-					}
-					export_to_variable = {
-						which = their_mil_tech
-						value = trigger_value:mil_tech
-					}
-					export_to_variable = {
-						which = our_army_size
-						value = trigger_value:army_size
-						who = FROM
-					}
-					export_to_variable = {
-						which = their_army_size
-						value = trigger_value:army_size
-					}
-					export_to_variable = {
-						which = military_power
-						value = 0
-					}
-					divide_variable = { which = our_army_size value = 10 }
-					divide_variable = { which = their_army_size value = -10 }
-					change_variable = { which = our_army_size which = their_army_size }
-					multiply_variable = { which = their_mil_tech value = -1 }
-					change_variable = { which = our_mil_tech which = their_mil_tech }
-					multiply_variable = { which = our_mil_tech value = 3 }
-					change_variable = { which = military_power which = our_army_size }
-					change_variable = { which = military_power which = our_mil_tech }
-					check_variable = { which = military_power value = -39 }
-					NOT = { check_variable = { which = military_power value = 30 } }
-				}
-			}
-			export_to_variable = {
-				which = ai_value
-				value = 0
-			}
-			export_to_variable = {
-				which = our_mil_tech
-				value = trigger_value:mil_tech
-				who = FROM
-			}
-			export_to_variable = {
-				which = their_mil_tech
-				value = trigger_value:mil_tech
-			}
-			export_to_variable = {
-				which = our_army_size
-				value = trigger_value:army_size
-				who = FROM
-			}
-			export_to_variable = {
-				which = their_army_size
-				value = trigger_value:army_size
-			}
-			divide_variable = { which = our_army_size value = 10 }
-			divide_variable = { which = their_army_size value = -10 }
-			change_variable = { which = our_army_size which = their_army_size }
-			multiply_variable = { which = their_mil_tech value = -1 }
-			change_variable = { which = our_mil_tech which = their_mil_tech }
-			multiply_variable = { which = our_mil_tech value = 3 }
-			change_variable = { which = ai_value which = our_army_size }
-			change_variable = { which = ai_value which = our_mil_tech }
-		}
-		add_entry = {
-			name = ROOT_FROM_MILITARY_POWER_COMPARED
-			limit = {
-				variable_arithmetic_trigger = {
-					export_to_variable = {
-						which = our_mil_tech
-						value = trigger_value:mil_tech
-						who = FROM
-					}
-					export_to_variable = {
-						which = their_mil_tech
-						value = trigger_value:mil_tech
-					}
-					export_to_variable = {
-						which = our_army_size
-						value = trigger_value:army_size
-						who = FROM
-					}
-					export_to_variable = {
-						which = their_army_size
-						value = trigger_value:army_size
-					}
-					export_to_variable = {
-						which = military_power
-						value = 0
-					}
-					divide_variable = { which = our_army_size value = 10 }
-					divide_variable = { which = their_army_size value = -10 }
-					change_variable = { which = our_army_size which = their_army_size }
-					multiply_variable = { which = their_mil_tech value = -1 }
-					change_variable = { which = our_mil_tech which = their_mil_tech }
-					multiply_variable = { which = our_mil_tech value = 3 }
-					change_variable = { which = military_power which = our_army_size }
-					change_variable = { which = military_power which = our_mil_tech }
-					check_variable = { which = military_power value = 30 }
-				}
-			}
-			export_to_variable = {
-				which = ai_value
-				value = 30
-			}
-		}
-		add_entry = {
 			name = ROOT_HAS_MORE_THAN_200_TOTAL_DEVELOPMENT
 			limit = {
 				total_development = 200
 			}
 			export_to_variable = {
 				which = ai_value
-				value = 75
+				value = 50
 			}
 			multiply_variable = { which = ai_value value = -1 }
 		}
@@ -1454,33 +1145,14 @@ ask_for_sister_republic = {
 			divide_variable = { which = ai_value value = -2 }
 		}
 		add_entry = {
-			name = MUTUAL_OPINION_ABOVE_150
-			limit = {
-				has_opinion = {
-					who = FROM
-					value = 150
-				}
-				reverse_has_opinion = {
-					who = FROM
-					value = 150
-				}
-			}
+			name = OPINION
 			export_to_variable = {
 				which = ai_value
 				value = opinion
 				who = ROOT
 				with = FROM
 			}
-			export_to_variable = {
-				which = ai_value_2
-				value = opinion
-				who = FROM
-				with = ROOT
-			}
-			change_variable = { which = ai_value which = ai_value_2 }
-			divide_variable = { which = ai_value value = 2 }
-			subtract_variable = { which = ai_value value = 150 }
-			divide_variable = { which = ai_value value = 3.3 }
+			divide_variable = { which = ai_value value = 5 }
 		}
 	}
 

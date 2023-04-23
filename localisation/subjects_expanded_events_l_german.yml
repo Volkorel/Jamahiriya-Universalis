@@ -40,6 +40,8 @@
  subjects_expanded_events2.EVTOPT37: "Derzeit gibt es §G[REB.num_of_subjects_of_type_religious_march.GetValue]§! §YReligiöse Marken§! auf der Welt."
  subjects_expanded_events2.EVTOPT38: "Derzeit gibt es §G[REB.num_of_subjects_of_type_stato_da_mar_vassal.GetValue]§! §YStati da Màr§! auf der Welt."
  subjects_expanded_events2.EVTOPT39: "Derzeit gibt es §G[REB.num_of_subjects_of_type_medieval_vassal.GetValue]§! §YMittelalterliche Vasallen§! auf der Welt."
+ subjects_expanded_events2.EVTOPT40: "Derzeit gibt es §G[REB.num_of_subjects_of_type_exarchate_subject.GetValue]§! §YExarchate§! auf der Welt."
+ subjects_expanded_events2.EVTOPT41: "Derzeit gibt es §G[REB.num_of_subjects_of_type_real_union_subject.GetValue]§! §YRealunionen§! auf der Welt."
 
  subjects_expanded_events.EVTNAME3: "Ideen-Mods?"
  subjects_expanded_events.EVTDESC3: "Herrschaftsgebiete per Entscheidung zu errichten gibt ihnen die Expansions-, Handels- und Quantitätsideen. Falls Ihr eine Mod benutzt, die die Vanilla-Ideengruppen verändert, könnte dies das Spiel zum §RAbsturz§! bringen. Deshalb solltet Ihr hier die passende Option auswählen, um dies zu verhindern! \nAußerdem kann das Errichten von Herrschaftsgebieten durch Entscheidungen das Spiel zum Absturz bringen, wenn der Spielstand ohne Subjects Expanded gestartet wurde. In diesem Fall solltet ihr die letzte Option wählen."
@@ -94,6 +96,8 @@
  subjects_expanded_events5.EVTOPT37: "[religious_march]"
  subjects_expanded_events5.EVTOPT38: "[stato_da_mar_vassal]"
  subjects_expanded_events5.EVTOPT39: "[medieval_vassal]"
+ subjects_expanded_events5.EVTOPT40: "[exarchate_subject]"
+ subjects_expanded_events5.EVTOPT41: "[real_union_subject]"
 
  subjects_expanded_general_events.EVTNAME1: "Neues Gesetz unsere Lehnsherrn bezüglich Untertanen"
  subjects_expanded_general_events.EVTDESC1: "Unser Lehnsherr, [Root.Overlord.GetName], hat ein Gesetz verabschiedet, dass uns für die nächsten 20 Jahre verbietet, unsere Untertanen zu annektieren oder zu integrieren. Dies beendet keine bereits laufende Annexion bzw. Integration."

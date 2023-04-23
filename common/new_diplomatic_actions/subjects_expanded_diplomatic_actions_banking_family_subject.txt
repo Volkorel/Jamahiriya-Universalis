@@ -974,177 +974,6 @@ ask_to_become_banking_family_subject = {
 	}
 }
 
-enable_banking_family_subject_demand_war_chest_contribution = {
-	category = influence
-
-	require_acceptance = no
-
-	is_visible = {
-		FROM = {
-			is_subject_of = ROOT
-			is_subject_of_type = banking_family_subject
-			NOT = { has_country_flag = banking_family_subject_demand_war_chest_contribution }
-		}
-	}
-
-	is_allowed = {
-		hidden_trigger = {
-			FROM = {
-				is_subject_of = ROOT
-				is_subject_of_type = banking_family_subject
-				NOT = { has_country_flag = banking_family_subject_demand_war_chest_contribution }
-			}
-		}
-		FROM = {
-			NOT = { liberty_desire = 50 }
-		}
-	}
-
-	on_accept = {
-		if = {
-			limit = {
-				FROM = {
-					is_subject_of = ROOT
-					is_subject_of_type = banking_family_subject
-					NOT = { has_country_flag = banking_family_subject_demand_war_chest_contribution }
-				}
-				FROM = {
-					NOT = { liberty_desire = 50 }
-				}
-			}
-			FROM = {
-				set_country_flag = banking_family_subject_demand_war_chest_contribution
-			}
-		}
-	}
-
-	ai_will_do = {
-		is_at_war = yes
-		FROM = {
-			NOT = { liberty_desire = 35 }
-		}
-	}
-}
-
-disable_banking_family_subject_demand_war_chest_contribution = {
-	category = influence
-
-	require_acceptance = no
-
-	is_visible = {
-		FROM = {
-			is_subject_of = ROOT
-			is_subject_of_type = banking_family_subject
-			has_country_flag = banking_family_subject_demand_war_chest_contribution
-		}
-	}
-
-	is_allowed = {
-		hidden_trigger = {
-			FROM = {
-				is_subject_of = ROOT
-				is_subject_of_type = banking_family_subject
-				has_country_flag = banking_family_subject_demand_war_chest_contribution
-			}
-		}
-	}
-
-	on_accept = {
-		if = {
-			limit = {
-				FROM = {
-					is_subject_of = ROOT
-					is_subject_of_type = banking_family_subject
-					has_country_flag = banking_family_subject_demand_war_chest_contribution
-				}
-			}
-			FROM = {
-				clr_country_flag = banking_family_subject_demand_war_chest_contribution
-			}
-		}
-	}
-
-	ai_will_do = {
-		OR = {
-			is_at_war = no
-			FROM = {
-				liberty_desire = 55
-			}
-		}
-	}
-}
-
-banking_family_subject_extort_emergency_funds = {
-	category = influence
-
-	require_acceptance = no
-
-	is_visible = {
-		FROM = {
-			is_subject_of = ROOT
-			is_subject_of_type = banking_family_subject
-		}
-	}
-
-	is_allowed = {
-		hidden_trigger = {
-			FROM = {
-				is_subject_of = ROOT
-				is_subject_of_type = banking_family_subject
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = NOT_USED_BANKING_FAMILY_SUBJECT_EXTORT_EMERGENCY_FUNDS_WITHIN_LAST_25_YEARS_TT
-			OR = {
-				NOT = { has_country_flag = banking_family_subject_extort_emergency_funds_used }
-				had_country_flag = { flag = banking_family_subject_extort_emergency_funds_used days = 9125 }
-			}
-		}
-		FROM = {
-			has_opinion = {
-				who = ROOT
-				value = 190
-			}
-		}
-		FROM = {
-			NOT = { liberty_desire = 50 }
-		}
-	}
-
-	on_accept = {
-		if = {
-			limit = {
-				FROM = {
-					is_subject_of = ROOT
-					is_subject_of_type = banking_family_subject
-				}
-				OR = {
-					NOT = { has_country_flag = banking_family_subject_extort_emergency_funds_used }
-					had_country_flag = { flag = banking_family_subject_extort_emergency_funds_used days = 9125 }
-				}
-				FROM = {
-					has_opinion = {
-						who = ROOT
-						value = 190
-					}
-				}
-				FROM = {
-					NOT = { liberty_desire = 50 }
-				}
-			}
-			clr_country_flag = banking_family_subject_extort_emergency_funds_used
-			set_country_flag = banking_family_subject_extort_emergency_funds_used
-			FROM = {
-				country_event = { id = subjects_expanded_banking_family_subject_events.3 }
-			}
-		}
-	}
-
-	ai_will_do = {
-		always = no
-	}
-}
-
 banking_family_subject_become_independent = {
 	category = influence
 
@@ -1253,6 +1082,177 @@ cancel_banking_family_subject = {
 			remove_casus_belli = {
 				target = FROM
 				type = cb_disloyal_banking_family_subject
+			}
+		}
+	}
+
+	ai_will_do = {
+		always = no
+	}
+}
+
+enable_banking_family_subject_demand_war_chest_contribution = {
+	category = subject_interactions
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = banking_family_subject
+			NOT = { has_country_flag = banking_family_subject_demand_war_chest_contribution }
+		}
+	}
+
+	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = banking_family_subject
+				NOT = { has_country_flag = banking_family_subject_demand_war_chest_contribution }
+			}
+		}
+		FROM = {
+			NOT = { liberty_desire = 50 }
+		}
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of = ROOT
+					is_subject_of_type = banking_family_subject
+					NOT = { has_country_flag = banking_family_subject_demand_war_chest_contribution }
+				}
+				FROM = {
+					NOT = { liberty_desire = 50 }
+				}
+			}
+			FROM = {
+				set_country_flag = banking_family_subject_demand_war_chest_contribution
+			}
+		}
+	}
+
+	ai_will_do = {
+		is_at_war = yes
+		FROM = {
+			NOT = { liberty_desire = 35 }
+		}
+	}
+}
+
+disable_banking_family_subject_demand_war_chest_contribution = {
+	category = subject_interactions
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = banking_family_subject
+			has_country_flag = banking_family_subject_demand_war_chest_contribution
+		}
+	}
+
+	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = banking_family_subject
+				has_country_flag = banking_family_subject_demand_war_chest_contribution
+			}
+		}
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of = ROOT
+					is_subject_of_type = banking_family_subject
+					has_country_flag = banking_family_subject_demand_war_chest_contribution
+				}
+			}
+			FROM = {
+				clr_country_flag = banking_family_subject_demand_war_chest_contribution
+			}
+		}
+	}
+
+	ai_will_do = {
+		OR = {
+			is_at_war = no
+			FROM = {
+				liberty_desire = 55
+			}
+		}
+	}
+}
+
+banking_family_subject_extort_emergency_funds = {
+	category = subject_interactions
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = banking_family_subject
+		}
+	}
+
+	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = banking_family_subject
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = NOT_USED_BANKING_FAMILY_SUBJECT_EXTORT_EMERGENCY_FUNDS_WITHIN_LAST_25_YEARS_TT
+			OR = {
+				NOT = { has_country_flag = banking_family_subject_extort_emergency_funds_used }
+				had_country_flag = { flag = banking_family_subject_extort_emergency_funds_used days = 9125 }
+			}
+		}
+		FROM = {
+			has_opinion = {
+				who = ROOT
+				value = 190
+			}
+		}
+		FROM = {
+			NOT = { liberty_desire = 50 }
+		}
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of = ROOT
+					is_subject_of_type = banking_family_subject
+				}
+				OR = {
+					NOT = { has_country_flag = banking_family_subject_extort_emergency_funds_used }
+					had_country_flag = { flag = banking_family_subject_extort_emergency_funds_used days = 9125 }
+				}
+				FROM = {
+					has_opinion = {
+						who = ROOT
+						value = 190
+					}
+				}
+				FROM = {
+					NOT = { liberty_desire = 50 }
+				}
+			}
+			clr_country_flag = banking_family_subject_extort_emergency_funds_used
+			set_country_flag = banking_family_subject_extort_emergency_funds_used
+			FROM = {
+				country_event = { id = subjects_expanded_banking_family_subject_events.3 }
 			}
 		}
 	}

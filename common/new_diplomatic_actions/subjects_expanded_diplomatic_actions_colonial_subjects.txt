@@ -269,8 +269,119 @@ increase_colonial_autonomy = {
 	}
 }
 
-demand_manpower_from_autonomous_dominion = {
+decrease_colonial_autonomy = {
 	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			OR = {
+				is_any_colonial_region_dominion_subject = yes
+				is_autonomous_dominion_or_similar_subject = yes
+			}
+		}
+	}
+
+	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				OR = {
+					is_any_colonial_region_dominion_subject = yes
+					is_autonomous_dominion_or_similar_subject = yes
+				}
+			}
+		}
+		num_of_colonists = 1
+		FROM = {
+			capital_scope = { trade_range = ROOT }
+		}
+		is_at_war = no
+		FROM = { is_at_war = no }
+		FROM = {
+			NOT = { liberty_desire = 50 }
+		}
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				num_of_colonists = 1
+				FROM = {
+					is_subject_of = ROOT
+					OR = {
+						is_any_colonial_region_dominion_subject = yes
+						is_autonomous_dominion_or_similar_subject = yes
+					}
+				}
+				FROM = {
+					capital_scope = { trade_range = ROOT }
+				}
+				is_at_war = no
+				FROM = { is_at_war = no }
+				FROM = {
+					NOT = { liberty_desire = 50 }
+				}
+			}
+			if = {
+				limit = {
+					FROM = { is_autonomous_dominion_or_similar_subject = yes }
+				}
+				if = {
+					limit = {
+						FROM = {
+							is_any_trade_company_region_dominion_subject = yes
+						}
+					}
+					create_subject = {
+						subject = FROM
+						subject_type = dominion_tc
+					}
+				}
+				else = {
+					create_subject = {
+						subject = FROM
+						subject_type = dominion
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = {
+						has_dlc = "Leviathan"
+					}
+					create_subject = {
+						subject = FROM
+						subject_type = crown_colony
+					}
+				}
+				else = {
+					create_subject = {
+						subject = FROM
+						subject_type = colony
+					}
+				}
+			}
+			FROM = {
+				add_liberty_desire = 25
+				swap_free_idea_group = yes
+			}
+		}
+	}
+
+	ai_will_do = {
+		NOT = { has_country_modifier = established_autonomous_dominion }
+		FROM = {
+			NOT = { liberty_desire = 33 }
+			NOT = { development_of_overlord_fraction = 0.33 }
+		}
+	}
+}
+
+demand_manpower_from_autonomous_dominion = {
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -344,7 +455,7 @@ demand_manpower_from_autonomous_dominion = {
 }
 
 seize_provinces_in_other_colonial_regions = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -590,7 +701,7 @@ seize_provinces_in_other_colonial_regions = {
 }
 
 combine_colony_with_other_colony_in_same_colonial_region = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -703,7 +814,7 @@ combine_colony_with_other_colony_in_same_colonial_region = {
 }
 
 seize_provinces_in_other_trade_company_regions = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -772,117 +883,6 @@ seize_provinces_in_other_trade_company_regions = {
 				value = 5
 				tc_dominion_province_is_in_wrong_trade_company_region = yes
 			}
-		}
-	}
-}
-
-decrease_colonial_autonomy = {
-	category = influence
-
-	require_acceptance = no
-
-	is_visible = {
-		FROM = {
-			is_subject_of = ROOT
-			OR = {
-				is_any_colonial_region_dominion_subject = yes
-				is_autonomous_dominion_or_similar_subject = yes
-			}
-		}
-	}
-
-	is_allowed = {
-		hidden_trigger = {
-			FROM = {
-				is_subject_of = ROOT
-				OR = {
-					is_any_colonial_region_dominion_subject = yes
-					is_autonomous_dominion_or_similar_subject = yes
-				}
-			}
-		}
-		num_of_colonists = 1
-		FROM = {
-			capital_scope = { trade_range = ROOT }
-		}
-		is_at_war = no
-		FROM = { is_at_war = no }
-		FROM = {
-			NOT = { liberty_desire = 50 }
-		}
-	}
-
-	on_accept = {
-		if = {
-			limit = {
-				num_of_colonists = 1
-				FROM = {
-					is_subject_of = ROOT
-					OR = {
-						is_any_colonial_region_dominion_subject = yes
-						is_autonomous_dominion_or_similar_subject = yes
-					}
-				}
-				FROM = {
-					capital_scope = { trade_range = ROOT }
-				}
-				is_at_war = no
-				FROM = { is_at_war = no }
-				FROM = {
-					NOT = { liberty_desire = 50 }
-				}
-			}
-			if = {
-				limit = {
-					FROM = { is_autonomous_dominion_or_similar_subject = yes }
-				}
-				if = {
-					limit = {
-						FROM = {
-							is_any_trade_company_region_dominion_subject = yes
-						}
-					}
-					create_subject = {
-						subject = FROM
-						subject_type = dominion_tc
-					}
-				}
-				else = {
-					create_subject = {
-						subject = FROM
-						subject_type = dominion
-					}
-				}
-			}
-			else = {
-				if = {
-					limit = {
-						has_dlc = "Leviathan"
-					}
-					create_subject = {
-						subject = FROM
-						subject_type = crown_colony
-					}
-				}
-				else = {
-					create_subject = {
-						subject = FROM
-						subject_type = colony
-					}
-				}
-			}
-			FROM = {
-				add_liberty_desire = 25
-				swap_free_idea_group = yes
-			}
-		}
-	}
-
-	ai_will_do = {
-		NOT = { has_country_modifier = established_autonomous_dominion }
-		FROM = {
-			NOT = { liberty_desire = 33 }
-			NOT = { development_of_overlord_fraction = 0.33 }
 		}
 	}
 }

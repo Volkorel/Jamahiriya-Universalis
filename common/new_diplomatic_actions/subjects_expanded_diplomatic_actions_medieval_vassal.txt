@@ -622,6 +622,125 @@ establish_medieval_vassal = {
 				value = 30
 			}
 		}
+		add_entry = {
+			name = FROM_IS_A_GREAT_POWER
+			limit = {
+				OR = {
+					has_dlc = "Rights of Man"
+					has_dlc = "Emperor"
+				}
+				FROM = {
+					is_great_power = yes
+				}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = 1000
+			}
+			multiply_variable = { which = ai_value value = -1 }
+		}
+		add_entry = {
+			name = FROM_HAS_STRONG_ALLIES
+			limit = {
+				FROM = {
+					any_ally = {
+						NOT = { tag = ROOT }
+						OR = {
+							AND = {
+								army_size = 30
+								military_strength = { who = ROOT value = 0.9 }
+							}
+							AND = {
+								army_size = 50
+								military_strength = { who = ROOT value = 0.75 }
+							}
+						}
+					}
+					NOT = {
+						calc_true_if = {
+							all_ally = {
+								NOT = { tag = ROOT }
+								OR = {
+									AND = {
+										army_size = 30
+										military_strength = { who = ROOT value = 0.9 }
+									}
+									AND = {
+										army_size = 50
+										military_strength = { who = ROOT value = 0.75 }
+									}
+								}
+							}
+							amount = 2
+						}
+					}
+					NOT = {
+						any_ally = {
+							NOT = { tag = ROOT }
+							army_size = 50
+							military_strength = { who = ROOT value = 1.75 }
+						}
+					}
+				}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = 15
+			}
+			multiply_variable = { which = ai_value value = -1 }
+		}
+		add_entry = {
+			name = FROM_HAS_STRONG_ALLIES
+			limit = {
+				FROM = {
+					calc_true_if = {
+						all_ally = {
+							NOT = { tag = ROOT }
+							OR = {
+								AND = {
+									army_size = 30
+									military_strength = { who = ROOT value = 0.9 }
+								}
+								AND = {
+									army_size = 50
+									military_strength = { who = ROOT value = 0.75 }
+								}
+							}
+						}
+						amount = 2
+					}
+					NOT = {
+						any_ally = {
+							NOT = { tag = ROOT }
+							army_size = 50
+							military_strength = { who = ROOT value = 1.75 }
+						}
+					}
+				}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = 50
+			}
+			multiply_variable = { which = ai_value value = -1 }
+		}
+		add_entry = {
+			name = FROM_HAS_STRONG_ALLIES
+			limit = {
+				FROM = {
+					any_ally = {
+						NOT = { tag = ROOT }
+						army_size = 50
+						military_strength = { who = ROOT value = 1.75 }
+					}
+				}
+			}
+			export_to_variable = {
+				which = ai_value
+				value = 1000
+			}
+			multiply_variable = { which = ai_value value = -1 }
+		}
 	}
 
 	ai_will_do = {
@@ -1200,6 +1319,7 @@ ask_to_become_medieval_vassal = {
 	ai_will_do = {
 		NOT = { current_age = age_of_absolutism }
 		NOT = { is_year = 1700 }
+		is_great_power = no
 		OR = {
 			NOT = { has_country_flag = declined_establish_medieval_vassal_@FROM }
 			had_country_flag = { flag = declined_establish_medieval_vassal_@FROM days = 1825 }
@@ -1218,320 +1338,21 @@ ask_to_become_medieval_vassal = {
 		government = monarchy
 		NOT = { core_claim = FROM }
 		religion = FROM
-	}
-}
-
-enforce_call_to_arms_from_medieval_vassal = {
-	category = influence
-
-	require_acceptance = no
-
-	is_visible = {
-		FROM = {
-			is_subject_of = ROOT
-			is_subject_of_type = medieval_vassal
-		}
-		is_at_war = yes
-		OR = {
-			is_in_war = {
-				attacker_leader = ROOT
-			}
-			is_in_war = {
-				defender_leader = ROOT
-			}
-		}
-		any_country = {
-			OR = {
-				is_in_war = {
-					attacker_leader = ROOT
-					defender_leader = THIS
-				}
-				is_in_war = {
-					attacker_leader = THIS
-					defender_leader = ROOT
-				}
-			}
-			NOT = { war_with = FROM }
-		}
-	}
-
-	is_allowed = {
-		hidden_trigger = {
-			FROM = {
-				is_subject_of = ROOT
-				is_subject_of_type = medieval_vassal
-			}
-			is_at_war = yes
-			OR = {
-				is_in_war = {
-					attacker_leader = ROOT
-				}
-				is_in_war = {
-					defender_leader = ROOT
-				}
-			}
-			any_country = {
+		NOT = {
+			any_ally = {
+				NOT = { tag = FROM }
 				OR = {
-					is_in_war = {
-						attacker_leader = ROOT
-						defender_leader = THIS
+					AND = {
+						army_size = 30
+						military_strength = { who = FROM value = 0.9 }
 					}
-					is_in_war = {
-						attacker_leader = THIS
-						defender_leader = ROOT
-					}
-				}
-				NOT = { war_with = FROM }
-			}
-		}
-		FROM = { NOT = { liberty_desire = 50 } }
-		if = {
-			limit = {
-				is_in_war = {
-					attacker_leader = ROOT
-				}
-			}
-			dip_power = 25
-		}
-	}
-
-	on_accept = {
-		if = {
-			limit = {
-				FROM = {
-					is_subject_of = ROOT
-					is_subject_of_type = medieval_vassal
-				}
-				is_at_war = yes
-				OR = {
-					is_in_war = {
-						attacker_leader = ROOT
-					}
-					is_in_war = {
-						defender_leader = ROOT
+					AND = {
+						army_size = 50
+						military_strength = { who = FROM value = 0.75 }
 					}
 				}
-				any_country = {
-					OR = {
-						is_in_war = {
-							attacker_leader = ROOT
-							defender_leader = THIS
-						}
-						is_in_war = {
-							attacker_leader = THIS
-							defender_leader = ROOT
-						}
-					}
-					NOT = { war_with = FROM }
-				}
-				FROM = { NOT = { liberty_desire = 50 } }
-				if = {
-					limit = {
-						is_in_war = {
-							attacker_leader = ROOT
-						}
-					}
-					dip_power = 25
-				}
-			}
-			if = {
-				limit = {
-					is_in_war = {
-						attacker_leader = ROOT
-					}
-				}
-				add_dip_power = -25
-			}
-			FROM = {
-				add_liberty_desire = 25
-				join_all_defensive_wars_of = ROOT
-				join_all_offensive_wars_of = ROOT
-				country_event = { id = subjects_expanded_medieval_vassal_events.1 }
 			}
 		}
-	}
-
-	ai_will_do = {
-		is_at_war = yes
-		OR = {
-			NOT = { war_score = -20 }
-			dip_power = 200
-			NOT = {
-				is_in_war = {
-					attacker_leader = ROOT
-				}
-			}
-		}
-		FROM = {
-			army_size = 10
-		}
-		OR = {
-			FROM = {
-				NOT = { liberty_desire = 30 }
-			}
-			AND = {
-				is_in_war = {
-					defender_leader = ROOT
-				}
-				NOT = { war_score = -30 }
-				FROM = {
-					NOT = { liberty_desire = 70 }
-				}
-			}
-		}
-	}
-}
-
-disallow_medieval_vassal_to_declare_war = {
-	category = influence
-
-	require_acceptance = no
-
-	is_visible = {
-		FROM = {
-			is_subject_of = ROOT
-			is_subject_of_type = medieval_vassal
-			NOT = { has_country_flag = medieval_vassal_disallowed_war }
-		}
-	}
-
-	is_allowed = {
-		hidden_trigger = {
-			FROM = {
-				is_subject_of = ROOT
-				is_subject_of_type = medieval_vassal
-				NOT = { has_country_flag = medieval_vassal_disallowed_war }
-			}
-		}
-		is_at_war = no
-		dip_power = 25
-		FROM = { is_at_war = no }
-		FROM = { NOT = { liberty_desire = 50 } }
-	}
-
-	on_accept = {
-		if = {
-			limit = {
-				FROM = {
-					is_subject_of = ROOT
-					is_subject_of_type = medieval_vassal
-					NOT = { has_country_flag = medieval_vassal_disallowed_war }
-				}
-				is_at_war = no
-				dip_power = 25
-				FROM = { is_at_war = no }
-				FROM = { NOT = { liberty_desire = 50 } }
-			}
-			add_dip_power = -25
-			FROM = {
-				set_country_flag = medieval_vassal_disallowed_war
-				country_event = { id = subjects_expanded_medieval_vassal_events.2 }
-			}
-		}
-	}
-
-	ai_will_do = {
-		always = no
-	}
-}
-
-allow_medieval_vassal_to_declare_war = {
-	category = influence
-
-	require_acceptance = no
-
-	is_visible = {
-		FROM = {
-			is_subject_of = ROOT
-			is_subject_of_type = medieval_vassal
-			has_country_flag = medieval_vassal_disallowed_war
-		}
-	}
-
-	is_allowed = {
-		hidden_trigger = {
-			FROM = {
-				is_subject_of = ROOT
-				is_subject_of_type = medieval_vassal
-				has_country_flag = medieval_vassal_disallowed_war
-			}
-		}
-		is_at_war = no
-		FROM = { is_at_war = no }
-		FROM = { NOT = { liberty_desire = 50 } }
-	}
-
-	on_accept = {
-		if = {
-			limit = {
-				FROM = {
-					is_subject_of = ROOT
-					is_subject_of_type = medieval_vassal
-					has_country_flag = medieval_vassal_disallowed_war
-				}
-				is_at_war = no
-				FROM = { is_at_war = no }
-				FROM = { NOT = { liberty_desire = 50 } }
-			}
-			FROM = {
-				clr_country_flag = medieval_vassal_disallowed_war
-				country_event = { id = subjects_expanded_medieval_vassal_events.3 }
-			}
-		}
-	}
-
-	ai_will_do = {
-		always = yes
-	}
-}
-
-force_medieval_vassal_to_annul_alliances = {
-	category = influence
-
-	require_acceptance = no
-
-	is_visible = {
-		FROM = {
-			is_subject_of = ROOT
-			is_subject_of_type = medieval_vassal
-		}
-	}
-
-	is_allowed = {
-		hidden_trigger = {
-			FROM = {
-				is_subject_of = ROOT
-				is_subject_of_type = medieval_vassal
-			}
-			NOT = { has_country_flag = force_medieval_vassal_to_annul_alliances }
-		}
-		is_at_war = no
-		FROM = { is_at_war = no }
-		FROM = { NOT = { liberty_desire = 50 } }
-	}
-
-	on_accept = {
-		if = {
-			limit = {
-				FROM = {
-					is_subject_of = ROOT
-					is_subject_of_type = medieval_vassal
-				}
-				NOT = { has_country_flag = force_medieval_vassal_to_annul_alliances }
-				is_at_war = no
-				FROM = { is_at_war = no }
-				FROM = { NOT = { liberty_desire = 50 } }
-			}
-			set_country_flag = force_medieval_vassal_to_annul_alliances
-			FROM = {
-				save_event_target_as = medieval_vassal_target
-			}
-			country_event = { id = subjects_expanded_medieval_vassal_events.6 }
-		}
-	}
-
-	ai_will_do = {
-		always = no
 	}
 }
 
@@ -1901,5 +1722,319 @@ cancel_medieval_vassal = {
 				}
 			}
 		}
+	}
+}
+
+enforce_call_to_arms_from_medieval_vassal = {
+	category = subject_interactions
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = medieval_vassal
+		}
+		is_at_war = yes
+		OR = {
+			is_in_war = {
+				attacker_leader = ROOT
+			}
+			is_in_war = {
+				defender_leader = ROOT
+			}
+		}
+		any_country = {
+			OR = {
+				is_in_war = {
+					attacker_leader = ROOT
+					defender_leader = THIS
+				}
+				is_in_war = {
+					attacker_leader = THIS
+					defender_leader = ROOT
+				}
+			}
+			NOT = { war_with = FROM }
+		}
+	}
+
+	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = medieval_vassal
+			}
+			is_at_war = yes
+			OR = {
+				is_in_war = {
+					attacker_leader = ROOT
+				}
+				is_in_war = {
+					defender_leader = ROOT
+				}
+			}
+			any_country = {
+				OR = {
+					is_in_war = {
+						attacker_leader = ROOT
+						defender_leader = THIS
+					}
+					is_in_war = {
+						attacker_leader = THIS
+						defender_leader = ROOT
+					}
+				}
+				NOT = { war_with = FROM }
+			}
+		}
+		FROM = { NOT = { liberty_desire = 50 } }
+		if = {
+			limit = {
+				is_in_war = {
+					attacker_leader = ROOT
+				}
+			}
+			dip_power = 25
+		}
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of = ROOT
+					is_subject_of_type = medieval_vassal
+				}
+				is_at_war = yes
+				OR = {
+					is_in_war = {
+						attacker_leader = ROOT
+					}
+					is_in_war = {
+						defender_leader = ROOT
+					}
+				}
+				any_country = {
+					OR = {
+						is_in_war = {
+							attacker_leader = ROOT
+							defender_leader = THIS
+						}
+						is_in_war = {
+							attacker_leader = THIS
+							defender_leader = ROOT
+						}
+					}
+					NOT = { war_with = FROM }
+				}
+				FROM = { NOT = { liberty_desire = 50 } }
+				if = {
+					limit = {
+						is_in_war = {
+							attacker_leader = ROOT
+						}
+					}
+					dip_power = 25
+				}
+			}
+			if = {
+				limit = {
+					is_in_war = {
+						attacker_leader = ROOT
+					}
+				}
+				add_dip_power = -25
+			}
+			FROM = {
+				add_liberty_desire = 25
+				join_all_defensive_wars_of = ROOT
+				join_all_offensive_wars_of = ROOT
+				country_event = { id = subjects_expanded_medieval_vassal_events.1 }
+			}
+		}
+	}
+
+	ai_will_do = {
+		is_at_war = yes
+		OR = {
+			NOT = { war_score = -20 }
+			dip_power = 200
+			NOT = {
+				is_in_war = {
+					attacker_leader = ROOT
+				}
+			}
+		}
+		FROM = {
+			army_size = 10
+		}
+		OR = {
+			FROM = {
+				NOT = { liberty_desire = 30 }
+			}
+			AND = {
+				is_in_war = {
+					defender_leader = ROOT
+				}
+				NOT = { war_score = -30 }
+				FROM = {
+					NOT = { liberty_desire = 70 }
+				}
+			}
+		}
+	}
+}
+
+disallow_medieval_vassal_to_declare_war = {
+	category = subject_interactions
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = medieval_vassal
+			NOT = { has_country_flag = medieval_vassal_disallowed_war }
+		}
+	}
+
+	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = medieval_vassal
+				NOT = { has_country_flag = medieval_vassal_disallowed_war }
+			}
+		}
+		is_at_war = no
+		dip_power = 25
+		FROM = { is_at_war = no }
+		FROM = { NOT = { liberty_desire = 50 } }
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of = ROOT
+					is_subject_of_type = medieval_vassal
+					NOT = { has_country_flag = medieval_vassal_disallowed_war }
+				}
+				is_at_war = no
+				dip_power = 25
+				FROM = { is_at_war = no }
+				FROM = { NOT = { liberty_desire = 50 } }
+			}
+			add_dip_power = -25
+			FROM = {
+				set_country_flag = medieval_vassal_disallowed_war
+				country_event = { id = subjects_expanded_medieval_vassal_events.2 }
+			}
+		}
+	}
+
+	ai_will_do = {
+		always = no
+	}
+}
+
+allow_medieval_vassal_to_declare_war = {
+	category = subject_interactions
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = medieval_vassal
+			has_country_flag = medieval_vassal_disallowed_war
+		}
+	}
+
+	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = medieval_vassal
+				has_country_flag = medieval_vassal_disallowed_war
+			}
+		}
+		is_at_war = no
+		FROM = { is_at_war = no }
+		FROM = { NOT = { liberty_desire = 50 } }
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of = ROOT
+					is_subject_of_type = medieval_vassal
+					has_country_flag = medieval_vassal_disallowed_war
+				}
+				is_at_war = no
+				FROM = { is_at_war = no }
+				FROM = { NOT = { liberty_desire = 50 } }
+			}
+			FROM = {
+				clr_country_flag = medieval_vassal_disallowed_war
+				country_event = { id = subjects_expanded_medieval_vassal_events.3 }
+			}
+		}
+	}
+
+	ai_will_do = {
+		always = yes
+	}
+}
+
+force_medieval_vassal_to_annul_alliances = {
+	category = subject_interactions
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = medieval_vassal
+		}
+	}
+
+	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = medieval_vassal
+			}
+			NOT = { has_country_flag = force_medieval_vassal_to_annul_alliances }
+		}
+		is_at_war = no
+		FROM = { is_at_war = no }
+		FROM = { NOT = { liberty_desire = 50 } }
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of = ROOT
+					is_subject_of_type = medieval_vassal
+				}
+				NOT = { has_country_flag = force_medieval_vassal_to_annul_alliances }
+				is_at_war = no
+				FROM = { is_at_war = no }
+				FROM = { NOT = { liberty_desire = 50 } }
+			}
+			set_country_flag = force_medieval_vassal_to_annul_alliances
+			FROM = {
+				save_event_target_as = medieval_vassal_target
+			}
+			country_event = { id = subjects_expanded_medieval_vassal_events.6 }
+		}
+	}
+
+	ai_will_do = {
+		always = no
 	}
 }

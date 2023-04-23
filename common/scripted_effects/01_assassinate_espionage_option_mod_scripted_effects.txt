@@ -2255,23 +2255,7 @@ calculate_chances_of_assassination_methode_infanticide = {
 	# Current age:
 	if = {
 		limit = {
-			OR = {
-				current_age = classical_age
-				current_age = late_classical_age
-				current_age = age_of_migrations
-				current_age = dark_age
-				current_age = feudal_age
-				current_age = high_middle_ages
-			}
-		}
-		change_variable = { which = success_chance_of_infanticide value = 9 }
-	}
-	else_if = {
-		limit = {
-			OR = {
-				current_age = late_middle_ages
-				current_age = age_of_discovery
-			}
+			current_age = age_of_discovery
 		}
 		change_variable = { which = success_chance_of_infanticide value = 5 }
 	}
@@ -2886,23 +2870,7 @@ calculate_chances_of_assassination_methode_faked_accident = {
 	# Current age:
 	if = {
 		limit = {
-			OR = {
-				current_age = classical_age
-				current_age = late_classical_age
-				current_age = age_of_migrations
-				current_age = dark_age
-				current_age = feudal_age
-				current_age = high_middle_ages
-			}
-		}
-		change_variable = { which = success_chance_of_faked_accident value = 7 }
-	}
-	else_if = {
-		limit = {
-			OR = {
-				current_age = late_middle_ages
-				current_age = age_of_discovery
-			}
+			current_age = age_of_discovery
 		}
 		change_variable = { which = success_chance_of_faked_accident value = 3 }
 	}
@@ -3395,26 +3363,10 @@ calculate_chances_of_assassination_methode_poisoned_wine = {
 			change_variable = { which = success_chance_of_poisoned_wine value = 1 }
 		}
 	}
-	# Current age:
+
 	if = {
 		limit = {
-			OR = {
-				current_age = classical_age
-				current_age = late_classical_age
-				current_age = age_of_migrations
-				current_age = dark_age
-				current_age = feudal_age
-				current_age = high_middle_ages
-			}
-		}
-		change_variable = { which = success_chance_of_poisoned_wine value = 8 }
-	}
-	else_if = {
-		limit = {
-			OR = {
-				current_age = late_middle_ages
-				current_age = age_of_discovery
-			}
+			current_age = age_of_discovery
 		}
 		change_variable = { which = success_chance_of_poisoned_wine value = 2 }
 	}
@@ -3918,26 +3870,9 @@ calculate_chances_of_assassination_methode_poisoned_food = {
 			change_variable = { which = success_chance_of_poisoned_food value = 1 }
 		}
 	}
-	# Current age:
 	if = {
 		limit = {
-			OR = {
-				current_age = classical_age
-				current_age = late_classical_age
-				current_age = age_of_migrations
-				current_age = dark_age
-				current_age = feudal_age
-				current_age = high_middle_ages
-			}
-		}
-		change_variable = { which = success_chance_of_poisoned_food value = 10 }
-	}
-	else_if = {
-		limit = {
-			OR = {
-				current_age = late_middle_ages
-				current_age = age_of_discovery
-			}
+			current_age = age_of_discovery
 		}
 		change_variable = { which = success_chance_of_poisoned_food value = 4 }
 	}
@@ -4755,18 +4690,6 @@ calculate_chances_of_assassination_methode_assassin = {
 		}
 	}
 	# Current age:
-	if = {
-		limit = {
-			OR = {
-				current_age = classical_age
-				current_age = late_classical_age
-				current_age = age_of_migrations
-				current_age = dark_age
-				current_age = feudal_age
-			}
-		}
-		change_variable = { which = success_chance_of_assassin value = 5 }
-	}
 	# Military skill of target: -2% to +12%
 	if = {
 		limit = {
@@ -6484,18 +6407,6 @@ calculate_chances_of_assassination_methode_disguised_harlot = {
 			change_variable = { which = success_chance_of_disguised_harlot value = 1 }
 		}
 	}
-	# Current age:
-	if = {
-		limit = {
-			OR = {
-				current_age = dark_age
-				current_age = feudal_age
-				current_age = high_middle_ages
-				current_age = late_middle_ages
-			}
-		}
-		change_variable = { which = success_chance_of_disguised_harlot value = 9 }
-	}
 	# Male target: +5%
 	if = {
 		limit = {
@@ -6768,26 +6679,9 @@ calculate_chances_of_assassination_methode_disguised_beggar = {
 			change_variable = { which = success_chance_of_disguised_beggar value = 1 }
 		}
 	}
-	# Current age:
 	if = {
 		limit = {
-			OR = {
-				current_age = classical_age
-				current_age = late_classical_age
-				current_age = age_of_migrations
-				current_age = dark_age
-				current_age = feudal_age
-				current_age = high_middle_ages
-			}
-		}
-		change_variable = { which = success_chance_of_disguised_beggar value = 9 }
-	}
-	else_if = {
-		limit = {
-			OR = {
-				current_age = late_middle_ages
-				current_age = age_of_discovery
-			}
+			current_age = age_of_discovery
 		}
 		change_variable = { which = success_chance_of_disguised_beggar value = 4 }
 	}
@@ -7086,18 +6980,6 @@ calculate_chances_of_assassination_methode_disguised_priest = {
 			}
 			change_variable = { which = success_chance_of_disguised_priest value = 1 }
 		}
-	}
-	# Current age:
-	if = {
-		limit = {
-			OR = {
-				current_age = dark_age
-				current_age = feudal_age
-				current_age = high_middle_ages
-				current_age = late_middle_ages
-			}
-		}
-		change_variable = { which = success_chance_of_disguised_priest value = 5 }
 	}
 	# Defender of faith: +7%
 	if = {

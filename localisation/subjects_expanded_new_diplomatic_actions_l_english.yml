@@ -1,4 +1,7 @@
 ﻿l_english:
+ # Diplomatic Action Categories:
+ DIPLOMACYACTION_CATEGORY_subject_interactions: "Subject Interactions"
+
  # New Diplomatic Actions:
  establish_protectorate_title: "Establish Protectorate"
  establish_protectorate_desc: "Do you want to offer §Y[From.GetName]§! to become our Protectorate? \n[protectorate_desc]"
@@ -63,7 +66,7 @@
 
  demand_additional_tribute_from_roman_client_kingdom_title: "Demand additonal tribute"
  demand_additional_tribute_from_roman_client_kingdom_desc: "Demand an additional payment to their monthly taxes. You can choose, whether you want them to pay one years of income, the amount of yearly generated manpower or the amount of yearly generated monarch power by their ruler. \nThis will increase their liberty desire by §R+25%§!."
- demand_additional_tribute_from_roman_client_kingdom_tooltip: "Demand an additional tribute payment §Y[From.GetName]§! (either ¤, £icon_manpower£ or £adm£ and £dip£ and £mil£).\n"
+ demand_additional_tribute_from_roman_client_kingdom_tooltip: "Demand an additional tribute payment from §Y[From.GetName]§! (either ¤, £icon_manpower£ or £adm£ and £dip£ and £mil£).\n"
 
  cancel_roman_client_kingdom_title: "Release Client Kingdom"
  cancel_roman_client_kingdom_desc: "Cancel the dependency of §Y[From.GetName]§! of us. This will decrease their opinion about us by §R-200§!, if their liberty desire is below §Y50%§!. We will also lose §R25§! prestige and gain a truce with them for §Y5 years§!."
@@ -664,6 +667,24 @@
  cancel_medieval_vassal_tooltip: "Cancel the vassalisation of §Y[From.GetName]§! and grant them independence.\n"
 
 
+ establish_exarchate_subject_title: "Establish Exarchate"
+ establish_exarchate_subject_desc: "Make your vassal [From.GetName] to a §YExarchate§!. \n[exarchate_subject_desc]"
+ establish_exarchate_subject_tooltip: "Make your vassal [From.GetName] to a §YExarchate§!.\n"
+
+
+ establish_real_union_subject_title: "Establish Real Union"
+ establish_real_union_subject_desc: "Make your personal union [From.GetName] to a §YReal Union§!. \n[real_union_subject_desc]"
+ establish_real_union_subject_tooltip: "Make your personal union [From.GetName] to a §YReal Union§!.\n"
+
+ return_real_union_subject_to_personal_union_title: "Demote to Personal Union"
+ return_real_union_subject_to_personal_union_desc: "Cancel the Real Union status of §Y[From.GetName]§! and make them to a personal union. This will decrease their opinion of us by §R-100§! and change their liberty desire by §R+25%§!. We will also lose §R10§! prestige."
+ return_real_union_subject_to_personal_union_tooltip: "Make §Y[From.GetName]§! to a personal union again.\n"
+
+ cancel_real_union_subject_title: "Release Real Union"
+ cancel_real_union_subject_desc: "Cancel the dependency of §Y[From.GetName]§! of us. This will decrease their opinion about us by §R-200§!, if their liberty desire is below §Y50%§!. We will also lose §R25§! prestige and gain a truce with them for §Y5 years§!."
+ cancel_real_union_subject_tooltip: "Cancel the vassalisation of §Y[From.GetName]§! and grant them independence.\n"
+
+
  disallow_subject_from_annexing_subjects_title: "Disallow Subject Annexations"
  disallow_subject_from_annexing_subjects_desc: "Disallow §Y[From.GetName]§! to annex or integrate their own subjects for §Y20 years§!. \nThis will change their liberty desire by §R+20%§!. This doesn't cancel already on-going annexations and integrations."
  disallow_subject_from_annexing_subjects_tooltip: "Disallow §Y[From.GetName]§! to annex or integrate their own subjects.\n"
@@ -847,3 +868,4 @@
  FROM_HAS_HIGH_TRADE_POWER_IN_THEIR_HOME_NODE: "They have high trade power in their home node"
  ROOT_PRESTIGE: "Our Prestige"
  FROM_IS_ELECTIVE_MONARCHY: "They are an Elective Monarchy"
+ FROM_IS_A_GREAT_POWER: "They are a Great Power"

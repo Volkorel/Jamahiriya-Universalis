@@ -49,6 +49,8 @@
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_religious_march: "Can be made into a §YReligious March§!"
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_stato_da_mar_vassal: "Can be made into a §YStato da Mar§!"
  IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_medieval_vassal: "Can be made into a §YMedieval Vassal§!"
+ IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_exarchate_subject: "Can be made into an §YExarchate§!"
+ IS_POSSIBLE_SUBJECT_OF_SUBJECT_TYPE_real_union_subject: "Can be made into a §YReal Union§!"
 
  THIS_IS_FORMER_AUTONOMOUS_DOMINION: "Is a former §YDominion§! or a former §YColonial Nation§!"
 
@@ -345,3 +347,7 @@
  display_stato_da_mar_vassal_desc_tt: "§g[stato_da_mar_vassal_desc]§W"
  display_medieval_vassal_title_tt: "§Y[medieval_vassal]§!"
  display_medieval_vassal_desc_tt: "§g[medieval_vassal_desc]§W"
+ display_exarchate_subject_title_tt: "§Y[exarchate_subject]§!"
+ display_exarchate_subject_desc_tt: "§g[exarchate_subject_desc]§W"
+ display_real_union_subject_title_tt: "§Y[real_union_subject]§!"
+ display_real_union_subject_desc_tt: "§g[real_union_subject_desc]§W"

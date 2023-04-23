@@ -2,14 +2,14 @@ establish_integrated_tribe_subject = {
 	category = influence
 
 	require_acceptance = no
-	
+
 	is_visible = {
 		can_create_subject_type = {
 			subject = FROM
 			subject_type = integrated_tribe_subject
 		}
 	}
-	
+
 	is_allowed = {
 		can_create_subject_type = {
 			subject = FROM
@@ -20,7 +20,7 @@ establish_integrated_tribe_subject = {
 		FROM = { is_at_war = no }
 		FROM = { NOT = { liberty_desire = 50 } }
 	}
-	
+
 	on_accept = {
 		if = {
 			limit = {
@@ -39,7 +39,7 @@ establish_integrated_tribe_subject = {
 			}
 		}
 	}
-	
+
 	ai_will_do = {
 		OR = {
 			AND = {
@@ -75,15 +75,15 @@ establish_integrated_tribe_subject = {
 }
 
 integrated_tribe_subject_give_additional_tribute_to_overlord = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
-	
+
 	is_visible = {
 		is_subject_of_type = integrated_tribe_subject
 		is_subject_of = FROM
 	}
-	
+
 	is_allowed = {
 		hidden_trigger = {
 			is_subject_of_type = integrated_tribe_subject
@@ -97,7 +97,7 @@ integrated_tribe_subject_give_additional_tribute_to_overlord = {
 			NOT = { has_country_modifier = cooldown_integrated_tribe_subject_give_additional_tribute_to_overlord }
 		}
 	}
-	
+
 	on_accept = {
 		if = {
 			limit = {
@@ -126,7 +126,7 @@ integrated_tribe_subject_give_additional_tribute_to_overlord = {
 			}
 		}
 	}
-	
+
 	ai_will_do = {
 		has_scutage = yes
 		NOT = { liberty_desire = 50 }

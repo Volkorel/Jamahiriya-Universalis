@@ -261,7 +261,7 @@ ask_to_become_agricultural_march = {
 }
 
 agricultural_march_enable_seize_production = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -314,7 +314,7 @@ agricultural_march_enable_seize_production = {
 }
 
 agricultural_march_disable_seize_production = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 

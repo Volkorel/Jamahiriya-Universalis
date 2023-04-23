@@ -156,75 +156,20 @@ set_overlord_idea_groups = {
 	}
 	else_if = {
 		limit = {
-			has_global_flag = extended_timeline_mod
 			overlord = {
-				technology_group = roman_group
+				technology_group = indian
 			}
 		}
-		change_technology_group = roman_group
-		change_unit_type = roman_group
+		change_technology_group = indian
+		change_unit_type = indian
 	}
 	else_if = {
 		limit = {
 			overlord = {
-				technology_group = barbarian
+				technology_group = chinese
 			}
 		}
-		change_technology_group = barbarian
-		change_unit_type = barbarian
-	}
-	else_if = {
-		limit = {
-			overlord = {
-				technology_group = middle_eastern
-			}
-		}
-		change_technology_group = middle_eastern
-		change_unit_type = middle_eastern
-	}
-	else_if = {
-		limit = {
-			overlord = {
-				technology_group = early_indian
-			}
-		}
-		change_technology_group = early_indian
-		change_unit_type = early_indian
-	}
-	else_if = {
-		limit = {
-			overlord = {
-				technology_group = early_chinese
-			}
-		}
-		change_technology_group = early_chinese
-		change_unit_type = early_chinese
-	}
-	else_if = {
-		limit = {
-			overlord = {
-				technology_group = western_nomad_group
-			}
-		}
-		change_technology_group = western_nomad_group
-		change_unit_type = western_nomad_group
-	}
-	else_if = {
-		limit = {
-			overlord = {
-				technology_group = eastern_nomad_group
-			}
-		}
-		change_technology_group = eastern_nomad_group
-		change_unit_type = eastern_nomad_group
-	}
-	else_if = {
-		limit = {
-			overlord = {
-				technology_group = asian
-			}
-		}
-		change_technology_group = asian
+		change_technology_group = chinese
 		change_unit_type = chinese
 	}
 	else = {

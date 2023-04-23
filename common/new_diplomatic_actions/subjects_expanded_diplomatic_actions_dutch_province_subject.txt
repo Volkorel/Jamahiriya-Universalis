@@ -1420,8 +1420,79 @@ dutch_province_subject_ask_for_independence = {
 	}
 }
 
-dutch_province_subject_force_white_peace = {
+cancel_dutch_province_subject = {
 	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = dutch_province_subject
+		}
+	}
+
+	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = dutch_province_subject
+			}
+		}
+		NOT = { truce_with = FROM }
+		prestige = 0
+		is_month = 1
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of = ROOT
+					is_subject_of_type = dutch_province_subject
+				}
+				NOT = { truce_with = FROM }
+				prestige = 0
+				is_month = 1
+			}
+			FROM = {
+				if = {
+					limit = {
+						NOT = { liberty_desire = 50 }
+					}
+					add_opinion = {
+						who = ROOT
+						modifier = vassal_abandoned
+					}
+				}
+				grant_independence = yes
+				add_truce_with = ROOT
+			}
+			add_truce_with = FROM
+			add_prestige = -25
+		}
+	}
+
+	ai_will_do = {
+		OR = {
+			AND = {
+				exists = NED
+				NOT = { tag = NED }
+			}
+			FROM = {
+				liberty_desire = 100
+				years_in_vassalage_under = {
+					who = ROOT
+					years = 50
+					all_subject_country = yes
+				}
+			}
+		}
+	}
+}
+
+dutch_province_subject_force_white_peace = {
+	category = subject_interactions
 
 	alert_index = 2
 	alert_tooltip = dutch_province_subject_force_white_peace_alert_tooltip
@@ -2079,77 +2150,6 @@ dutch_province_subject_force_white_peace = {
 			any_owned_province = {
 				NOT = { controlled_by = PREV }
 				NOT = { controlled_by = REB }
-			}
-		}
-	}
-}
-
-cancel_dutch_province_subject = {
-	category = influence
-
-	require_acceptance = no
-
-	is_visible = {
-		FROM = {
-			is_subject_of = ROOT
-			is_subject_of_type = dutch_province_subject
-		}
-	}
-
-	is_allowed = {
-		hidden_trigger = {
-			FROM = {
-				is_subject_of = ROOT
-				is_subject_of_type = dutch_province_subject
-			}
-		}
-		NOT = { truce_with = FROM }
-		prestige = 0
-		is_month = 1
-	}
-
-	on_accept = {
-		if = {
-			limit = {
-				FROM = {
-					is_subject_of = ROOT
-					is_subject_of_type = dutch_province_subject
-				}
-				NOT = { truce_with = FROM }
-				prestige = 0
-				is_month = 1
-			}
-			FROM = {
-				if = {
-					limit = {
-						NOT = { liberty_desire = 50 }
-					}
-					add_opinion = {
-						who = ROOT
-						modifier = vassal_abandoned
-					}
-				}
-				grant_independence = yes
-				add_truce_with = ROOT
-			}
-			add_truce_with = FROM
-			add_prestige = -25
-		}
-	}
-
-	ai_will_do = {
-		OR = {
-			AND = {
-				exists = NED
-				NOT = { tag = NED }
-			}
-			FROM = {
-				liberty_desire = 100
-				years_in_vassalage_under = {
-					who = ROOT
-					years = 50
-					all_subject_country = yes
-				}
 			}
 		}
 	}

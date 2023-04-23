@@ -141,3 +141,7 @@
  medieval_vassal_forced: "Forced Medieval Vassal"
  medieval_vassal_forced_small: "Forced Medieval Vassal on former overlord"
  medieval_vassal_forced_annul_alliance: "Forced to annul an alliance"
+
+ is_exarchate_subject: "Exarchate"
+
+ is_real_union_subject: "Real Union"

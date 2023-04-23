@@ -70,10 +70,28 @@ make_persian_satrapy = {
 		limit = {
 			OR = {
 				num_of_free_diplomatic_relations = 1
-				FROM = {
+				AND = {
 					capital_scope = {
-						region_for_scope_province = {
-							is_capital_of = ROOT
+						OR = {
+							superregion = persia_superregion
+							superregion = near_east_superregion
+							superregion = india_superregion
+						}
+					}
+					FROM = {
+						NOT = {
+							years_in_vassalage_under = {
+								who = ROOT
+								years = 10
+								all_subject_country = yes
+							}
+						}
+						capital_scope = {
+							OR = {
+								superregion = persia_superregion
+								superregion = near_east_superregion
+								superregion = india_superregion
+							}
 						}
 					}
 				}

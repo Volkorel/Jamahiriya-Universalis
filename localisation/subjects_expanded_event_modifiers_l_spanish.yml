@@ -313,3 +313,13 @@
  medieval_vassal_new_overlord_modifier: "Overlord's ruler not ruling for at least §Y2 years§!"
  medieval_vassal_longtime_subject_modifier: "Longtime Vassal"
  medieval_vassal_overlord_modifier: "Has Medieval Vassals"
+
+ exarchate_subject_modifier: "Exarchate"
+ exarchate_subject_loyal_modifier: "Loyal Exarchate"
+ exarchate_subject_different_religion_group_modifier: "Following a Heathen Faith"
+ exarchate_subject_different_religion_modifier: "Following a Heretic Faith"
+ exarchate_subject_overlord_small_modifier: "More than half the overlord's amount of provinces"
+ exarchate_subject_overlord_modifier: "Has Exarchates"
+
+ real_union_subject_modifier: "Real Union"
+ real_union_subject_not_accepted_culture_modifier: "Overlord doesn't accept Primary Culture"

@@ -947,7 +947,7 @@ ask_to_become_trade_outpost = {
 }
 
 improve_trade_outpost = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 

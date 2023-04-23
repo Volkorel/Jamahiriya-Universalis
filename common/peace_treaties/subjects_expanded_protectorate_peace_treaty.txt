@@ -108,8 +108,12 @@ make_protectorate = {
 						NOT = { continent = south_america }
 						region_for_scope_province = {
 							type = all
-							owner = {
-								NOT = { is_subject_of = ROOT }
+							OR = {
+								is_empty = yes
+								is_wasteland = yes
+								owner = {
+									NOT = { is_subject_of = ROOT }
+								}
 							}
 						}
 					}

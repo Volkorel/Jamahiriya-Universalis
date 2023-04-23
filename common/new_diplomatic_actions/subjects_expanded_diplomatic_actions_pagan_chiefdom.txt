@@ -228,7 +228,7 @@ ask_to_become_pagan_chiefdom = {
 }
 
 increase_looting_speed_with_pagan_chiefdom = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -325,7 +325,7 @@ increase_looting_speed_with_pagan_chiefdom = {
 }
 
 increase_horde_unity_with_pagan_chiefdom = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 

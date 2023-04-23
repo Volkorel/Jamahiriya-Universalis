@@ -60,10 +60,6 @@ is_possible_subject_of_subject_type_protectorate = {
 	NOT = { technology_group = western }
 	NOT = { technology_group = eastern }
 	NOT = { technology_group = muslim }
-	OR = {
-		NOT = { has_global_flag = extended_timeline_mod }
-		NOT = { technology_group = roman_group }
-	}
 	PREV = {
 		NOT = { same_continent = PREV }
 	}
@@ -351,7 +347,6 @@ is_possible_subject_of_subject_type_crusader_state_vassal = {
 
 is_possible_subject_of_subject_type_salic_personal_union = {
 	# PREVs in THIS scope refer to possible overlord
-	has_global_flag = extended_timeline_mod
 	NOT = { is_subject_of_type = salic_personal_union }
 	is_subject = no
 	has_reform = salic_reform
@@ -873,24 +868,6 @@ is_possible_subject_of_subject_type_annexable_colony = {
 			colonial_region = colonial_la_plata
 			colonial_region = colonial_brazil
 			colonial_region = colonial_australia
-			# Extended Timeline:
-			AND = {
-				has_global_flag = extended_timeline_mod
-				OR = {
-					colonial_region = colonial_oceania
-					colonial_region = colonial_south_africa
-					colonial_region = colonial_zambezi
-					colonial_region = colonial_congo
-					colonial_region = colonial_east_africa
-					colonial_region = colonial_ethiopia
-					colonial_region = colonial_sudan
-					colonial_region = colonial_central_africa
-					colonial_region = colonial_niger
-					colonial_region = colonial_ivory_coast
-					colonial_region = colonial_mali
-					colonial_region = colonial_west_africa
-				}
-			}
 		}
 	}
 }
@@ -957,6 +934,38 @@ is_possible_subject_of_subject_type_medieval_vassal = {
 	NOT = { government = native }
 	NOT = { government = tribal }
 	is_subject = no
+}
+
+is_possible_subject_of_subject_type_exarchate_subject = {
+	# PREVs in THIS scope refer to possible overlord
+	NOT = { is_subject_of_type = exarchate_subject }
+	is_subject_of = PREV
+	is_vassal_or_similar_subject = yes
+	NOT = { is_subject_of_type = daimyo_vassal }
+	religion = PREV
+	NOT = { government = native }
+	NOT = { government = tribal }
+	# No such subject in the same region has to be checked additionally
+}
+
+is_possible_subject_of_subject_type_real_union_subject = {
+	# PREVs in THIS scope refer to possible overlord
+	NOT = { is_subject_of_type = real_union_subject }
+	is_subject_of = PREV
+	is_subject_of_type = personal_union
+	years_in_union_under = {
+		who = PREV
+		years = 50
+	}
+	PREV = {
+		OR = {
+			culture_group = PREV
+			accepted_culture = PREV
+			has_assimilated_culture = PREV
+			has_assimilated_culture_group = PREV
+		}
+	}
+	religion_group = PREV
 }
 
 can_create_subject_type = {

@@ -229,9 +229,6 @@ pte_can_use_monument_trigger = {
 				always = $stonehenge$
 			}
 			if = {
-				limit = {
-					has_global_flag = extended_timeline_mod
-				}
 				religion = druidism
 				has_owner_religion_or_secularism = yes
 			}
@@ -253,7 +250,6 @@ pte_can_use_monument_trigger = {
 			limit = {
 				always = $buddha_statues$
 			}
-			NOT = { has_global_flag = extended_timeline_mod }
 			province_is_buddhist_or_accepts_buddhism = yes
 		}
 	]
@@ -262,7 +258,6 @@ pte_can_use_monument_trigger = {
 			limit = {
 				always = $moai$
 			}
-			NOT = { has_global_flag = extended_timeline_mod }
 			culture = polynesian
 			province_is_or_accepts_culture = yes
 		}
@@ -280,7 +275,6 @@ pte_can_use_monument_trigger = {
 			limit = {
 				always = $gomateshwara_statue$
 			}
-			NOT = { has_global_flag = extended_timeline_mod }
 			province_is_or_accepts_religion_group = {
 				religion_group = dharmic
 			}

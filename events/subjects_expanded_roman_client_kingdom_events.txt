@@ -176,6 +176,7 @@ country_event = {
 			# Yearly Manpower
 			ms_calculate_yearly_manpower = yes
 			set_variable = { which = roman_client_kingdom_yearly_manpower_var which = autonomous_dominion_global_manpower_var }
+			set_variable = { which = autonomous_dominion_global_manpower_var value = 0 }
 			# Ruler's ADM
 			export_to_variable = {
 				which = roman_client_kingdom_yearly_adm_from_ruler_var
@@ -371,6 +372,17 @@ country_event = {
 					change_variable = { which = roman_client_kingdom_yearly_manpower_var value = -10 }
 				}
 				add_manpower = 0.01
+			}
+			while = {
+				limit = {
+					FROM = {
+						check_variable = { which = roman_client_kingdom_yearly_manpower_var value = 1 }
+					}
+				}
+				FROM = {
+					change_variable = { which = roman_client_kingdom_yearly_manpower_var value = -1 }
+				}
+				add_manpower = 0.001
 			}
 		}
 	}

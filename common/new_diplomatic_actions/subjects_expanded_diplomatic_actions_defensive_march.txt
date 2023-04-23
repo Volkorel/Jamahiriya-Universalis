@@ -302,7 +302,7 @@ ask_to_become_defensive_march = {
 }
 
 enable_offensive_wars_for_defensive_march = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -366,7 +366,7 @@ enable_offensive_wars_for_defensive_march = {
 }
 
 disable_offensive_wars_for_defensive_march = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 

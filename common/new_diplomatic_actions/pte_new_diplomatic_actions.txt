@@ -24,21 +24,7 @@ pte_start_border_friction = {
 			NOT = { is_subject_of = FROM }
 		}
 		if = {
-			limit = {
-				has_global_flag = extended_timeline_mod
-			}
-			if = {
-				limit = {
-					started_in = 1400.1.1
-				}
-				dip_tech = 50
-			}
-			else = {
-				dip_tech = 30
-			}
-		}
-		else = {
-			dip_tech = 5
+			limit = { dip_tech = 5 }
 		}
 		NOT = { corruption = 100 }
 		has_spy_network_in = {
@@ -69,25 +55,6 @@ pte_start_border_friction = {
 				}
 				NOT = { overlord_of = FROM }
 				NOT = { is_subject_of = FROM }
-				OR = {
-					AND = {
-						has_global_flag = extended_timeline_mod
-						OR = {
-							AND = {
-								started_in = 1444.11.11
-								dip_tech = 50
-							}
-							AND = {
-								NOT = { started_in = 1444.11.11 }
-								dip_tech = 30
-							}
-						}
-					}
-					AND = {
-						NOT = { has_global_flag = extended_timeline_mod }
-						dip_tech = 5
-					}
-				}
 				NOT = { corruption = 100 }
 				has_spy_network_in = {
 					who = FROM
@@ -191,17 +158,12 @@ pte_start_succession_crisis = {
 		}
 		if = {
 			limit = {
-				has_global_flag = extended_timeline_mod
+				started_in = 1400.1.1
 			}
-			if = {
-				limit = {
-					started_in = 1400.1.1
-				}
-				adm_tech = 57
-			}
-			else = {
-				adm_tech = 40
-			}
+			adm_tech = 57
+		}
+		else = {
+			adm_tech = 40
 		}
 		else = {
 			adm_tech = 12
@@ -422,9 +384,6 @@ pte_start_succession_crisis = {
 					}
 				}
 				if = {
-					limit = {
-						has_global_flag = extended_timeline_mod
-					}
 					if = {
 						limit = {
 							started_in = 1400.1.1
@@ -683,9 +642,6 @@ pte_start_succession_crisis = {
 					}
 				}
 				if = {
-					limit = {
-						has_global_flag = extended_timeline_mod
-					}
 					if = {
 						limit = {
 							started_in = 1400.1.1

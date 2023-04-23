@@ -51,7 +51,7 @@ country_event = {
 		NOT = {
 			is_in_war = {
 				defender_leader = ROOT
-				casus_belli = cb_colonial_independance_war
+				casus_belli = cb_colonial_independence_war
 			}
 		}
 	}

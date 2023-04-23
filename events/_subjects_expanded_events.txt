@@ -20,12 +20,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			set_global_flag = subjects_expanded_mod_active
-			if = {
-				limit = {
-					NOT = { has_global_flag = extended_timeline_mod }
-				}
-				et_setup_effect = yes # make sure ET flag is set, if active
-			}
+			et_setup_effect = yes # make sure ET flag is set, if active
 		}
 	}
 
@@ -85,6 +80,8 @@ country_event = {
 			count_num_of_subjects_of_type = { type = religious_march }
 			count_num_of_subjects_of_type = { type = stato_da_mar_vassal }
 			count_num_of_subjects_of_type = { type = medieval_vassal }
+			count_num_of_subjects_of_type = { type = exarchate_subject }
+			count_num_of_subjects_of_type = { type = real_union_subject }
 		}
 	}
 
@@ -400,6 +397,22 @@ country_event = {
 		display_subjects_of_type = { type = medieval_vassal }
 	}
 
+	option = {
+		name = subjects_expanded_events2.EVTOPT40
+
+		ai_chance = { factor = 100 }
+
+		display_subjects_of_type = { type = exarchate_subject }
+	}
+
+	option = {
+		name = subjects_expanded_events2.EVTOPT41
+
+		ai_chance = { factor = 100 }
+
+		display_subjects_of_type = { type = real_union_subject }
+	}
+
 	after = {
 		hidden_effect = {
 			clr_country_flag = used_subjects_expanded_info_decision
@@ -442,6 +455,8 @@ country_event = {
 			clear_display_variable_for_subjects_of_type = { type = religious_march }
 			clear_display_variable_for_subjects_of_type = { type = stato_da_mar_vassal }
 			clear_display_variable_for_subjects_of_type = { type = medieval_vassal }
+			clear_display_variable_for_subjects_of_type = { type = exarchate_subject }
+			clear_display_variable_for_subjects_of_type = { type = real_union_subject }
 		}
 	}
 }
@@ -472,6 +487,25 @@ country_event = {
 		custom_tooltip = SE_IDEA_CHANGING_MOD_ACTIVE_TT
 		set_global_flag = idea_changing_mod_active
 		clr_global_flag = se_dominions_disabled
+	}
+
+	option = {
+		name = subjects_expanded_events3.EVTOPT2
+
+		ai_chance = { factor = 100 }
+
+		custom_tooltip = SE_NO_IDEA_CHANGING_MOD_ACTIVE_TT
+		clr_global_flag = idea_changing_mod_active
+		clr_global_flag = se_dominions_disabled
+	}
+
+	option = {
+		name = subjects_expanded_events3.EVTOPT3
+
+		ai_chance = { factor = 100 }
+
+		custom_tooltip = SE_FULLY_DISABLE_DOMINION_DECISIONS_TT
+		set_global_flag = se_dominions_disabled
 	}
 }
 
@@ -822,6 +856,22 @@ country_event = {
 		ai_chance = { factor = 100 }
 
 		display_info_for_subject_type = { type = medieval_vassal }
+	}
+
+	option = {
+		name = subjects_expanded_events5.EVTOPT40
+
+		ai_chance = { factor = 100 }
+
+		display_info_for_subject_type = { type = exarchate_subject }
+	}
+
+	option = {
+		name = subjects_expanded_events5.EVTOPT41
+
+		ai_chance = { factor = 100 }
+
+		display_info_for_subject_type = { type = real_union_subject }
 	}
 
 	after = {

@@ -115,6 +115,14 @@ country_event = {
 				max_random_mil = 2
 				age = 20
 			}
+			hidden_effect = {
+				if = {
+					limit = {
+						has_heir = yes
+					}
+					kill_heir = { allow_new_heir = no }
+				}
+			}
 		}
 	}
 }

@@ -54,7 +54,7 @@ establish_administrative_region = {
 }
 
 administrative_region_remove_heir = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -141,7 +141,7 @@ administrative_region_remove_heir = {
 }
 
 administrative_region_enable_administrative_help = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -210,7 +210,7 @@ administrative_region_enable_administrative_help = {
 }
 
 administrative_region_disable_administrative_help = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 

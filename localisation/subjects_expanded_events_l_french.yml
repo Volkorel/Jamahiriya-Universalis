@@ -40,6 +40,8 @@
  subjects_expanded_events2.EVTOPT37: "There currently are §G[REB.num_of_subjects_of_type_religious_march.GetValue]§! §YReligious Marches§! in the world."
  subjects_expanded_events2.EVTOPT38: "There currently are §G[REB.num_of_subjects_of_type_stato_da_mar_vassal.GetValue]§! §YStati da Màr§! in the world."
  subjects_expanded_events2.EVTOPT39: "There currently are §G[REB.num_of_subjects_of_type_medieval_vassal.GetValue]§! §YMedieval Vassals§! in the world."
+ subjects_expanded_events2.EVTOPT40: "There currently are §G[REB.num_of_subjects_of_type_exarchate_subject.GetValue]§! §YExarchates§! in the world."
+ subjects_expanded_events2.EVTOPT41: "There currently are §G[REB.num_of_subjects_of_type_real_union_subject.GetValue]§! §YReal Unions§! in the world."
 
  subjects_expanded_events.EVTNAME3: "Idea Mods or SE activated after game start?"
  subjects_expanded_events.EVTDESC3: "Spawning Dominions via decisions gives them Expansion, Trade and Quantity Ideas. If you are using a mod that alters the vanilla idea groups in any way, this might §Rcrash§! the game. So select the matching option below to prevent that from happening! \nFurthermore, if you have started this save game without Subjects Expanded activated, spawning dominions via decision can crash the game. In that case make sure to select the last option."
@@ -94,6 +96,8 @@
  subjects_expanded_events5.EVTOPT37: "[religious_march]"
  subjects_expanded_events5.EVTOPT38: "[stato_da_mar_vassal]"
  subjects_expanded_events5.EVTOPT39: "[medieval_vassal]"
+ subjects_expanded_events5.EVTOPT40: "[exarchate_subject]"
+ subjects_expanded_events5.EVTOPT41: "[real_union_subject]"
 
  subjects_expanded_general_events.EVTNAME1: "New Overlord Law about Subjects"
  subjects_expanded_general_events.EVTDESC1: "Our overlord, [Root.Overlord.GetName], has passed a new law which prevents us from annexing or integrating our own subjects for the next 20 years. This does not stop currently on-going annexations and integrations."

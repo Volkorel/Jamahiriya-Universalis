@@ -1,5 +1,5 @@
 viking_settlement_demand_raid_loot = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 

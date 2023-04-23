@@ -2,7 +2,7 @@ establish_persian_satrapy = {
 	category = influence
 
 	require_acceptance = no
-	
+
 	is_visible = {
 		can_create_subject_type = {
 			subject = FROM
@@ -12,7 +12,7 @@ establish_persian_satrapy = {
 			is_subject_of = ROOT
 		}
 	}
-	
+
 	is_allowed = {
 		can_create_subject_type = {
 			subject = FROM
@@ -35,7 +35,7 @@ establish_persian_satrapy = {
 			NOT = { has_ruler_modifier = shahrukhs_empire }
 		}
 	}
-	
+
 	on_accept = {
 		if = {
 			limit = {
@@ -68,8 +68,15 @@ establish_persian_satrapy = {
 			}
 		}
 	}
-	
+
 	ai_will_do = {
+		capital_scope = {
+			OR = {
+				superregion = persia_superregion
+				superregion = near_east_superregion
+				superregion = india_superregion
+			}
+		}
 		FROM = {
 			NOT = {
 				years_in_vassalage_under = {
@@ -79,8 +86,10 @@ establish_persian_satrapy = {
 				}
 			}
 			capital_scope = {
-				region_for_scope_province = {
-					is_capital_of = ROOT
+				OR = {
+					superregion = persia_superregion
+					superregion = near_east_superregion
+					superregion = india_superregion
 				}
 			}
 		}

@@ -1,4 +1,7 @@
 ﻿l_german:
+ # Diplomatic Action Categories:
+ DIPLOMACYACTION_CATEGORY_subject_interactions: "Untertan-Interaktionen"
+
  # New Diplomatic Actions:
  establish_protectorate_title: "Protektorat fordern"
  establish_protectorate_desc: "Wollt Ihr §Y[From.GetName]§! vorschlagen unser Protektorat zu werden? \n[protectorate_desc]"
@@ -664,6 +667,24 @@
  cancel_medieval_vassal_tooltip: "Beedet die Vasallisierung von §Y[From.GetName]§! und entlasst sie in die Freiheit.\n"
 
 
+ establish_exarchate_subject_title: "Exarchat ernennen"
+ establish_exarchate_subject_desc: "Ernennt Euren Vasallen [From.GetName] zu einem §YExarchat§!. \n[exarchate_subject_desc]"
+ establish_exarchate_subject_tooltip: "Ernennt Euren Vasallen [From.GetName] zu einem §YExarchat§!.\n"
+
+
+ establish_real_union_subject_title: "Realunion ernennen"
+ establish_real_union_subject_desc: "Ernennt Eure Personalunion [From.GetName] zu einer §YRealunion§!. \n[real_union_subject_desc]"
+ establish_real_union_subject_tooltip: "Ernennt Eure Personalunion [From.GetName] zu einer §YRealunion§!.\n"
+
+ return_real_union_subject_to_personal_union_title: "Zu Personalunion degradieren"
+ return_real_union_subject_to_personal_union_desc: "Beendet den Status der Realunion, den §Y[From.GetName]§! derzeit besitzt, und macht sie zu einer Personalunion. Dies wird ihre Meinung über uns um §R-100§! verschlechtern und ihr Freiheitsstreben um §R+25%§! ändern. Außerdem verlieren wir §R10§! Prestige."
+ return_real_union_subject_to_personal_union_tooltip: "Macht §Y[From.GetName]§! wieder zu einer Personalunion.\n"
+
+ cancel_real_union_subject_title: "Realunion entlassen"
+ cancel_real_union_subject_desc: "Beendet das Abhängigkeitsverhältnis von §Y[From.GetName]§! zu uns. Dies wird ihre Meinung über uns um §R-200§! verschlechtern, sofern sie ein Freiheitsstreben unter §Y50%§! besitzen. Außerdem verlieren wir §R25§! Prestige und erhalten eine §Y5-jährige§! Waffenruhe mit ihnen."
+ cancel_real_union_subject_tooltip: "Beedet die Vasallisierung von §Y[From.GetName]§! und entlasst sie in die Freiheit.\n"
+
+
  disallow_subject_from_annexing_subjects_title: "Untertan-Annexion verbieten"
  disallow_subject_from_annexing_subjects_desc: "Verbietet §Y[From.GetName]§! für die nächsten §Y20 Jahre§!, seine eigenen Untertanen zu annektieren oder zu integrieren. \nDies wird ihr Freiheitsstreben um §R+20%§! verändern. Dies wird keine bereits laufenden Annexionen oder Integrationen beenden."
  disallow_subject_from_annexing_subjects_tooltip: "Verbietet §Y[From.GetName]§!, seine eigenen Untertanen zu annektieren oder zu integrieren.\n"
@@ -847,3 +868,4 @@
  FROM_HAS_HIGH_TRADE_POWER_IN_THEIR_HOME_NODE: "Sie haben viel Handelsmacht in ihrem Haupthandelshafen"
  ROOT_PRESTIGE: "Unser Prestige"
  FROM_IS_ELECTIVE_MONARCHY: "Sie sind eine Wahlmonarchie"
+ FROM_IS_A_GREAT_POWER: "Sie sind eine Großmacht"

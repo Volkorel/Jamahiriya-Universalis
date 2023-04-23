@@ -62,6 +62,7 @@ establish_roman_client_kingdom = {
 			}
 		}
 		FROM = {
+			NOT = { is_subject_of_type = exarchate_subject }
 			NOT = {
 				years_in_vassalage_under = {
 					who = ROOT
@@ -73,8 +74,71 @@ establish_roman_client_kingdom = {
 	}
 }
 
-place_roman_ruler_on_subject_throne = {
+cancel_roman_client_kingdom = {
 	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = roman_client_kingdom
+		}
+	}
+
+	is_allowed = {
+		hidden_trigger = {
+			FROM = {
+				is_subject_of = ROOT
+				is_subject_of_type = roman_client_kingdom
+			}
+		}
+		NOT = { truce_with = FROM }
+		prestige = 0
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject_of = ROOT
+					is_subject_of_type = roman_client_kingdom
+				}
+				NOT = { truce_with = FROM }
+				prestige = 0
+			}
+			FROM = {
+				if = {
+					limit = {
+						NOT = { liberty_desire = 50 }
+					}
+					add_opinion = {
+						who = ROOT
+						modifier = vassal_abandoned
+					}
+				}
+				grant_independence = yes
+				add_truce_with = ROOT
+			}
+			add_truce_with = FROM
+			add_prestige = -25
+		}
+	}
+
+	ai_will_do = {
+		FROM = {
+			liberty_desire = 100
+			years_in_vassalage_under = {
+				who = ROOT
+				years = 30
+				all_subject_country = yes
+			}
+		}
+	}
+}
+
+place_roman_ruler_on_subject_throne = {
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -178,7 +242,7 @@ place_roman_ruler_on_subject_throne = {
 }
 
 demand_additional_tribute_from_roman_client_kingdom = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -216,68 +280,5 @@ demand_additional_tribute_from_roman_client_kingdom = {
 
 	ai_will_do = {
 		always = no
-	}
-}
-
-cancel_roman_client_kingdom = {
-	category = influence
-
-	require_acceptance = no
-
-	is_visible = {
-		FROM = {
-			is_subject_of = ROOT
-			is_subject_of_type = roman_client_kingdom
-		}
-	}
-
-	is_allowed = {
-		hidden_trigger = {
-			FROM = {
-				is_subject_of = ROOT
-				is_subject_of_type = roman_client_kingdom
-			}
-		}
-		NOT = { truce_with = FROM }
-		prestige = 0
-	}
-
-	on_accept = {
-		if = {
-			limit = {
-				FROM = {
-					is_subject_of = ROOT
-					is_subject_of_type = roman_client_kingdom
-				}
-				NOT = { truce_with = FROM }
-				prestige = 0
-			}
-			FROM = {
-				if = {
-					limit = {
-						NOT = { liberty_desire = 50 }
-					}
-					add_opinion = {
-						who = ROOT
-						modifier = vassal_abandoned
-					}
-				}
-				grant_independence = yes
-				add_truce_with = ROOT
-			}
-			add_truce_with = FROM
-			add_prestige = -25
-		}
-	}
-
-	ai_will_do = {
-		FROM = {
-			liberty_desire = 100
-			years_in_vassalage_under = {
-				who = ROOT
-				years = 30
-				all_subject_country = yes
-			}
-		}
 	}
 }

@@ -3,6 +3,9 @@ is_vassal_or_similar_subject = {
 		is_subject_of_type = vassal
 		is_subject_of_type = client_vassal
 		is_subject_of_type = daimyo_vassal
+		is_subject_of_type = appanage
+		is_subject_of_type = eyalet
+		is_subject_of_type = core_eyalet
 		is_similar_vassal_subject = yes
 	}
 }
@@ -24,6 +27,7 @@ is_similar_vassal_subject = {
 		is_subject_of_type = administrative_region
 		is_subject_of_type = palatinate_vassal
 		is_subject_of_type = stato_da_mar_vassal
+		is_subject_of_type = exarchate_subject
 	}
 }
 
@@ -132,6 +136,7 @@ is_subject_type_that_pays_vassal_tax = {
 		is_subject_of_type = trade_outpost
 		is_subject_of_type = iqta_vassal
 		is_subject_of_type = papal_sanctuary_subject
+		is_subject_of_type = exarchate_subject
 	}
 }
 
@@ -164,6 +169,7 @@ is_subject_type_that_can_have_subjects = {
 		is_subject_of_type = native_reserve
 		is_subject_of_type = banking_family_subject
 		is_subject_of_type = medieval_vassal
+		is_subject_of_type = real_union_subject
 	}
 }
 
@@ -182,6 +188,7 @@ is_subject_type_that_can_be_annexed = {
 		is_subject_of_type = vassal
 		is_subject_of_type = daimyo_vassal
 		is_subject_of_type = client_vassal
+		is_subject_of_type = core_eyalet
 		is_subject_of_type = puppet_state
 		is_subject_of_type = dominion_tc
 		is_subject_of_type = roman_client_kingdom
@@ -196,6 +203,7 @@ is_subject_type_that_can_be_annexed = {
 		is_subject_of_type = palatinate_vassal
 		is_subject_of_type = annexable_colony
 		is_subject_of_type = stato_da_mar_vassal
+		is_subject_of_type = exarchate_subject
 	}
 }
 

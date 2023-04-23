@@ -40,11 +40,24 @@ establish_religious_march = {
 	}
 
 	ai_will_do = {
+		NOT = { religion = confucianism }
+		NOT = {
+			can_create_subject_type = {
+				subject = FROM
+				subject_type = crusader_state_vassal
+			}
+		}
+		NOT = {
+			can_create_subject_type = {
+				subject = FROM
+				subject_type = iqta_vassal
+			}
+		}
 		FROM = {
 			NOT = { liberty_desire = 50 }
+			NOT = { is_subject_of_type = exarchate_subject }
 			NOT = { is_different_march_subject = yes }
 			NOT = { development_of_overlord_fraction = 0.25 }
-			num_of_missionaries = 1
 			any_neighbor_country = {
 				OR = {
 					is_rival = ROOT
@@ -53,18 +66,6 @@ establish_religious_march = {
 				NOT = { religion_group = ROOT }
 			}
 			NOT = { religious_unity = 0.7 }
-			NOT = {
-				can_create_subject_type = {
-					subject = FROM
-					subject_type = crusader_state_vassal
-				}
-			}
-			NOT = {
-				can_create_subject_type = {
-					subject = FROM
-					subject_type = iqta_vassal
-				}
-			}
 			NOT = {
 				num_of_owned_provinces_with = {
 					value = 10
@@ -242,10 +243,11 @@ ask_to_become_religious_march = {
 	}
 
 	ai_will_do = {
+		NOT = { religion = confucianism }
 		NOT = { liberty_desire = 50 }
+		NOT = { is_subject_of_type = exarchate_subject }
 		NOT = { is_different_march_subject = yes }
 		NOT = { religious_unity = 0.6 }
-		num_of_missionaries = 1
 		any_neighbor_country = {
 			OR = {
 				is_rival = FROM
@@ -281,7 +283,7 @@ ask_to_become_religious_march = {
 }
 
 religious_march_enable_increased_conversion_efforts = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -346,7 +348,7 @@ religious_march_enable_increased_conversion_efforts = {
 }
 
 religious_march_disable_increased_conversion_efforts = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 

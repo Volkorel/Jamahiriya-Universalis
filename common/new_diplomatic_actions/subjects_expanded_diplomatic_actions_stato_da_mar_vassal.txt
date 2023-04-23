@@ -1253,7 +1253,7 @@ ask_to_become_stato_da_mar_vassal = {
 }
 
 enable_stato_da_mar_vassal_seize_merchant_fleets = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -1304,7 +1304,7 @@ enable_stato_da_mar_vassal_seize_merchant_fleets = {
 }
 
 disable_stato_da_mar_vassal_seize_merchant_fleets = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 

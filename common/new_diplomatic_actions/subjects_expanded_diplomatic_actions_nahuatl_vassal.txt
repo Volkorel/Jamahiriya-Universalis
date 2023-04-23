@@ -2,26 +2,25 @@ establish_nahuatl_vassal = {
 	category = influence
 
 	require_acceptance = no
-	
+
 	is_visible = {
 		can_create_subject_type = {
 			subject = FROM
 			subject_type = nahuatl_vassal
 		}
 	}
-	
+
 	is_allowed = {
 		can_create_subject_type = {
 			subject = FROM
 			subject_type = nahuatl_vassal
 		}
 		NOT = { doom = 90 }
-		NOT = { truce_with = FROM }
 		is_at_war = no
 		FROM = { is_at_war = no }
 		FROM = { NOT = { liberty_desire = 50 } }
 	}
-	
+
 	on_accept = {
 		if = {
 			limit = {
@@ -30,7 +29,6 @@ establish_nahuatl_vassal = {
 					subject_type = nahuatl_vassal
 				}
 				NOT = { doom = 90 }
-				NOT = { truce_with = FROM }
 				is_at_war = no
 				FROM = { is_at_war = no }
 				FROM = { NOT = { liberty_desire = 50 } }
@@ -42,7 +40,7 @@ establish_nahuatl_vassal = {
 			}
 		}
 	}
-	
+
 	ai_will_do = {
 		NOT = { doom = 50 }
 		FROM = {

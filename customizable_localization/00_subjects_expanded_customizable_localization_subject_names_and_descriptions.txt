@@ -302,6 +302,18 @@ defined_text = {
 		}
 		localisation_key = "[medieval_vassal]"
 	}
+	text = {
+		trigger = {
+			is_subject_of_type = exarchate_subject
+		}
+		localisation_key = "[exarchate_subject]"
+	}
+	text = {
+		trigger = {
+			is_subject_of_type = real_union_subject
+		}
+		localisation_key = "[real_union_subject]"
+	}
 
 	text = {
 		trigger = {
@@ -1410,5 +1422,49 @@ defined_text = {
 			always = yes
 		}
 		localisation_key = medieval_vassal_long_desc
+	}
+}
+
+defined_text = {
+	name = exarchate_subject
+
+	text = {
+		trigger = {
+			always = yes
+		}
+		localisation_key = exarchate_subject_title
+	}
+}
+
+defined_text = {
+	name = exarchate_subject_desc
+
+	text = {
+		trigger = {
+			always = yes
+		}
+		localisation_key = exarchate_subject_long_desc
+	}
+}
+
+defined_text = {
+	name = real_union_subject
+
+	text = {
+		trigger = {
+			always = yes
+		}
+		localisation_key = real_union_subject_title
+	}
+}
+
+defined_text = {
+	name = real_union_subject_desc
+
+	text = {
+		trigger = {
+			always = yes
+		}
+		localisation_key = real_union_subject_long_desc
 	}
 }

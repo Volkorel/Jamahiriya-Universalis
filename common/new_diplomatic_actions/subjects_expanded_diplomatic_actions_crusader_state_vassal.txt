@@ -2,14 +2,14 @@ establish_crusader_state_vassal = {
 	category = influence
 
 	require_acceptance = no
-	
+
 	is_visible = {
 		can_create_subject_type = {
 			subject = FROM
 			subject_type = crusader_state_vassal
 		}
 	}
-	
+
 	is_allowed = {
 		can_create_subject_type = {
 			subject = FROM
@@ -53,7 +53,7 @@ establish_crusader_state_vassal = {
 			}
 		}
 	}
-	
+
 	on_accept = {
 		if = {
 			limit = {
@@ -93,7 +93,7 @@ establish_crusader_state_vassal = {
 			}
 		}
 	}
-	
+
 	ai_will_do = {
 		FROM = {
 			NOT = {
@@ -111,10 +111,10 @@ establish_crusader_state_vassal = {
 }
 
 send_crusader_knights_to_crusader_state_vassal = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
-	
+
 	is_visible = {
 		religion = catholic
 		FROM = {
@@ -123,7 +123,7 @@ send_crusader_knights_to_crusader_state_vassal = {
 			is_subject_of_type = crusader_state_vassal
 		}
 	}
-	
+
 	is_allowed = {
 		hidden_trigger = {
 			religion = catholic
@@ -143,7 +143,7 @@ send_crusader_knights_to_crusader_state_vassal = {
 			NOT = { has_country_modifier = send_crusader_knights_to_crusader_state_vassal }
 		}
 	}
-	
+
 	on_accept = {
 		if = {
 			limit = {
@@ -173,7 +173,7 @@ send_crusader_knights_to_crusader_state_vassal = {
 			}
 		}
 	}
-	
+
 	ai_will_do = {
 		crusade_target = {
 			war_with = FROM
@@ -184,10 +184,10 @@ send_crusader_knights_to_crusader_state_vassal = {
 }
 
 invite_missionars_from_crusader_state_vassal = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
-	
+
 	is_visible = {
 		religion = catholic
 		FROM = {
@@ -196,7 +196,7 @@ invite_missionars_from_crusader_state_vassal = {
 			is_subject_of_type = crusader_state_vassal
 		}
 	}
-	
+
 	is_allowed = {
 		hidden_trigger = {
 			religion = catholic
@@ -215,7 +215,7 @@ invite_missionars_from_crusader_state_vassal = {
 		}
 		FROM = { NOT = { liberty_desire = 50 } }
 	}
-	
+
 	on_accept = {
 		if = {
 			limit = {
@@ -245,7 +245,7 @@ invite_missionars_from_crusader_state_vassal = {
 			}
 		}
 	}
-	
+
 	ai_will_do = {
 		treasury = 2000
 		NOT = { num_of_missionaries = 3 }
@@ -257,10 +257,10 @@ invite_missionars_from_crusader_state_vassal = {
 }
 
 make_crusader_state_vassal_to_theocracy = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
-	
+
 	is_visible = {
 		religion = catholic
 		government = theocracy
@@ -271,7 +271,7 @@ make_crusader_state_vassal_to_theocracy = {
 			is_subject_of_type = crusader_state_vassal
 		}
 	}
-	
+
 	is_allowed = {
 		hidden_trigger = {
 			religion = catholic
@@ -289,7 +289,7 @@ make_crusader_state_vassal_to_theocracy = {
 		}
 		FROM = { NOT = { liberty_desire = 50 } }
 	}
-	
+
 	on_accept = {
 		if = {
 			limit = {
@@ -314,7 +314,7 @@ make_crusader_state_vassal_to_theocracy = {
 			}
 		}
 	}
-	
+
 	ai_will_do = {
 		tag = PAP
 		FROM = {

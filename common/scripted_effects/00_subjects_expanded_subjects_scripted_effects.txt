@@ -181,6 +181,33 @@ display_info_for_subject_type = {
 						}
 					}
 				}
+				else_if = {
+					limit = {
+						variable_arithmetic_trigger = {
+							export_to_variable = {
+								which = subject_$type$_selected
+								value = 1
+							}
+							check_variable = { which = subject_puppet_exarchate_subject_selected value = 1 }
+						}
+					}
+					capital_scope = {
+						region_for_scope_province = {
+							type = all
+							OR = {
+								is_empty = yes
+								is_wasteland = yes
+								is_capital = no
+								owner = {
+									OR = {
+										NOT = { is_subject_of = ROOT }
+										NOT = { is_subject_of_type = exarchate_subject }
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 		custom_tooltip = display_information_for_subject_tt_conditions_subject
@@ -387,6 +414,8 @@ display_info_for_subject_type = {
 				NOT = { check_variable = { which = subject_annexable_colony_selected value = 1 } }
 				NOT = { check_variable = { which = subject_agricultural_march_selected value = 1 } }
 				NOT = { check_variable = { which = subject_religious_march_selected value = 1 } }
+				NOT = { check_variable = { which = subject_exarchate_subject_selected value = 1 } }
+				NOT = { check_variable = { which = subject_real_union_subject_selected value = 1 } }
 			}
 		}
 		custom_tooltip = DISPLAY_INFORMATION_SE_OVERLORD_GETS
@@ -475,6 +504,24 @@ display_info_for_subject_type = {
 		tooltip = {
 			add_country_modifier = {
 				name = defensive_march_low_dev_overlord_modifier
+				duration = -1
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			variable_arithmetic_trigger = {
+				export_to_variable = {
+					which = subject_$type$_selected
+					value = 1
+				}
+				check_variable = { which = subject_exarchate_subject_selected value = 1 }
+			}
+		}
+		custom_tooltip = DISPLAY_INFORMATION_SE_OVERLORD_GETS_IF_SUBJECT_IS_BIG
+		tooltip = {
+			add_country_modifier = {
+				name = exarchate_subject_overlord_modifier
 				duration = -1
 			}
 		}

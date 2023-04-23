@@ -313,3 +313,13 @@
  medieval_vassal_new_overlord_modifier: "Lehnsherr-Herrscher herrscht noch nicht für mindestens §Y2 Jahre§!"
  medieval_vassal_longtime_subject_modifier: "Langjähriger Vasall"
  medieval_vassal_overlord_modifier: "Besitzt Mittelalterliche Vasallen"
+
+ exarchate_subject_modifier: "Exarchat"
+ exarchate_subject_loyal_modifier: "Loyales Exarchat"
+ exarchate_subject_different_religion_group_modifier: "Folgt einem heidnischen Glauben"
+ exarchate_subject_different_religion_modifier: "Folgt einem häretischen Glauben"
+ exarchate_subject_overlord_small_modifier: "Besitzt mehr als die Hälfte der Anzahl der Provinzen des Lehnsherrn"
+ exarchate_subject_overlord_modifier: "Besitzt Exarchate"
+
+ real_union_subject_modifier: "Realunion"
+ real_union_subject_not_accepted_culture_modifier: "Lehnsherr akzeptiert Primärkultur nicht"

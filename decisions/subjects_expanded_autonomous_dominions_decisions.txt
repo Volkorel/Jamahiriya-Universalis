@@ -4085,7 +4085,6 @@ country_decisions = {
 	create_dominion_in_west_africa = {
 		potential = {
 			NOT = { has_global_flag = se_dominions_disabled }
-			NOT = { has_global_flag = extended_timeline_mod }
 			OR = {
 				AND = {
 					NOT = { has_dlc = "Wealth of Nations" }
@@ -5127,7 +5126,6 @@ country_decisions = {
 	create_dominion_in_south_africa = {
 		potential = {
 			NOT = { has_global_flag = se_dominions_disabled }
-			NOT = { has_global_flag = extended_timeline_mod }
 			OR = {
 				AND = {
 					NOT = { has_dlc = "Wealth of Nations" }
@@ -5788,7 +5786,6 @@ country_decisions = {
 	create_dominion_in_east_africa = {
 		potential = {
 			NOT = { has_global_flag = se_dominions_disabled }
-			NOT = { has_global_flag = extended_timeline_mod }
 			OR = {
 				AND = {
 					NOT = { has_dlc = "Wealth of Nations" }

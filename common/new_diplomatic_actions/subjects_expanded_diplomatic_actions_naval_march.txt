@@ -249,7 +249,7 @@ ask_to_become_naval_march = {
 }
 
 naval_march_enable_send_officers = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 
@@ -294,7 +294,7 @@ naval_march_enable_send_officers = {
 }
 
 naval_march_disable_send_officers = {
-	category = influence
+	category = subject_interactions
 
 	require_acceptance = no
 

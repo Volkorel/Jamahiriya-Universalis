@@ -1,4 +1,5 @@
 can_move_capital = {
+	# Vanilla:
 	condition = {
 		tooltip = NO_CAPITAL_MOVE_SHOGUN
 		potential = {
@@ -10,6 +11,7 @@ can_move_capital = {
 			always = no
 		}
 	}
+	# For SE:
 	condition = {
 		tooltip = NO_CAPITAL_MOVE_DUTCH_PROVINCE
 		potential = {
@@ -24,6 +26,17 @@ can_move_capital = {
 }
 
 can_colonize_province = {
+	# For ET:
+	condition = {
+		tooltip = NEED_TECH_TO_COLONIZE
+		potential = {
+			has_province_modifier = hard_to_colonize
+		}
+		allow = {
+			FROM = { dip_tech = 78 }
+		}
+	}
+	# For SE:
 	condition = {
 		tooltip = NATIVE_RESERVE_CANNOT_COLONIZE_PROVINCE_WITH_OTHER_CULTURE
 		potential = {
@@ -55,20 +68,22 @@ can_colonize_province = {
 		}
 		allow = {
 			is_node_in_trade_company_region = yes
-		}
-	}
-	condition = {
-		tooltip = NEED_TECH_TO_COLONIZE
-		potential = {
-			has_province_modifier = hard_to_colonize
-		}
-		allow = {
-			FROM = { dip_tech = 78 }
 		}
 	}
 }
 
 can_colonize_province_siberian_frontier = {
+	# For ET:
+	condition = {
+		tooltip = NEED_TECH_TO_COLONIZE
+		potential = {
+			has_province_modifier = hard_to_colonize
+		}
+		allow = {
+			FROM = { dip_tech = 78 }
+		}
+	}
+	# For SE:
 	condition = {
 		tooltip = NATIVE_RESERVE_CANNOT_COLONIZE_PROVINCE_WITH_OTHER_CULTURE
 		potential = {
@@ -100,15 +115,6 @@ can_colonize_province_siberian_frontier = {
 		}
 		allow = {
 			is_node_in_trade_company_region = yes
-		}
-	}
-	condition = {
-		tooltip = NEED_TECH_TO_COLONIZE
-		potential = {
-			has_province_modifier = hard_to_colonize
-		}
-		allow = {
-			FROM = { dip_tech = 78 }
 		}
 	}
 }
@@ -128,6 +134,7 @@ can_add_province_to_hre = {
 }
 
 can_have_colonial_nations = {
+	# Vanilla:
 	condition = {
 		potential = {
 			FROM = {
@@ -138,6 +145,7 @@ can_have_colonial_nations = {
 			always = no
 		}
 	}
+	# For SE:
 	condition = {
 		potential = {
 			FROM = {
@@ -210,72 +218,6 @@ can_have_colonial_nations = {
 					is_province = yes
 					who = FROM
 					colonial_region = colonial_australia
-				}
-				# Extended Timeline:
-				AND = {
-					has_global_flag = extended_timeline_mod
-					OR = {
-						has_disabled_colonial_nation_spawning = {
-							is_province = yes
-							who = FROM
-							colonial_region = colonial_oceania
-						}
-						has_disabled_colonial_nation_spawning = {
-							is_province = yes
-							who = FROM
-							colonial_region = colonial_south_africa
-						}
-						has_disabled_colonial_nation_spawning = {
-							is_province = yes
-							who = FROM
-							colonial_region = colonial_zambezi
-						}
-						has_disabled_colonial_nation_spawning = {
-							is_province = yes
-							who = FROM
-							colonial_region = colonial_congo
-						}
-						has_disabled_colonial_nation_spawning = {
-							is_province = yes
-							who = FROM
-							colonial_region = colonial_east_africa
-						}
-						has_disabled_colonial_nation_spawning = {
-							is_province = yes
-							who = FROM
-							colonial_region = colonial_ethiopia
-						}
-						has_disabled_colonial_nation_spawning = {
-							is_province = yes
-							who = FROM
-							colonial_region = colonial_sudan
-						}
-						has_disabled_colonial_nation_spawning = {
-							is_province = yes
-							who = FROM
-							colonial_region = colonial_central_africa
-						}
-						has_disabled_colonial_nation_spawning = {
-							is_province = yes
-							who = FROM
-							colonial_region = colonial_niger
-						}
-						has_disabled_colonial_nation_spawning = {
-							is_province = yes
-							who = FROM
-							colonial_region = colonial_ivory_coast
-						}
-						has_disabled_colonial_nation_spawning = {
-							is_province = yes
-							who = FROM
-							colonial_region = colonial_mali
-						}
-						has_disabled_colonial_nation_spawning = {
-							is_province = yes
-							who = FROM
-							colonial_region = colonial_west_africa
-						}
-					}
 				}
 			}
 		}

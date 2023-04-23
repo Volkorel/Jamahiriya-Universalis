@@ -1350,6 +1350,45 @@ medieval_vassal_overlord_modifier = {
 	improve_relation_modifier = 0.05
 }
 
+# Subject Type: Exarchate
+exarchate_subject_modifier = {
+	missionaries = 1
+	global_missionary_strength = 0.03
+	tolerance_heretic = -3
+	tolerance_heathen = -3
+}
+
+exarchate_subject_loyal_modifier = {
+	land_forcelimit_modifier = -0.33
+}
+
+exarchate_subject_different_religion_group_modifier = {
+	liberty_desire = 100
+}
+
+exarchate_subject_different_religion_modifier = {
+	liberty_desire = 50
+}
+
+exarchate_subject_overlord_small_modifier = {
+	liberty_desire = 50
+}
+
+exarchate_subject_overlord_modifier = {
+	tolerance_own = 0.5
+	prestige = 0.25
+	global_missionary_strength = 0.005
+}
+
+# Subject Type: Real Union
+real_union_subject_modifier = {
+	state_governing_cost = -0.1
+}
+
+real_union_subject_not_accepted_culture_modifier = {
+	liberty_desire = 50
+}
+
 # General Modifiers:
 royal_marriage_no_slot_cost_modifier = {
 	diplomatic_upkeep = 1
@@ -1402,7 +1441,7 @@ increase_horde_unity_with_pagan_chiefdom_cooldown = {
 }
 
 disallow_subject_from_annexing_subjects_modifier = {
-	disallow_subject_from_annexing_subjects_faction_influence = 1
+	picture = "disallow_subject_from_annexing_subjects"
 }
 
 ruler_just_canceled_to_be_banking_family_subject = {
