@@ -16796,7 +16796,6 @@ A05_ideas = {
 	}
 	A05_fidayi = {
 		special_unit_forcelimit = 0.25
-		attack_bonus_in_capital_terrain = yes
 		war_exhaustion = -0.1
 		fire_damage_received = -0.2
 	}

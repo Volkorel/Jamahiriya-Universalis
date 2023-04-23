@@ -120,6 +120,8 @@ vinlandic_monarchy_reform = {
 	}
 	custom_attributes = {
 		has_parliament = yes
+	}
+	conditional = {
 		government_abilities = {
 			militarization_mechanic
 		}

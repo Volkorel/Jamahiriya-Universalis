@@ -119,7 +119,6 @@ tahirid_farleft = {
 				name = "Reis Xarafo"
 				add_fire = 5
 				add_shock = 5
-				add_maneuver = 5
 				add_siege = 5
 				culture = gulf_arabic
 			}
@@ -128,7 +127,6 @@ tahirid_farleft = {
 				name = "Piri Reis"
 				add_fire = 5
 				add_shock = 5
-				add_maneuver = 5
 				add_siege = 5
 				culture = gulf_arabic
 			}
@@ -395,8 +393,7 @@ TAH_fareast = {
 				value = 150
 			}
 		}
-		marriage_with = ARL
-		alliance_with = ARL
+		Y10 = { alliance_with = ARL }
 		effect = {
 			vassalize = ARL
 		}

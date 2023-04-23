@@ -193,7 +193,6 @@ country_decisions = {
 				mil = 4
 				age = 25
 				claim = 95
-				fixed = yes
 			}
 			if = {
 				limit = { has_heir = yes }

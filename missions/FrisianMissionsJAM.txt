@@ -223,7 +223,6 @@ hm = {
 			}
 		}
 		effect = {
-			may_explore = yes
 			add_country_modifier = { 
 				name = the_unknown_frontier
 				duration = 3650
@@ -446,7 +445,6 @@ aaa = {
 				duration = -1
 			}
 			add_prestige = 30
-			tolerance_own = 3
 		}
 	}
 }
