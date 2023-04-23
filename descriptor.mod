@@ -1,7 +1,7 @@
 name = "Jamahiriya-GrandCampaign"
 path = "mod/Jamahiriya-GrandCampaign"
 normal_or_historical_nations = yes
-supported_version = "1.34.*"
+supported_version="1.35.*"
 replace_path = "history/countries/"
 replace_path = "history/provinces/"
 replace_path = "history/diplomacy/"
