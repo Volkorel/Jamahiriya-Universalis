@@ -327,12 +327,12 @@ military_zeal_act = {
 	
 	potential = {
 		has_idea_group = quality_ideas
-		has_idea_group = muslim_idea_groups_expanded
+		
 	}
 	
 	allow = {
 		full_idea_group = quality_ideas
-		full_idea_group = muslim_idea_groups_expanded
+		
 	}
 	
 	land_morale = 0.05
@@ -352,12 +352,12 @@ military_zeal_act_1 = {
 	
 	potential = {
 		has_idea_group = quality_ideas
-		has_idea_group = christian_idea_groups_expanded
+		
 	}
 	
 	allow = {
 		full_idea_group = quality_ideas
-		full_idea_group = christian_idea_groups_expanded
+		
 	}
 	
 	land_morale = 0.05
@@ -401,12 +401,12 @@ field_priests = {
 	monarch_power = MIL
 
 	potential = {
-		has_idea_group = muslim_idea_groups_expanded
+		
 		has_idea_group = quantity_ideas
 	}
 	
 	allow = {
-		full_idea_group = muslim_idea_groups_expanded
+		
 		full_idea_group = quantity_ideas
 	}
 
@@ -426,12 +426,12 @@ field_priests_1 = {
 	monarch_power = MIL
 
 	potential = {
-		has_idea_group = christian_idea_groups_expanded
+		
 		has_idea_group = quantity_ideas
 	}
 	
 	allow = {
-		full_idea_group = christian_idea_groups_expanded
+		
 		full_idea_group = quantity_ideas
 	}
 
@@ -585,12 +585,12 @@ the_tenures_abolition_act = {
 
 	potential = {
 		has_idea_group = diplomatic_ideas
-		has_idea_group = horde_idea_groups_expanded
+		
 	}
 	
 	allow = {
 		full_idea_group = diplomatic_ideas
-		full_idea_group = horde_idea_groups_expanded
+		
 	}
 
 	free_leader_pool = 1
@@ -710,12 +710,12 @@ zealous_captains = {
 	
 	potential = {
 		has_idea_group = naval_ideas
-		has_idea_group = muslim_idea_groups_expanded
+		
 	}
 	
 	allow = {
 		full_idea_group = naval_ideas
-		full_idea_group = muslim_idea_groups_expanded
+		
 	}	
 	
 	sunk_ship_morale_hit_recieved = -0.10
@@ -739,12 +739,12 @@ zealous_captains_1 = {
 	
 	potential = {
 		has_idea_group = naval_ideas
-		has_idea_group = christian_idea_groups_expanded
+		
 	}
 	
 	allow = {
 		full_idea_group = naval_ideas
-		full_idea_group = christian_idea_groups_expanded
+		
 	}	
 	
 	sunk_ship_morale_hit_recieved = -0.10
@@ -838,12 +838,12 @@ autonomous_estates_1 = {
 	
 	potential = {
 		has_idea_group = influence_ideas
-		has_idea_group = horde_idea_groups_expanded
+		
 	}
 	
 	allow = {
 		full_idea_group = influence_ideas
-		full_idea_group = horde_idea_groups_expanded
+		
 	}	
 	
 	global_unrest = -1
@@ -878,13 +878,13 @@ autonomous_estates_2 = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = imperial_idea_groups_expanded
-		has_idea_group = horde_idea_groups_expanded
+		
+		
 	}
 	
 	allow = {
-		full_idea_group = imperial_idea_groups_expanded
-		full_idea_group = horde_idea_groups_expanded
+		
+		
 	}	
 	
 	global_unrest = -1
@@ -919,12 +919,12 @@ autonomous_estates_3 = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = imperial_idea_groups_expanded
+		
 		has_idea_group = aristocracy_ideas
 	}
 	
 	allow = {
-		full_idea_group = imperial_idea_groups_expanded
+		
 		full_idea_group = aristocracy_ideas
 	}	
 	
@@ -1055,12 +1055,12 @@ local_militias_1 = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = imperial_idea_groups_expanded
+		
 		has_idea_group = defensive_ideas
 	}
 	
 	allow = {
-		full_idea_group = imperial_idea_groups_expanded
+		
 		full_idea_group = defensive_ideas
 	}	
 	
@@ -1117,12 +1117,12 @@ foreign_conscription_centers_1 = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = imperial_idea_groups_expanded
+		
 		has_idea_group = offensive_ideas
 	}
 	
 	allow = {
-		full_idea_group = imperial_idea_groups_expanded
+		
 		full_idea_group = offensive_ideas
 	}	
 	
@@ -1179,12 +1179,12 @@ guerilla_warfare_1 = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = imperial_idea_groups_expanded
+		
 		has_idea_group = quantity_ideas
 	}
 	
 	allow = {
-		full_idea_group = imperial_idea_groups_expanded
+		
 		full_idea_group = quantity_ideas
 	}	
 	
@@ -1223,12 +1223,12 @@ noble_loyalty_act = {
 	monarch_power = MIL
 
 	potential = {
-		has_idea_group = horde_idea_groups_expanded
+		
 		has_idea_group = spy_ideas
 	}
 	
 	allow = {
-		full_idea_group = horde_idea_groups_expanded
+		
 		full_idea_group = spy_ideas
 	}
 
@@ -1294,12 +1294,12 @@ noble_loyalty_act_1 = {
 the_colonial_nobility_act = {
 	monarch_power = MIL
 	potential = {
-		has_idea_group = horde_idea_groups_expanded
+		
 		has_idea_group = exploration_ideas
 	}
 	
 	allow = {
-		full_idea_group = horde_idea_groups_expanded
+		
 		full_idea_group = exploration_ideas
 	}
 
@@ -1332,12 +1332,12 @@ the_colonial_nobility_act_1 = {
 nobles_in_navy_act = {
 	monarch_power = MIL
 	potential = {
-		has_idea_group = horde_idea_groups_expanded
+		
 		has_idea_group = maritime_ideas
 	}
 	
 	allow = {
-		full_idea_group = horde_idea_groups_expanded
+		
 		full_idea_group = maritime_ideas
 	}
 

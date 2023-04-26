@@ -2364,7 +2364,7 @@ country_event = {
 				join_all_defensive_wars_of = NRM
 				join_all_offensive_wars_of = NRM 
 			}
-			NRM = add_country_modifier = { name = hundred_years_wars duration = -1 } }
+			NRM = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
 			if = {
 				limit = {
 					FRI = { NOT = { has_country_flag = didnt_join_counsil_de_la } }
@@ -2399,7 +2399,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				FRI = { { has_country_flag = didnt_join_counsil_de_la } }
+				FRI = { has_country_flag = didnt_join_counsil_de_la }
 			}
 			BRI = { country_event = { id = jamahiriya_war_of_the_roses.16 days = 6 } }
 		}
@@ -2417,7 +2417,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				FRI = { { has_country_flag = didnt_join_counsil_de_la } }
+				FRI = { has_country_flag = didnt_join_counsil_de_la }
 			}
 			BRI = { country_event = { id = jamahiriya_war_of_the_roses.16 days = 6 } }
 		}
@@ -2435,7 +2435,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				FRI = { { has_country_flag = didnt_join_counsil_de_la } }
+				FRI = { has_country_flag = didnt_join_counsil_de_la }
 			}
 			BRI = { country_event = { id = jamahiriya_war_of_the_roses.16 days = 6 } }
 		}
@@ -2457,7 +2457,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				FRI = { { has_country_flag = didnt_join_counsil_de_la } }
+				FRI = { has_country_flag = didnt_join_counsil_de_la }
 			}
 			BRI = { country_event = { id = jamahiriya_war_of_the_roses.16 days = 6 } }
 		}
@@ -2650,11 +2650,13 @@ country_event = {
 		}
 		LEI = {
 			if = {
-				OR = {
-					guaranteed_by = FRI
-					guaranteed_by = NRM
-					guaranteed_by = GUY
-					guaranteed_by = BRI
+				limit = {
+					OR = {
+						guaranteed_by = FRI
+						guaranteed_by = NRM
+						guaranteed_by = GUY
+						guaranteed_by = BRI
+					}
 				}
 				hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
 				set_country_flag = hundred_years_wars
@@ -2664,11 +2666,13 @@ country_event = {
 		}
 		SCO = {
 			if = {
-				OR = {
-					guaranteed_by = FRI
-					guaranteed_by = NRM
-					guaranteed_by = GUY
-					guaranteed_by = BRI
+				limit = {
+					OR = {
+						guaranteed_by = FRI
+						guaranteed_by = NRM
+						guaranteed_by = GUY
+						guaranteed_by = BRI
+					}
 				}
 				hidden_effect = { add_country_modifier = { name = hundred_years_wars duration = -1 } }
 				set_country_flag = hundred_years_wars
@@ -2678,11 +2682,13 @@ country_event = {
 		}
 		Z14 = {
 			if = {
-				OR = {
-					guaranteed_by = FRI
-					guaranteed_by = NRM
-					guaranteed_by = GUY
-					guaranteed_by = BRI
+				limit = {
+					OR = {
+						guaranteed_by = FRI
+						guaranteed_by = NRM
+						guaranteed_by = GUY
+						guaranteed_by = BRI
+					}
 				}
 				add_country_modifier = { name = hundred_years_wars duration = -1 }
 				set_country_flag = hundred_years_wars

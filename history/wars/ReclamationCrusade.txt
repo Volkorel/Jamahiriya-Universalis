@@ -1,8 +1,8 @@
 name = "Reclamation Crusade"
 
 war_goal = {
-	type = cb_annex
-	casus_belli = annex_country      # The cb to use from 00_cb_types.txt
+	type = take_claim
+	casus_belli = cb_conquest
 }
 
 #Used to start the war at the specified date

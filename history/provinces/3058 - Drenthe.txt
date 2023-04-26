@@ -20,19 +20,16 @@ revolt = {
 	type = nationalist_rebels
 	size = 2
 	leader = "Bærengor Tjerkstra"
-	friend = Y77
 }
 revolt = {
 	type = nationalist_rebels
 	size = 2
 	leader = "Rudolf Alfrik Ripperda"
-	friend = Y77
 }
 revolt = {
 	type = nationalist_rebels
 	size = 2
 	leader = "Liudgod Sækmund"
-	friend = Y77
 }
 discovered_by = western
 discovered_by = muslim

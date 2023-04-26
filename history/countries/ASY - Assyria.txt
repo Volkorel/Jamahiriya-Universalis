@@ -42,7 +42,7 @@ capital = 5295
 		death_date = 1508.11.27
 		claim = 89
 		religion = apostolic
-		cculture = assyrian
+		culture = assyrian
 	}
 	add_heir_personality = well_connected_personality
 	add_heir_personality = zealot_personality

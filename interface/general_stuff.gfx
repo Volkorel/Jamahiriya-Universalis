@@ -589,16 +589,6 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress.lua"
 	}
 	
-	progressbartype = {
-		name = "GFX_prussian_progressbar"
-		color = { 0.0 0.5 0.0 }
-		colortwo = { 1.0 0.0 0.0 }
-		textureFile1 = "gfx\\interface\\prussian_progress_bar.dds"
-		textureFile2 = "gfx\\interface\\institutions\institution_progress_transparent.dds"
-		size = { x = 287 y = 20 }
-		effectFile = "gfx/FX/progress.lua"
-	}	
-	
 	spriteType = {
 		name = "GFX_prussian_bar_frame"
 		texturefile = "gfx/interface/prussian_bar_frame.dds"

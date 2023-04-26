@@ -330,6 +330,7 @@ country_event = {
 		FAP = {
 			add_opinion = {
 				who = ROOT
+				modifier = opinion_sublimis_deus
 			}
 		}
 	}

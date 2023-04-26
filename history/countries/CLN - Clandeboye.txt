@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = irish_clann_reform
+
 government_rank = 1
 technology_group = western
 primary_culture = irish
@@ -15,7 +15,7 @@ historical_rival = ENG			#Trying to prevent England from suiciding by alliance w
 1440.1.1 = {
 	monarch = {
 		name = "Niall"
-		dynasty = "Ó Néill"
+		dynasty = "ï¿½ Nï¿½ill"
 		birth_date = 1422.1.1
 		adm = 3
 		dip = 2
@@ -27,9 +27,9 @@ historical_rival = ENG			#Trying to prevent England from suiciding by alliance w
 
 1443.1.1 = {
 	heir = {
-		name = "Áed"
-		monarch_name = "Áed"
-		dynasty = "Ó Néill"
+		name = "ï¿½ed"
+		monarch_name = "ï¿½ed"
+		dynasty = "ï¿½ Nï¿½ill"
 		birth_date = 1443.1.1
 		death_date = 1487.1.1
 		claim = 95

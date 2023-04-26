@@ -945,7 +945,7 @@ country_event = {
 		name = catholic_flavor.7.b
 		FAP = {
 			add_opinion = {
-				who = root
+				who = ROOT
 				modifier = opinion_denying_the_holy_mother
 			}
 		}

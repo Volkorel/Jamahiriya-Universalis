@@ -1871,7 +1871,10 @@ country_decisions = {
 			}
 			every_neighbor_country = {
 				limit = { government = monarchy }
-				add_opinion = { who = ROOT modifier = secularized_monastic_order }
+				add_opinion = {
+					who = ROOT
+					modifier = secularized_monastic_order
+				}
 			}
 			if = {
 				limit = {

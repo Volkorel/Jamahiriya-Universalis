@@ -106,42 +106,18 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_taira_flag }
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			NOT = { tag = ARB }
-			NOT = { tag = CAS }
-			NOT = { tag = PAP }
-			NOT = { tag = HLR }
-			NOT = { tag = MAM }
-			NOT = { tag = ARA }
-			NOT = { tag = POR }
-			NOT = { tag = TUR }
+			NOT = { tag = A13 }
+			NOT = { tag = A14 }
+			NOT = { tag = A15 }
+			NOT = { tag = FJI }
+			NOT = { tag = TAA }
+			NOT = { tag = MTO }
+			NOT = { tag = IKI }
 			NOT = { tag = JAP }
-			NOT = { tag = HKC }
-			NOT = { tag = KNM }
-			NOT = { tag = NNC }
 			OR = {
 				primary_culture = togoku
 				primary_culture = japanese
 				primary_culture = kyushuan
-			}
-			OR = {
-				ai = no
-				AND = {
-					ai = yes
-					num_of_cities = 1
-				}
-			}
-			is_colonial_nation = no
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
-				}
 			}
 			OR = { #Descendants of the Taira Clan
 				tag = CBA #Chiba
@@ -166,7 +142,6 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			is_nomad = no
 			religion = shinto
 			legitimacy = 100
 			prestige = 25
@@ -180,10 +155,10 @@ country_decisions = {
 			change_tag = TAA
 			remove_non_electors_emperors_from_empire_effect = yes
 			add_prestige = 25
-			set_country_flag = formed_taira_flag
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
+				kill_heir = yes
 			}
 			define_ruler = {
 				name = "Shigehira"
@@ -194,51 +169,16 @@ country_decisions = {
 				age = 25
 				claim = 95
 			}
-			if = {
-				limit = { has_heir = yes }
-				kill_heir = yes
-			}
 		}
 	}
 	taira_nation_japan = {
 		major = yes
 		potential = {
-			has_country_flag = formed_taira_flag
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			NOT = { tag = A13 }
-			NOT = { tag = A14 }
-			NOT = { tag = A15 }
-			NOT = { tag = JAP }
+			tag = TAA
 			OR = {
 				primary_culture = togoku
 				primary_culture = japanese
 				primary_culture = kyushuan
-			}
-			OR = {
-				ai = no
-				AND = {
-					ai = yes
-					num_of_cities = 1
-				}
-			}
-			is_colonial_nation = no
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
-				}
-			}
-			OR = { #Descendants of the Taira Clan
-				tag = CBA #Chiba
-				tag = HJO #Later Hojo
-				tag = ODA #Oda
-				tag = SOO #So
-				tag = HTK #Hatakeyama
-				tag = TAA
 			}
 		}
 		provinces_to_highlight = {
@@ -279,44 +219,18 @@ country_decisions = {
 	minamoto_nation = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_minamoto_flag }
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			NOT = { tag = ARB }
-			NOT = { tag = CAS }
-			NOT = { tag = PAP }
-			NOT = { tag = HLR }
-			NOT = { tag = MAM }
-			NOT = { tag = ARA }
-			NOT = { tag = POR }
-			NOT = { tag = TUR }
+			NOT = { tag = A13 }
+			NOT = { tag = A14 }
+			NOT = { tag = A15 }
+			NOT = { tag = FJI }
+			NOT = { tag = TAA }
+			NOT = { tag = MTO }
+			NOT = { tag = IKI }
 			NOT = { tag = JAP }
-			NOT = { tag = HKC }
-			NOT = { tag = KNM }
-			NOT = { tag = NNC }
 			OR = {
 				primary_culture = togoku
 				primary_culture = japanese
 				primary_culture = kyushuan
-			}
-			OR = {
-				ai = no
-				AND = {
-					ai = yes
-					num_of_cities = 1
-				}
-			}
-			is_colonial_nation = no
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
-				}
 			}
 			OR = { #Descendants of the Minamoto Clan
 				tag = AKM #Akamatsu
@@ -388,10 +302,10 @@ country_decisions = {
 			change_tag = MTO
 			remove_non_electors_emperors_from_empire_effect = yes
 			add_prestige = 25
-			set_country_flag = formed_minamoto_flag
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
+				kill_heir = yes
 			}
 			define_ruler = {
 				name = "Kiyotada"
@@ -401,55 +315,24 @@ country_decisions = {
 				mil = 5
 				age = 25
 				claim = 95
-				fixed = yes
-			}
-			if = {
-				limit = { has_heir = yes }
-				kill_heir = yes
 			}
 		}
 	}
 	fujiwara_nation = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_fujiwara_flag }
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			NOT = { tag = ARB }
-			NOT = { tag = CAS }
-			NOT = { tag = PAP }
-			NOT = { tag = HLR }
-			NOT = { tag = MAM }
-			NOT = { tag = ARA }
-			NOT = { tag = POR }
-			NOT = { tag = TUR }
+			NOT = { tag = A13 }
+			NOT = { tag = A14 }
+			NOT = { tag = A15 }
+			NOT = { tag = FJI }
+			NOT = { tag = TAA }
+			NOT = { tag = MTO }
+			NOT = { tag = IKI }
 			NOT = { tag = JAP }
-			NOT = { tag = HKC }
-			NOT = { tag = KNM }
-			NOT = { tag = NNC }
 			OR = {
 				primary_culture = togoku
 				primary_culture = japanese
 				primary_culture = kyushuan
-			}
-			OR = {
-				ai = no
-				AND = {
-					ai = yes
-					num_of_cities = 1
-				}
-			}
-			is_colonial_nation = no
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
-				}
 			}
 			OR = { #Descendants of the Fujiwara Clan
 				tag = DTE #Date
@@ -494,10 +377,10 @@ country_decisions = {
 			change_tag = FJI
 			remove_non_electors_emperors_from_empire_effect = yes
 			add_prestige = 25
-			set_country_flag = formed_fujiwara_flag
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
+				kill_heir = yes
 			}
 			define_ruler = {
 				name = "Hayanari"
@@ -507,36 +390,21 @@ country_decisions = {
 				mil = 3
 				age = 25
 				claim = 95
-				fixed = yes
-			}
-			if = {
-				limit = { has_heir = yes }
-				kill_heir = yes
 			}
 		}
 	}
 	fujiwara_nation_japan = {
 		major = yes
 		potential = {
-			has_country_flag = formed_fujiwara_flag
 			NOT = { tag = JAP }
 			NOT = { tag = A13 }
 			NOT = { tag = A14 }
 			NOT = { tag = A15 }
+			tag = FJI
 			OR = {
 				primary_culture = togoku
 				primary_culture = japanese
 				primary_culture = kyushuan
-			}
-			OR = { #Descendants of the Fujiwara Clan
-				tag = DTE #Date
-				tag = ITO #Ito
-				tag = KKC #Kikuchi
-				tag = OTM #Otomo
-				tag = SHN #Shoni
-				tag = TTI #Tsutsui
-				tag = UES #Uesugi
-				tag = FJI
 			}
 		}
 		provinces_to_highlight = {

@@ -285,8 +285,6 @@
  display_fief_subject_desc_tt: "§g[fief_subject_desc]§W"
  display_crusader_state_vassal_title_tt: "§Y[crusader_state_vassal]§!"
  display_crusader_state_vassal_desc_tt: "§g[crusader_state_vassal_desc]§W"
- display_salic_personal_union_title_tt: "§Y[salic_personal_union]§!"
- display_salic_personal_union_desc_tt: "§g[salic_personal_union_desc]§W"
  display_nahuatl_vassal_title_tt: "§Y[nahuatl_vassal]§!"
  display_nahuatl_vassal_desc_tt: "§g[nahuatl_vassal_desc]§W"
  display_peasant_vassal_title_tt: "§Y[peasant_vassal]§!"

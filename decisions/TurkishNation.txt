@@ -34,8 +34,8 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				area = hindusthan_region
-				area = west_india_region
+				region = hindusthan_region
+				region = west_india_region
 			}
 			NOT = { owned_by = ROOT }
 		}

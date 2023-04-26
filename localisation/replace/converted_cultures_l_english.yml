@@ -18,8 +18,8 @@
  dalmatian: "Dalmatian"
  outremer: "Outremer"
  visigothic: "Visigothic"
- anglo_irish:0 "Anglo-Irish"
- northumbrian:0 "Anglo-Norse"
+ anglo_irish: "Anglo-Irish"
+ northumbrian: "Anglo-Norse"
  alan: "Alan"
  assyrian: "Assyrian"
  coptic: "Coptic"
@@ -50,15 +50,15 @@
  tangut: "Tangut"
  zhangzhung: "Zhangzhung"
  sumpa: "Sumpa"
- equine_group:0 "Equidae" #Family for horses
- cat_group:0 "Felidae" #Family for cats
- hedgehog_group:0 "Erinaceidae" #Family for Hedgehogs
- bear_group:0 "Ursidae" #Family for bears
- duck_group:0 "Anatidae" #Family for ducks
- dog_group:0 "Canidae" #Family for dogs
- elephant_group:0 "Elephantidae" #This isn't made up, this really is the Family name of Elephants
- red_panda_group:0 "Ailuridae" #Family for Red Pandas
- dragon_group:0 "Drachidae" #Taken from CKII
+ equine_group: "Equidae" #Family for horses
+ cat_group: "Felidae" #Family for cats
+ hedgehog_group: "Erinaceidae" #Family for Hedgehogs
+ bear_group: "Ursidae" #Family for bears
+ duck_group: "Anatidae" #Family for ducks
+ dog_group: "Canidae" #Family for dogs
+ elephant_group: "Elephantidae" #This isn't made up, this really is the Family name of Elephants
+ red_panda_group: "Ailuridae" #Family for Red Pandas
+ dragon_group: "Drachidae" #Taken from CKII
  equine: "Horse"
  cat: "Cat"
  bear: "Bear"
@@ -98,18 +98,18 @@
  hyperborean: "Hyperborean"
  kishinyov: "Kishinyov"
  tajik: "Tajik"
- arbereshe:0 "Arberèche"
- bactrian:0 "Bactrian"
- empurian:0 "Empurian"
+ arbereshe: "Arberèche"
+ bactrian: "Bactrian"
+ empurian: "Empurian"
  histrian:3 "Histrian"
- kyrenaikan:0 "Kyrenaikan"
- leucaethiopian:0 "Leucaethiopian"
- messalian:0 "Messalian"
- ptolemaic:0 "Ptolemaic"
- pulian:0 "Pulian"
- seleucian:0 "Seleucian"
- tylosi:0 "Tylosi"
- yavana:0 "Yavana"
+ kyrenaikan: "Kyrenaikan"
+ leucaethiopian: "Leucaethiopian"
+ messalian: "Messalian"
+ ptolemaic: "Ptolemaic"
+ pulian: "Pulian"
+ seleucian: "Seleucian"
+ tylosi: "Tylosi"
+ yavana: "Yavana"
  thracian: "Thracian"
  sabellian: "Sabellian"
  old_ligurian: "Ligurian"
@@ -160,40 +160,39 @@
  sythchy: "Sythchy"
 
  #Norse Culture Breaks
- elsinorian:0 "Elsinorian"
- ruotsish:0 "Ruotsish"
- holmgardrian:0 "Holmgardic"
- marisbaltician:0 "Marisbaltician"
- normand_norse:0 "Normand"
- miklagardrian:0 "Miklagardrian"
- serklandic:0 "Skraelingslandic"
- romsborgian:0 "Romsborgian"
- vinlandi:0 "Vinlandic"
- dansk:0 "Dansk"
+ elsinorian: "Elsinorian"
+ ruotsish: "Ruotsish"
+ holmgardrian: "Holmgardic"
+ marisbaltician: "Marisbaltician"
+ normand_norse: "Normand"
+ miklagardrian: "Miklagardrian"
+ serklandic: "Skraelingslandic"
+ romsborgian: "Romsborgian"
+ vinlandi: "Vinlandic"
+ dansk: "Dansk"
  
 
  #SI culture breaks
- pixantekatl:0 "Pixantekatl"
- tanitekatl:0 "Tanitekatl"
- olantekatl:0 "Olantekatl"
- italtekatl:0 "Italtekatl"
- almantekatl:0 "Almantekatl"
- loxatekatl:0 "Loxatekatl"
- kaxtiltekatl:0 "Kaxtiltekatl"
- ixlantekatl:0 "Ixlantekatl"
- ankiltekatl:0 "Ankiltekatl"
- xilpantekatl:0 "Xilpantekatl"
- kauayotekatl:0 "Kauayotekatl"
- uitstlantekatl:0 "Uitstlantekatl"
- exiptekatl:0 "Exiptekatl"
- ikisatekatl:0 "Ikisatekatl"
- kapotsautekatl:0 "Kapotsautekatl"
- elpantekatl:0 "Elpantekatl"
+ pixantekatl: "Pixantekatl"
+ tanitekatl: "Tanitekatl"
+ olantekatl: "Olantekatl"
+ italtekatl: "Italtekatl"
+ almantekatl: "Almantekatl"
+ loxatekatl: "Loxatekatl"
+ kaxtiltekatl: "Kaxtiltekatl"
+ ixlantekatl: "Ixlantekatl"
+ ankiltekatl: "Ankiltekatl"
+ xilpantekatl: "Xilpantekatl"
+ kauayotekatl: "Kauayotekatl"
+ uitstlantekatl: "Uitstlantekatl"
+ exiptekatl: "Exiptekatl"
+ ikisatekatl: "Ikisatekatl"
+ kapotsautekatl: "Kapotsautekatl"
+ elpantekatl: "Elpantekatl"
  
  #Arab cultures
- sicilian:0 "Siqiliyyi"
- rumi:0 "Rûmî"
+ sicilian: "Siqiliyyi"
+ rumi: "Rumi"
 
  # Slav Cultures
- bulgarian:0 "Moesian"
- 
+ bulgarian: "Moesian"

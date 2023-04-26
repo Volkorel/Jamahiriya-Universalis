@@ -1,5 +1,4 @@
 government = theocracy
-add_government_reform = imperial_abbey_reform
 government_rank = 1
 primary_culture = wallonian
 religion = catholic

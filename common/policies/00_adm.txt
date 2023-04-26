@@ -2,11 +2,9 @@ the_combination_act = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = horde_idea_groups_expanded
 		has_idea_group = innovativeness_ideas
 	}
 	allow = {
-		full_idea_group = horde_idea_groups_expanded
 		full_idea_group = innovativeness_ideas
 	}
 	
@@ -80,11 +78,11 @@ the_court_of_wards_and_liveries = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = horde_idea_groups_expanded
+		
 		has_idea_group = economic_ideas
 	}
 	allow = {
-		full_idea_group = horde_idea_groups_expanded
+		
 		full_idea_group = economic_ideas
 	}
 		
@@ -282,12 +280,12 @@ manueline_architecture = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = horde_idea_groups_expanded
+		
 		has_idea_group = expansion_ideas
 	}
 	
 	allow = {
-		full_idea_group = horde_idea_groups_expanded
+		
 		full_idea_group = expansion_ideas
 	}
 
@@ -353,12 +351,12 @@ edict_of_resistance = {
 
 	potential = {
 		has_idea_group = defensive_ideas
-		has_idea_group = muslim_idea_groups_expanded
+		
 	}
 	
 	allow = {
 		full_idea_group = defensive_ideas
-		full_idea_group = muslim_idea_groups_expanded
+		
 	}
 
 
@@ -392,12 +390,12 @@ edict_of_resistance_1 = {
 
 	potential = {
 		has_idea_group = defensive_ideas
-		has_idea_group = christian_idea_groups_expanded
+		
 	}
 	
 	allow = {
 		full_idea_group = defensive_ideas
-		full_idea_group = christian_idea_groups_expanded
+		
 	}
 
 
@@ -533,12 +531,12 @@ enforce_religious_law = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = muslim_idea_groups_expanded
+		
 		has_idea_group = spy_ideas
 	}
 	
 	allow = {
-		full_idea_group = muslim_idea_groups_expanded
+		
 		full_idea_group = spy_ideas
 	}
 
@@ -615,12 +613,12 @@ enforce_religious_law_2 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = christian_idea_groups_expanded
+		
 		has_idea_group = spy_ideas
 	}
 	
 	allow = {
-		full_idea_group = christian_idea_groups_expanded
+		
 		full_idea_group = spy_ideas
 	}
 
@@ -656,12 +654,12 @@ the_tolerance_act = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = muslim_idea_groups_expanded
+		
 		has_idea_group = plutocracy_ideas
 	}
 	
 	allow = {
-		full_idea_group = muslim_idea_groups_expanded
+		
 		full_idea_group = plutocracy_ideas
 	}
 
@@ -697,12 +695,12 @@ the_tolerance_act_1 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = christian_idea_groups_expanded
+		
 		has_idea_group = plutocracy_ideas
 	}
 	
 	allow = {
-		full_idea_group = christian_idea_groups_expanded
+		
 		full_idea_group = plutocracy_ideas
 	}
 
@@ -882,12 +880,12 @@ the_witchcraft_act = {
 
 	potential = {
 		has_idea_group = religious_ideas
-		has_idea_group = horde_idea_groups_expanded
+		
 	}
 	
 	allow = {
 		full_idea_group = religious_ideas
-		full_idea_group = horde_idea_groups_expanded
+		
 	}
 	
 	global_unrest = -1
@@ -939,13 +937,13 @@ the_witchcraft_act_1 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = christian_idea_groups_expanded
-		has_idea_group = horde_idea_groups_expanded
+		
+		
 	}
 	
 	allow = {
-		full_idea_group = christian_idea_groups_expanded
-		full_idea_group = horde_idea_groups_expanded
+		
+		
 	}
 	
 	global_unrest = -1
@@ -997,13 +995,13 @@ the_witchcraft_act_2 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = muslim_idea_groups_expanded
-		has_idea_group = horde_idea_groups_expanded
+		
+		
 	}
 	
 	allow = {
-		full_idea_group = muslim_idea_groups_expanded
-		full_idea_group = horde_idea_groups_expanded
+		
+		
 	}
 	
 	global_unrest = -1
@@ -1055,12 +1053,12 @@ the_witchcraft_act_3 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = christian_idea_groups_expanded
+		
 		has_idea_group = aristocracy_ideas
 	}
 	
 	allow = {
-		full_idea_group = christian_idea_groups_expanded
+		
 		full_idea_group = aristocracy_ideas
 	}
 	
@@ -1113,12 +1111,12 @@ the_witchcraft_act_4 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = muslim_idea_groups_expanded
+		
 		has_idea_group = aristocracy_ideas
 	}
 	
 	allow = {
-		full_idea_group = muslim_idea_groups_expanded
+		
 		full_idea_group = aristocracy_ideas
 	}
 	
@@ -1250,12 +1248,12 @@ the_education_act = {
 policy_of_calculate_delay = {
 	monarch_power = ADM
 	potential = {
-		has_idea_group = muslim_idea_groups_expanded
+		
 		has_idea_group = diplomatic_ideas
 	}
 	
 	allow = {
-		full_idea_group = muslim_idea_groups_expanded
+		
 		full_idea_group = diplomatic_ideas
 	}
 	
@@ -1291,12 +1289,12 @@ policy_of_calculate_delay = {
 policy_of_calculate_delay_1 = {
 	monarch_power = ADM
 	potential = {
-		has_idea_group = christian_idea_groups_expanded
+		
 		has_idea_group = diplomatic_ideas
 	}
 	
 	allow = {
-		full_idea_group = christian_idea_groups_expanded
+		
 		full_idea_group = diplomatic_ideas
 	}
 	
@@ -1582,12 +1580,12 @@ enlightened_aristocracy = {
 	
 	potential = {
 		has_idea_group = humanist_ideas
-		has_idea_group = horde_idea_groups_expanded
+		
 	}
 	
 	allow = {
 		full_idea_group = humanist_ideas
-		full_idea_group = horde_idea_groups_expanded
+		
 	}	
 	
 	production_efficiency = 0.1
@@ -1933,11 +1931,11 @@ the_licensing_of_the_press_act_1 = {
 
 	potential = {
 		has_idea_group = administrative_ideas
-		has_idea_group = horde_idea_groups_expanded
+		
 	}
 	
 	allow = {
-		full_idea_group = horde_idea_groups_expanded
+		
 		full_idea_group = administrative_ideas
 	}
 
@@ -2290,12 +2288,12 @@ church_sponsored_guilds_1 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = christian_idea_groups_expanded
+		
 		has_idea_group = trade_ideas
 	}
 	
 	allow = {
-		full_idea_group = christian_idea_groups_expanded
+		
 		full_idea_group = trade_ideas
 	}
 	
@@ -2331,12 +2329,12 @@ church_sponsored_guilds_2 = {
 	monarch_power = ADM
 
 	potential = {
-		has_idea_group = muslim_idea_groups_expanded
+		
 		has_idea_group = trade_ideas
 	}
 	
 	allow = {
-		full_idea_group = muslim_idea_groups_expanded
+		
 		full_idea_group = trade_ideas
 	}
 	
@@ -2413,12 +2411,12 @@ anti_heresy_act_1 = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = muslim_idea_groups_expanded
+		
 		has_idea_group = offensive_ideas
 	}
 	
 	allow = {
-		full_idea_group = muslim_idea_groups_expanded
+		
 		full_idea_group = offensive_ideas
 	}
 	
@@ -2454,12 +2452,12 @@ anti_heresy_act_2 = {
 	monarch_power = ADM
 	
 	potential = {
-		has_idea_group = christian_idea_groups_expanded
+		
 		has_idea_group = offensive_ideas
 	}
 	
 	allow = {
-		full_idea_group = christian_idea_groups_expanded
+		
 		full_idea_group = offensive_ideas
 	}
 	
