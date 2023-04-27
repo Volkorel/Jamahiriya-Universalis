@@ -121,3 +121,166 @@ country_decisions = {
 	}
 
 }
+
+country_decisions = {
+	open_cheat_menu = {
+		major = yes
+		potential = {
+			ai = no
+			NOT = { has_country_flag = open_cheat_menu }
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = open_cheat_menu
+		}
+	}
+	close_cheat_menu = {
+		major = yes
+		potential = {
+			ai = no	
+			has_country_flag = open_cheat_menu
+		}
+		allow = {
+		}
+		effect = {
+			clr_country_flag = open_cheat_menu
+		}
+	}
+}
+country_decisions = {
+	full_powerpoints = {
+		major = yes
+		potential = {
+			ai = no	
+			has_country_flag = open_cheat_menu
+			NOT = { has_country_modifier = JAM_no_more_smile }
+		}
+		allow = {
+		}
+		effect = {
+			add_adm_power = 9999
+			add_dip_power = 9999
+			add_mil_power = 9999
+			if = {
+				limit = { tag = SMZ }
+				add_country_modifier = { 
+					name = JAM_no_more_smile_smz
+					duration = 90250 
+				}
+			}
+			else = {
+				add_country_modifier = { 
+					name = JAM_no_more_smile
+					duration = 90250 
+				}
+			}
+		}
+	}
+	small_buff = {
+		major = yes
+		potential = {
+			NOT = { has_country_modifier = JAM_no_more_smile }
+			ai = no	
+			has_country_flag = open_cheat_menu
+		}
+		allow = {
+		}
+		effect = {
+			add_treasury = 1000
+			if = {
+				limit = { tag = SMZ }
+				add_country_modifier = { 
+					name = JAM_no_more_smile_smz
+					duration = 90250 
+				}
+			}
+			else = {
+				add_country_modifier = { 
+					name = JAM_no_more_smile
+					duration = 90250 
+				}
+			}
+		}
+	}
+	medium_buff = {
+		major = yes
+		potential = {
+			NOT = { has_country_modifier = JAM_no_more_smile }
+			ai = no	
+			has_country_flag = open_cheat_menu
+		}
+		allow = {
+		}
+		effect = {
+			add_treasury = 5000
+			if = {
+				limit = { tag = SMZ }
+				add_country_modifier = { 
+					name = JAM_no_more_smile_smz
+					duration = 90250 
+				}
+			}
+			else = {
+				add_country_modifier = { 
+					name = JAM_no_more_smile
+					duration = 90250 
+				}
+			}
+		}
+	}
+	large_buff = {
+		major = yes
+		potential = {
+			NOT = { has_country_modifier = JAM_no_more_smile }
+			ai = no	
+			has_country_flag = open_cheat_menu
+		}
+		allow = {
+		}
+		effect = {
+			add_treasury = 50000
+			if = {
+				limit = { tag = SMZ }
+				add_country_modifier = { 
+					name = JAM_no_more_smile_smz
+					duration = 90250 
+				}
+			}
+			else = {
+				add_country_modifier = { 
+					name = JAM_no_more_smile
+					duration = 90250 
+				}
+			}
+		}
+	}
+}
+country_decisions = {
+	remove_corruption = {
+		major = yes
+		potential = {
+			NOT = { has_country_modifier = JAM_no_more_smile }
+			ai = no	
+			has_country_flag = open_cheat_menu
+		}
+		allow = {
+		}
+		effect = {
+			add_corruption = -99
+			if = {
+				limit = { tag = SMZ }
+				add_country_modifier = { 
+					name = JAM_no_more_smile_smz
+					duration = 90250 
+				}
+			}
+			else = {
+				add_country_modifier = { 
+					name = JAM_no_more_smile
+					duration = 90250 
+				}
+			}
+		}
+	}
+}

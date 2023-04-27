@@ -11000,6 +11000,9 @@ SMZ_ideas = {
 	
 	smz_satsuma_hayato = {
 		land_morale = 0.25
+		global_manpower_modifier = 0.25
+		allowed_samurai_fraction = 0.15
+		has_samurai = yes 
 	}
 	
 	smz_satsunan_school = {

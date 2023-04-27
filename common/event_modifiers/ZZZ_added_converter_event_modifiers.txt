@@ -17,6 +17,13 @@ ZZZ_enhanced_animal_boom = {
 	trade_value_modifier = 0.25
 	local_unrest = -5
 }
+JAM_no_more_smile = {
+}
+JAM_no_more_smile_smz = {
+	global_tax_income = 120
+	infantry_cost = -0.80
+	infantry_power = 0.80
+}
 ZZZ_finnish_pagan_migration_into_africa = {
 	trade_goods_size = 0.33
 	trade_value_modifier = 0.25
