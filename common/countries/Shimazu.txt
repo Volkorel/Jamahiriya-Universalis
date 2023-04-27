@@ -13,16 +13,16 @@ historical_idea_groups = {
 	administrative_ideas
 }
 historical_units = {
+	japanese_archer
+	eastern_bow
+	japanese_footsoldier
+	japanese_samurai
 	asian_arquebusier
 	asian_charge_cavalry
 	asian_mass_infantry
 	asian_musketeer
-	eastern_bow
-	japanese_archer
-	japanese_footsoldier
-	japanese_samurai
-	reformed_asian_cavalry
 	reformed_asian_musketeer
+	reformed_asian_cavalry
 }
 monarch_names = {
 	"Aya #0" = -5

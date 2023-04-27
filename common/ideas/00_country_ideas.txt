@@ -10985,12 +10985,12 @@ CBA_ideas = {
 
 SMZ_ideas = {
 	start = {
-		army_tradition_decay = -0.01
-		infantry_power  = 0.1
+		army_tradition_decay = -0.25
+		infantry_power  = 0.55
 	}
 	
 	bonus = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.55
 	}
 
 	trigger = {
@@ -10999,31 +10999,31 @@ SMZ_ideas = {
 	free = yes
 	
 	smz_satsuma_hayato = {
-		land_morale = 0.1
+		land_morale = 0.25
 	}
 	
 	smz_satsunan_school = {
-		manpower_recovery_speed = 0.15
+		manpower_recovery_speed = 0.65
 	}
 
 	smz_reunion_of_three_provinces = {
-		production_efficiency = 0.1
+		production_efficiency = 0.35
 	}
 	
 	smz_tsurinobuse = {
-		discipline = 0.05
+		discipline = 0.25
 	}
 
 	smz_tanegashima = {
-		fire_damage = 0.1
+		fire_damage = 0.25
 	}
 	
 	smz_ryukyu_trade = {
-		trade_steering = 0.2
+		trade_steering = 0.5
 	}
 	
 	smz_early_westernization = {
-		technology_cost = -0.05
+		technology_cost = -0.5
 	}
 	
 }

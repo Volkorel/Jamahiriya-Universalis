@@ -1212,13 +1212,7 @@ serbian_despotate_reform = {
 		}
 	}
 	trigger = {
-		if = {
-			limit = { has_updated_culture = { culture = slavic } }
-			primary_culture = serbian_new
-		}
-		else = {
-			primary_culture = serbian
-		}
+		primary_culture = serbian
 	}
 	nation_designer_trigger = {
 		primary_culture = serbian
@@ -1248,13 +1242,7 @@ bulgarian_tsardom_reform = {
 	}
 	trigger = {
 		religion = orthodox
-		if = {
-			limit = { has_updated_culture = { culture = slavic } }
-			primary_culture = bulgarian_new
-		}
-		else = {
-			primary_culture = bulgarian
-		}
+		primary_culture = bulgarian
 	}
 	nation_designer_trigger = {
 		has_dlc = "Domination"
@@ -2390,7 +2378,6 @@ principality = {
 		religion = orthodox
 		OR = {
 			culture_group = east_slavic
-			culture_group = slavic
 			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = principality
@@ -2402,10 +2389,7 @@ principality = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 5
 	nation_designer_trigger = {
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
+		culture_group = east_slavic
 		religion = orthodox
 	}
 	modifiers = {
@@ -2436,10 +2420,7 @@ tsardom = {
 	allow_normal_conversion = yes
 	potential = {
 		religion = orthodox
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
+		culture_group = east_slavic
 		NOT = { primary_culture = ruthenian }
 		NOT = { primary_culture = byelorussian }
 		OR = {
@@ -2463,10 +2444,7 @@ tsardom = {
 	nation_designer_cost = 40
 
 	nation_designer_trigger = {
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
+		culture_group = east_slavic
 		NOT = { primary_culture = ruthenian }
 		NOT = { primary_culture = byelorussian }
 		religion = orthodox

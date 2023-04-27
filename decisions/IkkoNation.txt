@@ -1,5 +1,4 @@
 country_decisions = {
-
 	ikko_nation = {
 		major = yes
 		potential = {
@@ -10,14 +9,18 @@ country_decisions = {
 				primary_culture = japanese
 				primary_culture = kyushuan
 			}
-		}
-		provinces_to_highlight = {
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { tag = IKI }
 		}
 		allow = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			stability = 1
+			NOT = { exists = IKI }
 			OR = {
 				religion = shinto
 				religion = mahayana
@@ -26,21 +29,23 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = IKI
+			restore_country_name = yes
 			remove_non_electors_emperors_from_empire_effect = yes
-			set_government_rank = 3
-			add_prestige = 25
+			IKI = { set_government_rank = 2 }
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_ikko_ikki_flag
 			change_government = theocracy
 			add_government_reform = leading_clergy_reform
-			set_country_flag = formed_ikko_ikki_flag
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			} #Possibly do a part where all the Daimyo declare war on Kenmu in a war for the emperor
+			add_prestige = 25
 		}
 		ai_will_do = {
 			factor = 1
 		}
-		ai_importance = 400
 	}
 	ikko_japan_nation = {
 		major = yes
@@ -125,6 +130,7 @@ country_decisions = {
 				tag = ODA #Oda
 				tag = SOO #So
 				tag = HTK #Hatakeyama
+				tag = SMZ #Shimazu
 			}
 		}
 		provinces_to_highlight = {
@@ -155,11 +161,6 @@ country_decisions = {
 			change_tag = TAA
 			remove_non_electors_emperors_from_empire_effect = yes
 			add_prestige = 25
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-				kill_heir = yes
-			}
 			define_ruler = {
 				name = "Shigehira"
 				dynasty = "Taira"
@@ -169,280 +170,10 @@ country_decisions = {
 				age = 25
 				claim = 95
 			}
-		}
-	}
-	taira_nation_japan = {
-		major = yes
-		potential = {
-			tag = TAA
-			OR = {
-				primary_culture = togoku
-				primary_culture = japanese
-				primary_culture = kyushuan
-			}
-		}
-		provinces_to_highlight = {
-			OR = {
-				province_id = 4190 #Shimousa
-				province_id = 4189 #Sagami
-				province_id = 1030 #Owari
-				province_id = 4651 #Tsushima
-				province_id = 1837 #Etchu
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
-		}
-		allow = {
-			is_at_war = no
-			is_nomad = no
-			religion = shinto
-			legitimacy = 100
-			prestige = 25
-			owns_core_province = 4190 #Shimousa
-			owns_core_province = 4189 #Sagami
-			owns_core_province = 1030 #Owari
-			owns_core_province = 4651 #Tsushima
-			owns_core_province = 1837 #Etchu
-		}
-		effect = {
-			change_tag = A15
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_prestige = 25
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-		}
-	}
-	minamoto_nation = {
-		major = yes
-		potential = {
-			NOT = { tag = A13 }
-			NOT = { tag = A14 }
-			NOT = { tag = A15 }
-			NOT = { tag = FJI }
-			NOT = { tag = TAA }
-			NOT = { tag = MTO }
-			NOT = { tag = IKI }
-			NOT = { tag = JAP }
-			OR = {
-				primary_culture = togoku
-				primary_culture = japanese
-				primary_culture = kyushuan
-			}
-			OR = { #Descendants of the Minamoto Clan
-				tag = AKM #Akamatsu
-				tag = AMA #Amago
-				tag = ASK #Ashikaga
-				tag = HSK #Hosokawa
-				tag = IKE #Ikeda
-				tag = IMG #Imagawa
-				tag = ISK #Isshiki
-				tag = KTB #Kitabatake
-				tag = MRI #Mori
-				tag = RFR #Nanbu
-				tag = OGS #Ogasawara
-				tag = STK #Satake
-				tag = SBA #Shiba
-				tag = SMZ #Shimazu
-				tag = TKD #Takeda
-				tag = TKI #Toki
-				tag = TKG #Tokugawa
-				tag = YMN #Yamana
-			}
-		}
-		provinces_to_highlight = {
-			OR = {
-				province_id = 1019 #Harima
-				province_id = 1018 #Izumo
-				province_id = 1021 #Settsu
-				province_id = 1839 #Suruga
-				province_id = 4185 #Tango
-				province_id = 4359 #Ise
-				province_id = 4131 #Mutsu
-				province_id = 4188 #Shinano
-				province_id = 1027 #Hitachi
-				province_id = 1023 #Echizen
-				province_id = 1012 #Satsuma
-				province_id = 1029 #Kai
-				province_id = 1835 #Mino
-				province_id = 4360 #Mikawa
-				province_id = 1830 #Tajima
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
-		}
-		allow = {
-			is_at_war = no
-			is_nomad = no
-			religion = shinto
-			legitimacy = 100
-			prestige = 25
-			owns_core_province = 1019 #Harima
-			owns_core_province = 1018 #Izumo
-			owns_core_province = 1021 #Settsu
-			owns_core_province = 1839 #Suruga
-			owns_core_province = 4185 #Tango
-			owns_core_province = 4359 #Ise
-			owns_core_province = 4131 #Mutsu
-			owns_core_province = 4188 #Shinano
-			owns_core_province = 1027 #Hitachi
-			owns_core_province = 1023 #Echizen
-			owns_core_province = 1012 #Satsuma
-			owns_core_province = 1029 #Kai
-			owns_core_province = 1835 #Mino
-			owns_core_province = 4360 #Mikawa
-			owns_core_province = 1830 #Tajima
-		}
-		effect = {
-			change_tag = MTO
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_prestige = 25
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 				kill_heir = yes
-			}
-			define_ruler = {
-				name = "Kiyotada"
-				dynasty = "Minamoto"
-				adm = 3
-				dip = 4
-				mil = 5
-				age = 25
-				claim = 95
-			}
-		}
-	}
-	fujiwara_nation = {
-		major = yes
-		potential = {
-			NOT = { tag = A13 }
-			NOT = { tag = A14 }
-			NOT = { tag = A15 }
-			NOT = { tag = FJI }
-			NOT = { tag = TAA }
-			NOT = { tag = MTO }
-			NOT = { tag = IKI }
-			NOT = { tag = JAP }
-			OR = {
-				primary_culture = togoku
-				primary_culture = japanese
-				primary_culture = kyushuan
-			}
-			OR = { #Descendants of the Fujiwara Clan
-				tag = DTE #Date
-				tag = ITO #Ito
-				tag = KKC #Kikuchi
-				tag = OTM #Otomo
-				tag = SHN #Shoni
-				tag = TTI #Tsutsui
-				tag = UES #Uesugi
-			}
-		}
-		provinces_to_highlight = {
-			OR = {
-				province_id = 1026 #Richizen
-				province_id = 4180 #Hyuga
-				province_id = 4181 #Higo
-				province_id = 1014 #Bungo
-				province_id = 1832 #Yamato
-				province_id = 1843 #Kozuke
-				province_id = 4182 #Hizen
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
-		}
-		allow = {
-			is_at_war = no
-			is_nomad = no
-			religion = shinto
-			legitimacy = 100
-			prestige = 25
-			owns_core_province = 1026 #Richizen
-			owns_core_province = 4180 #Hyuga
-			owns_core_province = 4181 #Higo
-			owns_core_province = 1014 #Bungo
-			owns_core_province = 1832 #Yamato
-			owns_core_province = 1843 #Kozuke
-			owns_core_province = 4182 #Hizen
-		}
-		effect = {
-			change_tag = FJI
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_prestige = 25
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-				kill_heir = yes
-			}
-			define_ruler = {
-				name = "Hayanari"
-				dynasty = "Fujiwara"
-				adm = 5
-				dip = 4
-				mil = 3
-				age = 25
-				claim = 95
-			}
-		}
-	}
-	fujiwara_nation_japan = {
-		major = yes
-		potential = {
-			NOT = { tag = JAP }
-			NOT = { tag = A13 }
-			NOT = { tag = A14 }
-			NOT = { tag = A15 }
-			tag = FJI
-			OR = {
-				primary_culture = togoku
-				primary_culture = japanese
-				primary_culture = kyushuan
-			}
-		}
-		provinces_to_highlight = {
-			OR = {
-				province_id = 1026 #Richizen
-				province_id = 4180 #Hyuga
-				province_id = 4181 #Higo
-				province_id = 1014 #Bungo
-				province_id = 1832 #Yamato
-				province_id = 1843 #Kozuke
-				province_id = 4182 #Hizen
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
-		}
-		allow = {
-			is_at_war = no
-			is_nomad = no
-			religion = shinto
-			legitimacy = 100
-			prestige = 25
-			owns_core_province = 1026 #Richizen
-			owns_core_province = 4180 #Hyuga
-			owns_core_province = 4181 #Higo
-			owns_core_province = 1014 #Bungo
-			owns_core_province = 1832 #Yamato
-			owns_core_province = 1843 #Kozuke
-			owns_core_province = 4182 #Hizen
-		}
-		effect = {
-			change_tag = A14
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_prestige = 25
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 		}
 	}

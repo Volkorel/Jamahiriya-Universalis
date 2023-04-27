@@ -3260,7 +3260,7 @@ defined_text = {
 					tag = ICE
 					culture_group = iberian
 					culture_group = east_slavic
-					culture_group = slavic
+					
 					tag = LIT
 					tag = BYZ
 					tag = ROM
@@ -3310,7 +3310,7 @@ defined_text = {
 				tag = ICE
 				culture_group = iberian
 				culture_group = east_slavic
-				culture_group = slavic
+				
 				tag = LIT
 				tag = BYZ
 				tag = ROM
@@ -3371,7 +3371,7 @@ defined_text = {
 					tag = ICE
 					culture_group = iberian
 					culture_group = east_slavic
-					culture_group = slavic
+					
 					tag = LIT
 					tag = BYZ
 					tag = ROM
@@ -3420,7 +3420,7 @@ defined_text = {
 				tag = ICE
 				culture_group = iberian
 				culture_group = east_slavic
-				culture_group = slavic
+				
 				tag = LIT
 				tag = BYZ
 				tag = ROM

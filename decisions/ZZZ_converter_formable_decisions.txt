@@ -2371,6 +2371,365 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
+	minamoto_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = A13 }
+			NOT = { tag = A14 }
+			NOT = { tag = A15 }
+			NOT = { tag = FJI }
+			NOT = { tag = TAA }
+			NOT = { tag = MTO }
+			NOT = { tag = IKI }
+			NOT = { tag = JAP }
+			OR = {
+				primary_culture = togoku
+				primary_culture = japanese
+				primary_culture = kyushuan
+			}
+			OR = { #Descendants of the Minamoto Clan
+				tag = AKM #Akamatsu
+				tag = AMA #Amago
+				tag = ASK #Ashikaga
+				tag = HSK #Hosokawa
+				tag = IKE #Ikeda
+				tag = IMG #Imagawa
+				tag = ISK #Isshiki
+				tag = KTB #Kitabatake
+				tag = MRI #Mori
+				tag = RFR #Nanbu
+				tag = OGS #Ogasawara
+				tag = STK #Satake
+				tag = SBA #Shiba
+				tag = TKD #Takeda
+				tag = TKI #Toki
+				tag = TKG #Tokugawa
+				tag = YMN #Yamana
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1019 #Harima
+				province_id = 1018 #Izumo
+				province_id = 1021 #Settsu
+				province_id = 1839 #Suruga
+				province_id = 4185 #Tango
+				province_id = 4359 #Ise
+				province_id = 4131 #Mutsu
+				province_id = 4188 #Shinano
+				province_id = 1027 #Hitachi
+				province_id = 1023 #Echizen
+				province_id = 1012 #Satsuma
+				province_id = 1029 #Kai
+				province_id = 1835 #Mino
+				province_id = 4360 #Mikawa
+				province_id = 1830 #Tajima
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_nomad = no
+			religion = shinto
+			legitimacy = 100
+			prestige = 25
+			owns_core_province = 1019 #Harima
+			owns_core_province = 1018 #Izumo
+			owns_core_province = 1021 #Settsu
+			owns_core_province = 1839 #Suruga
+			owns_core_province = 4185 #Tango
+			owns_core_province = 4359 #Ise
+			owns_core_province = 4131 #Mutsu
+			owns_core_province = 4188 #Shinano
+			owns_core_province = 1027 #Hitachi
+			owns_core_province = 1023 #Echizen
+			owns_core_province = 1012 #Satsuma
+			owns_core_province = 1029 #Kai
+			owns_core_province = 1835 #Mino
+			owns_core_province = 4360 #Mikawa
+			owns_core_province = 1830 #Tajima
+		}
+		effect = {
+			change_tag = MTO
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_prestige = 25
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+	}
+	fujiwara_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = A13 }
+			NOT = { tag = A14 }
+			NOT = { tag = A15 }
+			NOT = { tag = FJI }
+			NOT = { tag = TAA }
+			NOT = { tag = MTO }
+			NOT = { tag = IKI }
+			NOT = { tag = JAP }
+			OR = {
+				primary_culture = togoku
+				primary_culture = japanese
+				primary_culture = kyushuan
+			}
+			OR = { #Descendants of the Fujiwara Clan
+				tag = DTE #Date
+				tag = ITO #Ito
+				tag = KKC #Kikuchi
+				tag = OTM #Otomo
+				tag = SHN #Shoni
+				tag = TTI #Tsutsui
+				tag = UES #Uesugi
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1026 #Richizen
+				province_id = 4180 #Hyuga
+				province_id = 4181 #Higo
+				province_id = 1014 #Bungo
+				province_id = 1832 #Yamato
+				province_id = 1843 #Kozuke
+				province_id = 4182 #Hizen
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_nomad = no
+			religion = shinto
+			legitimacy = 100
+			prestige = 25
+			owns_core_province = 1026 #Richizen
+			owns_core_province = 4180 #Hyuga
+			owns_core_province = 4181 #Higo
+			owns_core_province = 1014 #Bungo
+			owns_core_province = 1832 #Yamato
+			owns_core_province = 1843 #Kozuke
+			owns_core_province = 4182 #Hizen
+		}
+		effect = {
+			change_tag = FJI
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_prestige = 25
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+	}
+	fujiwara_nation_japan = {
+		major = yes
+		potential = {
+			NOT = { tag = JAP }
+			NOT = { tag = A13 }
+			NOT = { tag = A14 }
+			NOT = { tag = A15 }
+			tag = FJI
+			OR = {
+				primary_culture = togoku
+				primary_culture = japanese
+				primary_culture = kyushuan
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = kyushu_area
+				area = northern_kyushu
+				area = shikoku_area
+				area = saigoku_area
+				area = sanindo_area
+				area = kinai_area
+				area = chubu_area
+				area = hokuriku_area
+				area = eastern_chubu_area
+				area = kanto_area
+				area = eastern_kanto_area
+				area = thohoku_area
+				area = hokkaido_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_nomad = no
+			religion = shinto
+			legitimacy = 100
+			prestige = 25
+			northern_kyushu = {
+				owned_by = ROOT
+				type = all
+			}
+			shikoku_area = {
+				owned_by = ROOT
+				type = all
+			}
+			saigoku_area = {
+				owned_by = ROOT
+				type = all
+			}
+			sanindo_area = {
+				owned_by = ROOT
+				type = all
+			}
+			kinai_area = {
+				owned_by = ROOT
+				type = all
+			}
+			chubu_area = {
+				owned_by = ROOT
+				type = all
+			}
+			hokuriku_area = {
+				owned_by = ROOT
+				type = all
+			}
+			eastern_chubu_area = {
+				owned_by = ROOT
+				type = all
+			}
+			kanto_area = {
+				owned_by = ROOT
+				type = all
+			}
+			eastern_kanto_area = {
+				owned_by = ROOT
+				type = all
+			}
+			thohoku_area = {
+				owned_by = ROOT
+				type = all
+			}
+			hokkaido_area = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+			change_tag = A14
+			remove_non_electors_emperors_from_empire_effect = yes
+			add_prestige = 25
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+	}
+	taira_nation_japan = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_taira_japan_flag }
+			tag = TAA
+			NOT = { tag = A15 }
+			is_colonial_nation = no
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = kyushu_area
+				area = northern_kyushu
+				area = shikoku_area
+				area = saigoku_area
+				area = sanindo_area
+				area = kinai_area
+				area = chubu_area
+				area = hokuriku_area
+				area = eastern_chubu_area
+				area = kanto_area
+				area = eastern_kanto_area
+				area = thohoku_area
+				area = hokkaido_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			NOT = { exists = A15 }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			kyushu_area = {
+				owned_by = ROOT
+				type = all
+			}
+			northern_kyushu = {
+				owned_by = ROOT
+				type = all
+			}
+			shikoku_area = {
+				owned_by = ROOT
+				type = all
+			}
+			saigoku_area = {
+				owned_by = ROOT
+				type = all
+			}
+			sanindo_area = {
+				owned_by = ROOT
+				type = all
+			}
+			kinai_area = {
+				owned_by = ROOT
+				type = all
+			}
+			chubu_area = {
+				owned_by = ROOT
+				type = all
+			}
+			hokuriku_area = {
+				owned_by = ROOT
+				type = all
+			}
+			eastern_chubu_area = {
+				owned_by = ROOT
+				type = all
+			}
+			kanto_area = {
+				owned_by = ROOT
+				type = all
+			}
+			eastern_kanto_area = {
+				owned_by = ROOT
+				type = all
+			}
+			thohoku_area = {
+				owned_by = ROOT
+				type = all
+			}
+			hokkaido_area = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+			change_tag = A15
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 60
+			set_country_flag = formed_taira_japan_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400 #
+	}
 	form_nikisetokako = {
 		major = yes
 		potential = {

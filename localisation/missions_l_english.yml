@@ -369,6 +369,6 @@
  emp_gen_two_cities_desc:0 "Without their naval superiority, the city of Genoa is vulnerable. By incorporating it into our state, we will be able to permanently snuff out the threat the Genoese pose to our glorious [Root.GovernmentName]!"
  emp_gen_dominate_italian_trade_title:0 "Dominate Italian Trade"
  emp_gen_dominate_italian_trade_desc:0 "With Genoa subdued, nothing stands in our way of exerting hegemony over all trade flowing into Italy."
- genoa_trade_node_power:0 "Langobard Trade Dominance"
+ jamahiriya_genoa_trade_node_power:0 "Langobard Trade Dominance"
  genoa_trade_node_power_desc:0 "Langobardia lives and dies on trade. As things stand, we do not even have control over the western Mediterranean. It is imperative that we improve our trade power in our home waters."
- emp_gen_venetian_naval_power:0 "Overshadow Genoa"
+ jamahiriya_emp_gen_venetian_naval_power:0 "Overshadow Genoa"

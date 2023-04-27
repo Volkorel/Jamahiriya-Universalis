@@ -269,10 +269,7 @@ tysyatsky_reform = {
 				}
 			}
 			AND = {
-				OR = {
-					culture_group = east_slavic
-					culture_group = slavic
-				}
+				culture_group = east_slavic
 				government = republic
 			}
 		}
@@ -340,10 +337,7 @@ vodka_of_the_crown_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Domination"
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
+		culture_group = east_slavic
 	}
 	modifiers = {
 		global_unrest = -1
@@ -3420,10 +3414,7 @@ boyars_army_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Domination"
-		OR = {
-			culture_group = east_slavic
-			culture_group = slavic
-		}
+		culture_group = east_slavic
 	}
 	trigger = {
 		has_estate = estate_nobles
