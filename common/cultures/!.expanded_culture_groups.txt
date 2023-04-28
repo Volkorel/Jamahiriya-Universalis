@@ -177,6 +177,7 @@ scandinavian = { #Nordic
 	gotlander = {
 		graphical_culture = westerngfx
 		primary = GTA
+		province = { local_has_carolean = yes }
 		male_names = {
 			Christian Christoph Oskar Adolf August G�ran Sigismund Alfred Axel Edvard Gottfrid
 			Jakob Ludvig Mikael Olof Patrik Rangvald Rettil Sigvard Simon Sture Svante
@@ -217,6 +218,7 @@ scandinavian = { #Nordic
 	}
 	#BtPLegacy Culture
 	faroese = {
+		province = { local_has_carolean = yes }
 		male_names = {
 				Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbj�rn Arngrimr Arni Arne Arnfast
 				Asbj�rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bj�rn Beorn Bo Borkvard
@@ -261,6 +263,7 @@ scandinavian = { #Nordic
 	}
 	holmgardi = {
 		primary = NOV
+		province = { local_has_carolean = yes }
 		dynasty_names = {
 			Arn�rski �sgeirski Benediktski Bjarnaski Bj�rnski Eggerski Eldj�rnovich Hafsteinski Hansenid
 			Hermannski Joh�neski J�nski Magn�ski Stef�nski Steinthoski Th�rdarski Th�rhallski Thorl�kski Thurski
@@ -271,6 +274,7 @@ scandinavian = { #Nordic
 	}
 	dansk = {
 		primary = DAN
+		province = { local_has_carolean = yes }
 		male_names = {
 			Anders Andrew Anund Asger Balder Benedikt Benedict Bj�rn Beorn Bo Christopher Edvard Edward 
 			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim H�rik 
@@ -308,6 +312,7 @@ scandinavian = { #Nordic
 	}
 	marisbaltician = {
 		primary = JOM
+		province = { local_has_carolean = yes }
 		male_names = {
 				Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbj�rn Arngrimr Arni Arne Arnfast 
 				Asbj�rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bj�rn Beorn Bo Borkvard 
@@ -351,6 +356,8 @@ scandinavian = { #Nordic
 		}
 	}
 	vinlandi = {
+		primary = VZZ
+		province = { local_has_carolean = yes }
 		male_names = {
 				Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbj�rn Arngrimr Arni Arne Arnfast 
 				Asbj�rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bj�rn Beorn Bo Borkvard 
@@ -394,6 +401,7 @@ scandinavian = { #Nordic
 		}
 	}
 	serklandic = {
+		province = { local_has_carolean = yes }
 		male_names = {
 				Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbj�rn Arngrimr Arni Arne Arnfast 
 				Asbj�rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bj�rn Beorn Bo Borkvard 

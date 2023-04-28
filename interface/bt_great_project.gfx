@@ -204,5 +204,15 @@ spriteTypes = {
 		name = "GFX_great_project_torre_del_oro"	
 		texturefile = "gfx//interface//great_projects//great_project_torre_del_oro.dds"
 	}
+	
+		spriteType = {
+		name = "GFX_great_project_vinlandic_assembly"	
+		texturefile = "gfx//interface//great_projects//great_project_vinlandic_assembly.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_great_project_varangian_hub"	
+		texturefile = "gfx//interface//great_projects//great_project_varangian_hub.dds"
+	}
 
 }

@@ -504,6 +504,7 @@ scandinavian = { #Nordic
 	}
 	danish = {
 		primary = DAN
+		province = { local_has_carolean = yes }
 		male_names = {
 			Anders Andrew Anund Asger Balder Benedikt Benedict Bj�rn Beorn Bo Christopher Edvard Edward 
 			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim H�rik 
@@ -541,6 +542,7 @@ scandinavian = { #Nordic
 	}
 	norwegian = {
 		primary = NOR
+		province = { local_has_carolean = yes }
 		male_names = {
 				Ale Alfr Alf Alfgeir Anders Andrew Anlaufr Anundr Anund Arnbj�rn Arngrimr Arni Arne Arnfast 
 				Asbj�rn Bagge Baldr Balder Barid Bengt Benedict Bersi Bertil Birger Bj�rn Beorn Bo Borkvard 
@@ -585,6 +587,7 @@ scandinavian = { #Nordic
 	}
 	finnish = {
 		primary = FIN
+		province = { local_has_carolean = yes }
 		country = {  }
 		province = { local_has_carolean = yes }
 		dynasty_names = {
@@ -617,6 +620,7 @@ scandinavian = { #Nordic
 	}
 	sapmi = {
 		primary = SMI
+		province = { local_has_carolean = yes }
 		male_names = {
 			Baeivvet Biejan Bij�s Bilzi D�vgon Dutt� G�ivvas Elmar Hain Haljas Igap�iv Ihalemb Kahar Eeri Heameel Heat�iv 
 			Hoovat�iv Hurmas Hurmet�iv H�imulemb H�valemb H�vameel H�vat�iv T�nn Uku Vootele V�ino V�rvo �igemeel �lo K�llelemb 
@@ -643,6 +647,7 @@ scandinavian = { #Nordic
 	}
 	karelian = {
 		primary = KRL
+		province = { local_has_carolean = yes }
 		male_names = {
 			Mohkku Mokci N�hkol N�innas Njulgu Oav�n Orddot R�stos Riibma Ruigi S�rra Speaidna Viggu Kaarel Kaaren Kahus Kaido 
 			Kalev Kalju Kaljuvald Kalle Kaomeel Karuvald Kaugemeel Kaupo Pihl Piho Pikne P�evalemb P�rt Raak Raho Rahuleid Sulev 
@@ -661,6 +666,7 @@ scandinavian = { #Nordic
 	}
 	icelandic = {
 		primary = ICE
+		province = { local_has_carolean = yes }
 		male_names = {
 			Andreas Arnaldur Arnmundur Ari Axel Baldur Bjargmundur Bernhard Benedikt Brynjar Carl Cecil Christian Christopher Cyrus Daggeir Daniel Dvalinn Draupnir Dufgus Egill Erlendur Esra Eymundur Eyvindur Fenrir 
 			Finngeir Floki Francis Frosti Geirfinnur Gr�mkell Gunnar Gunnlaugur Gustav Hagar Hafthor Hildimundur Hrafnkell Huginn Hakon Ingar Ingibjartur Ingimundur Ismael Ivar Jani Jesper Johan Jonmundur Jorgen Kalmar 

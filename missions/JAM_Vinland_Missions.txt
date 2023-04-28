@@ -215,6 +215,12 @@ VZZ_missions_column_3 = {
 			add_adm_power = 800
 			add_dip_power = 800
 			add_mil_power = 800
+			unlock_estate_privilege = {
+				estate_privilege = estate_nobles_carolean_march
+			}
+			unlock_estate_privilege = {
+				estate_privilege = estate_nobles_carolean_charge
+			}
 		}
 	}
 	SWE_RisingGreen = {

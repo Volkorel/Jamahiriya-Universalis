@@ -1291,22 +1291,25 @@ vinlandic_ideas = {
 	VZZ_the_vinland_saga = {
 		auto_explore_adjacent_to_colony = yes
 		may_establish_frontier = yes
+		possible_condottieri = 1
 	}
 	VZZ_our_new_homeland = {
 		development_cost = -0.15
-		global_colonial_growth = 25
+		global_colonial_growth = 50
 	}
 	VZZ_forged_in_valhalla = {
 		army_tradition = 1
-		discipline = 0.05
+		discipline = 0.1
+		has_carolean = yes
 	}
 	VZZ_thorr_ok_mjolnir = {
-		shock_damage = 0.2
-		fire_damage_received = -0.15
+		shock_damage = 0.3
+		fire_damage_received = -0.2
 	}
 	VZZ_til_ragnarok = {
 		manpower_recovery_speed = 0.15
 		war_exhaustion = -0.05
+		amount_of_carolean = 1
 	}
 }
 

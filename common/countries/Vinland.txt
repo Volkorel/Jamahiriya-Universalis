@@ -4,7 +4,7 @@ color = { 130 0 0 }
 revolutionary_colors = { 4 0 4 }
 historical_idea_groups = {
 	exploration_ideas
-	economic_ideas
+	infrastructure_ideas
 	quality_ideas
 	offensive_ideas
 	innovativeness_ideas
