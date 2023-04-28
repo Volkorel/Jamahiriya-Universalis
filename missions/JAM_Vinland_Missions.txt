@@ -236,6 +236,7 @@ VZZ_missions_column_3 = {
 				name = VZZ_global_colonial_growth
 				duration = 7300
 			}
+			change_trade_goods = cloth
 		}
 	}
 	Shieldsaresundered = {

@@ -2196,3 +2196,6 @@
  KARMA_ACCELERATOR_DESC:0 "Karma accelerator effects - move Karma away from zero by $VAL|Y$ per month due to:"
  DIPLO_DAMAGED_SHIPS:0 "Ships are damaged: "
  AND_YEARLY_THE_FOLLOWING:0 "And changes by $VAL|Y1$ each year due to:\n$DESC$"
+ 
+ SWE_integrate_norway_title:0 "Integrate Norway"
+ SWE_colonial_enthusiasm_title:0 "Swedish Colonial Enthusiasm"

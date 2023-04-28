@@ -1115,7 +1115,7 @@ HUN_raolf_mala = {
 		}
 		effect = {
 			add_papal_influence = 100
-			add_reform_desire = -1
+			add_reform_desire = -0.05
 			add_curia_treasury = 2500
 		}
 	}

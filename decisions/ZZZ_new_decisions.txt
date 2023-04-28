@@ -1027,6 +1027,64 @@ country_decisions = {
 		}
 	}
 	
+	SWE_integrate_norway = {
+		major = yes
+		potential = {
+			tag = SWE
+			NOT = {
+				has_country_flag = SWE_norway_integrated
+			}
+		}
+
+		allow = {
+			stability = 1
+			legitimacy = 50
+		}
+
+		effect = {
+			add_stability = -1
+			inherit = NOR
+			set_country_flag = SWE_norway_integrated
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	
+	SWE_colonial_enthusiasm = {
+		major = yes
+		potential = {
+			tag = SWE
+		}
+
+		allow = {
+			stability = 1
+			num_of_colonists = 1
+			NOT = {
+				has_country_flag = SWE_colonists_enthused
+			}
+		}
+
+		effect = {
+			add_stability = -1
+			add_country_modifier = { 
+				name = VZZ_global_colonial_growth
+				duration = 3650
+			}
+			add_country_modifier = { 
+				name = rus_new_world_colonization
+				duration = 7300
+			}
+			set_country_flag = SWE_colonists_enthused
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 
 	from_great_yuan_EXTRA = {
 		major = yes

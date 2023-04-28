@@ -2823,6 +2823,7 @@ varangian_hub = {
 		}
 		country_modifiers = {
 			fire_damage_received = -0.1
+			land_maintenance_modifier = -0.1
 		}
 		on_upgraded = {
 		}
@@ -2843,6 +2844,8 @@ varangian_hub = {
 		country_modifiers = {
 			discipline = 0.05
 			fire_damage_received = -0.2
+			land_maintenance_modifier = -0.2
+			land_forcelimit_modifier = 0.15
 		}
 		on_upgraded = {
 		}
@@ -2863,6 +2866,8 @@ varangian_hub = {
 		country_modifiers = {
 			discipline = 0.1
 			fire_damage_received = -0.3
+			land_maintenance_modifier = -0.3
+			land_forcelimit_modifier = 0.3
 		}
 		on_upgraded = {
 		}

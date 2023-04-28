@@ -1280,18 +1280,19 @@ vinlandic_ideas = {
 	}
 	free = yes
 
-	VZZ_pagan_syncretism = {
-		native_uprising_chance = -0.5
-		global_missionary_strength = 0.02
-	}
-	VZZ_making_a_killing = {
-		naval_morale = 0.15
-		may_perform_slave_raid_on_same_religion	= yes
-	}
 	VZZ_the_vinland_saga = {
 		auto_explore_adjacent_to_colony = yes
 		may_establish_frontier = yes
 		possible_condottieri = 1
+	}
+	VZZ_pagan_syncretism = {
+		native_uprising_chance = -0.5
+		global_missionary_strength = 0.02
+		yearly_harmony = 2
+	}
+	VZZ_making_a_killing = {
+		naval_morale = 0.15
+		may_perform_slave_raid_on_same_religion	= yes
 	}
 	VZZ_our_new_homeland = {
 		development_cost = -0.15

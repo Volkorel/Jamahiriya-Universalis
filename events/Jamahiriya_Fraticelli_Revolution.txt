@@ -13,7 +13,13 @@ country_event = {
 	}
 	immediate = {
 		set_country_flag = fraticelli_revolution
-		add_reform_desire = 15
+		add_reform_desire = 0.015
+		ARA = {
+			country_event = { 
+				id = jamahiriya_fraticelli.2
+				days = 10
+			}
+		}
 		7020 = {
 			cede_province = FAP
 			change_religion = fraticelli
